@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Daily Digest</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <span class="logo-icon">&#x2726;</span>
+                <h1>AI Daily Digest</h1>
+            </div>
+            <div class="date-picker">
+                <button id="prev-day" class="date-btn">&larr;</button>
+                <input type="date" id="date-input">
+                <button id="next-day" class="date-btn">&rarr;</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="toolbar">
+            <div class="categories" id="category-filter">
+                <button class="cat-btn active" data-category="all">All</button>
+                <button class="cat-btn" data-category="news">News</button>
+                <button class="cat-btn" data-category="repo">Repos</button>
+                <button class="cat-btn" data-category="paper">Papers</button>
+                <button class="cat-btn" data-category="tool">Tools</button>
+                <button class="cat-btn" data-category="tutorial">Tutorials</button>
+            </div>
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="Search...">
+            </div>
+        </div>
+
+        <div class="stats" id="stats"></div>
+
+        <div class="card-grid" id="card-grid"></div>
+
+        <div class="empty-state" id="empty-state" style="display:none;">
+            <div class="empty-icon">&#x1F50D;</div>
+            <p>No content found for this date or filter.</p>
+            <p class="empty-hint">Try selecting a different date or clearing your filters.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>AI Daily Digest &mdash; Curated by Claude | Data-driven, JSON-powered</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

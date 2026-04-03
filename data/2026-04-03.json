@@ -1,0 +1,203 @@
+{
+  "date": "2026-04-03",
+  "items": [
+    {
+      "id": 1,
+      "category": "paper",
+      "title": "SKILL0: In-Context Agentic Reinforcement Learning for Skill Internalization",
+      "url": "https://huggingface.co/papers/2604.02268",
+      "summary": "提出了一种上下文学习方法，使Agent通过强化学习将技能内化。该方法让模型在推理时学会新技能，而无需额外微调，显著提升了Agent在复杂任务中的表现。",
+      "source": "HuggingFace Papers",
+      "highlight": "Agent技能学习的新范式，将RL与ICL结合",
+      "stars": 0,
+      "tags": ["Agent", "RL", "In-Context Learning"]
+    },
+    {
+      "id": 2,
+      "category": "paper",
+      "title": "Terminal Agents Suffice for Enterprise Automation",
+      "url": "https://huggingface.co/papers/2604.00073",
+      "summary": "ServiceNow-AI团队证明，基于终端的Agent足以有效处理企业自动化任务。论文展示了Terminal Agent在IT运维、数据处理等企业场景中的强大能力。",
+      "source": "HuggingFace Papers",
+      "highlight": "企业自动化Agent的实践突破，具有很高的落地价值",
+      "stars": 0,
+      "tags": ["Agent", "Enterprise", "Automation"]
+    },
+    {
+      "id": 3,
+      "category": "paper",
+      "title": "GEMS: Agent-Native Multimodal Generation with Memory and Skills",
+      "url": "https://huggingface.co/papers/2603.28088",
+      "summary": "提出Agent原生的多模态生成框架，集成记忆系统和技能模块。GEMS让Agent能够记住上下文并调用不同技能来完成多模态生成任务。",
+      "source": "HuggingFace Papers",
+      "highlight": "Agent + 多模态 + 记忆的三合一架构，值得关注",
+      "stars": 0,
+      "tags": ["Agent", "Multimodal", "Memory"]
+    },
+    {
+      "id": 4,
+      "category": "paper",
+      "title": "ClawKeeper: Comprehensive Safety Protection for OpenClaw Agents",
+      "url": "https://huggingface.co/papers/2603.24414",
+      "summary": "针对OpenClaw Agent提出了全面的安全保护机制，通过Skills、Plugins和Watchers三层防护体系确保Agent安全运行，是Agent安全研究的重要工作。",
+      "source": "HuggingFace Papers",
+      "highlight": "Agent安全是当前最紧迫的研究方向之一",
+      "stars": 0,
+      "tags": ["Agent", "Safety", "Security"]
+    },
+    {
+      "id": 5,
+      "category": "paper",
+      "title": "AgentWatcher: A Rule-based Prompt Injection Monitor",
+      "url": "https://huggingface.co/papers/2604.01194",
+      "summary": "Penn State团队提出的基于规则的Prompt注入监控系统，能有效检测和防御针对LLM Agent的Prompt注入攻击，提升Agent系统安全性。",
+      "source": "HuggingFace Papers",
+      "highlight": "Prompt注入防御是Agent安全的核心问题",
+      "stars": 0,
+      "tags": ["Agent", "Security", "Prompt Injection"]
+    },
+    {
+      "id": 6,
+      "category": "paper",
+      "title": "FIPO: Eliciting Deep Reasoning with Future-KL Influenced Policy Optimization",
+      "url": "https://huggingface.co/papers/2603.19835",
+      "summary": "Qwen团队提出的深度推理优化方法，通过未来KL散度影响策略优化来激发模型更深层次的推理能力。在HuggingFace获得71票赞同。",
+      "source": "HuggingFace Papers (Qwen)",
+      "highlight": "Qwen团队的推理增强新方法，高关注度",
+      "stars": 0,
+      "tags": ["LLM", "Reasoning", "RLHF"]
+    },
+    {
+      "id": 7,
+      "category": "paper",
+      "title": "DataFlex: A Unified Framework for Data-Centric Dynamic Training of LLMs",
+      "url": "https://huggingface.co/papers/2603.26164",
+      "summary": "北京大学提出的统一数据中心动态训练框架，为LLM训练中的数据选择、配比和调度提供了系统化解决方案。",
+      "source": "HuggingFace Papers (PKU)",
+      "highlight": "数据工程是LLM训练的关键瓶颈",
+      "stars": 0,
+      "tags": ["LLM", "Training", "Data Engineering"]
+    },
+    {
+      "id": 8,
+      "category": "repo",
+      "title": "anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "summary": "Anthropic官方发布的Claude Code CLI工具，支持在终端中直接与Claude交互进行编程。支持代码生成、调试、重构等多种开发任务，已成为开发者必备工具。",
+      "source": "GitHub",
+      "highlight": "Anthropic官方CLI工具，Agent编程的标杆产品",
+      "stars": 35000,
+      "tags": ["Agent", "CLI", "Developer Tool"]
+    },
+    {
+      "id": 9,
+      "category": "repo",
+      "title": "browser-use/browser-use",
+      "url": "https://github.com/browser-use/browser-use",
+      "summary": "让AI Agent控制浏览器完成各种Web任务的开源框架。支持多种LLM后端，可实现网页自动化、数据抓取、表单填写等操作，是Web Agent领域的热门项目。",
+      "source": "GitHub",
+      "highlight": "Web Agent热门项目，实用性极强",
+      "stars": 58000,
+      "tags": ["Agent", "Browser", "Automation"]
+    },
+    {
+      "id": 10,
+      "category": "repo",
+      "title": "modelcontextprotocol/servers",
+      "url": "https://github.com/modelcontextprotocol/servers",
+      "summary": "Model Context Protocol (MCP) 官方服务器实现集合。MCP是连接LLM与外部工具和数据源的标准协议，这个仓库包含了文件系统、数据库、API等多种MCP服务器实现。",
+      "source": "GitHub",
+      "highlight": "MCP生态持续扩展，Agent互操作性的基础设施",
+      "stars": 40000,
+      "tags": ["MCP", "Agent", "Protocol"]
+    },
+    {
+      "id": 11,
+      "category": "repo",
+      "title": "langchain-ai/langgraph",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "summary": "LangChain团队推出的Agent工作流编排框架，基于图结构构建复杂的多步骤Agent应用。支持状态管理、条件分支、循环和人机协作等高级特性。",
+      "source": "GitHub",
+      "highlight": "Agent编排框架的主流选择，生态丰富",
+      "stars": 18000,
+      "tags": ["Agent", "Orchestration", "LangChain"]
+    },
+    {
+      "id": 12,
+      "category": "news",
+      "title": "Claude 4.5/4.6 模型家族全面升级",
+      "url": "https://www.anthropic.com",
+      "summary": "Anthropic发布Claude 4.5/4.6模型系列，包括Opus、Sonnet和Haiku三个版本。新模型在推理、编程和Agent任务上表现显著提升，Claude Code等产品全面采用新模型。",
+      "source": "Anthropic",
+      "highlight": "最新一代Claude模型，Agent能力大幅增强",
+      "stars": 0,
+      "tags": ["LLM", "Claude", "Anthropic"]
+    },
+    {
+      "id": 13,
+      "category": "tool",
+      "title": "Cursor - AI-First Code Editor",
+      "url": "https://cursor.com",
+      "summary": "基于VSCode的AI原生代码编辑器，深度集成大语言模型实现智能代码补全、重构和对话式编程。Cursor已成为AI辅助编程的代表性产品，持续迭代新功能。",
+      "source": "Cursor",
+      "highlight": "AI编程工具的标杆，开发者生产力提升利器",
+      "stars": 0,
+      "tags": ["IDE", "AI Coding", "Developer Tool"]
+    },
+    {
+      "id": 14,
+      "category": "tutorial",
+      "title": "Building Production-Ready AI Agents: A Comprehensive Guide",
+      "url": "https://docs.anthropic.com/en/docs/build-with-claude/agentic",
+      "summary": "Anthropic官方的AI Agent构建指南，涵盖从设计模式到生产部署的完整流程。包括Tool Use、MCP集成、安全最佳实践等核心主题。",
+      "source": "Anthropic Docs",
+      "highlight": "官方Agent开发指南，构建生产级Agent的必读材料",
+      "stars": 0,
+      "tags": ["Agent", "Tutorial", "Best Practices"]
+    },
+    {
+      "id": 15,
+      "category": "paper",
+      "title": "Reasoning Shift: How Context Silently Shortens LLM Reasoning",
+      "url": "https://huggingface.co/papers/2604.01161",
+      "summary": "研究发现上下文会悄然缩短LLM的推理链长度，导致推理质量下降。这一发现对理解和改进LLM的推理能力具有重要意义，也影响Agent系统中的推理策略设计。",
+      "source": "HuggingFace Papers",
+      "highlight": "揭示了LLM推理的隐蔽缺陷，对Agent设计有启发",
+      "stars": 0,
+      "tags": ["LLM", "Reasoning", "Chain-of-Thought"]
+    },
+    {
+      "id": 16,
+      "category": "paper",
+      "title": "LongCat-Next: Lexicalizing Modalities as Discrete Tokens",
+      "url": "https://huggingface.co/papers/2603.27538",
+      "summary": "美团LongCat团队发布，HuggingFace 331赞，是近期最受关注的论文之一。提出将多种模态词汇化为离散token的方法，实现了模态间的统一表示，为多模态大模型提供了新范式。",
+      "source": "HuggingFace Papers (Meituan)",
+      "highlight": "331赞超高热度，多模态统一token化是最热门研究方向",
+      "stars": 0,
+      "tags": ["Multimodal", "Tokenization", "LLM"]
+    },
+    {
+      "id": 17,
+      "category": "paper",
+      "title": "daVinci-LLM: Towards the Science of Pretraining",
+      "url": "https://huggingface.co/papers/2603.27164",
+      "summary": "SII-GAIR团队发布，114赞。系统性探索了LLM预训练过程中的关键因素与规律，为构建更高效的预训练流程提供了科学化指导方法论。",
+      "source": "HuggingFace Papers",
+      "highlight": "LLM预训练科学化研究，对训练自己的模型有重要参考价值",
+      "stars": 0,
+      "tags": ["LLM", "Pretraining", "Training Science"]
+    },
+    {
+      "id": 18,
+      "category": "paper",
+      "title": "HippoCamp: Benchmarking Contextual Agents on Personal Computers",
+      "url": "https://huggingface.co/papers/2604.01221",
+      "summary": "提出面向个人电脑环境的上下文Agent基准测试，全面评估Agent在真实桌面环境中的操作能力。为Computer-Use Agent发展提供了标准化评测方案。",
+      "source": "HuggingFace Papers",
+      "highlight": "Computer-Use Agent方向的重要基准，直接关联实际应用",
+      "stars": 0,
+      "tags": ["Agent", "Benchmark", "Computer Use"]
+    }
+  ]
+}
