@@ -144,18 +144,7 @@
       "stars": 0,
       "tags": ["IDE", "AI Coding", "Developer Tool"]
     },
-    {
-      "id": 14,
-      "category": "tutorial",
-      "title": "Building Production-Ready AI Agents: A Comprehensive Guide",
-      "url": "https://docs.anthropic.com/en/docs/build-with-claude/agentic",
-      "summary": "Anthropic官方的AI Agent构建指南，涵盖从设计模式到生产部署的完整流程。包括Tool Use、MCP集成、安全最佳实践等核心主题。",
-      "source": "Anthropic Docs",
-      "highlight": "官方Agent开发指南，构建生产级Agent的必读材料",
-      "stars": 0,
-      "tags": ["Agent", "Tutorial", "Best Practices"]
-    },
-    {
+{
       "id": 15,
       "category": "paper",
       "title": "Reasoning Shift: How Context Silently Shortens LLM Reasoning",
