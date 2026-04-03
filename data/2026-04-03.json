@@ -187,6 +187,127 @@
       "highlight": "Computer-Use Agent方向的重要基准，直接关联实际应用",
       "stars": 0,
       "tags": ["Agent", "Benchmark", "Computer Use"]
+    },
+    {
+      "id": 19,
+      "category": "news",
+      "title": "Google 发布 Gemma 4 开源模型系列",
+      "url": "https://deepmind.google/models/gemma/gemma-4/",
+      "summary": "Google DeepMind发布Gemma 4系列开源模型，基于Gemini 3研究成果。提供E2B/E4B（移动端）和26B/31B（桌面端）四个版本，支持140种语言、多模态推理和Agent工作流。31B版本在AIME 2026数学测试中达89.2%。",
+      "source": "Hacker News (1556 points)",
+      "highlight": "今日HN最热：Google最新开源模型，Agent能力和多模态是核心卖点",
+      "stars": 0,
+      "tags": ["LLM", "Open Source", "Google", "Multimodal"]
+    },
+    {
+      "id": 20,
+      "category": "news",
+      "title": "Qwen3.6-Plus: Towards Real World Agents",
+      "url": "https://qwen.ai/blog?id=qwen3.6",
+      "summary": "阿里Qwen团队发布Qwen3.6-Plus，主打真实世界Agent能力。HN获549分、188条评论，社区反响强烈。标志着国产大模型在Agent方向的持续突破。",
+      "source": "Hacker News (549 points)",
+      "highlight": "Qwen系列重大更新，Agent方向是核心主题",
+      "stars": 0,
+      "tags": ["LLM", "Agent", "Qwen", "Alibaba"]
+    },
+    {
+      "id": 21,
+      "category": "news",
+      "title": "Cursor 3 发布：统一的Agent工作空间",
+      "url": "https://cursor.com/blog/cursor-3",
+      "summary": "Cursor发布3.0大版本，重新定义为「用Agent构建软件的统一工作空间」。新增多Agent管理侧边栏、云端/本地无缝切换、改进的Diff视图。支持Agent团队并行执行跨仓库任务。",
+      "source": "Hacker News (448 points)",
+      "highlight": "AI编程工具标杆产品的重大升级，多Agent并行是亮点",
+      "stars": 0,
+      "tags": ["AI Coding", "Agent", "IDE", "Developer Tool"]
+    },
+    {
+      "id": 22,
+      "category": "repo",
+      "title": "Yeachan-Heo/oh-my-codex",
+      "url": "https://github.com/Yeachan-Heo/oh-my-codex",
+      "summary": "基于OpenAI Codex CLI的增强工作流层，添加结构化协作功能。支持持久化项目状态、多Agent团队协调（基于tmux）、从需求澄清到执行完成的完整工作流。今日GitHub Trending第一名。",
+      "source": "GitHub Trending (#1 today)",
+      "highlight": "今日GitHub最热项目，Agent团队协作编程的新范式",
+      "stars": 13159,
+      "tags": ["Agent", "Codex", "Workflow", "Developer Tool"]
+    },
+    {
+      "id": 23,
+      "category": "repo",
+      "title": "onyx-dot-app/onyx",
+      "url": "https://github.com/onyx-dot-app/onyx",
+      "summary": "开源AI平台，支持接入任意LLM的AI对话系统。提供高级检索增强生成（RAG）功能，今日新增1872星，是近期增长最快的AI开源项目之一。",
+      "source": "GitHub Trending",
+      "highlight": "今日增星1872，开源AI Chat平台的热门选择",
+      "stars": 22582,
+      "tags": ["RAG", "LLM", "Open Source", "Chat"]
+    },
+    {
+      "id": 24,
+      "category": "repo",
+      "title": "microsoft/apm",
+      "url": "https://github.com/microsoft/apm",
+      "summary": "微软推出的Agent Package Manager，类似npm/pip但专为AI Agent设计。通过apm.yml声明Agent依赖，一键安装配置所有Agent的上下文、技能和插件。支持安全审计、传递依赖解析和CI/CD集成。",
+      "source": "GitHub Trending",
+      "highlight": "微软出品的Agent包管理器，Agent生态基础设施的重要一步",
+      "stars": 931,
+      "tags": ["Agent", "Microsoft", "Package Manager", "DevOps"]
+    },
+    {
+      "id": 25,
+      "category": "repo",
+      "title": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "summary": "Agent记忆系统，能够从交互中自动学习和积累经验。解决了Agent「无状态」的痛点，让Agent在长期使用中越来越聪明。今日新增161星。",
+      "source": "GitHub Trending",
+      "highlight": "Agent记忆是实现真正智能助手的关键能力",
+      "stars": 7069,
+      "tags": ["Agent", "Memory", "Learning"]
+    },
+    {
+      "id": 26,
+      "category": "paper",
+      "title": "The Latent Space: Foundation, Evolution, Mechanism, Ability, and Outlook",
+      "url": "https://huggingface.co/papers/2604.02029",
+      "summary": "今日HuggingFace最高赞论文（470赞），37位作者合著的大型综述。全面梳理了隐空间表示的基础理论、演化历程、工作机制和能力边界，是理解现代AI架构的重要参考。",
+      "source": "HuggingFace Papers (470 upvotes)",
+      "highlight": "470赞今日最热论文，理解AI底层原理的必读综述",
+      "stars": 0,
+      "tags": ["Survey", "Latent Space", "Foundation"]
+    },
+    {
+      "id": 27,
+      "category": "paper",
+      "title": "Omni-SimpleMem: Autoresearch-Guided Discovery of Lifelong Multimodal Agent Memory",
+      "url": "https://huggingface.co/papers/2604.01007",
+      "summary": "UNC Chapel Hill提出的终身多模态Agent记忆系统，通过自动研究引导发现最优记忆策略。让Agent在长期交互中积累和利用多模态经验。",
+      "source": "HuggingFace Papers",
+      "highlight": "Agent终身记忆 + 多模态，与hindsight仓库方向一致的前沿研究",
+      "stars": 0,
+      "tags": ["Agent", "Memory", "Multimodal", "Lifelong Learning"]
+    },
+    {
+      "id": 28,
+      "category": "paper",
+      "title": "GPA: Learning GUI Process Automation from Demonstrations",
+      "url": "https://huggingface.co/papers/2604.01676",
+      "summary": "Salesforce团队提出从演示中学习GUI自动化流程的方法。让Agent通过观察人类操作来学会自动执行GUI任务，是RPA与AI Agent结合的重要进展。",
+      "source": "HuggingFace Papers (Salesforce)",
+      "highlight": "GUI自动化Agent，从演示学习是降低门槛的关键",
+      "stars": 0,
+      "tags": ["Agent", "GUI", "Automation", "RPA"]
+    },
+    {
+      "id": 29,
+      "category": "tool",
+      "title": "Apfel - 免费的Mac本地AI助手",
+      "url": "https://apfel.franzai.com",
+      "summary": "利用Mac内置的AI能力构建的免费本地AI助手，无需联网、无需API Key。HN获181分，主打隐私安全和零成本使用，适合不想把数据发送到云端的用户。",
+      "source": "Hacker News (181 points)",
+      "highlight": "免费本地AI工具，隐私优先的实用选择",
+      "stars": 0,
+      "tags": ["Tool", "Local AI", "Mac", "Privacy"]
     }
   ]
 }
