@@ -165,6 +165,83 @@
       "highlight": "低代码多Agent平台，降低Agent开发门槛",
       "stars": 6429,
       "tags": ["Agent", "Low-Code", "Multi-Agent", "Automation"]
+    },
+    {
+      "id": 16,
+      "category": "news",
+      "title": "Google Gemma 4 开源模型持续发酵，HN 1723分",
+      "url": "https://deepmind.google/models/gemma/gemma-4/",
+      "summary": "Gemma 4发布后持续获得关注，HN讨论达453条评论。四个版本（E2B/E4B/26B/31B）覆盖从移动端到桌面的全场景，31B版AIME数学89.2%。社区重点讨论其Agent工作流和多模态能力。",
+      "source": "Hacker News (1723 points, 453 comments)",
+      "highlight": "昨日发布今日持续发酵，开源模型竞争白热化",
+      "stars": 0,
+      "tags": ["LLM", "Open Source", "Google", "Gemma"]
+    },
+    {
+      "id": 17,
+      "category": "news",
+      "title": "研究发现AI用户出现「认知投降」现象",
+      "url": "https://arstechnica.com/ai/2026/04/research-finds-ai-users-scarily-willing-to-surrender-their-cognition-to-llms/",
+      "summary": "Ars Technica报道最新研究发现，AI用户正在放弃独立的逻辑思考能力，过度依赖LLM的输出。这项研究引发了关于AI辅助与AI依赖之间边界的讨论。",
+      "source": "Hacker News (49 points)",
+      "highlight": "AI使用的元认知问题值得每个AI从业者反思",
+      "stars": 0,
+      "tags": ["AI Ethics", "Research", "Cognition", "Society"]
+    },
+    {
+      "id": 18,
+      "category": "news",
+      "title": "Apfel：Mac上的免费本地AI助手（HN 647分）",
+      "url": "https://apfel.franzai.com",
+      "summary": "利用Mac内置AI能力的免费本地助手，无需联网和API Key。从昨日181分飙升至647分，社区热度持续上升。主打隐私安全和零成本，138条评论讨论本地AI的实用性。",
+      "source": "Hacker News (647 points, 138 comments)",
+      "highlight": "本地AI工具热度飙升，隐私+免费是核心卖点",
+      "stars": 0,
+      "tags": ["Local AI", "Mac", "Privacy", "Free Tool"]
+    },
+    {
+      "id": 19,
+      "category": "repo",
+      "title": "facebookresearch/repoprover",
+      "url": "https://github.com/facebookresearch/repoprover",
+      "summary": "Meta研究院的多Agent数学形式化系统。多个LLM Agent协作在共享git仓库上工作：sketcher翻译定义、prover填充证明、reviewer通过PR review质量把关。已成功形式化整本代数组合学教材。",
+      "source": "Hacker News (29 points)",
+      "highlight": "多Agent + Git工作流的教科书级实现，Agent协作的最佳实践",
+      "stars": 0,
+      "tags": ["Agent", "Multi-Agent", "Math", "Meta", "Formal Verification"]
+    },
+    {
+      "id": 20,
+      "category": "paper",
+      "title": "VOID: Video Object and Interaction Deletion",
+      "url": "https://huggingface.co/papers/2604.02296",
+      "summary": "Netflix团队的视频对象和交互删除技术，167赞。能从视频中精准移除指定对象及其交互效果，是视频编辑AI的重要突破，对影视后期制作有直接应用价值。",
+      "source": "HuggingFace Papers (167 upvotes, Netflix)",
+      "highlight": "Netflix出品的视频AI编辑技术，工业级应用前景",
+      "stars": 0,
+      "tags": ["Video", "Editing", "Netflix", "Computer Vision"]
+    },
+    {
+      "id": 21,
+      "category": "paper",
+      "title": "PIGuard: Prompt Injection Guardrail via Mitigating Overdefense",
+      "url": "https://injecguard.github.io/",
+      "summary": "提出在防御Prompt注入攻击时避免过度防御的方案。既保护Agent安全又不影响正常使用体验，解决了当前安全方案普遍存在的误杀问题。",
+      "source": "Hacker News (10 points)",
+      "highlight": "Agent安全的精细化：防注入的同时减少误杀，提升用户体验",
+      "stars": 0,
+      "tags": ["Agent", "Security", "Prompt Injection", "Guardrail"]
+    },
+    {
+      "id": 22,
+      "category": "news",
+      "title": "Claude Code 发现了隐藏 23 年的 Linux 漏洞",
+      "url": "https://mtlynch.io/claude-code-found-linux-vulnerability/",
+      "summary": "博客文章详述Claude Code在代码审查过程中发现了一个隐藏23年的Linux内核漏洞。展示了AI编程工具在安全审计领域的潜力，也引发了对AI辅助安全研究的讨论。",
+      "source": "Hacker News",
+      "highlight": "AI发现人类遗漏23年的漏洞，展示Agent在安全审计的巨大潜力",
+      "stars": 0,
+      "tags": ["Claude Code", "Security", "Linux", "Code Review"]
     }
   ]
 }
