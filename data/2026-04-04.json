@@ -1,0 +1,170 @@
+{
+  "date": "2026-04-04",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "Mintlify 用虚拟文件系统替代 RAG，成本降至零",
+      "url": "https://www.mintlify.com/blog/how-we-built-a-virtual-filesystem-for-our-assistant",
+      "summary": "Mintlify构建了ChromaFs虚拟文件系统替代传统RAG方案。Agent可以像浏览代码一样浏览文档（grep/cat/ls），启动时间从46秒降至100ms，每次对话边际成本从$0.014降至$0。月处理85万次对话。",
+      "source": "Hacker News (231 points)",
+      "highlight": "RAG的替代方案值得关注：虚拟文件系统让Agent用bash命令检索文档，460x性能提升",
+      "stars": 0,
+      "tags": ["RAG", "Agent", "Architecture", "Production"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "Anthropic 限制 Claude Code 订阅使用 OpenClaw",
+      "url": "https://news.ycombinator.com/item?id=47633396",
+      "summary": "Anthropic不再允许Claude Code订阅用户通过OpenClaw使用服务，引发社区激烈讨论（282条评论）。涉及开源工具与商业服务边界的争议，反映了AI工具生态的商业化张力。",
+      "source": "Hacker News (281 points)",
+      "highlight": "AI工具商业化的标志性事件，社区讨论激烈",
+      "stars": 0,
+      "tags": ["Claude", "Anthropic", "Open Source", "Industry"]
+    },
+    {
+      "id": 3,
+      "category": "paper",
+      "title": "CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery",
+      "url": "https://huggingface.co/papers/2604.01658",
+      "summary": "MIT提出的自主多Agent进化框架，让多个Agent在开放式环境中自主进化和发现。100赞，是今日Agent方向最受关注的论文，代表了多Agent系统从静态编排走向自主进化的趋势。",
+      "source": "HuggingFace Papers (100 upvotes, MIT)",
+      "highlight": "多Agent自主进化是下一代Agent系统的核心方向",
+      "stars": 0,
+      "tags": ["Agent", "Multi-Agent", "Evolution", "MIT"]
+    },
+    {
+      "id": 4,
+      "category": "paper",
+      "title": "The Latent Space: Foundation, Evolution, Mechanism, Ability, and Outlook",
+      "url": "https://huggingface.co/papers/2604.02029",
+      "summary": "连续两天HuggingFace最高赞（489赞），37位作者合著的大型综述。全面梳理隐空间表示的基础理论、演化历程和能力边界，是理解现代AI架构的必读参考。",
+      "source": "HuggingFace Papers (489 upvotes)",
+      "highlight": "489赞持续霸榜，理解AI底层原理的权威综述",
+      "stars": 0,
+      "tags": ["Survey", "Latent Space", "Foundation", "LLM"]
+    },
+    {
+      "id": 5,
+      "category": "paper",
+      "title": "Signals: Trajectory Sampling and Triage for Agentic Interactions",
+      "url": "https://huggingface.co/papers/2604.00356",
+      "summary": "DigitalOcean团队提出的Agent交互轨迹采样和分类方法，6.14k超高赞。为大规模Agent部署提供了交互质量监控和优化方案，是Agent可观测性领域的重要工作。",
+      "source": "HuggingFace Papers (6.14k upvotes, DigitalOcean)",
+      "highlight": "6k+赞的超级热门论文，Agent可观测性是生产部署的刚需",
+      "stars": 0,
+      "tags": ["Agent", "Observability", "Production", "Monitoring"]
+    },
+    {
+      "id": 6,
+      "category": "paper",
+      "title": "ASI-Evolve: AI Accelerates AI",
+      "url": "https://huggingface.co/papers/2603.29640",
+      "summary": "SII-GAIR团队提出用AI加速AI研发的框架，73赞。探索了利用现有AI系统自动化和加速新AI系统开发的方法论，是AI自我改进方向的前沿探索。",
+      "source": "HuggingFace Papers (73 upvotes)",
+      "highlight": "AI加速AI研发，自我改进是通向更强AI的关键路径",
+      "stars": 0,
+      "tags": ["AI Research", "Self-Improvement", "Automation"]
+    },
+    {
+      "id": 7,
+      "category": "paper",
+      "title": "MDPBench: 文档解析基准测试",
+      "url": "https://huggingface.co/papers/2604.02097",
+      "summary": "文档解析领域的综合基准测试，811赞的超高热度。为评估和比较各种文档解析方案提供了标准化评测框架，对RAG和文档理解应用有直接价值。",
+      "source": "HuggingFace Papers (811 upvotes)",
+      "highlight": "文档解析是RAG管线的基础环节，811赞说明社区需求强烈",
+      "stars": 0,
+      "tags": ["Document Parsing", "Benchmark", "RAG"]
+    },
+    {
+      "id": 8,
+      "category": "paper",
+      "title": "T5Gemma-TTS: 文本转语音模型",
+      "url": "https://huggingface.co/papers/2604.02329",
+      "summary": "284赞的高关注度TTS模型，基于T5和Gemma架构。多模态语音生成是AI应用落地的重要方向，对构建语音Agent和交互式AI产品有直接帮助。",
+      "source": "HuggingFace Papers (284 upvotes)",
+      "highlight": "语音是Agent交互的重要模态，高质量TTS是刚需",
+      "stars": 0,
+      "tags": ["TTS", "Speech", "Multimodal"]
+    },
+    {
+      "id": 9,
+      "category": "repo",
+      "title": "Yeachan-Heo/oh-my-codex",
+      "url": "https://github.com/Yeachan-Heo/oh-my-codex",
+      "summary": "连续两天GitHub Trending第一。基于Codex CLI的Agent团队协作增强层，支持持久化状态、多Agent并行（tmux）、结构化工作流。今日再增3047星，总星14.2k。",
+      "source": "GitHub Trending (#1, +3047 today)",
+      "highlight": "连续霸榜，Agent团队协作编程正在成为主流范式",
+      "stars": 14205,
+      "tags": ["Agent", "Codex", "Workflow", "Team"]
+    },
+    {
+      "id": 10,
+      "category": "repo",
+      "title": "dmtrKovalenko/fff.nvim",
+      "url": "https://github.com/dmtrKovalenko/fff.nvim",
+      "summary": "号称最快最准的文件搜索工具包，专为AI Agent、Neovim设计。用Rust实现高性能文件检索，让Agent更高效地在代码库中定位文件。今日新增750星。",
+      "source": "GitHub Trending (+750 today)",
+      "highlight": "Agent的文件检索效率直接影响编程能力，Rust实现保证性能",
+      "stars": 3281,
+      "tags": ["Agent", "Search", "Rust", "Neovim", "Developer Tool"]
+    },
+    {
+      "id": 11,
+      "category": "repo",
+      "title": "Blaizzy/mlx-vlm",
+      "url": "https://github.com/Blaizzy/mlx-vlm",
+      "summary": "在Mac上使用Apple MLX框架推理和微调视觉语言模型（VLM）的工具包。今日新增499星，让Mac用户也能本地运行多模态模型，无需GPU服务器。",
+      "source": "GitHub Trending (+499 today)",
+      "highlight": "Mac本地跑VLM，Apple Silicon生态的AI工具越来越成熟",
+      "stars": 3243,
+      "tags": ["VLM", "Apple MLX", "Local AI", "Mac"]
+    },
+    {
+      "id": 12,
+      "category": "repo",
+      "title": "google-research/timesfm",
+      "url": "https://github.com/google-research/timesfm",
+      "summary": "Google Research的时间序列基础模型，连续两天高增长（+916 today）。预训练的时间序列预测模型，可直接用于金融、天气、业务指标等预测场景。",
+      "source": "GitHub Trending (+916 today)",
+      "highlight": "时间序列基础模型，Google出品的实用预测工具",
+      "stars": 14151,
+      "tags": ["Time Series", "Foundation Model", "Google", "Forecasting"]
+    },
+    {
+      "id": 13,
+      "category": "repo",
+      "title": "yusufkaraaslan/Skill_Seekers",
+      "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
+      "summary": "将文档网站、GitHub仓库和PDF转换为Claude AI技能的工具，支持自动冲突检测。让Claude Code能够快速学习新领域知识，是扩展Agent能力的实用工具。",
+      "source": "GitHub Trending (+158 today)",
+      "highlight": "把任何文档变成Claude技能，扩展Agent知识边界的利器",
+      "stars": 12271,
+      "tags": ["Claude", "Skills", "Knowledge", "Developer Tool"]
+    },
+    {
+      "id": 14,
+      "category": "paper",
+      "title": "Omni-SimpleMem: Lifelong Multimodal Agent Memory",
+      "url": "https://huggingface.co/papers/2604.01007",
+      "summary": "UNC Chapel Hill提出的终身多模态Agent记忆系统（18赞），通过自动研究引导发现最优记忆策略。让Agent在长期交互中持续积累和利用多模态经验。",
+      "source": "HuggingFace Papers (18 upvotes)",
+      "highlight": "Agent记忆是今日GitHub和论文的共同热点方向",
+      "stars": 0,
+      "tags": ["Agent", "Memory", "Multimodal", "Lifelong Learning"]
+    },
+    {
+      "id": 15,
+      "category": "tool",
+      "title": "MervinPraison/PraisonAI",
+      "url": "https://github.com/MervinPraison/PraisonAI",
+      "summary": "低代码多Agent AI系统，可跨消息平台自动化复杂任务。支持规划、研究、编码和交付全流程，相当于24/7的AI员工团队。今日+116星，持续增长中。",
+      "source": "GitHub Trending (+116 today)",
+      "highlight": "低代码多Agent平台，降低Agent开发门槛",
+      "stars": 6429,
+      "tags": ["Agent", "Low-Code", "Multi-Agent", "Automation"]
+    }
+  ]
+}
