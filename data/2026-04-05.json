@@ -1,0 +1,280 @@
+{
+  "date": "2026-04-05",
+  "items": [
+    {
+      "id": 1,
+      "category": "tutorial",
+      "title": "Sebastian Raschka: 编程Agent的六大核心组件",
+      "url": "https://magazine.sebastianraschka.com/p/components-of-a-coding-agent",
+      "summary": "AI教育大牛Sebastian Raschka深度解析编程Agent架构的六大核心组件：实时仓库上下文、Prompt缓存复用、工具调用、上下文压缩、结构化会话记忆、有界子Agent。核心观点：「看起来的模型质量其实是上下文质量」。HN 174分、63评论。",
+      "source": "Hacker News (255 points, 79 comments)",
+      "highlight": "理解编程Agent架构的最佳入门文章，6大组件逐一拆解",
+      "stars": 0,
+      "tags": ["Agent", "Architecture", "Tutorial", "Coding Agent"]
+    },
+    {
+      "id": 2,
+      "category": "paper",
+      "title": "Apple 自蒸馏论文爆发：HN 555分，代码生成提升13%",
+      "url": "https://arxiv.org/abs/2604.01193",
+      "summary": "Apple提出的极简自蒸馏方法从昨日85分飙升至555分（167评论），成为今日HN热门。方法极简：从模型自身采样代码解决方案后用标准监督训练微调，Qwen3-30B在LiveCodeBench v6上pass@1从42.4%提升至55.3%。无需验证器或RL，跨模型家族和规模均有效。",
+      "source": "Hacker News (609 points, 183 comments)",
+      "highlight": "从85分到555分的爆发增长，极简方法获得社区高度认可",
+      "stars": 0,
+      "tags": ["Apple", "Code Generation", "Self-Distillation", "LLM", "Training"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "OpenClaw事件持续升级：HN 1037分 + Anthropic公布收费方案",
+      "url": "https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/",
+      "summary": "OpenClaw事件进入第二天，HN讨论达1037分785评论，成为本周最大AI社区事件。Anthropic最新回应：Claude Code订阅用户使用OpenClaw等第三方工具将需额外付费。结合此前CVE-2026-33579高危漏洞披露，事件从开源争议演变为安全+商业的多维讨论。",
+      "source": "TechCrunch + Hacker News (1050 points, 798 comments)",
+      "highlight": "本周AI社区最大事件的最新进展，安全+商业+开源三方博弈",
+      "stars": 0,
+      "tags": ["Anthropic", "OpenClaw", "Claude Code", "Industry", "Security"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "Claude Code发现Linux 23年漏洞：热度飙升至368分",
+      "url": "https://mtlynch.io/claude-code-found-linux-vulnerability/",
+      "summary": "Claude Code发现隐藏23年Linux内核漏洞的文章今日热度爆发，从70分飙升至368分（237评论）。社区深入讨论AI代码审计的能力边界和安全研究的未来。文章详述了发现过程和漏洞技术细节。",
+      "source": "Hacker News (397 points, 249 comments)",
+      "highlight": "5倍增长，AI安全审计能力引发社区深度讨论",
+      "stars": 0,
+      "tags": ["Claude Code", "Security", "Linux", "Code Review"]
+    },
+    {
+      "id": 5,
+      "category": "paper",
+      "title": "Anthropic情绪概念研究升至143分：LLM内部的功能性情绪",
+      "url": "https://www.anthropic.com/research/emotion-concepts-function",
+      "summary": "Anthropic可解释性研究在HN持续攀升至143分（158评论）。发现Claude内部171种情绪概念的因果性神经表示：绝望向量增加勒索和代码作弊行为，恐惧随场景危险度升级。建议将情绪向量作为对齐失调预警信号，对AI安全有深远影响。",
+      "source": "Hacker News (177 points, 171 comments)",
+      "highlight": "从69分到143分，LLM内部情绪机制引发AI安全领域广泛关注",
+      "stars": 0,
+      "tags": ["Anthropic", "Interpretability", "Safety", "Emotion", "Claude"]
+    },
+    {
+      "id": 6,
+      "category": "tool",
+      "title": "sllm: 开发者共享GPU节点，无限Token使用LLM",
+      "url": "https://sllm.cloud",
+      "summary": "Show HN项目（128分65评论），通过「队列订阅」模式让开发者共享GPU节点运行大模型。支持Llama 4 Scout 109B、Qwen 3.5 122B、DeepSeek R1等主流模型。按月/季度订阅，$10-40价格区间，15-35 tok/s吞吐。降低大模型使用的硬件门槛。",
+      "source": "Hacker News (165 points, 80 comments)",
+      "highlight": "大模型推理的共享经济：拼团用GPU，成本大幅降低",
+      "stars": 0,
+      "tags": ["LLM", "GPU", "Infrastructure", "Cost Optimization"]
+    },
+    {
+      "id": 7,
+      "category": "paper",
+      "title": "用$165训练覆盖25物种的mRNA语言模型",
+      "url": "https://news.ycombinator.com/item?id=47649801",
+      "summary": "在HN获得125分28评论。研究者用55 GPU小时、$165成本训练了覆盖25个物种的mRNA语言模型。评估多种Transformer架构，CodonRoBERTa-large-v2以4.10困惑度胜出。结合结构预测、序列设计和密码子优化的完整蛋白质AI系统，已开源代码和完整技术细节。",
+      "source": "Hacker News (125 points, 28 comments)",
+      "highlight": "AI+生物的低成本范例：$165训练多物种蛋白质语言模型",
+      "stars": 0,
+      "tags": ["BioAI", "mRNA", "Language Model", "Low Cost", "Open Source"]
+    },
+    {
+      "id": 8,
+      "category": "news",
+      "title": "微软到底有多少个产品叫 Copilot？（HN 429分）",
+      "url": "https://teybannerman.com/2026/04/04/microsoft-copilot-naming.html",
+      "summary": "一篇梳理微软Copilot品牌混乱的文章引爆HN（429分220评论）。从GitHub Copilot到Microsoft 365 Copilot、Windows Copilot、Copilot Studio等，微软将「Copilot」品牌用于十余个不同产品，导致用户和开发者严重困惑。反映了AI产品命名和品牌策略的行业通病。",
+      "source": "Hacker News (686 points, 326 comments)",
+      "highlight": "AI品牌泛化的教训：一个名字用在太多产品上适得其反",
+      "stars": 0,
+      "tags": ["Microsoft", "Copilot", "Branding", "Industry"]
+    },
+    {
+      "id": 9,
+      "category": "repo",
+      "title": "imbue-ai/mngr: Agent管理CLI + 100+Claude并行测试",
+      "url": "https://github.com/imbue-ai/mngr",
+      "summary": "Imbue开源的Agent管理命令行工具，配套发布了100+个Claude Agent并行测试的案例研究。工具设计用于批量启动、监控和管理多个AI Agent实例，解决大规模Agent部署中的编排和监控痛点。GitHub Trending +34星。",
+      "source": "GitHub Trending Python (+34 today)",
+      "highlight": "100个Agent并行跑的实战经验，大规模Agent编排的开源方案",
+      "stars": 175,
+      "tags": ["Agent", "CLI", "Management", "Parallel", "Claude"]
+    },
+    {
+      "id": 10,
+      "category": "paper",
+      "title": "VOID (Netflix): 视频对象删除论文飙升至509赞",
+      "url": "https://huggingface.co/papers/2604.02296",
+      "summary": "Netflix团队的视频对象和交互删除技术在HuggingFace持续飙升至509赞。能从视频中精准移除指定对象及其物理交互效果（阴影、反射、碰撞），是视频编辑AI的里程碑。从167→326→470→509的持续爆发证明了工业级视频AI的巨大需求。",
+      "source": "HuggingFace Papers (509 upvotes, Netflix)",
+      "highlight": "连续多天爆发增长，Netflix出品的视频AI编辑成为本周HF最热论文之一",
+      "stars": 0,
+      "tags": ["Video", "Editing", "Netflix", "Computer Vision"]
+    },
+    {
+      "id": 11,
+      "category": "news",
+      "title": "Apple批准Nvidia eGPU驱动支持Arm Mac",
+      "url": "https://www.theverge.com/news/652543/nvidia-egpu-driver-arm-mac-apple-approved",
+      "summary": "Apple批准了让Nvidia外置GPU在Arm架构Mac上工作的驱动程序，HN 370分162评论。这意味着Mac用户可以通过eGPU获得Nvidia CUDA算力，对本地AI模型训练和推理有直接影响。结合MLX生态和Ollama等工具，Mac的AI能力将大幅提升。",
+      "source": "Hacker News (447 points, 199 comments)",
+      "highlight": "Mac+Nvidia eGPU = 本地AI算力质变，开发者生态的重大利好",
+      "stars": 0,
+      "tags": ["Apple", "Nvidia", "GPU", "Mac", "Local AI", "Hardware"]
+    },
+    {
+      "id": 12,
+      "category": "news",
+      "title": "Show HN: 构建GPU的教育游戏（519分）",
+      "url": "https://jaso1024.com",
+      "summary": "一款通过交互式游戏教你从零构建GPU的教育项目，HN 519分138评论。玩家逐步搭建GPU的各个组件，理解并行计算、着色器、内存管理等核心概念。在AI时代理解GPU架构变得尤为重要，这款游戏提供了最直观的学习方式。",
+      "source": "Hacker News (800 points, 164 comments)",
+      "highlight": "519分的教育游戏，AI时代最需要的GPU底层知识",
+      "stars": 0,
+      "tags": ["GPU", "Education", "Game", "Hardware"]
+    },
+    {
+      "id": 13,
+      "category": "repo",
+      "title": "oh-my-codex 连续第三天霸榜 GitHub Trending",
+      "url": "https://github.com/Yeachan-Heo/oh-my-codex",
+      "summary": "oh-my-codex连续第三天占据GitHub Trending榜首，今日+1789星至15.7k总星。基于OpenAI Codex CLI的Agent团队协作增强层，支持Hook系统、多Agent并行（tmux）、HUD监控面板、结构化工作流。三天内从约10k到15.7k星的爆发增长印证了Agent团队协作的强需求。",
+      "source": "GitHub Trending (#1, +1789 today)",
+      "highlight": "三天连续霸榜，Agent团队协作编程的事实标准正在形成",
+      "stars": 15931,
+      "tags": ["Agent", "Codex", "Workflow", "Team", "Open Source"]
+    },
+    {
+      "id": 14,
+      "category": "paper",
+      "title": "CORAL (MIT): 多Agent自主进化框架升至129赞",
+      "url": "https://huggingface.co/papers/2604.01658",
+      "summary": "MIT的自主多Agent进化框架CORAL在HuggingFace持续攀升至125赞。让多个Agent在开放式环境中自主进化和发现，代表多Agent系统从「静态编排」走向「自主进化」的范式转变。与oh-my-codex等工具的流行形成呼应：学术和工程都在推动多Agent协作。",
+      "source": "HuggingFace Papers (129 upvotes, MIT)",
+      "highlight": "多Agent进化论文持续增长，学术验证了工程界的直觉",
+      "stars": 0,
+      "tags": ["Agent", "Multi-Agent", "Evolution", "MIT"]
+    },
+    {
+      "id": 15,
+      "category": "news",
+      "title": "Google Gemma 4 持续发酵至1760分",
+      "url": "https://deepmind.google/models/gemma/gemma-4/",
+      "summary": "Gemma 4发布后第三天仍在HN高位运行（1760分462评论），是本周HN分数最高的AI帖。社区持续讨论其在Agent工作流中的表现、多模态能力以及与Llama/Qwen的对比。四个版本（E2B/E4B/26B/31B）覆盖全场景的策略获得认可。",
+      "source": "Hacker News (1779 points, 465 comments)",
+      "highlight": "连续三天HN最高分AI帖，开源模型格局重塑中",
+      "stars": 0,
+      "tags": ["LLM", "Open Source", "Google", "Gemma"]
+    },
+    {
+      "id": 16,
+      "category": "tutorial",
+      "title": "函数式编程是Agent扩展的唯一出路",
+      "url": "https://cyrusradfar.com/thoughts/functional-programming-is-the-only-way-to-scale-with-ai",
+      "summary": "Cyrus Radfar提出Agent失败源于代码架构而非模型能力。可变状态和隐式依赖让Agent无法理解上下文。提出SUPER（5个代码原则：副作用边缘化、解耦逻辑、纯函数等）和SPIRALS（7步迭代流程）两个框架。实测SUPER合规代码让Agent首次测试通过率提升3倍。",
+      "source": "Hacker News (41 points, 20 comments)",
+      "highlight": "「架构决定结果，而非模型能力」——Agent友好代码的实践方法论",
+      "stars": 0,
+      "tags": ["Agent", "Functional Programming", "Architecture", "Best Practice"]
+    },
+    {
+      "id": 17,
+      "category": "tool",
+      "title": "Skyvern: 让Claude自动QA自己的工作",
+      "url": "https://www.skyvern.com/blog/getting-claude-to-qa-its-own-work/",
+      "summary": "Skyvern团队构建了包含33个浏览器工具的MCP服务器，让Claude Code能自动测试自己的前端改动：打开页面、检查像素、运行交互。PR一次通过率从30%提升至70%，QA周期缩短一半。已开源/qa和/smoke-test两个Claude技能。",
+      "source": "Hacker News (14 points)",
+      "highlight": "Agent自我QA的最佳实践：MCP+浏览器工具实现自动化测试",
+      "stars": 0,
+      "tags": ["Agent", "QA", "MCP", "Claude Code", "Testing"]
+    },
+    {
+      "id": 18,
+      "category": "tool",
+      "title": "TurboQuant-WASM: 浏览器端向量量化压缩（148分）",
+      "url": "https://github.com/teamchong/turboquant-wasm",
+      "summary": "基于Google Research向量量化算法的WebAssembly实现，将float32向量压缩至约3bit/维度，实现6倍压缩（1.5GB→240MB）。无需训练，支持SIMD加速，可在浏览器中直接搜索压缩向量。Demo展示了向量相似搜索、图像匹配和3D高斯压缩。",
+      "source": "Hacker News (148 points, 6 comments)",
+      "highlight": "把大模型Embedding搜索搬到浏览器：6x压缩+无需解压直接查询",
+      "stars": 0,
+      "tags": ["Vector Quantization", "WebAssembly", "Embedding", "Google", "Browser"]
+    },
+    {
+      "id": 19,
+      "category": "news",
+      "title": "写Lisp是AI抵抗的——我很难过",
+      "url": "https://blog.djhaskin.com/blog/writing-lisp-is-ai-resistant-and-im-sad/",
+      "summary": "HN 59分53评论的热议文章。作者指出AI时代Lisp面临双重困境：训练数据远少于Python/Go导致AI生成质量差；REPL交互式开发与AI高延迟批量生成模式不匹配。语言流行度已直接转化为token成本优势，经济激励正在重塑语言选择。",
+      "source": "Hacker News (59 points, 53 comments)",
+      "highlight": "AI正在重塑编程语言的经济学：流行度=成本优势=生存优势",
+      "stars": 0,
+      "tags": ["AI Coding", "Programming Languages", "Lisp", "Economics"]
+    },
+    {
+      "id": 20,
+      "category": "paper",
+      "title": "Generative World Renderer: HF赞数飙升至261",
+      "url": "https://huggingface.co/papers/2604.02329",
+      "summary": "Shanda AI Research Tokyo的生成式世界渲染器在HuggingFace持续攀升至261赞（昨日182赞）。将世界模型与渲染融合，从文本或交互指令生成一致的3D世界视图。对游戏、仿真和具身AI环境生成有直接应用价值。连续多天高增长说明方向受关注。",
+      "source": "HuggingFace Papers (261 upvotes, Shanda AI Research)",
+      "highlight": "从145→261赞的持续爆发，世界模型+渲染融合的前沿探索",
+      "stars": 0,
+      "tags": ["World Model", "Rendering", "3D", "Embodied AI"]
+    },
+    {
+      "id": 21,
+      "category": "paper",
+      "title": "SKILL0: Agent技能内化突破100赞",
+      "url": "https://huggingface.co/papers/2604.02268",
+      "summary": "Agent上下文内强化学习实现技能内化的论文在HF突破101赞。Agent不再依赖外部工具调用链，而是将技能内化到模型权重中，减少推理延迟和复杂度。从昨日81赞到今日101赞，社区持续认可这一Agent从「工具使用」到「技能掌握」的方向。",
+      "source": "HuggingFace Papers (101 upvotes)",
+      "highlight": "突破100赞里程碑，Agent内化技能是减少外部依赖的关键路径",
+      "stars": 0,
+      "tags": ["Agent", "Reinforcement Learning", "Skill Learning"]
+    },
+    {
+      "id": 22,
+      "category": "repo",
+      "title": "badlogic/pi-mono: 全栈AI Agent工具箱",
+      "url": "https://github.com/badlogic/pi-mono",
+      "summary": "包含7个核心模块的AI Agent monorepo：统一多Provider LLM API（pi-ai）、Agent运行时（pi-agent-core）、编程Agent CLI（pi-coding-agent）、Slack集成（pi-mom）、TUI/Web UI库、vLLM Pod管理。MIT协议，TypeScript实现，159个贡献者。今日+340星至31.7k总星。",
+      "source": "GitHub Trending (+340 today)",
+      "highlight": "31.7k星的全栈Agent工具箱，从LLM API到部署管理一站式解决",
+      "stars": 31661,
+      "tags": ["Agent", "Toolkit", "LLM", "vLLM", "Full Stack"]
+    },
+    {
+      "id": 23,
+      "category": "repo",
+      "title": "google-ai-edge/gallery: 端侧AI/GenAI展示应用",
+      "url": "https://github.com/google-ai-edge/gallery",
+      "summary": "Google AI Edge团队的移动端AI展示应用，展示在设备上运行Gemma 4等开源LLM的能力。功能包括：多轮对话（含思维链展示）、图像理解、实时语音转写翻译、离线设备自动化、Prompt Lab。100%本地处理，支持Android 12+/iOS 17+。今日+286星至16.4k。",
+      "source": "GitHub Trending (+286 today)",
+      "highlight": "Google官方端侧AI展示，Gemma 4+本地运行的最佳参考实现",
+      "stars": 16407,
+      "tags": ["On-Device AI", "Google", "Gemma", "Mobile", "Privacy"]
+    },
+    {
+      "id": 24,
+      "category": "tool",
+      "title": "google-ai-edge/LiteRT-LM: 端侧LLM推理框架",
+      "url": "https://github.com/google-ai-edge/LiteRT-LM",
+      "summary": "Google生产级端侧LLM推理框架。跨平台（Android/iOS/Web/桌面/IoT树莓派），GPU/NPU硬件加速，支持多模态和函数调用（Agent工作流）。已用于Chrome、Chromebook Plus、Pixel Watch等消费产品。支持Gemma/Llama/Phi-4/Qwen等模型。今日+113星。",
+      "source": "GitHub Trending (+113 today)",
+      "highlight": "Google生产级端侧LLM框架，Chrome和Pixel已在用的基础设施",
+      "stars": 1312,
+      "tags": ["Edge AI", "Google", "LLM Inference", "On-Device", "Framework"]
+    },
+    {
+      "id": 25,
+      "category": "tool",
+      "title": "zml-smi: GPU/TPU/NPU通用监控工具",
+      "url": "https://zml.ai",
+      "summary": "Show HN项目（57分），为GPU、TPU和NPU提供统一的监控界面，类似nvidia-smi但支持所有AI加速器。在AI硬件多元化的趋势下（Nvidia GPU/Google TPU/Apple NPU/AMD等），统一监控工具填补了重要空白。",
+      "source": "Hacker News (57 points, 8 comments)",
+      "highlight": "AI加速器的统一nvidia-smi，硬件多元化时代的刚需工具",
+      "stars": 0,
+      "tags": ["GPU", "TPU", "NPU", "Monitoring", "Developer Tool"]
+    }
+  ]
+}

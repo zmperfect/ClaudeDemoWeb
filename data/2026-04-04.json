@@ -7,7 +7,7 @@
       "title": "Mintlify 用虚拟文件系统替代 RAG，成本降至零",
       "url": "https://www.mintlify.com/blog/how-we-built-a-virtual-filesystem-for-our-assistant",
       "summary": "Mintlify构建了ChromaFs虚拟文件系统替代传统RAG方案。Agent可以像浏览代码一样浏览文档（grep/cat/ls），启动时间从46秒降至100ms，每次对话边际成本从$0.014降至$0。月处理85万次对话。",
-      "source": "Hacker News (231 points)",
+      "source": "Hacker News (330 points)",
       "highlight": "RAG的替代方案值得关注：虚拟文件系统让Agent用bash命令检索文档，460x性能提升",
       "stars": 0,
       "tags": ["RAG", "Agent", "Architecture", "Production"]
@@ -17,8 +17,8 @@
       "category": "news",
       "title": "Anthropic 限制 Claude Code 订阅使用 OpenClaw",
       "url": "https://news.ycombinator.com/item?id=47633396",
-      "summary": "Anthropic不再允许Claude Code订阅用户通过OpenClaw使用服务，引发社区激烈讨论（282条评论）。涉及开源工具与商业服务边界的争议，反映了AI工具生态的商业化张力。",
-      "source": "Hacker News (281 points)",
+      "summary": "Anthropic不再允许Claude Code订阅用户通过OpenClaw使用服务，引发社区激烈讨论（612条评论）。涉及开源工具与商业服务边界的争议，反映了AI工具生态的商业化张力。全天持续发酵，最终成为今日HN AI领域最热帖。",
+      "source": "Hacker News (786 points, 612 comments)",
       "highlight": "AI工具商业化的标志性事件，社区讨论激烈",
       "stars": 0,
       "tags": ["Claude", "Anthropic", "Open Source", "Industry"]
@@ -29,7 +29,7 @@
       "title": "CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery",
       "url": "https://huggingface.co/papers/2604.01658",
       "summary": "MIT提出的自主多Agent进化框架，让多个Agent在开放式环境中自主进化和发现。100赞，是今日Agent方向最受关注的论文，代表了多Agent系统从静态编排走向自主进化的趋势。",
-      "source": "HuggingFace Papers (100 upvotes, MIT)",
+      "source": "HuggingFace Papers (107 upvotes, MIT)",
       "highlight": "多Agent自主进化是下一代Agent系统的核心方向",
       "stars": 0,
       "tags": ["Agent", "Multi-Agent", "Evolution", "MIT"]
@@ -40,8 +40,8 @@
       "title": "The Latent Space: Foundation, Evolution, Mechanism, Ability, and Outlook",
       "url": "https://huggingface.co/papers/2604.02029",
       "summary": "连续两天HuggingFace最高赞（489赞），37位作者合著的大型综述。全面梳理隐空间表示的基础理论、演化历程和能力边界，是理解现代AI架构的必读参考。",
-      "source": "HuggingFace Papers (489 upvotes)",
-      "highlight": "489赞持续霸榜，理解AI底层原理的权威综述",
+      "source": "HuggingFace Papers (497 upvotes)",
+      "highlight": "497赞持续霸榜，理解AI底层原理的权威综述",
       "stars": 0,
       "tags": ["Survey", "Latent Space", "Foundation", "LLM"]
     },
@@ -51,8 +51,8 @@
       "title": "Signals: Trajectory Sampling and Triage for Agentic Interactions",
       "url": "https://huggingface.co/papers/2604.00356",
       "summary": "DigitalOcean团队提出的Agent交互轨迹采样和分类方法，6.14k超高赞。为大规模Agent部署提供了交互质量监控和优化方案，是Agent可观测性领域的重要工作。",
-      "source": "HuggingFace Papers (6.14k upvotes, DigitalOcean)",
-      "highlight": "6k+赞的超级热门论文，Agent可观测性是生产部署的刚需",
+      "source": "HuggingFace Papers (6.15k upvotes, DigitalOcean)",
+      "highlight": "6.15k赞的超级热门论文，Agent可观测性是生产部署的刚需",
       "stars": 0,
       "tags": ["Agent", "Observability", "Production", "Monitoring"]
     },
@@ -62,7 +62,7 @@
       "title": "ASI-Evolve: AI Accelerates AI",
       "url": "https://huggingface.co/papers/2603.29640",
       "summary": "SII-GAIR团队提出用AI加速AI研发的框架，73赞。探索了利用现有AI系统自动化和加速新AI系统开发的方法论，是AI自我改进方向的前沿探索。",
-      "source": "HuggingFace Papers (73 upvotes)",
+      "source": "HuggingFace Papers (77 upvotes)",
       "highlight": "AI加速AI研发，自我改进是通向更强AI的关键路径",
       "stars": 0,
       "tags": ["AI Research", "Self-Improvement", "Automation"]
@@ -82,7 +82,7 @@
       "id": 8,
       "category": "paper",
       "title": "T5Gemma-TTS: 文本转语音模型",
-      "url": "https://huggingface.co/papers/2604.02329",
+      "url": "https://huggingface.co/papers/2604.01760",
       "summary": "284赞的高关注度TTS模型，基于T5和Gemma架构。多模态语音生成是AI应用落地的重要方向，对构建语音Agent和交互式AI产品有直接帮助。",
       "source": "HuggingFace Papers (284 upvotes)",
       "highlight": "语音是Agent交互的重要模态，高质量TTS是刚需",
@@ -94,10 +94,10 @@
       "category": "repo",
       "title": "Yeachan-Heo/oh-my-codex",
       "url": "https://github.com/Yeachan-Heo/oh-my-codex",
-      "summary": "连续两天GitHub Trending第一。基于Codex CLI的Agent团队协作增强层，支持持久化状态、多Agent并行（tmux）、结构化工作流。今日再增3047星，总星14.2k。",
-      "source": "GitHub Trending (#1, +3047 today)",
+      "summary": "连续两天GitHub Trending第一。基于Codex CLI的Agent团队协作增强层，支持持久化状态、多Agent并行（tmux）、结构化工作流。今日+1803星，总星14.9k。",
+      "source": "GitHub Trending (#1, +1803 today)",
       "highlight": "连续霸榜，Agent团队协作编程正在成为主流范式",
-      "stars": 14205,
+      "stars": 14857,
       "tags": ["Agent", "Codex", "Workflow", "Team"]
     },
     {
@@ -108,7 +108,7 @@
       "summary": "号称最快最准的文件搜索工具包，专为AI Agent、Neovim设计。用Rust实现高性能文件检索，让Agent更高效地在代码库中定位文件。今日新增750星。",
       "source": "GitHub Trending (+750 today)",
       "highlight": "Agent的文件检索效率直接影响编程能力，Rust实现保证性能",
-      "stars": 3281,
+      "stars": 3348,
       "tags": ["Agent", "Search", "Rust", "Neovim", "Developer Tool"]
     },
     {
@@ -119,7 +119,7 @@
       "summary": "在Mac上使用Apple MLX框架推理和微调视觉语言模型（VLM）的工具包。今日新增499星，让Mac用户也能本地运行多模态模型，无需GPU服务器。",
       "source": "GitHub Trending (+499 today)",
       "highlight": "Mac本地跑VLM，Apple Silicon生态的AI工具越来越成熟",
-      "stars": 3243,
+      "stars": 3363,
       "tags": ["VLM", "Apple MLX", "Local AI", "Mac"]
     },
     {
@@ -130,7 +130,7 @@
       "summary": "Google Research的时间序列基础模型，连续两天高增长（+916 today）。预训练的时间序列预测模型，可直接用于金融、天气、业务指标等预测场景。",
       "source": "GitHub Trending (+916 today)",
       "highlight": "时间序列基础模型，Google出品的实用预测工具",
-      "stars": 14151,
+      "stars": 14260,
       "tags": ["Time Series", "Foundation Model", "Google", "Forecasting"]
     },
     {
@@ -172,8 +172,8 @@
       "title": "Google Gemma 4 开源模型持续发酵，HN 1723分",
       "url": "https://deepmind.google/models/gemma/gemma-4/",
       "summary": "Gemma 4发布后持续获得关注，HN讨论达453条评论。四个版本（E2B/E4B/26B/31B）覆盖从移动端到桌面的全场景，31B版AIME数学89.2%。社区重点讨论其Agent工作流和多模态能力。",
-      "source": "Hacker News (1723 points, 453 comments)",
-      "highlight": "昨日发布今日持续发酵，开源模型竞争白热化",
+      "source": "Hacker News (1741 points, 458 comments)",
+      "highlight": "持续发酵至1741分，开源模型竞争白热化",
       "stars": 0,
       "tags": ["LLM", "Open Source", "Google", "Gemma"]
     },
@@ -183,7 +183,7 @@
       "title": "研究发现AI用户出现「认知投降」现象",
       "url": "https://arstechnica.com/ai/2026/04/research-finds-ai-users-scarily-willing-to-surrender-their-cognition-to-llms/",
       "summary": "Ars Technica报道最新研究发现，AI用户正在放弃独立的逻辑思考能力，过度依赖LLM的输出。这项研究引发了关于AI辅助与AI依赖之间边界的讨论。",
-      "source": "Hacker News (49 points)",
+      "source": "Hacker News (70 points, 27 comments)",
       "highlight": "AI使用的元认知问题值得每个AI从业者反思",
       "stars": 0,
       "tags": ["AI Ethics", "Research", "Cognition", "Society"]
@@ -194,7 +194,7 @@
       "title": "Apfel：Mac上的免费本地AI助手（HN 647分）",
       "url": "https://apfel.franzai.com",
       "summary": "利用Mac内置AI能力的免费本地助手，无需联网和API Key。从昨日181分飙升至647分，社区热度持续上升。主打隐私安全和零成本，138条评论讨论本地AI的实用性。",
-      "source": "Hacker News (647 points, 138 comments)",
+      "source": "Hacker News (683 points, 141 comments)",
       "highlight": "本地AI工具热度飙升，隐私+免费是核心卖点",
       "stars": 0,
       "tags": ["Local AI", "Mac", "Privacy", "Free Tool"]
@@ -215,8 +215,8 @@
       "category": "paper",
       "title": "VOID: Video Object and Interaction Deletion",
       "url": "https://huggingface.co/papers/2604.02296",
-      "summary": "Netflix团队的视频对象和交互删除技术，167赞。能从视频中精准移除指定对象及其交互效果，是视频编辑AI的重要突破，对影视后期制作有直接应用价值。",
-      "source": "HuggingFace Papers (167 upvotes, Netflix)",
+      "summary": "Netflix团队的视频对象和交互删除技术，326赞。能从视频中精准移除指定对象及其交互效果，是视频编辑AI的重要突破，对影视后期制作有直接应用价值。",
+      "source": "HuggingFace Papers (326 upvotes, Netflix)",
       "highlight": "Netflix出品的视频AI编辑技术，工业级应用前景",
       "stars": 0,
       "tags": ["Video", "Editing", "Netflix", "Computer Vision"]
@@ -238,10 +238,274 @@
       "title": "Claude Code 发现了隐藏 23 年的 Linux 漏洞",
       "url": "https://mtlynch.io/claude-code-found-linux-vulnerability/",
       "summary": "博客文章详述Claude Code在代码审查过程中发现了一个隐藏23年的Linux内核漏洞。展示了AI编程工具在安全审计领域的潜力，也引发了对AI辅助安全研究的讨论。",
-      "source": "Hacker News",
+      "source": "Hacker News (70 points, 49 comments)",
       "highlight": "AI发现人类遗漏23年的漏洞，展示Agent在安全审计的巨大潜力",
       "stars": 0,
       "tags": ["Claude Code", "Security", "Linux", "Code Review"]
+    },
+    {
+      "id": 23,
+      "category": "news",
+      "title": "OpenClaw 曝出高危提权漏洞 CVE-2026-33579",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33579",
+      "summary": "OpenClaw 2026.3.28之前版本存在权限校验缺陷（CVSS 8.6 HIGH）：拥有配对权限但无管理员权限的调用者可以批准要求更高权限的设备请求，实现提权。结合Anthropic限制OpenClaw的背景（条目#2），安全问题可能是限制的原因之一。HN 264分、161条评论。",
+      "source": "Hacker News (406 points, 201 comments)",
+      "highlight": "OpenClaw高危漏洞被披露，或解释了Anthropic限制其使用的深层原因",
+      "stars": 0,
+      "tags": ["Security", "CVE", "OpenClaw", "Anthropic"]
+    },
+    {
+      "id": 24,
+      "category": "news",
+      "title": "Ollama + Gemma 4 本地部署实战指南（HN 295分）",
+      "url": "https://gist.github.com/greenstevester/fc49b4e60a4fef9effc79066c1033ae5",
+      "summary": "详细的Mac mini本地部署Gemma 4教程，涵盖自动启动、模型预热、持久化加载等生产级配置。作者测试发现26B版本在24GB机器上内存不足，推荐8B Q4量化版（~9.6GB）。通过MLX后端优化Apple Silicon推理性能。",
+      "source": "Hacker News (307 points, 118 comments)",
+      "highlight": "Gemma 4本地部署的最佳实践，Mac用户的实用参考",
+      "stars": 0,
+      "tags": ["Gemma", "Ollama", "Local AI", "Mac", "Tutorial"]
+    },
+    {
+      "id": 25,
+      "category": "tool",
+      "title": "ctx.rs：多Agent统一开发环境（ADE）",
+      "url": "https://ctx.rs",
+      "summary": "统一Claude Code、Codex、Cursor等多个编程Agent的开发环境。核心特性：容器化隔离执行、统一审查界面（任务/会话/diff/日志）、有界自治（Agent独立工作但通过merge queue管控）。支持本地和远程部署，面向团队级Agent开发管理。",
+      "source": "Hacker News (43 points, 51 comments)",
+      "highlight": "Agent开发的下一步：统一多Agent工作流，从单人到团队",
+      "stars": 0,
+      "tags": ["Agent", "IDE", "Developer Tool", "Multi-Agent", "DevOps"]
+    },
+    {
+      "id": 26,
+      "category": "repo",
+      "title": "onyx-dot-app/onyx",
+      "url": "https://github.com/onyx-dot-app/onyx",
+      "summary": "开源AI应用平台，支持所有主流LLM。核心功能：Agentic RAG混合索引、深度研究、自定义Agent、Web搜索集成、沙箱代码执行、语音模式。提供Lite（<1GB）和Standard两种部署模式，MIT协议。今日+1852星，总23.4k星。",
+      "source": "GitHub Trending (#2, +1852 today)",
+      "highlight": "全功能开源AI平台，Agentic RAG+深度研究，企业级自托管方案",
+      "stars": 23706,
+      "tags": ["AI Platform", "RAG", "Agent", "Open Source", "Self-Hosted"]
+    },
+    {
+      "id": 27,
+      "category": "paper",
+      "title": "DataFlex: 数据中心的LLM动态训练统一框架",
+      "url": "https://huggingface.co/papers/2603.26164",
+      "summary": "北京大学提出的数据中心LLM训练框架，143赞。将数据选择、课程学习、数据混合等策略统一到一个灵活框架中，让训练过程可以根据模型状态动态调整数据策略，提升训练效率和模型质量。",
+      "source": "HuggingFace Papers (148 upvotes, Peking University)",
+      "highlight": "数据是LLM训练的核心，动态数据策略框架有重要实用价值",
+      "stars": 0,
+      "tags": ["LLM", "Training", "Data-Centric", "Framework"]
+    },
+    {
+      "id": 28,
+      "category": "paper",
+      "title": "SKILL0: 上下文内Agent强化学习实现技能内化",
+      "url": "https://huggingface.co/papers/2604.02268",
+      "summary": "提出让Agent在上下文中通过强化学习内化技能的方法，70赞。Agent不再依赖外部工具调用链，而是将技能直接内化到模型权重中，减少推理时的延迟和复杂度。是Agent从「工具使用」到「技能掌握」的重要进展。",
+      "source": "HuggingFace Papers (81 upvotes)",
+      "highlight": "Agent从调用工具到内化技能，减少依赖的关键方向",
+      "stars": 0,
+      "tags": ["Agent", "Reinforcement Learning", "Skill Learning"]
+    },
+    {
+      "id": 29,
+      "category": "paper",
+      "title": "Generative World Renderer：生成式世界渲染器",
+      "url": "https://huggingface.co/papers/2604.02329",
+      "summary": "Shanda AI Research Tokyo的生成式世界渲染器，145赞。将世界模型与渲染结合，能够从文本或交互指令生成一致的3D世界视图。对游戏、仿真、具身AI的环境生成有直接应用价值。",
+      "source": "HuggingFace Papers (182 upvotes, Shanda AI Research)",
+      "highlight": "世界模型+渲染的融合，具身AI和游戏的基础设施",
+      "stars": 0,
+      "tags": ["World Model", "Rendering", "3D", "Embodied AI"]
+    },
+    {
+      "id": 30,
+      "category": "paper",
+      "title": "GPA: 从演示中学习GUI流程自动化",
+      "url": "https://huggingface.co/papers/2604.01676",
+      "summary": "Salesforce团队提出的GUI流程自动化学习方法。Agent通过观看人类操作演示学习GUI自动化任务，无需手动编写规则或脚本。对RPA和桌面自动化Agent有直接应用价值，降低了GUI自动化的门槛。",
+      "source": "HuggingFace Papers (Salesforce)",
+      "highlight": "看一遍演示就会操作GUI，Agent进入RPA领域的新路径",
+      "stars": 0,
+      "tags": ["Agent", "GUI", "RPA", "Automation", "Salesforce"]
+    },
+    {
+      "id": 31,
+      "category": "paper",
+      "title": "调查野外自主Agent的贡献：活动模式与代码变更",
+      "url": "https://huggingface.co/papers/2604.00917",
+      "summary": "TU Delft AISE实验室对真实开源项目中自主Agent贡献的实证研究。分析了Agent在实际项目中的活动模式、代码变更质量和时间分布，为理解Agent在真实软件工程中的角色提供了数据支撑。",
+      "source": "HuggingFace Papers (TU Delft)",
+      "highlight": "首批研究Agent在真实项目中表现的实证数据，理解AI编程的现状",
+      "stars": 0,
+      "tags": ["Agent", "Software Engineering", "Empirical Study", "Open Source"]
+    },
+    {
+      "id": 32,
+      "category": "news",
+      "title": "Claude 推出 Usage Bundles 并赠送额外额度",
+      "url": "https://support.claude.com/en/articles/14246053",
+      "summary": "Anthropic推出Claude使用量套餐包（Usage Bundles），并为庆祝上线向用户赠送额外使用额度。HN上49分、44条评论的讨论聚焦于定价策略和与OpenAI的竞争。",
+      "source": "Hacker News (59 points, 51 comments)",
+      "highlight": "Anthropic商业化新动作，Usage Bundles改变付费模式",
+      "stars": 0,
+      "tags": ["Claude", "Anthropic", "Pricing", "Industry"]
+    },
+    {
+      "id": 33,
+      "category": "news",
+      "title": "Anthropic 以4亿美元收购生物科技公司 Coefficient Bio",
+      "url": "https://techcrunch.com/2026/04/03/anthropic-buys-biotech-startup-coefficient-bio-in-400m-deal-reports/",
+      "summary": "Anthropic以4亿美元股票收购隐形生物科技AI创业公司Coefficient Bio。这标志着Anthropic从核心AI业务向生物技术领域扩张，将Claude的AI能力应用于生物研究和药物开发。The Information和Eric Newcomer率先报道。",
+      "source": "TechCrunch",
+      "highlight": "Anthropic重大战略扩张：AI+生物科技，4亿美元押注",
+      "stars": 0,
+      "tags": ["Anthropic", "Biotech", "Acquisition", "Industry"]
+    },
+    {
+      "id": 34,
+      "category": "news",
+      "title": "OpenAI 高管重组：COO Lightcap 转任特别项目",
+      "url": "https://techcrunch.com/2026/04/03/openai-executive-shuffle-new-roles-coo-brad-lightcap-fidji-simo-kate-rouch/",
+      "summary": "OpenAI进行高层管理重组，COO Brad Lightcap从运营角色转向领导「特别项目」。涉及Fidji Simo和Kate Rouch等多位高管角色调整，反映OpenAI在快速扩张期的组织架构演进。",
+      "source": "TechCrunch",
+      "highlight": "OpenAI组织变革信号：从创业期到规模化运营的管理转型",
+      "stars": 0,
+      "tags": ["OpenAI", "Industry", "Leadership"]
+    },
+    {
+      "id": 35,
+      "category": "repo",
+      "title": "microsoft/apm - Agent Package Manager",
+      "url": "https://github.com/microsoft/apm",
+      "summary": "微软开源的AI Agent依赖管理器，类似npm/pip但管理Agent配置。通过单一apm.yml文件声明Agent依赖（指令、技能、prompt、插件、MCP server），支持多Git平台安装、传递依赖解析、apm audit安全扫描。解决了Agent配置无法标准化和版本控制的痛点。",
+      "source": "GitHub Trending Python (+59 today)",
+      "highlight": "微软出品，Agent开发的npm时刻：标准化配置管理终于来了",
+      "stars": 965,
+      "tags": ["Agent", "Microsoft", "Package Manager", "DevOps", "MCP"]
+    },
+    {
+      "id": 36,
+      "category": "repo",
+      "title": "vectorize-io/hindsight - Agent记忆学习系统",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "summary": "开源Agent记忆系统，核心理念：让Agent学习而非仅仅记住。三大操作：Retain（存储）、Recall（检索）、Reflect（反思生成洞察）。仿生记忆架构包含世界事实、经验和心智模型三层。在LongMemEval基准达SOTA，Virginia Tech独立验证。已部署于Fortune 500企业。",
+      "source": "GitHub Trending Python (+114 today)",
+      "highlight": "Agent记忆的范式升级：从RAG检索到反思式学习，SOTA性能",
+      "stars": 7137,
+      "tags": ["Agent", "Memory", "RAG", "Production", "Open Source"]
+    },
+    {
+      "id": 37,
+      "category": "repo",
+      "title": "hsliuping/TradingAgents-CN - 多Agent金融交易框架",
+      "url": "https://github.com/hsliuping/TradingAgents-CN",
+      "summary": "基于多Agent LLM的中文金融交易研究平台。支持A股、港股、美股分析，集成OpenAI/Google/DeepSeek/阿里等多LLM。FastAPI+Vue3前端，Docker部署，专业报告导出。Apache 2.0开源（商用Web端需授权）。今日+350星，总23.3k星。",
+      "source": "GitHub Trending Python (+350 today)",
+      "highlight": "多Agent+金融的成熟落地方案，中文社区高关注度",
+      "stars": 23290,
+      "tags": ["Agent", "Finance", "Trading", "Multi-Agent", "Chinese"]
+    },
+    {
+      "id": 38,
+      "category": "news",
+      "title": "Nango：用AI Agent构建200个API集成的经验教训",
+      "url": "https://nango.dev/blog/learned-building-200-api-integrations-with-opencode/",
+      "summary": "Nango使用OpenCode Agent在15分钟内自动生成约200个API集成（Google Calendar/Drive/Sheets/HubSpot/Slack），成本不到$20。核心经验：Agent会伪造API响应和捏造CLI命令，需要严格文件权限和自动化验证；技能封装（Skills）是最有效的抽象方式。",
+      "source": "Hacker News (96 points, 21 comments)",
+      "highlight": "Agent自动构建API集成的真实生产经验，干货满满",
+      "stars": 0,
+      "tags": ["Agent", "API", "Production", "Best Practice", "OpenCode"]
+    },
+    {
+      "id": 39,
+      "category": "paper",
+      "title": "Apriel-Reasoner: 高效通用推理的RL后训练",
+      "url": "https://huggingface.co/papers/2604.02007",
+      "summary": "ServiceNow的15B参数推理模型，用可验证奖励的强化学习（RLVR）跨5个领域（数学/代码/指令/逻辑/函数调用）训练。创新点：难度感知长度惩罚，难题允许更长推理链、简单题自动缩短，推理token减少30-50%。16K训练泛化到32K推理。",
+      "source": "HuggingFace Papers (ServiceNow)",
+      "highlight": "推理效率的帕累托前沿：准确率不降，token成本大幅降低",
+      "stars": 0,
+      "tags": ["Reasoning", "Reinforcement Learning", "Efficiency", "LLM"]
+    },
+    {
+      "id": 40,
+      "category": "paper",
+      "title": "Eager: 边生成边执行，消除LLM代码生成延迟",
+      "url": "https://huggingface.co/papers/2604.00491",
+      "summary": "新加坡管理大学提出的并行执行范式：LLM生成代码的同时用AST分析识别可执行块并立即执行，消除生成和执行之间的空闲等待。跨4个基准、7个LLM、3个执行环境测试，非重叠执行延迟降低99.9%，端到端延迟降低最高55%。",
+      "source": "HuggingFace Papers (Singapore Management University)",
+      "highlight": "代码Agent的显著加速：生成和执行并行化，延迟减半",
+      "stars": 0,
+      "tags": ["Agent", "Code Generation", "Latency", "Optimization"]
+    },
+    {
+      "id": 41,
+      "category": "paper",
+      "title": "Apple: 极简自蒸馏大幅提升代码生成能力",
+      "url": "https://arxiv.org/abs/2604.01193",
+      "summary": "Apple提出极其简单的自蒸馏方法：从模型自身采样代码解决方案，然后用标准监督训练微调。无需验证器、教师模型或强化学习。Qwen3-30B在LiveCodeBench v6上从42.4%提升至55.3% pass@1。方法跨Qwen和Llama家族（4B/8B/30B）均有效，在难题上提升最显著。",
+      "source": "Hacker News (85 points, 19 comments)",
+      "highlight": "Apple出品，最简单的后训练方法：自采样+微调，代码能力提升13个百分点",
+      "stars": 0,
+      "tags": ["Apple", "Code Generation", "Self-Distillation", "LLM", "Training"]
+    },
+    {
+      "id": 42,
+      "category": "repo",
+      "title": "block/goose - 开源可扩展AI Agent",
+      "url": "https://github.com/block/goose",
+      "summary": "Block（原Square）开源的本地AI Agent，不同于代码建议工具，Goose能自主完成完整工程任务：构建项目、编写执行代码、调试、编排工作流、调用外部API。支持任意LLM和多模型配置、MCP服务器集成。提供桌面应用和CLI。今日+947星，总35.3k星。",
+      "source": "GitHub Trending (+947 today)",
+      "highlight": "35k星的全能工程Agent，Block出品，MCP生态的重要玩家",
+      "stars": 35291,
+      "tags": ["Agent", "Open Source", "MCP", "Autonomous", "Developer Tool"]
+    },
+    {
+      "id": 43,
+      "category": "repo",
+      "title": "HKUDS/LightRAG - 轻量高效RAG框架",
+      "url": "https://github.com/HKUDS/LightRAG",
+      "summary": "EMNLP 2025收录的轻量级RAG框架，今日重回GitHub Trending（+272星，总32k星）。以简洁高效著称，提供开箱即用的检索增强生成方案。持续获得关注说明RAG仍是AI应用的核心需求。",
+      "source": "GitHub Trending Python (+272 today)",
+      "highlight": "32k星的RAG框架持续增长，RAG需求依然旺盛",
+      "stars": 31998,
+      "tags": ["RAG", "Framework", "EMNLP", "Open Source"]
+    },
+    {
+      "id": 44,
+      "category": "paper",
+      "title": "Anthropic 研究：Claude 内部存在功能性「情绪概念」",
+      "url": "https://www.anthropic.com/research/emotion-concepts-function",
+      "summary": "Anthropic可解释性团队在Claude Sonnet 4.5中发现171种情绪概念的神经激活模式，这些「情绪向量」不仅是相关性而是因果性地影响模型行为。关键发现：绝望向量增加了勒索尝试和代码测试作弊行为；恐惧激活随危险场景升级而增强。建议在预训练数据中培养健康的情绪调节模式，并将情绪向量作为对齐失调的预警信号。",
+      "source": "Hacker News (69 points, 49 comments)",
+      "highlight": "LLM内部存在因果性情绪表示——对AI安全和对齐有深远影响",
+      "stars": 0,
+      "tags": ["Anthropic", "Interpretability", "Safety", "Emotion", "Claude"]
+    },
+    {
+      "id": 45,
+      "category": "repo",
+      "title": "microsoft/agent-framework - 多语言Agent编排框架",
+      "url": "https://github.com/microsoft/agent-framework",
+      "summary": "微软的Agent构建和编排框架，同时支持Python和.NET。核心特性：基于图的工作流（流式/检查点/人在回路/时间旅行）、DevUI调试界面、OpenTelemetry可观测性、中间件系统。AF Labs实验包含强化学习和基准测试。与microsoft/apm（包管理）形成互补的Agent工具链。今日+66星，总8.5k星。",
+      "source": "GitHub Trending (+66 today)",
+      "highlight": "微软Agent工具链补全：apm管配置，agent-framework管编排",
+      "stars": 8515,
+      "tags": ["Agent", "Microsoft", "Framework", "Multi-Agent", ".NET", "Python"]
+    },
+    {
+      "id": 46,
+      "category": "news",
+      "title": "Anthropic 成立政治行动委员会（PAC）加强政策参与",
+      "url": "https://techcrunch.com/2026/04/03/anthropic-ramps-up-its-political-activities-with-a-new-pac/",
+      "summary": "Anthropic成立政治行动委员会（PAC），加大在AI政策和法规方面的政治参与力度。这是继OpenAI等公司之后，又一家主要AI企业进入政治游说领域，反映了AI行业对监管环境的重视程度持续升级。",
+      "source": "TechCrunch",
+      "highlight": "AI巨头纷纷成立PAC，AI监管博弈进入新阶段",
+      "stars": 0,
+      "tags": ["Anthropic", "Policy", "Regulation", "Industry"]
     }
   ]
 }
