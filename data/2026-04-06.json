@@ -143,6 +143,61 @@
       "highlight": "训练不只调参数还调数据，基于LLaMA-Factory的即插即用方案降低数据优化门槛",
       "stars": 0,
       "tags": ["LLM Training", "Data-Centric", "LLaMA-Factory", "Framework"]
+    },
+    {
+      "id": 14,
+      "category": "tutorial",
+      "title": "Show HN: 9M参数小鱼LLM揭秘语言模型工作原理",
+      "url": "https://github.com/arman-bd/guppylm",
+      "summary": "开发者用9M参数玩具级语言模型（会说话的小鱼角色）演示LLM完整训练流程。Vanilla Transformer（6层384维），60K条合成对话数据，单块T4 GPU仅需5分钟训练完成。提供Colab训练/推理Notebook、本地CLI、HuggingFace预训练权重，可在浏览器部署。核心理念：「训练自己的LLM不是魔法」。HN 283分热度不低。MIT协议。",
+      "source": "Hacker News (283 points)",
+      "highlight": "最佳LLM入门项目：5分钟完成完整训练流程，小模型把Transformer架构讲得透透的",
+      "stars": 381,
+      "tags": ["LLM", "Education", "Transformer", "Tutorial", "Open Source"]
+    },
+    {
+      "id": 15,
+      "category": "paper",
+      "title": "SimpleStream：4帧滑动窗口超越所有复杂记忆流视频方法",
+      "url": "https://huggingface.co/papers/2604.02317",
+      "summary": "LMMs-Lab等机构惊人发现：将最近N帧送入现成VLM的极简滑动窗口基准（SimpleStream）在OVO-Bench和StreamingBench上全面超越已发布的复杂记忆流视频方法。Qwen3-VL-8B + 4帧达OVO-Bench 67.7%，超最强对比HERMES 8.5个百分点，且GPU显存最低延迟最快。核心洞察：复杂记忆机制带来的历史收益通常以损失实时感知为代价，形成系统性「感知-记忆权衡」。",
+      "source": "HuggingFace Papers (30 upvotes, LMMs-Lab)",
+      "highlight": "挑战流视频记忆范式：4帧滑动窗口打败所有复杂设计，提醒学术界先建立强基准再声称进步",
+      "stars": 0,
+      "tags": ["Video Understanding", "VLM", "Streaming", "Benchmark", "Multimodal"]
+    },
+    {
+      "id": 16,
+      "category": "paper",
+      "title": "RLSD：自蒸馏作为RLVR的增强器，解决长期训练不稳定",
+      "url": "https://huggingface.co/papers/2604.03128",
+      "summary": "中科院信息工程所联合京东提出RLSD（RLVR with Self-Distillation）。发现在线策略自蒸馏（OPSD）因仅依赖特权教师信号导致信息泄露和训练不稳定。RLSD的解法：用自蒸馏获得token级策略差异来确定细粒度更新幅度，同时保留RLVR提供可靠稀疏奖励，两者优势互补。核心贡献是找到自蒸馏的最优切入点而非全面替代RLVR。",
+      "source": "HuggingFace Papers (10 upvotes, 中科院信息工程所/京东)",
+      "highlight": "RLVR训练新范式：自蒸馏做辅助信号而非主信号，解决OPSD信息泄露的根本问题",
+      "stars": 0,
+      "tags": ["RLVR", "Self-Distillation", "LLM Training", "Reinforcement Learning"]
+    },
+    {
+      "id": 17,
+      "category": "repo",
+      "title": "badlogic/pi-mono: AI Agent构建工具集与统一LLM API",
+      "url": "https://github.com/badlogic/pi-mono",
+      "summary": "多包Monorepo，核心组件：统一LLM API（支持OpenAI/Anthropic/Google多提供商）、交互式编程Agent CLI（自动化开发任务）、差分渲染终端UI库、AI聊天Web组件、Slack Bot（委托给编程Agent）、vLLM GPU Pod管理工具。架构上每个包相互独立又协同。MIT协议，今日GitHub Trending +355星至32k。目前处于OSS周期内部重构阶段（截至2026-04-13）。",
+      "source": "GitHub Trending (+355 today)",
+      "highlight": "全栈AI Agent工具链：从统一LLM API到编程Agent CLI再到GPU部署管理，一个Monorepo全搞定",
+      "stars": 32000,
+      "tags": ["Agent", "LLM API", "CLI", "Multi-Provider", "Open Source"]
+    },
+    {
+      "id": 18,
+      "category": "repo",
+      "title": "google-ai-edge/LiteRT-LM：Google生产级端侧LLM推理框架（开源）",
+      "url": "https://github.com/google-ai-edge/LiteRT-LM",
+      "summary": "Google开源的高性能端侧LLM推理框架（C++ 76.6%），跨平台支持Android/iOS/Web/桌面/IoT，GPU和NPU硬件加速，多模态（视觉+音频），内置Function Calling支持Agent工作流。已在Chrome、Chromebook Plus和Pixel Watch中实际使用。最新版新增Gemma 4支持，兼容Llama/Phi-4/Qwen系列模型。Apache 2.0协议，今日+124星至1.7k。",
+      "source": "GitHub Trending (+124 today)",
+      "highlight": "Chrome和Pixel Watch背后的端侧AI引擎正式开源，Gemma 4端侧部署的Google官方运行时",
+      "stars": 1700,
+      "tags": ["Edge AI", "LLM Inference", "Google", "On-Device", "C++", "Gemma"]
     }
   ]
 }
