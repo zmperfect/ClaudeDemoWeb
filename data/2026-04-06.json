@@ -198,6 +198,50 @@
       "highlight": "Chrome和Pixel Watch背后的端侧AI引擎正式开源，Gemma 4端侧部署的Google官方运行时",
       "stars": 1700,
       "tags": ["Edge AI", "LLM Inference", "Google", "On-Device", "C++", "Gemma"]
+    },
+    {
+      "id": 19,
+      "category": "tool",
+      "title": "Gemma Gem: 浏览器内运行Gemma 4的Chrome扩展（零云端）",
+      "url": "https://github.com/kessler/gemma-gem",
+      "summary": "Chrome扩展通过WebGPU在浏览器内本地运行Gemma 4模型。无需API密钥，无需云端，数据完全不离开本机。可阅读网页内容、填写表单、点击按钮、执行JavaScript。提供E2B（~500MB）和E4B（~1.5GB）两种模型规格。Apache 2.0协议。",
+      "source": "Hacker News (48 points, Show HN)",
+      "highlight": "Gemma 4生态的极致形态：AI直接住在浏览器里，WebGPU让零部署成为现实",
+      "stars": 67,
+      "tags": ["Gemma", "WebGPU", "Browser", "Chrome Extension", "On-Device AI"]
+    },
+    {
+      "id": 20,
+      "category": "repo",
+      "title": "HKUDS/RAG-Anything: 全模态RAG统一框架",
+      "url": "https://github.com/HKUDS/RAG-Anything",
+      "summary": "港大数据科学团队的全模态RAG框架，一套系统处理文本、图像、表格、公式、图表等混合内容文档。核心创新：多模态知识图谱构建实现跨模态关系发现，混合检索结合向量搜索与图遍历。基于LightRAG和MinerU构建，特别适合学术论文和技术文档场景。",
+      "source": "GitHub Trending (15.3k stars)",
+      "highlight": "RAG不再只能处理纯文本，图表+公式+图像的混合文档终于有了统一解决方案",
+      "stars": 15300,
+      "tags": ["RAG", "Multimodal", "Knowledge Graph", "Document Processing"]
+    },
+    {
+      "id": 21,
+      "category": "repo",
+      "title": "ResearAI/DeepScientist: 本地优先的AI科研工作站",
+      "url": "https://github.com/ResearAI/DeepScientist",
+      "summary": "本地优先的AI科研自动化工作站。从论文/代码仓库/研究问题出发，自动化完整科研流程：复现基线、持续实验（支持分支和消融）、生成图表报告和论文初稿。所有工作组织为Git仓库，过程完全可审查，支持人工随时接管。今日+252星爆发增长。",
+      "source": "GitHub Trending (+252 today)",
+      "highlight": "AI科研从对话式升级为工作站式，Git化管理+人机协作的科研新范式",
+      "stars": 1500,
+      "tags": ["AI Research", "Automation", "Science", "Local-First"]
+    },
+    {
+      "id": 22,
+      "category": "paper",
+      "title": "InCoder-32B-Thinking: 工业级代码世界模型",
+      "url": "https://huggingface.co/papers/2604.03144",
+      "summary": "北航等团队推出的32B工业代码模型，专注芯片设计、GPU优化、嵌入式系统等工业场景。创新点：错误驱动思维链（ECoT）+从领域工具链执行轨迹学习因果动力学的工业代码世界模型。SWE-bench Verified 70.4%，LiveCodeBench v5 81.3%，CAD-Coder 84.0%达开源SOTA。",
+      "source": "HuggingFace Papers (Beihang University, IQuest Research)",
+      "highlight": "代码模型走进工业深水区：芯片设计+GPU优化场景的专用思维链，SWE-bench 70.4%",
+      "stars": 0,
+      "tags": ["Code Model", "Industrial", "Chip Design", "SWE-bench", "Thinking"]
     }
   ]
 }
