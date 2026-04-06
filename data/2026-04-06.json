@@ -128,7 +128,7 @@
       "title": "Agentic-MME: 多模态Agent能力的过程验证基准",
       "url": "https://huggingface.co/papers/2604.03016",
       "summary": "CASIA等8所高校联合推出的多模态Agent基准，包含418个真实世界任务，6个领域3个难度等级，2000+步骤级检查点（每个任务平均10+人时标注）。首次系统评估视觉工具使用和网络搜索的协同效应，采用双轴过程级验证而非仅看最终答案。",
-      "source": "HuggingFace Papers (CASIA, PKU, NJU, UCLA等)",
+      "source": "HuggingFace Papers (18 upvotes, CASIA, PKU, NJU, UCLA等)",
       "highlight": "Agent评测从结果转向过程，2000+检查点的精细评估揭示「怎么做」比「做没做到」更重要",
       "stars": 0,
       "tags": ["Benchmark", "Multimodal", "Agent", "Process Verification"]
@@ -161,7 +161,7 @@
       "title": "SimpleStream：4帧滑动窗口超越所有复杂记忆流视频方法",
       "url": "https://huggingface.co/papers/2604.02317",
       "summary": "LMMs-Lab等机构惊人发现：将最近N帧送入现成VLM的极简滑动窗口基准（SimpleStream）在OVO-Bench和StreamingBench上全面超越已发布的复杂记忆流视频方法。Qwen3-VL-8B + 4帧达OVO-Bench 67.7%，超最强对比HERMES 8.5个百分点，且GPU显存最低延迟最快。核心洞察：复杂记忆机制带来的历史收益通常以损失实时感知为代价，形成系统性「感知-记忆权衡」。",
-      "source": "HuggingFace Papers (30 upvotes, LMMs-Lab)",
+      "source": "HuggingFace Papers (47 upvotes, LMMs-Lab)",
       "highlight": "挑战流视频记忆范式：4帧滑动窗口打败所有复杂设计，提醒学术界先建立强基准再声称进步",
       "stars": 0,
       "tags": ["Video Understanding", "VLM", "Streaming", "Benchmark", "Multimodal"]
@@ -172,7 +172,7 @@
       "title": "RLSD：自蒸馏作为RLVR的增强器，解决长期训练不稳定",
       "url": "https://huggingface.co/papers/2604.03128",
       "summary": "中科院信息工程所联合京东提出RLSD（RLVR with Self-Distillation）。发现在线策略自蒸馏（OPSD）因仅依赖特权教师信号导致信息泄露和训练不稳定。RLSD的解法：用自蒸馏获得token级策略差异来确定细粒度更新幅度，同时保留RLVR提供可靠稀疏奖励，两者优势互补。核心贡献是找到自蒸馏的最优切入点而非全面替代RLVR。",
-      "source": "HuggingFace Papers (10 upvotes, 中科院信息工程所/京东)",
+      "source": "HuggingFace Papers (14 upvotes, 中科院信息工程所/京东)",
       "highlight": "RLVR训练新范式：自蒸馏做辅助信号而非主信号，解决OPSD信息泄露的根本问题",
       "stars": 0,
       "tags": ["RLVR", "Self-Distillation", "LLM Training", "Reinforcement Learning"]
@@ -238,10 +238,65 @@
       "title": "InCoder-32B-Thinking: 工业级代码世界模型",
       "url": "https://huggingface.co/papers/2604.03144",
       "summary": "北航等团队推出的32B工业代码模型，专注芯片设计、GPU优化、嵌入式系统等工业场景。创新点：错误驱动思维链（ECoT）+从领域工具链执行轨迹学习因果动力学的工业代码世界模型。SWE-bench Verified 70.4%，LiveCodeBench v5 81.3%，CAD-Coder 84.0%达开源SOTA。",
-      "source": "HuggingFace Papers (Beihang University, IQuest Research)",
+      "source": "HuggingFace Papers (4 upvotes, Beihang University, IQuest Research)",
       "highlight": "代码模型走进工业深水区：芯片设计+GPU优化场景的专用思维链，SWE-bench 70.4%",
       "stars": 0,
       "tags": ["Code Model", "Industrial", "Chip Design", "SWE-bench", "Thinking"]
+    },
+    {
+      "id": 23,
+      "category": "repo",
+      "title": "fikrikarim/parlor: 本地实时多模态AI对话（Gemma 4 + 语音）",
+      "url": "https://github.com/fikrikarim/parlor",
+      "summary": "开源本地实时多模态AI对话应用，结合Gemma 4 E2B进行视觉+语音理解和Kokoro TTS语音合成。M3 Pro上端到端延迟约2.5-3秒，支持免提语音唤醒、中途打断、流式音频输出。完全本地运行，需Python 3.12+、Apple Silicon或GPU、约3GB内存。HN 127分。",
+      "source": "Hacker News (127 points) / GitHub (393 stars)",
+      "highlight": "Gemma 4最酷的实际应用：对着摄像头说话就能获得AI实时语音回复，完全离线",
+      "stars": 393,
+      "tags": ["Gemma", "Voice AI", "Multimodal", "Real-Time", "On-Device"]
+    },
+    {
+      "id": 24,
+      "category": "repo",
+      "title": "abhigyanpatwari/GitNexus: 代码知识图谱+MCP智能索引引擎",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "summary": "客户端代码智能引擎，将任意代码仓库索引为知识图谱，暴露16个MCP工具供AI Agent查询依赖关系、调用链、影响半径。支持Claude Code、Cursor、Codex、Windsurf等工具的MCP集成。另提供浏览器端图形化探索界面。基于Tree-sitter解析，完全本地运行。今日+837星至22.9k。",
+      "source": "GitHub Trending (+837 today)",
+      "highlight": "让AI Agent真正「看懂」代码结构：知识图谱+MCP的代码智能新范式，改一行不漏一处",
+      "stars": 22900,
+      "tags": ["MCP", "Code Intelligence", "Knowledge Graph", "Developer Tool", "Agent"]
+    },
+    {
+      "id": 25,
+      "category": "repo",
+      "title": "KeygraphHQ/shannon: 自主AI渗透测试Agent",
+      "url": "https://github.com/KeygraphHQ/shannon",
+      "summary": "自主白盒AI渗透测试工具，分析Web应用源码识别攻击面，然后执行真实漏洞利用验证。仅报告有工作PoC的已确认漏洞。覆盖OWASP漏洞（注入/XSS/SSRF/认证绕过），支持2FA/TOTP自动处理。核心定位：「你的团队用AI工具不停发代码，但渗透测试一年才做一次」。AGPL-3.0开源+商业Pro版。",
+      "source": "GitHub Trending (+703 today, 36k stars)",
+      "highlight": "AI时代的安全守门人：代码出得快，漏洞也出得快，Shannon让渗透测试跟上AI开发速度",
+      "stars": 36000,
+      "tags": ["Security", "Pentesting", "Agent", "OWASP", "DevSecOps"]
+    },
+    {
+      "id": 26,
+      "category": "repo",
+      "title": "NVIDIA/PersonaPlex: 实时全双工语音对语音AI（支持人格控制）",
+      "url": "https://github.com/NVIDIA/personaplex",
+      "summary": "NVIDIA开源的实时全双工语音对语音对话模型，通过文本角色提示和音频声音条件实现人格控制。支持助手和客服等多种角色，低延迟自然语音交互。基于Moshi架构构建，可自定义语音和对话风格。今日+295星至7k。",
+      "source": "GitHub Trending (+295 today)",
+      "highlight": "NVIDIA入局语音AI：全双工+人格控制+低延迟，企业级语音Agent的基础设施",
+      "stars": 7000,
+      "tags": ["Voice AI", "NVIDIA", "Speech-to-Speech", "Real-Time", "Persona"]
+    },
+    {
+      "id": 27,
+      "category": "tool",
+      "title": "Modo: 开源AI IDE，先规划再编码的Spec驱动开发",
+      "url": "https://github.com/mohshomis/modo",
+      "summary": "基于Void编辑器（VS Code分支）的开源AI IDE，定位Kiro/Cursor/Windsurf的开源替代。核心差异化：Spec驱动工作流（prompt→需求→设计→任务→代码），而非直接prompt-to-code。支持Task CodeLens、Steering Files、Agent Hooks、自驾/监督模式切换、并行会话、子Agent。MIT协议。HN 64分。",
+      "source": "Hacker News (64 points, Show HN)",
+      "highlight": "AI IDE的新思路：不是更快地写代码，而是先把需求和设计想清楚再写",
+      "stars": 72,
+      "tags": ["AI IDE", "Open Source", "Spec-Driven", "VS Code", "Agent"]
     }
   ]
 }
