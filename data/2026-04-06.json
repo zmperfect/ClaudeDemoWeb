@@ -1,0 +1,148 @@
+{
+  "date": "2026-04-06",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "Gemma 4 登陆 iPhone：Google AI Edge Gallery 上架 App Store",
+      "url": "https://apps.apple.com/nl/app/google-ai-edge-gallery/id6749645337",
+      "summary": "Google AI Edge Gallery应用上架App Store，将Gemma 4模型带到iPhone上实现本地推理。支持多轮对话（含思维链）、图像理解、实时语音转写翻译，100%本地处理无需联网。HN 437分119评论，标志着端侧AI从概念走向大规模消费级部署。",
+      "source": "Hacker News (437 points, 119 comments)",
+      "highlight": "Gemma 4上手机是端侧AI里程碑，Google官方应用让普通用户零门槛体验本地大模型",
+      "stars": 0,
+      "tags": ["Gemma", "On-Device AI", "Google", "iOS", "Mobile"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "八年构想三个月实现：AI编程Agent的力量与边界",
+      "url": "https://lalitm.com/post/building-syntaqlite-ai/",
+      "summary": "开发者Lalit Maganti用AI Agent三个月完成了构想八年的SQLite开发工具套件syntaqlite（解析器+格式化+Linter+语言服务器，400+语法规则）。核心洞察：「AI是实现的超级力量放大器，但它是设计的危险替代品」。曾因过度vibe-coding浪费一个月后完全重写。HN 631分、204评论。",
+      "source": "Hacker News (631 points, 204 comments)",
+      "highlight": "今日HN最热文章，AI辅助开发的最佳实践与深刻反思并存",
+      "stars": 0,
+      "tags": ["AI Coding", "Developer Experience", "Agent", "Reflection"]
+    },
+    {
+      "id": 3,
+      "category": "tutorial",
+      "title": "本地运行 Gemma 4：LM Studio Headless CLI + Claude Code 集成",
+      "url": "https://ai.georgeliu.com/p/running-google-gemma-4-locally-with",
+      "summary": "详细教程展示如何在macOS上用LM Studio 0.4.0 headless CLI本地运行Gemma 4 26B MoE模型。虽然总参数26B，但每次前向传播仅激活4B参数，M4 Pro上达到51 tokens/sec。可通过shell alias集成Claude Code实现完全离线AI编程。HN 200分。",
+      "source": "Hacker News (200 points, 54 comments)",
+      "highlight": "Gemma 4本地部署实操指南，51 tok/s的性能让MoE模型在消费级硬件上可用",
+      "stars": 0,
+      "tags": ["Gemma", "Local LLM", "LM Studio", "Tutorial", "MoE"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "日本证明实验性物理AI已准备好进入现实世界",
+      "url": "https://techcrunch.com/2026/04/05/japan-is-proving-experimental-physical-ai-is-ready-for-the-real-world/",
+      "summary": "TechCrunch报道日本正在大规模部署物理AI机器人应对严重的劳动力短缺。机器人不是替代现有工人，而是填补无人愿做的岗位。Salesforce Ventures、Woven Capital等投资者积极参与。老龄化社会驱动的实用主义路线，让日本成为物理AI落地的先行者。",
+      "source": "TechCrunch / Hacker News (125 points, 133 comments)",
+      "highlight": "物理AI从实验走向现实，日本的人口结构困境催生了最佳落地场景",
+      "stars": 0,
+      "tags": ["Physical AI", "Robotics", "Japan", "Labor", "Deployment"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "Microsoft Copilot服务条款标注「仅供娱乐用途」",
+      "url": "https://techcrunch.com/2026/04/05/copilot-is-for-entertainment-purposes-only-according-to-microsofts-terms-of-service/",
+      "summary": "TechCrunch揭露Microsoft在Copilot服务条款中将其定义为「仅供娱乐用途」，与其作为严肃生产力工具的市场定位形成鲜明矛盾。AI公司一边大力推广高级能力，一边在法律文件中明确免责，反映了整个行业在可靠性和责任归属上的深层困境。",
+      "source": "TechCrunch",
+      "highlight": "AI行业信任问题的缩影：营销说「革命性生产力」，法律说「仅供娱乐」",
+      "stars": 0,
+      "tags": ["Microsoft", "Copilot", "Trust", "Legal", "Industry"]
+    },
+    {
+      "id": 6,
+      "category": "repo",
+      "title": "NousResearch/hermes-agent: 自我进化的AI Agent框架",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "summary": "Nous Research推出的自我进化Agent框架，核心特色是内置学习循环：从经验中创建技能、使用中改进、跨会话持久记忆。支持CLI/Telegram/Discord/Slack/WhatsApp多平台，兼容Nous Portal/OpenRouter/OpenAI/Anthropic等后端。MIT协议，271+贡献者。今日+1251星爆发增长。",
+      "source": "GitHub Trending (+1,251 today)",
+      "highlight": "「与你一起成长的Agent」，自我进化+多平台+持久记忆的完整Agent方案",
+      "stars": 26500,
+      "tags": ["Agent", "Self-Improving", "Multi-Platform", "NousResearch", "Open Source"]
+    },
+    {
+      "id": 7,
+      "category": "repo",
+      "title": "block/goose: 开源自主AI Agent（Rust构建）",
+      "url": "https://github.com/block/goose",
+      "summary": "Block（前Square）开源的AI Agent，不仅是代码建议，能自主构建完整项目、编写执行代码、调试故障、编排工作流、调用外部API。Rust核心（58%）+TypeScript（34%），支持任意LLM和MCP服务器集成。Apache 2.0协议。今日+882星至37.1k。",
+      "source": "GitHub Trending (+882 today)",
+      "highlight": "37k星的开源Agent标杆，Rust性能+MCP生态+任意LLM后端的完美组合",
+      "stars": 37100,
+      "tags": ["Agent", "Rust", "MCP", "Open Source", "Block"]
+    },
+    {
+      "id": 8,
+      "category": "repo",
+      "title": "onyx-dot-app/onyx: 开源AI平台（RAG+Agent+多LLM）",
+      "url": "https://github.com/onyx-dot-app/onyx",
+      "summary": "全功能开源AI平台，提供RAG增强聊天、深度研究报告、自定义AI Agent、网页浏览、代码沙箱执行、语音交互等能力。支持所有主流LLM提供商（自托管+商业）。社区版MIT协议，企业版提供SSO/RBAC/分析等。今日+998星至25.1k。",
+      "source": "GitHub Trending (+998 today)",
+      "highlight": "一站式AI平台开源方案，RAG+Agent+代码执行全覆盖，企业可直接部署",
+      "stars": 25100,
+      "tags": ["RAG", "Agent", "Platform", "Open Source", "Enterprise"]
+    },
+    {
+      "id": 9,
+      "category": "repo",
+      "title": "Blaizzy/mlx-vlm: Apple Silicon上的多模态VLM推理与微调",
+      "url": "https://github.com/Blaizzy/mlx-vlm",
+      "summary": "基于Apple MLX框架的视觉语言模型推理和微调工具包。支持图像/音频/视频多模态输入，提供CLI、Gradio聊天UI、Python API和OpenAI兼容的FastAPI服务器。针对Apple Silicon优化，支持视觉特征缓存和KV缓存量化。今日+416星至约4k。",
+      "source": "GitHub Trending (+416 today)",
+      "highlight": "Mac用户本地跑VLM的最佳选择，MLX生态持续壮大",
+      "stars": 3951,
+      "tags": ["VLM", "Apple Silicon", "MLX", "Multimodal", "Local Inference"]
+    },
+    {
+      "id": 10,
+      "category": "repo",
+      "title": "microsoft/agent-framework: 微软官方AI Agent编排框架",
+      "url": "https://github.com/microsoft/agent-framework",
+      "summary": "微软开源的AI Agent构建、编排和部署框架，支持Python和.NET双语言。核心特性：图结构工作流（支持流式和检查点）、OpenTelemetry可观测性、中间件系统、多LLM提供商支持。含交互式DevUI调试工具和实验性RL/基准测试功能。今日+278星至8.9k。",
+      "source": "GitHub Trending (+278 today)",
+      "highlight": "微软官方Agent框架，图结构编排+Python/.NET双语言是企业级Agent的标准答案",
+      "stars": 8907,
+      "tags": ["Agent", "Microsoft", "Framework", "Multi-Agent", "Enterprise"]
+    },
+    {
+      "id": 11,
+      "category": "paper",
+      "title": "AgentHazard: 计算机使用Agent的安全性基准测试",
+      "url": "https://huggingface.co/papers/2604.02947",
+      "summary": "阿里巴巴和复旦大学推出的Agent安全基准，包含2,653个测试实例，覆盖10种风险类别和10种攻击策略。关键发现：使用Qwen3-Coder时，Claude Code的攻击成功率达73.63%；Guard模型仅能检测不到27%的有害轨迹。证明了模型对齐本身不能保证Agent级安全。",
+      "source": "HuggingFace Papers (Alibaba, Fudan University)",
+      "highlight": "Agent安全的里程碑工作：73%攻击成功率揭示了当前Agent系统的严重安全隐患",
+      "stars": 0,
+      "tags": ["Agent Safety", "Benchmark", "Security", "Alibaba", "Claude Code"]
+    },
+    {
+      "id": 12,
+      "category": "paper",
+      "title": "Agentic-MME: 多模态Agent能力的过程验证基准",
+      "url": "https://huggingface.co/papers/2604.03016",
+      "summary": "CASIA等8所高校联合推出的多模态Agent基准，包含418个真实世界任务，6个领域3个难度等级，2000+步骤级检查点（每个任务平均10+人时标注）。首次系统评估视觉工具使用和网络搜索的协同效应，采用双轴过程级验证而非仅看最终答案。",
+      "source": "HuggingFace Papers (CASIA, PKU, NJU, UCLA等)",
+      "highlight": "Agent评测从结果转向过程，2000+检查点的精细评估揭示「怎么做」比「做没做到」更重要",
+      "stars": 0,
+      "tags": ["Benchmark", "Multimodal", "Agent", "Process Verification"]
+    },
+    {
+      "id": 13,
+      "category": "paper",
+      "title": "DataFlex: 数据驱动的LLM动态训练统一框架",
+      "url": "https://huggingface.co/papers/2603.26164",
+      "summary": "北京大学和上海AI实验室团队基于LLaMA-Factory构建的数据中心化动态训练框架。统一支持三大范式：动态样本选择、领域混合调整、样本重加权。可作为标准LLM训练的即插即用替代，不仅优化模型参数还同时优化训练数据组成。172赞持续增长。",
+      "source": "HuggingFace Papers (172 upvotes, Peking University)",
+      "highlight": "训练不只调参数还调数据，基于LLaMA-Factory的即插即用方案降低数据优化门槛",
+      "stars": 0,
+      "tags": ["LLM Training", "Data-Centric", "LLaMA-Factory", "Framework"]
+    }
+  ]
+}
