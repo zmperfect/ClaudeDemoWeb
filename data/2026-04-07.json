@@ -117,7 +117,7 @@
       "title": "GrandCode: 首个在实时Codeforces竞赛中击败所有人类的AI系统",
       "url": "https://huggingface.co/papers/2604.02721",
       "summary": "DeepReinforce团队推出的多Agent RL系统GrandCode，是首个在实时编程竞赛中持续击败所有人类参赛者的AI。在2026年3月连续三场Codeforces实时比赛（Round 1087-1089）中均获得第一名，超越所有传奇Grandmaster。创新点：Agentic GRPO算法处理多阶段Agent rollout的延迟奖励和离策略漂移问题。",
-      "source": "HuggingFace Papers (6 upvotes, DeepReinforce)",
+      "source": "HuggingFace Papers (23 upvotes, DeepReinforce)",
       "highlight": "继围棋之后又一个AI彻底超越人类的领域：竞赛编程的AlphaGo时刻",
       "stars": 0,
       "tags": ["Competitive Programming", "RL", "Agent", "Codeforces", "Milestone"]
@@ -128,7 +128,7 @@
       "title": "T²T Scaling Laws: 测试时缩放使过度训练变得计算最优",
       "url": "https://huggingface.co/papers/2604.01411",
       "summary": "威斯康星大学和斯坦福联合提出Train-to-Test（T²T）缩放定律，在固定端到端预算下联合优化模型大小、训练token数和推理采样数。核心发现：当考虑推理成本时，最优预训练策略会激进地转向过度训练区间，远超Chinchilla缩放定律建议的范围。结果在8个下游任务上验证，且经过后训练阶段仍然成立。",
-      "source": "HuggingFace Papers (15 upvotes, UW-Madison/Stanford)",
+      "source": "HuggingFace Papers (17 upvotes, UW-Madison/Stanford)",
       "highlight": "颠覆Chinchilla定律：考虑推理成本后，「训练过度」反而是最优策略",
       "stars": 0,
       "tags": ["Scaling Laws", "LLM Training", "Inference", "Compute Optimal"]
@@ -139,10 +139,87 @@
       "title": "RLSD自蒸馏强化学习：从14赞飙升至85赞的训练新范式",
       "url": "https://huggingface.co/papers/2604.03128",
       "summary": "中科院信息工程所和京东提出的RLSD（RLVR + Self-Distillation）论文热度持续爆发，从昨日14赞飙升至85赞。用自蒸馏获得token级更新幅度+RLVR提供可靠奖励方向的组合策略，解决了在线策略自蒸馏的信息泄露和训练不稳定问题。收敛速度比GRPO快一倍。",
-      "source": "HuggingFace Papers (85 upvotes, 中科院/京东)",
+      "source": "HuggingFace Papers (101 upvotes, 中科院/京东)",
       "highlight": "从14赞到85赞的爆发增长验证了社区共识：自蒸馏+RL的融合是LLM训练的下一个范式",
       "stars": 0,
       "tags": ["RLVR", "Self-Distillation", "LLM Training", "Reinforcement Learning"]
+    },
+    {
+      "id": 14,
+      "category": "news",
+      "title": "Sam Altman深度人物特写：《纽约客》万字长文揭示OpenAI内幕",
+      "url": "https://www.newyorker.com/magazine/2026/04/13/sam-altman-is-not-an-artist",
+      "summary": "《纽约客》发布对Sam Altman的深度人物特写，标题「Sam Altman Is Not an Artist」。文章通过大量内部人士采访和第一手观察，描绘了这位AI时代最具争议CEO的矛盾形象：既是技术乐观主义者又是商业实用主义者。HN 1207分引发关于AI行业领导力的广泛讨论。",
+      "source": "Hacker News (1207 points, 659 comments)",
+      "highlight": "年度级别的科技人物特写，HN千分热帖揭示AI行业权力核心的真实面貌",
+      "stars": 0,
+      "tags": ["Sam Altman", "OpenAI", "Profile", "AI Industry", "Leadership"]
+    },
+    {
+      "id": 15,
+      "category": "tool",
+      "title": "Caveman: 让Claude Code用「洞穴人语法」思考以节省token",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "summary": "巧妙的Claude Code自定义技能，强制AI用简化的「洞穴人」语法进行内部推理（如「file big. need split. function do too much」），大幅减少思维token消耗。实测可节省50-70% token用量。在Claude Code质量回归讨论中被大量引用作为对策。HN 867分，GitHub 4.5k星。",
+      "source": "Hacker News (867 points, 306 comments)",
+      "highlight": "用最原始的方式解决最前沿的问题：洞穴人语法成为Claude Code社区最热门的优化技巧",
+      "stars": 4500,
+      "tags": ["Claude Code", "Token Optimization", "Developer Tool", "Anthropic"]
+    },
+    {
+      "id": 16,
+      "category": "repo",
+      "title": "Netflix/void-model: Netflix开源视频对象修复扩散模型",
+      "url": "https://github.com/Netflix/void-model",
+      "summary": "Netflix开源的视频对象修复（Video Object Inpainting Diffusion）模型，可从视频中无痕移除任意对象并自然填充背景。基于扩散模型架构，支持时间一致性的高质量视频修复。这是Netflix首次在生成式AI领域的重要开源贡献。HN 134分。",
+      "source": "Hacker News (134 points) / GitHub",
+      "highlight": "Netflix入局开源AI：视频修复模型展示了大厂在生成式视频领域的技术积累",
+      "stars": 0,
+      "tags": ["Netflix", "Video Inpainting", "Diffusion Model", "Open Source", "Computer Vision"]
+    },
+    {
+      "id": 17,
+      "category": "repo",
+      "title": "kepano/obsidian-skills: 为Obsidian打造的Agent技能系统",
+      "url": "https://github.com/kepano/obsidian-skills",
+      "summary": "Obsidian创始人kepano开源的Agent技能集合，让AI助手能够深度操作Obsidian知识库。包含笔记搜索、创建、链接分析、模板应用等技能。设计为可组合的原子操作，支持任意MCP兼容的AI客户端调用。今日+429星至20.9k。",
+      "source": "GitHub Trending (+429 today)",
+      "highlight": "知识管理×AI Agent的标杆项目：Obsidian创始人亲自定义AI如何操作你的第二大脑",
+      "stars": 20900,
+      "tags": ["Obsidian", "Agent Skills", "MCP", "Knowledge Management", "PKM"]
+    },
+    {
+      "id": 18,
+      "category": "paper",
+      "title": "MinerU2.5-Pro: 端到端文档解析统一模型（51赞爆款）",
+      "url": "https://huggingface.co/papers/2604.04771",
+      "summary": "上海AI Lab等提出MinerU2.5-Pro，首个将OCR、版面分析、表格识别、公式识别统一到单一视觉-语言模型的端到端文档解析方案。在11个基准测试中达到SOTA，处理速度比传统管线快3倍。支持100+语言，已在HuggingFace开放权重。今日51赞成为热门。",
+      "source": "HuggingFace Papers (51 upvotes, Shanghai AI Lab)",
+      "highlight": "文档解析的GPT时刻：一个模型替代整条OCR管线，100+语言SOTA",
+      "stars": 0,
+      "tags": ["Document Parsing", "OCR", "VLM", "End-to-End", "Multilingual"]
+    },
+    {
+      "id": 19,
+      "category": "paper",
+      "title": "OpenWorldLib: 统一世界模型基准库（47赞）",
+      "url": "https://huggingface.co/papers/2604.04707",
+      "summary": "清华等提出OpenWorldLib，首个统一评测世界模型（World Models）的开源基准库。覆盖视频预测、物理仿真、3D场景理解、机器人规划四大领域，提供标准化的数据加载、模型接口和评估指标。旨在解决世界模型研究领域缺乏统一基准的碎片化问题。",
+      "source": "HuggingFace Papers (47 upvotes, Tsinghua)",
+      "highlight": "世界模型研究的ImageNet时刻：统一基准终于来了，加速物理AI的可比较进展",
+      "stars": 0,
+      "tags": ["World Models", "Benchmark", "Physical AI", "Simulation", "Robotics"]
+    },
+    {
+      "id": 20,
+      "category": "tool",
+      "title": "Hippo Memory: 长期记忆Agent框架（受海马体启发）",
+      "url": "https://github.com/kitfunso/hippo-memory",
+      "summary": "受人类海马体记忆机制启发的AI Agent长期记忆框架。实现记忆的编码、巩固、检索和遗忘四阶段管理，支持情景记忆和语义记忆的分离存储。通过重要性评分和时间衰减实现自然的记忆管理。可作为任何LLM Agent的即插即用记忆模块。HN 80分。",
+      "source": "Hacker News (80 points)",
+      "highlight": "从神经科学到工程实现：海马体启发的记忆框架让Agent真正拥有「遗忘的智慧」",
+      "stars": 0,
+      "tags": ["Agent Memory", "Neuroscience-Inspired", "Long-term Memory", "LLM Agent"]
     }
   ]
 }
