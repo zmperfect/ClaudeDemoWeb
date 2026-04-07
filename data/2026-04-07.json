@@ -7,7 +7,7 @@
       "title": "Claude Code「复杂工程任务不可用」：6852次会话数据驱动的质量回归分析",
       "url": "https://github.com/anthropics/claude-code/issues/42796",
       "summary": "用户对6,852次Claude Code会话进行量化分析，发现质量回归与思维token遮蔽机制上线强相关。Read:Edit比从6.6暴跌至2.0（下降70%），未读文件编辑率从6.2%飙升至33.7%，API成本暴增122倍。用户中断率增加12倍，推理循环增加3倍。此前曾在一个周末合并19.1万行代码的多Agent工作流变得完全不可用。",
-      "source": "Hacker News (770 points, 471 comments)",
+      "source": "Hacker News (1167 points, 637 comments)",
       "highlight": "数据驱动的硬核分析揭示AI工具质量衰退，对所有AI编程工具用户都是重要警示",
       "stars": 0,
       "tags": ["Claude Code", "Anthropic", "Quality", "Regression", "AI Coding"]
@@ -51,7 +51,7 @@
       "title": "AI歌手「Eddie Dalton」占据iTunes单曲榜11个位置",
       "url": "https://www.showbiz411.com/2026/04/05/itunes-takeover-by-fake-ai-singer-eddie-dalton-now-occupies-eleven-spots-on-chart-despite-not-being-human-or-real-exclusive",
       "summary": "一个完全由AI生成的虚拟音乐人「Eddie Dalton」同时占据iTunes单曲榜11个位置，专辑排名第3。这位不存在的「歌手」引发了关于AI内容在商业创意市场中角色的激烈讨论，凸显了AI对传统内容产业的颠覆性冲击。HN 110分。",
-      "source": "Hacker News (110 points, 131 comments)",
+      "source": "Hacker News (211 points, 330 comments)",
       "highlight": "AI音乐的iPhone时刻：当虚拟歌手霸榜iTunes，音乐产业的游戏规则彻底改变",
       "stars": 0,
       "tags": ["AI Music", "Generative AI", "Creative Industry", "iTunes"]
@@ -62,7 +62,7 @@
       "title": "Ghost Pepper: macOS本地语音转文字（WhisperKit + 完全离线）",
       "url": "https://github.com/matthartman/ghost-pepper",
       "summary": "macOS菜单栏应用，使用WhisperKit + LLM.swift实现100%本地语音转文字。按住Control录音，松开即转录并粘贴到当前应用。支持多种Whisper模型大小选择，无需云端API，数据完全不离开本机。HN 242分。MIT协议。",
-      "source": "Hacker News (242 points, 103 comments)",
+      "source": "Hacker News (411 points, 185 comments)",
       "highlight": "语音输入的最佳体验：按住说话松手粘贴，完全本地无隐私顾虑",
       "stars": 606,
       "tags": ["Speech-to-Text", "macOS", "Whisper", "Privacy", "Local AI"]
@@ -73,7 +73,7 @@
       "title": "Freestyle: AI编程Agent专用沙箱基础设施",
       "url": "https://www.freestyle.sh/",
       "summary": "为AI编程Agent设计的托管基础设施平台，提供完整Linux VM（非容器）、实时Fork（毫秒级克隆运行中的VM）、暂停/恢复、集成Git。VM配置时间低于700ms，支持数千并发Agent。Y Combinator和Two Sigma Ventures投资。HN Launch 207分。",
-      "source": "Hacker News (207 points, Launch HN)",
+      "source": "Hacker News (291 points, 149 comments)",
       "highlight": "AI Agent时代的AWS：700ms启动VM+实时Fork，为Agent工作流量身定制的基础设施",
       "stars": 0,
       "tags": ["Agent Infrastructure", "Sandbox", "VM", "YC", "Developer Tool"]
@@ -106,9 +106,9 @@
       "title": "tobi/qmd: 本地优先的文档搜索引擎（BM25+向量+LLM重排）",
       "url": "https://github.com/tobi/qmd",
       "summary": "本地运行的文档和知识库CLI搜索引擎，结合BM25全文搜索、向量语义搜索和LLM重排序三重机制。通过node-llama-cpp使用GGUF模型完全离线运行。支持作为MCP服务器供AI Agent（如Claude Desktop）集成使用。今日+394星至18.8k。",
-      "source": "GitHub Trending (+394 today)",
+      "source": "GitHub Trending (+859 today)",
       "highlight": "三重搜索机制+MCP集成+完全离线，个人知识库的终极搜索解决方案",
-      "stars": 18801,
+      "stars": 19196,
       "tags": ["Search", "Local-First", "MCP", "Knowledge Base", "CLI"]
     },
     {
@@ -150,7 +150,7 @@
       "title": "Sam Altman深度人物特写：《纽约客》万字长文揭示OpenAI内幕",
       "url": "https://www.newyorker.com/magazine/2026/04/13/sam-altman-is-not-an-artist",
       "summary": "《纽约客》发布对Sam Altman的深度人物特写，标题「Sam Altman Is Not an Artist」。文章通过大量内部人士采访和第一手观察，描绘了这位AI时代最具争议CEO的矛盾形象：既是技术乐观主义者又是商业实用主义者。HN 1207分引发关于AI行业领导力的广泛讨论。",
-      "source": "Hacker News (1207 points, 659 comments)",
+      "source": "Hacker News (1541 points, 622 comments)",
       "highlight": "年度级别的科技人物特写，HN千分热帖揭示AI行业权力核心的真实面貌",
       "stars": 0,
       "tags": ["Sam Altman", "OpenAI", "Profile", "AI Industry", "Leadership"]
@@ -194,7 +194,7 @@
       "title": "MinerU2.5-Pro: 端到端文档解析统一模型（51赞爆款）",
       "url": "https://huggingface.co/papers/2604.04771",
       "summary": "上海AI Lab等提出MinerU2.5-Pro，首个将OCR、版面分析、表格识别、公式识别统一到单一视觉-语言模型的端到端文档解析方案。在11个基准测试中达到SOTA，处理速度比传统管线快3倍。支持100+语言，已在HuggingFace开放权重。今日51赞成为热门。",
-      "source": "HuggingFace Papers (51 upvotes, Shanghai AI Lab)",
+      "source": "HuggingFace Papers (86 upvotes, Shanghai AI Lab/OpenDataLab)",
       "highlight": "文档解析的GPT时刻：一个模型替代整条OCR管线，100+语言SOTA",
       "stars": 0,
       "tags": ["Document Parsing", "OCR", "VLM", "End-to-End", "Multilingual"]
@@ -205,7 +205,7 @@
       "title": "OpenWorldLib: 统一世界模型基准库（47赞）",
       "url": "https://huggingface.co/papers/2604.04707",
       "summary": "清华等提出OpenWorldLib，首个统一评测世界模型（World Models）的开源基准库。覆盖视频预测、物理仿真、3D场景理解、机器人规划四大领域，提供标准化的数据加载、模型接口和评估指标。旨在解决世界模型研究领域缺乏统一基准的碎片化问题。",
-      "source": "HuggingFace Papers (47 upvotes, Tsinghua)",
+      "source": "HuggingFace Papers (367 upvotes, Peking University)",
       "highlight": "世界模型研究的ImageNet时刻：统一基准终于来了，加速物理AI的可比较进展",
       "stars": 0,
       "tags": ["World Models", "Benchmark", "Physical AI", "Simulation", "Robotics"]
@@ -220,6 +220,61 @@
       "highlight": "从神经科学到工程实现：海马体启发的记忆框架让Agent真正拥有「遗忘的智慧」",
       "stars": 0,
       "tags": ["Agent Memory", "Neuroscience-Inspired", "Long-term Memory", "LLM Agent"]
+    },
+    {
+      "id": 21,
+      "category": "repo",
+      "title": "abhigyanpatwari/GitNexus: 零服务器代码知识图谱引擎（+1174星爆发）",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "summary": "完全客户端运行的代码知识图谱引擎，将代码库索引为交互式图结构。提供16个MCP工具（混合搜索、爆炸半径检测、跨仓库查询），支持Cursor/Claude Code/Codex等AI编辑器集成。Web UI基于WebAssembly零服务器运行。可自动生成仓库专属Agent技能和Hook。今日+1174星至24.1k，GitHub Trending第4。",
+      "source": "GitHub Trending (+1174 today)",
+      "highlight": "代码理解的知识图谱方案：16个MCP工具+爆炸半径检测，让AI Agent真正理解代码架构",
+      "stars": 24066,
+      "tags": ["Code Intelligence", "Knowledge Graph", "MCP", "Agent", "WebAssembly"]
+    },
+    {
+      "id": 22,
+      "category": "repo",
+      "title": "NVIDIA/personaplex: 实时全双工语音对话模型（支持人设控制）",
+      "url": "https://github.com/NVIDIA/personaplex",
+      "summary": "NVIDIA开源的实时全双工语音对话模型，基于Moshi架构实现低延迟语音交互。核心创新：通过文本prompt和声音条件控制对话人设（助手、客服、闲聊等），支持16种预置声音。支持离线评估和Web界面实时交互。今日+663星至7.7k。",
+      "source": "GitHub Trending (+663 today)",
+      "highlight": "NVIDIA出手语音AI：全双工+人设控制+低延迟，语音Agent的基础设施级开源",
+      "stars": 7663,
+      "tags": ["NVIDIA", "Speech AI", "Voice", "Real-time", "Full-Duplex"]
+    },
+    {
+      "id": 23,
+      "category": "repo",
+      "title": "google-ai-edge/gallery: Google端侧AI展示应用（+899星）",
+      "url": "https://github.com/google-ai-edge/gallery",
+      "summary": "Google AI Edge团队开源的端侧ML/GenAI展示应用，支持在手机上本地运行开源语言模型。功能包括Agent技能（Wikipedia集成、交互地图）、带思维模式的多轮对话、多模态（相机识别+语音转录）、模型管理和基准测试。100%设备端推理，无需联网。支持Android 12+和iOS 17+。今日+899星至18.4k。",
+      "source": "GitHub Trending (+899 today)",
+      "highlight": "Google官方端侧AI参考实现：Agent技能+思维模式+多模态，定义了手机端AI应用的标杆",
+      "stars": 18379,
+      "tags": ["Google", "On-Device AI", "Mobile", "Edge AI", "LiteRT"]
+    },
+    {
+      "id": 24,
+      "category": "paper",
+      "title": "TriAttention: 三角级数KV缓存压缩（NVIDIA, 56赞）",
+      "url": "https://huggingface.co/papers/2604.04921",
+      "summary": "NVIDIA和MIT联合提出TriAttention，利用RoPE位置编码前Q/K向量的集中特性，通过三角级数估计key重要性实现KV缓存压缩。在AIME25基准32K token生成中，保持与Full Attention相同的推理准确率，同时实现2.5倍吞吐提升或10.7倍KV内存压缩。竞争方法在同等效率下准确率仅约一半。支持在单块消费级GPU上部署长上下文推理。",
+      "source": "HuggingFace Papers (56 upvotes, NVIDIA/MIT)",
+      "highlight": "长推理的内存瓶颈终结者：10.7倍KV压缩零精度损失，让消费级GPU也能跑长上下文",
+      "stars": 0,
+      "tags": ["KV Cache", "Attention", "LLM Inference", "NVIDIA", "Efficiency"]
+    },
+    {
+      "id": 25,
+      "category": "paper",
+      "title": "AURA: 基于视频流的实时持续AI助手（36赞）",
+      "url": "https://huggingface.co/papers/2604.04184",
+      "summary": "提出AURA（Always-On Understanding and Real-Time Assistance），一种通过持续视频流实现实时理解和辅助的AI系统。不同于传统的单帧/短视频理解，AURA能持续观察视频流并在需要时主动提供帮助，实现了从「被动回答」到「主动感知」的范式转变。适用于AR/MR场景下的实时AI助手。",
+      "source": "HuggingFace Papers (36 upvotes)",
+      "highlight": "AI助手从「问答模式」进化到「Always-On感知」：视频流持续理解开启主动式AI新范式",
+      "stars": 0,
+      "tags": ["Video Understanding", "Real-time AI", "AR/MR", "Always-On", "Multimodal"]
     }
   ]
 }
