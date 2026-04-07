@@ -1,0 +1,148 @@
+{
+  "date": "2026-04-07",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "Claude Code「复杂工程任务不可用」：6852次会话数据驱动的质量回归分析",
+      "url": "https://github.com/anthropics/claude-code/issues/42796",
+      "summary": "用户对6,852次Claude Code会话进行量化分析，发现质量回归与思维token遮蔽机制上线强相关。Read:Edit比从6.6暴跌至2.0（下降70%），未读文件编辑率从6.2%飙升至33.7%，API成本暴增122倍。用户中断率增加12倍，推理循环增加3倍。此前曾在一个周末合并19.1万行代码的多Agent工作流变得完全不可用。",
+      "source": "Hacker News (770 points, 471 comments)",
+      "highlight": "数据驱动的硬核分析揭示AI工具质量衰退，对所有AI编程工具用户都是重要警示",
+      "stars": 0,
+      "tags": ["Claude Code", "Anthropic", "Quality", "Regression", "AI Coding"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "Bram Cohen：「Vibe Coding 的狂热是疯狂的」",
+      "url": "https://bramcohen.com/p/the-cult-of-vibe-coding-is-insane",
+      "summary": "BitTorrent创始人Bram Cohen撰文批评将AI生成代码不经审查直接发布的「vibe coding」文化。核心论点：「劣质软件是你主动选择的结果」。他主张人机协作的正确方式是人类识别问题、提供高层指导，让AI处理实现——而非放弃代码审查。HN 479分引发激烈讨论。",
+      "source": "Hacker News (479 points, 417 comments)",
+      "highlight": "BitTorrent创始人对AI编程文化的深刻反思，划定了人机协作的正确边界",
+      "stars": 0,
+      "tags": ["Vibe Coding", "AI Ethics", "Code Quality", "Developer Culture"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "Anthropic与Google/Broadcom签署多吉瓦TPU算力协议，年收入超300亿美元",
+      "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
+      "summary": "Anthropic宣布与Google和Broadcom签署多吉瓦下一代TPU算力协议，预计2027年上线。年化收入已突破300亿美元（2025年底约90亿），年消费超100万美元的企业客户在不到两个月内翻倍至1000+家。大部分新增算力将位于美国。",
+      "source": "Anthropic Blog / Hacker News (147 points)",
+      "highlight": "Anthropic收入从90亿飙至300亿+，AI基础设施军备竞赛进入多吉瓦时代",
+      "stars": 0,
+      "tags": ["Anthropic", "Google", "TPU", "Infrastructure", "Business"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "ChatGPT应用集成正式上线：DoorDash、Spotify、Uber等",
+      "url": "https://techcrunch.com/2026/04/06/how-to-use-chatgpt-apps-doordash-spotify-uber/",
+      "summary": "OpenAI的ChatGPT正式支持第三方应用集成，首批包括Spotify、DoorDash、Uber、Canva、Figma和Expedia等。用户无需离开聊天界面即可完成点餐、叫车、设计、旅行预订等任务。这标志着AI助手从对话工具向通用任务执行平台的转变。",
+      "source": "TechCrunch",
+      "highlight": "ChatGPT正式成为「万能遥控器」，AI应用生态从单点工具走向平台化",
+      "stars": 0,
+      "tags": ["OpenAI", "ChatGPT", "App Integration", "Platform", "Ecosystem"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "AI歌手「Eddie Dalton」占据iTunes单曲榜11个位置",
+      "url": "https://www.showbiz411.com/2026/04/05/itunes-takeover-by-fake-ai-singer-eddie-dalton-now-occupies-eleven-spots-on-chart-despite-not-being-human-or-real-exclusive",
+      "summary": "一个完全由AI生成的虚拟音乐人「Eddie Dalton」同时占据iTunes单曲榜11个位置，专辑排名第3。这位不存在的「歌手」引发了关于AI内容在商业创意市场中角色的激烈讨论，凸显了AI对传统内容产业的颠覆性冲击。HN 110分。",
+      "source": "Hacker News (110 points, 131 comments)",
+      "highlight": "AI音乐的iPhone时刻：当虚拟歌手霸榜iTunes，音乐产业的游戏规则彻底改变",
+      "stars": 0,
+      "tags": ["AI Music", "Generative AI", "Creative Industry", "iTunes"]
+    },
+    {
+      "id": 6,
+      "category": "tool",
+      "title": "Ghost Pepper: macOS本地语音转文字（WhisperKit + 完全离线）",
+      "url": "https://github.com/matthartman/ghost-pepper",
+      "summary": "macOS菜单栏应用，使用WhisperKit + LLM.swift实现100%本地语音转文字。按住Control录音，松开即转录并粘贴到当前应用。支持多种Whisper模型大小选择，无需云端API，数据完全不离开本机。HN 242分。MIT协议。",
+      "source": "Hacker News (242 points, 103 comments)",
+      "highlight": "语音输入的最佳体验：按住说话松手粘贴，完全本地无隐私顾虑",
+      "stars": 606,
+      "tags": ["Speech-to-Text", "macOS", "Whisper", "Privacy", "Local AI"]
+    },
+    {
+      "id": 7,
+      "category": "tool",
+      "title": "Freestyle: AI编程Agent专用沙箱基础设施",
+      "url": "https://www.freestyle.sh/",
+      "summary": "为AI编程Agent设计的托管基础设施平台，提供完整Linux VM（非容器）、实时Fork（毫秒级克隆运行中的VM）、暂停/恢复、集成Git。VM配置时间低于700ms，支持数千并发Agent。Y Combinator和Two Sigma Ventures投资。HN Launch 207分。",
+      "source": "Hacker News (207 points, Launch HN)",
+      "highlight": "AI Agent时代的AWS：700ms启动VM+实时Fork，为Agent工作流量身定制的基础设施",
+      "stars": 0,
+      "tags": ["Agent Infrastructure", "Sandbox", "VM", "YC", "Developer Tool"]
+    },
+    {
+      "id": 8,
+      "category": "repo",
+      "title": "vercel-labs/agent-browser: Rust原生Agent浏览器自动化CLI",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "summary": "Vercel Labs开源的Rust原生浏览器自动化CLI，专为AI Agent设计。支持语义定位器（通过ARIA角色/文本/标签选择元素）、无障碍树快照、批量命令执行、WebSocket流式控制。内置自然语言chat命令支持指令式自动化。可通过npm/Homebrew/Cargo安装，跨平台支持。今日+379星至27.8k。",
+      "source": "GitHub Trending (+379 today)",
+      "highlight": "Vercel出品的Agent浏览器工具，Rust性能+语义定位+批量执行=Agent浏览器自动化新标准",
+      "stars": 27775,
+      "tags": ["Browser Automation", "Agent", "Rust", "Vercel", "CLI"]
+    },
+    {
+      "id": 9,
+      "category": "repo",
+      "title": "memvid/memvid: AI Agent单文件记忆层（替代传统RAG）",
+      "url": "https://github.com/memvid/memvid",
+      "summary": "面向AI Agent的无服务器单文件记忆层，将数据、嵌入和元数据打包到便携式.mv2文件中。核心创新Smart Frames架构：追加式不可变记忆单元，支持时间旅行（回溯/重放/分支）。P50延迟0.025ms，支持文本/PDF/图像/音频多模态。LoCoMo测试准确率+35%，多跳推理+76%。今日+351星至14.5k。",
+      "source": "GitHub Trending (+351 today)",
+      "highlight": "RAG的颠覆者：单文件+零服务器+时间旅行，Agent记忆从管道变成便携文件",
+      "stars": 14532,
+      "tags": ["Agent Memory", "RAG Alternative", "Rust", "Serverless", "Retrieval"]
+    },
+    {
+      "id": 10,
+      "category": "repo",
+      "title": "tobi/qmd: 本地优先的文档搜索引擎（BM25+向量+LLM重排）",
+      "url": "https://github.com/tobi/qmd",
+      "summary": "本地运行的文档和知识库CLI搜索引擎，结合BM25全文搜索、向量语义搜索和LLM重排序三重机制。通过node-llama-cpp使用GGUF模型完全离线运行。支持作为MCP服务器供AI Agent（如Claude Desktop）集成使用。今日+394星至18.8k。",
+      "source": "GitHub Trending (+394 today)",
+      "highlight": "三重搜索机制+MCP集成+完全离线，个人知识库的终极搜索解决方案",
+      "stars": 18801,
+      "tags": ["Search", "Local-First", "MCP", "Knowledge Base", "CLI"]
+    },
+    {
+      "id": 11,
+      "category": "paper",
+      "title": "GrandCode: 首个在实时Codeforces竞赛中击败所有人类的AI系统",
+      "url": "https://huggingface.co/papers/2604.02721",
+      "summary": "DeepReinforce团队推出的多Agent RL系统GrandCode，是首个在实时编程竞赛中持续击败所有人类参赛者的AI。在2026年3月连续三场Codeforces实时比赛（Round 1087-1089）中均获得第一名，超越所有传奇Grandmaster。创新点：Agentic GRPO算法处理多阶段Agent rollout的延迟奖励和离策略漂移问题。",
+      "source": "HuggingFace Papers (6 upvotes, DeepReinforce)",
+      "highlight": "继围棋之后又一个AI彻底超越人类的领域：竞赛编程的AlphaGo时刻",
+      "stars": 0,
+      "tags": ["Competitive Programming", "RL", "Agent", "Codeforces", "Milestone"]
+    },
+    {
+      "id": 12,
+      "category": "paper",
+      "title": "T²T Scaling Laws: 测试时缩放使过度训练变得计算最优",
+      "url": "https://huggingface.co/papers/2604.01411",
+      "summary": "威斯康星大学和斯坦福联合提出Train-to-Test（T²T）缩放定律，在固定端到端预算下联合优化模型大小、训练token数和推理采样数。核心发现：当考虑推理成本时，最优预训练策略会激进地转向过度训练区间，远超Chinchilla缩放定律建议的范围。结果在8个下游任务上验证，且经过后训练阶段仍然成立。",
+      "source": "HuggingFace Papers (15 upvotes, UW-Madison/Stanford)",
+      "highlight": "颠覆Chinchilla定律：考虑推理成本后，「训练过度」反而是最优策略",
+      "stars": 0,
+      "tags": ["Scaling Laws", "LLM Training", "Inference", "Compute Optimal"]
+    },
+    {
+      "id": 13,
+      "category": "paper",
+      "title": "RLSD自蒸馏强化学习：从14赞飙升至85赞的训练新范式",
+      "url": "https://huggingface.co/papers/2604.03128",
+      "summary": "中科院信息工程所和京东提出的RLSD（RLVR + Self-Distillation）论文热度持续爆发，从昨日14赞飙升至85赞。用自蒸馏获得token级更新幅度+RLVR提供可靠奖励方向的组合策略，解决了在线策略自蒸馏的信息泄露和训练不稳定问题。收敛速度比GRPO快一倍。",
+      "source": "HuggingFace Papers (85 upvotes, 中科院/京东)",
+      "highlight": "从14赞到85赞的爆发增长验证了社区共识：自蒸馏+RL的融合是LLM训练的下一个范式",
+      "stars": 0,
+      "tags": ["RLVR", "Self-Distillation", "LLM Training", "Reinforcement Learning"]
+    }
+  ]
+}
