@@ -34,13 +34,17 @@ if not exist %PROMPT_FILE% (
     exit /b 1
 )
 
+REM Set budget per period (evening needs more for stats updates)
+set BUDGET=2.00
+if "%PERIOD%"=="evening" set BUDGET=3.00
+
 REM Run claude in print mode with allowed tools
-"%CLAUDE_EXE%" -p ^
+REM Use pipe instead of stdin redirect (stdin redirect fails under Task Scheduler)
+type %PROMPT_FILE% | "%CLAUDE_EXE%" -p ^
     --model sonnet ^
-    --verbose ^
     --allowedTools "WebFetch WebSearch Read Write Edit Glob Grep Bash(python*)" ^
-    --max-budget-usd 1.00 ^
-    < %PROMPT_FILE% >> %LOGFILE% 2>&1
+    --max-budget-usd %BUDGET% ^
+    >> %LOGFILE% 2>&1
 
 set CLAUDE_EXIT=%ERRORLEVEL%
 echo [%TIMESTAMP%] Claude exited with code %CLAUDE_EXIT% >> %LOGFILE%
