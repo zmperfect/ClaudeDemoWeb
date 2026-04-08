@@ -7,7 +7,7 @@
       "title": "Anthropic发布Project Glasswing：联合苹果/谷歌/微软等巨头的AI安全计划",
       "url": "https://www.anthropic.com/glasswing",
       "summary": "Anthropic联合AWS、Apple、Cisco、Google、Microsoft等科技巨头发起Project Glasswing网络安全倡议。同时发布Claude Mythos Preview模型，已发现数千个高危漏洞，包括OpenBSD中潜伏27年的漏洞和FFmpeg中16年未被发现的缺陷。Anthropic承诺提供最高1亿美元模型使用额度和400万美元开源安全捐赠。HN 968分。",
-      "source": "Hacker News (1136 points, 536 comments)",
+      "source": "Hacker News (1339 points, 675 comments)",
       "highlight": "AI安全领域的曼哈顿计划：科技巨头联合+1亿美元投入+27年老漏洞被发现，防御AI时代来临",
       "stars": 0,
       "tags": ["Anthropic", "Cybersecurity", "Apple", "Google", "Microsoft", "AI Safety"]
@@ -18,7 +18,7 @@
       "title": "Claude Mythos Preview系统卡：Anthropic最强代码安全模型",
       "url": "https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf",
       "summary": "Anthropic发布Claude Mythos Preview的详细系统卡（System Card），这是专为代码安全设计的前沿模型。该模型在漏洞发现能力上达到专家级安全研究员水平，能发现主流操作系统和浏览器中的可利用漏洞。系统卡详述了模型能力、安全评估和部署策略。HN 558分引发关于AI能力边界的深度讨论。",
-      "source": "Hacker News (637 points, 450 comments)",
+      "source": "Hacker News (739 points, 529 comments)",
       "highlight": "当AI的漏洞发现能力追平顶级安全研究员：Mythos系统卡揭示AI安全能力的新边界",
       "stars": 0,
       "tags": ["Anthropic", "Claude Mythos", "Security", "System Card", "Vulnerability"]
@@ -29,7 +29,7 @@
       "title": "GLM-5.1发布：智谱开源长任务Agent模型",
       "url": "https://z.ai/blog/glm-5.1",
       "summary": "智谱AI（Z.AI）发布GLM-5.1开源模型，主打长任务（Long-Horizon Tasks）和Agent能力。支持高达1M token上下文窗口，在编程任务上表现优异，用户反馈TypeScript生成质量超过部分商业模型。开源开放权重，非编码任务上被评为与GPT-5.2同级。HN 440分。",
-      "source": "Hacker News (488 points, 198 comments)",
+      "source": "Hacker News (553 points, 226 comments)",
       "highlight": "中国开源模型的新高度：GLM-5.1在Agent和编码任务上挑战商业模型领先地位",
       "stars": 0,
       "tags": ["Zhipu AI", "GLM", "Open Source", "Agent", "Long Context"]
@@ -73,7 +73,7 @@
       "title": "Gemma 4 Multimodal Fine-Tuner：Apple Silicon原生多模态微调工具",
       "url": "https://github.com/mattmireles/gemma-tuner-multimodal",
       "summary": "专为Apple Silicon Mac设计的Gemma 3n/4模型多模态微调工具包，支持文本+图像+音频三模态LoRA训练。是目前唯一的Apple Silicon原生音频+文本微调方案。支持本地CSV数据集和云端数据源（GCS/BigQuery），无需NVIDIA GPU。HN Show HN 131分。",
-      "source": "Hacker News (158 points, 22 comments)",
+      "source": "Hacker News (194 points, 24 comments)",
       "highlight": "Mac用户的多模态微调利器：唯一支持Apple Silicon音频微调的开源工具",
       "stars": 260,
       "tags": ["Gemma", "Fine-tuning", "Apple Silicon", "Multimodal", "LoRA"]
@@ -84,9 +84,9 @@
       "title": "SEO Machine：基于Claude Code的专业SEO内容工作流",
       "url": "https://github.com/TheCraigHewitt/seomachine",
       "summary": "专为SEO优化内容创作设计的Claude Code工作空间，提供26个内建营销技能和多个专业Agent（内容分析、SEO优化、关键词映射等）。集成Google Analytics 4、Search Console和DataForSEO实时数据。支持从调研、写作到发布的完整工作流。GitHub Trending +215星至4k。",
-      "source": "GitHub Trending (+215 today)",
+      "source": "GitHub Trending (+645 today)",
       "highlight": "Claude Code的商业化最佳实践：将AI编程助手改造为专业SEO内容生产线",
-      "stars": 3959,
+      "stars": 4224,
       "tags": ["Claude Code", "SEO", "Content Marketing", "Developer Tool", "Workflow"]
     },
     {
@@ -95,9 +95,9 @@
       "title": "HKUDS/DeepTutor：Agent原生个性化学习助手",
       "url": "https://github.com/HKUDS/DeepTutor",
       "summary": "港大数据科学团队开源的AI教育平台，集成智能辅导、文档管理和自主Agent能力。包含Deep Solve（多Agent问题求解）、Deep Research（并行研究Agent）、TutorBots（跨平台自主Agent）等模式。支持知识库RAG检索、数学动画可视化、结构化学习路径生成。今日+168星至12.3k。",
-      "source": "GitHub Trending (+168 today)",
+      "source": "GitHub Trending (+168 today, 12.5k total)",
       "highlight": "教育×多Agent的标杆开源项目：从RAG检索到自主TutorBot，重新定义AI辅导",
-      "stars": 12323,
+      "stars": 12509,
       "tags": ["Education", "Agent", "RAG", "Tutoring", "Open Source"]
     },
     {
@@ -106,9 +106,9 @@
       "title": "andrej-karpathy-skills：基于Karpathy洞察的Claude Code行为准则",
       "url": "https://github.com/forrestchang/andrej-karpathy-skills",
       "summary": "将AI研究者Andrej Karpathy关于LLM编程陷阱的观察提炼为四条可操作原则的Claude Code插件：Think Before Coding（消除隐藏假设）、Simplicity First（最小化方案）、Surgical Changes（精准修改）、Goal-Driven Execution（目标驱动）。可作为插件或CLAUDE.md文件使用。8.1k星。",
-      "source": "GitHub Trending (8.1k stars)",
+      "source": "GitHub Trending (+686 today, 8.4k total)",
       "highlight": "Karpathy的AI编程智慧变成可执行规则：四条原则解决LLM编码最常见的陷阱",
-      "stars": 8133,
+      "stars": 8444,
       "tags": ["Claude Code", "Best Practices", "Karpathy", "AI Coding", "Plugin"]
     },
     {
@@ -117,7 +117,7 @@
       "title": "Video-MME-v2：下一代视频理解全面基准（145赞爆款）",
       "url": "https://huggingface.co/papers/2604.05015",
       "summary": "提出Video-MME-v2视频多模态理解基准，采用三层渐进能力体系（视觉聚合→时序动态→复杂推理）和非线性评估策略。800个视频×3200个QA对，3300+人工小时标注。结果显示：人类专家90.7分 vs Gemini-3-Pro仅49.4分，差距达41.3分。揭示现有基准严重高估了模型的真实视频理解能力。今日HF 145赞。",
-      "source": "HuggingFace Papers (145 upvotes, MME-Benchmarks)",
+      "source": "HuggingFace Papers (250 upvotes, MME-Benchmarks)",
       "highlight": "视频理解的「皇帝新衣」时刻：人类90分AI仅49分，41分差距揭示benchmark膨胀问题",
       "stars": 0,
       "tags": ["Video Understanding", "Benchmark", "Multimodal", "Evaluation", "MLLM"]
@@ -172,7 +172,7 @@
       "title": "Claw-Eval：首个轨迹感知的自主Agent安全评估套件",
       "url": "https://huggingface.co/papers/2604.06132",
       "summary": "北大和港大联合推出Claw-Eval，解决Agent评估三大缺陷：只检查最终输出忽略过程、安全评估不足、交互模式单一。包含300个人工验证任务、2159个细粒度评分项，通过执行轨迹+审计日志+环境快照三通道记录。测试14个前沿模型发现：仅看最终输出会遗漏44%安全违规和13%鲁棒性故障。HF 19赞。",
-      "source": "HuggingFace Papers (19 upvotes, PKU/HKU)",
+      "source": "HuggingFace Papers (326 upvotes, PKU/HKU)",
       "highlight": "Agent评估的「黑箱」终于被打开：轨迹级审计发现44%的安全违规被传统评估遗漏",
       "stars": 0,
       "tags": ["Agent Evaluation", "Safety", "Benchmark", "Trajectory", "Robustness"]
@@ -198,6 +198,39 @@
       "highlight": "学术研究的多Agent助手：从海量论文到知识图谱，自动化文献综述的完整管线",
       "stars": 0,
       "tags": ["Multi-Agent", "Research", "Knowledge Graph", "Paper Discovery", "Open Source"]
+    },
+    {
+      "id": 19,
+      "category": "repo",
+      "title": "obra/superpowers：141k星的Agent编码技能框架（+1926星爆发）",
+      "url": "https://github.com/obra/superpowers",
+      "summary": "面向AI编码Agent的完整软件开发工作流框架，通过可组合的「技能」实现：自动头脑风暴与设计细化、细粒度任务规划、子Agent并行开发、强制TDD红绿重构循环、Git Worktree隔离开发、系统化调试方法论和代码审查。支持Claude Code、Cursor、Codex、GitHub Copilot CLI、Gemini CLI等多平台。今日+1926星至141k，GitHub Trending爆发级增长。",
+      "source": "GitHub Trending (+1926 today, 141k total)",
+      "highlight": "Agent编码的「操作系统」：141k星定义了AI辅助开发的完整方法论，从设计到测试到审查",
+      "stars": 140630,
+      "tags": ["Agent Skills", "Software Development", "Claude Code", "TDD", "Methodology"]
+    },
+    {
+      "id": 20,
+      "category": "paper",
+      "title": "DARE：扩散语言模型的统一对齐与强化框架（167赞）",
+      "url": "https://huggingface.co/papers/2604.04215",
+      "summary": "复旦大学和上海AI Lab联合推出DARE（Diffusion LLMs Alignment and Reinforcement Executor），首个统一扩散语言模型（dLLM）后训练的开源框架。整合SFT、PEFT、偏好优化和dLLM专用RL，支持LLaDA、Dream、SDAR等主流扩散LM家族。解决了dLLM生态碎片化问题——此前各论文发布独立代码，难以公平对比。基于verl和OpenCompass构建。HF 167赞。",
+      "source": "HuggingFace Papers (167 upvotes, Fudan/Shanghai AI Lab)",
+      "highlight": "扩散语言模型的Hugging Face Transformers时刻：统一框架终结碎片化，加速dLLM研究迭代",
+      "stars": 0,
+      "tags": ["Diffusion LLM", "Alignment", "RL", "Post-Training", "Framework"]
+    },
+    {
+      "id": 21,
+      "category": "repo",
+      "title": "newton-physics/newton：Disney/DeepMind/NVIDIA联合GPU物理仿真引擎",
+      "url": "https://github.com/newton-physics/newton",
+      "summary": "由Disney Research、Google DeepMind和NVIDIA联合发起、Linux Foundation治理的开源GPU物理仿真引擎。基于NVIDIA Warp构建，支持刚体、软体、布料、绳索、颗粒等多物理场耦合仿真。核心特性：可微分物理（支持梯度优化）、OpenUSD场景表示、MuJoCo Warp后端。面向机器人研究和Embodied AI的基础设施级项目。",
+      "source": "GitHub Trending (+67 today, 3.9k total)",
+      "highlight": "三巨头联合打造的物理AI基础设施：可微分GPU仿真为机器人和Embodied AI铺路",
+      "stars": 3913,
+      "tags": ["Physics Simulation", "Robotics", "NVIDIA", "DeepMind", "Differentiable"]
     }
   ]
 }
