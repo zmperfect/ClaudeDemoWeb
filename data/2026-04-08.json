@@ -7,7 +7,7 @@
       "title": "Anthropic发布Project Glasswing：联合苹果/谷歌/微软等巨头的AI安全计划",
       "url": "https://www.anthropic.com/glasswing",
       "summary": "Anthropic联合AWS、Apple、Cisco、Google、Microsoft等科技巨头发起Project Glasswing网络安全倡议。同时发布Claude Mythos Preview模型，已发现数千个高危漏洞，包括OpenBSD中潜伏27年的漏洞和FFmpeg中16年未被发现的缺陷。Anthropic承诺提供最高1亿美元模型使用额度和400万美元开源安全捐赠。HN 968分。",
-      "source": "Hacker News (968 points, 430 comments)",
+      "source": "Hacker News (1136 points, 536 comments)",
       "highlight": "AI安全领域的曼哈顿计划：科技巨头联合+1亿美元投入+27年老漏洞被发现，防御AI时代来临",
       "stars": 0,
       "tags": ["Anthropic", "Cybersecurity", "Apple", "Google", "Microsoft", "AI Safety"]
@@ -18,7 +18,7 @@
       "title": "Claude Mythos Preview系统卡：Anthropic最强代码安全模型",
       "url": "https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf",
       "summary": "Anthropic发布Claude Mythos Preview的详细系统卡（System Card），这是专为代码安全设计的前沿模型。该模型在漏洞发现能力上达到专家级安全研究员水平，能发现主流操作系统和浏览器中的可利用漏洞。系统卡详述了模型能力、安全评估和部署策略。HN 558分引发关于AI能力边界的深度讨论。",
-      "source": "Hacker News (558 points, 409 comments)",
+      "source": "Hacker News (637 points, 450 comments)",
       "highlight": "当AI的漏洞发现能力追平顶级安全研究员：Mythos系统卡揭示AI安全能力的新边界",
       "stars": 0,
       "tags": ["Anthropic", "Claude Mythos", "Security", "System Card", "Vulnerability"]
@@ -29,7 +29,7 @@
       "title": "GLM-5.1发布：智谱开源长任务Agent模型",
       "url": "https://z.ai/blog/glm-5.1",
       "summary": "智谱AI（Z.AI）发布GLM-5.1开源模型，主打长任务（Long-Horizon Tasks）和Agent能力。支持高达1M token上下文窗口，在编程任务上表现优异，用户反馈TypeScript生成质量超过部分商业模型。开源开放权重，非编码任务上被评为与GPT-5.2同级。HN 440分。",
-      "source": "Hacker News (440 points, 163 comments)",
+      "source": "Hacker News (488 points, 198 comments)",
       "highlight": "中国开源模型的新高度：GLM-5.1在Agent和编码任务上挑战商业模型领先地位",
       "stars": 0,
       "tags": ["Zhipu AI", "GLM", "Open Source", "Agent", "Long Context"]
@@ -40,7 +40,7 @@
       "title": "Google开源Scion：实验性Agent编排测试平台",
       "url": "https://www.infoq.com/news/2026/04/google-agent-testbed-scion/",
       "summary": "Google开源了实验性Agent编排测试平台Scion，用于测试和评估多Agent系统的协作能力。该平台提供标准化的测试环境，支持不同Agent框架的互操作性测试和性能基准。这是Google在Agent基础设施领域的重要开源贡献。HN 163分。",
-      "source": "Hacker News (163 points, 46 comments)",
+      "source": "Hacker News (183 points, 49 comments)",
       "highlight": "Google下场定义Agent编排标准：测试平台的开源预示多Agent协作将走向规范化",
       "stars": 0,
       "tags": ["Google", "Agent Orchestration", "Open Source", "Testing", "Multi-Agent"]
@@ -73,7 +73,7 @@
       "title": "Gemma 4 Multimodal Fine-Tuner：Apple Silicon原生多模态微调工具",
       "url": "https://github.com/mattmireles/gemma-tuner-multimodal",
       "summary": "专为Apple Silicon Mac设计的Gemma 3n/4模型多模态微调工具包，支持文本+图像+音频三模态LoRA训练。是目前唯一的Apple Silicon原生音频+文本微调方案。支持本地CSV数据集和云端数据源（GCS/BigQuery），无需NVIDIA GPU。HN Show HN 131分。",
-      "source": "Hacker News (131 points, 20 comments)",
+      "source": "Hacker News (158 points, 22 comments)",
       "highlight": "Mac用户的多模态微调利器：唯一支持Apple Silicon音频微调的开源工具",
       "stars": 260,
       "tags": ["Gemma", "Fine-tuning", "Apple Silicon", "Multimodal", "LoRA"]
@@ -143,6 +143,61 @@
       "highlight": "Nvidia不再是唯一选择：Uber转向Amazon AI芯片，云端算力多元化竞争加剧",
       "stars": 0,
       "tags": ["Amazon", "Uber", "AI Chips", "Infrastructure", "Cloud"]
+    },
+    {
+      "id": 14,
+      "category": "paper",
+      "title": "LRAT：从Agent轨迹学习检索——搜索引擎的Agent化范式转变",
+      "url": "https://huggingface.co/papers/2604.04949",
+      "summary": "人大高瓴AI学院提出从Agent交互轨迹中学习检索模型的新范式LRAT。核心洞察：传统检索系统为人类设计，但AI Agent的查询模式和结果消费方式与人类根本不同。通过分析Agent浏览行为、拒绝信号和推理链，挖掘高质量检索训练数据。实验表明Agent训练的检索模型显著优于人类反馈训练的模型。HF 28赞。",
+      "source": "HuggingFace Papers (28 upvotes, RUC-GSAI)",
+      "highlight": "搜索引擎的范式转变：当用户从人类变成Agent，检索系统需要彻底重新思考",
+      "stars": 0,
+      "tags": ["Information Retrieval", "Agent", "Search", "Training Paradigm", "LLM"]
+    },
+    {
+      "id": 15,
+      "category": "paper",
+      "title": "PTE：揭示工具集成推理中的低效模式（新效率度量标准）",
+      "url": "https://huggingface.co/papers/2604.05404",
+      "summary": "中科大提出PTE（Prefill Token Equivalents），首个硬件感知的工具集成推理（TIR）效率度量。揭示四种低效模式：工具调用导致KV-Cache驱逐和重算、长工具响应膨胀缓存。关键发现：PTE成本越高的推理轨迹正确率反而越低，说明「多用工具≠更好结果」。在工业高并发场景中，PTE比token计数更准确地预测实际延迟。HF 22赞。",
+      "source": "HuggingFace Papers (22 upvotes, USTC)",
+      "highlight": "终结「工具越多越好」迷思：首个TIR效率度量揭示工具调用的真实成本",
+      "stars": 0,
+      "tags": ["Tool Use", "LLM Efficiency", "KV Cache", "Inference", "Benchmark"]
+    },
+    {
+      "id": 16,
+      "category": "paper",
+      "title": "Claw-Eval：首个轨迹感知的自主Agent安全评估套件",
+      "url": "https://huggingface.co/papers/2604.06132",
+      "summary": "北大和港大联合推出Claw-Eval，解决Agent评估三大缺陷：只检查最终输出忽略过程、安全评估不足、交互模式单一。包含300个人工验证任务、2159个细粒度评分项，通过执行轨迹+审计日志+环境快照三通道记录。测试14个前沿模型发现：仅看最终输出会遗漏44%安全违规和13%鲁棒性故障。HF 19赞。",
+      "source": "HuggingFace Papers (19 upvotes, PKU/HKU)",
+      "highlight": "Agent评估的「黑箱」终于被打开：轨迹级审计发现44%的安全违规被传统评估遗漏",
+      "stars": 0,
+      "tags": ["Agent Evaluation", "Safety", "Benchmark", "Trajectory", "Robustness"]
+    },
+    {
+      "id": 17,
+      "category": "paper",
+      "title": "MegaTrain：单块GPU全精度训练100B+参数大模型",
+      "url": "https://huggingface.co/papers/2604.05091",
+      "summary": "提出MegaTrain内存中心训练系统，将参数和优化器状态存储在主机内存中，GPU仅作为瞬态计算引擎。通过流水线双缓冲执行引擎和无状态层模板两项优化突破CPU-GPU带宽瓶颈。在单块H200 GPU+1.5TB主机内存上可靠训练120B模型，14B模型吞吐量达DeepSpeed ZeRO-3的1.84倍。还支持单块GH200上512k上下文的7B模型训练。",
+      "source": "HuggingFace Papers (4 upvotes)",
+      "highlight": "单GPU训练100B模型不再是梦：内存中心架构打破GPU显存瓶颈，民主化大模型训练",
+      "stars": 0,
+      "tags": ["LLM Training", "Memory Optimization", "Single GPU", "DeepSpeed", "Efficiency"]
+    },
+    {
+      "id": 18,
+      "category": "tool",
+      "title": "Paper Circle：多Agent论文发现与分析开源框架",
+      "url": "https://huggingface.co/papers/2604.06170",
+      "summary": "MBZUAI和AWS联合推出的多Agent学术论文发现与分析系统。包含发现管线（多源检索+多准则评分+多样性排序）和分析管线（论文→知识图谱→图感知问答）。每个Agent步骤产出可复现的同步输出（JSON/CSV/BibTeX/Markdown/HTML）。开源可用，附带Web界面。HF 10赞。",
+      "source": "HuggingFace Papers (10 upvotes, MBZUAI/AWS)",
+      "highlight": "学术研究的多Agent助手：从海量论文到知识图谱，自动化文献综述的完整管线",
+      "stars": 0,
+      "tags": ["Multi-Agent", "Research", "Knowledge Graph", "Paper Discovery", "Open Source"]
     }
   ]
 }
