@@ -299,13 +299,12 @@ main {
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    cursor: default;
-    transition: all 0.3s ease;
 }
 
-.card-summary:hover {
-    -webkit-line-clamp: unset;
+.card:hover .card-summary {
     display: block;
+    -webkit-line-clamp: unset;
+    overflow: visible;
 }
 
 .card-highlight {
