@@ -1,0 +1,148 @@
+{
+  "date": "2026-04-09",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "Poke：通过短信与AI Agent交互的消费级平台",
+      "url": "https://techcrunch.com/2026/04/08/poke-makes-ai-agents-as-easy-as-sending-a-text/",
+      "summary": "Poke让用户通过普通短信与AI Agent交互，无需下载任何应用程序。通过SMS接口，用户可以委托AI Agent执行各类任务，大幅降低了Agent的使用门槛。这一方向代表了AI Agent从技术精英向普通消费者扩展的重要尝试，SMS入口预示着Agent进入真正大众化阶段。",
+      "source": "TechCrunch",
+      "highlight": "Agent的大众化时刻：短信即入口，让AI助手触达无需下载App的数十亿手机用户",
+      "stars": 0,
+      "tags": ["Agent", "SMS", "Consumer AI", "Accessibility", "Startup"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "AWS CEO解释：同时投资Anthropic和OpenAI为何不构成利益冲突",
+      "url": "https://techcrunch.com/2026/04/08/aws-boss-explains-why-investing-billions-in-both-anthropic-and-openai-is-an-ok-conflict/",
+      "summary": "AWS CEO Matt Garman回应外界对亚马逊同时向Anthropic和OpenAI投资数十亿美元的质疑，解释AWS将自身定位为AI基础设施层而非具体AI产品的竞争者。这一声明揭示了云计算巨头在AI生态中"中立平台"的战略定位。随着AI竞争白热化，云厂商"基础设施优先、模型中立"的平台策略正在成为主流。",
+      "source": "TechCrunch",
+      "highlight": "AWS的AI投资逻辑：同时押注对手不是冲突，而是基础设施层的平台战略——云巨头定义AI格局新玩法",
+      "stars": 0,
+      "tags": ["AWS", "Amazon", "Anthropic", "OpenAI", "AI Strategy", "Cloud"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "Databricks联合创始人获ACM大奖：\"AGI已经到来\"",
+      "url": "https://techcrunch.com/2026/04/08/databricks-co-founder-wins-prestigious-acm-award-says-agi-is-here-already/",
+      "summary": "Databricks联合创始人Ion Stoica获ACM SIGOPS年度最具影响力奖，并在采访中称\"AGI已经到来\"，判断依据是当前LLM在众多知识工作任务上已达到或超越人类专家水平。此声明在AI社区引发广泛讨论，AGI的定义与评判标准之争再度成为焦点。来自系统研究泰斗的判断比营销话语更具分量。",
+      "source": "TechCrunch",
+      "highlight": "数据库学术泰斗宣称AGI已至：不是炒作而是从系统角度的严肃判断，对话框架而非能力本身正在成为瓶颈",
+      "stars": 0,
+      "tags": ["AGI", "Databricks", "AI Industry", "Research", "LLM Capability"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "Snowflake：我们不再只是数据仓库——向AI平台的全面转型",
+      "url": "https://techcrunch.com/2026/04/08/why-snowflake-is-no-longer-just-a-data-warehouse/",
+      "summary": "Snowflake CEO透露公司正从纯数据仓库向AI集成平台战略转型，核心是将向量存储、混合搜索和数据Agent能力嵌入现有数据工作流。数据仓库不再是终点，而是AI推理和Agent系统的出发点。这代表了企业数据基础设施从"存储和查询"到"推理和行动"的范式升级。",
+      "source": "TechCrunch",
+      "highlight": "从数据仓库到AI平台的样板转型：Snowflake的升维告诉我们，企业数据基础设施的下一站是Agent编排层",
+      "stars": 0,
+      "tags": ["Snowflake", "Enterprise AI", "Data Platform", "AI Strategy", "Vector Database"]
+    },
+    {
+      "id": 5,
+      "category": "repo",
+      "title": "NVIDIA/personaplex：实时全双工语音对话AI系统",
+      "url": "https://github.com/NVIDIA/personaplex",
+      "summary": "NVIDIA开源的实时全双工语音对话AI系统，基于Moshi架构，支持16种预置声音和人设提示词自定义。核心特色是"全双工"模式，允许双方同时说话、自然打断，模拟真实对话节奏。提供客服、教育辅导、休闲对话等多种人设模式，支持Web界面演示和离线批量处理。今日+586星至8.4k。",
+      "source": "GitHub Trending (+586 today, 8.4k total)",
+      "highlight": "NVIDIA入场实时语音对话：全双工打断能力+人设一致性，比RAG聊天机器人高出一个维度",
+      "stars": 8428,
+      "tags": ["NVIDIA", "Speech AI", "Conversational AI", "Voice", "Full-Duplex", "Moshi"]
+    },
+    {
+      "id": 6,
+      "category": "repo",
+      "title": "google-ai-edge/LiteRT-LM：Google官方端侧LLM推理框架",
+      "url": "https://github.com/google-ai-edge/LiteRT-LM",
+      "summary": "Google开源的跨平台边缘设备LLM推理框架，支持Android、iOS、浏览器、桌面端和树莓派等部署目标。支持Gemma、Llama、Phi-4、Qwen等主流模型，内置GPU/NPU硬件加速，并提供函数调用能力支持Agent工作流。已在Chrome、Chromebook Plus和Pixel Watch中投入生产，生产级成熟度有保障。今日+501星至2.9k。",
+      "source": "GitHub Trending (+501 today, 2.9k total)",
+      "highlight": "Google官方端侧LLM基础设施：生产级验证+Agent函数调用，打通云端到边缘的最后一公里",
+      "stars": 2995,
+      "tags": ["Google", "Edge AI", "On-Device", "LLM Inference", "Mobile", "LiteRT"]
+    },
+    {
+      "id": 7,
+      "category": "repo",
+      "title": "abhigyanpatwari/GitNexus：无服务端代码知识图谱引擎（Graph RAG for Code）",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "summary": "纯客户端的代码知识图谱引擎，通过Tree-sitter解析代码库并构建函数/类/模块依赖关系图，完全在浏览器本地运行。通过MCP协议接入Cursor、Claude Code、Codex等AI编程工具，提供11种仓库分析工具（混合搜索、影响分析、多文件重命名协调等）。核心理念：索引时预计算结构智能，让LLM一次调用获得完整架构上下文。今日+980星至25.3k。",
+      "source": "GitHub Trending (+980 today, 25.3k total)",
+      "highlight": "给AI编程助手装上"架构之眼"：Graph RAG让Agent在修改代码前真正理解依赖关系，防止盲目编辑破坏结构",
+      "stars": 25313,
+      "tags": ["Code Intelligence", "Graph RAG", "MCP", "Claude Code", "Knowledge Graph", "Developer Tool"]
+    },
+    {
+      "id": 8,
+      "category": "repo",
+      "title": "google-ai-edge/gallery：端侧ML/GenAI应用展示库",
+      "url": "https://github.com/google-ai-edge/gallery",
+      "summary": "Google开源的端侧ML和生成AI用例展示库，收录各类在本地运行的机器学习和GenAI应用示例。用户可在自己设备上直接体验模型推理，无需连接云端，保护隐私同时降低延迟。为开发者提供端侧AI应用的最佳实践参考和可复用代码模板。今日+853星至19.5k。",
+      "source": "GitHub Trending (+853 today, 19.5k total)",
+      "highlight": "Google官方端侧AI用例库：告别云端依赖，在设备上直接运行GenAI的完整参考实现",
+      "stars": 19518,
+      "tags": ["Google", "On-Device AI", "GenAI", "Edge Computing", "Android", "Mobile AI"]
+    },
+    {
+      "id": 9,
+      "category": "tool",
+      "title": "virattt/ai-hedge-fund：多Agent自主金融分析系统",
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "summary": "开源的多Agent AI对冲基金系统，协调多个专业AI Agent（研究员、分析师、风险经理）执行自主金融分析和投资决策。系统整合实时市场数据、宏观经济指标和公司财务数据，提供从信号生成到组合管理的完整工作流。作为多Agent垂直应用的经典开源项目持续获得关注。今日+151星至50.7k。",
+      "source": "GitHub Trending (+151 today, 50.7k total)",
+      "highlight": "多Agent在金融领域落地的教科书级实现：从市场信号到投资决策，看专业Agent如何分工协作",
+      "stars": 50692,
+      "tags": ["Agent", "Finance", "Hedge Fund", "Multi-Agent", "Quantitative", "Open Source"]
+    },
+    {
+      "id": 10,
+      "category": "paper",
+      "title": "Agent技能在真实场景中的表现：首个大规模技能检索基准研究",
+      "url": "https://huggingface.co/papers/2604.04323",
+      "summary": "UC Santa Barbara和MIT联合研究LLM Agent在现实条件下使用技能的能力，使用包含34k真实技能的大型技能库进行基准测试。核心发现：技能带来的性能增益在真实检索条件下大幅缩水，pass rate趋近无技能基线——揭示"技能幻觉"问题。查询特定的技能精炼策略可显著恢复性能，在Terminal-Bench 2.0上将Claude Opus 4.6的pass rate从57.7%提升至65.5%。HF 10赞。",
+      "source": "HuggingFace Papers (10 upvotes, UCSB/MIT)",
+      "highlight": "技能库越大反而越危险：Agent技能检索的真实挑战——从工具库到正确工具存在巨大鸿沟，精炼策略是关键",
+      "stars": 0,
+      "tags": ["Agent", "Skill Retrieval", "Benchmark", "LLM Agent", "Tool Use", "Evaluation"]
+    },
+    {
+      "id": 11,
+      "category": "paper",
+      "title": "ACES：谁来测试测试者？代码生成测试套件的一致性评估",
+      "url": "https://huggingface.co/papers/2604.03922",
+      "summary": "提出ACES（留一法AUC一致性）方法，解决代码生成评估中"谁来测试测试套件"的元问题。通过留一法分析测试用例间的一致性，识别冗余或有偏测试集，使代码生成基准评估更加可靠。该方法模型无关，可用于任何代码生成基准的测试套件质量审计，有助于防止基准膨胀。HF 3赞。",
+      "source": "HuggingFace Papers (3 upvotes)",
+      "highlight": "测试基准的"元质量"问题：ACES为代码生成评估建立测试套件质量标准，是对benchmark可信度的底层修复",
+      "stars": 0,
+      "tags": ["Code Generation", "Benchmark", "Testing", "Evaluation", "Software Engineering"]
+    },
+    {
+      "id": 12,
+      "category": "paper",
+      "title": "ThinkTwice：联合优化LLM推理与自我精炼能力",
+      "url": "https://huggingface.co/papers/2604.01591",
+      "summary": "提出ThinkTwice框架，首次将LLM的推理能力和自我精炼能力联合优化训练，解决两者分别训练时目标不一致的问题。通过双阶段迭代训练（生成推理链→基于反馈精炼→再次推理），在数学和逻辑推理任务上显著优于单独训练的推理或精炼模型。为LLM后训练提供了新的联合优化范式。HF 10赞。",
+      "source": "HuggingFace Papers (10 upvotes)",
+      "highlight": "终结"想一次不够"的困境：联合优化推理+自我精炼比串联训练效果更好，打破单模块能力天花板",
+      "stars": 0,
+      "tags": ["LLM Reasoning", "Self-Refinement", "Training", "Chain of Thought", "Optimization"]
+    },
+    {
+      "id": 13,
+      "category": "paper",
+      "title": "Vanast：基于合成三元组监督的虚拟试穿动画系统",
+      "url": "https://huggingface.co/papers/2604.04934",
+      "summary": "提出Vanast虚拟试穿系统，将静态服装图像生成为穿在真实人物身上的动态视频动画。通过合成三元组监督（服装图+人物图+穿着视频）绕过大规模真实数据采集难题，显著提升试穿效果的时序一致性。在消费电商和元宇宙场景中有直接应用价值，是多模态生成AI在垂直场景落地的典型案例。HF 26赞。",
+      "source": "HuggingFace Papers (26 upvotes)",
+      "highlight": "AI电商的下一个爆点：虚拟试穿从静态图变成真实动态视频，合成数据策略绕过数据瓶颈",
+      "stars": 0,
+      "tags": ["Virtual Try-On", "Video Generation", "E-commerce", "Multimodal", "Synthetic Data"]
+    }
+  ]
+}
