@@ -220,6 +220,61 @@
       "highlight": "AI能力越大责任越大：OpenAI的儿童安全蓝图为行业内容安全设定底线标准",
       "stars": 0,
       "tags": ["OpenAI", "AI Safety", "Child Safety", "Content Moderation", "Policy"]
+    },
+    {
+      "id": 21,
+      "category": "paper",
+      "title": "Think in Strokes, Not Pixels：Meta AI分步推理驱动图像生成（27赞）",
+      "url": "https://huggingface.co/papers/2604.04746",
+      "summary": "Meta超级智能实验室与UCSD等合作提出过程驱动图像生成范式，将图像合成分解为「思维」+「行动」交错推理轨迹。每次迭代包含4阶段：文本规划→视觉起草→文本反思→视觉精炼，让生成过程明确可解释。通过密集逐步监督解决中间状态歧义——视觉中间状态强制空间/语义一致性，文本中间状态保留先验视觉知识并识别纠正违规元素。HF 27赞，Meta AI MSL出品。",
+      "source": "HuggingFace Papers (27 upvotes, Meta Superintelligence Labs / UCSD)",
+      "highlight": "图像生成遇上Chain-of-Thought：Meta让模型像人类画家先规划后描绘——推理驱动的多步生成比单步生成更可控、更可解释",
+      "stars": 0,
+      "tags": ["Image Generation", "Reasoning", "Multimodal", "Meta AI", "Chain-of-Thought", "Process-Driven"]
+    },
+    {
+      "id": 22,
+      "category": "paper",
+      "title": "MARS：无架构改动实现1.71倍LLM推理加速（NTU/SMU/Uppsala）",
+      "url": "https://huggingface.co/papers/2604.07023",
+      "summary": "提出MARS（Mask AutoRegreSSion），通过轻量微调让指令微调模型每次前向传播预测多个Token。无架构修改、无额外参数，单一模型在无损精度的情况下切换单/多Token模式。Qwen2.5-7B上实现1.71倍wall-clock加速，并支持通过置信度阈值实时调整吞吐量，无需重启模型即可在延迟与质量之间动态调节——为生产级LLM服务提供弹性加速旋钮。HF 12赞。",
+      "source": "HuggingFace Papers (12 upvotes, NTU/SMU/Uppsala University)",
+      "highlight": "LLM提速的最省力方案：微调训练让模型自动识别可一次生成多Token的位置，实测1.71倍加速无精度损失，还能实时调速",
+      "stars": 0,
+      "tags": ["LLM", "Inference Speedup", "Multi-Token Generation", "Autoregressive", "Efficiency", "Serving"]
+    },
+    {
+      "id": 23,
+      "category": "paper",
+      "title": "SEVerA：形式化验证的自进化Agent合成框架（零违规保证）",
+      "url": "https://huggingface.co/papers/2603.25111",
+      "summary": "提出形式化守卫生成模型（FGGM），将可验证契约和拒绝采样器包装到每个LLM调用中，确保Agent输出在任何参数值下满足形式规范。三阶段流程：Planner LLM合成候选程序→Dafny验证器证明正确性→GRPO梯度优化。在DafnyBench达97%验证率（vs基线86.9%），τ²-bench航空领域52.6% pass率（胜Claude Sonnet 4.5），全部场景零违规。核心保证：不是「尽量不违规」而是数学可证明的输出约束。HF 8赞。",
+      "source": "HuggingFace Papers (8 upvotes)",
+      "highlight": "Agent安全的硬约束方案：形式化契约+拒绝采样确保输出数学可证明零违规，超越依赖模型对齐的软性约束",
+      "stars": 0,
+      "tags": ["Agent Safety", "Formal Verification", "Self-Evolving Agents", "GRPO", "Dafny", "Agent Alignment"]
+    },
+    {
+      "id": 24,
+      "category": "paper",
+      "title": "MegaTrain：单GPU完整精度训练千亿参数LLM（HN 285分）",
+      "url": "https://arxiv.org/abs/2604.05091",
+      "summary": "提出MegaTrain框架，使研究人员能够在单张GPU上以完整精度（无量化）训练1000亿以上参数的LLM。突破传统对大规模GPU集群的强依赖，大幅降低大模型训练的硬件门槛。该方向直接挑战「大模型必须用大集群」的假设，为独立研究者和小团队提供探索超大规模模型的可能，是AI民主化进程中的重要技术突破。HN 285分51评论。",
+      "source": "Hacker News (285 points, 51 comments)",
+      "highlight": "颠覆大模型训练门槛：单GPU完整精度训练千亿参数LLM，若技术成熟将从根本上改变大模型研究生态",
+      "stars": 0,
+      "tags": ["LLM Training", "Single GPU", "Full Precision", "Efficiency", "Democratization", "Scaling"]
+    },
+    {
+      "id": 25,
+      "category": "paper",
+      "title": "Q-Zoom：查询感知自适应感知，多模态LLM推理提速4.39倍",
+      "url": "https://huggingface.co/papers/2604.06912",
+      "summary": "提出Q-Zoom框架，通过两个核心组件提升多模态LLM效率：动态门控网络（简单查询直接用粗粒度特征，跳过昂贵高分辨率处理）+自蒸馏区域提议网络（精确定位任务相关区域，无需外部标注）。在Document/OCR基准提速2.52倍、高分辨率场景提速4.39倍，准确率同时提升1.1-8.1%。无RL训练、单次预填充通过，兼容LLaVA、Qwen2.5-VL等主流模型，是迄今准确率-效率帕累托前沿最优方案。",
+      "source": "HuggingFace Papers",
+      "highlight": "多模态LLM的「视觉注意力优化」：4倍提速不是量化而是智能感知——只在需要时看细节，效率准确率双提升且无需RL",
+      "stars": 0,
+      "tags": ["Multimodal LLM", "Vision Language Model", "Efficiency", "Adaptive Perception", "Qwen2.5-VL", "OCR"]
     }
   ]
 }
