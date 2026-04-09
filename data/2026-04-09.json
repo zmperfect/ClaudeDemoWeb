@@ -97,7 +97,7 @@
       "summary": "开源的多Agent AI对冲基金系统，协调多个专业AI Agent（研究员、分析师、风险经理）执行自主金融分析和投资决策。系统整合实时市场数据、宏观经济指标和公司财务数据，提供从信号生成到组合管理的完整工作流。作为多Agent垂直应用的经典开源项目持续获得关注。今日+151星至50.7k。",
       "source": "GitHub Trending (+151 today, 50.7k total)",
       "highlight": "多Agent在金融领域落地的教科书级实现：从市场信号到投资决策，看专业Agent如何分工协作",
-      "stars": 50692,
+      "stars": 50931,
       "tags": ["Agent", "Finance", "Hedge Fund", "Multi-Agent", "Quantitative", "Open Source"]
     },
     {
@@ -286,6 +286,72 @@
       "highlight": "Agent基础设施即服务：Anthropic让开发者跳过容器/工具链搭建，直接进入Agent业务逻辑开发",
       "stars": 0,
       "tags": ["Anthropic", "Claude", "Managed Agents", "Agent Infrastructure", "MCP", "API"]
+    },
+    {
+      "id": 27,
+      "category": "repo",
+      "title": "NousResearch/hermes-agent：自进化AI Agent框架（今日+5794星）",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "summary": "Nous Research开源的自进化AI Agent框架，核心特性：内置学习循环（从经验中自动创建技能）、跨会话持久记忆、多平台消息集成（Telegram/Discord/Slack/WhatsApp/Signal）、6种终端后端（Docker/SSH/Modal等）、cron定时自动化。v0.8.0版本支持RL轨迹生成和研究环境。MIT协议，Python 93.8%。今日暴涨+5,794星至41.7k，是今日GitHub Trending AI类绝对第一。",
+      "source": "GitHub Trending (+5,794 today, 41.7k total)",
+      "highlight": "今日GitHub AI最热项目：Agent不只是执行工具，而是能自我进化的学习系统——从经验中创建技能+跨会话记忆构建真正的成长型Agent",
+      "stars": 41692,
+      "tags": ["Agent", "Self-Improving", "Nous Research", "Procedural Memory", "Multi-Platform", "Open Source"]
+    },
+    {
+      "id": 28,
+      "category": "paper",
+      "title": "A Frame is Worth One Token：Delta Token压缩实现1024倍世界模型加速（Amazon）",
+      "url": "https://huggingface.co/papers/2604.04913",
+      "summary": "Amazon和TU Eindhoven联合提出DeltaTok+DeltaWorld框架，将视频世界模型的帧表示从3D时空结构压缩为1D时序序列——每帧仅用一个连续delta token编码与前帧的差异。实现1024倍token压缩（512x512帧从256个空间token降至1个）、35倍参数减少、2000倍FLOP减少。单次前向传播即可生成多个多样化未来预测。在自动驾驶和机器人场景中验证，精度匹配甚至超越无压缩模型。HF 36赞。",
+      "source": "HuggingFace Papers (36 upvotes, Amazon / TU Eindhoven)",
+      "highlight": "世界模型效率的量级突破：只编码帧间变化而非整帧——1024倍压缩+2000倍FLOP减少，让实时世界模拟触手可及",
+      "stars": 0,
+      "tags": ["World Model", "Video Compression", "Amazon", "Autonomous Driving", "Robotics", "Efficiency"]
+    },
+    {
+      "id": 29,
+      "category": "news",
+      "title": "Tubi成为首个在ChatGPT内上线原生应用的流媒体平台",
+      "url": "https://techcrunch.com/2026/04/08/tubi-is-the-first-streamer-to-launch-a-native-app-within-chatgpt/",
+      "summary": "免费流媒体平台Tubi率先在ChatGPT内嵌入原生应用，用户无需离开ChatGPT即可浏览和发现Tubi内容。这标志着AI聊天平台正在成为新的应用分发渠道——从搜索引擎到应用商店再到AI对话界面，内容发现的入口正在迁移。对流媒体行业而言，ChatGPT的数亿用户基是不可忽视的新流量入口。",
+      "source": "TechCrunch",
+      "highlight": "AI平台成为新的应用商店：Tubi率先入驻ChatGPT，流媒体内容发现从搜索框迁移到对话框",
+      "stars": 0,
+      "tags": ["ChatGPT", "OpenAI", "Streaming", "Platform", "Tubi", "App Distribution"]
+    },
+    {
+      "id": 30,
+      "category": "tool",
+      "title": "HKUDS/DeepTutor：Agent原生个性化学习助手（+1306星）",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "summary": "港大数据科学实验室开源的Agent原生智能教学平台，集成5种对话模式（Chat/深度求解/测验生成/深度研究/数学动画）共享统一上下文。核心特色：自主TutorBot拥有持久记忆和技能发展能力、AI协作Markdown编辑器、结构化学习路径生成、知识库管理（PDF/MD/文本RAG）。通过Agent-Native CLI支持JSON结构化输出和SKILL.md集成。Apache 2.0协议，今日+1,306星至14.2k。",
+      "source": "GitHub Trending (+1,306 today, 14.2k total)",
+      "highlight": "教育AI的Agent化升级：不是简单的问答机器人，而是有记忆、会成长、能自主出题的个性化导师系统",
+      "stars": 14147,
+      "tags": ["Education AI", "Agent", "Personalized Learning", "RAG", "HKU", "Open Source"]
+    },
+    {
+      "id": 31,
+      "category": "paper",
+      "title": "Personalized RewardBench：奖励模型个性化评估基准（现有SOTA仅75.94%）",
+      "url": "https://huggingface.co/papers/2604.07343",
+      "summary": "UC Davis提出Personalized RewardBench，首个评估奖励模型个性化偏好建模能力的基准。通过用户特定评分规则构建选择/拒绝对，确保偏好差异完全来自个人偏好而非质量差异。核心发现：现有SOTA奖励模型在个性化场景下准确率仅75.94%，暴露RLHF对齐在个体层面的严重不足。该基准与下游BoN采样和PPO性能高度相关，是目前最可靠的奖励模型评估代理。HF 10赞。",
+      "source": "HuggingFace Papers (10 upvotes, UC Davis)",
+      "highlight": "RLHF对齐的盲区：奖励模型能区分好坏回答但无法理解个人偏好——75.94%的天花板揭示个性化是下一个攻坚方向",
+      "stars": 0,
+      "tags": ["RLHF", "Reward Model", "Personalization", "Alignment", "Benchmark", "Evaluation"]
+    },
+    {
+      "id": 32,
+      "category": "news",
+      "title": "「我们完了」：企业SaaS资深PM自述AI冲击下的生存危机（HN 103分）",
+      "url": "https://news.ycombinator.com/item?id=46917886",
+      "summary": "一位拥有20年SaaS经验的资深产品经理在HN发文，坦言大型企业系统记录（SoR）公司正面临AI带来的多重夹击：云厂商、AI实验室和AI原生创业公司同时蚕食传统SaaS利润空间。核心困境：传统SoR公司在快速执行、前沿AI采用、产品品味和工程卓越性上全面落后，顶尖人才流向FAANG和AI公司，RSU缩水50%进一步削弱招聘竞争力。虽然SoR不会消失，但「前进之路极其残酷」。HN 103分46评论引发激烈讨论。",
+      "source": "Hacker News (103 points, 46 comments)",
+      "highlight": "来自传统企业软件内部的真实警报：不是AI创业公司杀死SaaS，而是AI让SaaS的护城河（数据锁定+切换成本）正在被侵蚀",
+      "stars": 0,
+      "tags": ["Enterprise SaaS", "AI Disruption", "Industry Analysis", "Career", "Product Management"]
     }
   ]
 }
