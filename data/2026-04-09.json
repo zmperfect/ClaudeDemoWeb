@@ -172,7 +172,7 @@
       "title": "Meta发布Muse Spark：迈向「个人超级智能」的首个模型",
       "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
       "summary": "Meta超级智能实验室（MSL）发布Muse系列首个模型Muse Spark。核心特性：原生多模态推理、「Contemplating模式」（多Agent并行推理），在Humanity's Last Exam达58%。与1000+医生合作增强健康推理。计算效率比Llama 4 Maverick提升超一个数量级。已在meta.ai上线。HN 275分。",
-      "source": "Hacker News (275 points, 296 comments)",
+      "source": "Hacker News (318 points, 296 comments)",
       "highlight": "Meta的AGI路线图第一步：多Agent并行推理+一个数量级效率提升，「个人超级智能」概念正式落地",
       "stars": 0,
       "tags": ["Meta", "Muse Spark", "Multimodal", "Personal AI", "Superintelligence"]
@@ -183,7 +183,7 @@
       "title": "「ML注定会深刻地怪异」：对AI能力边界的清醒反思",
       "url": "https://aphyr.com/posts/411-the-future-of-everything-is-lies-i-guess",
       "summary": "知名分布式系统专家aphyr撰文反思LLM的「锯齿状技术前沿」：能解多元微积分却做不了简单文字题，能生成惊艳图像却画不好倒置的杯子。核心论点：LLM被训练为「完成任务」，即使不该完成时也会继续——使其成为规模化错误信息的完美载体。HN 381分引发激烈讨论。",
-      "source": "Hacker News (381 points, 423 comments)",
+      "source": "Hacker News (455 points, 423 comments)",
       "highlight": "分布式系统专家对AI「锯齿前沿」最清醒的警告：不可预测的能力边界是最大的风险",
       "stars": 0,
       "tags": ["AI Criticism", "LLM Limitations", "Misinformation", "AI Safety", "Essay"]
@@ -275,6 +275,17 @@
       "highlight": "多模态LLM的「视觉注意力优化」：4倍提速不是量化而是智能感知——只在需要时看细节，效率准确率双提升且无需RL",
       "stars": 0,
       "tags": ["Multimodal LLM", "Vision Language Model", "Efficiency", "Adaptive Perception", "Qwen2.5-VL", "OCR"]
+    },
+    {
+      "id": 26,
+      "category": "tool",
+      "title": "Claude Managed Agents：Anthropic推出托管Agent基础设施（Beta）",
+      "url": "https://docs.anthropic.com/en/docs/agents/managed-agents",
+      "summary": "Anthropic发布Managed Agents Beta，提供预构建Agent运行时：容器化执行环境、内置MCP服务器、bash/文件操作/Web搜索等工具，开发者无需自建Agent基础设施即可部署复杂Agent工作流。通过managed-agents-2026-04-01 API header激活。核心价值：将Agent从「自己搭脚手架」变为「平台托管服务」，大幅降低Agent应用开发门槛。HN 16分讨论中。",
+      "source": "Hacker News (16 points)",
+      "highlight": "Agent基础设施即服务：Anthropic让开发者跳过容器/工具链搭建，直接进入Agent业务逻辑开发",
+      "stars": 0,
+      "tags": ["Anthropic", "Claude", "Managed Agents", "Agent Infrastructure", "MCP", "API"]
     }
   ]
 }
