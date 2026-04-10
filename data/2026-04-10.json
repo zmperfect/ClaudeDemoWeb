@@ -154,6 +154,72 @@
       "highlight": "为AI写的代码提供「安全网」后端：CLI优先+内置撤销+Agent友好API，vibe coding时代的后端标准答案",
       "stars": 0,
       "tags": ["Backend", "BaaS", "AI-Coded Apps", "Real-time Database", "Vibe Coding", "Infrastructure"]
+    },
+    {
+      "id": 15,
+      "category": "repo",
+      "title": "NousResearch/hermes-agent：46.9k星的自我进化AI Agent——跨200+模型+多平台+技能自增长",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "summary": "Nous Research开源的「自我改进型」AI Agent框架，今日单日新增6,485星。核心差异化能力：从历次交互中自主创建技能并持续优化、构建跨会话的用户深度画像（deepening model）、搜索历史对话上下文，支持200+模型（via OpenRouter/Anthropic/OpenAI等）和Telegram/Discord/Slack/WhatsApp多平台。可部署于VPS、GPU集群或无服务器架构。v0.8.0于4月8日发布，MIT协议，Python构建。",
+      "source": "GitHub Trending (+6,485 today, 46.9k total, Nous Research)",
+      "highlight": "Agent进化的飞轮：不是「被动工具」而是「主动学习的同事」——每次交互都在优化自身技能和对你的理解，46.9k星验证市场认可",
+      "stars": 46918,
+      "tags": ["Agent", "Self-Improving", "Skill Learning", "Multi-Platform", "NousResearch", "Open Source"]
+    },
+    {
+      "id": 16,
+      "category": "repo",
+      "title": "obra/superpowers：144k星Agent技能框架——为编码Agent提供结构化全流程开发方法论",
+      "url": "https://github.com/obra/superpowers",
+      "summary": "由Jesse Vincent和Prime Radiant维护的超高人气Agent技能框架，今日仍在快速增长（+2,299星）。核心理念：为编码Agent提供一套完整的软件开发工作流——从设计讨论、规划、TDD驱动实现到Code Review，通过可组合的「技能」文件指导Agent按专业工程师的方式工作。支持Claude Code、Cursor、Codex、OpenCode、GitHub Copilot CLI、Gemini等六大主流Agent平台，强调「系统化优于即兴发挥」和「降低复杂度」原则。MIT协议，Shell构建。",
+      "source": "GitHub Trending (+2,299 today, 144.3k total)",
+      "highlight": "144k星背后的核心洞察：Agent缺的不是智能，是结构化工作流——用技能框架把AI从「聪明但随意」变成「专业且系统」",
+      "stars": 144282,
+      "tags": ["Agent Skills", "Coding Agent", "Workflow", "Claude Code", "TDD", "Software Engineering"]
+    },
+    {
+      "id": 17,
+      "category": "paper",
+      "title": "SkillClaw：跨用户协同进化的Agent技能库——集体经验自动优化共享技能（HF 73赞）",
+      "url": "https://huggingface.co/papers/2604.08377",
+      "summary": "AMAP-ML团队提出SkillClaw，解决Agent技能库「只能手动维护、无法从经验中进化」的核心痛点。框架通过聚合跨用户交互轨迹，由自主Evolver识别反复出现的行为模式、优化现有技能或扩展新能力，并将改进同步回共享技能库供所有用户受益。这实现了「集体智慧」效应：一个用户的新场景探索可以提升所有用户的技能质量。在WildClawBench上Qwen3-Max性能显著提升。今日HF第一（73赞），GitHub: AMAP-ML/SkillClaw。",
+      "source": "HuggingFace Papers (#1 today, 73 upvotes, AMAP-ML)",
+      "highlight": "技能库的「维基百科时刻」：从「个人定制」到「集体进化」——Agent技能不再是私有的，而是全网用户共同优化的公共智识资产",
+      "stars": 0,
+      "tags": ["Agent Skills", "Collective Learning", "Skill Evolution", "Multi-User", "Knowledge Sharing", "Benchmark"]
+    },
+    {
+      "id": 18,
+      "category": "paper",
+      "title": "Act Wisely / Metis：元认知工具使用——让Agent学会「何时不调用工具」减少96%冗余（HF 20赞）",
+      "url": "https://huggingface.co/papers/2604.08545",
+      "summary": "阿里巴巴Accio团队联合华中科技大学提出HDPO（层次解耦策略优化），解决多模态Agent的「盲目工具调用」问题：现有Agent即使已知答案也会反射性地调用工具，浪费token并引入噪声。HDPO创新性地将准确性和效率解耦为两个正交优化通道——准确性通道全局最大化任务正确率，效率通道仅在正确轨迹内最小化工具调用次数（条件优势估计）。最终模型Metis实现工具调用减少96%（98%→2%），WeMath准确率从38.8%→65.2%。开源于HuggingFace: Accio-Lab/Metis-8B-RL。",
+      "source": "HuggingFace Papers (20 upvotes, Alibaba Accio + HKUST)",
+      "highlight": "工具调用的「节制」即是智慧：减少96%无效工具调用不是效率优化，而是推理质量提升——「知道什么时候停手」是Agent成熟度的真实标志",
+      "stars": 0,
+      "tags": ["Agent Tool Use", "Meta-Cognition", "RL", "HDPO", "Multimodal", "Efficiency", "Alibaba"]
+    },
+    {
+      "id": 19,
+      "category": "paper",
+      "title": "ClawBench：144个真实网站、153项日常任务——最前沿模型完成率仍不到30%（HF 15赞）",
+      "url": "https://huggingface.co/papers/2604.08523",
+      "summary": "UBC、Vector Institute、CMU、滑铁卢大学等联合发布ClawBench，评估AI Agent在真实生产网站上完成日常任务的能力（而非静态沙盒）。覆盖144个live平台、15类场景：从购物下单、预约挂号到提交求职申请。核心挑战：需从用户文档中提取关键信息、跨平台多步骤导航、正确填写大量详细表单。通过「拦截层」捕获并屏蔽最终提交请求，保证评估无真实副作用。评测7个前沿模型，完成率均低于30%，揭示当前Agent距离真实自动化仍有巨大差距。",
+      "source": "HuggingFace Papers (15 upvotes, UBC/Vector Institute/CMU/Waterloo)",
+      "highlight": "AI Agent的「真实考场」：不是Demo里的静态页面，是真实购物车/预约系统/求职表单——前沿模型完成率<30%，距离「数字劳工」还有多远？",
+      "stars": 0,
+      "tags": ["Agent Benchmark", "Web Agent", "Real-World Tasks", "Evaluation", "ClawBench", "UBC"]
+    },
+    {
+      "id": 20,
+      "category": "tool",
+      "title": "MCP vs Skills：为什么MCP才是Agent服务集成的正确架构（HN 54分63评论）",
+      "url": "https://david.coffee/i-still-prefer-mcp-over-skills/",
+      "summary": "开发者David Mohl深度辨析MCP（Model Context Protocol）与Skills（如CLAUDE.md技能文件）的架构差异，提出互补分工：MCP作为「连接器」处理服务集成（远程调用/OAuth认证/自动更新），Skills作为「手册」传递知识和上下文。MCP的核心优势：无本地安装依赖、跨设备天然可移植、OAuth处理认证、内置沙箱隔离。Skills的痛点：CLI依赖、秘钥管理困难、上下文窗口膨胀。HN 54分63评论，触发了大量开发者关于Agent工具生态架构的深度讨论。",
+      "source": "Hacker News (54 points, 63 comments)",
+      "highlight": "MCP与Skills不是竞争而是互补：MCP连服务，Skills传知识——这个分工模型正在成为Agent工具生态的架构共识",
+      "stars": 0,
+      "tags": ["MCP", "Skills", "Agent Architecture", "Claude Code", "Protocol", "Developer Tools"]
     }
   ]
 }
