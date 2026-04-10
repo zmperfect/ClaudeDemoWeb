@@ -1,0 +1,159 @@
+{
+  "date": "2026-04-10",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "ChatGPT Pro正式推出$100/月中间档：填补$20到$200的定价空白",
+      "url": "https://techcrunch.com/2026/04/09/chatgpt-pro-plan-100-month-codex/",
+      "summary": "OpenAI推出全新$100/月Pro套餐，填补Plus($20/月)和企业版($200/月)之间的巨大价格断层。新套餐面向重度用户提供增强能力，包括更多Codex使用额度。这一定价策略反映了AI服务从免费增值向分层付费的成熟演进，也暗示OpenAI在寻找可持续的商业化平衡点。HN 194分213评论引发定价合理性讨论。",
+      "source": "TechCrunch / Hacker News (194 points, 213 comments)",
+      "highlight": "AI服务定价的关键拐点：$100/月的中间档既承认了$20不够用的现实，也暴露了AI能力分层定价的行业难题",
+      "stars": 0,
+      "tags": ["OpenAI", "ChatGPT", "Pricing", "Subscription", "Codex", "Business Model"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "Vercel的Claude Code插件在偷读你的所有Prompt（HN 255分）",
+      "url": "https://news.ycombinator.com/item?id=47704881",
+      "summary": "开发者Akshay Chugh发现Vercel官方的Claude Code插件会读取用户所有的Prompt数据，引发严重隐私安全担忧。该插件在用户不知情的情况下获取了超出其功能所需的数据访问权限。这一事件揭示了AI工具链生态中插件/扩展的信任边界问题——当第三方插件能接触到开发者与AI的完整对话上下文时，数据安全风险不容忽视。HN 255分102评论。",
+      "source": "Hacker News (255 points, 102 comments)",
+      "highlight": "AI工具链的「插件信任危机」：当你与Claude Code深度对话时，第三方插件可能正在偷听——生态越开放风险越大",
+      "stars": 0,
+      "tags": ["Claude Code", "Vercel", "Privacy", "Security", "Plugin", "Developer Tools"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "Anthropic限制Mythos发布：是保护互联网还是保护自己？",
+      "url": "https://techcrunch.com/2026/04/09/is-anthropic-limiting-the-release-of-mythos-to-protect-the-internet-or-anthropic/",
+      "summary": "TechCrunch深度分析Anthropic限制Claude Mythos模型发布的真实动机。Anthropic声称该模型「在发现软件安全漏洞方面过于强大」故需限制访问，但文章质疑这究竟是真正的网络安全担忧，还是前沿实验室用「安全」叙事掩盖商业考量的策略。这一争论触及AI治理的核心矛盾：谁来判断能力边界在哪里，判断标准又是什么？",
+      "source": "TechCrunch",
+      "highlight": "当前沿AI公司说「太危险所以不能发布」时，我们该信多少？Mythos事件拷问AI能力披露的透明度标准",
+      "stars": 0,
+      "tags": ["Anthropic", "Claude Mythos", "AI Safety", "AI Governance", "Transparency", "Cybersecurity"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "Google与Intel深化AI基础设施合作：联合开发定制芯片",
+      "url": "https://techcrunch.com/2026/04/09/google-and-intel-deepen-ai-infrastructure-partnership/",
+      "summary": "Google和Intel宣布扩大AI基础设施合作，联合开发定制芯片以应对全球AI算力需求激增。合作涵盖CPU、GPU和IPU多种硬件类别，旨在构建AI时代的全面计算基础。此举标志着云计算巨头与传统芯片厂商在AI算力竞赛中从竞争走向深度协同，也折射出NVIDIA独占AI芯片市场格局正在被重塑。",
+      "source": "TechCrunch",
+      "highlight": "AI芯片格局重塑：Google+Intel联手定制芯片，挑战NVIDIA垄断地位的同盟正在形成",
+      "stars": 0,
+      "tags": ["Google", "Intel", "AI Chips", "Infrastructure", "Hardware", "Cloud Computing"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "Meta AI应用在Muse Spark发布后飙升至App Store第5名",
+      "url": "https://techcrunch.com/2026/04/09/meta-ai-app-climbs-to-no-5-on-the-app-store-after-muse-spark-launch/",
+      "summary": "Meta AI独立应用在Muse Spark模型发布后从App Store第57名飙升至第5名，且仍在上升。这一排名跃升验证了Muse Spark「个人超级智能」定位的市场吸引力。Meta正在证明：拥有30亿社交用户的分发优势+具有差异化能力的AI模型，可以在ChatGPT和Gemini主导的市场中迅速撕开缺口。",
+      "source": "TechCrunch",
+      "highlight": "从第57到第5：Muse Spark的市场验证——Meta的社交分发+AI能力组合拳正在改写AI应用竞争格局",
+      "stars": 0,
+      "tags": ["Meta", "Muse Spark", "App Store", "Consumer AI", "Market Competition"]
+    },
+    {
+      "id": 6,
+      "category": "news",
+      "title": "Research-Driven Agents：让Agent先读论文再写代码（HN 136分）",
+      "url": "https://blog.skypilot.co/research-driven-agents/",
+      "summary": "SkyPilot团队提出「研究驱动型Agent」方法论：在编码前先让Agent自主进行文献调研——阅读相关论文、研究竞品实现、在实验VM上运行验证，然后再开始写代码。核心发现：经过研究阶段的Agent生成的优化方案质量显著优于直接编码。这扩展了Karpathy的autoresearch循环，将学术文献纳入Agent的决策上下文。HN 136分44评论，开发者纷纷分享类似实践。",
+      "source": "Hacker News (136 points, 44 comments)",
+      "highlight": "从「直觉编码」到「先研究再编码」：给Agent加一个文献调研阶段，代码质量显著提升——人类工程师的最佳实践同样适用于AI",
+      "stars": 0,
+      "tags": ["Agent", "Research", "Coding Agent", "Methodology", "SkyPilot", "Best Practice"]
+    },
+    {
+      "id": 7,
+      "category": "news",
+      "title": "逆向工程Gemini SynthID水印检测：AI水印的脆弱性暴露（HN 115分）",
+      "url": "https://github.com/aloshdenny/reverse-SynthID",
+      "summary": "开源项目尝试逆向工程Google的SynthID水印检测系统，引发HN 115分热议。社区共识倾向于认为SynthID从根本上就不是足够可靠的安全方案：简单的缩放/重编码即可去除水印，且该项目仅测试了自建检测器而非Google真实服务。核心讨论焦点从「能否破解水印」转向更根本的问题：「AI内容水印方案从一开始就注定脆弱」。",
+      "source": "Hacker News (115 points, 43 comments)",
+      "highlight": "AI水印是安全幻觉？SynthID逆向工程引发的根本质疑——技术上不可能在不损失实用性的前提下实现鲁棒水印",
+      "stars": 0,
+      "tags": ["Google", "SynthID", "AI Watermark", "Reverse Engineering", "AI Safety", "Content Authentication"]
+    },
+    {
+      "id": 8,
+      "category": "repo",
+      "title": "multica-ai/multica：开源托管Agent平台——将编码Agent变成真正的队友",
+      "url": "https://github.com/multica-ai/multica",
+      "summary": "开源的托管Agent平台，提供Agent全生命周期管理：通过看板界面分配任务、跟踪进度、积累可复用技能。支持Claude Code、Codex、OpenClaw、OpenCode等多种Agent后端接入，提供工作区隔离和多团队支持、WebSocket实时进度推送。核心理念：Agent不是一次性工具调用，而是持久化的团队成员——有自己的任务、进度和技能成长路径。TypeScript构建，今日+1,680星至4.4k。",
+      "source": "GitHub Trending (+1,680 today, 4.4k total)",
+      "highlight": "Agent管理从命令行走向项目管理：看板式任务分配+技能积累+多Agent后端，把Agent当人管理的开源平台",
+      "stars": 4404,
+      "tags": ["Agent Platform", "Managed Agents", "Claude Code", "Codex", "Task Management", "Open Source"]
+    },
+    {
+      "id": 9,
+      "category": "repo",
+      "title": "rowboatlabs/rowboat：开源AI同事——将工作转化为知识图谱并自主行动",
+      "url": "https://github.com/rowboatlabs/rowboat",
+      "summary": "开源的AI同事工具，核心特色是将用户的工作数据转化为Obsidian兼容的Markdown知识库。集成Gmail、Google Calendar和会议记录，自动生成简报、邮件和PDF幻灯片。支持语音输入/输出（Deepgram+ElevenLabs）、MCP协议扩展、多模型支持。所有数据本地存储无厂商锁定。Apache 2.0协议，今日+1,187星至11.2k。",
+      "source": "GitHub Trending (+1,187 today, 11.2k total)",
+      "highlight": "不是聊天机器人而是AI同事：自动整理邮件/日历/会议→知识图谱→主动生成工作产出，本地存储保隐私",
+      "stars": 11231,
+      "tags": ["AI Assistant", "Knowledge Graph", "Obsidian", "MCP", "Productivity", "Local-First"]
+    },
+    {
+      "id": 10,
+      "category": "repo",
+      "title": "OpenBMB/VoxCPM2：免分词器多语言TTS——30语言+语音设计+实时克隆",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "summary": "清华OpenBMB开源的免分词器文本转语音系统VoxCPM2，通过扩散自回归架构直接在连续语音表示上生成音频，绕过传统离散tokenizer的信息损失。支持30种语言、文本描述创建语音（Voice Design）、可控风格克隆、48kHz录音室级音质，RTX 4090上实时流式生成（0.3 RTF）。Apache 2.0协议，今日+496星至7.7k。",
+      "source": "GitHub Trending (+496 today, 7.7k total)",
+      "highlight": "TTS的范式升级：跳过tokenizer直接建模连续语音——30语言+文字描述造声音+实时克隆，语音AI的新基线",
+      "stars": 7746,
+      "tags": ["TTS", "Voice Cloning", "Multilingual", "OpenBMB", "Diffusion", "Speech AI"]
+    },
+    {
+      "id": 11,
+      "category": "paper",
+      "title": "HY-Embodied-0.5：腾讯混元具身智能基础模型（HF 81赞）",
+      "url": "https://huggingface.co/papers/2604.07430",
+      "summary": "腾讯混元团队开源具身智能基础模型家族，包含MoT-2B（边缘部署）和MoE-A32B（复杂推理）两个变体。核心创新：Mixture-of-Transformers架构实现视觉/语言模态自适应计算、原生分辨率视觉编码器HY-ViT 2.0、任务感知RL奖励设计（IoU/DTW/Frechet等多维度）。在22个基准中MoT-2B在16项上超越同规模模型，MoE-A32B超越Gemini 3.0 Pro 3.4个点。在双臂机器人上实现85%精密装配成功率。HF 81赞，今日最热论文。",
+      "source": "HuggingFace Papers (81 upvotes, Tencent Hunyuan)",
+      "highlight": "具身AI的「大一统」时刻：从视觉感知到机器人控制一个模型搞定——2B参数边缘部署+真实机器人验证，不是PPT而是能落地的方案",
+      "stars": 0,
+      "tags": ["Embodied AI", "Tencent", "Robotics", "VLM", "Foundation Model", "Edge AI"]
+    },
+    {
+      "id": 12,
+      "category": "paper",
+      "title": "Agent外化理论：记忆/技能/协议/编排的统一综述框架（HF 13赞）",
+      "url": "https://huggingface.co/papers/2604.08224",
+      "summary": "上海交大、中山大学、CMU等联合提出「外化」（Externalization）理论框架，统一解释LLM Agent近期进展的底层逻辑：Agent可靠性的提升不是靠更大模型，而是将认知负担从模型内部迁移到外部持久化结构——记忆外化状态、技能外化程序、协议外化交互。三层演进：权重层(2022)→上下文层(2023)→编排层(2024+)。这是迄今最系统的Agent架构综述，为理解Agent系统提供了统一思维框架。HF 13赞。",
+      "source": "HuggingFace Papers (13 upvotes, SJTU/CMU/SYSU/OPPO)",
+      "highlight": "理解Agent的罗塞塔石碑：不是「模型更强」而是「外化更好」——记忆/技能/协议三维外化框架解释了为什么Agent进步越来越依赖工程而非模型",
+      "stars": 0,
+      "tags": ["Agent Architecture", "Survey", "Memory", "Skills", "Protocols", "Systems Engineering"]
+    },
+    {
+      "id": 13,
+      "category": "paper",
+      "title": "Graph of Skills：图结构技能检索让Agent工具调用准确率提升43.6%",
+      "url": "https://huggingface.co/papers/2604.05333",
+      "summary": "UPenn、UMD、CMU等联合提出Graph of Skills（GoS），解决Agent技能库规模化后的检索瓶颈。核心创新：构建技能依赖有向图（依赖/工作流/语义/替代四种边），通过反向感知PageRank扩散检索前置依赖技能（如查询「视频分析」自动拉取「帧提取」前置技能）。在1000+技能库上平均奖励提升43.6%、token减少37.8%，ALFWorld成功率97.9%。跨Claude/GPT/MiniMax三模型验证。HF 8赞。",
+      "source": "HuggingFace Papers (8 upvotes, UPenn/UMD/Brown/CMU)",
+      "highlight": "Agent技能检索的正确打开方式：不是向量相似度而是依赖图扩散——自动补齐前置技能让成功率从89%飙升至98%",
+      "stars": 0,
+      "tags": ["Agent Skills", "Graph RAG", "Skill Retrieval", "PageRank", "Tool Use", "Benchmark"]
+    },
+    {
+      "id": 14,
+      "category": "tool",
+      "title": "Instant 1.0：专为AI生成应用设计的后端即服务（HN 95分）",
+      "url": "https://www.instantdb.com/",
+      "summary": "Instant 1.0正式发布，定位为AI生成应用（vibe-coded apps）的一站式后端：实时数据库+认证+权限+存储+在线状态+Stripe支付，全部通过CLI操作无需仪表盘。核心设计理念：最小API表面积+端到端类型安全+内置撤销能力，让AI Agent能自主完成所有后端操作而不会造成不可逆损害。权限系统灵感来自Google Zanzibar和Facebook EntPrivacy。HN 95分57评论，AI编程时代的基础设施新物种。",
+      "source": "Hacker News (95 points, 57 comments)",
+      "highlight": "为AI写的代码提供「安全网」后端：CLI优先+内置撤销+Agent友好API，vibe coding时代的后端标准答案",
+      "stars": 0,
+      "tags": ["Backend", "BaaS", "AI-Coded Apps", "Real-time Database", "Vibe Coding", "Infrastructure"]
+    }
+  ]
+}
