@@ -7,7 +7,7 @@
       "title": "ChatGPT Pro正式推出$100/月中间档：填补$20到$200的定价空白",
       "url": "https://techcrunch.com/2026/04/09/chatgpt-pro-plan-100-month-codex/",
       "summary": "OpenAI推出全新$100/月Pro套餐，填补Plus($20/月)和企业版($200/月)之间的巨大价格断层。新套餐面向重度用户提供增强能力，包括更多Codex使用额度。这一定价策略反映了AI服务从免费增值向分层付费的成熟演进，也暗示OpenAI在寻找可持续的商业化平衡点。HN 194分213评论引发定价合理性讨论。",
-      "source": "TechCrunch / Hacker News (194 points, 213 comments)",
+      "source": "TechCrunch / Hacker News (203 points, 236 comments)",
       "highlight": "AI服务定价的关键拐点：$100/月的中间档既承认了$20不够用的现实，也暴露了AI能力分层定价的行业难题",
       "stars": 0,
       "tags": ["OpenAI", "ChatGPT", "Pricing", "Subscription", "Codex", "Business Model"]
@@ -73,7 +73,7 @@
       "title": "逆向工程Gemini SynthID水印检测：AI水印的脆弱性暴露（HN 115分）",
       "url": "https://github.com/aloshdenny/reverse-SynthID",
       "summary": "开源项目尝试逆向工程Google的SynthID水印检测系统，引发HN 115分热议。社区共识倾向于认为SynthID从根本上就不是足够可靠的安全方案：简单的缩放/重编码即可去除水印，且该项目仅测试了自建检测器而非Google真实服务。核心讨论焦点从「能否破解水印」转向更根本的问题：「AI内容水印方案从一开始就注定脆弱」。",
-      "source": "Hacker News (115 points, 43 comments)",
+      "source": "Hacker News (162 points, 52 comments)",
       "highlight": "AI水印是安全幻觉？SynthID逆向工程引发的根本质疑——技术上不可能在不损失实用性的前提下实现鲁棒水印",
       "stars": 0,
       "tags": ["Google", "SynthID", "AI Watermark", "Reverse Engineering", "AI Safety", "Content Authentication"]
@@ -128,7 +128,7 @@
       "title": "Agent外化理论：记忆/技能/协议/编排的统一综述框架（HF 13赞）",
       "url": "https://huggingface.co/papers/2604.08224",
       "summary": "上海交大、中山大学、CMU等联合提出「外化」（Externalization）理论框架，统一解释LLM Agent近期进展的底层逻辑：Agent可靠性的提升不是靠更大模型，而是将认知负担从模型内部迁移到外部持久化结构——记忆外化状态、技能外化程序、协议外化交互。三层演进：权重层(2022)→上下文层(2023)→编排层(2024+)。这是迄今最系统的Agent架构综述，为理解Agent系统提供了统一思维框架。HF 13赞。",
-      "source": "HuggingFace Papers (13 upvotes, SJTU/CMU/SYSU/OPPO)",
+      "source": "HuggingFace Papers (29 upvotes, SJTU/CMU/SYSU/OPPO)",
       "highlight": "理解Agent的罗塞塔石碑：不是「模型更强」而是「外化更好」——记忆/技能/协议三维外化框架解释了为什么Agent进步越来越依赖工程而非模型",
       "stars": 0,
       "tags": ["Agent Architecture", "Survey", "Memory", "Skills", "Protocols", "Systems Engineering"]
@@ -139,7 +139,7 @@
       "title": "Graph of Skills：图结构技能检索让Agent工具调用准确率提升43.6%",
       "url": "https://huggingface.co/papers/2604.05333",
       "summary": "UPenn、UMD、CMU等联合提出Graph of Skills（GoS），解决Agent技能库规模化后的检索瓶颈。核心创新：构建技能依赖有向图（依赖/工作流/语义/替代四种边），通过反向感知PageRank扩散检索前置依赖技能（如查询「视频分析」自动拉取「帧提取」前置技能）。在1000+技能库上平均奖励提升43.6%、token减少37.8%，ALFWorld成功率97.9%。跨Claude/GPT/MiniMax三模型验证。HF 8赞。",
-      "source": "HuggingFace Papers (8 upvotes, UPenn/UMD/Brown/CMU)",
+      "source": "HuggingFace Papers (15 upvotes, UPenn/UMD/Brown/CMU)",
       "highlight": "Agent技能检索的正确打开方式：不是向量相似度而是依赖图扩散——自动补齐前置技能让成功率从89%飙升至98%",
       "stars": 0,
       "tags": ["Agent Skills", "Graph RAG", "Skill Retrieval", "PageRank", "Tool Use", "Benchmark"]
@@ -150,7 +150,7 @@
       "title": "Instant 1.0：专为AI生成应用设计的后端即服务（HN 95分）",
       "url": "https://www.instantdb.com/",
       "summary": "Instant 1.0正式发布，定位为AI生成应用（vibe-coded apps）的一站式后端：实时数据库+认证+权限+存储+在线状态+Stripe支付，全部通过CLI操作无需仪表盘。核心设计理念：最小API表面积+端到端类型安全+内置撤销能力，让AI Agent能自主完成所有后端操作而不会造成不可逆损害。权限系统灵感来自Google Zanzibar和Facebook EntPrivacy。HN 95分57评论，AI编程时代的基础设施新物种。",
-      "source": "Hacker News (95 points, 57 comments)",
+      "source": "Hacker News (169 points, 88 comments)",
       "highlight": "为AI写的代码提供「安全网」后端：CLI优先+内置撤销+Agent友好API，vibe coding时代的后端标准答案",
       "stars": 0,
       "tags": ["Backend", "BaaS", "AI-Coded Apps", "Real-time Database", "Vibe Coding", "Infrastructure"]
@@ -163,7 +163,7 @@
       "summary": "Nous Research开源的「自我改进型」AI Agent框架，今日单日新增6,485星。核心差异化能力：从历次交互中自主创建技能并持续优化、构建跨会话的用户深度画像（deepening model）、搜索历史对话上下文，支持200+模型（via OpenRouter/Anthropic/OpenAI等）和Telegram/Discord/Slack/WhatsApp多平台。可部署于VPS、GPU集群或无服务器架构。v0.8.0于4月8日发布，MIT协议，Python构建。",
       "source": "GitHub Trending (+6,485 today, 46.9k total, Nous Research)",
       "highlight": "Agent进化的飞轮：不是「被动工具」而是「主动学习的同事」——每次交互都在优化自身技能和对你的理解，46.9k星验证市场认可",
-      "stars": 46918,
+      "stars": 49278,
       "tags": ["Agent", "Self-Improving", "Skill Learning", "Multi-Platform", "NousResearch", "Open Source"]
     },
     {
@@ -174,7 +174,7 @@
       "summary": "由Jesse Vincent和Prime Radiant维护的超高人气Agent技能框架，今日仍在快速增长（+2,299星）。核心理念：为编码Agent提供一套完整的软件开发工作流——从设计讨论、规划、TDD驱动实现到Code Review，通过可组合的「技能」文件指导Agent按专业工程师的方式工作。支持Claude Code、Cursor、Codex、OpenCode、GitHub Copilot CLI、Gemini等六大主流Agent平台，强调「系统化优于即兴发挥」和「降低复杂度」原则。MIT协议，Shell构建。",
       "source": "GitHub Trending (+2,299 today, 144.3k total)",
       "highlight": "144k星背后的核心洞察：Agent缺的不是智能，是结构化工作流——用技能框架把AI从「聪明但随意」变成「专业且系统」",
-      "stars": 144282,
+      "stars": 144946,
       "tags": ["Agent Skills", "Coding Agent", "Workflow", "Claude Code", "TDD", "Software Engineering"]
     },
     {
@@ -183,7 +183,7 @@
       "title": "SkillClaw：跨用户协同进化的Agent技能库——集体经验自动优化共享技能（HF 73赞）",
       "url": "https://huggingface.co/papers/2604.08377",
       "summary": "AMAP-ML团队提出SkillClaw，解决Agent技能库「只能手动维护、无法从经验中进化」的核心痛点。框架通过聚合跨用户交互轨迹，由自主Evolver识别反复出现的行为模式、优化现有技能或扩展新能力，并将改进同步回共享技能库供所有用户受益。这实现了「集体智慧」效应：一个用户的新场景探索可以提升所有用户的技能质量。在WildClawBench上Qwen3-Max性能显著提升。今日HF第一（73赞），GitHub: AMAP-ML/SkillClaw。",
-      "source": "HuggingFace Papers (#1 today, 73 upvotes, AMAP-ML)",
+      "source": "HuggingFace Papers (#1 today, 130 upvotes, AMAP-ML)",
       "highlight": "技能库的「维基百科时刻」：从「个人定制」到「集体进化」——Agent技能不再是私有的，而是全网用户共同优化的公共智识资产",
       "stars": 0,
       "tags": ["Agent Skills", "Collective Learning", "Skill Evolution", "Multi-User", "Knowledge Sharing", "Benchmark"]
@@ -205,7 +205,7 @@
       "title": "ClawBench：144个真实网站、153项日常任务——最前沿模型完成率仍不到30%（HF 15赞）",
       "url": "https://huggingface.co/papers/2604.08523",
       "summary": "UBC、Vector Institute、CMU、滑铁卢大学等联合发布ClawBench，评估AI Agent在真实生产网站上完成日常任务的能力（而非静态沙盒）。覆盖144个live平台、15类场景：从购物下单、预约挂号到提交求职申请。核心挑战：需从用户文档中提取关键信息、跨平台多步骤导航、正确填写大量详细表单。通过「拦截层」捕获并屏蔽最终提交请求，保证评估无真实副作用。评测7个前沿模型，完成率均低于30%，揭示当前Agent距离真实自动化仍有巨大差距。",
-      "source": "HuggingFace Papers (15 upvotes, UBC/Vector Institute/CMU/Waterloo)",
+      "source": "HuggingFace Papers (42 upvotes, UBC/Vector Institute/CMU/Waterloo)",
       "highlight": "AI Agent的「真实考场」：不是Demo里的静态页面，是真实购物车/预约系统/求职表单——前沿模型完成率<30%，距离「数字劳工」还有多远？",
       "stars": 0,
       "tags": ["Agent Benchmark", "Web Agent", "Real-World Tasks", "Evaluation", "ClawBench", "UBC"]
@@ -216,10 +216,54 @@
       "title": "MCP vs Skills：为什么MCP才是Agent服务集成的正确架构（HN 54分63评论）",
       "url": "https://david.coffee/i-still-prefer-mcp-over-skills/",
       "summary": "开发者David Mohl深度辨析MCP（Model Context Protocol）与Skills（如CLAUDE.md技能文件）的架构差异，提出互补分工：MCP作为「连接器」处理服务集成（远程调用/OAuth认证/自动更新），Skills作为「手册」传递知识和上下文。MCP的核心优势：无本地安装依赖、跨设备天然可移植、OAuth处理认证、内置沙箱隔离。Skills的痛点：CLI依赖、秘钥管理困难、上下文窗口膨胀。HN 54分63评论，触发了大量开发者关于Agent工具生态架构的深度讨论。",
-      "source": "Hacker News (54 points, 63 comments)",
+      "source": "Hacker News (254 points, 207 comments)",
       "highlight": "MCP与Skills不是竞争而是互补：MCP连服务，Skills传知识——这个分工模型正在成为Agent工具生态的架构共识",
       "stars": 0,
       "tags": ["MCP", "Skills", "Agent Architecture", "Claude Code", "Protocol", "Developer Tools"]
+    },
+    {
+      "id": 21,
+      "category": "paper",
+      "title": "重新审视推理SFT泛化：「先降后升」曲线揭示SFT被系统性低估（HF 62赞）",
+      "url": "https://huggingface.co/papers/2604.06628",
+      "summary": "AI45Research团队挑战「SFT只能记忆、RL才能泛化」的主流叙事。核心发现：跨领域泛化存在「先降后升」特征模式——短训练检查点会系统性低估SFT的泛化能力，此前报告的泛化失败可能只是欠训练假象。同时揭示关键不对称性：推理能力提升的同时安全能力退化，将问题从「SFT能否泛化」重新定义为「在什么条件下以什么代价泛化」。HF 62赞。",
+      "source": "HuggingFace Papers (62 upvotes, AI45Research)",
+      "highlight": "SFT被低估了！「先降后升」的泛化曲线揭示：之前说SFT不泛化可能只是训练不够久——但代价是安全退化",
+      "stars": 0,
+      "tags": ["SFT", "Reasoning", "Generalization", "Training", "Safety", "LLM"]
+    },
+    {
+      "id": 22,
+      "category": "news",
+      "title": "科学家发明虚假疾病测试AI：所有主流AI系统都信以为真（Nature）",
+      "url": "https://www.nature.com/articles/d41586-026-01100-y",
+      "summary": "Nature报道一项独特实验：研究人员创造了一种完全虚构的疾病，然后测试主流AI系统的反应。结果所有被测试的AI系统都将这个虚假疾病当作真实存在的疾病来回答，编造症状、治疗方案和流行病学数据。这项研究直击AI幻觉问题的核心——AI系统倾向于「完成任务」而非「承认不知道」，在医疗等高风险领域可能造成严重后果。HN 74分80评论引发广泛讨论。",
+      "source": "Nature / Hacker News (74 points, 80 comments)",
+      "highlight": "AI幻觉的终极测试：面对一个不存在的疾病，没有任何AI说「我不知道」——在医疗领域这不是bug而是致命缺陷",
+      "stars": 0,
+      "tags": ["AI Hallucination", "Healthcare AI", "AI Safety", "Nature", "Evaluation", "Misinformation"]
+    },
+    {
+      "id": 23,
+      "category": "paper",
+      "title": "DMax：扩散语言模型激进并行解码，GSM8K加速2.68倍（NUS）",
+      "url": "https://huggingface.co/papers/2604.08302",
+      "summary": "新加坡国立大学提出DMax，将扩散语言模型（dLLM）解码从二值mask-token转换重新定义为渐进式自精炼过程。核心创新：On-Policy Uniform Training统一masked和uniform dLLM训练 + Soft Parallel Decoding在嵌入空间插值迭代修正。LLaDA-2.0-mini上GSM8K的TPF从2.04提升至5.47（2.68x），MBPP从2.71至5.86（2.16x）。双H200 GPU上batch=1达1,338 TPS。HF 31赞。",
+      "source": "HuggingFace Papers (31 upvotes, National University of Singapore)",
+      "highlight": "扩散语言模型的加速突破：从mask直接跳到token变成嵌入空间渐进精炼——2.68倍加速打开dLLM实用化大门",
+      "stars": 0,
+      "tags": ["Diffusion LLM", "Parallel Decoding", "Inference Speedup", "LLaDA", "NUS", "Efficiency"]
+    },
+    {
+      "id": 24,
+      "category": "news",
+      "title": "OpenAI暂停Stargate英国项目：能源成本和监管成为AI基础设施拦路虎",
+      "url": "https://www.theregister.com/2026/04/09/openai_puts_stargate_uk_on/",
+      "summary": "OpenAI宣布暂停其英国Stargate数据中心项目，原定部署8,000块NVIDIA GPU（可扩展至31,000块）。官方理由为能源成本上升和监管环境不确定，但矛盾的是该项目已获得英国政府AI Growth Zone的简化审批和优先电网接入。OpenAI表示将继续投资英国人才和研究，待条件成熟后恢复。此事折射出全球AI算力扩张面临的共性挑战：能源和监管。HN 58分。",
+      "source": "The Register / Hacker News (58 points, 35 comments)",
+      "highlight": "AI算力扩张的现实碰壁：即使政府开绿灯，能源成本也能让万卡集群项目搁浅——全球AI基础设施竞赛的隐形天花板",
+      "stars": 0,
+      "tags": ["OpenAI", "Stargate", "UK", "Data Center", "Energy", "AI Infrastructure"]
     }
   ]
 }
