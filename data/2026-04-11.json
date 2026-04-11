@@ -64,7 +64,7 @@
       "summary": "微软开源的Python工具，将几乎任何格式的文件转换为Markdown，专为LLM和文本分析管道优化。支持PDF、Word、PowerPoint、Excel、图片（含OCR/EXIF）、音频（含转录）、网页HTML、YouTube URL、CSV/JSON/XML等结构化数据和EPUB。核心设计理念：Markdown是LLM「母语」——保留文档结构（标题、列表、表格、链接）同时最小化标记噪声。支持Azure Document Intelligence集成和LLM驱动的图片描述。今日新增2,352星，总计99.8k星。",
       "source": "GitHub Trending (+2,352 today, ~99.8k total, Microsoft)",
       "highlight": "RAG和AI管道的「万能进料器」：不管是PDF报告、PPT演示还是YouTube视频，统统变成LLM可直接消化的Markdown——微软开源方案，近10万星背书",
-      "stars": 99800,
+      "stars": 100326,
       "tags": ["Document Conversion", "Markdown", "LLM Pipeline", "RAG", "OCR", "Microsoft", "Python"]
     },
     {
@@ -75,7 +75,7 @@
       "summary": "Archon是首个开源「Agent编码流水线」引擎，核心理念借鉴Dockerfile和GitHub Actions：将AI协作开发过程定义为YAML工作流而非随机提示。标准工作流：计划→实现→验证→Review→PR，每步组合AI节点（规划、代码生成）和确定性节点（bash脚本、测试、git操作）。支持CLI、Web UI、Slack/Telegram/Discord和GitHub Webhooks多端触发，提供17个内置工作流（含问题修复、特性开发、PR Review、重构），每次运行隔离git worktree支持并行任务。TypeScript构建，今日+756星至15.7k。",
       "source": "GitHub Trending (+756 today, 15.7k total)",
       "highlight": "AI编码的「流水线化」：把「叫AI帮我改代码」升级为「可审查、可复现、可并行的编码工作流」——在AI自主度和人类监督之间找到工程化平衡点",
-      "stars": 15700,
+      "stars": 15909,
       "tags": ["Coding Agent", "Workflow", "Deterministic", "GitHub", "CI/CD", "Agent Orchestration", "Open Source"]
     },
     {
@@ -86,7 +86,7 @@
       "summary": "香港大学数据科学实验室开源的Agent原生教育平台，将AI从「问答工具」升级为「个性化学习伙伴」。核心功能：统一对话工作区内支持五种模式（工具增强聊天、深度解题多Agent协作、测验生成、深度调研、数学动画可视化）；TutorBots持久化个人画像跨会话追踪学习历史；Co-Writer在Markdown编辑器中作为主动协作者（选中文本即可触发改写/扩展/总结）；文档知识库管理（PDF/Markdown上传→RAG就绪）。每项能力均可通过Agent-native CLI以JSON输出调用。",
       "source": "GitHub Trending (+1,424 today, 16k total, HKUDS Lab)",
       "highlight": "教育AI的「Agent原生」设计范式：不是学生问AI答，而是AI主动管理学习旅程——从上传资料到生成学习路径到写作协作，Agent自主完成教学循环",
-      "stars": 16000,
+      "stars": 16164,
       "tags": ["Education", "Agent-Native", "Personalized Learning", "RAG", "Multi-Agent", "Memory", "HKUDS"]
     },
     {
@@ -108,7 +108,7 @@
       "summary": "首个专为金融K线（OHLCV时序数据）设计的开源基础模型家族，训练数据覆盖全球45个以上交易所。技术架构：专用tokenizer将连续多维K线数据转化为分层离散Token，再由大型自回归Transformer处理实现多种量化应用。提供从Kronos-mini（4.1M参数）到Kronos-base（102.3M参数）的多规格模型，支持最长2048 Token上下文。包含BTC/USDT实时预测Demo、Fine-tuning脚本和回测基础设施。被AAAI 2026收录，Apache 2.0协议。",
       "source": "GitHub Trending (+601 today, 12.7k total, AAAI 2026)",
       "highlight": "金融AI的「基础模型时刻」：不是通用LLM套上金融数据，而是专为K线语言设计的自定义tokenizer+自回归Transformer——45个交易所数据背书的量化基础设施",
-      "stars": 12700,
+      "stars": 12807,
       "tags": ["Finance AI", "Time Series", "Foundation Model", "Quantitative Trading", "OHLCV", "AAAI 2026", "Open Source"]
     },
     {
@@ -198,6 +198,83 @@
       "highlight": "编码Agent的「项目管理」层：完整的任务接收→审批→沙箱执行→PR提交流程——YC看好的方向：Agent不只是写代码，还要像人一样走流程",
       "stars": 0,
       "tags": ["YC", "Coding Agent", "Cloud Agent", "PR Automation", "Claude Code", "Startup"]
+    },
+    {
+      "id": 19,
+      "category": "news",
+      "title": "佛罗里达州检察长对OpenAI展开调查：ChatGPT涉嫌被用于策划校园枪击案",
+      "url": "https://techcrunch.com/2026/04/09/florida-ag-investigation-openai-chatgpt-shooting/",
+      "summary": "佛罗里达州检察长宣布对OpenAI展开正式调查，起因是去年4月佛罗里达州立大学一起造成2死5伤的校园枪击事件中，ChatGPT据报被用于策划攻击。受害者家属也表示将对OpenAI提起诉讼。这是继跟踪案受害者起诉和伊利诺伊州免责游说之后，OpenAI在同一周内面临的第三起法律/监管挑战，标志着AI平台责任问题正从民事诉讼升级到州检察长级别的刑事调查。",
+      "source": "TechCrunch",
+      "highlight": "AI责任的「刑事化转折」：从民事诉讼到州检察长调查——ChatGPT涉嫌被用于策划致命枪击案，平台责任边界被推向新极限",
+      "stars": 0,
+      "tags": ["OpenAI", "ChatGPT", "Legal", "AI Safety", "Criminal Investigation", "Florida", "Regulation"]
+    },
+    {
+      "id": 20,
+      "category": "tool",
+      "title": "Context Gateway：Agent上下文压缩代理——在对话超长前自动后台压缩（HN 97分）",
+      "url": "https://github.com/Compresr-ai/Context-Gateway",
+      "summary": "YC孵化的Compresr团队开源的Agent代理网关，部署在Claude Code/Cursor等AI编码Agent与LLM API之间。核心功能：当对话历史接近token上限时，自动在后台压缩历史上下文，用户完全无感知。支持自定义压缩阈值（默认75%）、多Agent配置（claude_code/cursor/openclaw）、压缩活动日志记录和Slack通知。Go语言构建，单命令安装。解决了Agent长会话中最常见的痛点：上下文窗口溢出导致的性能退化。HN 97分64评论。",
+      "source": "Hacker News (97 points, 64 comments) / GitHub (577 stars)",
+      "highlight": "Agent的「记忆管理员」：不等上下文溢出才截断，而是后台持续压缩——YC看好的方向：Agent基础设施层的关键缺失正在被填补",
+      "stars": 577,
+      "tags": ["Agent Infrastructure", "Context Compression", "LLM Proxy", "Claude Code", "YC", "Go", "Developer Tools"]
+    },
+    {
+      "id": 21,
+      "category": "tool",
+      "title": "passage-of-time-mcp：让LLM拥有时间感知能力的MCP服务器（HN 91分）",
+      "url": "https://github.com/jlumbroso/passage-of-time-mcp",
+      "summary": "普林斯顿大学开发者Jérémie Lumbroso与Claude Opus 4.0协作开发的MCP服务器，专门解决LLM缺乏可靠时间计算能力的根本局限。提供7个核心工具：当前时间获取、时间差计算、时间戳上下文分析（工作日/休息日、典型活动）、经过时间计算、格式转换、时间运算、持续时间格式化。核心理念：不是让LLM猜测时间，而是给它一把「时间计算器」。基于FastMCP框架，Python 3.12+，Mozilla公共许可证。HN 91分55评论。",
+      "source": "Hacker News (91 points, 55 comments)",
+      "highlight": "LLM的时间盲区被MCP填补：7个时间工具让AI不再猜日期——从「星期几」到「距上次多久」，时间推理从幻觉变成精确计算",
+      "stars": 0,
+      "tags": ["MCP", "Time Awareness", "LLM Tools", "FastMCP", "Python", "Developer Tools", "Claude"]
+    },
+    {
+      "id": 22,
+      "category": "repo",
+      "title": "claude-code-best-practice：从Vibe Coding到Agent工程的Claude Code完全指南（36k星）",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "summary": "社区维护的Claude Code深度实践指南，副标题「from vibe coding to agentic engineering」。系统化覆盖Claude Code全功能栈：Subagent（隔离上下文自主Agent）、Commands（知识注入）、Skills（可配置预加载能力）、Workflows/Hooks/MCP/Plugins。热点功能详解：Auto Mode后台安全分类、Computer Use屏幕控制、定时任务、Agent Teams并行开发、多Agent PR Review、语音听写（20语言）、Chrome浏览器自动化、远程控制。收录9个生产级工作流架构（Superpowers/Spec Kit/gstack等）。今日+1,251星至36.1k。",
+      "source": "GitHub Trending (+1,251 today, 36.1k total)",
+      "highlight": "36k星的Claude Code百科全书：从入门到Agent工程的全栈指南——9个生产级工作流+热点功能详解，Agent工程化时代的必读手册",
+      "stars": 36126,
+      "tags": ["Claude Code", "Best Practice", "Agentic Engineering", "Workflow", "MCP", "Developer Guide", "Community"]
+    },
+    {
+      "id": 23,
+      "category": "paper",
+      "title": "MegaStyle：腾讯构建140万级风格数据集+FLUX风格迁移模型，mAP@1达88.46%（HF 80赞）",
+      "url": "https://huggingface.co/papers/2604.08364",
+      "summary": "腾讯联合同济大学、NTU、港科大等提出MegaStyle，解决风格迁移领域数据瓶颈：现有数据集风格内不一致、风格间不多样、质量有伪影。创新方案：利用Qwen-Image的文本到图像一致性风格映射能力，从170K风格提示+400K内容提示生成MegaStyle-1.4M数据集（8000+独特艺术风格）。同时训练MegaStyle-Encoder（风格监督对比学习，mAP@1达88.46% vs CSD的45.60%）和MegaStyle-FLUX（基于FLUX的通用风格迁移模型）。在定量指标和人类偏好研究中均超越7个基线方法。",
+      "source": "HuggingFace Papers (80 upvotes, Tencent/Tongji/NTU/HKUST)",
+      "highlight": "风格迁移的「数据引擎」：不是更好的模型而是更好的数据——140万级风格一致数据集让迁移质量翻倍，Tencent用数据工程解决AI艺术难题",
+      "stars": 0,
+      "tags": ["Style Transfer", "Dataset", "FLUX", "Tencent", "Generative AI", "Contrastive Learning", "Art AI"]
+    },
+    {
+      "id": 24,
+      "category": "paper",
+      "title": "SIM1：上海AI Lab物理对齐仿真器——纯合成数据训练机器人操作可变形物体（HF 55赞）",
+      "url": "https://huggingface.co/papers/2604.08544",
+      "summary": "上海AI Lab联合复旦、上交等提出SIM1，解决机器人操作可变形物体（布料、绳索等）的数据瓶颈。核心洞察：仿真失败不是因为数据是合成的，而是因为仿真与物理世界不对齐。SIM1的real-to-sim-to-real管线：从少量真实演示出发，将场景数字化为度量一致的数字孪生，通过弹性建模校准可变形物体动力学，再用扩散轨迹生成+质量过滤扩展行为数据。实验表明纯合成数据训练的策略可达到与真实数据训练同等水平——在可变形物体操作上首次实现sim-to-real零样本迁移。",
+      "source": "HuggingFace Papers (55 upvotes, Shanghai AI Lab/Fudan/SJTU/PKU)",
+      "highlight": "机器人的「虚拟训练场」真正可用了：纯合成数据训练=真实数据效果——SIM1让布料/绳索等可变形物体操作首次实现零样本sim-to-real迁移",
+      "stars": 0,
+      "tags": ["Robotics", "Sim-to-Real", "Deformable Objects", "Digital Twin", "Shanghai AI Lab", "Embodied AI"]
+    },
+    {
+      "id": 25,
+      "category": "repo",
+      "title": "MiroFish：53k星的群体智能预测引擎——用千个AI Agent构建平行世界模拟未来",
+      "url": "https://github.com/666ghj/MiroFish",
+      "summary": "基于CAMEL-AI的OASIS框架构建的群体智能预测平台。核心工作流：输入种子信息（新闻/报告/数据）→自动构建高保真平行数字世界→数千个独立AI Agent在其中交互、演化、博弈→生成详细预测报告和交互式模拟。支持动态注入变量进行情景建模。定位为决策者的「排练实验室」：宏观层面用于政策测试和趋势预测，微观层面用于创意沙盒和叙事生成。Python后端+Vue.js前端，需要LLM API和Zep Cloud记忆管理。今日+561星至53.3k。",
+      "source": "GitHub Trending (+561 today, 53.3k total)",
+      "highlight": "AI预测的「平行宇宙」方法：不是一个模型做预测，而是数千个Agent在模拟世界中交互演化——53k星验证「群体智能>单体推理」的预测范式",
+      "stars": 53329,
+      "tags": ["Swarm Intelligence", "Multi-Agent Simulation", "Prediction", "CAMEL-AI", "Digital Twin", "Decision Support"]
     }
   ]
 }
