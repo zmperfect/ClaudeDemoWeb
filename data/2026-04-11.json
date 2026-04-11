@@ -143,6 +143,61 @@
       "highlight": "AI公司的「监管套利」：一边宣传安全AI，一边游说免责立法——OpenAI的伊利诺伊州操作让「负责任AI」叙事的可信度再打折扣",
       "stars": 0,
       "tags": ["OpenAI", "Regulation", "Liability", "Illinois", "AI Policy", "Lobbying", "AI Governance"]
+    },
+    {
+      "id": 14,
+      "category": "news",
+      "title": "Sam Altman住所遭燃烧瓶袭击：反AI情绪从线上走向暴力（HN 377分合计）",
+      "url": "https://blog.samaltman.com/2279512",
+      "summary": "纽约时报报道OpenAI CEO Sam Altman的住所遭到燃烧瓶袭击，Altman随后在博客发文回应。事件引发HN合计377分824评论的超高关注度。这是AI行业高管面临的最严重人身安全威胁之一，反映了公众对AI技术的焦虑和愤怒情绪正在从线上讨论转向线下暴力，也对AI领域公众人物的安全敲响警钟。",
+      "source": "NYT + Sam Altman Blog / Hacker News (198+179 points, 824 comments)",
+      "highlight": "AI争议从键盘走向暴力：燃烧瓶事件标志着反AI情绪的危险升级——科技CEO的人身安全成为新的行业议题",
+      "stars": 0,
+      "tags": ["Sam Altman", "OpenAI", "AI Backlash", "Public Sentiment", "Security"]
+    },
+    {
+      "id": 15,
+      "category": "news",
+      "title": "美国政府召集银行高管讨论Anthropic Mythos模型的网络安全风险（HN 104分）",
+      "url": "https://www.theguardian.com/technology/2026/apr/10/us-summoned-bank-bosses-to-discuss-cyber-risks-posed-by-anthropic-latest-ai-model",
+      "summary": "The Guardian报道美国政府紧急召集主要银行高管，讨论Anthropic Claude Mythos模型可能带来的网络安全风险。此举直接呼应此前Anthropic声称该模型在发现软件漏洞方面「过于强大」故需限制发布。这是政府层面首次因特定AI模型的能力而召集金融行业紧急会议，标志着AI能力风险评估正式进入国家安全层面。HN 104分91评论。",
+      "source": "The Guardian / Hacker News (104 points, 91 comments)",
+      "highlight": "AI能力引发国家安全响应：政府因一个AI模型的漏洞发现能力召集银行高管——从Glasswing到银行紧急会议，Mythos的影响链条仍在扩大",
+      "stars": 0,
+      "tags": ["Anthropic", "Claude Mythos", "Cybersecurity", "Banking", "Government", "National Security"]
+    },
+    {
+      "id": 16,
+      "category": "news",
+      "title": "Linux内核正式发布AI编码助手使用规范：Assisted-by标签+人类全责（HN 168分）",
+      "url": "https://github.com/torvalds/linux/blob/master/Documentation/process/coding-assistants.rst",
+      "summary": "Linux内核项目正式发布AI编码助手使用规范文档。核心要求：AI代理不得添加Signed-off-by签名（仅人类可认证DCO）；所有AI辅助代码必须由人类审查并承担全部责任；使用AI工具需添加Assisted-by标签（格式：AGENT_NAME:MODEL_VERSION [TOOL1]）。规范未禁止任何AI工具，而是建立了披露、人类问责和GPL-2.0许可合规的治理框架。HN 168分130评论。",
+      "source": "Linux Kernel / Hacker News (168 points, 130 comments)",
+      "highlight": "开源世界的AI治理标杆：Linux内核不禁止AI但要求完全透明——Assisted-by标签制度为大型开源项目树立了AI使用规范的黄金标准",
+      "stars": 0,
+      "tags": ["Linux Kernel", "Open Source", "AI Governance", "Coding Assistant", "DCO", "Policy"]
+    },
+    {
+      "id": 17,
+      "category": "repo",
+      "title": "cactus-compute/cactus：手机端AI推理引擎——零拷贝+ARM SIMD+NPU加速（HN 231分）",
+      "url": "https://github.com/cactus-compute/cactus",
+      "summary": "专为手机和可穿戴设备设计的低延迟AI推理引擎。核心差异化：零拷贝内存映射（RAM占用减少约10倍）、ARM SIMD内核针对Apple/骁龙/Exynos优化、NPU加速预填充、多模态支持（语言/视觉/语音转文字）、自动云端回退。提供Python/Swift/Kotlin/Dart/Rust/React Native六种语言SDK。与Ollama的核心区别：Cactus不是桌面方案的移植，而是为移动端极限资源约束从底层重新设计的推理引擎。HN 231分，4.6k星。",
+      "source": "Hacker News (231 points, 82 comments) / GitHub (4.6k stars)",
+      "highlight": "移动端AI的专属引擎：10倍RAM节省+ARM原生优化+NPU加速——让手机也能流畅运行LLM，不是Ollama的缩小版而是全新设计",
+      "stars": 4600,
+      "tags": ["Mobile AI", "Edge Inference", "iOS", "Android", "Wearable", "On-Device", "C++"]
+    },
+    {
+      "id": 18,
+      "category": "tool",
+      "title": "Twill.ai（YC S25）：将编码任务委托给云端Agent团队，收到PR（HN 54分）",
+      "url": "https://twill.ai",
+      "summary": "Y Combinator S25孵化的云端编码Agent平台。工作流：在GitHub/Linear/Slack中@twill分配任务→Agent分析代码库→生成实施方案→用户审批→隔离沙箱执行→AI代码审查→提交PR→沙箱销毁。支持Claude Code、OpenCode、Codex三种Agent后端，可SSH进入沙箱调试。核心差异化：不是本地Agent而是云端托管的「AI队友」，重点在任务管理和审批流程而非单次代码生成。HN 54分50评论，Launch HN。",
+      "source": "Hacker News (54 points, 50 comments, Launch HN / YC S25)",
+      "highlight": "编码Agent的「项目管理」层：完整的任务接收→审批→沙箱执行→PR提交流程——YC看好的方向：Agent不只是写代码，还要像人一样走流程",
+      "stars": 0,
+      "tags": ["YC", "Coding Agent", "Cloud Agent", "PR Automation", "Claude Code", "Startup"]
     }
   ]
 }
