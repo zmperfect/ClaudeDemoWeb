@@ -15,10 +15,10 @@
     {
       "id": 2,
       "category": "paper",
-      "title": "LPM 1.0：17B参数扩散Transformer，实时无限时长全双工对话视频角色生成（HF 121赞）",
+      "title": "LPM 1.0：17B参数扩散Transformer，实时无限时长全双工对话视频角色生成（HF 152赞）",
       "url": "https://huggingface.co/papers/2604.07823",
       "summary": "LPM 1.0（Large Performance Model）提出将「对话视频角色」重新定义为「表演问题」：角色不只需要唇形对齐，而是需要同步说话、倾听、微表情和自然肢体动作，并跨时间保持身份一致。技术路线：17B参数扩散Transformer(Base LPM)实现高可控、身份一致的表演生成，蒸馏为因果流式生成器(Online LPM)实现低延迟无限时长。支持全双工音视频——从用户音频生成倾听视频，从合成音频生成说话视频，文本提示控制动作风格，RTX级硬件实现实时推理。",
-      "source": "HuggingFace Papers (121 upvotes)",
+      "source": "HuggingFace Papers (152 upvotes)",
       "highlight": "「数字人」的范式跃迁：从「会说话的头像」到「能表演的角色」——LPM 1.0解决表演三难困境（表现力/实时/身份稳定），为对话AI、直播角色、游戏NPC提供实用视觉引擎",
       "stars": 0,
       "tags": ["Avatar", "Video Generation", "Diffusion Transformer", "Conversational AI", "Full-Duplex", "Real-Time", "NPC"]
@@ -26,10 +26,10 @@
     {
       "id": 3,
       "category": "paper",
-      "title": "NUMINA：无需训练，为T2V模型补充数量理解能力，计数准确率提升7.4%（HF 104赞）",
+      "title": "NUMINA：无需训练，为T2V模型补充数量理解能力，计数准确率提升7.4%（HF 107赞）",
       "url": "https://huggingface.co/papers/2604.08546",
       "summary": "华中科技大学、浙江大学联合提出NUMINA（identify-then-guide框架），专门解决文本到视频扩散模型的「数量幻觉」问题：模型经常无法生成提示词中指定数量的物体。NUMINA通过选择判别性自注意力和交叉注意力头构建「可数潜在布局」，识别布局与提示的不一致，再通过注意力调制引导重新生成。核心优势：无需重新训练，即插即用。在Wan2.1-1.3B上计数准确率提升7.4%，在5B和14B模型上分别提升4.9%和5.5%，同时保持时序一致性和CLIP对齐。",
-      "source": "HuggingFace Papers (104 upvotes, HUST/Zhejiang University)",
+      "source": "HuggingFace Papers (107 upvotes, HUST/Zhejiang University)",
       "highlight": "视频生成的「数字失明」被无训练方案修复：不是模型不聪明，是注意力机制的结构性缺陷导致数量词语义扩散——NUMINA用注意力手术刀精准矫正",
       "stars": 0,
       "tags": ["Text-to-Video", "Counting", "Attention Mechanism", "Training-Free", "Diffusion", "Video Generation", "HUST"]
@@ -37,10 +37,10 @@
     {
       "id": 4,
       "category": "paper",
-      "title": "KnowU-Bench：首个交互式+主动式手机Agent评测，强制真实偏好推断而非上下文查找（HF 46赞）",
+      "title": "KnowU-Bench：首个交互式+主动式手机Agent评测，强制真实偏好推断而非上下文查找（HF 50赞）",
       "url": "https://huggingface.co/papers/2604.08455",
       "summary": "浙江大学、Apple、腾讯联合发布KnowU-Bench，填补手机Agent评测的关键空白：现有基准要么从静态历史恢复偏好，要么从固定上下文预测意图，都无法测试Agent「通过交互主动补全缺失偏好」的能力。KnowU-Bench将用户画像对Agent隐藏，仅暴露行为日志，强制真实偏好推断。覆盖42个通用GUI任务、86个个性化任务、64个主动干预任务，含三轮澳式偏好询问对话（LLM驱动用户模拟器）、同意谈判、拒绝后克制评测。",
-      "source": "HuggingFace Papers (46 upvotes, Zhejiang University/Apple/Tencent)",
+      "source": "HuggingFace Papers (50 upvotes, Zhejiang University/Apple/Tencent)",
       "highlight": "手机Agent的「真正挑战」：不是执行命令，而是理解你——KnowU-Bench让Agent在信息不完整时主动问、在不确定时谨慎行，测试的是Agent的社交智能而非执行精度",
       "stars": 0,
       "tags": ["Mobile Agent", "Benchmark", "Personalization", "Proactive AI", "GUI Agent", "Preference Inference", "Apple"]
@@ -48,10 +48,10 @@
     {
       "id": 5,
       "category": "paper",
-      "title": "MolmoWeb：Allen AI完全开源的视觉Web Agent——从截图直接预测浏览器动作（HF 27赞）",
+      "title": "MolmoWeb：Allen AI完全开源的视觉Web Agent——从截图直接预测浏览器动作（HF 29赞）",
       "url": "https://huggingface.co/papers/2604.08516",
       "summary": "Allen Institute for AI和华盛顿大学发布MolmoWeb，核心主张是「开放Web的Agent应在开放环境中构建」——挑战GPT-4o等闭源Web Agent垄断格局。MolmoWeb包含MolmoWebMix数据集（10万+合成任务轨迹+3万+人类演示+原子级Web技能+GUI感知数据）和MolmoWeb模型家族（指令条件视觉-语言动作策略：输入任务指令+网页截图→预测下一个浏览器动作）。完全不依赖HTML、可访问性树或专用API，仅凭截图视觉感知操作浏览器。",
-      "source": "HuggingFace Papers (27 upvotes, Allen Institute for AI / University of Washington)",
+      "source": "HuggingFace Papers (29 upvotes, Allen Institute for AI / University of Washington)",
       "highlight": "开源Web Agent的「全栈解放」：数据、模型、训练方案全开放——打破「最强Web Agent必须是闭源」的现状，为社区驱动的Web自动化奠基",
       "stars": 0,
       "tags": ["Web Agent", "Open Source", "Visual Agent", "Browser Automation", "Allen AI", "VLM", "Benchmark"]
@@ -61,43 +61,43 @@
       "category": "repo",
       "title": "microsoft/markitdown：近10万星的文件转Markdown工具——专为LLM数据管道设计",
       "url": "https://github.com/microsoft/markitdown",
-      "summary": "微软开源的Python工具，将几乎任何格式的文件转换为Markdown，专为LLM和文本分析管道优化。支持PDF、Word、PowerPoint、Excel、图片（含OCR/EXIF）、音频（含转录）、网页HTML、YouTube URL、CSV/JSON/XML等结构化数据和EPUB。核心设计理念：Markdown是LLM「母语」——保留文档结构（标题、列表、表格、链接）同时最小化标记噪声。支持Azure Document Intelligence集成和LLM驱动的图片描述。今日新增2,352星，总计99.8k星。",
-      "source": "GitHub Trending (+2,352 today, ~99.8k total, Microsoft)",
-      "highlight": "RAG和AI管道的「万能进料器」：不管是PDF报告、PPT演示还是YouTube视频，统统变成LLM可直接消化的Markdown——微软开源方案，近10万星背书",
-      "stars": 100326,
+      "summary": "微软开源的Python工具，将几乎任何格式的文件转换为Markdown，专为LLM和文本分析管道优化。支持PDF、Word、PowerPoint、Excel、图片（含OCR/EXIF）、音频（含转录）、网页HTML、YouTube URL、CSV/JSON/XML等结构化数据和EPUB。核心设计理念：Markdown是LLM「母语」——保留文档结构（标题、列表、表格、链接）同时最小化标记噪声。支持Azure Document Intelligence集成和LLM驱动的图片描述。今日新增3,069星，总计100.9k星。",
+      "source": "GitHub Trending (+3,069 today, ~101k total, Microsoft)",
+      "highlight": "RAG和AI管道的「万能进料器」：不管是PDF报告、PPT演示还是YouTube视频，统统变成LLM可直接消化的Markdown——微软开源方案，10万星背书",
+      "stars": 100997,
       "tags": ["Document Conversion", "Markdown", "LLM Pipeline", "RAG", "OCR", "Microsoft", "Python"]
     },
     {
       "id": 7,
       "category": "repo",
-      "title": "coleam00/Archon：开源AI编码工作流引擎——让AI协作编程从随机变成可复现（15.7k星）",
+      "title": "coleam00/Archon：开源AI编码工作流引擎——让AI协作编程从随机变成可复现（16.1k星）",
       "url": "https://github.com/coleam00/Archon",
-      "summary": "Archon是首个开源「Agent编码流水线」引擎，核心理念借鉴Dockerfile和GitHub Actions：将AI协作开发过程定义为YAML工作流而非随机提示。标准工作流：计划→实现→验证→Review→PR，每步组合AI节点（规划、代码生成）和确定性节点（bash脚本、测试、git操作）。支持CLI、Web UI、Slack/Telegram/Discord和GitHub Webhooks多端触发，提供17个内置工作流（含问题修复、特性开发、PR Review、重构），每次运行隔离git worktree支持并行任务。TypeScript构建，今日+756星至15.7k。",
-      "source": "GitHub Trending (+756 today, 15.7k total)",
+      "summary": "Archon是首个开源「Agent编码流水线」引擎，核心理念借鉴Dockerfile和GitHub Actions：将AI协作开发过程定义为YAML工作流而非随机提示。标准工作流：计划→实现→验证→Review→PR，每步组合AI节点（规划、代码生成）和确定性节点（bash脚本、测试、git操作）。支持CLI、Web UI、Slack/Telegram/Discord和GitHub Webhooks多端触发，提供17个内置工作流（含问题修复、特性开发、PR Review、重构），每次运行隔离git worktree支持并行任务。TypeScript构建，今日+1,339星至16.1k。",
+      "source": "GitHub Trending (+1,339 today, 16.1k total)",
       "highlight": "AI编码的「流水线化」：把「叫AI帮我改代码」升级为「可审查、可复现、可并行的编码工作流」——在AI自主度和人类监督之间找到工程化平衡点",
-      "stars": 15909,
+      "stars": 16137,
       "tags": ["Coding Agent", "Workflow", "Deterministic", "GitHub", "CI/CD", "Agent Orchestration", "Open Source"]
     },
     {
       "id": 8,
       "category": "repo",
-      "title": "HKUDS/DeepTutor：16k星的Agent原生个性化学习平台——五种学习模式+持久记忆+Co-Writer（+1,424今日）",
+      "title": "HKUDS/DeepTutor：16.4k星的Agent原生个性化学习平台——五种学习模式+持久记忆+Co-Writer（+836今日）",
       "url": "https://github.com/HKUDS/DeepTutor",
       "summary": "香港大学数据科学实验室开源的Agent原生教育平台，将AI从「问答工具」升级为「个性化学习伙伴」。核心功能：统一对话工作区内支持五种模式（工具增强聊天、深度解题多Agent协作、测验生成、深度调研、数学动画可视化）；TutorBots持久化个人画像跨会话追踪学习历史；Co-Writer在Markdown编辑器中作为主动协作者（选中文本即可触发改写/扩展/总结）；文档知识库管理（PDF/Markdown上传→RAG就绪）。每项能力均可通过Agent-native CLI以JSON输出调用。",
-      "source": "GitHub Trending (+1,424 today, 16k total, HKUDS Lab)",
+      "source": "GitHub Trending (+836 today, 16.4k total, HKUDS Lab)",
       "highlight": "教育AI的「Agent原生」设计范式：不是学生问AI答，而是AI主动管理学习旅程——从上传资料到生成学习路径到写作协作，Agent自主完成教学循环",
-      "stars": 16164,
+      "stars": 16377,
       "tags": ["Education", "Agent-Native", "Personalized Learning", "RAG", "Multi-Agent", "Memory", "HKUDS"]
     },
     {
       "id": 9,
       "category": "repo",
-      "title": "andrej-karpathy-skills：基于Karpathy观察整理的CLAUDE.md最佳实践，11.8k星（+1,450今日）",
+      "title": "andrej-karpathy-skills：基于Karpathy观察整理的CLAUDE.md最佳实践，12.3k星（+1,070今日）",
       "url": "https://github.com/forrestchang/andrej-karpathy-skills",
       "summary": "开发者forrestchang基于Andrej Karpathy对LLM编码常见错误的观察，整理成一份CLAUDE.md配置文件，直接改善Claude Code的行为质量。针对三大痼疾：隐性假设（模型不声不响地自行解读）、过度设计（引入不必要的抽象和臃肿代码）、正交改动（修改了不相关的代码）。四条核心原则：先想后写（暴露假设并求确认）、简约优先（只解决被要求的问题）、手术式修改（只动必要的地方）、目标驱动执行（定义可验证的成功标准）。支持Claude Code插件和项目级CLAUDE.md两种安装方式。",
-      "source": "GitHub Trending (+1,450 today, 11.8k total)",
-      "highlight": "11.8k星的「编码AI行为规范」：Karpathy的洞察→一份CLAUDE.md→AI助手从「聪明但话多」变成「精准且克制」——开发者口耳相传的最佳实践终于有了系统化版本",
-      "stars": 11800,
+      "source": "GitHub Trending (+1,070 today, 12.3k total)",
+      "highlight": "12.3k星的「编码AI行为规范」：Karpathy的洞察→一份CLAUDE.md→AI助手从「聪明但话多」变成「精准且克制」——开发者口耳相传的最佳实践终于有了系统化版本",
+      "stars": 12301,
       "tags": ["Claude Code", "CLAUDE.md", "Best Practices", "Coding Agent", "Karpathy", "Prompt Engineering", "Developer Tools"]
     },
     {
@@ -138,8 +138,8 @@
       "category": "news",
       "title": "OpenAI支持伊利诺伊州立法豁免AI公司模型危害诉讼责任",
       "url": "https://news.ycombinator.com/item?id=47717294",
-      "summary": "OpenAI积极游说支持伊利诺伊州一项法案，该法案将限制AI公司因模型输出造成的危害被追究法律责任。此举与其倡导「负责任AI」的公共形象形成强烈对比，HN 420分309评论引发社区强烈反应。批评者指出，这与OpenAI近期面临的多起用户伤害诉讼时间点高度吻合，暗示该立法游说是针对具体诉讼风险的防御性战略布局，而非真正的监管政策讨论。",
-      "source": "Wired / Hacker News (420 points, 309 comments)",
+      "summary": "OpenAI积极游说支持伊利诺伊州一项法案，该法案将限制AI公司因模型输出造成的危害被追究法律责任。此举与其倡导「负责任AI」的公共形象形成强烈对比，HN 432分314评论引发社区强烈反应。批评者指出，这与OpenAI近期面临的多起用户伤害诉讼时间点高度吻合，暗示该立法游说是针对具体诉讼风险的防御性战略布局，而非真正的监管政策讨论。",
+      "source": "Wired / Hacker News (432 points, 314 comments)",
       "highlight": "AI公司的「监管套利」：一边宣传安全AI，一边游说免责立法——OpenAI的伊利诺伊州操作让「负责任AI」叙事的可信度再打折扣",
       "stars": 0,
       "tags": ["OpenAI", "Regulation", "Liability", "Illinois", "AI Policy", "Lobbying", "AI Governance"]
@@ -169,10 +169,10 @@
     {
       "id": 16,
       "category": "news",
-      "title": "Linux内核正式发布AI编码助手使用规范：Assisted-by标签+人类全责（HN 168分）",
+      "title": "Linux内核正式发布AI编码助手使用规范：Assisted-by标签+人类全责（HN 360分）",
       "url": "https://github.com/torvalds/linux/blob/master/Documentation/process/coding-assistants.rst",
-      "summary": "Linux内核项目正式发布AI编码助手使用规范文档。核心要求：AI代理不得添加Signed-off-by签名（仅人类可认证DCO）；所有AI辅助代码必须由人类审查并承担全部责任；使用AI工具需添加Assisted-by标签（格式：AGENT_NAME:MODEL_VERSION [TOOL1]）。规范未禁止任何AI工具，而是建立了披露、人类问责和GPL-2.0许可合规的治理框架。HN 168分130评论。",
-      "source": "Linux Kernel / Hacker News (168 points, 130 comments)",
+      "summary": "Linux内核项目正式发布AI编码助手使用规范文档。核心要求：AI代理不得添加Signed-off-by签名（仅人类可认证DCO）；所有AI辅助代码必须由人类审查并承担全部责任；使用AI工具需添加Assisted-by标签（格式：AGENT_NAME:MODEL_VERSION [TOOL1]）。规范未禁止任何AI工具，而是建立了披露、人类问责和GPL-2.0许可合规的治理框架。HN 360分264评论，持续升温。",
+      "source": "Linux Kernel / Hacker News (360 points, 264 comments)",
       "highlight": "开源世界的AI治理标杆：Linux内核不禁止AI但要求完全透明——Assisted-by标签制度为大型开源项目树立了AI使用规范的黄金标准",
       "stars": 0,
       "tags": ["Linux Kernel", "Open Source", "AI Governance", "Coding Assistant", "DCO", "Policy"]
@@ -191,10 +191,10 @@
     {
       "id": 18,
       "category": "tool",
-      "title": "Twill.ai（YC S25）：将编码任务委托给云端Agent团队，收到PR（HN 54分）",
+      "title": "Twill.ai（YC S25）：将编码任务委托给云端Agent团队，收到PR（HN 71分）",
       "url": "https://twill.ai",
-      "summary": "Y Combinator S25孵化的云端编码Agent平台。工作流：在GitHub/Linear/Slack中@twill分配任务→Agent分析代码库→生成实施方案→用户审批→隔离沙箱执行→AI代码审查→提交PR→沙箱销毁。支持Claude Code、OpenCode、Codex三种Agent后端，可SSH进入沙箱调试。核心差异化：不是本地Agent而是云端托管的「AI队友」，重点在任务管理和审批流程而非单次代码生成。HN 54分50评论，Launch HN。",
-      "source": "Hacker News (54 points, 50 comments, Launch HN / YC S25)",
+      "summary": "Y Combinator S25孵化的云端编码Agent平台。工作流：在GitHub/Linear/Slack中@twill分配任务→Agent分析代码库→生成实施方案→用户审批→隔离沙箱执行→AI代码审查→提交PR→沙箱销毁。支持Claude Code、OpenCode、Codex三种Agent后端，可SSH进入沙箱调试。核心差异化：不是本地Agent而是云端托管的「AI队友」，重点在任务管理和审批流程而非单次代码生成。HN 71分72评论。",
+      "source": "Hacker News (71 points, 72 comments, Launch HN / YC S25)",
       "highlight": "编码Agent的「项目管理」层：完整的任务接收→审批→沙箱执行→PR提交流程——YC看好的方向：Agent不只是写代码，还要像人一样走流程",
       "stars": 0,
       "tags": ["YC", "Coding Agent", "Cloud Agent", "PR Automation", "Claude Code", "Startup"]
@@ -246,10 +246,10 @@
     {
       "id": 23,
       "category": "paper",
-      "title": "MegaStyle：腾讯构建140万级风格数据集+FLUX风格迁移模型，mAP@1达88.46%（HF 80赞）",
+      "title": "MegaStyle：腾讯构建140万级风格数据集+FLUX风格迁移模型，mAP@1达88.46%（HF 83赞）",
       "url": "https://huggingface.co/papers/2604.08364",
       "summary": "腾讯联合同济大学、NTU、港科大等提出MegaStyle，解决风格迁移领域数据瓶颈：现有数据集风格内不一致、风格间不多样、质量有伪影。创新方案：利用Qwen-Image的文本到图像一致性风格映射能力，从170K风格提示+400K内容提示生成MegaStyle-1.4M数据集（8000+独特艺术风格）。同时训练MegaStyle-Encoder（风格监督对比学习，mAP@1达88.46% vs CSD的45.60%）和MegaStyle-FLUX（基于FLUX的通用风格迁移模型）。在定量指标和人类偏好研究中均超越7个基线方法。",
-      "source": "HuggingFace Papers (80 upvotes, Tencent/Tongji/NTU/HKUST)",
+      "source": "HuggingFace Papers (83 upvotes, Tencent/Tongji/NTU/HKUST)",
       "highlight": "风格迁移的「数据引擎」：不是更好的模型而是更好的数据——140万级风格一致数据集让迁移质量翻倍，Tencent用数据工程解决AI艺术难题",
       "stars": 0,
       "tags": ["Style Transfer", "Dataset", "FLUX", "Tencent", "Generative AI", "Contrastive Learning", "Art AI"]
@@ -275,6 +275,94 @@
       "highlight": "AI预测的「平行宇宙」方法：不是一个模型做预测，而是数千个Agent在模拟世界中交互演化——53k星验证「群体智能>单体推理」的预测范式",
       "stars": 53329,
       "tags": ["Swarm Intelligence", "Multi-Agent Simulation", "Prediction", "CAMEL-AI", "Digital Twin", "Decision Support"]
+    },
+    {
+      "id": 26,
+      "category": "repo",
+      "title": "NousResearch/hermes-agent：55.7k星自进化Agent框架——跨平台持久记忆+自主技能创建+40+工具（今日+6,437）",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "summary": "Nous Research开源的自进化AI助手框架，今日GitHub最热项目（+6,437星）。核心特性：跨CLI/Telegram/Discord/Slack/WhatsApp/Signal六平台统一运行；从使用经验中自动创建和优化技能（兼容agentskills.io开放标准）；全文检索持久记忆+LLM摘要+用户建模跨会话积累；内置cron调度器支持无人值守任务；并行子Agent执行隔离工作流；40+内置工具+MCP集成；支持Nous Portal/OpenRouter(200+模型)/OpenAI/Anthropic等多后端切换；本地/Docker/SSH/Daytona/Singularity/Modal多部署方式，闲置接近零成本。轨迹压缩支持训练下一代模型。",
+      "source": "GitHub Trending #1 (+6,437 today, 55.7k total, Nous Research)",
+      "highlight": "今日GitHub最热：真正「成长型」Agent——不只执行命令，通过持续使用自动积累技能和记忆，55.7k星、382位贡献者的背书说明开发者已在用它替代静态Agent框架",
+      "stars": 55700,
+      "tags": ["Self-Evolving Agent", "Skill Learning", "Persistent Memory", "Multi-Platform", "MCP", "Agent Framework", "Nous Research"]
+    },
+    {
+      "id": 27,
+      "category": "paper",
+      "title": "SkillClaw：技能集体进化框架——跨用户轨迹挖掘实现Agent技能自动更新，今日HF第一（196赞）",
+      "url": "https://huggingface.co/papers/2604.08377",
+      "summary": "阿里AMAP-ML团队提出SkillClaw，解决多用户LLM Agent系统中技能静态化问题：现有技能（如OpenClaw）部署后无法随使用改进。核心创新：汇聚跨用户交互轨迹作为技能改进信号→轨迹聚类识别跨上下文重复行为模式→翻译为具体技能更新；自主进化器（Agentic Evolver）持续处理聚类轨迹，发现的改进自动全系统传播，用户无需额外操作。工程实现：技能分类管理（可控粒度聚类）、安全发布门控（延迟到验证通过）、非稳态处理（应对演化的用户分布和噪声反馈）。在WildClawBench上验证，Qwen3-Max性能显著提升。",
+      "source": "HuggingFace Papers (196 upvotes, AMAP-ML / Alibaba, #1 today)",
+      "highlight": "Agent技能的「群体智慧」：不是单用户反馈驱动改进，而是数千用户集体轨迹涌现出技能进化——SkillClaw让Agent技能库像开源社区一样自我迭代，技能随生态成熟而增强",
+      "stars": 0,
+      "tags": ["Agent Skills", "Collective Learning", "Skill Evolution", "Multi-User", "Trajectory Mining", "LLM Agent", "Alibaba"]
+    },
+    {
+      "id": 28,
+      "category": "paper",
+      "title": "推理SFT泛化性重思：优化+数据+模型三因素条件分析——打破「SFT不泛化」迷思（HF 168赞）",
+      "url": "https://huggingface.co/papers/2604.06628",
+      "summary": "该论文挑战了「监督微调(SFT)只会记忆、强化学习(RL)才能泛化」的流行观点，通过三因素条件分析证明跨域推理泛化是有条件的。四大核心发现：(1)「凹陷-恢复」现象——跨域性能先下降后恢复，短训练检查点会系统性低估泛化能力；(2)数据质量决定性作用——低质解答全面损害泛化，验证的长CoT轨迹产生稳定跨域增益；(3)模型能力门控——强模型能从简单算术任务提取回溯等可迁移过程式推理模式，弱模型只能模仿表面冗长；(4)不对称泛化代价——推理能力提升同时安全能力下降。重新定义核心问题为「SFT在什么条件下泛化，以何种代价」。开源33个模型和5个数据集。",
+      "source": "HuggingFace Papers (168 upvotes, #2 today)",
+      "highlight": "「SFT只记忆」被系统推翻：凹陷-恢复现象说明大量研究者因训练过短而错判泛化失败——更深层洞察：SFT能否泛化取决于模型底层能力，这重新定义了小模型SFT的可能性边界",
+      "stars": 0,
+      "tags": ["SFT", "Reasoning", "Generalization", "CoT", "Training Dynamics", "LLM Training", "Safety Trade-off"]
+    },
+    {
+      "id": 29,
+      "category": "paper",
+      "title": "腾讯HY-Embodied-0.5：MoT双模态架构具身基础模型——22项基准超越Gemini 3.0 Pro（HF 138赞）",
+      "url": "https://huggingface.co/papers/2604.07430",
+      "summary": "腾讯混元开源HY-Embodied-0.5具身基础模型家族（MoT-2B和MoE-A32B），专为真实世界机器人Agent设计。核心创新：(1)MoT（Mixture-of-Transformers）架构——视觉和语言Token独立参数，视觉双向注意力+语言因果注意力，推理开销可忽略；(2)视觉潜在Token改善跨模态对齐；(3)HY-ViT 2.0（400M参数任意分辨率ViT）；(4)625B tokens三阶段训练+能力自适应RL课程（四类任务感知奖励：定位/回归/轨迹/文本）；(5)on-policy蒸馏从MoE-A32B迁移推理模式到MoT-2B边缘部署。MoE-A32B在22个基准平均67.0%，超越Gemini 3.0 Pro(63.6%)，机械臂精密插件任务85%成功率。",
+      "source": "HuggingFace Papers (138 upvotes, Tencent HunyuanVision, #3 today)",
+      "highlight": "开源具身AI击败Gemini：腾讯MoE-A32B以67.0% vs 63.6%超越Gemini 3.0 Pro，且完全开源——MoT架构让视觉和语言真正分离处理，是具身AI从「会看」到「能操作」的架构里程碑",
+      "stars": 0,
+      "tags": ["Embodied AI", "Robotics", "VLM", "MoT Architecture", "Tencent", "Foundation Model", "Open Source"]
+    },
+    {
+      "id": 30,
+      "category": "paper",
+      "title": "ClawBench：153项真实生产网站日常任务Agent评测——7个前沿模型普遍低分（HF 96赞）",
+      "url": "https://huggingface.co/papers/2604.08523",
+      "summary": "UBC/CMU/Waterloo/Vector Institute等联合提出ClawBench，评测AI Agent能否完成人们日常生活的真实在线任务。153个任务跨144个真实生产网站（非沙箱），覆盖15类：网购完成、预约、求职申请等；要求从用户文档获取信息、跨平台多步骤工作流、大量表单精确填写。关键工程创新：轻量拦截层只阻断最终提交请求——保留动态复杂性同时避免真实世界副作用。7个前沿模型测试结果：即使最优模型也只能完成少量任务，揭示了现有Web Agent在现实任务中的根本能力缺口。配套评估平台claw-bench.com已上线。",
+      "source": "HuggingFace Papers (96 upvotes, UBC/CMU/Waterloo/Vector Institute/SJTU/HKUST)",
+      "highlight": "Web Agent的「真实考场」：生产网站153道日常任务让7个前沿模型普遍交卷难堪——ClawBench暴露了现有Agent处理动态表单和跨平台工作流时的根本能力缺口",
+      "stars": 0,
+      "tags": ["Web Agent", "Benchmark", "Real-World Tasks", "Browser Automation", "Multi-Step", "Evaluation", "CMU"]
+    },
+    {
+      "id": 31,
+      "category": "repo",
+      "title": "multica-ai/multica：开源托管Agent平台——让AI编码Agent真正成为团队成员，自主领取任务（7.1k星+1,950今日）",
+      "url": "https://github.com/multica-ai/multica",
+      "summary": "开源的托管AI Agent平台，将AI编码Agent升级为真正的「团队成员」。工作流：Agent拥有个人资料并出现在项目看板→主动领取Issues→实时WebSocket推送进展→主动汇报阻塞问题→解决方案沉淀为可复用技能。技术架构：Next.js 16前端+Go(Chi路由)后端+PostgreSQL 17(pgvector)；本地守护进程执行Claude Code/Codex/OpenClaw/OpenCode，通过WebSocket上报结果；支持团队级工作区隔离。云托管和自部署均可。今日+1,950星至7.1k。",
+      "source": "GitHub Trending (+1,950 today, 7.1k total)",
+      "highlight": "Agent的「团队化」：不是人叫Agent做任务，而是Agent主动看板领任务、实时汇报、积累技能——multica把「AI同事」从概念变成可自部署的开源基础设施",
+      "stars": 7100,
+      "tags": ["Agent Platform", "Coding Agent", "Team Collaboration", "Project Management", "Open Source", "WebSocket", "Claude Code"]
+    },
+    {
+      "id": 32,
+      "category": "paper",
+      "title": "DMax：扩散LLM的激进并行解码——On-Policy均匀训练+软并行解码，GSM8K吞吐提升2.7倍（HF 61赞）",
+      "url": "https://huggingface.co/papers/2604.08302",
+      "summary": "新加坡国立大学提出DMax，解决扩散语言模型(dLLM)并行解码中的误差积累问题，使激进并行成为可能。两大核心创新：(1)On-Policy均匀训练——统一masked和uniform dLLMs的新训练策略，使模型既能从masked输入恢复clean tokens，也能从自身错误预测中自我修复；(2)软并行解码——将中间解码状态表示为预测Token嵌入和mask嵌入的插值，在嵌入空间中迭代自修正，打破传统二进制mask-to-token过渡。基于LLaDA-2.0-mini：GSM8K的TPF从2.04提升到5.47（+168%）；MBPP的TPF从2.71提升到5.86，性能无损；两块H200 GPU在batch size 1下实现1,338 TPS均值。",
+      "source": "HuggingFace Papers (61 upvotes, National University of Singapore)",
+      "highlight": "扩散LLM的速度壁垒被打破：软并行解码让吞吐提升2.7倍——dLLM不只是理论有趣，DMax让它在工程指标上真正追上自回归模型，加速扩散语言模型走向实用",
+      "stars": 0,
+      "tags": ["Diffusion LLM", "Parallel Decoding", "Inference Optimization", "dLLM", "NUS", "LLaDA", "Throughput"]
+    },
+    {
+      "id": 33,
+      "category": "repo",
+      "title": "OpenBMB/VoxCPM2：2B参数无Tokenizer TTS——30语言+200万小时训练数据+自然语言声音设计（9.3k星）",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "summary": "清华NLP实验室OpenBMB开源的多语言TTS基础模型VoxCPM2。核心创新：无Tokenizer架构——不将语音转为离散Token，而是通过端到端扩散自回归架构（LocEnc→TSLM→RALM→LocDiT四阶段在AudioVAE V2潜空间中生成）直接生成连续语音表示，输出48kHz录音室级音频。特色能力：(1)声音设计——仅凭自然语言描述创建全新声音，无需参考音频；(2)可控声音克隆——保留说话者音色同时调整情感/节奏/风格；(3)极致克隆——结合参考音频+转录文本高保真复现声音细节。2B参数，30种语言，RTF约0.3（优化后~0.13）。Apache-2.0协议，支持商业使用。今日+953星至9.3k。",
+      "source": "GitHub Trending (+953 today, 9.3k total, OpenBMB / Tsinghua NLP)",
+      "highlight": "TTS的「无Tokenizer」突破：不经离散化直接在潜空间端到端生成连续语音——200万小时训练+30语言+自然语言声音设计，让语音合成和声音克隆真正开源可商用",
+      "stars": 9329,
+      "tags": ["TTS", "Speech Synthesis", "Voice Cloning", "Multilingual", "Diffusion", "OpenBMB", "Tsinghua"]
     }
   ]
 }
