@@ -1,0 +1,170 @@
+{
+  "date": "2026-04-12",
+  "items": [
+    {
+      "id": 1,
+      "category": "paper",
+      "title": "Agent外部化统一综述：记忆、技能、协议与Harness工程——LLM Agent进化三阶段框架（HF 36赞）",
+      "url": "https://huggingface.co/papers/2604.08224",
+      "summary": "一篇具有高度综合价值的综述，核心论点是：LLM Agent的真正进步来源于「外部化」——将认知负担从模型权重转移到持久化基础设施。三个外部化维度：Memory（跨时间的状态持久化）、Skills（可复用的过程性专业知识）、Protocols（有治理规则的交互契约），由Harness Engineering统一协调。追踪了领域演化：2022-23年的「权重层」→2023-24年的「上下文层」→2024-26年的「Harness层」，揭示了从monolithic模型到模块化Agent生态的系统性迁移路径。",
+      "source": "HuggingFace Papers (36 upvotes)",
+      "highlight": "Agent架构的「统一理论」：外部化不是技巧而是范式——记忆/技能/协议三维框架将碎片化的Agent组件统一进一个分析语言，为未来的Agent工程教育和标准化提供基础词汇",
+      "stars": 0,
+      "tags": ["LLM Agent", "Survey", "Memory", "Skills", "Harness Engineering", "Agent Architecture", "Meta-Analysis"]
+    },
+    {
+      "id": 2,
+      "category": "paper",
+      "title": "Act Wisely：为多模态Agent培养元认知工具使用意识——知道何时用工具比会用工具更重要（HF 33赞）",
+      "url": "https://huggingface.co/papers/2604.08545",
+      "summary": "解决LLM Agent工具使用的两类典型失效：过度依赖（所有问题都调工具）和工具回避（该用时不用）。核心提案：通过专门训练让多模态Agent建立「元认知工具意识」——对何时调用工具真正有帮助vs何时有代价形成内化判断。在多模态Agentic任务上提升效率和可靠性。关键洞察：工具使用决策本身是一项需要主动学习的技能，不能依赖模型泛化自然涌现。",
+      "source": "HuggingFace Papers (33 upvotes)",
+      "highlight": "Agent能力的「元层」缺失：现有训练教会Agent用什么工具，却没教它何时用——Act Wisely把工具使用决策本身变成可训练的元认知技能，直指Agentic工作流中被忽视的效率瓶颈",
+      "stars": 0,
+      "tags": ["Tool Use", "Meta-Cognition", "Multimodal Agent", "Agent Training", "Efficiency", "Agentic Workflow"]
+    },
+    {
+      "id": 3,
+      "category": "repo",
+      "title": "opendataloader-pdf：AI就绪PDF解析器——自动化PDF无障碍化与结构化数据提取（15.7k星，今日+775）",
+      "url": "https://github.com/opendataloader-project/opendataloader-pdf",
+      "summary": "开源Java库，专为AI数据管道设计的高精度PDF解析器。核心能力：自动识别和提取文档结构（标题层级、表格、图表、列表）、保留语义标注、输出AI友好格式（JSON/Markdown/结构化文本）。解决主流PDF解析工具在复杂排版、多栏布局、扫描文档方面的痛点。设计理念与markitdown互补——markitdown面向通用文档格式转换，opendataloader-pdf专攻PDF语义结构的深度解析。适用于RAG管道的文档预处理、法律/金融文档分析和学术论文批量摄取。",
+      "source": "GitHub Trending (+775 today, 15.7k total)",
+      "highlight": "PDF解析的「语义优先」方案：不是把PDF变成纯文本，而是保留结构→让LLM理解「这是第三章标题」而不是「这是一行加粗文字」——RAG质量的关键前置条件",
+      "stars": 15734,
+      "tags": ["PDF Parsing", "RAG", "Document AI", "Data Pipeline", "Java", "Open Source", "Structured Data"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "「小模型同样发现了Mythos发现的漏洞」：AI网络安全能力的锯齿边界（HN 1137分）",
+      "url": "https://news.ycombinator.com/item?id=47732020",
+      "summary": "AISLE团队发博文直接挑战Anthropic围绕Claude Mythos建立的网络安全叙事：经过系统性测试，小型开权重模型（如Qwen3-7B、Llama-4-Scout）能够复现Mythos宣称的大部分漏洞发现能力。核心发现：「AI网络安全的护城河是系统，不是模型」——漏洞检测能力是「锯齿形」的，按任务类型而非按模型规模分布，某些类别小模型表现甚至更好。文章还提出AI安全能力基准的设计缺陷：当前评测方式系统性地夸大了大模型的优势。HN 1137分264评论，本日最热AI话题。",
+      "source": "AISLE Blog / Hacker News (1137 points, 264 comments)",
+      "highlight": "Mythos的「护城河」被拆穿：漏洞发现不是大模型专属能力——如果小模型能做同样的事，Anthropic用「过于危险」来限制发布的逻辑就需要重新审视，这对AI安全监管叙事影响深远",
+      "stars": 0,
+      "tags": ["Anthropic", "Claude Mythos", "Cybersecurity", "Small Models", "AI Safety", "Benchmark", "Open Source Models"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "「我们是如何攻破顶级AI Agent基准的」：UC Berkeley揭示8大评测基准的系统性漏洞（HN 408分）",
+      "url": "https://news.ycombinator.com/item?id=47733217",
+      "summary": "UC Berkeley RDI团队发表研究报告，揭示SWE-bench、WebArena、Terminal-Bench等8个主流AI Agent评测基准存在可被利用的系统性漏洞，攻击者无需真正解决任务即可达到接近满分。三类核心漏洞：(1)共享评估环境——多轮测试导致环境状态污染；(2)答案泄露——评测框架实现中隐含答案提示；(3)评分逻辑缺陷——输出格式匹配绕过了语义正确性验证。这对当前Agent能力排行榜的可信度提出严重质疑，也解释了为何某些模型在基准上表现卓越但实际部署效果令人失望。HN 408分86评论。",
+      "source": "UC Berkeley RDI / Hacker News (408 points, 86 comments)",
+      "highlight": "Agent基准的「可信度危机」：不是模型在进步，而是评测被攻破——8个主流基准同时存在漏洞，说明当前Agent评测生态存在系统性设计缺陷，Leaderboard成绩需要重新解读",
+      "stars": 0,
+      "tags": ["AI Agent", "Benchmark", "Evaluation", "SWE-bench", "WebArena", "UC Berkeley", "AI Safety"]
+    },
+    {
+      "id": 6,
+      "category": "news",
+      "title": "Cirrus Labs加入OpenAI Agent基础设施团队：Cirrus CI将于6月1日关闭（HN 270分）",
+      "url": "https://news.ycombinator.com/item?id=47730194",
+      "summary": "运营9年的CI/CD工具公司Cirrus Labs宣布整体加入OpenAI的Agent基础设施团队。Cirrus CI服务将于2026年6月1日正式关闭，开源工具将重新以更宽松许可证发布。这是OpenAI过去半年内第三次收购CI/CD或开发者基础设施背景的团队，释放出明确信号：OpenAI正在系统性地从外部招募具备生产级Agent执行环境经验的工程团队，而非只招AI研究人员。HN社区反应复杂——为Cirrus CI关闭惋惜，同时注意到OpenAI在Agent基础设施层面的积极战略布局。",
+      "source": "Cirrus Labs / Hacker News (270 points, 125 comments)",
+      "highlight": "OpenAI的「基础设施军备竞赛」：连续收购CI/CD团队表明Agent能力瓶颈不在模型而在执行环境——可靠运行Agent任务需要生产级沙箱、调度和监控，这正是CI/CD公司9年积累的核心资产",
+      "stars": 0,
+      "tags": ["OpenAI", "Agent Infrastructure", "CI/CD", "Acquisition", "Cirrus Labs", "Developer Tools", "Agent Execution"]
+    },
+    {
+      "id": 7,
+      "category": "paper",
+      "title": "HY-Embodied-0.5：腾讯混元具身基础模型——2B边缘+32B推理双模型跨22项基准SOTA（HF 411赞）",
+      "url": "https://huggingface.co/papers/2604.07430",
+      "summary": "腾讯混元推出具身AI基础模型家族：面向边缘部署的2B参数轻量模型与面向复杂推理的32B参数MoT（Mixture-of-Transformers）架构模型。在22个具身AI基准上达到SOTA，并通过真实机器人控制实验验证了可行性。完全开源。核心意义：将大规模语言推理能力直接迁移到物理世界的机器人控制，证明「基础模型路线」在具身AI领域的可行性——不只是实验室演示，而是跨22项基准的系统性超越。",
+      "source": "HuggingFace Papers (411 upvotes)",
+      "highlight": "具身AI「基础模型时刻」：22项基准SOTA+真实机器人验证+完全开源——腾讯用一篇论文宣告具身AI进入基础模型竞赛轨道，MoT架构让32B模型兼顾推理深度与部署效率，与OpenAI机器人布局形成正面对标",
+      "stars": 0,
+      "tags": ["Embodied AI", "Robotics", "Foundation Model", "Mixture-of-Transformers", "Tencent", "Open Source", "Real-world Deployment"]
+    },
+    {
+      "id": 8,
+      "category": "paper",
+      "title": "SkillClaw：多用户Agent生态共享技能进化框架——跨用户知识积累让Qwen3-Max持续提升（HF 224赞）",
+      "url": "https://huggingface.co/papers/2604.08377",
+      "summary": "提出多用户LLM Agent生态中的技能协同进化机制：每个用户的交互轨迹都能触发共享技能库的自动更新，跨用户的知识积累形成正向飞轮效应。与Act Wisely（今日另一论文）形成配对——前者解决「何时用工具」，SkillClaw解决「如何让技能在用户群体中不断进化积累」。在真实Agent任务上对Qwen3-Max有显著提升。代码开源。",
+      "source": "HuggingFace Papers (224 upvotes)",
+      "highlight": "Agent技能的「集体智慧」模型：单个用户的经验通过SkillClaw惠及所有用户——这是Agent平台从「个人工具」向「共享知识库」进化的关键机制，与OpenAI收购CI/CD公司、积累执行经验的战略方向高度一致",
+      "stars": 0,
+      "tags": ["Agent Skills", "Multi-user", "Knowledge Transfer", "Collective Learning", "Qwen3", "Agentic Workflow", "Open Source"]
+    },
+    {
+      "id": 9,
+      "category": "repo",
+      "title": "NousResearch/hermes-agent：「与你共成长的自改进Agent」——今日GitHub最大爆发+7,450星（63k总星）",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "summary": "NousResearch开源自改进AI Agent框架，今日单日新增7,450星成为GitHub热榜绝对第一，总星数达63,009。核心特性：从用户交互经验中自动创建技能并持续优化、跨会话搜索历史对话、动态建立用户偏好模型。支持Telegram/Discord/Slack/WhatsApp/Signal多平台接入，兼容MCP服务器与40+工具。背景：NousResearch长期专注开源模型微调，此次推出Agent框架是其能力版图从「更好的模型权重」向「可持续自改进的Agent执行环境」的战略延伸。",
+      "source": "GitHub Trending (+7,450 today, 63,009 total)",
+      "highlight": "今日GitHub最大爆发：+7,450单日增量远超寻常趋势，NousResearch的「自改进Agent」触到了开源社区的痛点——不是又一个工具调用框架，而是能记住你、学习你、跨平台陪伴你的持久化Agent",
+      "stars": 63009,
+      "tags": ["AI Agent", "NousResearch", "Open Source", "Self-Improving", "Skill Learning", "Multi-platform", "GitHub Trending"]
+    },
+    {
+      "id": 10,
+      "category": "paper",
+      "title": "LPM 1.0：17B Diffusion Transformer实时对话视频角色——全双工说话与倾听同步展现（HF 194赞）",
+      "url": "https://huggingface.co/papers/2604.07823",
+      "summary": "提出17B参数的Diffusion Transformer模型（Large Performance Model），生成实时、身份稳定、全双工对话视频角色——可同时展现说话（表达）和倾听（反应）的面部/肢体表现，延迟低到可用于实时交互。攻克「表现力三难困境」：高表现力+实时推理+长时间身份稳定性。同时提出首个交互角色表现评测基准LPM-Bench。直接应用场景：对话Agent的视觉化身、游戏NPC实时对话、直播互动虚拟主播。",
+      "source": "HuggingFace Papers (194 upvotes)",
+      "highlight": "对话Agent「真正有脸了」：全双工意味着Agent能同时展现说话和倾听时的表现——这让语音Agent向「真实在场感」的迈进成为可能，是具身对话AI从「嘴」到「人」的重要里程碑",
+      "stars": 0,
+      "tags": ["Video Generation", "Character AI", "Diffusion Transformer", "Real-time", "Full-duplex", "Conversational AI", "Avatar"]
+    },
+    {
+      "id": 11,
+      "category": "paper",
+      "title": "OpenVLThinkerV2：UCLA用Gaussian GRPO解决多任务梯度不平衡——感知与多步推理统一（HF 139赞）",
+      "url": "https://huggingface.co/papers/2604.08539",
+      "summary": "UCLA NLP提出Gaussian GRPO（G²RPO），针对多模态多任务RL训练中线性缩放导致各任务梯度不平衡的根本问题，用非线性分布匹配替代线性缩放——强制每个任务的优势函数分布收敛至标准正态分布N(0,1)，实现任务间梯度公平分配。同时引入响应长度塑形和熵塑形两项机制，动态平衡细粒度感知与多步推理能力。在开源框架内首次统一两类能力的多模态泛化推理模型。",
+      "source": "HuggingFace Papers (139 upvotes)",
+      "highlight": "多模态RL训练的「梯度公平」问题：不同视觉任务梯度量级差异巨大导致训练天然偏向易任务——G²RPO用统计分布匹配修复了这个被主流忽略的基础缺陷，为多模态泛化模型训练提供新范式",
+      "stars": 0,
+      "tags": ["Multimodal", "RL Training", "Reasoning", "GRPO", "Visual Perception", "UCLA", "Open Source"]
+    },
+    {
+      "id": 12,
+      "category": "paper",
+      "title": "DMax：扩散语言模型并行解码新范式——TPF从2.04提升至5.47，速度2.7倍无损精度（HF 81赞）",
+      "url": "https://huggingface.co/papers/2604.08302",
+      "summary": "NUS提出针对扩散语言模型（dLLM）并行解码中「错误积累」问题的系统性解决方案。核心创新「渐进式自我修正」：将解码重新定义为从掩码嵌入到Token嵌入的连续插值过程，每个中间状态既是预测又是可修正的起点。配套提出On-Policy Uniform Training策略，让模型同时学会从masked输入和自身错误预测中恢复。基准测试（GSM8K, MBPP，LLaDA-2.0-mini）：TPF从2.04→5.47（+2.7倍），精度保持不变。代码开源。",
+      "source": "HuggingFace Papers (81 upvotes)",
+      "highlight": "扩散LLM的「速度解锁」：dLLM并行解码的理论优势一直被错误积累抵消——DMax将TPF从2提升到5.47相当于释放了这一架构的真实潜力，是扩散路线能否与自回归路线竞争推理速度的关键进展",
+      "stars": 0,
+      "tags": ["Diffusion LLM", "Parallel Decoding", "Inference Efficiency", "dLLM", "NUS", "LLaDA", "Non-autoregressive"]
+    },
+    {
+      "id": 13,
+      "category": "paper",
+      "title": "推翻「RL泛化SFT记忆」二元论：长链CoT SFT跨域泛化的成立条件与安全退化代价（HF 78赞）",
+      "url": "https://huggingface.co/papers/2604.06628",
+      "summary": "系统性挑战推理训练领域「RL泛化、SFT只记忆」的主流叙事。研究证明：长链CoT SFT确实能实现跨领域泛化——但这是有条件的，同时取决于优化动态、数据质量和基础模型能力三者的共同满足，缺一不可。关键发现：泛化是非对称的——推理能力提升，但安全对齐能力在推理SFT过程中系统性退化，揭示了当前推理模型训练存在的隐性安全代价。",
+      "source": "HuggingFace Papers (78 upvotes)",
+      "highlight": "推理训练的「安全税」：泛化是可达的，但安全会退化——这意味着将模型训练成更好的推理者与保持其安全对齐存在根本张力，对当前所有推理导向微调策略（包括CoT SFT和RLHF混合方案）提出警示",
+      "stars": 0,
+      "tags": ["SFT", "RL Training", "Generalization", "Reasoning", "AI Safety", "Chain-of-Thought", "Training Dynamics"]
+    },
+    {
+      "id": 14,
+      "category": "paper",
+      "title": "ClawBench：153项真实网站日常任务基准——7个前沿模型在144个生产平台的Agent成功率（HF 21赞）",
+      "url": "https://huggingface.co/papers/2604.08523",
+      "summary": "针对「Agent在沙箱里表现出色却在真实网站上频繁失败」的基准-现实鸿沟，ClawBench提出153项覆盖144个真实生产平台的日常任务（购物、订票、求职申请等），跨15个类别。核心设计：在真实网站上测试，用轻量级拦截层捕获并阻断最终提交请求确保安全，不使用静态沙箱。测评GPT-4o、Claude 3.7、Gemini 2.0等7个前沿模型，结果显示无论开源还是商业模型都只能完成少量任务，与现有基准分数形成鲜明反差。",
+      "source": "HuggingFace Papers (21 upvotes)",
+      "highlight": "「Agent能用」的终极检验：在真实电商买东西、真实平台订机票才是实用标准——ClawBench用144个生产平台揭示所有前沿模型的真实能力远低于基准宣称，与今日另一篇「基准被攻破」形成双重警示",
+      "stars": 0,
+      "tags": ["AI Agent", "Benchmark", "Real-world Tasks", "Web Agent", "Evaluation", "Production Platforms"]
+    },
+    {
+      "id": 15,
+      "category": "news",
+      "title": "Sam Altman公开回应《纽约客》「煽动性」深度报道：AI权力叙事争夺战升温（TechCrunch）",
+      "url": "https://techcrunch.com/2026/04/11/sam-altman-responds-to-incendiary-new-yorker-article-after-attack-on-his-home/",
+      "summary": "《纽约客》发表对Sam Altman的批评性深度报道后，Altman公开将其定性为「煽动性」文章并予以回应，背景是其住宅此前发生安全事件。事件折射出更大格局：过去数月AI顶层领导人的公共形象、权力集中叙事与媒体问责之间的张力持续激化。这不只是一次公关回应，而是AI领域「谁在控制未来」的叙事之争从技术讨论溢出到大众舆论场的缩影。",
+      "source": "TechCrunch (April 11, 2026)",
+      "highlight": "AI权力叙事的「公众战场」：《纽约客》长文+Altman公开反驳+住宅安全事件同期发生——AI顶层领导人的公共形象正在成为行业监管走向和公众信任度的晴雨表，比任何技术发布更影响政策走向",
+      "stars": 0,
+      "tags": ["Sam Altman", "OpenAI", "Media", "AI Governance", "Public Accountability", "New Yorker"]
+    }
+  ]
+}
