@@ -132,6 +132,61 @@
       "highlight": "AI服务可靠性的「透明度危机」：Prompt Caching是Anthropic重要的成本优化卖点，悄悄缩短TTL相当于无声地提价——这触发了开发者对大型AI平台「供应商依赖」风险的集体担忧，也为开源/自托管LLM叙事增添了新论据",
       "stars": 0,
       "tags": ["Anthropic", "Claude", "Prompt Caching", "API", "Developer Tools", "Cost", "Platform Trust"]
+    },
+    {
+      "id": 13,
+      "category": "paper",
+      "title": "WildDet3D：Allen AI开放世界3D目标检测——1M+图像覆盖13.5K类别，文本/点/框多模态提示+深度融合零样本SOTA（HF 229赞）",
+      "url": "https://huggingface.co/papers/2604.08626",
+      "summary": "Allen Institute for AI提出WildDet3D，首个统一的开放世界3D目标检测框架，从单RGB图像恢复物体的尺寸、位置和朝向。三大贡献：(1) 统一几何感知架构——原生接受文本、点、框三类提示，推理时可融合辅助深度信号且无需修改架构；(2) WildDet3D-Data数据集——100万+图像、370万人工验证3D标注、13.5K物体类别，现有最大开放3D检测数据集，通过2D标注提升+人工核验构建；(3) 全面SOTA——开放世界text/box提示AP3D 22.6/24.8，Omni3D 34.2/36.4，Argoverse 2零样本ODS 40.3/48.9。模型、代码、数据集、iOS演示App全部开源。",
+      "source": "HuggingFace Papers (229 upvotes, Allen Institute for AI & University of Washington)",
+      "highlight": "空间智能的「民主化」：WildDet3D打破3D检测需要激光雷达或专用硬件的门槛——仅需RGB图像配合自然语言或框提示即可完成开放世界3D定位，13.5K类别泛化能力为AR眼镜、机器人、自动驾驶的低成本3D感知提供了开源基础",
+      "stars": 229,
+      "tags": ["3D Detection", "Open World", "Spatial AI", "Embodied AI", "Allen AI", "Zero-Shot", "Open Source", "Multimodal Prompting"]
+    },
+    {
+      "id": 14,
+      "category": "news",
+      "title": "Berkeley证明8大AI Agent顶级基准全部可被近满分攻破——SWE-bench/WebArena/OSWorld/GAIA均存在系统性漏洞，提出BenchJack扫描器（HN 507分）",
+      "url": "https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/",
+      "summary": "UC Berkeley RDI团队发现影响最广的8个AI Agent评测基准均存在可系统性利用的漏洞，自动扫描Agent对「每一个」基准均能实现近满分而无需真正解决任务。典型漏洞模式：Agent与评估器之间隔离不足（允许状态篡改）、测试配置中附带答案（可直接查表）、对不可信输入使用eval()（代码注入）、LLM评判器易受提示注入攻击。极端案例：某基准仅输出「{}」即获满分；另一基准通过10行Python配置文件可强制所有测试通过。研究意义：这些基准影响着真实的模型选型决策、投融资方向和学术研究优先级，若AI Agent能力继续提升，可能自发涌现出奖励黑客行为。团队提出「Agent评估Checklist」和BenchJack自动化漏洞扫描框架。",
+      "source": "UC Berkeley RDI (Hacker News 507 points, April 13 2026)",
+      "highlight": "AI评测体系的「系统性公信力危机」：SWE-bench等基准已成为融资估值和技术决策的重要依据，若基准本身可被系统性攻破，当前AI能力排行榜的可靠性将存疑——这不仅是学术问题，更是行业投资和产品选型的基础设施问题。BenchJack扫描器的提出标志着「基准安全」进入AI工程议程",
+      "stars": 0,
+      "tags": ["AI Benchmark", "Agent Evaluation", "SWE-bench", "WebArena", "OSWorld", "Security", "Research Integrity", "Berkeley"]
+    },
+    {
+      "id": 15,
+      "category": "news",
+      "title": "Claude Code Pro Max配额1.5小时耗尽：cache_read计费疑云与后台会话吞噬——开发者集体发现「越用越亏」（HN 585分，102👍）",
+      "url": "https://github.com/anthropics/claude-code/issues/45756",
+      "summary": "Claude Code Pro Max 5x订阅用户报告配额异常快速耗尽：以前5小时重度使用不耗尽，现在1.5小时中度使用即耗尽。关键发现：cache_read Token可能以全速率而非1/10速率计入配额——若以全速率计算，90分钟内消耗1.039亿原始Token，折算70.5M/hr，解释了超速耗尽现象；若按1/10计算，应仅消耗1/10。社区深度调查还发现两个独立放大效应：(1)后台闲置会话消耗了78%的重置后配额；(2) auto-compact自动上下文压缩事件每次消耗约96.6万Token。1M上下文窗口进一步放大了每次调用的资源消耗。102个👍和19条评论显示此为普遍性问题，社区拒绝将其标记为重复issue。",
+      "source": "GitHub (anthropics/claude-code #45756, HN 585 points, April 13 2026)",
+      "highlight": "「高配额订阅越用越亏」的工程悖论：cache_read作为缓存优化的核心承诺（降低10倍成本），若实际上以全速率计入速率限制，订阅溢价就成了空头支票——这是继Prompt Cache TTL缩短（今日item 12）之后，Anthropic计费机制透明度的第二个危机信号，对Claude Code深度用户影响直接",
+      "stars": 0,
+      "tags": ["Claude Code", "Anthropic", "Rate Limiting", "Billing", "Pro Max", "Cache", "Developer Tools", "Bug"]
+    },
+    {
+      "id": 16,
+      "category": "paper",
+      "title": "EXAONE 4.5：LG AI Research首个开源权重视觉语言模型——工业智能VLM，双模式推理架构首次融入视觉理解（HF 25赞）",
+      "url": "https://huggingface.co/papers/2604.08644",
+      "summary": "LG AI Research发布EXAONE 4.5技术报告，这是韩国最大企业之一LG首个开源权重视觉语言模型（VLM）。在EXAONE系列演进路径上：EXAONE 3.x专注语言→EXAONE Deep强化数学/科学推理→EXAONE 4.0引入双模式架构（非推理通用模式+复杂问题推理模式）→EXAONE 4.5将视觉理解引入这一混合架构。核心定位：工业智能场景（制造业、工业检测、科研数据分析），非通用消费级模型。开源权重发布意味着企业可在受控环境中本地部署具备视觉+双模推理能力的工业LLM，无需依赖闭源API。",
+      "source": "HuggingFace Papers (25 upvotes, LG AI Research)",
+      "highlight": "工业AI的「垂直开源VLM」赛道：EXAONE 4.5是LG将工业AI能力以开源方式输出的战略宣示——与Qwen-VL、InternVL等通用VLM不同，EXAONE专为制造业等LG核心业务场景优化，双模推理（通用+深度思考）+视觉能力的组合对工业质检、设备异常检测、科研辅助等场景有直接价值",
+      "stars": 0,
+      "tags": ["VLM", "Open Weight", "Industrial AI", "LG", "Reasoning", "Multimodal", "Vision Language Model", "Korea"]
+    },
+    {
+      "id": 17,
+      "category": "paper",
+      "title": "Matrix-Game 3.0：Skywork AI实时交互世界模型——720p 40FPS流式生成+分钟级长时记忆，5B实时版/28B质量版双档（HF 18赞）",
+      "url": "https://huggingface.co/papers/2604.08995",
+      "summary": "Skywork AI发布Matrix-Game 3.0，首个在720p分辨率下实现实时40FPS流式生成并保持分钟级记忆一致性的交互世界模型。五大系统贡献：(1) 工业级数据引擎——UE5合成管道（Tick级同步，10⁸+角色变体）+主流AAA游戏录制系统（GTA V/赛博朋克2077等）+真实世界视频整合，共480万+视频片段；(2) 误差感知基础模型——训练时注入自生成历史误差，解决自回归曝光偏差；(3) 相机感知长时记忆机制——统一自注意力框架，基于视锥体重叠选取视角相关历史帧，使用Relative Plücker编码实现几何推理；(4) 训练推理对齐的少步蒸馏——DMD分布匹配蒸馏；(5) 实时推理加速——INT8量化+MG-LightVAE剪枝（50%剪枝2.6×加速，75%剪枝5.2×加速）。与闭源竞品Genie-3不同，全部训练配方和推理栈公开发布。",
+      "source": "HuggingFace Papers (18 upvotes, Skywork AI)",
+      "highlight": "世界模型从「研究演示」到「工业部署」的临界点：Matrix-Game 3.0用系统工程方法（数据+训练+推理协同设计）实现了40FPS 720p实时生成+分钟级记忆的双重目标——这是世界模型首次达到游戏引擎级的实时性，为具身机器人规划仿真、沉浸式XR内容生成提供了可开源复现的基础设施",
+      "stars": 0,
+      "tags": ["World Model", "Interactive Generation", "Real-Time", "Video Generation", "Long-Horizon Memory", "Skywork AI", "Embodied AI", "Gaming"]
     }
   ]
 }
