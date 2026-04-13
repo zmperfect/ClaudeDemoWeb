@@ -1,0 +1,137 @@
+{
+  "date": "2026-04-13",
+  "items": [
+    {
+      "id": 1,
+      "category": "paper",
+      "title": "NUMINA：视频生成数量精确对齐——训练无关方案让1.3B模型超越5B基线，引入CountBench评测（HF 109赞）",
+      "url": "https://huggingface.co/papers/2604.08546",
+      "summary": "针对文本转视频模型「数量对齐」的痛点——模型生成三只猫时可能输出两只或四只——提出训练无关的NUMINA框架（「识别-引导」两阶段范式）。核心发现：数值Token的跨注意力响应比名词/动词等更弥散，难以建立精确实例锚点；同时DiT架构下时空潜在空间的过度下采样限制了个体实例的可分性。解决方案：动态选择区分性自注意力头→构建可计数布局→保守布局修正→调制跨注意力引导再生成。在Wan 1.3B/5B/14B和CogVideoX 5B上均有提升，1.3B模型超越5B基线（CountAcc 49.7% vs 42.9%）。同时发布CountBench：210条提示覆盖1-8计数范围。",
+      "source": "HuggingFace Papers (109 upvotes)",
+      "highlight": "视频生成的「数数」问题被一个无需训练的框架解决：从「随机生成数量」到「精确控制实例个数」——NUMINA通过注意力图分析+布局修正实现了1.3B超越5B的反直觉结果，对精确数字控制（广告、教育视频、数据可视化）有直接实用价值",
+      "stars": 0,
+      "tags": ["Text-to-Video", "Counting", "Diffusion Transformer", "Training-Free", "Video Generation", "Attention Mechanism", "Benchmark"]
+    },
+    {
+      "id": 2,
+      "category": "paper",
+      "title": "MegaStyle：腾讯/同济构建170K风格一致图像数据集——8355种艺术风格覆盖68B内容组合，风格迁移SOTA（HF 92赞）",
+      "url": "https://huggingface.co/papers/2604.08364",
+      "summary": "现有图像风格数据集（WikiArt仅27风格、OmniStyle-150K仅1K风格）的稀缺性制约了风格迁移模型的泛化能力。MegaStyle提出利用大型生成模型（Qwen-Image）的一致T2I风格映射能力来构建大规模高质量风格数据集：170K风格提示×400K内容提示，覆盖8355种细粒度艺术风格，支持最多68B内容-风格组合。配套推出MegaStyle-Encoder（基于SigLIP的对比学习风格相似度量器，mAP@1达87.26%，远超CLIP的9.29%）和MegaStyle-FLUX（基于FLUX.1-dev的风格迁移模型，支持推移RoPE防内容泄露）。",
+      "source": "HuggingFace Papers (92 upvotes)",
+      "highlight": "用生成模型「自举」训练数据：MegaStyle的核心洞见是用Qwen-Image的风格一致性生成能力来制造训练集——这是「生成模型工厂化生产高质量标注数据」的范式实例，对风格迁移、IP定制化等商业应用影响深远",
+      "stars": 0,
+      "tags": ["Style Transfer", "Dataset", "FLUX", "Text-to-Image", "Tencent", "Contrastive Learning", "Generative Models"]
+    },
+    {
+      "id": 3,
+      "category": "paper",
+      "title": "KnowU-Bench：浙大&Apple移动Agent评测新范式——隐藏用户偏好迫使真正推断，覆盖192项任务（HF 54赞）",
+      "url": "https://huggingface.co/papers/2604.08455",
+      "summary": "当前移动Agent基准的根本缺陷：把用户偏好当作静态上下文提供给Agent，让其「直接查询」而非「真正推断」。KnowU-Bench的革命性设计：完全隐藏用户档案，仅提供行为日志，强迫Agent从真实交互模式中推断偏好——更接近真实助手场景。基准覆盖42项通用GUI任务+86项个性化任务+64项主动干预任务，基于可复现Android模拟环境。引入LLM驱动的用户模拟器支持多轮偏好询问对话，并评估完整的主动决策链（含知情同意协商和拒绝后克制行为）。",
+      "source": "HuggingFace Papers (54 upvotes, Zhejiang University & Apple)",
+      "highlight": "移动Agent的「真实偏好推断」测试：现有基准在作弊——把答案写在提示里叫Agent去「读」，KnowU-Bench把偏好藏起来并加入主动干预决策链（何时干预、何时请示、何时保持沉默），这才是真正智能助手需要的能力",
+      "stars": 0,
+      "tags": ["Mobile Agent", "Benchmark", "Personalization", "Proactive Agent", "User Preference", "Android", "Evaluation"]
+    },
+    {
+      "id": 4,
+      "category": "paper",
+      "title": "MolmoWeb：Allen AI全开源视觉Web Agent——100K合成轨迹+30K人工演示，无需HTML直接视觉操作（HF 33赞）",
+      "url": "https://huggingface.co/papers/2604.08516",
+      "summary": "Allen Institute for AI和华盛顿大学提出完全开源的视觉Web Agent家族。核心主张：「开放网络的Agent应该在开放环境下构建」。MolmoWebMix数据集：100K+合成任务轨迹（来自多条互补生成管道）+30K+人工演示+原子级Web技能轨迹+GUI感知数据（含指示性表达定位和截图问答）。MolmoWeb Agent作为指令条件的视觉语言动作策略：输入任务指令+网页截图→预测下一步浏览器动作，无需访问HTML、无障碍树或专用API。与当前依赖闭源模型和私有数据的顶级Web Agent形成对比。",
+      "source": "HuggingFace Papers (33 upvotes, Allen Institute for AI & University of Washington)",
+      "highlight": "Web Agent的「开源宣言」：当前最强Web Agent依赖闭源模型和隐藏训练数据——MolmoWeb用全公开数据+全开源模型正面挑战这一格局，纯视觉操作（不依赖HTML树）的方案也更接近人类操作浏览器的方式",
+      "stars": 0,
+      "tags": ["Web Agent", "Open Source", "Visual Agent", "Allen AI", "Action Policy", "Browser Automation", "Dataset"]
+    },
+    {
+      "id": 5,
+      "category": "paper",
+      "title": "OpenSpatial：3D框为中心的空间智能数据引擎——3M样本覆盖5类任务，Qwen3-VL-8B平均提升19%达SOTA（HF 57赞）",
+      "url": "https://huggingface.co/papers/2604.07296",
+      "summary": "现有空间推理数据集的双重困境：领域多样性不足（「空间近视」）和生成管道不透明（无法复现或扩展）。OpenSpatial提出3D定向包围盒（OBB）为中心的统一表示，在单视图/多视图两种标注模式下驱动五类任务数据生成：空间测量(SM)、空间关系(SR)、相机感知(CP)、多视图一致性(MC)、场景感知推理(SAR)。自动3D提升管道将野生网络视频转化为带精确3D标注的训练数据。OpenSpatial-3M在BLINK、AllAngles、MMSI等8个基准上全面SOTA，Qwen3-VL-8B平均提升19%，完全开源。",
+      "source": "HuggingFace Papers (57 upvotes, Joy Future Academy & HKU & Monash University)",
+      "highlight": "空间智能的「数据基础设施」革命：不是发布固定数据集，而是发布可扩展的生成引擎——OpenSpatial打开黑盒，让社区能以一致方式扩展空间训练数据，这对具身AI、机器人和自动驾驶的可复现进步至关重要",
+      "stars": 0,
+      "tags": ["Spatial Intelligence", "Data Engine", "3D Understanding", "VLM", "Embodied AI", "Open Source", "Multiview Reasoning"]
+    },
+    {
+      "id": 6,
+      "category": "paper",
+      "title": "OmniJigsaw：「打乱-重排」音视频推理自监督范式——浙大/小米在15项基准上提升全模态协作推理（HF 40赞）",
+      "url": "https://huggingface.co/papers/2604.08209",
+      "summary": "提出将RL后训练范式扩展到全模态模型（同时处理视频和音频）的自监督框架OmniJigsaw，核心是时序重排代理任务：打乱音视频片段→让模型重建时序顺序→强迫跨模态整合。三种策略：联合模态整合（两种模态同时输入）、样本级模态选择（随机仅用单模态）、片段级模态屏蔽（精细粒度遮蔽）。关键发现：「双模态捷径现象」——模型在联合模态输入时会走捷径，片段级遮蔽能有效缓解此问题。提出两阶段粗到细数据过滤管道，适配海量未标注全模态数据。在15项基准上提升视频/音频/协作推理能力。",
+      "source": "HuggingFace Papers (40 upvotes, Zhejiang University & Xiaomi)",
+      "highlight": "全模态推理的「拼图」方法：不需要额外标注，仅靠打乱重排的自监督任务就能强迫模型建立音视频时序因果理解——「双模态捷径现象」的发现揭示了当前多模态训练的一个隐性漏洞",
+      "stars": 0,
+      "tags": ["Multimodal", "Self-Supervised Learning", "Video Understanding", "Audio", "Reinforcement Learning", "Temporal Reasoning", "Omni-Modal"]
+    },
+    {
+      "id": 7,
+      "category": "repo",
+      "title": "shiyu-coder/Kronos：首个开源金融K线基础模型——45+全球交易所训练，AAAI 2026收录（15.8k星，今日+1985）",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "summary": "Kronos是首个专为金融K线序列设计的开源基础模型，训练数据来自45+全球交易所，在AAAI 2026正式收录。架构采用两阶段框架：分层Tokenizer（将K线价格序列压缩为语义Token）+ 自回归Transformer（模型规模从mini 4.1M到large 499.2M参数，上下文长度512到2048）。提供BTC/USDT实时预测演示，支持微调脚本。针对金融时序的独特性：K线序列不是普通时序，它编码了开高低收四维价格结构和成交量信息，Kronos专为理解这种领域特定结构而设计。",
+      "source": "GitHub Trending (+1985 today, 15.8k total, AAAI 2026)",
+      "highlight": "金融AI的「基础模型时刻」：之前金融时序预测主要靠LSTM/Transformer微调，Kronos是首个开源的K线专属基础模型——45+交易所数据+AAAI认可，为量化金融领域提供了一个类似GPT的可迁移基础",
+      "stars": 15811,
+      "tags": ["Finance", "Foundation Model", "Time Series", "K-lines", "AAAI 2026", "Quantitative Finance", "Open Source"]
+    },
+    {
+      "id": 8,
+      "category": "tool",
+      "title": "multica-ai/multica：开源托管Agent平台——把Claude Code/Codex等编码Agent变成真正的团队成员（9.5k星，今日+1609）",
+      "url": "https://github.com/multica-ai/multica",
+      "summary": "开源托管Agent平台，核心理念：让AI编码Agent不再是单次对话工具，而是像真正的团队成员一样可分配任务、追踪进度、积累可复用技能。支持分配任务给Agent（Claude Code、Codex、OpenClaw、OpenCode），Agent自主执行并发布更新和汇报阻塞。统一运行时仪表板支持本地和云端计算，多工作区隔离。技术栈：Next.js 16前端 + Go（Chi路由）后端 + PostgreSQL 17（带pgvector）+ 本地守护进程运行时。消除手动反复提示迭代的工程负担。",
+      "source": "GitHub Trending (+1609 today, 9.5k total)",
+      "highlight": "Agent平台从「工具」向「团队成员」的范式跃迁：multica让Agent有档案、有任务板、会汇报阻塞——这与SkillClaw（今日HF）的集体技能进化理念、以及OpenAI收购CI/CD公司的战略方向高度共振，Agent执行环境基础设施竞争正在加速",
+      "stars": 9451,
+      "tags": ["AI Agent", "Agent Platform", "Claude Code", "Codex", "Multi-Agent", "Open Source", "Developer Tools"]
+    },
+    {
+      "id": 9,
+      "category": "tool",
+      "title": "coleam00/Archon：AI编程Harness构建器——YAML工作流让AI行为可预期可复现（17.1k星，今日+612）",
+      "url": "https://github.com/coleam00/Archon",
+      "summary": "Archon解决AI辅助编程的核心痛点：「让AI修复这个Bug会发生什么完全取决于模型的心情」。通过YAML定义开发阶段（规划、实现、验证、代码审查、PR创建），用Git Worktrees实现隔离并行执行，混合确定性步骤（bash脚本、测试）和AI驱动步骤，实现「结构确定性由你掌控」。17个内置工作流覆盖Issue修复/功能实现/PR审查，支持Web UI/CLI/Slack/Telegram/Discord/GitHub Webhook多平台接入。理念类比：Archon之于AI编程，如同Dockerfile之于容器、GitHub Actions之于CI/CD。",
+      "source": "GitHub Trending (+612 today, 17.1k total)",
+      "highlight": "AI编程的「基础设施即代码」：Archon把「你想让AI怎么工作」变成可版本控制的YAML——这是将CI/CD工程文化引入AI编程工作流的关键一步，也是当前AI编程Agent从「聪明但不稳定」向「可靠可审计」进化的正确方向",
+      "stars": 17077,
+      "tags": ["AI Coding", "Harness", "Workflow", "YAML", "Developer Tools", "Git Worktree", "Deterministic AI"]
+    },
+    {
+      "id": 10,
+      "category": "repo",
+      "title": "virattt/ai-hedge-fund：19位AI投资大师多Agent系统——Buffett/Burry等巨头人格体互相辩论选股（52.2k星，今日+663）",
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "summary": "教育性概念验证项目，用多Agent系统模拟AI驱动的投资决策：19个专业化AI Agent，包括知名投资人人格体（巴菲特、Cathie Wood、Michael Burry等）和分析类Agent（估值、情绪、基本面、技术分析）。风险管理和投资组合管理系统协调所有Agent意见生成最终交易信号。支持CLI和Web应用界面，内置回测功能，兼容OpenAI/Anthropic/Groq/DeepSeek/Ollama等多LLM提供商。明确定位为教育目的，不用于实际交易。",
+      "source": "GitHub Trending (+663 today, 52.2k total)",
+      "highlight": "「让AI巴菲特和AI Burry互相辩论」的工程实现：19个投资人格Agent不是噱头，而是展示了领域专家人格注入如何系统性拆解复杂分析任务的实用范式——多LLM提供商兼容性使其成为学习Agent协作架构的优质参考实现",
+      "stars": 52200,
+      "tags": ["Multi-Agent", "Finance", "LLM", "Investment", "Educational", "Python", "Agent Personas"]
+    },
+    {
+      "id": 11,
+      "category": "tool",
+      "title": "microsoft/markitdown：微软开源文档格式转Markdown瑞士军刀——104.8k星热度不减，今日再增+2513（GitHub年度热榜）",
+      "url": "https://github.com/microsoft/markitdown",
+      "summary": "微软开源的Python工具，将Office文档（Word/Excel/PowerPoint）、PDF、图像、音频、HTML、CSV等多种格式统一转换为Markdown，专为AI工作流设计。核心价值：标准化异构文档格式，使其可直接输入LLM上下文或RAG管道。凭借简洁API和广泛格式支持成为AI应用开发者的标配工具。今日再获+2513单日增量，总星数104.8k，表明其在AI数据预处理领域的基础设施地位持续巩固。",
+      "source": "GitHub Trending (+2513 today, 104.8k total, Microsoft)",
+      "highlight": "AI应用的「文档标准化基础设施」：markitdown持续高热度（104k+星）说明文档格式碎片化问题仍是AI应用开发的通用痛点——将所有文档统一变成Markdown是LLM摄取外部知识的最简单起点，这与今日OpenSpatial「统一数据表示」的设计哲学高度一致",
+      "stars": 104793,
+      "tags": ["Document Conversion", "Markdown", "RAG", "Data Pipeline", "Microsoft", "Open Source", "File Processing"]
+    },
+    {
+      "id": 12,
+      "category": "news",
+      "title": "Anthropic悄悄降低Prompt Cache TTL（3月6日生效）：开发者集体发现API成本显著上涨（HN 477分，368评论）",
+      "url": "https://news.ycombinator.com/",
+      "summary": "HN今日最热AI开发者话题：Anthropic在未充分预告的情况下，于3月6日将Prompt Cache的TTL（缓存存活时间）从5分钟降低至更短的时间窗口，导致依赖prompt caching的应用程序API调用成本显著上涨。开发者社区反应强烈——许多人是通过账单异常才发现这一变化，而非官方通知。讨论集中于：(1)云AI服务商单方面修改关键计费参数的透明度问题，(2)基础设施级别的SLA承诺缺失，(3)如何应对缓存TTL缩短带来的架构调整需求。",
+      "source": "Hacker News (477 points, 368 comments, April 13 2026)",
+      "highlight": "AI服务可靠性的「透明度危机」：Prompt Caching是Anthropic重要的成本优化卖点，悄悄缩短TTL相当于无声地提价——这触发了开发者对大型AI平台「供应商依赖」风险的集体担忧，也为开源/自托管LLM叙事增添了新论据",
+      "stars": 0,
+      "tags": ["Anthropic", "Claude", "Prompt Caching", "API", "Developer Tools", "Cost", "Platform Trust"]
+    }
+  ]
+}
