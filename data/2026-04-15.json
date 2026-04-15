@@ -209,6 +209,105 @@
       "highlight": "AI提示词从「用户自管理」到「浏览器原生」的基础设施升级：Skills本质上是把「提示词工程」的成果固化进浏览器交互层——斜杠命令范式（类似IDE的snippet）直接降低了普通用户使用复杂提示词的门槛。这与Claude Code的/skills机制和Anthropic Routines是同一趋势的不同层面表达：AI工作流的模块化、可复用化正在从开发者工具蔓延到消费者产品",
       "stars": 0,
       "tags": ["Google", "Chrome", "Gemini", "Prompt Engineering", "Browser", "Productivity", "Consumer AI"]
+    },
+    {
+      "id": 20,
+      "category": "news",
+      "title": "GPT-5.4 Pro 80分钟解决Erdős悬案#1196：Terence Tao认证「揭示整数解剖与马尔可夫过程的未知联系」，AI数学原创能力质变",
+      "url": "https://the-decoder.com/openais-gpt-5-4-pro-reportedly-solves-a-longstanding-open-erdos-math-problem-in-under-two-hours/",
+      "summary": "OpenAI的GPT-5.4 Pro用约80分钟解决了数论领域的长期开放问题Erdős #1196，随后用30分钟将证明格式化为LaTeX论文。数学家Terence Tao评价该解法「揭示了整数解剖学与马尔可夫过程理论之间此前未被描述的联系」，认为其贡献超出了解决单一问题的范畴。AI使用了人类数学家此前未发现的马尔可夫链技术，这表明大型语言模型已具备从训练数据中提炼出全新数学知识的能力。形式化验证工作正在进行中。",
+      "source": "The Decoder (April 15, 2026)",
+      "highlight": "AI数学能力的「奥运会式」时刻：Erdős悬案是高度公开的数论难题，Terence Tao的认证具有极强的公信力背书——这不再是「AI在基准测试上超越人类」，而是「AI对人类未知数学知识做出实质性原创贡献」。配合上周模型超越博士级科学题的Stanford AI Index数据，AI在科学发现上的临界点越来越近",
+      "stars": 0,
+      "tags": ["OpenAI", "GPT-5.4 Pro", "Mathematics", "Erdős", "Scientific Discovery", "Terence Tao", "AI Capability"]
+    },
+    {
+      "id": 21,
+      "category": "news",
+      "title": "OpenAI欧洲Stargate计划收缩：微软接手挪威3万张Vera Rubin芯片、Google收购伦敦数据中心，2030年算力预算从1.4万亿降至6千亿",
+      "url": "https://the-decoder.com/openais-european-stargate-plans-shrink-as-microsoft-and-google-take-over-capacity/",
+      "summary": "OpenAI大幅收缩欧洲基础设施扩张计划。微软正在租赁OpenAI原定挪威Narvik站点的3万张Nvidia Vera Rubin芯片，Google则收购了OpenAI此前计划的伦敦Nscale数据中心。OpenAI到2030年的基础设施投资预测从最初承诺的1.4万亿美元降至6000亿美元。Sam Altman曾于2025年7月对Narvik站点表达强烈信心，但仅数月后「这种乐观情绪基本消散」。两处设施均由neocloud提供商Nscale开发。",
+      "source": "The Decoder / Bloomberg (April 15, 2026)",
+      "highlight": "Stargate宏大叙事与算力现实的落差：OpenAI用万亿级算力投资来支撑估值叙事，但实际执行大幅收缩——微软和Google趁机填补的不只是数据中心空缺，更是在OpenAI基础设施布局失利的位置上建立各自的欧洲AI算力据点。这与前述「Anthropic估值超越OpenAI投资者信心」形成互证：OpenAI的竞争压力正转化为战略执行上的松动",
+      "stars": 0,
+      "tags": ["OpenAI", "Stargate", "Microsoft", "Google", "Infrastructure", "Nvidia", "Data Center", "Compute"]
+    },
+    {
+      "id": 22,
+      "category": "news",
+      "title": "Anthropic年化营收3个月从90亿飙升至300亿美元：OpenAI投资者「动摇」，二级市场Anthropic溢价成交、OpenAI折价，被比作「AI界Netscape」",
+      "url": "https://techcrunch.com/2026/04/14/anthropics-rise-is-giving-some-openai-investors-second-thoughts/",
+      "summary": "Anthropic年化营收从2025年底的90亿美元跃升至2026年3月的300亿美元，主要驱动力是编程工具需求爆发。与此同时，OpenAI 8520亿美元估值正遭遇质疑：同时持有两家公司股权的投资者表示，「证明OpenAI这轮估值需要假设IPO时达到1.2万亿美元以上」，Anthropic 3800亿估值相比之下更具吸引力。二级市场上Anthropic股票需求旺盛、OpenAI股票折价交易，一位行业分析师将OpenAI比作「AI界的Netscape」，暗示其可能被市场替代。",
+      "source": "TechCrunch (April 14, 2026)",
+      "highlight": "AI商业格局的最大反转信号：3个月内年化营收从90亿到300亿，增速超过300%——这不是分析师预测，而是投资者已在二级市场用真金白银表态。「AI界Netscape」的比喻是一把双刃剑：Netscape曾是互联网的象征，最终却被IE替代。OpenAI的品牌优势正在被Anthropic的产品实力对冲，而编程场景（Claude Code）是最关键的价值主张来源",
+      "stars": 0,
+      "tags": ["Anthropic", "OpenAI", "Valuation", "Revenue", "Investment", "Claude Code", "Competitive Landscape"]
+    },
+    {
+      "id": 23,
+      "category": "paper",
+      "title": "KnowRL：最小充分知识引导的RL推理训练——原子知识点+约束子集搜索破解奖励稀疏，1.5B规模8基准全新SOTA（HF 73赞）",
+      "url": "https://huggingface.co/papers/2604.12627",
+      "summary": "天津大学联合百度提出KnowRL（Knowledge-Guided Reinforcement Learning），将RL训练提示分解为原子「知识点（KP）」，通过约束子集搜索（CSS）构建紧凑、无冗余的知识子集用于训练，解决强化学习中硬题奖励极度稀疏的核心问题。关键发现：存在「剪枝交互悖论」——删除单个KP有益，但同时删除多个KP可能有害，需显式建模依赖结构。KnowRL-Nemotron-1.5B在8个推理基准上不使用KP提示时平均准确率达70.08（超越基线+9.63点），使用精选KP时提升至74.16，成为1.5B规模新SOTA。",
+      "source": "HuggingFace Papers (73 upvotes, 天津大学 / 百度)",
+      "highlight": "「更少但更精准的提示」打败「更多提示」：KnowRL的核心洞察是RL训练的提示质量比数量更重要——用冗余提示训练反而引入噪声和不一致性。原子知识点+约束子集的组合让RL训练的「知道给什么提示、给多少」变得可优化，这套框架对所有强化后训练流程（不只是推理）都有普适参考价值",
+      "stars": 0,
+      "tags": ["Reinforcement Learning", "LLM Training", "Reward Sparsity", "Tianjin University", "Baidu", "Reasoning", "RLVR"]
+    },
+    {
+      "id": 24,
+      "category": "paper",
+      "title": "在策略蒸馏的系统研究：思维模式兼容性+真正新知识是成功的两大前提——失败场景的修复配方（HF 50赞）",
+      "url": "https://huggingface.co/papers/2604.13016",
+      "summary": "清华大学联合UIUC、人民大学等对「在策略蒸馏（On-Policy Distillation）」的工作原理进行系统性研究，识别出成功的两个核心条件：①教师与学生之间的思维模式兼容性（top-k词元分布重叠率）；②教师具备超越规模差异的真正新能力。成功的OPD呈现高概率词元的渐进对齐，而失败的运行表现为停滞的重叠率和持续的熵不匹配。针对失败场景提出两种修复策略：离线冷启动（先用教师数据做SFT预热）和教师对齐的提示选择。",
+      "source": "HuggingFace Papers (50 upvotes, 清华大学 / UIUC / 人民大学)",
+      "highlight": "蒸馏玄学的「科学化」：在策略蒸馏被广泛用于LLM后训练，但「什么时候能成功」长期缺乏系统解释——这项工作用可测量的思维模式重叠率和知识新颖性给出了可操作的判断框架。对于任何打算用更大模型蒸馏小模型的团队，这篇论文是「选哪对教师-学生」的决策参考",
+      "stars": 0,
+      "tags": ["Knowledge Distillation", "LLM Training", "On-Policy Distillation", "Tsinghua", "UIUC", "Post-training", "Reasoning"]
+    },
+    {
+      "id": 25,
+      "category": "paper",
+      "title": "屏幕图灵测试：GUI Agent人性化基准——原始Agent 99%可被检测，B样条+历史匹配等四策略破防，任务效用与拟人性的量化权衡（HF 26赞）",
+      "url": "https://huggingface.co/papers/2604.09574",
+      "summary": "上海交通大学联合CMU提出GUI Agent「图灵测试」框架（AHB基准），研究手机端自主Agent被平台检测系统识别的程度及人性化策略。核心发现：原始LMM Agent行为特征（完美直线滑动、极端操作间隔5-80秒、接近零的点击持续时长）使XGBoost/SVM检测精度超过99%。提出四种人性化策略：B样条平滑轨迹、历史动作匹配（最有效）、插入假操作、延长点击时长，并建立三个定理证明各策略的理论下界。以Doubao移动助手被微信安全系统封锁为真实案例说明问题的现实意义。",
+      "source": "HuggingFace Papers (26 upvotes, 上海交通大学 / CMU)",
+      "highlight": "Agent对抗检测：一个被严重低估的工程问题。当GUI Agent走向商用部署，「被平台识别并封锁」将是比「任务成功率低」更根本的生死线——Doubao被微信封锁的真实案例已经说明这不是假设性问题。这项研究将「人性化」从伦理讨论拉回到工程实现层面，为构建能够在真实平台上长期运行的Agent提供了量化框架",
+      "stars": 0,
+      "tags": ["GUI Agent", "Mobile Agent", "Detection Evasion", "Humanization", "Shanghai Jiao Tong", "CMU", "Benchmark", "Anti-bot"]
+    },
+    {
+      "id": 26,
+      "category": "repo",
+      "title": "claude-mem：Claude Code自动记忆插件——会话级AI压缩+向量检索跨会话注入上下文，SQLite+Chroma+MCP工具链（56.9k星，今日最热）",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "summary": "TypeScript实现的Claude Code会话记忆插件，自动捕获Claude在每次编程会话中执行的所有操作，通过AI压缩生成摘要，并在未来会话中语义检索注入相关上下文，实现跨会话项目连续性。技术栈：SQLite持久化 + Chroma向量数据库 + MCP搜索工具。还支持「Endless Mode」（仿生记忆模式）和Worker后台服务。兼容Claude Code、Gemini CLI和OpenCode多种环境。56.9k星，今日GitHub Trending第一。",
+      "source": "GitHub Trending (56.9k total, April 15, 2026 #1)",
+      "highlight": "Claude Code记忆问题的「杀手级」社区解法：Claude Code最大痛点之一是跨会话失忆——claude-mem用向量数据库把每次会话的「知识」存下来，下次开工直接召回。56.9k星和今日Trending第一的成绩证明这是真实的高频痛点；Anthropic在官方Routines中尚未内置跨会话记忆，社区已率先用MCP生态补全了这块能力拼图",
+      "stars": 56900,
+      "tags": ["Claude Code", "Memory", "MCP", "Vector Database", "TypeScript", "Developer Tools", "Open Source"]
+    },
+    {
+      "id": 27,
+      "category": "repo",
+      "title": "GenericAgent：3.3K行种子代码自进化Agent——9个原子工具实现全系统控制，技能树自主生长，Token消耗降低6倍（1.6k星）",
+      "url": "https://github.com/lsdefine/GenericAgent",
+      "summary": "极简自进化Agent框架，仅用约3300行种子代码，通过浏览器、终端、文件系统、输入设备、屏幕视觉、移动端控制9个原子工具实现对本地计算机的全系统级控制。每个已解决任务结晶为可复用技能，驱动Agent能力自主扩展。项目开发者声称整个仓库由GenericAgent在无开发者终端访问的情况下自主构建完成。Token消耗相比类似系统降低6倍（通过技能树避免重复推理）。Python实现，1.6k星，今日+413。",
+      "source": "GitHub Trending (1.6k stars, +413 today, April 15, 2026)",
+      "highlight": "「用Agent建Agent」的递归自举案例：GenericAgent最吸引人的说法不是技术指标，而是「仓库本身由Agent自主完成」——如果为真，这是对自我改进Agent能力的最有力demo。技能树架构（避免重复推理）是Token效率优势的来源，也是区别于普通ReAct Agent的核心设计，为「长期运行不退化」的自主Agent提供了一种可行的工程路径",
+      "stars": 1600,
+      "tags": ["Autonomous Agent", "Self-Improving", "Skill Tree", "System Control", "Python", "Open Source", "Minimal Code"]
+    },
+    {
+      "id": 28,
+      "category": "tool",
+      "title": "Microsoft Copilot in Word：词级别修订追踪+注释管理——面向法律/金融/合规工作流，Work IQ个性化层加持，Office Insiders Beta开放",
+      "url": "https://the-decoder.com/microsoft-copilot-in-word-can-now-track-changes-and-manage-comments/",
+      "summary": "微软扩展Word Copilot功能，新增词级别修订追踪（Track Changes）、注释管理、目录自动生成、动态页眉页脚（含页码），专为法律、金融、合规等专业工作流设计。功能由「Work IQ」个性化层驱动，基于用户个人和组织历史数据定制响应，同时保持在Microsoft 365安全边界内。目前限于Windows桌面版Office Insiders Beta Frontier频道，Web和Mac版本后续推出。发布紧随Anthropic推出同类Claude驱动的Word插件。",
+      "source": "The Decoder (April 15, 2026, Microsoft)",
+      "highlight": "Word成为AI编辑能力的新战场：Anthropic发布Claude驱动的Word插件后，微软立即以原生Copilot跟进——「词级别修订追踪」是法律/金融文档工作流的核心需求，此前必须手动操作。这场围绕Office生产力的AI竞赛将决定企业用户日常工作流的AI入口归属，而微软的原生集成优势（数据留在M365边界内）是第三方插件难以逾越的护城河",
+      "stars": 0,
+      "tags": ["Microsoft", "Copilot", "Word", "Document AI", "Enterprise", "Track Changes", "Office 365", "Work IQ"]
     }
   ]
 }
