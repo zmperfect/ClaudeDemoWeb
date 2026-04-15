@@ -1,0 +1,148 @@
+{
+  "date": "2026-04-15",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "Claude Mythos首次端对端自主入侵企业网络：73%CTF成功率，3/10次完整32步攻击链，AISI评估报告详解",
+      "url": "https://the-decoder.com/claude-mythos-can-autonomously-compromise-weakly-defended-enterprise-networks-end-to-end/",
+      "summary": "英国AI安全研究所（AISI）对Anthropic Claude Mythos Preview进行网络安全能力评估，发现其在专家级CTF挑战中达到73%成功率，并成为首个完整执行32步企业网络模拟攻击的AI系统（10次尝试中3次成功）。测试环境为「缺乏主动防御和监控」的弱防护系统，不代表真实部署场景。Anthropic因此将Mythos访问限制在约50家公司，报告强调补丁管理和访问控制等网络安全基础的重要性。",
+      "source": "The Decoder (April 14, 2026)",
+      "highlight": "AI网络安全能力的里程碑与红线：Mythos完成32步全链条攻击代表了AI自主渗透能力的质变——此前AI只能完成孤立步骤，现在能端到端推进整个攻击。AISI报告同时划出边界：仅在弱防护系统生效，但这已足以倒逼安全基础设施升级，也解释了Anthropic限制访问的动机",
+      "stars": 0,
+      "tags": ["Anthropic", "Claude Mythos", "Cybersecurity", "AI Safety", "Red Team", "Enterprise Security", "AISI"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "Claude Code Routines正式发布：云端自动化Bug修复、代码审查、PR评审，无需本地机器全程托管运行",
+      "url": "https://the-decoder.com/claude-code-routines-let-ai-fix-bugs-and-review-code-on-autopilot/",
+      "summary": "Anthropic推出Claude Code的「Routines（例程）」功能，允许在Anthropic云基础设施上无需本地机器自动执行编程任务。支持的典型任务包括：夜间Bug分类、基于团队检查清单的代码自动审查、跨语言代码移植、部署错误检查。触发方式灵活：预定时间、GitHub事件或API调用均可触发，支持集成Slack/Asana等外部服务。当前以研究预览形式向Pro/Max/Team/Enterprise用户开放，每日运行次数5-25次不等。",
+      "source": "The Decoder (April 14, 2026)",
+      "highlight": "从「AI辅助」到「AI托管」的关键跨越：Routines将Claude Code从交互式编程助手进化为可无人值守运行的自主工程Agent——不再是「你问我答」，而是「配置一次，按需自动执行」。配合此前发布的/loop命令（本地循环）和开发服务器能力，Anthropic正在系统性地构建完整的云端自主软件工程基础设施",
+      "stars": 0,
+      "tags": ["Anthropic", "Claude Code", "Automation", "AI Agent", "DevOps", "Code Review", "Cloud"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "Greg Brockman：AI将让小团队匹敌大团队产出——算力是唯一约束，创业窗口正在打开",
+      "url": "https://the-decoder.com/greg-brockman-predicts-ai-will-let-small-teams-match-the-output-of-large-ones-if-they-can-afford-the-compute/",
+      "summary": "OpenAI总裁Greg Brockman预测AI将根本性改变团队规模与产出的关系：小团队借助AI能实现以往只有大型组织才能完成的工作量，前提是拥有足够的算力资源。他认为个体将能够「将意图转化为软件、表格、演示、工作流、科学成果甚至公司」，但同时承认这种转变具有破坏性，会影响既有职业路径和机构稳定性，且算力负担能力仍是显著的不平等因素。",
+      "source": "The Decoder (April 14, 2026)",
+      "highlight": "OpenAI对AI经济学的官方判断：Brockman等于在说「算力=竞争力」——这不仅是技术预言，更是OpenAI产品定价逻辑的公开注脚。算力可负担性问题（上周算力危机报道的延续）成为新型数字鸿沟，AI民主化的叙事之下藏着「算力贵族」与「算力平民」的分层",
+      "stars": 0,
+      "tags": ["OpenAI", "Greg Brockman", "AI Economy", "Productivity", "Democratization", "Compute", "Industry Trends"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "LPM 1.0：单张照片实时生成45分钟唇语同步视频——全面覆盖真实感人脸、动漫、3D角色，全球最长流式视频AI",
+      "url": "https://the-decoder.com/new-ai-model-generates-45-minute-lip-synced-video-from-one-photo-and-runs-in-real-time/",
+      "summary": "研究团队发布LPM 1.0，实现从单张照片实时生成长达45分钟的高质量唇语同步视频，支持真实感人脸、动漫和3D游戏角色等多种视觉风格，无需额外训练。系统通过流式生成（非批处理）保持长达45分钟的视频稳定性，能够模拟三种对话状态：倾听（反应表情）、说话（音频驱动口型）和停顿（自然空闲行为）。团队明确表示这是纯研究项目，尚无公开发布计划，强调所有演示人脸均为AI生成并承认仍存在可见伪影。",
+      "source": "The Decoder (April 13, 2026)",
+      "highlight": "视频AI的技术边界再推进：45分钟实时流式生成解决了此前视频AI的「时长瓶颈」——之前的系统往往在几十秒内就出现漂移或不稳定。团队在公开Deepfake风险的同时选择不发布，体现了AI视频领域不同寻常的自律克制，也为行业设立了负责任披露的参考案例",
+      "stars": 0,
+      "tags": ["Video Generation", "Deepfake", "Lip Sync", "AI Safety", "Multimodal", "Real-time AI", "Research"]
+    },
+    {
+      "id": 5,
+      "category": "paper",
+      "title": "MEDS：带记忆的动态奖励塑形——避免LLM强化学习中重复错误陷阱，5数据集+3底模一致提升（HF 90赞）",
+      "url": "https://huggingface.co/papers/2604.11297",
+      "summary": "提出MEDS（Memory-Enhanced Dynamic reward Shaping），解决LLM强化学习训练中的核心问题：无记忆奖励模型导致模型反复犯相同错误、采样多样性下降。核心机制：利用模型前向传播的逐层logits捕获「推理指纹」，通过密度聚类识别高频重复错误模式并动态加重惩罚，鼓励模型探索新的解题路径。在GSM8K、HotpotQA、BBH等5个数据集和3个基础模型上验证，pass@1提升最高4.13点，pass@128提升最高4.37点，行为多样性显著增加。",
+      "source": "HuggingFace Papers (90 upvotes)",
+      "highlight": "LLM强化训练的「健忘症」修复：当前RLHF等方法最大弱点之一是奖励模型没有记忆——每次判断都独立，导致模型学会「换汤不换药」地重复失败。MEDS的记忆化行为指纹机制是对这一系统性缺陷的精准干预，对任何基于RL的LLM后训练流程都有参考价值",
+      "stars": 0,
+      "tags": ["Reinforcement Learning", "RLHF", "LLM Training", "Reward Shaping", "Post-training", "Diversity", "Memory"]
+    },
+    {
+      "id": 6,
+      "category": "paper",
+      "title": "I-DLM：内省扩散语言模型——首个与同等AR模型质量媲美的扩散LLM，3倍推理吞吐+单遍解码（HF 69赞）",
+      "url": "https://huggingface.co/papers/2604.11035",
+      "summary": "Together AI联合UIUC、UT Austin、Princeton、Stanford提出I-DLM（Introspective Diffusion Language Model），首次弥合了扩散语言模型与自回归模型的质量差距。核心创新「内省一致性训练」：结合严格因果掩码、logit偏移和全掩码目标，仅需4.5B token（SDAR的1/12）完成训练。提出ISD（内省步进解码）单遍算法，在生成新token的同时验证已生成内容。I-DLM-8B在15个基准上匹配Qwen3-8B质量，吞吐量提升3倍；在AIME-24上超越LLaDA-2.1-mini（16B）26点。",
+      "source": "HuggingFace Papers (69 upvotes, Together AI / Stanford / UIUC)",
+      "highlight": "扩散LLM的「奇点时刻」：扩散语言模型长期被视为质量不如自回归的「有趣但不实用」的技术路线——I-DLM是首个打破这一认知的工作，3倍吞吐意味着相同算力下服务更多请求。若结论可复现，这将为推理成本优化提供全新的模型架构选项",
+      "stars": 0,
+      "tags": ["Diffusion LLM", "Language Model", "Inference Efficiency", "Together AI", "Throughput", "Architecture", "Training"]
+    },
+    {
+      "id": 7,
+      "category": "paper",
+      "title": "OmniShow：ByteDance统一多模态人物-物体交互视频生成——文本+图像+音频+姿态全条件融合，工业级HOIVG基准（HF 70赞）",
+      "url": "https://huggingface.co/papers/2604.11804",
+      "summary": "ByteDance联合香港中文大学提出OmniShow，针对「人物-物体交互视频生成（HOIVG）」任务，实现文本、参考图像、音频、姿态四种模态条件的统一融合。引入三项核心技术：统一通道级条件融合（高效图像与姿态注入）、门控局部上下文注意力（精确音视频同步）、解耦联合训练策略（利用多阶段训练+模型融合解决数据稀缺问题）。同时建立HOIVG-Bench评测基准，在电商展示、短视频生成、互动娱乐等场景达到行业级性能。",
+      "source": "HuggingFace Papers (70 upvotes, ByteDance / CUHK)",
+      "highlight": "电商视频AI的产品化信号：HOIVG直接瞄准「商品展示视频自动生成」这一具有明确商业价值的场景——ByteDance将其作为论文发布而非内部工具，暗示这是走向开放生态的技术布局。多模态全条件融合的工业级方案将大幅降低电商、短视频平台的内容生产成本",
+      "stars": 0,
+      "tags": ["Video Generation", "ByteDance", "Multimodal", "E-commerce", "Human-Object Interaction", "Diffusion", "CUHK"]
+    },
+    {
+      "id": 8,
+      "category": "paper",
+      "title": "CocoaBench：评测「真实世界」统一数字Agent——视觉+搜索+编码三能力融合，最佳系统仅达45%成功率（HF 29赞）",
+      "url": "https://huggingface.co/papers/2604.11201",
+      "summary": "加州大学圣地亚哥分校提出CocoaBench，专门评测需要灵活组合视觉、搜索、编码多种能力的统一数字Agent。不同于隔离测试单一能力的基准，CocoaBench设计人工构建的长时程复合任务，仅提供任务指令和自动评估函数，不限制Agent架构。同时提出Cocoa-Agent作为受控比较的轻量级脚手架。实验显示当前最优系统成功率仅45.1%，在推理规划、工具使用执行和视觉接地三方面均存在显著短板。",
+      "source": "HuggingFace Papers (29 upvotes, UC San Diego)",
+      "highlight": "「分项满分、综合不及格」——Agent能力集成的真实困境：当前Agent研究大量成果在隔离测试中表现优秀，CocoaBench揭示了当这些能力需要实时协同时的系统性失效。45%的最优成功率是清醒剂，也是2026年Agent研究最需要攻克的综合能力瓶颈",
+      "stars": 0,
+      "tags": ["Agent Evaluation", "Benchmark", "Digital Agent", "Multimodal", "UC San Diego", "Visual Grounding", "Tool Use"]
+    },
+    {
+      "id": 9,
+      "category": "paper",
+      "title": "Attention Sink综合调研：Transformer注意力汇聚现象的成因、利用与缓解策略——Meituan综述（HF 56赞）",
+      "url": "https://huggingface.co/papers/2604.10098",
+      "summary": "美团LongCat团队发布关于Transformer中注意力汇聚（Attention Sink）现象的系统性综述，全面梳理该现象的成因、在各类应用中的利用方式以及各种缓解策略。注意力汇聚（模型将大量注意力集中在少数「汇聚Token」上）是影响长上下文处理、KV Cache效率和模型行为可预测性的核心机制问题，理解该现象对流式推理、长文档处理、KV Cache压缩等实际工程问题有直接指导意义。",
+      "source": "HuggingFace Papers (56 upvotes, Meituan LongCat)",
+      "highlight": "Transformer机制理解的「必读综述」：Attention Sink影响从RoPE位置编码有效性到KV Cache压缩效率的一系列实际问题，却长期缺乏系统性梳理——美团这篇综述填补了这一空白，是LLM推理优化工程师和研究者的重要参考文献，也反映了中国互联网大厂在底层LLM机制研究上的深度投入",
+      "stars": 0,
+      "tags": ["Transformer", "Attention Mechanism", "Survey", "LLM", "KV Cache", "Inference Optimization", "Meituan"]
+    },
+    {
+      "id": 10,
+      "category": "repo",
+      "title": "NousResearch/hermes-agent：跨平台自我进化Agent框架——200+模型、Telegram/Discord/Slack原生集成、技能自主创建（84.5k星，今日+8301）",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "summary": "Nous Research开源的自我进化Agent框架，支持跨平台（CLI、Telegram、Discord、Slack、WhatsApp、Signal）统一部署，通过OpenRouter支持200+模型后端。核心特性：Agent自主创建和改进技能（skills）、跨会话记忆召回、并行子Agent、Cron定时任务调度、完整TUI终端界面（含多行编辑和斜杠命令自动补全）。支持VPS、GPU集群、无服务器等多种基础设施，5美元服务器即可运行。432名贡献者，MIT协议。",
+      "source": "GitHub Trending (+8301 today, 84.5k total, Nous Research)",
+      "highlight": "「Agent即平台」的开源实践：hermes-agent把Agent部署门槛降到极低——跨平台统一网关意味着同一个Agent实例可以同时在Telegram和CLI中服务；自我进化技能是把元学习能力内嵌到框架而非依赖外部微调。今日+8301的爆发式增长证明开源自治Agent需求已到达临界点",
+      "stars": 84537,
+      "tags": ["AI Agent", "Nous Research", "Self-Improving", "Multi-Platform", "Open Source", "Autonomous Agent", "Python"]
+    },
+    {
+      "id": 11,
+      "category": "repo",
+      "title": "claude-code-best-practice：从基础编程到Agent工程的进阶指南——系统化Claude Code使用方法论与实战模式（43.8k星，今日+2583）",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "summary": "HTML格式的Claude Code使用进阶指南，系统梳理从基础编程辅助到Agent工程思维的方法论转变。覆盖上下文管理、任务分解策略、Agent模式设计、错误处理最佳实践等核心主题，面向已有Claude Code经验但希望提升输出质量和工程化程度的开发者。与andrej-karpathy-skills（约束Claude行为）和get-shit-done（上下文工程）形成互补，侧重于工程思维框架的系统建立。",
+      "source": "GitHub Trending (+2583 today, 43.8k total)",
+      "highlight": "Claude Code方法论生态的第三极：claude-code-best-practice填补了「从使用者到Agent工程师」的认知跃升路径——不是约束Claude（karpathy-skills做的），不是构建上下文（get-shit-done做的），而是教你怎么像工程师一样思考AI协作。三个互补仓库加在一起，正在形成一套完整的Claude Code工程师成长体系",
+      "stars": 43845,
+      "tags": ["Claude Code", "Best Practices", "Agent Engineering", "Developer Tools", "Methodology", "HTML", "LLM Coding"]
+    },
+    {
+      "id": 12,
+      "category": "tool",
+      "title": "microsoft/markitdown：微软开源文件到Markdown转换器——支持Office、PDF、图像、音频等20+格式，AI应用数据预处理利器（108k星，今日+1675）",
+      "url": "https://github.com/microsoft/markitdown",
+      "summary": "微软开源的Python工具库，将20+种文件格式（Word、Excel、PowerPoint、PDF、图像、音频、HTML、ZIP等）统一转换为Markdown格式，专为LLM数据预处理和AI应用内容管道设计。支持命令行和Python API两种使用方式，图像和音频文件可通过集成LLM描述进行语义转换。已达108k星，持续成为GitHub最受关注的AI工具之一，今日+1675显示依然保持强劲增长动力。",
+      "source": "GitHub Trending (+1675 today, 108.5k total, Microsoft)",
+      "highlight": "AI应用开发的「数据接入层」标准：markitdown已事实上成为将现实世界文件转化为LLM可消费内容的标准工具——统一输出Markdown格式极大简化了RAG管道和Agent工具的文档接入逻辑。108k星是真实工程需求的直接投票，微软开源策略借此建立了AI应用基础设施的生态话语权",
+      "stars": 108498,
+      "tags": ["Microsoft", "Markdown", "Document Processing", "RAG", "Developer Tools", "Python", "Open Source"]
+    },
+    {
+      "id": 13,
+      "category": "tool",
+      "title": "Audio Flamingo Next（NVIDIA）：新一代开源音频-语言模型——语音+声音+音乐全覆盖，支持长音频理解与推理（HF 17赞）",
+      "url": "https://huggingface.co/papers/2604.10905",
+      "summary": "NVIDIA发布Audio Flamingo Next，新一代开源音频-语言模型，支持语音（Speech）、环境声（Sound）和音乐（Music）三类音频的统一理解与推理。相较前一代显著提升长音频处理能力，能够对数分钟音频进行语义问答和描述。模型权重开放，是目前开源多模态LLM中音频理解能力最强的方案之一，为语音Agent、音频内容分析、辅助技术等应用场景提供基础能力。",
+      "source": "HuggingFace Papers (17 upvotes, NVIDIA)",
+      "highlight": "音频模态的「开源GPT-4o时刻」：GPT-4o的语音能力令人印象深刻但封闭，Audio Flamingo Next是NVIDIA向开源社区提供的同类基础能力——覆盖语音、声音、音乐的统一处理框架是构建全感知Agent的必要组件，NVIDIA通过开源策略在下一代多模态Agent基础设施上建立先发位置",
+      "stars": 0,
+      "tags": ["NVIDIA", "Audio", "Multimodal", "Speech", "Open Source", "Audio LLM", "Tool"]
+    }
+  ]
+}
