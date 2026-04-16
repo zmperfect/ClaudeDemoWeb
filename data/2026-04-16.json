@@ -1,0 +1,137 @@
+{
+  "date": "2026-04-16",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "OpenAI Agents SDK沙箱支持正式发布：隔离容器化Agent运行环境，支持MCP+Shell+S3，Python版本上线（TypeScript即将推出）",
+      "url": "https://the-decoder.com/openai-updates-agents-sdk-with-new-sandbox-support-for-safer-ai-agents/",
+      "summary": "OpenAI对Agents SDK进行重大更新，核心新增原生沙箱支持：Agent在拥有独立文件系统、工具链和依赖项的隔离容器中运行，将控制逻辑与计算环境彻底分离。功能覆盖：MCP工具调用、Shell命令执行、apply-patch文件编辑、AGENTS.md自定义工作区指令，以及对AWS S3、Google Cloud Storage、Azure等云存储的本地/云双模支持。合作伙伴包括Cloudflare、Vercel、E2B和Modal。Python版本已上线，TypeScript即将推出，按标准OpenAI API定价计费。",
+      "source": "The Decoder (April 15, 2026)",
+      "highlight": "企业级Agent部署的「安全基础设施」补全：沙箱环境解决了生产部署中Agent的两大核心风险——权限越界（隔离容器限制破坏范围）和环境污染（独立依赖防止冲突）。AGENTS.md文件类比Claude Code的CLAUDE.md，预示着「Agent工作区指令标准化」正在从开发工具蔓延到云平台原生能力。MCP生态整合意味着OpenAI正在承认MCP作为Agent工具协议的事实标准地位",
+      "stars": 0,
+      "tags": ["OpenAI", "Agents SDK", "Sandbox", "MCP", "Enterprise", "Cloud", "Security"]
+    },
+    {
+      "id": 2,
+      "category": "tool",
+      "title": "Adobe Firefly AI助手发布：跨Photoshop/Illustrator/Premiere/Lightroom统一聊天界面，Creative Skills一句话触发多步骤工作流",
+      "url": "https://the-decoder.com/adobe-turns-its-creative-suite-into-a-chatbot-with-the-new-firefly-ai-assistant/",
+      "summary": "Adobe发布Firefly AI Assistant，为整个Creative Cloud套件提供统一聊天驱动界面。用户用自然语言描述创意任务，助手跨Photoshop、Illustrator、Premiere和Lightroom协调执行多步骤工作流，所有操作均保留用户可编辑状态。「Creative Skills」功能支持一条指令触发复杂流程（如将图像自动适配多个社交平台尺寸）。平台已集成Kling 3.0视频模型，并计划与Claude深度集成。底层支持30+专用AI模型，覆盖视频生成、图像编辑、音频清理、高级色彩控制。基于Adobe MAX早期演示的「Project Moonlight」演进而来，公开测试版即将推出。",
+      "source": "The Decoder (April 15, 2026)",
+      "highlight": "创意生产流程的「Agent化」里程碑：Firefly AI Assistant是Adobe把「功能集合」转变为「意图驱动执行体」的关键一步——不再是「打开PS→找工具→手动操作」，而是「描述目标→跨应用自动完成」。Claude的计划性集成暗示Anthropic正在把Claude Code的工程协作能力延伸到创意工作流，与Microsoft Copilot在Office的布局形成双极竞争格局",
+      "stars": 0,
+      "tags": ["Adobe", "Firefly", "Creative Suite", "AI Agent", "Workflow Automation", "Photoshop", "Generative AI"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "Google发布Gemini 3.1 Flash TTS：70+语言、音频风格标签控制语调/语速/口音，SynthID水印，Artificial Analysis Elo第1211位性价比最优",
+      "url": "https://the-decoder.com/google-ships-its-most-expressive-gemini-3-1-text-to-speech-model-yet-with-70-language-support/",
+      "summary": "Google发布基于Gemini 3.1 Flash的新一代文字转语音模型，最大亮点是引入「音频标签（Audio Tags）」——开发者通过简单文本命令控制生成语音的风格、语速、音调和口音，支持多说话人对话场景。模型支持70+语言，在Artificial Analysis Elo评分榜排名第1211位，定位性价比最优方案。定价：文本输入$1/百万token，音频输出$20/百万token，提供免费套餐。可通过Gemini API、Vertex AI、Google Vids和Google AI Studio访问，所有生成音频均嵌入SynthID数字水印。",
+      "source": "The Decoder (April 15, 2026)",
+      "highlight": "可控合成语音的新标准：音频标签（Audio Tags）是Gemini TTS区别于竞品的核心创新——不是简单的「快/慢/高/低」，而是允许开发者在提示词层面精细控制语音表现力，类似给TTS引入了「音频提示工程」能力。70+语言+多说话人+SynthID水印的组合，预示着语音Agent的可信标识基础设施正在成熟",
+      "stars": 0,
+      "tags": ["Google", "Gemini", "Text-to-Speech", "TTS", "Multilingual", "Audio AI", "SynthID"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "Gitar完成900万美元融资：AI Agent持续扫描+自动修复代码安全漏洞，「生成让代码可信」填补AI编程质量缺口",
+      "url": "https://techcrunch.com/2026/04/15/gitar-a-startup-that-uses-agents-to-secure-code-emerges-from-stealth-with-9-million/",
+      "summary": "AI代码安全初创公司Gitar从隐身模式出发，完成900万美元A轮融资，由Venrock领投、Sierra Ventures跟投。公司由前Intel Labs、Google、Uber工程师Ali-Reza Adl-Tabatabai创立（硅谷San Mateo），产品核心逻辑：AI代码生成引发「代码洪流」问题（大量AI生成代码质量参差不齐），Gitar的Agent持续对代码库进行安全审计、漏洞扫描和自动修复，融入CI/CD流程。CEO核心观点：「生成负责产出代码，验证负责让代码可信。」",
+      "source": "TechCrunch (April 15, 2026)",
+      "highlight": "「AI生成→AI验证」的闭环商业逻辑：Gitar抓住的不是AI编程市场本身，而是AI编程的质量后果——越多人用Cursor/Claude Code生成代码，就越需要专门的AI Agent来校验这些代码的安全性。这是一个随AI编程工具普及而自动扩大的市场，也解释了为什么Venrock这种传统老牌VC愿意在此时押注",
+      "stars": 0,
+      "tags": ["Security", "AI Agent", "Code Security", "DevOps", "Startup", "CI/CD", "Funding"]
+    },
+    {
+      "id": 5,
+      "category": "paper",
+      "title": "Think Before You Score：推理奖励双向扩展视觉生成——PARROT框架+生成-批判-细化循环，8B模型匹配Gemini 2.5 Pro（HF 60赞，今日最热）",
+      "url": "https://huggingface.co/papers/2604.11626",
+      "summary": "Haozhe Wang等提出用多维度批判性推理替代黑箱单分奖励模型的视觉生成方案。三大创新：①PARROT（Preference-Aligned Rationale exTraction）框架——从人类偏好数据中提炼结构化评分理由；②推理奖励应用于训练时对齐和测试时优化双向扩展；③Generate-Critique-Refine（生成-批判-细化）测试时循环。关键结果：8B规模的推理奖励模型在多个视觉生成基准上与Gemini-2.5-Pro质量相当，而训练数据量大幅减少。ELBO数学框架为推理奖励提供了严格理论基础。",
+      "source": "HuggingFace Papers (60 upvotes, April 16, 2026)",
+      "highlight": "奖励模型从「黑箱评分」到「可解释推理」的范式升级：当前视觉生成的人类偏好对齐依赖不透明的标量奖励，PARROT让奖励模型先「说明理由」再「给分」——这不仅提升了训练信号质量，也让开发者可以审查和调整奖励逻辑。8B模型追平Gemini-2.5-Pro说明推理能力的杠杆效应：小模型通过结构化思考可以系统性超越更大的黑箱评分器",
+      "stars": 0,
+      "tags": ["Reward Model", "Visual Generation", "RLHF", "Reasoning", "Alignment", "Image Generation", "LLM"]
+    },
+    {
+      "id": 6,
+      "category": "paper",
+      "title": "Seedance 2.0：ByteDance新一代视频生成模型——物理合理性、多目标动态、长程一致性全面提升，超170位作者技术报告（HF 55赞）",
+      "url": "https://huggingface.co/papers/2604.14148",
+      "summary": "ByteDance Seed团队发布Seedance 2.0技术报告（超170位作者），目标解决视频生成中的「世界复杂性」挑战：物理合理性（物体运动符合物理规律）、多目标动态（场景内多个物体独立运动而不相互干扰）、长程时序一致性（长视频中角色和环境保持稳定）。模型在多个视频生成基准上取得领先成绩，侧重工业级部署能力。报告坦承缺乏详细训练/架构/基础设施细节，定位为能力展示而非技术深究；社区反馈提出这更接近产品发布公告而非学术研究贡献。",
+      "source": "HuggingFace Papers (55 upvotes, ByteDance Seed, April 16, 2026)",
+      "highlight": "大厂视频AI的「赛马」态势：Seedance 2.0是ByteDance在OmniShow（昨日）和Seedance 2.0（今日）连续两天密集发布视频AI成果的节奏——配合Sora/Runway/Kling的竞争，视频生成已进入军备竞赛阶段。「物理合理性」成为新的核心差异化维度，说明下一代视频AI的核心不是「像素质量」而是「世界模型准确性」",
+      "stars": 0,
+      "tags": ["Video Generation", "ByteDance", "World Model", "Physical Simulation", "Multimodal", "Foundation Model"]
+    },
+    {
+      "id": 7,
+      "category": "paper",
+      "title": "SpatialEvo：确定性几何环境驱动空间推理自进化——无人工标注Agent自主增强空间智能（HF 42赞）",
+      "url": "https://huggingface.co/papers/2604.14144",
+      "summary": "19位作者的研究团队提出SpatialEvo，通过确定性几何任务环境让Agent自主进化其空间推理能力，无需人工标注数据。核心思路：几何任务具有天然可验证性（答案正确与否客观明确），可构建自动化反馈循环驱动Agent持续改进；确定性环境避免了随机性对学习信号的污染。方法使LLM在空间推理、视觉几何理解等任务上取得显著提升，且训练成本远低于人工标注路线。",
+      "source": "HuggingFace Papers (42 upvotes, April 16, 2026)",
+      "highlight": "空间智能的「自举」方案：空间推理是当前LLM相对薄弱的能力之一，而获取高质量空间标注数据成本极高。SpatialEvo用「可自动验证的几何任务」替代人工标注，是一种可规模化的能力提升路线。这与AlphaCode用竞赛题、KnowRL用知识点的思路一脉相承：找到任务的内在可验证结构，构建不需要人工介入的自动化学习闭环",
+      "stars": 0,
+      "tags": ["Spatial Reasoning", "Self-Improving Agent", "Geometric AI", "No Human Labels", "LLM", "Vision"]
+    },
+    {
+      "id": 8,
+      "category": "paper",
+      "title": "GameWorld：多模态游戏Agent标准化评测基准——NUS可复现跨游戏评估，填补Agent能力评测可重现性空白（HF 41赞）",
+      "url": "https://huggingface.co/papers/2604.07429",
+      "summary": "新加坡国立大学（NUS）提出GameWorld基准，为多模态游戏Agent提供标准化、可验证的评测环境，直接针对当前Agent评测领域的可复现性缺口。核心设计：跨多个游戏环境的统一评测协议、自动化判分机制、Agent能力分项测量（感知、规划、执行协调）。不同于当前各团队自定义私有评测的现状，GameWorld旨在成为游戏Agent能力的客观对比平台，类似ImageNet之于视觉识别。",
+      "source": "HuggingFace Papers (41 upvotes, NUS, April 16, 2026)",
+      "highlight": "Agent基准「军备竞赛」的清醒剂：昨日CocoaBench（数字Agent，UCSD）、今日GameWorld（游戏Agent，NUS）接连发布，反映出Agent研究社区越来越意识到「各说各话的评测」正在制造虚假进展——同一个Agent在不同团队私有测试集上的结论不可比较。标准化评测基础设施的持续出现，是Agent研究走向科学严谨性的必要条件",
+      "stars": 0,
+      "tags": ["Agent Evaluation", "Benchmark", "Game Playing", "Multimodal", "NUS", "Reproducibility", "Standardization"]
+    },
+    {
+      "id": 9,
+      "category": "paper",
+      "title": "OccuBench（Qwen团队）：语言世界模型驱动的职业任务Agent基准——法律/医疗/金融真实专业任务，LWM替代真实环境模拟（HF 37赞）",
+      "url": "https://huggingface.co/papers/2604.10866",
+      "summary": "Qwen团队发布OccuBench，针对AI Agent在真实职业场景（法律、医疗、金融）的能力评测，采用「语言世界模型（Language World Model, LWM）」作为任务模拟器，替代昂贵且难以标准化的真实专业环境。任务设计基于真实职业流程（而非简化版），要求Agent执行多步骤推理、信息检索和专业判断。当前最优Agent在OccuBench上的表现揭示了AI距离「可用于专业职场」的实质性差距。",
+      "source": "HuggingFace Papers (37 upvotes, Qwen Team, April 16, 2026)",
+      "highlight": "「职业AI」赛道的严肃测量：OccuBench的核心贡献是把「AI能做专业工作吗」这个问题从宣传叙事拉回到可测量的工程问题——用LWM模拟法律/医疗/金融任务既解决了真实场景数据隐私问题，又保留了任务的专业复杂性。Qwen团队发布这个基准意味着Alibaba把「专业Agent能力」作为Qwen系列的核心差异化维度",
+      "stars": 0,
+      "tags": ["Agent Benchmark", "Professional AI", "Legal AI", "Medical AI", "Finance AI", "Qwen", "Language World Model"]
+    },
+    {
+      "id": 10,
+      "category": "paper",
+      "title": "Memory Transfer Learning：编码Agent跨域记忆迁移机制——程序性记忆+情节记忆如何迁移提升新任务样本效率（KAIST，HF 16赞）",
+      "url": "https://huggingface.co/papers/2604.14004",
+      "summary": "韩国科学技术院（KAIST）研究团队探讨在编码Agent系统中，程序性记忆（如何解决某类问题的步骤知识）和情节记忆（具体任务的历史经验）如何跨编程领域迁移，以提升在新任务上的样本效率。关键发现：不同类型的记忆对迁移的适合度不同，情节记忆在相关域间的迁移效果优于跨异域迁移；而程序性记忆具有更广的迁移范围。研究为设计具有持久学习能力的编码Agent提供了实证依据。",
+      "source": "HuggingFace Papers (16 upvotes, KAIST AI, April 16, 2026)",
+      "highlight": "编码Agent「学习留存」的机制研究：当前Agent框架（包括昨日的claude-mem、AiScientist）大量关注「如何存储记忆」，KAIST的工作进一步问「哪类记忆值得存储以便跨任务复用」——这个问题对构建真正能持续进化的Agent至关重要。区分程序性和情节记忆的迁移规律，等于给Agent记忆系统提供了「什么值得长期保留」的工程指南",
+      "stars": 0,
+      "tags": ["Memory Transfer", "Coding Agent", "KAIST", "Sample Efficiency", "Episodic Memory", "Procedural Memory", "Agent Learning"]
+    },
+    {
+      "id": 11,
+      "category": "repo",
+      "title": "obra/superpowers：轻量级可组合Agent技能框架——Claude Code等AI编程工具的模块化扩展方法论，今日+2055星",
+      "url": "https://github.com/obra/superpowers",
+      "summary": "obra（Jesse Vincent）开源的Agent技能框架，提供「可组合技能」的软件开发方法论，专门为Claude Code及类似AI编程工具设计。核心理念：将常用的开发操作（代码审查、测试生成、文档编写等）封装为独立、可组合的「超能力（superpowers）」模块，通过简洁的调用接口使Agent在任意工作流中动态激活所需能力。轻量实现（Shell为主），不依赖复杂框架，适合快速集成到现有AI辅助开发工作流。今日GitHub Trending，+2055星。",
+      "source": "GitHub Trending (+2055 today, April 16, 2026)",
+      "highlight": "「技能模块化」的Claude Code生态接棒：继andrej-karpathy-skills（约束行为）、claude-code-best-practice（方法论）、claude-mem（记忆持久化）之后，superpowers是第四个从不同角度扩展Claude Code能力的热门项目——社区正在自发构建Claude Code的完整能力栈。「可组合」设计哲学（Unix管道思维）使技能可以自由组合，是对此前monolithic Agent框架的反叛",
+      "stars": 2055,
+      "tags": ["Claude Code", "Agent Skills", "Developer Tools", "Shell", "Composable", "Open Source", "Productivity"]
+    },
+    {
+      "id": 12,
+      "category": "paper",
+      "title": "TREX：Agent驱动树搜索自动化LLM微调——元Agent探索超参数+数据配方树，消除人工试错（HF 6赞）",
+      "url": "https://huggingface.co/papers/2604.14116",
+      "summary": "提出TREX（Tree-based Exploration for LLM fine-tuning），用元Agent自动搜索LLM微调的超参数空间和数据配方树，系统性替代研究人员的手动试错流程。Agent将微调决策建模为树状搜索问题，每个节点代表一个超参数/数据配置组合，通过探索-利用平衡策略优化资源分配。在多个微调任务上，TREX找到的配置质量与人类专家相当甚至更优，同时大幅减少了所需实验次数。",
+      "source": "HuggingFace Papers (6 upvotes, April 16, 2026)",
+      "highlight": "LLM微调的「AutoML 2.0」：第一代AutoML解决神经网络架构搜索，TREX把这一思路延伸到LLM后训练配方搜索——但关键区别是用Agent而非纯优化算法来驱动探索，Agent能利用领域知识跳过明显次优的方向。随着fine-tuning成为AI应用开发的标配流程，自动化fine-tuning配方搜索将从研究工具演变为开发基础设施",
+      "stars": 0,
+      "tags": ["AutoML", "LLM Fine-tuning", "Meta-Agent", "Hyperparameter Search", "Training Automation", "Tree Search"]
+    }
+  ]
+}
