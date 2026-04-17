@@ -1,0 +1,148 @@
+{
+  "date": "2026-04-17",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "Anthropic发布Claude Opus 4.7：SWE-bench Pro 64.3%大幅领先GPT-5.4，图像分辨率提升3倍，主动限制网络安全进攻能力",
+      "url": "https://the-decoder.com/anthropics-claude-opus-4-7-makes-a-big-leap-in-coding-while-deliberately-scaling-back-cyber-capabilities/",
+      "summary": "Anthropic发布Claude Opus 4.7，在SWE-bench Pro基准上达到64.3%，显著超越前代53.4%和OpenAI GPT-5.4的57.7%，自主编程能力大幅跃升。图像处理分辨率提升至最高2576像素（原3倍），支持更复杂的截图和图表分析。值得注意的是Anthropic主动在训练中限制网络安全进攻性能力，并设立「网络安全验证计划」供渗透测试研究人员申请访问权限；新tokenizer将文本映射到多达35%更多token，实际使用成本可能显著增加。",
+      "source": "The Decoder (April 16, 2026)",
+      "highlight": "「主动降能力」是AI安全领域的重要先例：Anthropic在Claude Opus 4.7上刻意削弱网络安全进攻能力，是主流模型厂商第一次明确把「能力限制」作为发布策略公开声明的案例。SWE-bench Pro 64.3%意味着自主编程已进入可实用化阶段，但新tokenizer将文本映射为更多token的机制是一个需要关注的隐性涨价信号——宣称「价格不变」，实际成本却在悄然上升",
+      "stars": 0,
+      "tags": ["Anthropic", "Claude", "Coding Agent", "SWE-bench", "AI Safety", "Cybersecurity", "LLM"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "OpenAI将Codex升级为「永远在线编程Agent」：macOS屏幕监控+后台自主操作，90+插件集成JIRA/GitLab/Slack，跨天持续执行任务",
+      "url": "https://the-decoder.com/openai-turns-codex-into-an-always-on-coding-agent-that-watches-your-screen/",
+      "summary": "OpenAI对Codex进行重大升级，核心新增「后台电脑使用」功能：AI可在macOS系统上独立查看屏幕、点击和输入，支持安排未来任务并「跨天甚至跨周」持续工作，无需用户干预。新增90+插件与JIRA、GitLab、Slack等开发工具深度集成，内置gpt-image-1.5图像生成能力，增强GitHub集成、多终端支持和SSH远程访问。此次更新将Codex从代码编辑器定位升级为全面的软件开发伴侣，已向ChatGPT用户推出，EU/UK用户部分功能有区域限制。",
+      "source": "The Decoder (April 16, 2026)",
+      "highlight": "「屏幕监控+后台持续运行」标志着AI编程工具从「对话式助手」进化到「自主桌面Agent」：Codex不再是等待指令的工具，而是一个可以主动观察开发者工作状态、自行规划和执行的自主系统。90+插件的生态扩张是OpenAI对Anthropic Claude Code插件体系的正面竞争——谁能整合更多企业工具，谁的Agent就越「活在开发者的工作流中心」",
+      "stars": 0,
+      "tags": ["OpenAI", "Codex", "Coding Agent", "Computer Use", "macOS", "Enterprise", "Automation"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "Google发布原生Gemini Mac应用：Option+Space快捷键唤起，屏幕共享+Google服务集成，对标Claude Desktop直面macOS桌面AI竞争",
+      "url": "https://the-decoder.com/google-launches-native-gemini-app-for-mac/",
+      "summary": "Google发布原生macOS版Gemini应用，提供与移动端和Web版一致的AI助手体验，并增加桌面平台特有能力。核心功能包括Option+Space全局快捷键唤起（类似Spotlight体验）、屏幕共享以便Gemini分析当前桌面内容，以及与Google Workspace、Drive、Calendar等服务的深度集成。该应用将Gemini从浏览器扩展升级为系统级常驻服务，进入原生桌面AI助手竞争市场。",
+      "source": "The Decoder (April 16, 2026)",
+      "highlight": "桌面AI助手的「系统级入口」之争：原生Mac应用+全局快捷键是争夺用户「AI触达习惯」的核心战场——当用户形成「Option+Space=Gemini」的肌肉记忆，Google就占据了最高频的信息查询入口。这直接对标Anthropic Claude Desktop和Microsoft Copilot，三大AI厂商同时在macOS发力，桌面AI助手的竞争格局正在从Web向操作系统层下沉",
+      "stars": 0,
+      "tags": ["Google", "Gemini", "macOS", "Desktop App", "AI Assistant", "Productivity", "Google Workspace"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "Physical Intelligence发布π0.7：机器人「组合泛化」突破——从未见过的任务靠合成已学技能完成，估值或达110亿美元",
+      "url": "https://techcrunch.com/2026/04/16/physical-intelligence-a-hot-robotics-startup-says-its-new-robot-brain-can-figure-out-tasks-it-was-never-taught/",
+      "summary": "Physical Intelligence发布最新模型π0.7，展示「组合泛化」能力：AI可将已学的零散技能组合起来完成从未见过的任务。典型演示：模型只见过「推上空气炸锅」和「把瓶子放入容器」两个不相关任务，却能在语言教练引导下成功用空气炸锅烹饪红薯。当前限制：无法从「做烤面包」等简单指令自主执行多步任务，需逐步指令。公司估值56亿美元、已融资逾10亿，据报道正寻求让估值翻倍至110亿的新一轮融资。",
+      "source": "TechCrunch (April 16, 2026)",
+      "highlight": "「组合泛化」是通往通用机器人的关键缺口：当前机器人训练范式的核心瓶颈是「特定任务大量数据」——π0.7展示了从稀疏相关经验中组合推断的能力，这意味着机器人训练数据效率可能发生数量级跃升。物理智能从「任务执行」到「技能重组」的跨越，与LLM领域从「记忆答案」到「推理泛化」的跨越具有同构性",
+      "stars": 0,
+      "tags": ["Robotics", "Physical Intelligence", "Generalization", "Foundation Model", "Embodied AI", "Startup", "Funding"]
+    },
+    {
+      "id": 5,
+      "category": "tool",
+      "title": "Factory完成1.5亿美元融资，估值15亿美元：多模型架构（Claude+DeepSeek）服务摩根士丹利/安永/帕洛阿尔托，企业级AI编程Agent赛道独角兽",
+      "url": "https://techcrunch.com/2026/04/16/factory-hits-1-5b-valuation-to-build-ai-coding-for-enterprises/",
+      "summary": "AI编程初创公司Factory完成1.5亿美元融资，估值15亿美元，由Khosla Ventures领投，红杉、Insight Partners、Blackstone跟投。公司成立三年，核心差异化是多基础模型架构（支持Claude、DeepSeek等，不绑定单一模型），客户包括摩根士丹利、安永和帕洛阿尔托网络等头部企业。创始人Matan Grinberg于2023年从UC Berkeley博士项目休学创业，通过冷邮件联系红杉合伙人Shaun Maguire获得种子投资。",
+      "source": "TechCrunch (April 16, 2026)",
+      "highlight": "「不绑定单一模型」是企业AI编程赛道的关键差异化：当Cursor/Claude Code分别绑定特定模型，Factory的多模型架构让企业客户可以按合规、成本和性能需求自由切换底层模型——这对银行、咨询、安全等对供应商锁定极度敏感的行业具有独特吸引力。摩根士丹利+安永作为客户背书说明企业级AI编程渗透已进入金融和专业服务核心",
+      "stars": 0,
+      "tags": ["AI Coding", "Enterprise", "Startup", "Funding", "Multi-Model", "DevOps", "Factory"]
+    },
+    {
+      "id": 6,
+      "category": "tool",
+      "title": "Roblox AI助手升级Agentic能力：Planning Mode分析代码+生成可编辑行动计划，Mesh生成+自动Playtesting闭环，未来支持Claude/Cursor集成",
+      "url": "https://techcrunch.com/2026/04/16/robloxs-ai-assistant-gets-new-agentic-tools-to-plan-build-and-test-games/",
+      "summary": "Roblox升级AI助手，引入Planning Mode作为协作式开发伙伴：分析代码、提出澄清问题、生成可编辑行动计划，再执行。新增Mesh Generation（快速添加全贴图3D对象）和Procedural Model Generation（代码+自然语言构建可编辑3D模型）两项工具。Playtesting能力读取日志、截图、识别bug并自动反馈，形成「规划-构建-测试」自修正循环。Roblox计划未来支持多AI Agent并行工作，并与Claude和Cursor等第三方工具集成。",
+      "source": "TechCrunch (April 16, 2026)",
+      "highlight": "游戏开发平台的Agent化是「垂直领域AI协作」的最佳样本之一：Roblox拥有数百万创作者，绝大多数是非专业程序员——Agentic工具降低创作门槛直接扩大可参与游戏开发的用户基数，形成「更多创作者→更多内容→平台更有价值」的正向飞轮。Planning Mode+自修正测试循环是在游戏开发领域复现Claude Code/Devin的闭环执行范式",
+      "stars": 0,
+      "tags": ["Roblox", "Game Development", "AI Agent", "Planning Mode", "3D Generation", "No-Code", "Metaverse"]
+    },
+    {
+      "id": 7,
+      "category": "news",
+      "title": "Nvidia Lyra 2.0：单张照片生成90米可探索3D场景，自纠错训练机制+Isaac Sim导出，零真实3D数据训练机器人",
+      "url": "https://the-decoder.com/nvidia-wants-to-scale-robot-simulation-training-with-lyra-2-0/",
+      "summary": "Nvidia研究人员发布Lyra 2.0，从单张照片生成约90米范围的大型可实时探索虚拟环境，解决当前3D场景生成的两大核心问题：持久几何记忆（重访已生成区域不变形）和自纠错训练（主动暴露模型自身瑕疵输出进行矫正训练）。生成场景可直接导出到Nvidia Isaac Sim物理引擎，在完全合成环境中训练机器人无需采集真实3D数据。Lyra 2.0在6个竞争方法中取得最优质量指标，当前限制是仅支持静态场景。",
+      "source": "The Decoder (April 16, 2026)",
+      "highlight": "机器人仿真训练的「数据飞轮」升级：当前机器人训练最大瓶颈是高质量仿真环境的获取成本——Lyra 2.0将「照片→可训练3D场景」的流程压缩到极致，意味着任何有相机的人都可以为机器人提供训练环境。自纠错训练机制（训练时故意让模型接触自身错误）是一个有趣的「错误免疫」策略，与LLM领域的Constitutional AI有某种方法论上的相似性",
+      "stars": 0,
+      "tags": ["Nvidia", "Robotics", "3D Generation", "Simulation", "Isaac Sim", "Robot Training", "Synthetic Data"]
+    },
+    {
+      "id": 8,
+      "category": "repo",
+      "title": "lsdefine/GenericAgent：自进化自主Agent——9个原子工具+百行Agent循环，技能树自动积累，<30K上下文token消耗，支持Claude/Gemini",
+      "url": "https://github.com/lsdefine/GenericAgent",
+      "summary": "极简自主Agent框架，核心代码约3300行，通过9个原子工具（浏览器、终端、文件系统、键鼠、移动设备ADB等）赋予LLM系统级控制能力，包含约100行的Agent Loop核心逻辑。最大亮点是自进化能力：任务执行路径自动结晶为可复用技能，累积形成个人技能树，上下文消耗<30K token（远低于同类200K-1M的消耗）。支持Claude、Gemini、Kimi、MiniMax等多模型，内置分层记忆（元规则/洞见/事实/任务技能/会话档案），提供微信/QQ/飞书/企业微信/钉钉/Telegram六种Bot接口。",
+      "source": "GitHub Trending (+872 today, April 17, 2026)",
+      "highlight": "「极简+自进化」是当前Agent框架的稀缺组合：大多数Agent框架要么功能强大但臃肿（LangChain系），要么极简但不能学习。GenericAgent用3300行实现自动技能积累，<30K token的上下文效率意味着在同等API成本下可以执行更长的任务序列。多Bot接口覆盖中国主流IM工具（微信/飞书/钉钉），定位明显针对中国企业内部Agent部署场景",
+      "stars": 2800,
+      "tags": ["Agent", "Self-Evolving", "Skill Tree", "Open Source", "Claude", "Python", "Desktop Automation"]
+    },
+    {
+      "id": 9,
+      "category": "repo",
+      "title": "vercel-labs/open-agents：Vercel官方云端编程Agent模板——三层架构（Web+工作流+沙箱VM），快照恢复+自动PR，TypeScript开箱可Fork",
+      "url": "https://github.com/vercel-labs/open-agents",
+      "summary": "Vercel官方开源的云端编程Agent参考实现，采用三层架构：Web界面层、Workflow SDK驱动的Agent工作流层（持久化多步执行+流式+可取消）、隔离沙箱VM层（快照恢复）。支持文件/搜索/Shell/任务/技能/Web六种工具，可自动提交、推送代码并创建PR。设计理念是「Fork即用的模板」而非黑盒产品，代码完全可定制，支持ElevenLabs语音输入和会话共享只读链接。",
+      "source": "GitHub Trending (3.2k stars, April 17, 2026)",
+      "highlight": "Vercel官方参考实现意味着「云端Agent」正在成为基础设施标准：open-agents不只是一个demo，它是Vercel在告诉开发者「这是在我们平台上构建编程Agent的标准方式」。快照恢复机制解决了Agent长时间运行的核心难题——任务中断后可从检查点恢复而非重启，这对于耗时数分钟到数小时的编程任务至关重要",
+      "stars": 3200,
+      "tags": ["Vercel", "Coding Agent", "TypeScript", "Cloud", "Template", "Open Source", "Workflow SDK"]
+    },
+    {
+      "id": 10,
+      "category": "paper",
+      "title": "From P(y|x) to P(y)：预训练空间的强化学习探索——中科院研究RL如何跳出条件概率瓶颈提升LLM泛化能力（HF 23赞）",
+      "url": "https://huggingface.co/papers/2604.14142",
+      "summary": "中国科学院研究团队探讨在预训练模型空间中进行强化学习的理论框架，核心问题是：当前RLHF/GRPO等方法优化的是条件概率P(y|x)（给定输入x生成输出y），但这可能限制了模型的泛化能力。论文提出通过在预训练概率空间P(y)中进行强化，绕过条件分布的约束，从而让模型学到更具泛化性的内在知识表示，而非仅仅是针对特定提示格式的条件反射。",
+      "source": "HuggingFace Papers (23 upvotes, Chinese Academy of Science, April 17, 2026)",
+      "highlight": "RLHF理论框架的「底层追问」：绝大多数后训练工作关注如何更好地优化P(y|x)，这篇工作问的是「P(y|x)本身是否就是正确的优化目标」——如果模型过度拟合条件分布格式，可能获得高对齐分数但丧失真正的泛化能力。这与「过拟合基准」和「奖励欺骗」问题有深层关联，是理解当前后训练范式局限性的重要理论工作",
+      "stars": 0,
+      "tags": ["Reinforcement Learning", "LLM", "Pre-training", "Generalization", "RLHF", "Theory", "Chinese Academy of Science"]
+    },
+    {
+      "id": 11,
+      "category": "paper",
+      "title": "LLM Agent的探索与利用误差可测量：威斯康星大学量化Agent决策失败的两种类型，为Agent调试提供可操作诊断框架（HF 22赞）",
+      "url": "https://huggingface.co/papers/2604.13151",
+      "summary": "威斯康星大学麦迪逊分校研究团队证明LLM Agent的「探索误差」（尝试了错误的行动路径）和「利用误差」（未能充分利用已知有效策略）在实验中是可以被量化测量的。论文提出具体的误差测量方法，并在多个Agent任务上验证两类误差的不同表现特征和产生机制。关键贡献是将此前定性描述的Agent失败模式转化为可诊断的量化指标，为Agent开发者提供「在哪里优化」的实证依据。",
+      "source": "HuggingFace Papers (22 upvotes, UW-Madison, April 17, 2026)",
+      "highlight": "Agent评测从「结果分」到「过程诊断」的范式转变：知道Agent成功率是60%不足以指导改进，但知道「40%的失败中25%来自探索误差（选错路径）、15%来自利用误差（策略执行不足）」就能针对性优化。这与医疗诊断中区分「误诊」和「治疗执行不足」有异曲同工之妙，是将Agent工程从经验调参推向系统性改进的重要工作",
+      "stars": 0,
+      "tags": ["LLM Agent", "Exploration-Exploitation", "Agent Evaluation", "UW-Madison", "Decision Making", "Benchmark", "Diagnostics"]
+    },
+    {
+      "id": 12,
+      "category": "paper",
+      "title": "Sema Code：AI编程Agent「解耦为可编程嵌入式基础设施」——美的AIRC将代码Agent拆解为原子能力模块，支持任意宿主应用集成（HF 18赞）",
+      "url": "https://huggingface.co/papers/2604.11045",
+      "summary": "美的AI研究中心（Midea AIRC）提出Sema Code框架，将AI编程Agent从单体系统解耦为可独立部署的模块化基础设施。核心思路是把「理解代码」「生成代码」「执行代码」「调试代码」等能力拆分为原子服务，允许任意宿主应用按需调用和组合，而非必须使用完整Agent系统。论文提供了从单体Agent到微服务化Agent基础设施的完整迁移方案，并在多个编程任务上验证模块化带来的灵活性和可维护性优势。",
+      "source": "HuggingFace Papers (18 upvotes, Midea AIRC, April 17, 2026)",
+      "highlight": "Agent「微服务化」是继「Agent框架化」后的下一步演进：第一代AI编程工具是单体应用（Copilot/Cursor），第二代是框架系统（LangChain/CrewAI），Sema Code提出的第三步是把Agent能力原子化为「可被任意软件调用的API基础设施」——这与1990年代应用软件→Web服务→微服务的演进路径高度吻合。美的这种传统硬件企业在AI编程基础设施上发论文，也反映了制造业AI化的技术深度在提升",
+      "stars": 0,
+      "tags": ["AI Coding", "Modular Agent", "Infrastructure", "Midea AIRC", "Microservices", "Embeddable", "Software Engineering"]
+    },
+    {
+      "id": 13,
+      "category": "paper",
+      "title": "LangFlow：连续扩散媲美离散模型的语言建模——UIUC证明扩散范式可与自回归Transformer竞争，文本生成新路线（HF 12赞）",
+      "url": "https://huggingface.co/papers/2604.11748",
+      "summary": "伊利诺伊大学厄巴纳-香槟分校（UIUC）提出LangFlow，系统性探索连续扩散模型在语言建模任务上的性能上限，证明连续扩散范式在多个文本生成基准上可以与离散自回归Transformer媲美。论文从扩散步骤调度、噪声注入策略和条件引导机制三个维度分析了连续扩散语言建模的关键设计决策，并提供了与标准GPT架构的严格公平对比实验。",
+      "source": "HuggingFace Papers (12 upvotes, UIUC, April 17, 2026)",
+      "highlight": "离散自回归的「护城河」正在被系统性挑战：LLM领域99%的工作基于自回归next-token预测，但连续扩散在图像生成的成功让研究者一直在问「它在语言上能行吗」。LangFlow给出了迄今最严格的正面回答——连续扩散不是「接近」而是「媲美」自回归，这为非自回归LLM路线提供了重要实证基础。扩散语言模型的潜在优势包括更好的并行解码速度和控制生成的灵活性",
+      "stars": 0,
+      "tags": ["Diffusion Model", "Language Modeling", "UIUC", "Non-autoregressive", "Text Generation", "Continuous Diffusion", "LLM Alternative"]
+    }
+  ]
+}
