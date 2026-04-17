@@ -143,6 +143,61 @@
       "highlight": "离散自回归的「护城河」正在被系统性挑战：LLM领域99%的工作基于自回归next-token预测，但连续扩散在图像生成的成功让研究者一直在问「它在语言上能行吗」。LangFlow给出了迄今最严格的正面回答——连续扩散不是「接近」而是「媲美」自回归，这为非自回归LLM路线提供了重要实证基础。扩散语言模型的潜在优势包括更好的并行解码速度和控制生成的灵活性",
       "stars": 0,
       "tags": ["Diffusion Model", "Language Modeling", "UIUC", "Non-autoregressive", "Text Generation", "Continuous Diffusion", "LLM Alternative"]
+    },
+    {
+      "id": 14,
+      "category": "paper",
+      "title": "Dive into Claude Code：对AI Agent系统设计空间的源码级拆解——5个核心价值观+13条设计原则+7大子系统，揭示98.4%代码是运维基础设施（HF 37赞）",
+      "url": "https://huggingface.co/papers/2604.14228",
+      "summary": "Mohamed bin Zayed大学/UCL研究团队通过对Claude Code TypeScript源码的逐行分析，提炼出驱动整个系统设计的5个人类价值观（人类决策权威、安全、可靠执行、能力放大、情境适应）和13条设计原则（否定优先、渐进信任谱系、纵深防御等）。关键发现：仅1.6%的代码库是AI决策逻辑，98.4%是运维基础设施；五层压缩流水线（budget→snip→microcompact→context collapse→auto-compact）管理200K-1M token上下文压力；四种扩展机制（hooks/skills/plugins/MCP）按上下文成本递增排列。论文还记录了「监督悖论」：内部研究发现AI辅助条件下开发者代码理解分数低17%。",
+      "source": "HuggingFace Papers (37 upvotes, VILA Lab / Mohamed bin Zayed University, April 17, 2026)",
+      "highlight": "「98.4%代码是运维基础设施」是这篇论文最反直觉也最重要的发现：外界以为编程Agent的核心是AI推理，但实际上让Agent可靠工作的是权限系统、上下文管理、状态持久化、错误恢复这些基础设施——这意味着Agent工程的瓶颈不是模型智能，而是软件工程质量。「监督悖论」（AI辅助→理解分下降17%）是一个严重警告，值得所有AI工具开发者深思",
+      "stars": 0,
+      "tags": ["Claude Code", "Agent Architecture", "Design Principles", "LLM Agent", "Software Engineering", "Anthropic", "Open Source Analysis"]
+    },
+    {
+      "id": 15,
+      "category": "paper",
+      "title": "腾讯HY-World 2.0：单张照片/文本生成可实时探索3D世界——四阶段流水线（全景→轨迹→扩展→合成），开源权重+代码，HF 791赞领跑今日",
+      "url": "https://huggingface.co/papers/2604.14268",
+      "summary": "腾讯混元团队发布HY-World 2.0，统一「3D世界生成」与「3D世界重建」两大范式于单一框架。从稀疏输入（文字或单张图片）出发，经四阶段流水线：HY-Pano 2.0生成高保真360°全景→WorldNav规划摄像机路径→WorldStereo 2.0生成一致的新视角（4步推理加速+双记忆机制）→WorldMirror 2.0合成可实时探索的3D Gaussian Splatting场景。从密集输入（多视角图或视频）则进行精确几何重建。在开源方法中达到最优性能，与闭源模型Marble相当。全部模型权重、代码公开发布。",
+      "source": "HuggingFace Papers (791 upvotes, Tencent Hunyuan Team, April 17, 2026)",
+      "highlight": "「照片→可步行3D世界」的开源化是一个拐点：此前只有Marble等闭源模型能做到高质量3D世界生成，HY-World 2.0不仅在技术上追平，还完整开源了权重和代码。对游戏/影视/机器人仿真产业的影响是：从单张照片构建训练场景的成本将大幅下降。四阶段流水线中WorldNav的「五类相机轨迹」（轨道/环绕/重建感知/漫游/航拍）是解决场景探索完备性的精妙工程设计",
+      "stars": 0,
+      "tags": ["3D World Model", "Gaussian Splatting", "Tencent", "Open Source", "World Generation", "Reconstruction", "Video Generation"]
+    },
+    {
+      "id": 16,
+      "category": "news",
+      "title": "苹果送Siri开发者去AI编程训练营：<200名工程师学Claude Code/Codex，新Siri将跑Google Gemini，WWDC前60人核心团队重组",
+      "url": "https://the-decoder.com/apple-sends-siri-developers-to-ai-coding-bootcamp/",
+      "summary": "苹果将不足200名Siri团队工程师送入多周AI编程工具训练营，学习使用Anthropic Claude Code和OpenAI Codex等工具。背景是Siri团队多年来在内部备受批评，严重落后于现代AI发展。新一代Siri预计在6月WWDC发布，将运行Google Gemini模型，提供大幅增强的对话能力。训练营后约60名工程师留在核心开发团队，另60名专注性能与安全监控。前AI负责人John Giannandrea已离职，团队自2025年初在软件主管Craig Federighi领导下完成重组。",
+      "source": "The Decoder (April 16, 2026)",
+      "highlight": "苹果选择用Google Gemini驱动新Siri是本新闻最大的战略信号：这意味着苹果在LLM核心能力上正式「外包」给竞争对手而非自研，承认自家模型能力差距。「送员工去学Claude Code/Codex训练营」则说明AI编程工具已成为行业标准生产力——连苹果自己的AI团队都在用竞争对手的产品提效。Siri团队规模从千人压缩到60人核心+60人监控，也预示着AI时代软件团队规模范式的重构",
+      "stars": 0,
+      "tags": ["Apple", "Siri", "Google Gemini", "Claude Code", "AI Coding", "WWDC", "Restructuring"]
+    },
+    {
+      "id": 17,
+      "category": "news",
+      "title": "字节跳动Seedance 2.0向100+国家开放：多模态输入生成4-15秒720p视频，C2PA内容标签+版权过滤，刻意排除美国市场",
+      "url": "https://the-decoder.com/bytedance-rolls-out-seedance-2-0-to-100-countries-but-keeps-the-us-off-the-list/",
+      "summary": "字节跳动通过云服务部门Byteplus将视频生成模型Seedance 2.0向100+国家开放，支持文字/图片/视频/音频多模态输入，可生成、编辑或续写4-15秒、最高720p的MP4视频，内置10000+虚拟人物素材库。针对迪士尼、华纳等好莱坞片方的版权投诉，实施三重保护：禁止使用真实人脸作为素材、内容过滤器拦截受版权保护的生成内容、采用C2PA标准为AI生成内容打标。美国市场被明确排除在此次发布之外。",
+      "source": "The Decoder (April 16, 2026)",
+      "highlight": "「覆盖100国但绕开美国」是字节跳动应对地缘政治风险的标准操作：在TikTok美国命运悬而未决的背景下，Seedance 2.0绕开美国直接铺向全球其他市场，既扩大覆盖又规避监管风险。C2PA内容标签的主动采用值得关注——这是AI视频生成厂商罕见地主动拥抱内容溯源标准，可能是为了降低版权诉讼风险而非真正的监管要求",
+      "stars": 0,
+      "tags": ["ByteDance", "Seedance", "Video Generation", "Multimodal", "Copyright", "C2PA", "Geopolitics"]
+    },
+    {
+      "id": 18,
+      "category": "news",
+      "title": "印度150万年产IT毕业生遭遇行业转型冲击：AI自动化接管初级编程岗，TCS/Infosys招聘大幅收缩，「学会用AI工具」成唯一出路",
+      "url": "https://the-decoder.com/indias-1-5-million-annual-it-graduates-face-an-industry-thats-moving-on-without-them/",
+      "summary": "每年产出150万IT毕业生的印度软件外包行业正面临AI驱动的结构性萎缩：TCS、Infosys等大型外包公司的初级工程师招聘量显著下滑，传统由大量初级程序员承担的代码编写、测试和维护任务正被AI工具自动化替代。应届毕业生发现「学会写代码」已不足以找到工作，需要掌握AI辅助开发工具、具备系统设计和产品思维才能保持竞争力。业界正在讨论印度IT行业的商业模式是否需要从「人头计费」向「成果计费」根本转型。",
+      "source": "The Decoder (April 16, 2026)",
+      "highlight": "印度IT毕业生危机是AI对全球劳动力市场冲击的最直观缩影：印度软件外包业的核心竞争力长期是「廉价高质量人力」，而AI编程工具正在把这个优势清零。150万/年的毕业生规模意味着这不是个体职业转型问题，而是影响数千万家庭的社会经济结构性挑战。「人头计费→成果计费」的商业模式转型如果成功，印度外包业可能涅槃重生；如果失败，则可能引发比制造业外流更大规模的就业危机",
+      "stars": 0,
+      "tags": ["AI Impact", "Employment", "India", "Software Outsourcing", "TCS", "Infosys", "Future of Work"]
     }
   ]
 }
