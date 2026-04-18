@@ -1,0 +1,137 @@
+{
+  "date": "2026-04-18",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "ChatGPT市场份额暴跌至56.7%，Claude爆炸性增长三倍至6.02%，Gemini借Android整合冲至25.46%",
+      "url": "https://the-decoder.com/chatgpt-bleeds-market-share-as-claude-posts-explosive-monthly-growth/",
+      "summary": "2026年3月AI聊天机器人市场格局剧变：ChatGPT流量份额从一年前的77.43%暴跌至56.72%；Claude从2.2%三倍跳升至6.02%，超越Deepseek（3.74%）和Grok（3.44%）；最大赢家是Google Gemini，从6%飙升至25.46%，主要依靠Android深度整合和搜索通知入口。微软Copilot达到1.99%（含Microsoft 365 Chat流量），Perplexity占1.64%。值得注意的是，OpenAI CEO Sam Altman曾声称ChatGPT仅在德克萨斯州的用户就超过Claude的全美用户——市场份额下滑并不意味着绝对用户数的下滑。",
+      "source": "The Decoder (April 17, 2026)",
+      "highlight": "「Gemini从6%→25.46%」是最颠覆性的数据点：Google靠操作系统级整合（Android默认+搜索通知）而非产品力实现了4倍市场份额增长，这证明AI助手的竞争本质上是「操作系统入口权」之争。Claude的三倍增长与Claude Code、Claude Opus 4.7的密集发布直接相关——Anthropic的产品攻势正在转化为实际流量，但仍需注意Altman所说的「绝对用户数」与「流量份额」的差异",
+      "stars": 0,
+      "tags": ["Claude", "ChatGPT", "Gemini", "Market Share", "AI Assistant", "Anthropic", "OpenAI", "Google"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "阿里Qwen3.6-35B-A3B发布：SWE-bench 73.4%领跑Google Gemma 4（52%），MoE架构仅激活3B参数实现高效推理",
+      "url": "https://the-decoder.com/alibabas-open-model-qwen3-6-leads-googles-gemma-4-across-agentic-coding-benchmarks/",
+      "summary": "阿里巴巴发布Qwen3.6-35B-A3B混合专家（MoE）模型，35B总参数但每次推理仅激活约3B参数，大幅降低计算成本。在智能体编程基准上显著超越Google Gemma 4-31B：SWE-bench Verified得分73.4 vs 52.0，Terminal-Bench 2.0得分51.5 vs 42.9，GPQA推理86.0 vs 84.3，AIME26数学92.7 vs 89.2。阿里声称该模型在图像和视频任务上「与Claude Sonnet 4.5持平」，支持思考/非思考双模式，通过Qwen Studio、阿里云API、HuggingFace和ModelScope多渠道获取。",
+      "source": "The Decoder (April 17, 2026)",
+      "highlight": "SWE-bench 73.4%是目前开源模型的新高水位线——这超过了很多闭源模型的表现，意味着开源智能体编程能力已进入实用化阶段。MoE「35B参数只用3B」的架构设计让这个高性能模型可以在消费级硬件上运行推理，这对开源生态的意义是：企业再也不需要为顶级编程Agent性能支付闭源API的高溢价",
+      "stars": 0,
+      "tags": ["Alibaba", "Qwen", "MoE", "Coding Agent", "SWE-bench", "Open Source", "LLM", "Benchmark"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "Anthropic发布Claude Design：对话直接生成原型/幻灯片/营销素材，Opus 4.7视觉驱动，Pro/Team/Enterprise可用",
+      "url": "https://the-decoder.com/anthropics-claude-design-turns-chatbot-conversations-into-prototypes-slide-decks-and-marketing-assets/",
+      "summary": "Anthropic在旗下Anthropic Labs孵化器推出Claude Design，由Claude Opus 4.7视觉模型驱动，允许用户通过对话创建设计稿、交互式原型、演示文档和营销物料（落地页、一页纸等）。输入支持文字、图片、文档（DOCX/PPTX/XLSX）和代码库引用；生成结果附带可调节间距、色彩、布局的自定义滑块；内置Web截取工具可从现有网站提取设计元素。导出格式支持PPTX/PDF/HTML/Canva及内部共享链接。现以研究预览形式向Pro、Max、Team、Enterprise订阅用户开放，访问地址为claude.ai/design。",
+      "source": "The Decoder / TechCrunch (April 17, 2026)",
+      "highlight": "Claude Design是Anthropic从「AI助手」向「AI创意生产工具」的战略扩张：原本属于Figma/Canva/PPT的视觉创作场景，正在被对话式AI接管。「读取现有代码库构建可复用设计系统」这一功能对企业用户极具吸引力——它意味着AI不只是生成一次性内容，而是能理解品牌规范并持续产出一致性素材。这直接对标Adobe Firefly和Canva AI的企业设计工作流市场",
+      "stars": 0,
+      "tags": ["Anthropic", "Claude Design", "Design Tool", "Prototype", "Creative AI", "Opus 4.7", "Enterprise", "Visual AI"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "OpenAI发布GPT-Rosalind：生命科学专用推理模型，BixBench 0.751超越GPT-5.4，Amgen/Moderna/UCSF首批采用",
+      "url": "https://the-decoder.com/openai-launches-gpt-rosalind-a-reasoning-model-built-for-life-sciences-research/",
+      "summary": "OpenAI推出以化学家Rosalind Franklin命名的GPT-Rosalind，专为生命科学研究设计，覆盖证据综合、假设生成、实验设计和数据分析。在生物信息学基准BixBench上得分0.751，超越GPT-5.4（0.732），在实验设计和化学领域增益最显著。同步发布免费生命科学研究插件，提供50+公共数据库、文献来源和生物工具访问。当前通过「可信访问计划」限量向美国合规企业用户开放研究预览，首批合作伙伴包括Amgen、Moderna、Novo Nordisk和UCSF药学院。",
+      "source": "The Decoder (April 17, 2026)",
+      "highlight": "「垂直领域专用推理模型」是AI商业化的重要新范式：GPT-Rosalind不是通用模型的行业版本包装，而是针对分子生物学/药物发现任务从训练层面专门优化的模型。Amgen+Moderna+UCSF的组合意味着OpenAI正在打通制药行业的标杆客户——这类高价值、高壁垒的垂直领域合作将成为AI企业服务的新战场。与此同时，OpenAI同天推出免费研究插件，是「高端付费+免费生态」双轨策略的典型案例",
+      "stars": 0,
+      "tags": ["OpenAI", "GPT-Rosalind", "Life Sciences", "Drug Discovery", "Reasoning Model", "Bioinformatics", "Enterprise", "Healthcare AI"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "Cursor融资$20亿估值$500亿：年化收入$60亿、a16z/Thrive领投、Nvidia战略入股，三年前MIT学生创业的AI编程标杆",
+      "url": "https://techcrunch.com/2026/04/17/sources-cursor-in-talks-to-raise-2b-at-50b-valuation-as-enterprise-growth-surges/",
+      "summary": "AI编程助手Cursor（母公司Anysphere）正在以至少$500亿预估值融资至少$20亿，由Andreessen Horowitz（a16z）和Thrive Capital领投，Battery Ventures新加入，Nvidia战略入股。关键财务数据：2026年预测年化营收超$60亿，2026年2月年化营收达$20亿，预计未来10个月再三倍增长。Cursor已通过自研Composer模型（2025年11月发布）实现「微利毛利」，企业销售盈利但个人开发者账户仍亏损。此次融资较六个月前$293亿估值再翻倍，本轮认购已超额完成。",
+      "source": "TechCrunch (April 17, 2026)",
+      "highlight": "Cursor $500亿估值意味着AI编程工具赛道已进入「科技史最快增长」梯队：从2022年MIT学生创业到三年后$500亿，增速堪比当年Google/Facebook早期。Nvidia战略入股是关键信号——Nvidia押注Cursor不只是财务回报，而是「AI编程工具→GPU需求放大器」的战略布局。更重要的是：Cursor正在与Claude Code（Anthropic）和Codex（OpenAI）三足鼎立，但Cursor是唯一真正独立的玩家——这在AI编程赛道形成了独特的中立价值主张",
+      "stars": 0,
+      "tags": ["Cursor", "AI Coding", "Funding", "Valuation", "a16z", "Nvidia", "Startup", "Enterprise"]
+    },
+    {
+      "id": 6,
+      "category": "news",
+      "title": "OpenAI高管Kevin Weil（CPO）和Bill Peebles（研究VP）相继离职：公司「收缩副业、聚焦核心」战略持续",
+      "url": "https://techcrunch.com/2026/04/17/kevin-weil-and-bill-peebles-exit-openai-as-company-continues-to-shed-side-quests/",
+      "summary": "OpenAI首席产品官Kevin Weil和研究副总裁Bill Peebles宣布离职，成为近期高管层又一轮流动的组成部分。Weil此前曾任Instagram和Twitter产品负责人，加入OpenAI约两年；Peebles主导了Sora等视频生成项目的研究工作。两人离职被媒体解读为OpenAI持续「去副业化」战略的信号——公司正在将资源集中于AGI核心研究和商业化，精简非核心业务线。",
+      "source": "TechCrunch (April 17, 2026)",
+      "highlight": "CPO+研究VP同时离职对OpenAI的影响深远：Weil主导产品方向，Peebles负责Sora等生成类研究——两个关键角色同时缺席，恰在OpenAI与Anthropic/Google竞争最激烈的时期，高管稳定性问题将成为投资者的新关注点。频繁的高层流动（过去18个月OpenAI已有多位C-suite离职）暗示公司内部在优先级和文化上存在持续分歧，与Altman「全速AGI」路线的张力未曾消散",
+      "stars": 0,
+      "tags": ["OpenAI", "Leadership", "Kevin Weil", "Bill Peebles", "Sora", "Executive", "Industry"]
+    },
+    {
+      "id": 7,
+      "category": "tool",
+      "title": "Google DeepMind Gemini Robotics-ER 1.6：机器人感知规划升级，代码执行辅助仪器读数，具身推理新基准",
+      "url": "https://the-decoder.com/google-deepminds-gemini-robotics-er-1-6-gives-robots-a-sharper-brain-for-planning-and-perception/",
+      "summary": "Google DeepMind发布Gemini Robotics-ER 1.6，重点增强机器人的具身推理（Embodied Reasoning）能力：通过智能体式图像处理结合代码执行，显著提升物体识别精度和仪器读数能力（如读取温度计、仪表盘数值）。新版本在规划任务上表现更稳定，减少多步骤执行中的错误累积，适用于工厂检测、精密装配和科研辅助等需要精准感知的场景。",
+      "source": "The Decoder (April 17, 2026)",
+      "highlight": "「代码执行辅助感知」是Gemini Robotics-ER的核心创新点：机器人不只是识别图像，而是可以通过动态生成代码来处理感知结果——例如用代码解析仪器图像中的数值，而非直接用视觉模型预测数字。这个「感知→代码→执行」的闭环设计借鉴了LLM工具调用的成熟范式，是将LLM推理能力注入机器人感知层的重要探索",
+      "stars": 0,
+      "tags": ["Google DeepMind", "Gemini Robotics", "Embodied AI", "Perception", "Robot Planning", "Code Execution", "Robotics"]
+    },
+    {
+      "id": 8,
+      "category": "repo",
+      "title": "EvoMap/evolver：GEP驱动AI Agent自进化引擎——可审计进化资产+技能市场+自动GitHub Issue上报，4.5k stars",
+      "url": "https://github.com/EvoMap/evolver",
+      "summary": "AI Agent自进化框架，基于GEP（Genome Evolution Protocol）将临时的提示词调整转化为可审计、可复用的「进化资产」。核心功能：自动日志分析检测错误和模式、多种运行模式（自动/审查/持续循环）、可配置进化策略（平衡/创新/加固/仅修复）、技能商店（下载/分享可复用能力），以及持续失败自动上报GitHub Issue的自修复机制。支持EvoMap Hub网络特性和工作节点池。采用GPL-3.0许可证，正向Source-Available模式演进。",
+      "source": "GitHub Trending (+737 today, 4,498 stars, April 18, 2026)",
+      "highlight": "「把提示词调整变成可审计进化资产」是evolver的独特价值主张：大多数Agent框架让用户手动调整提示，而evolver将这个过程标准化为GEP协议——每次进化有版本记录、有回滚能力、有跨项目复用性。这与GitOps「基础设施即代码」的理念类似，是「Agent行为即代码」的早期实践。技能市场设计预示着AI Agent能力共享生态的可能性",
+      "stars": 4498,
+      "tags": ["AI Agent", "Self-Evolving", "GEP", "Open Source", "JavaScript", "Skill Store", "Automation", "Agent Framework"]
+    },
+    {
+      "id": 9,
+      "category": "repo",
+      "title": "obra/superpowers：158k星Agentic技能框架+软件开发方法论——今日+1713星爆发式增长，Claude Code技能生态代表",
+      "url": "https://github.com/obra/superpowers",
+      "summary": "一个极受欢迎的Agentic技能框架和软件开发方法论项目，今日新增1713星成为GitHub日增长冠军，累计158k星。项目围绕为AI编程助手（如Claude Code）构建可复用技能和工作流方法论，提供Shell实现的技能定义和组合机制。高星数和持续增长表明开发者社区正在大量采用Agentic开发方法论，从单次AI交互转向可复用、可组合的AI技能体系。",
+      "source": "GitHub Trending (+1,713 today, 158,048 stars, April 18, 2026)",
+      "highlight": "158k星+单日1713新增星是GitHub Trending上罕见的「超级爆发」：这个量级通常只有极少数项目能达到（如VS Code、React等基础设施级项目），一个Agentic技能框架能达到此规模说明AI开发方法论的社区需求已经到了临界点。每天新增1713星意味着整个技术社区正在同步经历「从传统开发→Agentic开发」的范式切换",
+      "stars": 158048,
+      "tags": ["Agentic Development", "Claude Code", "Skills Framework", "Shell", "Open Source", "Methodology", "Developer Tools"]
+    },
+    {
+      "id": 10,
+      "category": "paper",
+      "title": "RAD-2：生成器-判别器框架扩展强化学习——超越RLHF的RL Scaling新范式，解决奖励欺骗瓶颈（HF 21赞）",
+      "url": "https://huggingface.co/papers/2604.15308",
+      "summary": "研究团队提出RAD-2（Reinforcement Learning via Adaptive Discrimination），在生成器-判别器对抗框架中进行大规模强化学习，以解决传统RLHF中的奖励模型欺骗（reward hacking）问题。核心思路：生成器（LLM）生成候选回答，判别器动态评估质量并持续进化，形成对抗博弈使奖励信号更难被系统性欺骗。在多个推理和对齐基准上验证了RAD-2的扩展效率，展示了比标准PPO/GRPO更稳健的RL训练曲线。",
+      "source": "HuggingFace Papers (21 upvotes, April 18, 2026)",
+      "highlight": "生成器-判别器框架用于RL训练是将GAN的「对抗稳定性」引入RLHF的有益探索：当前RLHF最大的工程挑战是奖励模型被生成模型学会欺骗（reward hacking），RAD-2通过让判别器也持续进化来维持对抗动态——类似GAN训练的「猫鼠游戏」使得欺骗成本持续上升。如果这个框架被验证有效，将为下一代后训练技术提供新路线",
+      "stars": 0,
+      "tags": ["Reinforcement Learning", "RLHF", "Generator-Discriminator", "Reward Hacking", "LLM Training", "Scaling", "Post-training"]
+    },
+    {
+      "id": 11,
+      "category": "paper",
+      "title": "DR³-Eval：现实可重复深度研究评测框架——解决AI研究评估「幻觉友好」问题，为Deep Research模型建立严格评测标准（HF 21赞）",
+      "url": "https://huggingface.co/papers/2604.14683",
+      "summary": "研究团队提出DR³-Eval（Deeply Realistic and Reproducible Research Evaluation），专门针对「深度研究型AI」（如Perplexity Deep Research、OpenAI Deep Research）的评测痛点：现有基准不现实（题目过于简单）、不可重复（依赖主观评分）、不完整（只评测最终答案不评测推理过程）。DR³-Eval构建了包含可验证事实链的评测集，要求模型展示完整推理路径，并提供自动化评分机制，在多个主流Deep Research系统上进行了严格对比实验。",
+      "source": "HuggingFace Papers (21 upvotes, April 18, 2026)",
+      "highlight": "「深度研究评测」是2026年最重要的AI评测缺口之一：当前市场上有多个Deep Research产品（OpenAI、Perplexity、Gemini），但没有公认严格的评测标准，导致各家自说自话。DR³-Eval的价值是建立「可重复验证」的基准——如果一个AI研究系统会产生幻觉引用，该基准应该能检测到；如果它能真正推理，该基准应该能区分出来。这类「评测基础设施」论文的长期影响力往往超过模型论文本身",
+      "stars": 0,
+      "tags": ["Deep Research", "Evaluation", "Benchmark", "Reproducibility", "AI Research Agent", "RAG", "LLM Assessment"]
+    },
+    {
+      "id": 12,
+      "category": "paper",
+      "title": "HiVLA：视觉基础的层级具身操作系统——粗粒度规划+细粒度控制双层架构，机器人精细操作新基准（HF 16赞）",
+      "url": "https://huggingface.co/papers/2604.14125",
+      "summary": "研究团队提出HiVLA（Hierarchical Visual-Language-Action model），将机器人操作分解为两个层次：高层视觉-语言规划器负责理解任务语义、分解子目标；底层精细控制器负责具体关节轨迹执行。两层通过视觉接地（Visual Grounding）紧密耦合，使高层规划能精确感知物体位置并将空间信息传递给底层控制。在多个桌面操作任务（抓取、堆叠、开关抽屉）上验证了层级架构相对扁平端到端模型的优势，尤其在需要精细控制的高精度任务上提升显著。",
+      "source": "HuggingFace Papers (16 upvotes, April 18, 2026)",
+      "highlight": "层级架构在机器人操作领域重新崛起具有深刻意义：2023-2025年端到端VLA（视觉-语言-动作）模型盛行，但在细粒度精度任务上表现不佳。HiVLA的「规划-执行」双层分离类似人类认知中的「意识规划+自动化执行」——打螺丝时大脑规划步骤，手部肌肉自动执行精细动作。这一设计哲学可能成为下一代机器人操作系统的架构标准",
+      "stars": 0,
+      "tags": ["Robotics", "Embodied AI", "VLA", "Hierarchical Control", "Visual Grounding", "Manipulation", "Foundation Model"]
+    }
+  ]
+}
