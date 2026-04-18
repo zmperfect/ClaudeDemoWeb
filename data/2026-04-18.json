@@ -103,10 +103,10 @@
     {
       "id": 10,
       "category": "paper",
-      "title": "RAD-2：生成器-判别器框架扩展强化学习——超越RLHF的RL Scaling新范式，解决奖励欺骗瓶颈（HF 21赞）",
+      "title": "RAD-2：生成器-判别器框架扩展强化学习——超越RLHF的RL Scaling新范式，解决奖励欺骗瓶颈（HF 24赞）",
       "url": "https://huggingface.co/papers/2604.15308",
       "summary": "研究团队提出RAD-2（Reinforcement Learning via Adaptive Discrimination），在生成器-判别器对抗框架中进行大规模强化学习，以解决传统RLHF中的奖励模型欺骗（reward hacking）问题。核心思路：生成器（LLM）生成候选回答，判别器动态评估质量并持续进化，形成对抗博弈使奖励信号更难被系统性欺骗。在多个推理和对齐基准上验证了RAD-2的扩展效率，展示了比标准PPO/GRPO更稳健的RL训练曲线。",
-      "source": "HuggingFace Papers (21 upvotes, April 18, 2026)",
+      "source": "HuggingFace Papers (24 upvotes, April 18, 2026)",
       "highlight": "生成器-判别器框架用于RL训练是将GAN的「对抗稳定性」引入RLHF的有益探索：当前RLHF最大的工程挑战是奖励模型被生成模型学会欺骗（reward hacking），RAD-2通过让判别器也持续进化来维持对抗动态——类似GAN训练的「猫鼠游戏」使得欺骗成本持续上升。如果这个框架被验证有效，将为下一代后训练技术提供新路线",
       "stars": 0,
       "tags": ["Reinforcement Learning", "RLHF", "Generator-Discriminator", "Reward Hacking", "LLM Training", "Scaling", "Post-training"]
@@ -114,10 +114,10 @@
     {
       "id": 11,
       "category": "paper",
-      "title": "DR³-Eval：现实可重复深度研究评测框架——解决AI研究评估「幻觉友好」问题，为Deep Research模型建立严格评测标准（HF 21赞）",
+      "title": "DR³-Eval：现实可重复深度研究评测框架——解决AI研究评估「幻觉友好」问题，为Deep Research模型建立严格评测标准（HF 24赞）",
       "url": "https://huggingface.co/papers/2604.14683",
       "summary": "研究团队提出DR³-Eval（Deeply Realistic and Reproducible Research Evaluation），专门针对「深度研究型AI」（如Perplexity Deep Research、OpenAI Deep Research）的评测痛点：现有基准不现实（题目过于简单）、不可重复（依赖主观评分）、不完整（只评测最终答案不评测推理过程）。DR³-Eval构建了包含可验证事实链的评测集，要求模型展示完整推理路径，并提供自动化评分机制，在多个主流Deep Research系统上进行了严格对比实验。",
-      "source": "HuggingFace Papers (21 upvotes, April 18, 2026)",
+      "source": "HuggingFace Papers (24 upvotes, April 18, 2026)",
       "highlight": "「深度研究评测」是2026年最重要的AI评测缺口之一：当前市场上有多个Deep Research产品（OpenAI、Perplexity、Gemini），但没有公认严格的评测标准，导致各家自说自话。DR³-Eval的价值是建立「可重复验证」的基准——如果一个AI研究系统会产生幻觉引用，该基准应该能检测到；如果它能真正推理，该基准应该能区分出来。这类「评测基础设施」论文的长期影响力往往超过模型论文本身",
       "stars": 0,
       "tags": ["Deep Research", "Evaluation", "Benchmark", "Reproducibility", "AI Research Agent", "RAG", "LLM Assessment"]
@@ -132,6 +132,72 @@
       "highlight": "层级架构在机器人操作领域重新崛起具有深刻意义：2023-2025年端到端VLA（视觉-语言-动作）模型盛行，但在细粒度精度任务上表现不佳。HiVLA的「规划-执行」双层分离类似人类认知中的「意识规划+自动化执行」——打螺丝时大脑规划步骤，手部肌肉自动执行精细动作。这一设计哲学可能成为下一代机器人操作系统的架构标准",
       "stars": 0,
       "tags": ["Robotics", "Embodied AI", "VLA", "Hierarchical Control", "Visual Grounding", "Manipulation", "Foundation Model"]
+    },
+    {
+      "id": 13,
+      "category": "news",
+      "title": "Dario Amodei：AI扩展「没有彩虹的尽头」——50%初级岗位5年内消失，公众信任是比技术更关键的制动器",
+      "url": "https://the-decoder.com/anthropic-ceo-amodei-declares-there-is-no-end-to-the-rainbow-for-ai-scaling/",
+      "summary": "Anthropic CEO Dario Amodei接受采访时表示AI模型扩展没有明显技术天花板，「We don't see anything slowing down」。他预测未来五年AI可能消除50%的初级办公室岗位，并强调AI行业存在公信力缺口——承诺未兑现而警告不断积累。Amodei主张行业必须展示可量化的积极影响来对冲就业替代冲击，而非最小化负面影响，将公众信任定位为比技术障碍更关键的AI采用制约因素。",
+      "source": "The Decoder (April 18, 2026)",
+      "highlight": "「50%初级岗位5年内消失」是Amodei迄今最具体的就业预测，而他将「公众信任」定位为比技术障碍更关键的制约因素——这对Anthropic的策略具有深意：Constitutional AI、安全团队、责任缩放政策不只是伦理承诺，而是Anthropic商业化路径的底层基础设施。信任=可采用=营收增长，Anthropic比任何竞争对手都更系统地将安全转化为商业护城河。这番表态出现在Cursor $500亿融资、Recursive Superintelligence $5亿融资同一天，标志着AI行业集体进入「就业影响」公开讨论阶段",
+      "stars": 0,
+      "tags": ["Anthropic", "Dario Amodei", "AI Scaling", "Job Displacement", "AI Safety", "Industry Outlook", "Public Trust"]
+    },
+    {
+      "id": 14,
+      "category": "news",
+      "title": "Recursive Superintelligence创业4个月融资$5亿估值$40亿：GV/Nvidia领投，前Salesforce首席科学家+UCL教授打造「无人工干预自改进AI」",
+      "url": "https://the-decoder.com/self-improving-ai-startup-recursive-superintelligence-pulls-in-500-million-just-four-months-after-founding/",
+      "summary": "仅约20人的初创公司Recursive Superintelligence在成立4个月后即获至少$5亿融资，估值$40亿（因超额认购可能达$10亿），由GV（Google Ventures）领投、Nvidia战略入股。联合创始人包括前Salesforce首席科学家Richard Socher和UCL AI教授/前Google DeepMind首席科学家Tim Rocktäschel，以及来自OpenAI、Google、Meta的前研究员。公司目标是构建「无需任何人工介入即可持续自我改进的AI系统」，尚未正式发布任何产品，仍处于纯研究阶段。",
+      "source": "The Decoder (April 18, 2026)",
+      "highlight": "「成立4个月、20人、无产品、估值$40亿」是2026年AI融资泡沫的极端案例。但GV+Nvidia组合绝非盲目押注：GV战略布局Google生态中的前沿AGI研究，Nvidia押注「自改进AI训练→GPU需求指数级增长」。Richard Socher（Salesforce以$1.65亿收购MetaMind）+Tim Rocktäschel（DeepMind神经规划架构）的创始人组合代表「顶尖研究→商业化」的成熟路径。更深远的问题：如果「无人工干预自改进」真的可行，这将是AI安全领域的根本性风险——Anthropic的最大竞争威胁可能不来自OpenAI，而来自专注递归自改进的赛道",
+      "stars": 0,
+      "tags": ["Recursive Superintelligence", "Self-Improving AI", "Funding", "AGI", "Startup", "GV", "Nvidia", "Superintelligence"]
+    },
+    {
+      "id": 15,
+      "category": "news",
+      "title": "Deepseek首次对外融资$3亿+估值$100亿：V3核心开发者出走小米/字节，V4因兼容华为芯片而延期",
+      "url": "https://the-decoder.com/deepseek-reportedly-seeks-outside-funding-for-the-first-time-at-10-billion-valuation/",
+      "summary": "曾完全由高频交易基金High-Flyer Capital独立资助的Deepseek，首次寻求外部融资至少$3亿，估值$100亿以上。公司面临多重压力：V3模型联合开发者相继跳槽至小米和字节跳动；V4模型因工程师同时为兼容华为芯片进行适配工作导致开发延期。华为芯片兼容性是北京减少对美国半导体技术依赖战略的重要组成部分，Deepseek被要求在自研路线与国产芯片适配之间双线并行。",
+      "source": "The Decoder (April 18, 2026)",
+      "highlight": "Deepseek首次外部融资标志着「独立黑马」叙事的终结：从2025年初以廉价训练颠覆OpenAI，到2026年人才外流+资金压力+地缘政治约束，Deepseek的挑战已从技术转向组织。华为芯片适配是中国AI国产化战略的微观缩影——牺牲短期开发速度换取长期芯片供应链安全，但这对模型质量和研发节奏的影响将在V4发布时得到检验。V3核心开发者离职到竞争对手（小米AI、字节跳动）也预示：Deepseek的「研究→产品」转化压力正在分散其最核心的人才资产",
+      "stars": 0,
+      "tags": ["Deepseek", "Funding", "Valuation", "Huawei", "China AI", "Talent Drain", "V4", "Geopolitics", "Semiconductor"]
+    },
+    {
+      "id": 16,
+      "category": "news",
+      "title": "Meta裁员8000人（10%）为AI算力融资：扎克伯格「用人头换算力」，5月20日首波，Muse Spark首个前沿多模态模型闭源发布",
+      "url": "https://the-decoder.com/zuckerberg-reportedly-trades-headcount-for-compute-as-meta-readies-to-cut-10-percent-of-its-workforce-to-fund-ai-infrastructure/",
+      "summary": "Meta将于5月20日裁员约8000人（全球员工10%），Reuters报道后续总裁员可能超过20%，资金将直接转向AI基础设施投资。Zuckerberg将此战略定位为「用人头换算力」——削减传统岗位以资助数据中心和AI计算扩张，同时将组织架构扁平化并提高员工对AI工具的依赖度。同期Meta将Reality Labs重组为「Applied AI」部门专注自主智能体，并发布首个前沿AI模型「Muse Spark」（多模态推理+工具调用），但基准测试落后于竞争对手，且异常地采用闭源权重而非Meta一贯的开源策略。",
+      "source": "The Decoder (April 18, 2026)",
+      "highlight": "Meta「用人头换算力」策略揭示了AI时代大型科技公司的新型生产函数：传统劳动力→算力的替换已从假设成为正在发生的会计决策——8000个岗位的薪资成本直接转化为GPU集群采购。更值得关注的是Muse Spark的闭源选择：这是Meta首次放弃「开源AI」品牌战略的标志性时刻——当AI从技术公关工具变为核心竞争优势，开源的战略价值就会消退。这预示Meta在AI战略上正从「开源布道者」（LLaMA系列）转向「闭源竞争者」，Llama开源生态的长期可持续性值得重新评估",
+      "stars": 0,
+      "tags": ["Meta", "Layoffs", "AI Infrastructure", "Muse Spark", "Zuckerberg", "Closed Source", "AI Investment", "Applied AI", "Open Source"]
+    },
+    {
+      "id": 17,
+      "category": "paper",
+      "title": "HY-World 2.0（腾讯混元）：统一生成+重建的开源多模态3D世界模型，文本/图像→可导航3D场景，四阶段管线全量开源（HF 80赞）",
+      "url": "https://huggingface.co/papers/2604.14268",
+      "summary": "腾讯混元团队发布HY-World 2.0，首个开源统一框架同时支持3D世界生成（文本/单图→3DGS场景）和重建（多视角图/视频→精确3D）。四阶段生成管线：HY-Pano 2.0全景图生成→WorldNav五模式轨迹规划→WorldStereo 2.0多视角关键帧生成（配备全局几何记忆GGM和空间立体记忆SSM++）→WorldMirror 2.0深度+法线+点云→3DGS优化。创新点包括：Keyframe-VAE代替视频VAE保留高频细节；归一化位置编码支持多分辨率推理；深度-法线联合损失提升几何精度；DMD蒸馏实现4步快速生成。全量开放模型权重和代码。",
+      "source": "HuggingFace Papers (80 upvotes, April 18, 2026)",
+      "highlight": "HY-World 2.0是今日HuggingFace热度最高论文（80赞），代表「世界模型」前沿领域的重要开源里程碑：此前Sora等闭源视频生成支持部分3D一致性，但真正「可导航、可重建、生成+重建统一」的开源3D世界框架仍是空白，HY-World 2.0直接填补这一缺口。对游戏开发（开放世界生成）、机器人仿真（训练场景合成）和VR内容（实景3D化）有直接应用价值。作为开源版的「Marble竞争者」，这将大幅降低3D世界生成技术的研究和应用门槛",
+      "stars": 0,
+      "tags": ["World Model", "3D Generation", "3D Reconstruction", "Multimodal", "Tencent", "Hunyuan", "Open Source", "3DGS", "Embodied AI", "3D Gaussian Splatting"]
+    },
+    {
+      "id": 18,
+      "category": "paper",
+      "title": "TESSY：教师-学生协同数据合成框架——交错生成解决推理模型微调「风格偏移」负迁移，Qwen3-8B代码任务提升11.25%（HF 22赞）",
+      "url": "https://huggingface.co/papers/2604.14164",
+      "summary": "上海AI实验室联合南京大学提出TESSY（Teacher-Student Cooperation Data Synthesis），专门解决强教师模型生成数据微调弱学生模型时的「风格偏移」负迁移问题——直接使用GPT-OSS-120B生成数据微调Qwen3-8B，导致LiveCodeBench-Pro下降3.25%、OJBench下降10.02%。TESSY核心机制：让教师和学生模型交错轮流生成「风格词」和「非风格词」，产出既继承教师推理能力、又保持学生分布风格的合成序列。实验验证：TESSY让Qwen3-8B在LiveCodeBench-Pro提升+11.25%、OJBench提升+6.68%，完全扭转了原本的负迁移现象。",
+      "source": "HuggingFace Papers (22 upvotes, April 18, 2026)",
+      "highlight": "TESSY揭示了当前推理模型微调的核心工程难题：「强教师数据≠好学生数据」——推理链的风格（思考格式、中间步骤措辞）与内容（推理逻辑）同等重要，过大的风格差异会导致负迁移。这对任何使用知识蒸馏训练推理模型的团队都是直接可用的工程洞察：如果你在用GPT-4o类数据微调7B/8B模型但效果不升反降，TESSY的「交错生成」策略是比简单数据过滤更系统的解决方案，且不需要更大规模训练数据集。上海AI实验室的发表节点（与Qwen3.6-35B同天）暗示这套框架可能已在Qwen3系列训练中得到验证",
+      "stars": 0,
+      "tags": ["Fine-tuning", "Knowledge Distillation", "Reasoning Model", "Teacher-Student", "Qwen3", "SFT", "LLM Training", "Style Alignment", "TESSY"]
     }
   ]
 }
