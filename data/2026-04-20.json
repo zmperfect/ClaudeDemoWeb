@@ -48,23 +48,23 @@
     {
       "id": 5,
       "category": "repo",
-      "title": "Fincept-Corporation/FinceptTerminal：37个AI Agent驱动的专业金融终端——7.4k星+1254日增，开源彭博终端挑战者",
+      "title": "Fincept-Corporation/FinceptTerminal：37个AI Agent驱动的专业金融终端——8.3k星+3129日增，开源彭博终端挑战者",
       "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
-      "summary": "FinceptTerminal是C++20原生桌面应用，提供「CFA级」金融分析功能：内置37个专业AI Agent（覆盖市场分析、量化回测、投资研究），对接100+数据连接器，支持16家经纪商实时交易。双重授权（AGPL-3.0+商业许可），核心目标是用开源替代Bloomberg终端的高昂订阅费（2.4万美元/年）。今日新增1254星，累计7426星，是GitHub上增速最高的金融科技项目之一。",
-      "source": "GitHub Trending (+1,254 today, 7,426 stars, April 20, 2026)",
-      "highlight": "FinceptTerminal的爆发式增长背后是一个巨大的「被压抑需求」：Bloomberg终端每年每席位2.4万美元，使真正的机构级分析工具对独立投资者和中小型基金完全不可及。37个AI Agent不是噱头而是真实功能——它意味着从「查数据」到「分析决策」的完整流程都可以在一个工具内完成。1254/天的高增速说明量化和投资社区正在集体发现这个工具，其潜在的社区规模和商业价值（企业License）不可小觑",
-      "stars": 7426,
+      "summary": "FinceptTerminal是C++20原生桌面应用，提供「CFA级」金融分析功能：内置37个专业AI Agent（覆盖市场分析、量化回测、投资研究），对接100+数据连接器，支持16家经纪商实时交易。双重授权（AGPL-3.0+商业许可），核心目标是用开源替代Bloomberg终端的高昂订阅费（2.4万美元/年）。今日新增3129星，累计8324星，是GitHub上增速最高的金融科技项目之一。",
+      "source": "GitHub Trending (+3,129 today, 8,324 stars, April 20, 2026)",
+      "highlight": "FinceptTerminal的爆发式增长背后是一个巨大的「被压抑需求」：Bloomberg终端每年每席位2.4万美元，使真正的机构级分析工具对独立投资者和中小型基金完全不可及。37个AI Agent不是噱头而是真实功能——它意味着从「查数据」到「分析决策」的完整流程都可以在一个工具内完成。今日3129星的暴增说明量化和投资社区正在集体发现这个工具，其潜在的社区规模和商业价值（企业License）不可小觑",
+      "stars": 8324,
       "tags": ["Finance", "Bloomberg Alternative", "AI Agent", "C++", "Quantitative", "Trading", "Open Source", "Financial Terminal", "Investment"]
     },
     {
       "id": 6,
       "category": "repo",
-      "title": "openai/openai-agents-python：官方多Agent工作流框架持续领跑——23.4k星+752日增，5概念轻量设计获开发者持续青睐",
+      "title": "openai/openai-agents-python：官方多Agent工作流框架持续领跑——23.7k星+909日增，5概念轻量设计获开发者持续青睐",
       "url": "https://github.com/openai/openai-agents-python",
-      "summary": "OpenAI官方Python多Agent编排框架，以「轻量但功能完整」为核心设计理念，5个主要概念（Agent、Handoff、Runner、Tool、Guardrail）即可覆盖生产级Agent场景。今日新增752星，累计23,443星，连续多日保持GitHub AI领域日增量前三。与LangChain的宽泛通用路线不同，该框架深度绑定OpenAI最新模型，在异步执行、流式输出和多Agent委派方面提供原生支持，是OpenAI在「Agent编排标准话语权」上的核心布局。",
-      "source": "GitHub Trending (+752 today, 23,443 stars, April 20, 2026)",
-      "highlight": "openai-agents-python连续多日高增速（昨日470，今日752）说明开发者社区已从「观望」转入「实际集成」阶段——这通常是开源工具在生命周期中从早期采用者扩散到早期大众的临界信号。框架设计的「5概念极简主义」是刻意选择：在Cursor/GitHub Copilot主导编码体验的竞争环境下，降低学习曲线是获得最广泛开发者基础的关键。如果这个框架成为Agent编排的事实标准，OpenAI将在「哪些模型被Agent默认选用」上具有难以撼动的位置优势",
-      "stars": 23443,
+      "summary": "OpenAI官方Python多Agent编排框架，以「轻量但功能完整」为核心设计理念，5个主要概念（Agent、Handoff、Runner、Tool、Guardrail）即可覆盖生产级Agent场景。今日新增909星，累计23,683星，连续多日保持GitHub AI领域日增量前三。与LangChain的宽泛通用路线不同，该框架深度绑定OpenAI最新模型，在异步执行、流式输出和多Agent委派方面提供原生支持，是OpenAI在「Agent编排标准话语权」上的核心布局。",
+      "source": "GitHub Trending (+909 today, 23,683 stars, April 20, 2026)",
+      "highlight": "openai-agents-python持续高增速（昨日470，早间752，晚间累计909）说明开发者社区已从「观望」转入「实际集成」阶段——这通常是开源工具在生命周期中从早期采用者扩散到早期大众的临界信号。框架设计的「5概念极简主义」是刻意选择：在Cursor/GitHub Copilot主导编码体验的竞争环境下，降低学习曲线是获得最广泛开发者基础的关键。如果这个框架成为Agent编排的事实标准，OpenAI将在「哪些模型被Agent默认选用」上具有难以撼动的位置优势",
+      "stars": 23683,
       "tags": ["OpenAI", "Multi-Agent", "Python", "Agent Framework", "Open Source", "Orchestration", "Developer Tools", "Workflow"]
     },
     {
@@ -92,10 +92,10 @@
     {
       "id": 9,
       "category": "paper",
-      "title": "Cut Your Losses：早期剪枝并行推理路径实现高效推理——减少冗余路径而不损失准确率，香港中文大学（深圳）（HF 16赞）",
+      "title": "Cut Your Losses：早期剪枝并行推理路径实现高效推理——减少冗余路径而不损失准确率，香港中文大学（深圳）（HF 18赞）",
       "url": "https://huggingface.co/papers/2604.16029",
       "summary": "香港中文大学（深圳）研究团队提出在并行推理过程中「尽早剪枝低质量推理路径」的方法，通过在早期阶段识别并终止无望路径，显著降低并行推理的总token消耗，同时保留最终准确率。核心洞察：并行思维链（Chain-of-Thought）的多条路径中，相当比例的路径在早期即可被判断为低质量，继续运行是对计算资源的浪费。该方法在数学推理和代码生成等任务上验证有效，为大规模部署推理模型提供了实用的成本控制手段。",
-      "source": "HuggingFace Papers (16 upvotes, April 20, 2026)",
+      "source": "HuggingFace Papers (18 upvotes, April 20, 2026)",
       "highlight": "随着o3/DeepSeek R2等推理模型普及，并行采样（生成多条路径取最佳答案）已成为提升模型性能的标准手段，但其计算成本是线性扩展的。「早期剪枝」解决的是这个成本结构的核心问题：不是少采样，而是聪明地采样——及早杀死「死路」，把算力集中在有希望的路径上。这个思路类似蒙特卡洛树搜索的剪枝策略，将经典算法智慧引入现代LLM推理。对于在生产中运行推理模型的团队，这是一个可以直接降低30-50%推理成本的工程优化方向",
       "stars": 0,
       "tags": ["Reasoning", "Parallel Inference", "Efficiency", "Chain-of-Thought", "Cost Optimization", "Pruning", "LLM Inference", "CUHK"]
@@ -103,13 +103,79 @@
     {
       "id": 10,
       "category": "paper",
-      "title": "W-RAC：网页检索感知分块框架——将RAG分块重构为规划而非生成，输出Token减少84.6%+整体成本降低51.7%（HF 13赞）",
+      "title": "W-RAC：网页检索感知分块框架——将RAG分块重构为规划而非生成，输出Token减少84.6%+整体成本降低51.7%（HF 20赞）",
       "url": "https://huggingface.co/papers/2604.04936",
       "summary": "研究团队提出W-RAC（Web Retrieval-Aware Chunking），通过将文档分块从「文本生成任务」重构为「语义规划任务」大幅提升RAG效率：LLM只接收结构化ID和元数据（而非原始文本），输出chunk计划（ID列表），本地代码负责将ID还原为原始文本。评估于RAG-Multi-Corpus基准（236文档/786问答对）：相比传统agent分块，输出token减少84.6%、处理时间减少59.1%、总成本降低51.7%；Precision@3从0.55提升至0.71（+29%）。",
-      "source": "HuggingFace Papers (13 upvotes, April 20, 2026)",
+      "source": "HuggingFace Papers (20 upvotes, April 20, 2026)",
       "highlight": "W-RAC识别了RAG分块领域一个被长期忽视的低效：用LLM「重新生成」已有文本来完成分块本质上是浪费——LLM最贵的是输出token，而把原文喂进去再输出语义等价的分块版本，是典型的「用锤子敲螺丝」。将任务重构为「给ID/元数据，输出ID分组方案」是一个优雅的工程设计：用最少的LLM能力（语义理解和规划）做最需要它的部分（判断哪些内容该分在一组），其余都交给确定性代码。84.6%的输出token减少+51.7%成本节省是任何运营大规模RAG系统的工程师都无法忽视的数字",
       "stars": 0,
       "tags": ["RAG", "Chunking", "Web Retrieval", "Cost Optimization", "Token Efficiency", "Document Processing", "Enterprise AI", "Retrieval"]
+    },
+    {
+      "id": 11,
+      "category": "news",
+      "title": "NSA通过Project Glasswing使用Anthropic最强大AI模型Mythos Preview——五角大楼曾反对，约40个组织限制访问，进攻性网络能力引发管控",
+      "url": "https://the-decoder.com/the-nsa-is-using-anthropics-most-powerful-ai-model-mythos/",
+      "summary": "据Axios报道，美国国家安全局（NSA）已通过代号「Project Glasswing」的受限计划获得Anthropic最先进AI模型「Mythos Preview」的访问权限。由于该模型被认为具有令人担忧的进攻性网络攻击能力，访问权限被限制在约40个组织。此前五角大楼曾在法庭文件中反对Anthropic作为供应商，称其工具存在国家安全风险，但NSA绕过了这一限制。Anthropic CEO Dario Amodei已与白宫官员会面讨论更广泛的政府部署，但公司坚持拒绝大规模监控和自主武器应用。英国情报机构通过AI安全研究所同样持有访问权限。",
+      "source": "The Decoder / Axios (April 20, 2026)",
+      "highlight": "「NSA使用Mythos Preview」的信号意义远超单个合同：它证明Anthropic在拒绝无限制军事访问的同时，仍能以有限方式进入最高级别的情报机构——这是一个罕见的平衡。五角大楼反对 vs NSA使用的内部分歧本身反映了AI治理的混乱：同一政府内不同机构对AI安全的判断可以截然相反。「因具有进攻性网络能力而限制在40个组织」是迄今最直接承认前沿AI模型已具备武器化网络攻击能力的官方表述之一——这个信息比任何AI安全报告都更有现实分量。Anthropic维持「拒绝大规模监控/自主武器」红线的同时接受情报用途，也将引发AI伦理界对这条界限是否足够清晰的持续争议",
+      "stars": 0,
+      "tags": ["Anthropic", "NSA", "Mythos", "Government AI", "Cybersecurity", "AI Safety", "Intelligence", "Policy", "Dual-Use AI"]
+    },
+    {
+      "id": 12,
+      "category": "paper",
+      "title": "Qwen3.5-Omni技术报告：阿里云全模态LLM支持文/图/音/视频+256k上下文——215个基准超越Gemini-3.1 Pro，Thinker-Talker架构+ARIA流式合成（HF 18赞）",
+      "url": "https://huggingface.co/papers/2604.15804",
+      "summary": "阿里云Qwen团队发布Qwen3.5-Omni全模态大语言模型，采用Thinker-Talker双模块+Hybrid Attention MoE架构，在单一系统中统一处理文本、图像、音频和视频。核心指标：256k上下文（支持10+小时音频或400秒720P视频）、113种语言语音输入/36种语音输出；在215个音频及音视频基准上达SOTA，关键基准超越Gemini-3.1 Pro（MMAU 82.2 vs 81.1，VoiceBench 93.1 vs 88.9）。提出ARIA（自适应速率交织对齐）技术解决流式语音合成延迟（首包235ms），新增「音视频Vibe Coding」涌现能力——直接从音视频指令生成并执行代码。",
+      "source": "HuggingFace Papers (18 upvotes, April 20, 2026)",
+      "highlight": "Qwen3.5-Omni是2026年迄今最重要的开源全模态模型发布之一：它不只是「多模态」（处理多种输入），而是真正的「全模态」（输入和输出都覆盖文本、音频、视频）。以215个基准的SOTA成绩超越Gemini-3.1 Pro不是渐进改进，而是阿里云在全模态AI赛道上正式宣告局部超越Google的信号。ARIA技术将流式语音合成首包延迟压至235ms，直接针对实时语音助手的工程瓶颈。「音视频驱动代码生成」作为涌现能力被单独列出，预示着AI编程界面的下一个形态：不再是文字指令，而是展示给模型看、说给模型听，模型自主理解并实现",
+      "stars": 0,
+      "tags": ["Qwen", "Alibaba", "Omni Model", "Multimodal", "Audio", "Video", "LLM", "Speech Synthesis", "256k Context", "Open Source"]
+    },
+    {
+      "id": 13,
+      "category": "paper",
+      "title": "GTA-2：从原子工具调用到开放式工作流的通用工具Agent分层基准——顶级模型仅14.39%工作流成功率，执行框架与模型能力同样关键（HF 2赞）",
+      "url": "https://huggingface.co/papers/2604.15715",
+      "summary": "上海交通大学、上海AI实验室、腾讯、南洋理工大学联合提出GTA-2，构建覆盖「原子工具调用」（229任务/14工具）到「开放式工作流」（132任务/37工具/1156子任务）的分层评估体系，采用真实用户查询和真实部署工具而非合成数据。关键发现：GPT-4o在原子任务达46.59%，但最强的Gemini-2.5-Pro在工作流任务也只有14.39%成功率——存在显著「能力断崖」。更重磅的发现：同一模型(Claude Sonnet 4.5)在Lagent框架下工作流成功率为0.0%，在OpenClaw框架下达50.0%，执行框架影响甚至超过模型本身。代码开源于https://github.com/open-compass/GTA。",
+      "source": "HuggingFace Papers (2 upvotes, April 20, 2026)",
+      "highlight": "GTA-2的「14.39%工作流成功率」是一个让AI乐观派不得不正视的数字：我们距离能够可靠执行真实复杂工作流的AI Agent还相当遥远。更重要的发现是「执行框架对成功率的影响超过模型本身」——同一模型因框架不同成功率从0%到50%，这完全颠覆了「只要模型够强一切都能解决」的主流叙事。对于产品团队的启示是：Agent产品的竞争很大程度上是工程框架的竞争，而非单纯的模型竞争。Manus/OpenClaw等先进执行框架的「秘密武器」终于有了严格的定量对比数据，「框架即产品护城河」这一判断得到实证支撑",
+      "stars": 0,
+      "tags": ["Agent Benchmark", "Tool Use", "Workflow", "Evaluation", "GTA-2", "SJTU", "Shanghai AI Lab", "Multi-step", "Agent Framework", "Manus"]
+    },
+    {
+      "id": 14,
+      "category": "repo",
+      "title": "HKUDS/RAG-Anything：全模态RAG框架统一处理文本/图像/表格/公式/图表——向量+知识图谱混合检索，+256今日新增（16.4k星）",
+      "url": "https://github.com/HKUDS/RAG-Anything",
+      "summary": "香港大学数据科学系（HKUDS）发布RAG-Anything，基于LightRAG构建的全模态RAG框架，突破传统RAG仅处理文本的限制，支持PDF、Office文档等格式中的文本、图像、表格、数学公式和图表的统一智能检索。核心技术：自动知识图谱构建（实体提取+跨模态关系发现）+ 混合检索（向量相似度搜索+图遍历）。解析器支持MinerU、Docling、PaddleOCR多引擎。今日新增256星，累计16365星，v1.2.10版本于2026年3月发布，持续活跃迭代。",
+      "source": "GitHub Trending (+256 today, 16,365 stars, April 20, 2026)",
+      "highlight": "RAG-Anything填补了企业AI应用中最痛的空白：现实世界的文档从来不是「纯文本」的——财务报表有表格和图表，科研论文有公式和图示，合同有复杂格式。传统RAG在遇到非文本内容时会静默跳过或乱码，导致关键信息丢失。「向量检索+知识图谱混合」的架构解决了纯向量方案的「语义孤岛」问题：知识图谱能表达实体间关系，使跨模态、跨文档的复杂问答成为可能。对于任何构建企业知识库、合规审查、研究文献分析系统的团队，RAG-Anything是当前最完整的开源多模态RAG方案之一",
+      "stars": 16365,
+      "tags": ["RAG", "Multimodal", "Knowledge Graph", "Document Processing", "HKUDS", "LightRAG", "Vector Search", "Enterprise AI", "Open Source", "PDF"]
+    },
+    {
+      "id": 15,
+      "category": "news",
+      "title": "数百个AI虚假网红涌入TikTok/Instagram/YouTube散布政治宣传——中期选举前AI驱动信息战达到新规模，单账号超3.5万粉丝数百万播放",
+      "url": "https://the-decoder.com/ai-generated-influencers-flood-social-media-with-pro-trump-content-ahead-of-midterms/",
+      "summary": "据The Decoder报道，数百个AI生成的虚假网红账号正在TikTok、Instagram和YouTube上大规模传播亲特朗普的政治内容，部分账号已积累超过35,000名真实粉丝和数百万播放量。此次活动的协调程度尚不明确——可能是个人活动者自发行为，也可能是有组织的宣传运动，特朗普本人已转发过AI生成内容。时机恰逢中期选举前夕，是迄今AI深度伪造内容在选举政治中规模最大的实战运用之一，主流平台的内容审核机制未能有效拦截。",
+      "source": "The Decoder (April 20, 2026)",
+      "highlight": "AI政治虚假信息在2026年中期选举前的爆发，是「生成式AI社会风险」从学术讨论转入现实政治的临界点信号。「数百个账号，数百万播放」意味着AI深度伪造的规模效应已超过人工制造的瓶颈：创建一个AI网红的边际成本接近零，复制到数百个账号的成本也几乎为零——这是传统政治宣传机器无法企及的规模化速度。真正危险的不是单个虚假视频，而是AI使得「以工业规模制造真实感可信的政治人设」成为可能。「特朗普本人已分享AI内容」这一细节最耐人寻味：当政治人物本身也在消费和传播AI内容时，「真实」与「生成」的边界在政治传播中已彻底瓦解",
+      "stars": 0,
+      "tags": ["AI Disinformation", "Deepfake", "Political AI", "Social Media", "TikTok", "Elections", "AI Safety", "Influence Operations", "Synthetic Media"]
+    },
+    {
+      "id": 16,
+      "category": "paper",
+      "title": "扩散概率模型的SNR-t偏差：推理阶段信噪比-时间步错位导致质量下降，频率分量差异化校正可显著改善——今日HuggingFace第一（HF 61赞）",
+      "url": "https://huggingface.co/papers/2604.16044",
+      "summary": "兰州大学与阿里巴巴AMAP联合研究团队发现扩散概率模型（DPM）存在「SNR-t偏差」：训练时样本的信噪比（SNR）与时间步严格耦合，但推理时这种对应关系被打破，导致误差累积和生成质量下降。研究提供了系统的理论分析和实验验证，并提出「差异化频率校正」解决方案：利用扩散模型先重建低频后重建高频的特性，对不同频率分量分别施加差异化校正权重，而非统一修正整个去噪过程。大规模实验证明该方法可显著提升图像生成质量，获当日HuggingFace论文区最高61赞。",
+      "source": "HuggingFace Papers (61 upvotes, April 20, 2026)",
+      "highlight": "SNR-t偏差是扩散模型领域一个「房间里的大象」——从DDPM到现代流匹配模型，训练和推理时的分布错位一直是隐性问题，但以前没人把它系统理论化并量化。「训练时SNR和时间步严格绑定，推理时不一定」听起来是老问题，但差异化频率校正的解法很优雅：承认低频/高频在扩散过程中的不对称性并主动利用这个不对称性设计校正权重。61赞是当日HuggingFace第一，说明扩散模型社区对这个方向认可度极高——这个结果将影响所有基于DDPM架构的图像/视频生成模型的推理优化策略，预计会有大量跟进工作和工程实现",
+      "stars": 0,
+      "tags": ["Diffusion Models", "Image Generation", "SNR", "Inference Optimization", "DPM", "Frequency Analysis", "Lanzhou University", "Alibaba", "AMAP", "Research"]
     }
   ]
 }
