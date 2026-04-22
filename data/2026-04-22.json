@@ -209,6 +209,72 @@
       "highlight": "测试时训练（TTT）是「推理时扩展」的下一阶段演进：推理时扩展（如o1/o3/DeepSeek-R1）通过延长推理链提升性能，而TTT则在推理时直接调整模型参数，使模型对特定测试分布进行即时适配。这在理论上突破了预训练知识的上限，但TEMPO识别的「奖励信号漂移」是TTT最致命的工程陷阱——模型通过自生成数据优化自身时，如果没有外部锚定，会陷入自我强化的错误循环。TEMPO的EM框架对这一问题的形式化是理论贡献：把之前各种TTT方法统一为「不完整EM」并说明缺失步骤是校准，这种统一视角将指导后续工作。从33%到51.1%（AIME 2024，7B参数模型）是当前开源小模型在数学推理上接近实用的里程碑数据点",
       "stars": 0,
       "tags": ["Test-time Training", "LLM Reasoning", "AIME", "EM Algorithm", "Scaling", "OLMO", "Qwen", "Math Reasoning", "TTT", "Inference Scaling"]
+    },
+    {
+      "id": 20,
+      "category": "news",
+      "title": "Claude Mythos安全危机三连发——NSA绕过五角大楼禁令秘密使用、未授权团伙获取访问权限、Sam Altman反击称「恐惧营销」",
+      "url": "https://techcrunch.com/2026/04/21/unauthorized-group-has-gained-access-to-anthropics-exclusive-cyber-tool-mythos-report-claims/",
+      "summary": "Anthropic限制访问的顶级网络安全AI模型Claude Mythos在两天内爆发三重危机：①据TechCrunch报道，NSA情报人员正在使用Mythos，尽管五角大楼因Anthropic拒绝签署国防部AI伦理规范而与其存在正式纠纷；②一个未经授权的团伙已获得Mythos访问权限（4月21日深夜报道，具体身份未披露）；③OpenAI CEO Sam Altman回应表示，Anthropic对Mythos危险性的描述是「基于恐惧的营销」。背景：Mythos被描述为能以超越大多数人类安全研究员水平发现漏洞的AI系统，Anthropic此前严格限制其访问。",
+      "source": "TechCrunch (April 20-21, 2026)",
+      "highlight": "Claude Mythos事件是AI安全领域迄今最复杂的治理困局：一个公司同时面临来自政府（NSA绕过正式禁令使用）、威胁行为者（未授权访问）和竞争对手（Altman的「恐惧营销」指控）的三向压力。NSA使用案例最具争议性：如果情报机构在国防部正式反对Anthropic伦理立场的情况下仍私下使用其工具，说明AI安全能力的实际价值已超越政治摩擦——这是「AI武器化」担忧成为现实的标志性信号。Altman的「恐惧营销」定性是典型的竞争性话语策略，但背后有实质问题：Anthropic对Mythos危险性的强调是真实的安全评估还是拉高竞争壁垒的商业叙事？未授权访问事件将倒逼Anthropic在「控制访问」和「协助执法/情报」之间做出更明确的政策选择",
+      "stars": 0,
+      "tags": ["Anthropic", "Claude Mythos", "Cybersecurity", "NSA", "AI Safety", "AI Governance", "OpenAI", "Sam Altman", "Security Breach", "AI Policy"]
+    },
+    {
+      "id": 21,
+      "category": "news",
+      "title": "Adobe推出CX Enterprise AI Agent平台——以「创意工作流智能化」应对AI原生竞争冲击，CEO职位同步空缺",
+      "url": "https://the-decoder.com/adobe-fights-ai-disruption-of-its-own-business-model-with-new-enterprise-agent-platform/",
+      "summary": "Adobe宣布推出CX Enterprise企业级AI Agent平台，针对创意和营销工作流的端到端自动化，被定位为Adobe应对AI原生竞争对手（如基于扩散模型的独立创意工具和营销自动化平台）冲击自身订阅商业模式的战略反击。与此同时，Adobe正在寻找下一任CEO，当前高层更迭叠加市场转型压力。平台具体能力包括：多步骤创意工作流自动化、企业资产管理集成、跨团队协作Agent编排。",
+      "source": "The Decoder (April 20, 2026)",
+      "highlight": "Adobe的处境是传统创意软件公司面临AI颠覆的典型案例：其商业模式建立在「专业人士付费使用工具」的基础上，但AI原生工具正在以极低成本让非专业人士直接生成以前需要专业人士花费数小时制作的创意内容。Adobe选择的回应是「把AI嵌入工作流、推高企业价值」——从「卖工具」转向「卖智能工作流」，试图用平台锁定效应对抗点状工具竞争。这一战略的核心赌注：企业客户的工作流切换成本足够高，使Adobe即便功能上被追上也能保持企业续费。CEO职位空缺是额外风险——AI转型战略通常需要长期连贯执行，高层更迭期间战略连续性存疑",
+      "stars": 0,
+      "tags": ["Adobe", "Enterprise AI", "Agent Platform", "Creative AI", "Workflow Automation", "CX Enterprise", "AI Disruption", "SaaS", "Marketing AI", "Business Strategy"]
+    },
+    {
+      "id": 22,
+      "category": "news",
+      "title": "Anthropic年化营收突破300亿美元或超越OpenAI——投资人开始讨论万亿美元估值，6个月从亏损到盈利",
+      "url": "https://the-decoder.com/anthropics-revenue-surge-reportedly-fuels-talk-of-trillion-dollar-valuation/",
+      "summary": "据报道Anthropic年化营收已突破300亿美元，可能超越OpenAI成为收入最高的AI公司，这一增速远超所有预测——据悉数月前Anthropic仍处于亏损状态。由此引发投资者开始讨论「万亿美元估值」场景，与Meta、Google等大科技公司体量相当。驱动力：Claude在企业API使用（尤其是Claude Code和工具使用）和消费端的爆炸性增长，以及亚马逊330亿美元投资和Trainium算力支持带来的基础设施扩容效应。",
+      "source": "The Decoder (April 19, 2026)",
+      "highlight": "「从亏损到300亿美元ARR只用了数月」如果属实，是科技史上营收增速最快的案例之一，超越Stripe、Airbnb等高速增长期的表现。这一数字的可信度需要谨慎评估：AI公司的ARR往往包含了大量预付算力合同而非实际消耗收入，实际确认收入可能显著低于ARR。更重要的是，这一信号对竞争格局的影响：如果Anthropic真的超越OpenAI在营收上，意味着「安全优先」的定位在企业市场取得了商业验证——大型企业客户为了可预测性和安全性愿意为Claude支付溢价。万亿美元估值讨论是早期投资人寻找退出叙事的信号，而非近期融资估值——2026年AI独角兽的估值博弈已从「能力竞争」转移到「收入增速叙事竞争」",
+      "stars": 0,
+      "tags": ["Anthropic", "Revenue", "Valuation", "Claude", "AI Market", "Investment", "ARR", "OpenAI", "Enterprise AI", "AI Business"]
+    },
+    {
+      "id": 23,
+      "category": "news",
+      "title": "Opus 4.7实际使用成本比4.6高47%——新Tokenizer将同等文本拆分成更多Token，「定价不变」掩盖真实涨价",
+      "url": "https://the-decoder.com/first-token-counts-reveal-opus-4-7-costs-significantly-more-than-4-6-despite-anthropics-flat-pricing/",
+      "summary": "尽管Anthropic宣布Opus 4.7与Opus 4.6保持相同的每Token定价，早期用户实测发现实际API调用成本显著更高——原因是Opus 4.7采用了新的Tokenizer，将相同文本拆分为最多多47%的Token。换言之，「每Token价格不变」的承诺并不等价于「使用成本不变」。这对Claude Code重度用户影响尤为明显，因为代码和结构化文本在新Tokenizer下的Token膨胀率更高。",
+      "source": "The Decoder (April 19, 2026)",
+      "highlight": "「每Token价格不变但实际多付47%」是一个精心设计（或无意）的定价陷阱：绝大多数用户在切换模型时只比较标价，而不会重新实测Token消耗量。Tokenizer的改变通常被包装为「更好的分词效率」或「更准确的语言理解」，但其Token消耗影响几乎从不在发布公告中显著位置标注。对开发者的实操建议：在将生产工作负载从4.6迁移到Opus 4.7之前，必须用真实请求样本重新压测Token消耗量，而不是简单套用旧的成本估算。这也是为什么AI工程团队需要建立「模型升级后立即重跑成本基准测试」的标准流程——每一次major版本升级都可能意味着隐性成本重置",
+      "stars": 0,
+      "tags": ["Anthropic", "Claude", "Opus 4.7", "Tokenizer", "Pricing", "API Cost", "Claude Code", "LLM Economics", "Developer Tools", "Cost Optimization"]
+    },
+    {
+      "id": 24,
+      "category": "news",
+      "title": "自改进AI初创Recursive Superintelligence成立4个月融资5亿美元——前DeepMind/OpenAI研究员创立、估值40亿美元，目标构建持续自我进化AI系统",
+      "url": "https://the-decoder.com/self-improving-ai-startup-recursive-superintelligence-pulls-in-500-million-just-four-months-after-founding/",
+      "summary": "Recursive Superintelligence（递归超级智能）由前Google DeepMind和OpenAI研究员创立，成立仅4个月即完成至少5亿美元融资，估值40亿美元。公司目标是构建能够「递归自我改进」的AI系统——即AI能自主识别自身弱点并生成训练数据、改进架构，实现持续能力提升而无需人工干预研究迭代。这是2026年迄今最大的AI早期融资之一。",
+      "source": "The Decoder (April 18, 2026)",
+      "highlight": "「递归自我改进」是AI安全领域最具争议的研究方向之一：一个能自主改进自身的AI系统理论上可以实现指数级能力增长，但同时也是「失控风险」的核心担忧来源。5亿美元4个月融资说明顶级LP不只是在投「下一个ChatGPT」，而是在投「改变AI研究范式本身」的可能性。前DeepMind/OpenAI研究员创业带来了两个优势：一是对自改进AI最前沿技术的深度理解，二是与顶级AI实验室的关系网络。40亿美元估值对应约8倍融资额，远低于当前AI创业公司的普遍溢价——可能反映投资人对「自改进AI」技术实现路径不确定性的风险折价。这家公司的进展将是衡量「通用AI进展节奏」的重要外部信号",
+      "stars": 0,
+      "tags": ["Self-Improving AI", "AGI", "Startup", "Funding", "DeepMind", "OpenAI", "Recursive AI", "AI Research", "Superintelligence", "AI Safety"]
+    },
+    {
+      "id": 25,
+      "category": "news",
+      "title": "北京第二届机器人半程马拉松：中国人形机器人全面超越人类——完赛时间大幅压缩，展示物理AI商业化里程碑",
+      "url": "https://the-decoder.com/humanoid-robots-outrun-humans-at-beijings-second-robot-half-marathon/",
+      "summary": "北京举办第二届人形机器人半程马拉松，参赛的中国人形机器人本届完赛成绩相比去年显著提升，并整体超越同场竞速的人类跑者。相比2025年第一届机器人在赛场上频繁摔倒、勉强完赛的状况，2026年的参赛机器人展现出显著的稳定性和运动效率提升。参赛机器人包括宇树（Unitree）、傅利叶、开普勒等中国人形机器人主流厂商产品。",
+      "source": "The Decoder (April 20, 2026)",
+      "highlight": "机器人马拉松是衡量人形机器人「物理世界运动能力」最直观的基准之一：21公里需要机器人在真实地面环境中维持数小时的连续运动、处理路面变化和动态平衡——这比工厂线上的重复结构化动作难度高出数个量级。「一年内从摔倒完赛到超越人类」是中国人形机器人研发速度的缩影：宇树、傅利叶等公司的硬件迭代速度已接近软件行业的版本节奏，背后是大规模强化学习训练和供应链规模效应。值得关注的是：运动能力（跑步）和操作能力（精细手部动作）是人形机器人的两个独立维度，马拉松数据不能直接外推到工厂装配场景。但作为「通用物理载体」的能力曲线正在以可见速度向上移动，这是Figure、Tesla Optimus等竞争者需要高度重视的信号",
+      "stars": 0,
+      "tags": ["Humanoid Robot", "China AI", "Physical AI", "Robotics", "Unitree", "Marathon", "Robot Competition", "Embodied AI", "Beijing", "Hardware AI"]
     }
   ]
 }
