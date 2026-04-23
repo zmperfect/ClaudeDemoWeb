@@ -165,6 +165,94 @@
       "highlight": "推测解码在大语言模型中已被证明可以2-3倍加速推理（无损质量），但将其应用于视频生成的挑战要大得多：视频的时序依赖性强、KV缓存规模巨大、草稿模型需要对视觉内容有足够理解才能生成有效的「候选token」。这一工作的成功意味着视频生成模型的推理成本可以大幅降低，直接影响到Sora/Runway/Pika等视频生成服务的API定价和响应延迟。对于部署实时视频生成（短视频自动生成、视频会议背景、直播特效）的产品团队，这类推理加速技术是从「实验室可用」到「生产级可用」的关键一步",
       "stars": 0,
       "tags": ["Speculative Decoding", "Video Generation", "Inference Acceleration", "Autoregressive", "LLM Inference", "KV Cache", "Cosmos", "Speed Optimization", "Video AI", "Research"]
+    },
+    {
+      "id": 16,
+      "category": "news",
+      "title": "Moonshot AI发布开源Kimi K2.6——基准测试持平GPT-5.4与Claude Opus 4.6、「爪群」多Agent协作、改良MIT许可",
+      "url": "https://the-decoder.com/open-weight-kimi-k2-6-takes-on-gpt-5-4-and-claude-opus-4-6-with-agent-swarms/",
+      "summary": "Moonshot AI发布开源模型Kimi K2.6，在HLE with Tools（54.0）、SWE-Bench Pro（58.6）和BrowseComp（83.2）等关键基准上与GPT-5.4、Claude Opus 4.6和Gemini 3.1 Pro持平。K2.6引入「爪群」（claw groups）预览功能，支持多个Agent与人类协作组队，由K2.6统一调度任务分配并在Agent失败时介入。模型可直接从文本生成带动画和数据库连接的完整网站，采用修改版MIT许可——月活用户超1亿或月收入超2000万美元的商业部署需明确标注「Kimi」来源。",
+      "source": "The Decoder (April 23, 2026)",
+      "highlight": "中国开源模型在顶级基准上持平GPT-5.4是重要信号：Kimi K2.6将「开源」与「顶级性能」组合，直接挑战Anthropic和OpenAI的闭源商业模式。「爪群」多Agent协作是Agent框架层面的原生设计——不依赖外部编排框架，而是将多Agent调度能力内嵌于模型本身，这是与LangGraph/AutoGen等编排工具竞争的独特路径。修改版MIT许可中「月活1亿或月收入2000万美元需标注来源」的条款，是中国AI公司在开源商业化上的新尝试——既保持社区开放性，又为大型商业化部署保留一定的品牌话语权。对开发者社区的实际影响：性能持平GPT-5.4的开源模型意味着可以在私有部署场景下无许可费获得顶级AI能力，这将加速企业私有化部署的决策",
+      "stars": 0,
+      "tags": ["Kimi", "Moonshot AI", "Open Source", "Agent Swarm", "Multi-Agent", "LLM", "SWE-bench", "Open Weight", "Chinese AI", "Model Release"]
+    },
+    {
+      "id": 17,
+      "category": "news",
+      "title": "Google发布Deep Research与Deep Research Max Agent——协作规划+多模态输入+实时中间步骤流式输出",
+      "url": "https://the-decoder.com/google-launches-deep-research-and-deep-research-max-agents-to-automate-complex-research/",
+      "summary": "Google推出改版Deep Research和更高能力的Deep Research Max研究Agent，在检索与推理任务上大幅提升。核心新特性包括：「协作规划」允许用户在Agent执行前审查并调整搜索计划；支持PDF、CSV、图片、音频和视频的多模态输入；实时流式输出中间推理步骤；开发者可完全关闭网络访问将Agent限制在私有数据上运行。",
+      "source": "The Decoder (April 23, 2026)",
+      "highlight": "「协作规划」是研究Agent用户体验的关键突破：允许用户在Agent开始执行前修改搜索计划，打破了「黑盒自动运行」模式，使人类和Agent形成真正的协作关系而非单向委托。多模态输入（PDF/CSV/图片/音频/视频）意味着Deep Research从纯网络研究扩展为可处理企业内部文档的综合分析工具——这是企业知识管理场景中与Perplexity Enterprise等工具竞争的直接能力提升。关闭网络访问+限制私有数据的选项，是Google回应企业合规需求的重要信号：大量金融、法律、医疗机构无法让AI访问互联网但有大量内部研究需求。实时流式中间步骤大幅提升了研究Agent的可信度——用户可以在过程中发现错误方向并介入纠正",
+      "stars": 0,
+      "tags": ["Google", "Deep Research", "Research Agent", "Collaborative Planning", "Multimodal", "AI Agent", "Enterprise AI", "Google Cloud", "LLM", "Workflow Automation"]
+    },
+    {
+      "id": 18,
+      "category": "news",
+      "title": "ChatGPT Images 2.0发布——思考后再生成、单次提示最多8张图、2K分辨率、推理+网络搜索加持图像创作",
+      "url": "https://the-decoder.com/openais-chatgpt-images-2-0-thinks-before-it-generates-adding-reasoning-and-web-search-to-image-creation/",
+      "summary": "OpenAI发布ChatGPT Images 2.0，核心升级是「思考模式」——生成图片前先进行推理规划，支持单次提示同时生成最多8张风格/角色一致的图像。API分辨率提升至2K，高质量1024×1536图片价格从0.20美元降至0.165美元，比GPT Image 1.5更便宜。所有用户还获得图像质量基础提升，包括对照片特征的更好捕捉，以及超宽（3:1）到超高（1:3）的全范围宽高比支持。",
+      "source": "The Decoder (April 23, 2026)",
+      "highlight": "「思考后再生成」是将推理能力引入多模态生成的重要架构信号：类似o1/o3在文本生成前推理，Images 2.0在图像生成前先「想清楚」构图、风格和一致性要求，这解决了复杂多图场景中角色/风格漂移的核心痛点。单次8张一致图像是广告/营销工作流的直接赋能——品牌视觉套件（logo变体、广告系列图）可以一次性生成风格统一的完整资产包。降价（高质量2K图像从0.20降至0.165美元）与提升质量同步进行，表明OpenAI正在通过规模效益主动压低多模态生成成本，对Midjourney、Stability AI等独立图像生成公司构成直接价格压力。在Codex工作流中集成图像生成，意味着代码+UI视觉可以在同一Agent会话中联动生成",
+      "stars": 0,
+      "tags": ["OpenAI", "ChatGPT", "Image Generation", "Multimodal", "Reasoning", "GPT Image 2", "Thinking Mode", "API", "Creative AI", "Product Update"]
+    },
+    {
+      "id": 19,
+      "category": "news",
+      "title": "Meta用员工点击与键盘记录训练AI Agent——「模型能力计划」(MCI)在工作应用上采集真实操作数据",
+      "url": "https://the-decoder.com/meta-tracks-us-employees-clicks-and-keystrokes-to-train-ai-agents/",
+      "summary": "Meta正在通过内部工具「模型能力计划」（Model Capability Initiative，MCI）追踪美国员工在工作应用和网站上的点击、键盘输入，并不定期截屏，目标是构建能够自主处理工作任务的AI Agent训练数据。该工具运行于工作相关应用和网站，采集真实的人类操作轨迹作为Agent的监督学习示范数据。",
+      "source": "The Decoder (April 23, 2026)",
+      "highlight": "「用真实员工操作数据训练Agent」是Agent能力突破的重要数据策略：合成数据和标注数据的局限性在于无法覆盖真实工作流的长尾操作模式，而员工实际使用工具时的点击/键盘序列包含了大量隐性的工作流知识（快捷键组合、表单填写习惯、跨应用切换逻辑）。这一方法与Google DeepMind用专业游戏选手行为数据训练游戏Agent的思路同源：真实专家行为是当前最高质量的Agent训练信号。隐私层面的争议不可避免——即便是内部使用，截屏和键盘记录涉及员工隐私和潜在的商业机密问题，这一做法可能引发监管审查。对AI行业的信号：Meta愿意承担内部争议风险采集这类数据，说明当前合成数据在桌面操作Agent领域仍有明显的能力天花板",
+      "stars": 0,
+      "tags": ["Meta", "AI Agent", "Training Data", "Desktop Agent", "Employee Monitoring", "MCI", "Behavioral Data", "Privacy", "Computer Use", "LLM Agents"]
+    },
+    {
+      "id": 20,
+      "category": "repo",
+      "title": "HKUDS/RAG-Anything：全场景一站式RAG框架——覆盖文本/表格/图片/代码/音视频全模态，港大出品，17,700星",
+      "url": "https://github.com/HKUDS/RAG-Anything",
+      "summary": "RAG-Anything是香港大学数据科学实验室（HKUDS）开源的全能RAG（检索增强生成）框架，核心目标是覆盖所有类型的输入内容：纯文本、表格、图片、代码片段、音频和视频，实现真正的「全场景RAG」。框架统一了多模态内容的索引、检索和生成流程，允许开发者构建能处理企业异构数据源的RAG应用，无需为每种数据类型维护独立管道。已获17,700星，在GitHub Trending排名靠前。",
+      "source": "GitHub Trending (17,700 stars, April 23, 2026)",
+      "highlight": "「全模态RAG」是企业RAG应用落地的核心痛点解决方案：现有主流RAG框架（LlamaIndex/LangChain）在处理文本检索上成熟，但面对企业真实数据时往往需要分别处理PDF表格、图表、代码等不同数据类型，管道复杂度急剧上升。RAG-Anything的统一框架方法降低了构建企业级多模态知识库的工程复杂度，尤其适合金融（含图表的研报）、医疗（混合影像+文字的病历）、制造（技术图纸+规范文档）等场景。港大出品的学术背景保证了底层算法的严谨性，同时开源策略使其可以直接嵌入企业私有化部署，规避数据外传风险。17,700星的高关注度说明多模态RAG是当前开发者社区最迫切的工程需求之一",
+      "stars": 17700,
+      "tags": ["RAG", "Multimodal", "Open Source", "LLM", "Knowledge Base", "Document Processing", "Retrieval", "HKUDS", "Hong Kong University", "AI Infrastructure"]
+    },
+    {
+      "id": 21,
+      "category": "repo",
+      "title": "zilliztech/claude-context：为Claude Code提供全代码库语义搜索MCP——让任意编程Agent以整个仓库为上下文，7,800星",
+      "url": "https://github.com/zilliztech/claude-context",
+      "summary": "Zilliz（Milvus向量数据库母公司）开源的MCP（Model Context Protocol）服务器工具，专为Claude Code设计，通过语义代码搜索将整个代码库转化为编程Agent的可访问上下文。开发者安装后，Claude Code可以用自然语言搜索整个代码仓库的任意文件和函数，突破当前Claude Code只能通过显式文件读取获取上下文的限制，实现真正的「代码库级感知」。已获7,800星。",
+      "source": "GitHub Trending (7,800 stars, April 23, 2026)",
+      "highlight": "代码库级语义搜索是编程Agent从「文件级操作」到「系统级理解」的关键跨越：当前Claude Code的核心局限之一是对大型代码库的全局理解依赖人工提供上下文（@file、@folder），而claude-context通过向量化整个代码库并提供MCP接口，使Agent能够自主发现相关代码而无需人类指引。Zilliz做这个项目有天然的技术优势：Milvus是最成熟的开源向量数据库之一，将向量搜索能力与MCP标准结合，是其核心技术栈的自然延伸，也是向编程工具生态扩张的战略入口。对Cursor/Copilot的竞争意义：如果Claude Code能通过MCP工具获得全代码库感知能力，其在大型项目中的编程体验将大幅追近甚至超越依赖专有索引的Cursor",
+      "stars": 7800,
+      "tags": ["Claude Code", "MCP", "Code Search", "Zilliz", "Milvus", "Vector Search", "Semantic Search", "Coding Agent", "Developer Tools", "AI Infrastructure"]
+    },
+    {
+      "id": 22,
+      "category": "paper",
+      "title": "DR-Venus：仅用1万条开放数据训练4B边缘规模深度研究Agent——小模型做前沿研究任务的数据效率突破（HF Papers）",
+      "url": "https://huggingface.co/papers/2604.19859",
+      "summary": "DR-Venus提出如何在极有限开放数据（约10K条）条件下训练高质量的小规模深度研究Agent，主角是一个4B参数的模型，目标是在边缘设备（低成本、低延迟、私有部署）上实现前沿研究Agent能力。论文提出两阶段训练方案：第一阶段聚焦数据质量提升，第二阶段聚焦数据利用效率。研究证明数据质量策略和训练方法的优化可以大幅弥补数据量不足的劣势。",
+      "source": "HuggingFace Papers (April 23, 2026)",
+      "highlight": "「4B模型做深度研究」是AI民主化的极端测试案例：当前主流研究Agent（Perplexity、Google Deep Research）依赖数百亿参数的大模型，成本和延迟使其无法在本地或边缘部署。DR-Venus的贡献在于证明了通过精心设计的训练方法，一个可以运行在消费级GPU上的4B模型也能执行复杂研究任务——这是隐私敏感场景（医疗、法律、企业内研）的重大福音。10K开放数据的训练约束使这一方法对资源有限的研究机构和初创公司具有直接可复现性——不需要私有大规模数据集即可构建高质量研究Agent。与DR-Venus的边缘定位形成对照，Google Deep Research Max同日发布，两者代表了研究Agent在「云端极限性能」和「边缘高效部署」两个方向的同步推进",
+      "stars": 0,
+      "tags": ["Research Agent", "Small Language Model", "Edge AI", "Deep Research", "Data Efficiency", "4B Model", "Open Data", "LLM Training", "Agent Research", "Efficiency"]
+    },
+    {
+      "id": 23,
+      "category": "paper",
+      "title": "SWE-chat：首个真实用户编程Agent交互大规模数据集——6,000会话、63,000提示、35.5万工具调用，揭示Agent实际使用规律（HF Papers）",
+      "url": "https://huggingface.co/papers/2604.20779",
+      "summary": "SWE-chat发布首个来自真实开源开发者使用编程Agent的大规模交互数据集，包含6,000个真实会话、超过63,000条用户提示和35.5万次Agent工具调用。数据集采用持续更新的采集流水线，持续扩充。论文通过这一数据集揭示了AI编程Agent在实际使用中的模式：人们真正如何使用编程Agent、哪类输出实际有用，弥补了当前「缺乏实证证据」的行业空白。",
+      "source": "HuggingFace Papers (April 23, 2026)",
+      "highlight": "SWE-chat填补了编程Agent评估中最关键的数据缺口：SWE-bench等现有基准测试的是Agent在标准化任务上的性能，但对真实用户如何使用Agent、实际工作流中哪些能力真正有价值，学术界几乎没有大规模实证数据。35.5万次工具调用的数据集将使研究者能够分析Agent工具使用的真实频率分布——哪些工具被频繁调用、哪些工具组合最有效、哪些工具使用后往往导致失败——这些洞察将直接指导下一代编程Agent的设计优化。对Anthropic/OpenAI/Google的战略价值：这类来自野外真实用户的行为数据是改进Agent的顶级训练信号，其价值高于任何合成基准。「持续采集流水线」设计意味着这将成为一个随时间增长的动态数据集，为编程Agent研究提供持续的真实数据基础",
+      "stars": 0,
+      "tags": ["Coding Agent", "Dataset", "Real-world", "SWE-bench", "Tool Use", "Agent Evaluation", "Open Source Developers", "LLM Agents", "Empirical Study", "Benchmark"]
     }
   ]
 }
