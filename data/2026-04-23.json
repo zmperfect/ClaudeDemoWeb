@@ -1,0 +1,170 @@
+{
+  "date": "2026-04-23",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "GPT-5.4即将发布——百万token上下文窗口、新增「极端推理」模式、长任务可靠性大幅提升",
+      "url": "https://the-decoder.com/gpt-5-4-reportedly-brings-a-million-token-context-window-and-an-extreme-reasoning-mode/",
+      "summary": "据报道GPT-5.4即将发布，上下文窗口是GPT-5.2的两倍（达到百万级token），增加了名为「extreme」的新推理模式，在长时运行任务上的可靠性也有显著改善。该版本定位为GPT-5系列的增量升级，主要面向需要处理超长文档和复杂多步骤任务的企业用户。",
+      "source": "The Decoder (April 22, 2026)",
+      "highlight": "百万token上下文窗口是GPT-5.4最具破坏力的能力升级：整部法律合同、完整代码库、数小时会议记录可以一次性放入上下文，彻底改变RAG（检索增强生成）在长文档场景的必要性假设。「极端推理」模式意味着OpenAI正在对推理预算进行分档定价——与o3的定价策略一脉相承，用户可以选择更慢、更贵但更准确的推理路径。这两个特性组合在一起，使GPT-5.4在代码审查、合规审核、多文档分析等企业高价值场景中的竞争力大幅领先于目前大多数模型。对Anthropic的Claude和Google的Gemini 2.5 Pro构成直接压力",
+      "stars": 0,
+      "tags": ["OpenAI", "GPT-5.4", "Context Window", "Reasoning", "LLM", "Long Context", "Extreme Mode", "Enterprise AI", "API", "Model Release"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "Anthropic发布Claude Opus 4.7——编程能力大幅跃升、训练阶段主动缩减网络安全漏洞利用能力",
+      "url": "https://the-decoder.com/anthropics-claude-opus-4-7-makes-a-big-leap-in-coding-while-deliberately-scaling-back-cyber-capabilities/",
+      "summary": "Anthropic发布新旗舰模型Claude Opus 4.7，编程任务性能实现重大提升，在SWE-bench等代码基准上取得新高。值得注意的是，Anthropic在训练过程中刻意降低了Opus 4.7的某些网络安全能力（如漏洞利用），并在技术报告中公开披露这一决策，体现了其「负责任扩展」承诺的落地实践。",
+      "source": "The Decoder (April 22, 2026)",
+      "highlight": "「主动缩减网络安全能力」是Anthropic Responsible Scaling Policy的罕见公开落地案例：大多数AI公司只谈安全承诺，Anthropic此次选择在发布旗舰模型的同时公开披露主动能力限制，是AI治理透明度的重要信号。这一决定背景不难理解——就在数日前Claude Mythos网络安全模型爆发访问控制危机（NSA绕过禁令使用），Opus 4.7的能力限制说明Anthropic在主力商业模型和专用安全模型之间建立了清晰的能力边界。编程能力跃升意味着Claude Code的竞争力进一步强化，这也与谷歌紧急组建精英团队追赶Anthropic编程能力的背景形成呼应——竞争优势正在扩大",
+      "stars": 0,
+      "tags": ["Anthropic", "Claude", "Opus 4.7", "Coding", "Cybersecurity", "AI Safety", "Responsible Scaling", "LLM", "SWE-bench", "Model Release"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "Google Cloud Next '26：第八代TPU发布、「Agent企业平台」全面推出、Workspace AI全层融合",
+      "url": "https://the-decoder.com/google-unveils-8th-gen-tpus-agent-platform-and-workspace-ai-layer-at-cloud-next-26/",
+      "summary": "Google在Cloud Next '26大会上发布第八代TPU芯片，同步推出全面改版的Agent平台，并将AI能力以「全层融合」方式嵌入Google Workspace（Docs/Sheets/Gmail/Meet）。整体战略包装在「Agentic Enterprise」（Agent企业）旗帜下，核心主张：企业的每一个工作流节点都将由AI Agent接管。",
+      "source": "The Decoder (April 22, 2026)",
+      "highlight": "「Agentic Enterprise」是Google对Microsoft Copilot企业战略的直接反击：微软通过Office 365将Copilot嵌入每个企业工具，Google则以Workspace AI全层融合应战，双方都在争夺「企业AI日常工作流的操作系统」地位。第八代TPU是关键基础设施信号：在英伟达H100/H200主导训练侧的背景下，Google自研TPU的推理侧优势（低延迟、高能效）是其保持云端AI竞争力的核心护城河。Agent平台的「全面推出」意味着Google正在将过去18个月的实验性Agent能力（Vertex AI Agent Builder等）整合为一个连贯的生产级产品线，这是从技术演示到企业部署的关键跨越",
+      "stars": 0,
+      "tags": ["Google", "TPU", "Agent Platform", "Cloud Next", "Workspace AI", "Enterprise Agent", "Agentic Enterprise", "Google Cloud", "Hardware AI", "AI Infrastructure"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "OpenAI推出Workspace Agents——Codex驱动、ChatGPT从聊天机器人进化为团队自动化平台",
+      "url": "https://the-decoder.com/openai-launches-workspace-agents-that-turn-chatgpt-from-a-chatbot-into-a-team-automation-platform/",
+      "summary": "OpenAI在ChatGPT中推出Workspace Agents，这是Custom GPTs的功能进化版，由Codex模型驱动，可在无人监看的情况下自主运行复杂团队工作流。新功能支持跨工具协作自动化（文件处理、代码执行、API调用），现有Custom GPTs将保留并提供迁移路径，新版Agent支持持续后台运行。",
+      "source": "The Decoder (April 22, 2026)",
+      "highlight": "「无人监看下持续运行」是Workspace Agents与Custom GPTs最本质的架构差异：GPT是问答工具（等待用户输入→返回答案），Agent是自主任务执行者（接受任务→独立规划执行→返回结果），这个转变意味着ChatGPT正式进入「Agent-as-a-Service」阶段。Codex驱动说明OpenAI将代码执行能力作为企业工作流自动化的核心引擎——大量企业自动化任务本质上是数据处理、表格操作、API调用等可以用代码描述的操作。这与Google的「Agentic Enterprise」战略在同一天推出，预示着2026年下半年企业AI的核心战场将是「谁的Agent平台能真正跑起来」而非「谁的模型能力更强」",
+      "stars": 0,
+      "tags": ["OpenAI", "ChatGPT", "Workspace Agents", "Codex", "Team Automation", "Custom GPTs", "Enterprise AI", "Agent Platform", "Workflow Automation", "Background Tasks"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "Nvidia与Mira Murati的Thinking Machines Lab达成长期AI合作——前OpenAI CTO创业公司获强力芯片支持",
+      "url": "https://the-decoder.com/nvidia-and-mira-muratis-thinking-machines-lab-announce-long-term-ai-partnership/",
+      "summary": "Nvidia宣布与前OpenAI首席技术官Mira Murati创立的AI初创公司Thinking Machines Lab达成长期合作伙伴关系。这是Nvidia继与OpenAI、Anthropic、Mistral等顶级AI实验室深度绑定后，首次在公开层面与Mira Murati的新公司建立正式战略关系，具体合作内容围绕AI基础模型研发和算力访问。",
+      "source": "The Decoder (April 22, 2026)",
+      "highlight": "Nvidia的合作宣布是对Thinking Machines Lab技术路线的重要背书：在AI融资高度依赖「团队背景+技术路线可信度」的当下，Nvidia的合作声明相当于为Mira Murati的新项目盖章认可。前OpenAI CTO的技术信誉加上Nvidia的算力支持，意味着Thinking Machines Lab将进入顶级AI实验室的资源圈层。Nvidia通过与所有主流AI初创公司建立长期合作协议，正在构建一张GPU依赖网络——即便未来出现多元化算力生态，这些合作关系也为Nvidia保留了技术路线图影响力。对Mira Murati而言，这解决了早期初创公司最关键的算力获取问题，使其可以专注于技术而非算力争夺",
+      "stars": 0,
+      "tags": ["Nvidia", "Mira Murati", "Thinking Machines Lab", "OpenAI", "AI Partnership", "GPU", "Startup", "AI Lab", "Foundation Model", "Hardware AI"]
+    },
+    {
+      "id": 6,
+      "category": "news",
+      "title": "Ilya Sutskever旗下Safe Superintelligence（SSI）融资估值据报达300亿美元——无营收初创4倍增值",
+      "url": "https://the-decoder.com/sutskevers-safe-superintelligence-reportedly-raises-funds-at-30-billion-valuation/",
+      "summary": "由OpenAI联合创始人Ilya Sutskever领导的AI安全初创公司Safe Superintelligence（SSI）正在讨论新一轮融资，估值据报可能达到200-300亿美元，较2025年9月的上轮估值上涨约4倍。SSI目前尚无任何产品或营收，完全专注于「安全超级智能」的基础研究，此次估值飙升完全基于对其研究方向和团队的押注。",
+      "source": "The Decoder (April 22, 2026)",
+      "highlight": "SSI估值暴涨是2026年AI投资逻辑的极端案例：没有产品、没有营收、没有API——投资者押注的是「如果超级智能真的出现，SSI是最可能安全实现它的团队」这一叙事。这种投资逻辑在其他行业几乎不存在，但在AI领域已成主流，说明顶级LP认为AI的技术奇点已足够近，以至于仅凭研究路线的可信度就能支撑数百亿估值。Sutskever的个人背书（深度学习领域最重要的研究者之一，参与了GPT-1/2/3的核心工作）是SSI估值的核心来源。对OpenAI而言这是竞争压力——前核心成员创业并能以如此高估值融资，说明顶级投资者对「超越当前OpenAI路线」的可能性保持高度开放",
+      "stars": 0,
+      "tags": ["SSI", "Ilya Sutskever", "Safe Superintelligence", "AGI", "Funding", "Startup", "AI Safety", "Valuation", "OpenAI", "Superintelligence"]
+    },
+    {
+      "id": 7,
+      "category": "news",
+      "title": "Anthropic订阅计划遭遇容量危机——Pro/Max套餐「跟不上」Claude重度用户需求，Claude Code一度被移出Pro订阅",
+      "url": "https://the-decoder.com/anthropic-manager-hints-that-pro-and-max-plans-are-outgrown-by-todays-claude-workloads/",
+      "summary": "Anthropic曾短暂将Claude Code从Pro订阅中移除（针对新用户），遭公众强烈反弹后迅速撤回。Anthropic增长负责人Amol Avasare随后暗示，公司当前的订阅方案在结构上已无法匹配用户实际使用Claude的方式——用户正在将Claude用于越来越重的持续性工作负载，而不只是偶发性问询。",
+      "source": "The Decoder (April 22, 2026)",
+      "highlight": "这一事件揭示了AI订阅制的根本性张力：按月固定收费的订阅模式假设用户使用量相对稳定，但Agent时代的Claude用户正在将其作为持续运行的自动化基础设施——一个活跃的Claude Code用户每天消耗的token量可能是传统聊天用户的100倍。移除Claude Code后迅速撤回，说明Claude Code已成为Pro用户留存的核心功能——不能失去这个群体，因为他们既是付费最高的用户，也是口碑传播最活跃的群体。订阅结构重组的信号意味着Anthropic可能正在规划更细粒度的计量收费方案（类似AWS按用量付费），而非固定月费，这将对Claude的营收模型产生根本性影响",
+      "stars": 0,
+      "tags": ["Anthropic", "Claude", "Subscription", "Claude Code", "Pro Plan", "Pricing", "Business Model", "LLM", "Enterprise AI", "User Growth"]
+    },
+    {
+      "id": 8,
+      "category": "news",
+      "title": "两家初创重写AI学习方式——Flapping Airplanes融资1.8亿美元、Core Automation寻求10亿，目标替代梯度下降训练范式",
+      "url": "https://the-decoder.com/two-startups-want-to-replace-how-ai-learns-one-just-raised-180m-another-is-seeking-up-to-1b/",
+      "summary": "两家AI新实验室正在挑战神经网络训练的基础范式：Flapping Airplanes已完成1.8亿美元融资，前OpenAI研究员Jerry Tworek创立的Core Automation正在寻求最高10亿美元。两家公司的核心主张相同：当前基于梯度下降的深度学习范式已遭遇根本性瓶颈，AI发展需要全新的学习机制才能突破现有智能上限。",
+      "source": "The Decoder (April 22, 2026)",
+      "highlight": "同时有两家资金充裕的实验室挑战梯度下降训练范式，这不是偶然——这是AI研究前沿对「当前扩展路线正在边际递减」的判断在资本层面的具体体现。Jerry Tworek离开OpenAI时的公开表态（「当前AI模型无法从错误中学习，这是AGI的根本障碍」）代表了一类越来越主流的研究者共识：基于token预测+RLHF的路线正在逼近其结构性上限。10亿美元募资目标意味着Core Automation不只是想做学术研究，而是要构建足以支撑下一代模型训练的全栈技术能力。如果替代训练范式在未来3-5年内取得突破，当前所有基于Transformer+梯度下降的基础设施投资将面临巨大风险",
+      "stars": 0,
+      "tags": ["AI Research", "Training Paradigm", "Core Automation", "Jerry Tworek", "Flapping Airplanes", "AGI", "Startup", "Funding", "Deep Learning", "Learning Algorithms"]
+    },
+    {
+      "id": 9,
+      "category": "news",
+      "title": "Eon Systems完成首个完整果蝇大脑仿真——12.5万神经元接入虚拟身体、产生多种行为，神经形态AI里程碑",
+      "url": "https://the-decoder.com/startup-claims-first-full-brain-emulation-of-a-fruit-fly-in-a-simulated-body/",
+      "summary": "Eon Systems宣称实现了首个完整果蝇大脑仿真与虚拟身体的连接，覆盖超过12.5万个神经元和5000万个突触，仿真的「大脑」接入虚拟身体后首次在不同场景下产生了多种行为模式。这是生物神经网络全脑仿真领域的重要里程碑，也是向神经形态计算和具身智能研究的关键步骤。",
+      "source": "The Decoder (April 22, 2026)",
+      "highlight": "果蝇全脑仿真的意义远超「技术炫技」：果蝇是神经科学中研究最透彻的有机体之一，其完整神经连接图谱（connectome）已被绘制完成。Eon Systems将这一静态连接图谱「活化」为可以运行行为的动态仿真，这是理解「连接结构如何产生行为」的第一个完整系统级验证。对AI研究的深远影响：这一路线代表了与大规模参数训练完全不同的智能构建方式——不是从数据学习统计模式，而是直接仿真已知的生物神经回路。果蝇大脑仿真只是开始，路线图清晰地指向更复杂生物体，最终目标是通过神经仿真而非参数优化理解智能的生物学原理",
+      "stars": 0,
+      "tags": ["Brain Emulation", "Neuromorphic", "Drosophila", "Eon Systems", "Neuroscience", "Embodied AI", "AI Research", "Connectome", "Biological AI", "Startup"]
+    },
+    {
+      "id": 10,
+      "category": "repo",
+      "title": "KeygraphHQ/shannon：AI自主白盒渗透测试工具——分析源代码找攻击向量、执行真实漏洞利用、生产前证明漏洞存在，39,600星",
+      "url": "https://github.com/KeygraphHQ/shannon",
+      "summary": "Shannon Lite是一款面向Web应用和API的自主白盒AI渗透测试工具，通过分析源代码识别攻击向量，并在沙箱环境中执行真实漏洞利用来证明漏洞存在，而非仅生成理论风险报告。基于TypeScript构建，支持与CI/CD流水线集成，使安全测试自动化地嵌入开发周期。累计39,600星，GitHub Trending排名前列。",
+      "source": "GitHub Trending (39,600 stars, April 23, 2026)",
+      "highlight": "白盒AI渗透测试是安全Agent最有价值的落地场景之一：与黑盒扫描器（只能发现已知模式）相比，白盒方法通过代码理解可以发现逻辑漏洞、权限绕过和业务逻辑缺陷等传统工具无法检测的问题。Shannon的「执行真实漏洞利用来证明」方法消除了安全报告的误报噪音——开发团队只需修复被证明可利用的漏洞，而非处理大量「可能存在风险」的警告。将安全测试嵌入CI/CD流水线意味着每次代码提交都会触发安全验证，从根本上改变了「上线前再做安全审查」的传统工程模式。39,600星的高人气说明开发者社区对「安全自动化」需求极为迫切",
+      "stars": 39600,
+      "tags": ["Security", "Pentesting", "White-box", "AI Agent", "Web Security", "TypeScript", "CI/CD", "DevSecOps", "Vulnerability", "Open Source"]
+    },
+    {
+      "id": 11,
+      "category": "repo",
+      "title": "langfuse/langfuse：开源LLM工程平台——可观测性/评估/提示管理/数据集一站式，兼容OpenTelemetry和主流框架，25,600星",
+      "url": "https://github.com/langfuse/langfuse",
+      "summary": "Langfuse是目前最流行的开源LLM工程平台，集成LLM可观测性（链路追踪）、指标监控、模型评估、提示管理、Playground和数据集管理于一体。支持OpenTelemetry标准协议，与LangChain、OpenAI SDK、LiteLLM、Anthropic SDK等主流框架无缝集成，既可自托管也提供云服务。YC W23校友，累计25,600星。",
+      "source": "GitHub Trending (25,600 stars, April 23, 2026)",
+      "highlight": "LLM可观测性是AI应用从「demo」走向「生产」的必经基础设施：没有追踪每次LLM调用的输入输出、延迟、成本和错误，团队就无法系统性地优化提示、发现边缘案例或诊断生产故障。Langfuse的开源+自托管策略解决了企业合规痛点——金融、医疗等对数据安全有要求的行业可以在私有云部署而无需将用户数据发送第三方。OpenTelemetry兼容使其能无缝融入现有企业监控基础设施（Datadog/Grafana生态），降低了企业采用门槛。与商业竞品Helicone/Arize相比，开源模式构建的社区集成生态是其最强护城河",
+      "stars": 25634,
+      "tags": ["LLM Observability", "Open Source", "LLM Engineering", "Monitoring", "Prompt Management", "LangChain", "OpenTelemetry", "Evaluation", "Self-hosted", "YC"]
+    },
+    {
+      "id": 12,
+      "category": "repo",
+      "title": "vercel-labs/skills：开放Agent技能工具——npx一行命令安装AI技能模块，TypeScript构建，15,500星",
+      "url": "https://github.com/vercel-labs/skills",
+      "summary": "Vercel Labs开源的Agent技能工具，核心理念是将可复用的AI能力封装为标准化「技能」模块，开发者通过`npx skills`一行命令安装和管理。技能模块设计为Agent可直接调用的工具函数，基于TypeScript构建，与Vercel AI SDK深度集成，目标是建立类似npm包生态的AI能力共享市场。累计15,500星。",
+      "source": "GitHub Trending (15,500 stars, April 23, 2026)",
+      "highlight": "Vercel的skills工具代表了「Agent能力标准化」的重要尝试：当前Agent开发的核心痛点之一是工具函数需要在每个项目中重复实现——搜索网页、读取文件、调用API等能力每个团队都在造轮子。skills的「npx安装」范式直接借鉴了npm的成功路径：通过标准化接口和简单安装，快速降低Agent工具开发的门槛。Vercel在前端开发者生态中的强大影响力是这个项目的天然分发渠道——大量Next.js开发者将通过skills快速进入AI Agent开发，这可能成为Vercel在AI时代延伸生态护城河的关键举措",
+      "stars": 15500,
+      "tags": ["Vercel", "Agent Skills", "TypeScript", "Developer Tools", "AI SDK", "NPX", "Open Source", "Agent Tooling", "Next.js", "AI Infrastructure"]
+    },
+    {
+      "id": 13,
+      "category": "repo",
+      "title": "AIDC-AI/Pixelle-Video：AI全自动短视频引擎——一键生成完整短视频，阿里国际数字商业AI团队出品，5,600星",
+      "url": "https://github.com/AIDC-AI/Pixelle-Video",
+      "summary": "Pixelle-Video是阿里国际数字商业集团AI团队（AIDC-AI）开源的全自动短视频生成引擎，从文字/图片输入到完整短视频输出全流程自动化，涵盖脚本生成、画面合成、配音和字幕。面向电商、营销等场景的规模化视频内容生产需求，Python构建，已在GitHub快速获得5,600星。",
+      "source": "GitHub Trending (5,600 stars, April 23, 2026)",
+      "highlight": "电商短视频是AI内容生成最具规模效益的商业落地场景：阿里国际（AliExpress/Lazada等）每天需要为数百万SKU生成多语言产品视频，人工制作成本高且速度慢。Pixelle-Video全流程自动化的目标是将视频制作成本压缩到接近零——这不是一个概念验证，而是有巨大内部需求驱动的工程化产品。阿里系开源项目的「内部需求驱动」属性意味着其功能设计更贴近真实业务痛点，而非学术实验。对中国AI开源生态的观察：阿里、字节、腾讯等平台公司正在通过开源视频AI工具与Runway/Pika等独立视频AI公司竞争，方向是将视频生成能力直接内嵌到电商供应链",
+      "stars": 5601,
+      "tags": ["Video Generation", "E-commerce", "Alibaba", "Short Video", "Content Automation", "Python", "Chinese AI", "Marketing AI", "Open Source", "Multimodal"]
+    },
+    {
+      "id": 14,
+      "category": "paper",
+      "title": "AJ-Bench：Agent-as-a-Judge环境感知评估基准——多维度Agent自主评判能力系统测试，弥补LLM-as-a-Judge对Agent场景的评估盲区（HF Papers）",
+      "url": "https://huggingface.co/papers/2604.18240",
+      "summary": "AJ-Bench提出专门针对「Agent充当评判者」场景的综合评估基准，测试LLM Agent在具有环境反馈和多步决策背景下作为评判者的可靠性。论文识别了LLM-as-a-Judge方法在Agent场景中的关键失效模式：评判者需要理解Agent的行动轨迹、环境状态变化和工具调用结果，而非只评估单次文本输出。基准覆盖多种Agent任务类型和评判维度。",
+      "source": "HuggingFace Papers (April 22, 2026)",
+      "highlight": "「Agent-as-a-Judge」是当前AI评估体系面临的最前沿挑战之一：随着Agent工作流普及，需要评估的不再是单次回答的质量，而是整个决策序列的合理性、工具选择的适当性和目标完成度。传统LLM-as-a-Judge（用GPT-4评估GPT输出）在单轮对话场景有效，但在Agent环境中会因为缺乏环境状态感知而产生系统性偏差。AJ-Bench的贡献在于为这一评估方向建立了第一个规范化基准，将推动Agent评估从「人工抽样」走向「自动化规模评估」——这对任何构建生产级Agent系统的团队都是关键基础设施",
+      "stars": 0,
+      "tags": ["Agent Evaluation", "LLM-as-a-Judge", "Benchmark", "Agent-as-a-Judge", "Evaluation", "Multi-step", "Environment-Aware", "LLM Agents", "AI Research", "Quality Assessment"]
+    },
+    {
+      "id": 15,
+      "category": "paper",
+      "title": "自回归视频生成的推测解码——KV缓存感知草稿模型加速视频Token生成，与主流视频生成模型兼容（HF Papers）",
+      "url": "https://huggingface.co/papers/2604.17397",
+      "summary": "论文提出将推测解码（Speculative Decoding）技术应用于自回归视频生成，通过小型草稿模型预测视频token序列并由主模型验证，在保持生成质量的同时显著提升推理速度。核心挑战：视频生成的KV缓存比文本大得多，论文设计了KV缓存感知的草稿模型架构来应对这一挑战，与Cosmos等主流自回归视频生成模型兼容。",
+      "source": "HuggingFace Papers (April 22, 2026)",
+      "highlight": "推测解码在大语言模型中已被证明可以2-3倍加速推理（无损质量），但将其应用于视频生成的挑战要大得多：视频的时序依赖性强、KV缓存规模巨大、草稿模型需要对视觉内容有足够理解才能生成有效的「候选token」。这一工作的成功意味着视频生成模型的推理成本可以大幅降低，直接影响到Sora/Runway/Pika等视频生成服务的API定价和响应延迟。对于部署实时视频生成（短视频自动生成、视频会议背景、直播特效）的产品团队，这类推理加速技术是从「实验室可用」到「生产级可用」的关键一步",
+      "stars": 0,
+      "tags": ["Speculative Decoding", "Video Generation", "Inference Acceleration", "Autoregressive", "LLM Inference", "KV Cache", "Cosmos", "Speed Optimization", "Video AI", "Research"]
+    }
+  ]
+}
