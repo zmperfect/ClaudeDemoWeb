@@ -143,6 +143,72 @@
       "highlight": "灵巧手部操作是机器人学习的最困难问题之一：精密操作（拧螺丝、系鞋带、手术缝合）需要的数据非常稀缺且昂贵，因为动作捕捉设备和真实机器人演示的成本极高。DeVI的「合成视频模仿」路线是降低这一数据壁垒的重要尝试：互联网上有大量人类操作视频（YouTube教程、医疗操作记录等），如果能从这些免费资源中提取高质量的机器人动作先验，将彻底改变灵巧操作的数据瓶颈。这与Boston Dynamics用动作捕捉训练Atlas、Figure用人类演示训练人形机器人的「昂贵路线」形成对照——合成/视频路线如果成功将大幅降低灵巧操作训练的门槛，加速工业机器人和服务机器人的部署",
       "stars": 0,
       "tags": ["Dexterous Manipulation", "Robot Learning", "Video Imitation", "Synthetic Data", "Embodied AI", "Human-Object Interaction", "Physics Simulation", "Robotics", "AI Research", "Imitation Learning"]
+    },
+    {
+      "id": 14,
+      "category": "news",
+      "title": "美国科学顾问警告：中国正大规模复制美国AI——数万代理账号+越狱提示词批量蒸馏美国前沿模型",
+      "url": "https://the-decoder.com/trump-science-advisor-says-chinese-actors-are-copying-american-ai-at-massive-scale/",
+      "summary": "特朗普政府科学顾问Michael Kratsios发布备忘录，指控中国行为者正通过「数万个代理账号和越狱技术」系统性地蒸馏美国AI模型能力，制作出性能相当的小型模型——并在蒸馏过程中剥除安全护栏。Anthropic、OpenAI和Google此前均已报告过类似针对模型推理链和内部过程的攻击事件。政府计划与企业共享威胁情报并制定联合反制措施。",
+      "source": "The Decoder (April 24, 2026)",
+      "highlight": "「数万代理账号蒸馏美国AI」将AI能力转移从「学术担忧」升级为「政府级安全威胁」：模型蒸馏（用大模型输出训练小模型）是完全合法的技术手段，但在这一语境下变成了「系统性能力盗窃」的工具。真正的安全问题不是能力复制本身，而是「剥除安全护栏」——未对齐版本的美国前沿模型比原版更危险。这份备忘录发布的时机（GPT-5.5同周发布）说明政府正在将AI能力限制从「芯片出口管制」延伸到「模型访问管制」，预示着更严格的API访问身份验证和使用监控机制即将到来。对整个AI行业的影响：API访问安全将成为每家前沿AI公司的核心合规议题",
+      "stars": 0,
+      "tags": ["AI Security", "Model Distillation", "Geopolitics", "OpenAI", "Anthropic", "Google", "US China AI", "AI Safety", "Jailbreak", "Policy"]
+    },
+    {
+      "id": 15,
+      "category": "news",
+      "title": "Google开源DESIGN.md——让AI Agent读懂品牌设计规范，一份机器可读文件替代设计师与工程师的沟通鸿沟",
+      "url": "https://the-decoder.com/googles-open-source-design-md-gives-ai-agents-a-prompt-ready-blueprint-for-brand-consistent-design/",
+      "summary": "Google将其Stitch AI设计工具中的DESIGN.md格式以Apache 2.0许可证开源。DESIGN.md是一种将设计Token（颜色、字体等具体值）与解释性注释（「为什么这样设计」）配对的机器可读格式，使AI Agent能够在生成界面时自动遵循品牌规范和WCAG无障碍标准，并可导出为Tailwind或W3C DTCG格式。该项目目前处于Alpha阶段，可通过Google Stitch工具免费生成。",
+      "source": "The Decoder (April 24, 2026)",
+      "highlight": "DESIGN.md是「AI可读设计规范」这一新基础设施层的具体实践：当AI Agent承担前端开发工作时，最大的摩擦点之一是它不了解品牌规范——颜色系统、字体选择、间距规则、组件变体——这些知识散落在Figma文件、设计文档和人类设计师的脑子里。DESIGN.md试图将这层知识「编码化」为机器可直接消费的格式，是AI辅助设计工作流的重要基础设施。Google选择Apache 2.0开源（而非专有格式）说明其战略目标是推动这一格式成为行业标准，就像CLAUDE.md规范在AI编码工具中的地位一样。Anthropic的Claude Design和Google的DESIGN.md同周竞争，暗示「设计规范标准化」正成为AI Agent生态的早期卡位战",
+      "stars": 0,
+      "tags": ["Google", "Design AI", "Open Source", "AI Agent", "Frontend", "Brand Design", "DESIGN.md", "Accessibility", "Developer Tools", "AI Workflow"]
+    },
+    {
+      "id": 16,
+      "category": "news",
+      "title": "OpenAI推出Trusted Access计划——向微软开放最强模型用于网络安全防御，微软反向提供全团队安全保护",
+      "url": "https://the-decoder.com/openais-new-trusted-access-program-gives-microsoft-its-most-capable-models-for-cyber-defense/",
+      "summary": "OpenAI推出「Trusted Access for Cyber」计划，向微软提供其最先进AI模型的优先访问权限，专用于网络安全防御任务。作为交换，微软将整个网络安全团队的资源用于保护OpenAI的基础设施和共同客户。该计划与微软的「安全未来倡议」配套，旨在提升整个技术生态系统（包括开源软件）的安全标准。",
+      "source": "The Decoder (April 24, 2026)",
+      "highlight": "「AI换安全」的物物交换结构揭示了OpenAI与微软关系的深层逻辑：OpenAI最大的资产是前沿模型访问权，微软最大的资产是全球最强的企业安全团队之一——Trusted Access计划是双方「核心资源互换」的正式化。对AI安全领域的意义：这是「AI能否真正用于网络防御」的高可信度测试——当世界上最了解AI能力边界的公司（OpenAI）将自己的安全防御押注在AI上，本身就是一个强信号。同期Anthropic发布Mythos安全模型引发争议（批评者指出开源替代品已实现类似功能），说明AI安全能力主张正在进入更严格的同行审视阶段。对AI商业化路径的启示：网络安全是AI能力最容易「量化ROI」的应用场景之一，OpenAI-Microsoft的深度合作将加速这一市场的成熟",
+      "stars": 0,
+      "tags": ["OpenAI", "Microsoft", "Cybersecurity", "AI Security", "Partnership", "Enterprise AI", "Trusted Access", "Defense", "LLM", "AI Safety"]
+    },
+    {
+      "id": 17,
+      "category": "paper",
+      "title": "COSPLAY：LLM决策Agent与技能库协同进化——8B模型在长时序任务上超越所有前沿大模型基线（HF Papers）",
+      "url": "https://huggingface.co/papers/2604.20987",
+      "summary": "COSPLAY（Co-evolving LLM Decision and Skill Bank Agents）提出双Agent协同进化框架：一个LLM决策Agent从可学习技能库中检索技能来引导动作生成；一个技能管道Agent从无标签rollout中持续发现、提炼和更新可复用技能。两个Agent互相强化，使8B基础模型在单人游戏基准测试上取得比四个前沿LLM基线平均高25.1%的奖励，同时在多人社会推理游戏上保持竞争力。",
+      "source": "HuggingFace Papers (April 24, 2026)",
+      "highlight": "「8B模型通过协同进化超越所有前沿大模型」是对当前AI Agent设计范式的强力反驳：主流方法是「用更大的模型」，COSPLAY证明了「用更好的技能管理」可以让小模型超越大模型。技能库（Skill Bank）的设计哲学与人类学习高度对应：人类专家不是「每次从零推理」，而是积累了大量可快速调用的经验模式——COSPLAY将这一人类认知特征编码为AI Agent的架构元素。「从无标签rollout中自动提炼技能」是最有价值的设计：不需要人工标注技能，Agent在与环境交互的过程中自主发现什么样的行为序列值得记忆为技能，这是持续自我改进的关键机制。对长时序任务的影响：代码执行、科学实验、多步规划等真实世界任务都是长时序的——COSPLAY的技能复用机制可能显著提升这类任务的成功率",
+      "stars": 0,
+      "tags": ["LLM Agent", "Skill Learning", "Long-Horizon Tasks", "Co-evolution", "COSPLAY", "Agent Framework", "AI Research", "Game AI", "Autonomous AI", "Efficiency"]
+    },
+    {
+      "id": 18,
+      "category": "paper",
+      "title": "UniT（小鹏机器人）：统一物理语言桥接人类与人形机器人——视觉锚定跨体态表示，66.7%成功率创操控新SOTA（HF Papers）",
+      "url": "https://huggingface.co/papers/2604.19734",
+      "summary": "UniT（小鹏机器人+清华+港大）提出通过「视觉锚定」统一人类和人形机器人动作的离散潜在空间，用三分支交叉重建机制（动作预测视觉变化、视觉反推动作、融合分支综合）将异构运动学映射到共享表示。VLA-UniT在RoboCasa GR1基准上达到66.7%成功率（超越55%的前SOTA，+18.9%），真实机器人Pick&Place任务达到70-78%，零样本任务迁移60%成功。支持互联网规模人类视频作为无标签训练数据。",
+      "source": "HuggingFace Papers (April 24, 2026)",
+      "highlight": "「用视觉锚定统一人机动作空间」是解决机器人学习数据稀缺问题的优雅解法：人类操作视频在互联网上无限丰富，但人类和机器人的运动学天然不兼容。UniT的核心洞察是「不同体态的动作虽然不同，但它们产生的视觉结果是相似的」——通过视觉作为桥梁，将不同体态的动作映射到同一潜在空间。小鹏机器人团队将这项研究落地为IRON-R01-1.11人形机器人的真实验证，证明了从理论到工程实践的完整路径。「10倍数据效率」是最重要的实用价值：少量机器人数据（45.5%）配合UniT几乎匹敌全量数据基线（47.8%），这意味着机器人公司不需要收集海量专有演示数据就能训练出高质量策略。对人形机器人竞争格局的影响：Figure/1X/Boston Dynamics等公司的核心壁垒之一是专有演示数据，UniT降低了这一壁垒的高度",
+      "stars": 0,
+      "tags": ["Humanoid Robot", "Embodied AI", "Policy Learning", "XPeng Robotics", "Cross-Embodiment", "VLA", "Robotics", "AI Research", "Human-to-Robot", "Foundation Model"]
+    },
+    {
+      "id": 19,
+      "category": "paper",
+      "title": "WebGen-R1：用强化学习让7B模型生成功能完整+美观的多页网站——媲美DeepSeek-R1(671B)（HF Papers）",
+      "url": "https://huggingface.co/papers/2604.20398",
+      "summary": "WebGen-R1提出端到端强化学习框架用于项目级网站生成，通过结构化脚手架约束大开放性动作空间、级联多模态奖励系统（结构正确性+功能执行反馈+视觉美学评分），将7B基础模型从「几乎无法生成可用网站」转化为可部署的多页美观网站。在功能成功率上超越所有72B以下开源模型，在功能正确性上媲美DeepSeek-R1（671B）。",
+      "source": "HuggingFace Papers (April 24, 2026)",
+      "highlight": "「7B模型媲美671B DeepSeek-R1」是RL训练在专项任务上改变量级的又一个有力证明：WebGen-R1延续了DeepSeek-R1、Kimi K1.5的「小模型+RL」路线，证明对特定任务的强化学习能产生远超模型规模带来的能力跃升。网站生成是检验「AI Agent能否完成真实工程任务」的高价值基准：一个完整可部署的网站需要HTML/CSS/JS协调、跨页面逻辑一致性和主观美学判断——远比单文件代码生成复杂。「级联多模态奖励」是关键创新：功能奖励（代码能否运行）容易定义，但美学奖励（页面是否好看）需要视觉模型评分——这种「主观维度的奖励信号设计」对其他创意类任务（UI设计、图形设计）有直接借鉴价值。对AI编码工具的启示：专项RL训练的小模型可能在特定编程任务上比通用大模型更实用且更经济",
+      "stars": 0,
+      "tags": ["Reinforcement Learning", "Web Generation", "LLM", "Code Generation", "WebGen-R1", "RL Training", "AI Coding", "Small Models", "AI Research", "Multimodal Reward"]
     }
   ]
 }
