@@ -1,0 +1,148 @@
+{
+  "date": "2026-04-24",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "OpenAI发布GPT-5.5——自称「新一类智能」、全能工具切换Agent架构、API价格翻倍",
+      "url": "https://the-decoder.com/openai-unveils-gpt-5-5-claims-a-new-class-of-intelligence-at-double-the-api-price/",
+      "summary": "OpenAI正式发布GPT-5.5，将其定位为「新一类智能」——这是一个原生Agent架构模型，核心能力在于自主在多个工具之间切换以完成复杂任务，无需用户手动协调。GPT-5.5的API定价是GPT-5.4的两倍，OpenAI以显著的能力跃升为其高溢价背书。该模型并非GPT-5系列的渐进式更新，而是架构层面从「对话模型」向「自主任务执行者」的根本性转变。",
+      "source": "The Decoder (April 23, 2026)",
+      "highlight": "GPT-5.5是OpenAI迄今最清晰的「Agent原生」发布宣言：与GPT-5.4相比，最核心的变化不是某项基准的数字提升，而是模型架构从「被询问→给出答案」转向「接受目标→自主规划→切换工具→交付结果」。「双倍API价格」是OpenAI在用价格信号向市场传达其Agent能力的价值主张——这意味着企业工作流自动化场景中，GPT-5.5的ROI预期是对话型模型的数倍。这一发布与Google「Agentic Enterprise」和OpenAI「Workspace Agents」同周推出，三者共同标志着AI行业的核心战场已从「最强模型」切换为「最有用的自主Agent」——模型能力本身已成商品，Agent设计能力成为新的差异化护城河",
+      "stars": 0,
+      "tags": ["OpenAI", "GPT-5.5", "Agent", "LLM", "Model Release", "Agentic AI", "Tool Use", "API Pricing", "Autonomous AI", "Frontier Models"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "OpenAI推出免费医疗版ChatGPT——GPT-5.4在临床任务上超越医生，即便给医生无限时间和上网权限",
+      "url": "https://the-decoder.com/openai-says-its-new-chatgpt-for-clinicians-outperforms-doctors-on-clinical-tasks-even-when-they-have-unlimited-time-and-web-access/",
+      "summary": "OpenAI面向医疗专业人员推出免费的「ChatGPT for Clinicians」（临床医生版）。配套发布的新基准测试显示，GPT-5.4在临床任务中的表现超越人类医生——更值得注意的是，这一优势在给医生配备无限时间和互联网访问权限的条件下依然成立，说明差距已经不是信息获取问题而是推理能力问题。",
+      "source": "The Decoder (April 23, 2026)",
+      "highlight": "「给医生无限时间和上网权限后AI仍然胜出」是医疗AI里程碑中最重要的那条基准线：过去AI在医疗任务上的优势往往被解释为「信息获取优势」——AI能快速检索文献，人类医生受时间限制。当这个解释被排除后，剩下的解释只有一个：推理能力。这意味着医疗AI不再只是「更快的PubMed」，而是具备独立临床推理能力的系统。免费推出临床版的战略动机透明：ChatGPT for Clinicians的用户获取成本极低（零费用），但医疗场景的数据飞轮价值极高——真实临床对话是改进医疗AI最稀缺的训练信号。对医疗行业的冲击将是结构性的：不是简单的「AI辅助」，而是对「医生独占诊断推理」这一职业核心优势的直接挑战",
+      "stars": 0,
+      "tags": ["OpenAI", "ChatGPT", "Healthcare AI", "Medical AI", "GPT-5.4", "Clinical AI", "LLM", "AI Safety", "Applied AI", "Doctor AI"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "Google披露：旗下75%新增代码现由AI生成——Gemini驱动的编码能力已成日常工程基础设施",
+      "url": "https://the-decoder.com/google-says-75-percent-of-its-new-code-is-now-written-by-ai/",
+      "summary": "Google在Cloud Next '26上披露，公司目前75%的新增代码由AI生成，这一比例来自Gemini模型驱动的内部编码工具在整个工程组织的全面铺开。这一数字标志着AI辅助编码从「提升效率的工具」正式跨越为「工程文化的组成部分」，Google内部工程师的角色已从「代码编写者」向「AI产出代码的审查者和方向引导者」转变。",
+      "source": "The Decoder (April 23, 2026)",
+      "highlight": "「75%由AI生成」这个数字比任何产品发布都更有力地证明了AI编码工具的实际生产价值：这不是基准测试，而是世界上最大软件工程团队之一的真实生产数据。微软此前披露Copilot代码的采纳率约为35-40%，Google的75%数字说明当Gemini模型针对内部代码库深度适配后，采纳率可以翻倍。对AI编码工具市场的信号：Google和Microsoft同时大规模内部采用AI编码，将对Cursor、GitHub Copilot的定价和功能策略产生强烈的市场压力——大型科技公司内部工具的成熟将拉高开发者对所有AI编码产品的预期基线",
+      "stars": 0,
+      "tags": ["Google", "AI Coding", "Gemini", "Software Engineering", "Code Generation", "LLM", "Developer Tools", "AI Adoption", "Enterprise AI", "Productivity"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "Sony AI构建史上首个在运动项目达到专家级的机器人——AI驱动乒乓球机器人超越人类职业选手",
+      "url": "https://the-decoder.com/sony-ai-builds-the-first-robot-to-reach-expert-level-in-a-sport/",
+      "summary": "Sony AI宣布其乒乓球机器人成功达到职业选手级别的竞技水平，被定义为「史上首个在体育项目中达到专家级的机器人」。该机器人通过AI视觉系统和高速运动控制器的结合，能够与职业选手进行完整的竞技对打，不再局限于简单的往返球演示。这一成就代表了物理AI（Embodied AI）在真实物理运动技能习得上的重要里程碑。",
+      "source": "The Decoder (April 23, 2026)",
+      "highlight": "「在体育项目达到专家级」是物理AI能力的具体标尺，比「人形机器人能走路」更有意义：乒乓球要求毫秒级反应时间、精准轨迹预测和连续动态适应——这些能力直接对应工厂制造、外科手术辅助、仓储物流等场景的核心需求。AlphaGo征服棋盘后9年，AI开始征服物理空间中的实时竞技。Sony在机器人领域的路径（AIBO→EyeToy→乒乓球机器人）展示了从感知到实体运动的能力积累轨迹。对竞争格局的意义：这是Sony AI在波士顿动力（通用人形）、Figure（工业人形）、Agility（仓储物流）等方向之外走出的差异化路径——通过「物理竞技能力」建立具身智能的高性能基准",
+      "stars": 0,
+      "tags": ["Sony AI", "Robotics", "Embodied AI", "Physical AI", "Table Tennis", "Expert Level", "Robot", "AI Sports", "Dexterity", "Milestone"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "OpenAI开源Privacy Filter——专为检测和脱敏文本中个人数据设计，可嵌入企业数据管道",
+      "url": "https://the-decoder.com/openai-releases-open-source-model-that-strips-personal-data-from-text/",
+      "summary": "OpenAI发布开源模型Privacy Filter，专门设计用于识别和脱敏文本中的个人数据（姓名、地址、身份证号、联系方式等），使其无法被识别。该工具面向企业数据管道和AI应用开发者，旨在解决在将数据送入LLM训练或推理前的隐私保护问题，以开源形式发布可供自部署。",
+      "source": "The Decoder (April 23, 2026)",
+      "highlight": "OpenAI开源隐私工具有清晰的生态战略逻辑：企业采用OpenAI API的最大阻力之一是「数据是否安全」——Privacy Filter作为预处理层让企业可以在发送请求前脱敏数据，降低了合规风险和数据安全顾虑，实质上是在降低企业采用ChatGPT API的摩擦力。开源策略保证了可审计性——金融和医疗行业的合规团队需要能够审查脱敏逻辑，闭源工具无法满足这一需求。相比Presidio（微软开源的类似工具）和AWS Comprehend的PII检测，Privacy Filter在LLM上下文的专项优化上可能有差异化优势。对AI基础设施生态的意义：随着Privacy Filter、OpenTelemetry标准等工具的成熟，围绕LLM的数据安全和可观测性基础设施正在标准化",
+      "stars": 0,
+      "tags": ["OpenAI", "Privacy", "Open Source", "PII", "Data Security", "Enterprise AI", "Compliance", "LLM Safety", "Data Pipeline", "Privacy Filter"]
+    },
+    {
+      "id": 6,
+      "category": "news",
+      "title": "81,000名Claude用户大调查：「能力提升」超越「速度」成首要价值，创意工作者感到被忽视和威胁",
+      "url": "https://the-decoder.com/claude-survey-new-capabilities-beat-speed-as-top-ai-benefit-but-creatives-feel-left-behind/",
+      "summary": "Anthropic对81,000名Claude用户的调查显示，用户最看重的AI生产力价值是「获得新能力」（略高于「提升速度」），说明用户已将Claude视为扩展自身能力边界的工具而非单纯效率加速器。值得关注的发现是创意工作者群体：他们同时感到「被AI限制」（创意工具不够灵活）和「被AI威胁」（担心创意工作被替代），是AI焦虑最集中的职业群体。调查样本存在重大偏差——以技术用户为主。",
+      "source": "The Decoder (April 23, 2026)",
+      "highlight": "「能力扩展」超越「速度提升」作为首要价值，是AI用户认知成熟的重要信号：早期AI工具的价值主张是「做你已经做的事更快」，而现在用户开始期待「做你本来做不到的事」——这是工具级AI向协作者级AI的语义跃迁。创意工作者的双重焦虑（限制+威胁）揭示了AI产品设计中的根本矛盾：内容安全机制会限制创意自由，而过于自由又可能产生有害内容。81,000人的大样本提供了行业最大规模的用户行为数据之一，即便有技术用户偏差，其对「AI如何改变工作流」的分层洞察对所有AI产品团队都有参考价值。对Anthropic的产品策略含义：创意工作者的痛点是一个已被清晰识别但尚未被充分解决的产品机会",
+      "stars": 0,
+      "tags": ["Anthropic", "Claude", "Survey", "User Research", "Creatives", "AI Adoption", "Productivity", "LLM", "User Insights", "AI Benefits"]
+    },
+    {
+      "id": 7,
+      "category": "repo",
+      "title": "huggingface/ml-intern：开源自主ML工程师Agent——读论文、训练模型、自动发布，HuggingFace出品，3,400星",
+      "url": "https://github.com/huggingface/ml-intern",
+      "summary": "HuggingFace开源的自主ML工程师Agent，核心能力是模拟真实ML工程师的完整工作流：自主阅读和理解AI论文→规划实验→编写训练代码→执行训练任务→发布模型到HuggingFace Hub。该项目将「ML实习生」的完整角色封装为一个可运行的Agent，基于代码执行、文件操作和HuggingFace API的工具链构建，代表了HuggingFace在Agent化ML研究基础设施上的重要布局。已获3,400星。",
+      "source": "GitHub Trending (3,400 stars, April 24, 2026)",
+      "highlight": "「开源ML工程师Agent」是AI自动化科学研究的最直接实践：当前AI研究的瓶颈之一是从论文复现到实验迭代的时间成本极高，ml-intern试图将这个循环中的机械性工作（环境搭建、代码实现、超参调整、模型上传）自动化。HuggingFace做这个项目有无可比拟的生态优势：Hub上数十万模型和数据集构成了Agent可以直接调用的工具库，而不需要从零构建资源访问层。这个项目也是HuggingFace生态系统的闭环策略：用Agent生成更多模型→这些模型被上传到Hub→Hub的价值增长→更多用户使用Agent→循环加速。对AI研究者的直接价值：实验迭代速度可能提升10倍以上，原本需要数天的论文复现可以缩短为数小时",
+      "stars": 3400,
+      "tags": ["HuggingFace", "ML Engineer", "Agent", "Research Automation", "Open Source", "Model Training", "AI Research", "LLM Agent", "Autonomous AI", "Scientific AI"]
+    },
+    {
+      "id": 8,
+      "category": "repo",
+      "title": "crewAIInc/crewAI：多Agent协作框架领导者——角色扮演/任务分工/工具集成一体化，生产级多Agent系统首选，50,000星",
+      "url": "https://github.com/crewAIInc/crewAI",
+      "summary": "crewAI是目前最流行的多Agent协作框架之一，提供「Crews」（多Agent团队）和「Flows」（确定性工作流）两种构建模式。开发者可以定义具有特定角色、目标和工具的Agent，让它们协作完成复杂任务。支持OpenAI、Anthropic、Gemini等主流LLM后端，配套企业级平台crewAI Enterprise提供生产部署支持，在GitHub Trending持续保持高关注度，累计50,000星。",
+      "source": "GitHub Trending (50,000 stars, April 24, 2026)",
+      "highlight": "crewAI的高星数和持续trending说明多Agent协作框架已从实验阶段进入工程师日常工具箱：相比LangGraph（更底层、更灵活但上手成本高）和AutoGen（微软主导、偏研究范式），crewAI的最大优势是「角色化思维模型」——开发者只需像组建团队一样定义角色和职责，而不需要理解底层图遍历或消息传递机制。企业版crewAI Enterprise的推出说明团队正在把开源影响力转化为商业化，这个路径与LangChain/LangSmith的双轨策略相同。在Kimi K2.6「爪群」和Google Agentspace等竞品涌现的背景下，crewAI作为独立开源框架的竞争优势在于其社区生态和与供应商无关的定位",
+      "stars": 50000,
+      "tags": ["Multi-Agent", "Agent Framework", "LLM Agents", "Python", "Open Source", "crewAI", "AI Orchestration", "Enterprise AI", "Workflow Automation", "Role-based AI"]
+    },
+    {
+      "id": 9,
+      "category": "repo",
+      "title": "open-webui/open-webui：本地LLM通用Web界面——支持所有LLM后端、离线运行、内置RAG，134,000星",
+      "url": "https://github.com/open-webui/open-webui",
+      "summary": "Open WebUI是用于本地和私有部署LLM的最流行开源Web界面，支持Ollama、OpenAI兼容API和直接HuggingFace模型加载。内置多模态对话、文档RAG、语音交互、插件系统和用户管理，设计为完全离线运行，适合企业私有化部署和个人本地AI使用。以134,000星成为GitHub上AI工具类项目中星数最高的项目之一，今日持续处于Trending。",
+      "source": "GitHub Trending (134,000 stars, April 24, 2026)",
+      "highlight": "134,000星是AI工具生态中极为罕见的数字，说明Open WebUI已成为「本地LLM标准入口」：随着Llama 4、Mistral 3等高质量开源模型的普及，越来越多用户和企业想要一个类似ChatGPT的界面来使用本地模型——Open WebUI填补了这个空缺。持续trending说明随着更多开源基础模型发布，其用户基础还在增长。企业私有化部署的核心痛点（数据不离开内网、定制化界面、用户权限管理）被一一满足。对「AI应用层」竞争格局的启示：当底层LLM趋向商品化，「怎样让任何模型用起来像ChatGPT一样顺滑」成为独立的竞争赛道，Open WebUI在这个赛道处于主导地位",
+      "stars": 134000,
+      "tags": ["Open Source", "Local LLM", "Web UI", "Ollama", "Self-hosted", "RAG", "Private AI", "Enterprise AI", "LLM Interface", "Offline AI"]
+    },
+    {
+      "id": 10,
+      "category": "repo",
+      "title": "funstory-ai/BabelDOC：AI全自动文档翻译引擎——保留排版格式、双栏PDF/论文/表格，8,300星",
+      "url": "https://github.com/funstory-ai/BabelDOC",
+      "summary": "BabelDOC是专注于「保留原始排版格式」的AI文档翻译工具，核心解决了学术论文、技术报告、双栏PDF在机器翻译时排版崩坏的痛点。工具可处理复杂的文档结构（多列布局、表格、公式、图注），翻译后保持与原文相同的视觉格式，面向学术研究者和工程师快速阅读外文文献的场景。已获8,300星，在GitHub Trending持续活跃。",
+      "source": "GitHub Trending (8,300 stars, April 24, 2026)",
+      "highlight": "「格式保留翻译」是学术和技术社区最刚性的翻译需求之一：普通翻译工具会破坏PDF的双栏排版、数学公式和图表标注，使翻译结果难以与原文对照阅读。BabelDOC的差异化定位精准解决了这个「DeepL/Google Translate做不好」的场景。8,300星的快速积累说明有大量研究人员和工程师需要快速消化外文技术文献。在AI驱动的知识加速时代，「快速理解外语论文和技术规范」是跨语言技术竞争的关键能力——BabelDOC降低了这一能力的获取门槛。对中国AI生态的意义：大量前沿论文和技术文档以英文发布，BabelDOC是提升中文研究者接触外文一手资料效率的重要工具",
+      "stars": 8300,
+      "tags": ["Document Translation", "PDF", "Academic Papers", "Format Preservation", "Chinese AI", "Open Source", "AI Tools", "Research Tools", "Machine Translation", "LLM"]
+    },
+    {
+      "id": 11,
+      "category": "repo",
+      "title": "onyx-dot-app/onyx：开源企业AI知识平台——连接全部内部工具/文档、AI搜索+对话+Agent，28,000星",
+      "url": "https://github.com/onyx-dot-app/onyx",
+      "summary": "Onyx（前身Danswer）是面向企业内部知识管理的开源AI平台，核心功能是将公司所有内部工具（Confluence/Notion/Slack/GitHub/Google Drive等）统一接入，提供AI驱动的语义搜索、问答对话和任务执行Agent。支持私有化自部署，企业用户无需将内部文档发送到外部API，已获28,000星。",
+      "source": "GitHub Trending (28,000 stars, April 24, 2026)",
+      "highlight": "Onyx代表了「企业AI基础设施」的一个重要赛道：相比直接使用ChatGPT/Claude，企业真正需要的是一个能接入所有内部工具的统一AI层——Onyx的价值主张是「你的公司专属AI，知道你所有的内部文档和流程」。开源+自托管是其核心竞争力：Glean（估值40亿美元的商业竞品）的核心卖点相似但价格高昂，Onyx为中小企业提供了无需支付高额SaaS费用就能实现相同能力的路径。持续trending说明企业对「内部知识AI化」的需求正在快速增长，而对数据安全的顾虑使私有化部署方案比SaaS更受青睐。今日配合crewAI同时trending，共同印证「企业AI基础设施」是当前开发者社区最活跃的构建方向",
+      "stars": 28000,
+      "tags": ["Enterprise AI", "Knowledge Management", "Open Source", "Self-hosted", "Semantic Search", "Confluence", "Slack", "RAG", "Internal Tools", "AI Platform"]
+    },
+    {
+      "id": 12,
+      "category": "paper",
+      "title": "LLaDA2.0-Uni：扩散大语言模型统一多模态理解与生成——单模型同时处理图文理解和生成，无需分离架构（HF Papers）",
+      "url": "https://huggingface.co/papers/2604.20796",
+      "summary": "LLaDA2.0-Uni提出基于扩散模型（Diffusion LLM）的统一多模态架构，在同一个模型中同时支持多模态理解（图文问答、视觉推理）和多模态生成（图像生成、文本生成），打破了现有「理解模型」和「生成模型」的架构分裂。基于LLaDA扩散语言模型框架扩展到视觉模态，通过统一的去噪训练范式实现跨模态能力整合。",
+      "source": "HuggingFace Papers (April 23, 2026)",
+      "highlight": "「用扩散模型统一多模态理解与生成」是对当前主流架构的直接挑战：现有多模态大模型（GPT-4o/Claude 3.5等）依赖自回归Transformer，而扩散模型的双向上下文感知特性在理论上更适合同时完成理解和生成任务。LLaDA2.0-Uni的意义在于验证了扩散范式在多模态场景的可行性——不是证明它更好，而是证明它可行且有独特优势，为未来模型架构竞争开辟了新维度。对行业的长期影响：如果扩散LLM在统一多模态任务上最终证明优于自回归LLM，将引发底层模型架构的范式切换，影响范围从基础模型到所有上层应用",
+      "stars": 0,
+      "tags": ["Diffusion LLM", "Multimodal", "LLaDA", "Unified Model", "Image Generation", "Visual Understanding", "AI Research", "HuggingFace", "Foundation Model", "Architecture"]
+    },
+    {
+      "id": 13,
+      "category": "paper",
+      "title": "DeVI：通过合成视频模仿实现物理仿真中的灵巧人-物交互——无需真实演示数据训练精密手部操作（HF Papers）",
+      "url": "https://huggingface.co/papers/2604.20841",
+      "summary": "DeVI（Dexterous Interaction via Video Imitation）提出从合成视频中学习精密的手-物体交互动作，在物理仿真中实现高质量的人-物交互复制，而无需大量真实世界的动作捕捉数据。核心方法是将人类操作视频转化为物理可行的机器人动作参考，通过仿真优化确保物理真实性，解决了灵巧操作数据采集成本极高的瓶颈问题。",
+      "source": "HuggingFace Papers (April 23, 2026)",
+      "highlight": "灵巧手部操作是机器人学习的最困难问题之一：精密操作（拧螺丝、系鞋带、手术缝合）需要的数据非常稀缺且昂贵，因为动作捕捉设备和真实机器人演示的成本极高。DeVI的「合成视频模仿」路线是降低这一数据壁垒的重要尝试：互联网上有大量人类操作视频（YouTube教程、医疗操作记录等），如果能从这些免费资源中提取高质量的机器人动作先验，将彻底改变灵巧操作的数据瓶颈。这与Boston Dynamics用动作捕捉训练Atlas、Figure用人类演示训练人形机器人的「昂贵路线」形成对照——合成/视频路线如果成功将大幅降低灵巧操作训练的门槛，加速工业机器人和服务机器人的部署",
+      "stars": 0,
+      "tags": ["Dexterous Manipulation", "Robot Learning", "Video Imitation", "Synthetic Data", "Embodied AI", "Human-Object Interaction", "Physics Simulation", "Robotics", "AI Research", "Imitation Learning"]
+    }
+  ]
+}
