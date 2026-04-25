@@ -42,7 +42,7 @@
       "summary": "DeepEP是DeepSeek开源的专家并行（Expert Parallelism）通信库，专为MoE（混合专家）模型的训练和推理阶段优化专家间通信效率。在大规模MoE模型训练中，专家并行通信是主要的计算瓶颈之一——DeepEP提供高效的dispatch/combine操作，显著降低跨设备通信延迟。该库已在今日GitHub Trending高位，累计获得9,300余星。",
       "source": "GitHub Trending (9,300+ stars, April 25, 2026)",
       "highlight": "DeepSeek开源DeepEP是「开源AI基础设施战略」的重要组成部分：DeepSeek-V3/V4的MoE训练效率之所以能在全球竞品中脱颖而出，核心之一就是其专家并行通信的工程创新。开源DeepEP等于把这一竞争优势「捐给」了整个开源社区，看似削弱了自身护城河，但实际上形成了「DeepSeek技术标准化」的生态效应——越多人基于DeepEP构建MoE系统，DeepSeek作为MoE基础设施制定者的地位就越巩固。对开源MoE生态的直接价值：Llama-MoE、Mixtral等开源MoE模型的训练和推理效率可以通过集成DeepEP直接提升，DeepEP有望成为开源MoE训练栈的标准组件。在英伟达GPU供应受限的背景下，DeepEP同时支持华为昇腾NPU的fact说明其设计考虑了多硬件生态的兼容性——这是其他竞品库普遍不具备的",
-      "stars": 9370,
+      "stars": 9416,
       "tags": ["DeepSeek", "MoE", "Expert Parallelism", "Communication Library", "Training Infrastructure", "Open Source", "LLM Training", "GPU Optimization", "Inference", "Foundation Model"]
     },
     {
@@ -53,7 +53,7 @@
       "summary": "claude-context是Zilliz（Milvus向量数据库母公司）开源的Claude Code专用MCP工具，核心功能是为Claude Code Agent提供整个代码库的语义搜索能力，让Agent在执行编码任务时能检索和理解项目全量代码上下文。通过将代码库向量化并提供MCP接口，解决了Claude Code在大型项目中因上下文窗口限制而导致的代码理解不完整问题，已获9,100余星并持续在GitHub Trending活跃。",
       "source": "GitHub Trending (9,100+ stars, April 25, 2026)",
       "highlight": "「让Claude Code能看见整个代码库」精准命中了AI编码Agent的核心痛点：Claude Code在实际工程项目中最大的限制不是推理能力，而是它只能看到被显式加入上下文的文件——当项目有数百个文件时，Agent的判断会因上下文不完整而频繁出错。claude-context将Zilliz在向量搜索上的技术积累（Milvus是最广泛使用的开源向量数据库）直接迁移到AI编码场景，是「数据库公司转型AI工具公司」的精准示范。MCP作为Claude Code的标准插件接口，使得Zilliz不需要fork或修改Claude Code，就能深度增强其能力——这种「通过MCP扩展」的模式将催生整个Claude Code插件生态。对企业级AI编码的意义：大型代码库（百万行以上）的AI辅助开发是当前AI编码工具最难突破的场景，claude-context提供了一个低门槛的解决方案",
-      "stars": 9112,
+      "stars": 9232,
       "tags": ["Claude Code", "MCP", "Vector Search", "Code Search", "Zilliz", "Milvus", "AI Coding", "Context Window", "Developer Tools", "Open Source"]
     },
     {
@@ -121,6 +121,61 @@
       "highlight": "「Context Unrolling」作为新现象的发现比模型性能数字更值得关注：这个现象告诉我们，当模型在足够多样的模态上原生训练时，它会自发涌现出「先思考再预测」的多模态推理行为——不是人为设计的CoT（Chain of Thought），而是通过多模态训练自然产生的。这与纯文本模型的「思维链涌现」高度类似，说明多模态能力的扩展可能触发与规模扩展类似的质变。「包含3D几何和隐表示」使Omni的模态覆盖远超GPT-4o/Claude 3.5等主流多模态模型：3D理解是机器人、自动驾驶、AR/VR场景的核心能力，而隐表示的加入可能意味着模型能直接处理其他神经网络的中间层特征——这为「AI理解AI」开辟了新的研究方向。对多模态模型设计的启示：原生统一训练（所有模态同时训练）可能比「视觉编码器+语言模型」的组合范式产生更强的跨模态推理能力",
       "stars": 0,
       "tags": ["Multimodal", "Omni Model", "Context Unrolling", "3D Understanding", "Video Understanding", "Unified Model", "AI Research", "Foundation Model", "Multimodal Reasoning", "HuggingFace"]
+    },
+    {
+      "id": 12,
+      "category": "news",
+      "title": "OpenAI发布GPT-5.5——专为自主完成复杂任务设计的Agent模型，API价格翻倍，宣称「全新智能等级」",
+      "url": "https://the-decoder.com/openai-unveils-gpt-5-5-claims-a-new-class-of-intelligence-at-double-the-api-price/",
+      "summary": "OpenAI正式发布GPT-5.5，这是一款专为Agent工作流设计的模型，核心能力是在多工具之间自主切换以完成复杂任务。OpenAI将其定性为「全新智能等级（a new class of intelligence）」，API定价较前代翻倍，与同周DeepSeek V4大幅降价的策略形成鲜明对比。GPT-5.5延续了OpenAI将「自主Agent能力」作为核心差异化卖点的产品叙事。",
+      "source": "The Decoder (April 25, 2026)",
+      "highlight": "「专为Agent工作流设计」是GPT-5.5定位最关键的信号：OpenAI正在将产品线从「对话模型」向「任务执行系统」演进，GPT-5.5标志着这一转型加速——多工具自主切换意味着模型需要具备任务分解、工具选择、中间状态管理等传统对话模型不具备的能力。「API价格翻倍」与「宣称全新智能等级」的组合是OpenAI的经典定价策略：将价格提升锚定为能力跃升的证明，而非简单的成本传导。这种定价叙事在GPT-4发布时已成功运用过。值得注意的是，GPT-5.5翻倍定价与同周DeepSeek V4大幅降价构成了市场的两极叙事：一方以能力换溢价，另一方以价格换份额——这两种路线在2026年AI商业化竞争中的胜负，将是行业最重要的战略实验之一。「宣称全新智能等级」是难以证伪的营销语言，需关注独立基准测试（MMLU、SWE-bench等）是否支持这一定性",
+      "stars": 0,
+      "tags": ["OpenAI", "GPT-5.5", "Agentic AI", "LLM", "Model Release", "AI Pricing", "Tool Use", "Autonomous Agent", "API", "Enterprise AI"]
+    },
+    {
+      "id": 13,
+      "category": "news",
+      "title": "阿联酋宣布两年内将半数政府职能移交给自主AI Agent——全球最激进的国家级AI Agent部署计划",
+      "url": "https://the-decoder.com/the-uae-wants-half-its-government-run-by-autonomous-ai-agents-within-two-years/",
+      "summary": "阿联酋政府宣布计划在两年内将半数政府运营业务移交给自主AI系统管理。这是迄今为止全球范围内规模最大、时间表最激进的国家级自主AI Agent政府部署计划，远超此前各国政府在AI应用上的谨慎试点路线。阿联酋此前已多次宣布AI优先战略，但将50%政府职能交由AI Agent自主运营是前所未有的体量。",
+      "source": "The Decoder (April 25, 2026)",
+      "highlight": "「50%政府职能两年内」是一个极端激进的时间表：目前全球最领先的政府AI应用（包括新加坡、爱沙尼亚等数字政府标杆）也仅在特定服务窗口部署AI辅助，从未有国家提出半数职能「移交给自主系统」的目标。阿联酋的宣言更像是战略信号而非严格的执行承诺——这与其2017年任命全球首位AI部长、2031年GDP的百分之五来自AI等一系列先发姿态一脉相承，目的是在全球AI治理叙事中抢占「AI友好国家」的标志性位置。「自主AI系统」的定义至关重要：如果指的是自动化流程（RPA+规则系统），这已经实现；如果指的是具备真正决策自主权的Agent（无需人工审批），那在两年时间线内几乎不可能在政府场景落地——尤其是法律责任归属和错误决策追责问题尚无法律框架可循。对AI Agent商业化的间接价值：无论阿联酋承诺能否兑现，这个宣言都会加速全球政府采购AI Agent系统的采购评估周期，推动Microsoft、IBM、SAP等企业级AI供应商加大政府解决方案投入",
+      "stars": 0,
+      "tags": ["UAE", "AI Governance", "Autonomous Agent", "Government AI", "Agentic AI", "Digital Government", "AI Policy", "AI Strategy", "Public Sector", "AI Deployment"]
+    },
+    {
+      "id": 14,
+      "category": "paper",
+      "title": "COSPLAY：LLM决策Agent与技能库Agent协同进化框架——8B模型在六个游戏环境超越前沿LLM基线25.1%（HF Papers）",
+      "url": "https://huggingface.co/papers/2604.20987",
+      "summary": "COSPLAY（Co-Evolving LLM Decision and Skill Bank Agents）提出了一个解决LLM长时程决策问题的协同进化框架：LLM决策Agent负责从可学习技能库中检索技能并指导行动执行，同时一个专门的技能管理Agent持续从Agent的未标注历史轨迹中提取、精炼和更新可复用技能及其合约。两个Agent协同进化，互相增强：决策Agent学习更好的技能检索和动作生成，技能库Agent持续发现和提炼高质量可复用技能。在六个游戏环境（单人游戏基准+多人社交推理游戏）上的测试显示，基于8B基础模型的COSPLAY相比四个前沿LLM基线平均提升25.1%奖励，同时在多人社交推理游戏上保持竞争力。",
+      "source": "HuggingFace Papers (April 25, 2026)",
+      "highlight": "「8B模型超越前沿LLM基线25.1%」是一个颠覆直觉的结果：当前主流Agent基准普遍认为更强的基础模型等于更强的Agent表现，但COSPLAY用小8倍的基础模型通过架构创新超越了GPT-4o、Claude Opus等大模型——这说明Agent系统设计（如何使用模型）的贡献可能与模型能力本身同等重要。「技能库协同进化」是COSPLAY最核心的创新：传统Agent框架的工具/技能是人工预定义的静态集合，COSPLAY通过另一个Agent从未标注轨迹中自动发现和结构化技能——这意味着Agent可以在部署后持续改进自己的技能库，无需人工标注，实现真正的终身学习。「技能合约（contracts）」的引入解决了技能泛化的关键问题：每个技能都有明确的前置条件和预期效果描述，让决策Agent能够在新场景中可靠地判断何时该使用哪个技能——这是技能库方法从玩具系统走向实际应用的关键工程要素",
+      "stars": 0,
+      "tags": ["LLM Agent", "Skill Learning", "Co-Evolution", "Long-Horizon Tasks", "Reinforcement Learning", "AI Research", "Agent Framework", "Game AI", "Knowledge Base", "HuggingFace"]
+    },
+    {
+      "id": 15,
+      "category": "paper",
+      "title": "WebGen-R1：用强化学习训练LLM端到端生成多页功能性网站——7B模型功能性媲美DeepSeek-R1 671B（HF Papers）",
+      "url": "https://huggingface.co/papers/2604.20398",
+      "summary": "WebGen-R1是一个端到端RL训练框架，专为「项目级网站生成」任务设计。核心挑战是网站生成不同于单文件代码任务（无法用单元测试验证），需要评估主观美学、跨页面交互和功能正确性三个维度。WebGen-R1的两大技术创新：①脚手架驱动的结构化生成范式，约束大开放动作空间、保护架构完整性；②级联多模态奖励，将结构保障+基于执行的功能反馈+基于视觉的美学监督无缝耦合。实验证明7B基础模型经WebGen-R1训练后，从生成几乎无功能的网站跃升为可部署的多页美学网站；功能成功率媲美DeepSeek-R1（671B），在有效渲染和美学对齐上大幅超越671B大模型，并持续超越72B开源模型。",
+      "source": "HuggingFace Papers (April 25, 2026)",
+      "highlight": "「7B媲美671B」是WebGen-R1最吸引眼球的数字，但更有价值的是其背后的方法论：RL训练对「任务特定能力」的激发效率，可能远超单纯扩大模型规模——这与DeepSeek-R1在数学推理上的发现完全一致，说明RL微调是一个对「定义明确、有可靠奖励信号」的任务族系的高效能力激发手段。「级联多模态奖励」是WebGen-R1最重要的工程贡献：将网站的「功能正确性」（能跑通）、「渲染有效性」（能正常显示）、「美学对齐」（视觉符合预期）分层级设计成RL奖励信号，同时解决了之前所有网站生成系统的两个顽固问题：要么功能正确但丑，要么好看但代码跑不起来。「项目级生成」的突破意义：绝大多数现有代码LLM只能可靠生成函数级或文件级代码，WebGen-R1将可靠生成的边界推到了多文件、多页面的项目级别，是AI辅助前端开发从「代码补全」向「功能交付」跨越的重要里程碑",
+      "stars": 0,
+      "tags": ["RL Training", "LLM", "Web Generation", "Code Generation", "Reinforcement Learning", "Multimodal Reward", "AI Coding", "Frontend AI", "Small LLM", "HuggingFace"]
+    },
+    {
+      "id": 16,
+      "category": "repo",
+      "title": "RooCodeInc/Roo-Code：编辑器内的AI全栈开发团队——多Agent协作完成复杂编程任务，23,400星持续trending",
+      "url": "https://github.com/RooCodeInc/Roo-Code",
+      "summary": "Roo-Code是一个嵌入代码编辑器的AI多Agent开发系统，核心定位是「给你一整个AI开发团队」——不是单个AI助手，而是多个专业Agent协同工作（架构设计Agent、代码实现Agent、测试Agent、代码审查Agent等），共同完成复杂编程任务。用户可以在编辑器内直接调度这些Agent，处理从需求分析到代码交付的全生命周期开发任务。当前GitHub总星数超23,400，持续在每日Trending上活跃。",
+      "source": "GitHub Trending (23,400+ stars, April 25, 2026)",
+      "highlight": "「编辑器内的AI开发团队」是Roo-Code区别于Copilot/Cursor等单一AI助手的核心定位：单Agent编码工具的天花板是「更聪明的代码补全」，而多Agent编码系统的上限是「自主交付功能」——Roo-Code押注的是这个从工具到团队的范式转变。持续高星说明这一定位击中了开发者的真实需求：大量开发者已经不满足于简单的代码补全，他们需要的是能处理跨文件、跨模块复杂任务的AI协作者。Roo-Code的开源策略形成了与闭源Cursor/GitHub Copilot差异化的竞争位置：它不依赖特定IDE（支持VS Code扩展），不锁定特定LLM服务商（可配置不同后端），更适合企业内部部署场景。「多Agent协作」在编码领域的主要技术挑战是任务分解和上下文共享：如何让多个Agent的工作成果无缝衔接，是Roo-Code能否从demo走向生产可用的关键工程问题",
+      "stars": 23400,
+      "tags": ["AI Coding", "Multi-Agent", "Developer Tools", "Code Editor", "Open Source", "Claude", "Autonomous Agent", "GitHub Trending", "VS Code", "Agentic AI"]
     }
   ]
 }
