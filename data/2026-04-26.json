@@ -125,12 +125,12 @@
     {
       "id": 12,
       "category": "tool",
-      "title": "Alishahryar1/free-claude-code：通过GitHub Copilot免费使用Claude Sonnet的开源方案——终端/VS Code/Discord三端覆盖，11,500星",
+      "title": "Alishahryar1/free-claude-code：通过GitHub Copilot免费使用Claude Sonnet的开源方案——终端/VS Code/Discord三端覆盖，12,300星",
       "url": "https://github.com/Alishahryar1/free-claude-code",
       "summary": "free-claude-code是一个利用GitHub Copilot订阅（包含Claude模型访问权限）来免费使用Claude Sonnet 4.5的开源工具，支持终端命令行、VS Code插件和Discord Bot三种使用方式。随着GitHub Copilot将Claude模型纳入其订阅套餐，该工具提供了一种通过现有Copilot订阅低成本访问Claude能力的合规路径，在开发者社区获得极高关注度。",
-      "source": "GitHub Trending (11,500+ stars, April 26, 2026)",
-      "highlight": "「通过GitHub Copilot使用Claude」是Claude能力触达更广泛开发者的重要路径：GitHub Copilot拥有数百万付费用户，而不是所有人都有独立的Anthropic API Key——free-claude-code让Copilot用户无需额外付费即可在熟悉的工作环境中使用Claude能力，大幅降低了采用门槛。这个工具的病毒式传播（短期内11,500星）揭示了一个市场信号：大量开发者对Claude的能力感兴趣但对单独开通Anthropic API账户存在摩擦（信用卡、价格不透明等），通过已有订阅渠道访问是他们的首选路径。VS Code和Discord多端覆盖说明了这个工具不只是技术极客的玩具：Discord集成将Claude能力带入了技术团队的日常协作场景，是AI助手从「个人工具」向「团队工具」渗透的又一示范。",
-      "stars": 11519,
+      "source": "GitHub Trending (12,300+ stars, April 26, 2026)",
+      "highlight": "「通过GitHub Copilot使用Claude」是Claude能力触达更广泛开发者的重要路径：GitHub Copilot拥有数百万付费用户，而不是所有人都有独立的Anthropic API Key——free-claude-code让Copilot用户无需额外付费即可在熟悉的工作环境中使用Claude能力，大幅降低了采用门槛。这个工具的病毒式传播（今日已超12,300星）揭示了一个市场信号：大量开发者对Claude的能力感兴趣但对单独开通Anthropic API账户存在摩擦（信用卡、价格不透明等），通过已有订阅渠道访问是他们的首选路径。VS Code和Discord多端覆盖说明了这个工具不只是技术极客的玩具：Discord集成将Claude能力带入了技术团队的日常协作场景，是AI助手从「个人工具」向「团队工具」渗透的又一示范。",
+      "stars": 12327,
       "tags": ["Claude", "GitHub Copilot", "Developer Tools", "Open Source", "VS Code", "Discord", "AI Coding", "Cost Optimization", "Claude Sonnet", "GitHub Trending"]
     },
     {
@@ -180,12 +180,12 @@
     {
       "id": 17,
       "category": "repo",
-      "title": "RooCodeInc/Roo-Code：编辑器内整个AI开发团队——多Agent协同完成需求分析到代码实现全流程，GitHub 23,570星",
+      "title": "RooCodeInc/Roo-Code：编辑器内整个AI开发团队——多Agent协同完成需求分析到代码实现全流程，GitHub 23,600星",
       "url": "https://github.com/RooCodeInc/Roo-Code",
       "summary": "Roo Code是一个开源VS Code扩展，将整个AI开发团队（架构师Agent、编码Agent、测试Agent、文档Agent等）集成到编辑器中，通过多Agent协同工作流完成从需求分析到代码实现的完整开发生命周期。不同于单一AI编码助手（Copilot、Cursor等），Roo Code的核心是多角色Agent的任务分工与协作，让复杂工程任务能够并行分解执行。项目拥有23,570颗星，是当前GitHub上增长最快的AI编码工具之一。",
       "source": "GitHub Trending (23,570+ stars, April 26, 2026)",
       "highlight": "「整个开发团队」而非「单个助手」是Roo Code与Copilot/Cursor的根本差异：Copilot在单文件内提供代码建议，Cursor在代码库层面提供问答和编辑，而Roo Code尝试让多个专职Agent（需求理解→架构设计→编码→测试→文档）像真实团队一样协同，这是AI辅助编程范式的一次重要跃迁。多Agent编程工具的关键工程挑战是Agent间的上下文同步：当架构Agent做出设计决策时，编码Agent需要在不同文件的修改中保持一致性，测试Agent需要理解业务逻辑而不仅仅是接口——Roo Code如何解决这种跨Agent的语义一致性，是判断这类工具工程成熟度的核心指标。23,570星的规模说明「多Agent编程」已从概念验证进入开发者真实尝试阶段——这预示着AI编程工具的下一波竞争将从「单Agent能力比拼」升级为「多Agent协作架构设计」。",
-      "stars": 23570,
+      "stars": 23628,
       "tags": ["Roo Code", "Multi-Agent", "AI Coding", "VS Code", "Developer Tools", "Agentic AI", "Open Source", "GitHub Trending", "Code Generation", "Software Engineering"]
     },
     {
@@ -253,6 +253,72 @@
       "highlight": "「统一基准」是交互式世界模型领域从「各说各话」走向「客观竞争」的关键转折点：当前世界模型领域的一个公开秘密是每家团队都在自己精心挑选的场景上展示最好的演示视频，而没有一个公共基准能让研究者客观比较Genie和YUME在同一任务上的真实差距——WorldMark通过提供标准化测试条件终结了这种不可比较的状态。交互式视频世界模型是具身AI和游戏AI的共同底层基础设施：具身Agent需要世界模型来做预测性规划（「如果我向左转，会看到什么」），游戏AI需要世界模型来生成无限变化的游戏内容——WorldMark的评测框架对两个应用方向都有直接价值，使该基准不只服务于学术研究，也将影响工业界的技术路线选择。「轨迹误差+美学评分+VLM判断」的多维度评测组合比单一指标更能反映世界模型的真实能力：轨迹误差衡量物理一致性，美学评分衡量视觉质量，VLM判断衡量语义合理性——三者缺一不可，任何只在单一维度优化的模型都难以通过WorldMark的全面检验。",
       "stars": 0,
       "tags": ["World Model", "Video Generation", "Interactive AI", "Embodied AI", "Benchmark", "Genie", "Evaluation", "Game AI", "AI Research", "HuggingFace"]
+    },
+    {
+      "id": 24,
+      "category": "news",
+      "title": "DeepSeek V4预览版发布——1.6万亿参数旗舰MoE模型V4 Pro创开源权重规模记录，编码能力「可媲美GPT-5.4」",
+      "url": "https://techcrunch.com/2026/04/24/deepseek-previews-new-ai-model-that-closes-the-gap-with-frontier-models/",
+      "summary": "DeepSeek发布V4系列两款预览模型：V4 Flash（轻量版）和V4 Pro（旗舰版）。V4 Pro拥有1.6万亿总参数（490亿激活参数），超越此前最大的开源权重模型Moonshot Kimi K 2.6（1.1万亿），成为有记录以来最大的开源权重模型，上下文窗口均为100万token。DeepSeek官方称V4系列凭借架构改进在推理基准上大幅拉近与当前前沿闭源模型的差距，编码竞赛基准表现「可媲美GPT-5.4」，但在知识测试方面仍落后领先模型约3-6个月。",
+      "source": "TechCrunch (April 24, 2026)",
+      "highlight": "「1.6万亿参数开源权重」是V4 Pro最具战略意义的数字：超越Kimi K 2.6（1.1万亿）和MiniMax M1（4560亿），DeepSeek在开源模型规模竞争中再次拉开身位，更重要的是这种规模差距对中文互联网客户而言是实实在在的能力保障，也对试图在成本上复制DeepSeek路线的竞争对手构成了巨大的算力压力。「编码可媲美GPT-5.4」是V4发布的最强信号之一：编码是当前企业级AI部署最高价值的场景，DeepSeek V4在这一场景上声称与OpenAI最新前沿模型持平，直接挑战了「开源模型在关键能力上永远落后闭源半代」的行业共识。知识测试「落后3-6个月」的坦诚承认反映了DeepSeek成熟的产品沟通策略：在明确强项的同时精确标注弱项边界，帮助用户做出准确的场景适用性判断，而非过度承诺——这种「有限但可信」的定位比闭源实验室的宣传话语更容易赢得企业技术决策者的信任。",
+      "stars": 0,
+      "tags": ["DeepSeek", "LLM", "Open Source", "MoE", "V4", "Foundation Model", "Coding AI", "AI Model Release", "Chinese AI", "Frontier AI"]
+    },
+    {
+      "id": 25,
+      "category": "news",
+      "title": "Meta与亚马逊签署数百万颗Graviton ARM CPU协议——AI Agent推理需求正推动数据中心芯片格局从GPU独大转向CPU+GPU协同",
+      "url": "https://techcrunch.com/2026/04/24/in-another-wild-turn-for-ai-chips-meta-signs-deal-for-millions-of-amazon-ai-cpus/",
+      "summary": "Meta与亚马逊签署合同，将采购数百万颗AWS Graviton ARM架构CPU用于AI工作负载。这一协议的关键背景是：AI Agent正在推动数据中心计算需求从纯GPU转向CPU+GPU协同架构——Agent的实时推理、代码执行、搜索和多Agent协调等任务更适合CPU处理，而非GPU。此前Meta曾与Google Cloud签署60亿美元协议，这次将算力采购部分回流AWS，被解读为Meta在云供应商多元化策略上的主动调整。",
+      "source": "TechCrunch (April 24, 2026)",
+      "highlight": "「AI Agent正在改变芯片需求结构」是这条新闻最深远的行业信号：2020-2025年的AI军备竞赛几乎完全围绕GPU展开，但当Agent成为主流工作负载后，推理阶段的实时响应需求（低延迟、高并发）与GPU的批量大吞吐量特性存在天然错配——ARM CPU在这个场景下的成本效率优势开始显现，Graviton正是这一趋势的受益者。Meta将采购从Google Cloud部分回流AWS的地缘政治意义：此前Meta的谷歌云签约（60亿美元）是大型AI公司多云策略的典型案例，而这次Graviton协议使AWS重新成为Meta的核心基础设施伙伴之一，在云巨头争夺AI企业客户的白热化竞争中，AWS通过自研芯片优势再度赢得了战略地位。「CPU用于Agent推理」的成本逻辑对初创公司和企业AI团队有直接参考价值：一颗Graviton vCPU的时均成本远低于H100 GPU，如果Agent的大多数运行任务可以在CPU上高效执行，意味着生产环境Agent部署的单次对话成本可以大幅压缩，使更多低利润率场景的Agent应用变得经济可行。",
+      "stars": 0,
+      "tags": ["Meta", "Amazon", "AWS Graviton", "AI Infrastructure", "AI Chips", "Agent Inference", "ARM", "Cloud Computing", "CPU", "Agentic AI"]
+    },
+    {
+      "id": 26,
+      "category": "paper",
+      "title": "Hybrid Policy Distillation：混合KL散度策略蒸馏——结合正向与反向KL提升LLM知识蒸馏稳定性与效率（HF Papers）",
+      "url": "https://huggingface.co/papers/2604.20244",
+      "summary": "Hybrid Policy Distillation（HPD）针对现有LLM知识蒸馏方法中正向KL散度（均值寻找，模式覆盖）和反向KL散度（模式寻找，精确峰值）各有优劣的问题，提出了一种自适应混合两种KL散度方向的蒸馏策略，在不同规模模型对（如7B→1.5B）和不同任务类型（推理、对话、代码）上均取得了更稳定的收敛和更高的蒸馏效率，同时减少了对超参数敏感性的依赖。",
+      "source": "HuggingFace Papers (April 26, 2026)",
+      "highlight": "「正向KL vs 反向KL」是知识蒸馏领域长期存在的核心设计分歧：正向KL（最小化 P_teacher∥P_student）倾向于让学生模型覆盖教师的所有输出模式，适合多样性保留；反向KL（最小化 P_student∥P_teacher）倾向于让学生精确复刻教师的最强模式，适合质量优先的场景——没有单一方向在所有任务上都是最优选择，HPD通过自适应混合机制将这一选择从固定超参数升级为任务感知的动态策略。LLM蒸馏在2026年的产业价值比以往任何时候都更高：随着GPT-5.4和Claude Sonnet 4.6等大型闭源模型能力持续提升，将其能力蒸馏到可以本地部署、成本可控的小型模型（7B以下）是企业AI团队的核心工程需求。HPD提供了一种系统性改进这一流程的方法，对LLM蒸馏从业者有直接实用价值。「跨任务稳定性」是HPD相比单一KL方向方法最实用的优势：企业AI系统通常需要在同一个蒸馏管线中同时优化推理、代码生成和对话能力，HPD的混合策略使工程师无需为每个任务类型单独调优蒸馏方向，大幅降低了多任务蒸馏的实施复杂度。",
+      "stars": 0,
+      "tags": ["Knowledge Distillation", "LLM", "KL Divergence", "Small LLM", "Model Compression", "AI Efficiency", "Training", "AI Research", "HuggingFace", "LLM Optimization"]
+    },
+    {
+      "id": 27,
+      "category": "paper",
+      "title": "生成式AI时代的可解释作者归因：可解释化解耦表示学习用于AI生成文本检测与真实作者识别（HF Papers）",
+      "url": "https://huggingface.co/papers/2604.21300",
+      "summary": "本文针对ChatGPT等LLM大规模普及后「作者归因」（Authorship Attribution）任务面临的泛化性危机——即模型难以区分经LLM辅助修改的文本是否仍保留原作者风格——提出了一个结合监督对比学习与判别性解耦的变分自编码器框架（VAE），将文本表示显式分离为「风格特征」与「内容特征」两个独立子空间，在跨领域作者识别和AI生成文本检测两个任务上同时超越基线，并通过可解释性分析揭示了模型归因决策的依据。",
+      "source": "HuggingFace Papers (April 26, 2026)",
+      "highlight": "「生成式AI时代的作者归因」是版权法、学术诚信和新闻可信度领域最迫切的技术需求之一：当学生用ChatGPT润色论文、记者用AI辅助写稿、律师用LLM修改合同时，传统基于文体特征的作者归因方法的有效性已被证明大幅下降——本文正面回应了这个实际场景下的技术挑战。「将风格与内容解耦」是这个框架最关键的架构洞察：AI生成的文本往往在内容层面与人类高度相似（因为它是基于人类输入生成的），但在深层风格模式上保留了统计可检测的LLM指纹——显式解耦两个子空间使检测器能够专注于风格维度的异常，而不被内容相似性所迷惑。「可解释性」在作者归因场景中不只是学术加分项，而是实际部署的必要条件：法庭证据、学术申诉和内容政策执行都要求能够向非技术决策者解释「为什么认定这篇文章是AI写的」，黑盒分类器在这些场景下几乎无法使用，而本文的可解释框架直接解决了这个部署障碍。",
+      "stars": 0,
+      "tags": ["AI Detection", "Authorship Attribution", "Generative AI", "NLP", "VAE", "Contrastive Learning", "AI Text Detection", "Explainable AI", "AI Research", "HuggingFace"]
+    },
+    {
+      "id": 28,
+      "category": "paper",
+      "title": "TingIS：用LLM从海量嘈杂客户工单中实时发现企业级风险事件——多阶段事件链接+级联路由+噪声过滤三层架构（HF Papers）",
+      "url": "https://huggingface.co/papers/2604.21889",
+      "summary": "TingIS是一个面向大型企业的实时风险事件发现系统，解决从每天数万条嘈杂客户服务工单中自动识别出真正重要的系统性风险事件（如服务中断、安全漏洞、支付失败等）的难题。系统采用三层架构：LLM驱动的多阶段事件链接（将分散的相关工单聚合为单一事件）、级联路由（按风险等级分流处理）和噪声过滤（去除无关工单）。在企业生产环境中验证了系统能够在几分钟内从大量噪声中准确定位影响大量用户的风险事件，同时显著降低人工运营成本。",
+      "source": "HuggingFace Papers (April 26, 2026)",
+      "highlight": "「从嘈杂工单中发现系统性风险」是LLM最有工业价值但最少被研究的企业应用场景之一：大型互联网公司每天收到数万条客户反馈，手动审查不可行，传统关键词过滤误漏率高——而大规模用户同时反映某个问题往往是系统故障的最早信号，比内部监控指标报警更早出现，TingIS将这个「群体智慧」转化为可操作的技术情报。「多阶段事件链接」是TingIS的核心技术贡献：同一个故障可能被不同用户用完全不同的措辞描述（「支付失败」「下单报错」「钱扣了没有到账」），传统方法难以将这些语义相关但表面不同的工单识别为同一事件——LLM的语义理解能力正好填补了这个空白，使跨措辞的事件聚合成为可能。TingIS代表了一类重要的「AI+运营」价值模式：不是用AI替代人工决策，而是用AI将需要专家人工筛选的海量非结构化数据精炼为少量高信号事件，让人类专家把精力集中在真正需要判断的地方——这种「人机协作」模式在实际企业落地中比全自动化方案更容易被接受和推广。",
+      "stars": 0,
+      "tags": ["Enterprise AI", "LLM Applications", "Incident Management", "Risk Detection", "NLP", "Event Discovery", "Applied AI", "Operations AI", "Customer Support", "HuggingFace"]
+    },
+    {
+      "id": 29,
+      "category": "paper",
+      "title": "时间扩展的混合专家模型：用强化学习Options框架降低MoE专家切换率——在保持精度前提下显著提升推理一致性（HF Papers）",
+      "url": "https://huggingface.co/papers/2604.20156",
+      "summary": "本文将强化学习中的Options框架（时序抽象/时间扩展动作）引入到Mixture-of-Experts（MoE）Transformer的专家路由机制中，提出「时间扩展MoE」——鼓励模型在相邻token上持续使用同一组专家（而非每个token独立选择），从而降低专家切换频率。实验表明这一方法在保持模型准确率的前提下显著减少了专家切换率，改善了MoE模型推理的时序一致性，同时为减少分布式训练中的通信开销提供了新思路。",
+      "source": "HuggingFace Papers (April 26, 2026)",
+      "highlight": "「高专家切换率」是MoE模型在大规模部署中面临的一个被低估的工程痛点：DeepSeek V3/V4等模型以MoE架构实现了参数规模与计算效率的平衡，但如果每个token都触发不同的专家组合，分布式推理系统需要频繁进行跨设备的专家激活同步，产生大量通信开销。时间扩展MoE通过鼓励连续token复用同一组专家，从根本上减少了这种「专家抖动」现象。将RL Options框架迁移到Transformer路由是一个优雅的理论创新：Options框架的核心思想是「在一段时间内持续执行一个高层次的策略」，与MoE路由的「每个token选一组专家」在结构上高度同构——这种跨领域的概念迁移不仅解决了实际问题，也为未来用强化学习思想优化Transformer内部组件提供了新的研究方向。在DeepSeek V4刚发布、MoE架构成为开源大模型主流选择的节点上，任何能降低MoE部署成本和提升推理稳定性的技术都有极高的实用价值——时间扩展MoE的方法对正在优化MoE推理栈的工程团队是值得关注的参考。",
+      "stars": 0,
+      "tags": ["MoE", "Mixture of Experts", "Transformer", "Reinforcement Learning", "Options Framework", "LLM Training", "Inference Efficiency", "AI Research", "HuggingFace", "LLM Architecture"]
     }
   ]
 }
