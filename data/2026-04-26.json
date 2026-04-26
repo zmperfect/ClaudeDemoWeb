@@ -1,0 +1,148 @@
+{
+  "date": "2026-04-26",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "Google宣布向Anthropic追加投资最高400亿美元——史上规模最大的AI单笔投资，现金+算力双轨注入",
+      "url": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
+      "summary": "Google宣布将向Anthropic追加投资，规模最高达400亿美元，形式包括现金和算力资源双轨注入。此前Google已通过Google Cloud与Anthropic建立深度合作，本次投资进一步巩固了双方在前沿模型竞争中的战略同盟关系。400亿美元的规模使其成为有记录以来单笔规模最大的AI投资，远超此前微软对OpenAI的投资总额。",
+      "source": "TechCrunch (April 24, 2026)",
+      "highlight": "「400亿美元」的数字是AI投资史的分水岭：这一规模不仅确立了Google-Anthropic作为AI竞争主轴之一的地位，也向整个市场发出了清晰信号——前沿模型竞赛已经从「烧钱赌注」演变为「国家级战略资产争夺」。「现金+算力双轨」的注资结构比纯现金投资更具战略价值：Anthropic获得的TPU算力是其训练Claude下一代模型的直接生产要素，相当于Google通过算力供给将Anthropic的研发路线与自身硬件生态深度绑定。这笔投资对Anthropic最直接的影响是研发自主性：过去Anthropic在算力采购上需要在Google Cloud和AWS之间分散布局，400亿级别的投资将使Google TPU成为Anthropic的主力训练基础设施，可能进一步强化其在安全对齐研究上的独立性。对OpenAI的战略压力：微软-OpenAI和Google-Anthropic的「双极格局」正在加速形成，独立无靠山的AI实验室生存空间将进一步压缩。",
+      "stars": 0,
+      "tags": ["Google", "Anthropic", "AI Investment", "Frontier AI", "TPU", "Google Cloud", "Compute", "LLM", "AI Funding", "Strategic Alliance"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "Anthropic试运行Agent间商业交易市场——AI Agent直接向其他AI Agent购买服务的基础设施初探",
+      "url": "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
+      "summary": "Anthropic正在测试一个专为AI Agent设计的商业交易市场，核心能力是允许AI Agent自主向其他AI Agent购买服务、调用能力。这是Anthropic在「Agent经济」基础设施方向上的首个公开探索，旨在建立一套Agent间互操作和价值交换的标准化机制。该测试性市场目前处于受控实验阶段，是Anthropic对未来多Agent协作生态的前瞻性布局。",
+      "source": "TechCrunch (April 25, 2026)",
+      "highlight": "「Agent向Agent购买服务」是AI从工具属性向经济主体属性演进的重要里程碑：当前的Agent生态中，工具调用由人类显式配置，而Agent自主进行服务采购意味着AI开始在一定范围内具备独立的经济决策能力。Anthropic选择在此时试水Agent商业市场，与Model Context Protocol（MCP）的推广节奏高度吻合——MCP解决了Agent间服务调用的技术互操作问题，Agent市场则解决了价值交换和商业化问题，两者共同构成「Agent互联网」的底层基础设施。这个方向的最大技术挑战是信任和安全：当一个Agent自主决定向另一个Agent付费购买服务时，如何防止恶意Agent欺骗、如何确保服务质量、如何处理Agent代理人问题，是该市场从实验走向生产的核心工程障碍。对开发者生态的长期意义：如果Agent商业市场成功，将催生全新的「AI服务提供商」业态——不是SaaS，而是可以自主响应Agent调用的AI微服务经济体。",
+      "stars": 0,
+      "tags": ["Anthropic", "Agentic AI", "Agent Commerce", "Multi-Agent", "MCP", "AI Economy", "Agent Marketplace", "AI Infrastructure", "LLM", "AI Strategy"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "ComfyUI估值达5亿美元——创作者对AI生成内容控制权的渴望推动节点式工作流工具成为独角兽",
+      "url": "https://techcrunch.com/2026/04/24/comfyui-hits-500m-valuation-as-creators-seek-more-control-over-ai-generated-media/",
+      "summary": "开源AI图像/视频生成工具ComfyUI宣布完成新一轮融资，估值达到5亿美元。ComfyUI以节点式可视化工作流见长，让用户能够精确控制AI生成内容的每个处理步骤，成为专业创作者和研究者的首选工具。这一估值反映了市场对「可控AI创意工具」的强烈需求，与一键式AI生成工具的大众市场路线形成差异化竞争。",
+      "source": "TechCrunch (April 24, 2026)",
+      "highlight": "「5亿美元估值」证明了「可控性」是AI生成工具的重要付费维度：Midjourney、DALL-E等一键式工具吸引大众用户，而ComfyUI的核心用户是专业创作者、VFX工作室和研究者——他们愿意为精确控制每个节点的能力付出更高学习成本，也愿意为此付费。节点式工作流的架构优势是可组合性：ComfyUI用户可以将ControlNet、LoRA、VAE、Upscaler等不同AI模块像乐高一样搭积木，这种模块化能力在当前AI能力快速迭代的环境下尤其有价值——新模型出来只需接入新节点，无需等待工具开发商更新。ComfyUI的开源策略是其生态护城河：庞大的社区工作流分享生态（Civitai等平台上有数万个ComfyUI工作流）使其网络效应远超任何闭源竞品，「社区即产品」的模式让5亿美元估值在开源AI工具领域极具参考价值。",
+      "stars": 0,
+      "tags": ["ComfyUI", "AI Creative Tools", "Generative AI", "Image Generation", "Video Generation", "Open Source", "AI Startup", "Valuation", "Workflow Automation", "Creator Tools"]
+    },
+    {
+      "id": 4,
+      "category": "repo",
+      "title": "davila7/claude-code-templates：Claude Code配置与监控CLI工具——一键初始化Agent会话、实时监控任务状态，GitHub Trending第一",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "summary": "claude-code-templates是一个专为Claude Code Agent开发的命令行工具，提供预设配置模板、会话初始化向导和实时任务监控面板，让开发者能快速启动特定场景的Claude Code Agent工作流（如代码审查、文档生成、测试覆盖等）。工具同时提供对Agent运行状态、工具调用链和成本消耗的实时可视化，解决了Claude Code在复杂任务中「黑盒感」强的痛点。项目在今日GitHub Trending全站排名第一，显示了Claude Code周边生态的快速爆发。",
+      "source": "GitHub Trending (April 26, 2026)",
+      "highlight": "「Claude Code配置模板」命中了一个被严重低估的开发者痛点：Claude Code本身功能强大，但针对不同工程场景（新项目初始化、遗留代码重构、API开发等）的最优配置差异显著，大多数开发者在摸索最佳实践上浪费了大量时间。claude-code-templates通过预设场景模板将社区最佳实践固化，降低了Claude Code的使用门槛。「实时监控面板」是Claude Code企业级使用场景的关键基础设施：当团队中多个开发者并发运行多个Agent任务时，能够集中查看任务状态、工具调用历史和API成本消耗，是将个人工具升级为团队工具的必要条件。跻身GitHub全站Trending第一说明Claude Code生态正进入「周边工具爆发期」——这个阶段通常发生在核心工具用户规模达到临界点之后，预示着Claude Code的渗透率已足以支撑起独立工具生态的存在。",
+      "stars": 25359,
+      "tags": ["Claude Code", "Developer Tools", "CLI", "Agent Tooling", "Templates", "Monitoring", "Open Source", "GitHub Trending", "Agentic AI", "Developer Experience"]
+    },
+    {
+      "id": 5,
+      "category": "repo",
+      "title": "huggingface/ml-intern：HuggingFace开源的ML工程师Agent——自主阅读论文、训练模型、提交代码的端到端ML自动化",
+      "url": "https://github.com/huggingface/ml-intern",
+      "summary": "ml-intern是HuggingFace推出的开源ML工程师Agent，能够自主完成阅读技术论文、理解模型架构、编写训练代码、运行实验并提交代码等ML工程全流程任务。该Agent以现有ML框架（Transformers、Datasets等）为工具库，通过ReAct式循环在ML任务上实现了相当程度的自主化。项目定位是「把重复性ML实验工作外包给Agent」，是HuggingFace在Agentic AI方向的重要产品探索。",
+      "source": "GitHub Trending (6,253+ stars, April 26, 2026)",
+      "highlight": "HuggingFace做ML工程师Agent具有独特的结构性优势：HuggingFace拥有全球最大的开源ML模型（40万+）和数据集（10万+）仓库，ml-intern Agent天然可以调用这些资产执行「找到合适的预训练基座→下载→微调→评估→上传」的完整ML工作流，这是其他任何公司做同类Agent都无法复制的生态优势。「自主阅读论文→实现代码」是学术界向工程界转化中最耗时的环节，也是研究者最强烈的痛点之一——如果ml-intern能可靠地将arXiv论文转化为可运行的实验代码，将大幅加速AI研究的迭代速度。HuggingFace选择开源而非闭源这个Agent，是其一贯生态策略的延伸：开源吸引社区贡献和使用，最终通过HuggingFace Hub的流量和付费Inference API变现——ml-intern每次运行实验都可能调用HuggingFace的存储和计算服务。",
+      "stars": 6253,
+      "tags": ["HuggingFace", "ML Agent", "AI Coding", "Autonomous Agent", "Machine Learning", "Research Automation", "Open Source", "GitHub Trending", "LLM Agent", "Agentic AI"]
+    },
+    {
+      "id": 6,
+      "category": "repo",
+      "title": "ComposioHQ/awesome-codex-skills：Codex Agent技能合集——覆盖50+自动化工作流的实用Agent技能库",
+      "url": "https://github.com/ComposioHQ/awesome-codex-skills",
+      "summary": "awesome-codex-skills是Composio维护的OpenAI Codex CLI Agent技能精选合集，收录了50余个覆盖代码审查、PR自动化、CI/CD集成、数据库操作等场景的可复用Agent技能实现。每个技能以标准化的工具定义格式封装，可直接集成到Codex CLI或通过Composio API调用。随着OpenAI Codex Agent在2026年大规模普及，该合集成为开发者扩展Codex能力的重要参考资源库。",
+      "source": "GitHub Trending (1,495+ stars, April 26, 2026)",
+      "highlight": "「标准化技能合集」是Agent生态成熟的重要标志：当一个Agent平台（Codex CLI）的用户规模大到足以产生「技能分享」需求时，说明其已从「少数极客玩具」进化为「主流开发者工具」。awesome-codex-skills试图成为Codex Agent世界的「npm」——一个可以直接拿来即用的技能注册中心。Composio在Agent工具集成领域的战略布局清晰：通过维护这类开源合集积累开发者信任，最终引导用户采用Composio的付费API管理复杂的工具权限和OAuth认证——这是「开源引流+企业付费」的经典开发者工具商业模式。「50+覆盖场景」对企业Agent部署的实用价值：相比从零构建Agent工具定义，直接从经过社区验证的技能合集中选取并定制，可以将Agent开发周期从数天压缩到数小时。",
+      "stars": 1495,
+      "tags": ["Codex", "Agent Skills", "OpenAI", "Composio", "Developer Tools", "Automation", "Open Source", "GitHub Trending", "Agentic AI", "Tool Use"]
+    },
+    {
+      "id": 7,
+      "category": "paper",
+      "title": "DAVinCI：LLM输出的双重归因与验证框架——整合证据归因与蕴含验证，在FEVER/CLIMATE-FEVER上F1提升5-20%（HF Papers）",
+      "url": "https://huggingface.co/papers/2604.21193",
+      "summary": "DAVinCI（Dual Attribution and Verification in Claim Inference）是Adobe Research提出的LLM事实可靠性增强框架，核心是将「声明归因」（将生成内容追溯到内部模型组件或外部来源）与「声明验证」（基于蕴含推理和置信校准判断支持/反驳/信息不足）整合为统一流水线。在FEVER和CLIMATE-FEVER两个事实核查数据集上，相比纯验证基线，所有测试的transformer模型均实现5-20%的分类准确率、归因精度、召回率和F1提升。代码已开源，支持即插即用集成到现有LLM流水线中。",
+      "source": "HuggingFace Papers (April 26, 2026)",
+      "highlight": "「归因+验证双阶段」是DAVinCI比纯验证方法更有价值的核心设计：现有大多数LLM幻觉检测方法只做验证（判断输出是否与参考一致），而DAVinCI先做归因（将每个声明追溯到具体证据），再基于高质量证据做验证——这等于给验证模块提供了更精准的上下文，实验也证明全证据归因比基于片段的归因效果显著更好。「置信重校准机制」是DAVinCI在生产部署中最实用的组件：通过可调阈值（默认0.7）将低置信预测降级为「信息不足」，使系统能够根据应用场景的风险偏好灵活调节精确率-召回率权衡，这对医疗、法律等高风险LLM应用尤其关键。Adobe Research的切入点精准：归因和验证恰好是Adobe在企业内容管理（AEM）、文档智能等产品中最需要解决的可信AI问题，DAVinCI既是学术贡献，也是Adobe产品路线的技术储备。",
+      "stars": 0,
+      "tags": ["LLM Safety", "Hallucination", "Attribution", "Verification", "Fact Checking", "RAG", "NLI", "Adobe Research", "Trustworthy AI", "HuggingFace"]
+    },
+    {
+      "id": 8,
+      "category": "paper",
+      "title": "UniT：人形机器人统一物理语言——跨人类运动与人形策略学习的通用世界建模框架（HF Papers）",
+      "url": "https://huggingface.co/papers/2604.19734",
+      "summary": "UniT提出了一套用于人形机器人策略学习和世界建模的统一物理语言，旨在解决人类运动数据与人形机器人控制策略之间的跨形态迁移问题。通过设计一种将人类动作、机器人关节运动和物理环境统一表示的语言空间，UniT使策略能够从大量人类视频数据中学习，并直接迁移到人形机器人的具身执行中。该框架在多个人形机器人运动任务上验证了从人类数据到机器人控制的有效迁移。",
+      "source": "HuggingFace Papers (April 26, 2026)",
+      "highlight": "「统一物理语言」是当前人形机器人研究的核心挑战之一：人类有海量的运动视频数据，但直接用于训练机器人控制策略面临形态差异（人的骨骼结构≠机器人关节）、物理约束差异（重心、关节力矩上限不同）和感知差异（视频像素≠机器人传感器读数）三重障碍。UniT试图用统一表示空间「翻译」这三类差异，是人形机器人走向通用能力的关键基础设施研究。2026年是人形机器人技术的关键量产年（Figure AI、1X、Tesla Optimus均在量产推进中），从人类数据学习的能力直接决定人形机器人的训练数据瓶颈是否可解——如果UniT的迁移方法有效，意味着互联网上数十亿小时的人类活动视频都可以成为机器人训练数据，将彻底改变人形机器人的数据飞轮逻辑。",
+      "stars": 0,
+      "tags": ["Humanoid Robot", "Embodied AI", "World Model", "Robot Learning", "Motion Transfer", "Physical AI", "Policy Learning", "Foundation Model", "AI Research", "HuggingFace"]
+    },
+    {
+      "id": 9,
+      "category": "paper",
+      "title": "3D-VCD：通过视觉对比解码缓解3D-LLM具身Agent幻觉——无需微调的训练无关幻觉抑制方法（HF Papers）",
+      "url": "https://huggingface.co/papers/2604.08645",
+      "summary": "3D-VCD（3D Visual Contrastive Decoding）针对3D感知大语言模型（3D-LLM）在具身Agent场景中的幻觉问题，提出了一种基于视觉对比解码的训练无关幻觉缓解方法。核心思路是在推理时构造经过扰动的3D视觉输入作为对比参考，通过对比原始输出和扰动输出的概率分布差异来识别和抑制幻觉内容，无需额外微调模型。该方法在多个3D问答和具身决策基准上显著降低了幻觉率，对实际机器人和AR/VR场景的部署有直接意义。",
+      "source": "HuggingFace Papers (April 26, 2026)",
+      "highlight": "「训练无关」是3D-VCD最重要的工程价值：3D-LLM的训练成本极高，任何需要从头微调模型来消除幻觉的方法在实际部署中都面临巨大的成本障碍。3D-VCD在推理时通过对比解码修正幻觉，意味着它可以作为即插即用的模块套在任意现有3D-LLM之上——这种「不动模型、修正输出」的范式在计算机视觉幻觉缓解领域已被VCD等方法验证有效，3D-VCD将其扩展到三维空间。3D-LLM的幻觉问题比2D VLM更危险：在具身机器人和自动驾驶场景中，对3D空间的错误感知（「左侧有通道」但实际没有）直接导致物理世界的碰撞事故，而2D幻觉的后果往往只是文本错误——3D幻觉的严重性使3D-VCD这类方法具有比同类2D工作更高的实际价值。",
+      "stars": 0,
+      "tags": ["3D LLM", "Embodied AI", "Hallucination", "Visual Contrastive Decoding", "Robot Perception", "VCD", "Inference-time", "AI Safety", "Multimodal", "HuggingFace"]
+    },
+    {
+      "id": 10,
+      "category": "paper",
+      "title": "LLaTiSA：面向视觉时间序列推理的难度分层基准——从像素感知到语义理解的LLM时序推理系统评测（HF Papers）",
+      "url": "https://huggingface.co/papers/2604.17295",
+      "summary": "LLaTiSA（LLM-based Time Series Analysis）提出了一个针对LLM视觉时间序列推理能力的分层评测基准，将时序推理任务从「视觉感知」（识别图表中的数值）到「语义理解」（解读趋势和异常）分为多个难度层次，系统评测当前主流LLM在时序数据上的推理能力边界。基准覆盖金融、医疗、气候等多个真实世界时序数据领域，揭示了现有LLM在时序视觉推理上的关键能力缺口。",
+      "source": "HuggingFace Papers (April 26, 2026)",
+      "highlight": "「时序推理」是LLM多模态能力中最被低估的应用场景之一：当前多模态LLM的评测重心在自然图像理解和文档解析，但时间序列图表（股价走势、心电图、气象数据等）在企业实际使用中占有极大比重，且对精确数值读取和趋势解读有更高的准确性要求。LLaTiSA揭示的「感知层到语义层」能力分层对产品开发有直接指导价值：如果LLM在视觉感知层（读准坐标轴数值）就存在系统性错误，那么基于LLM构建时序数据分析应用必然在基础事实层面不可靠——这是开发者在采用LLM做时序分析前必须了解的基准信息。分层难度设计使LLaTiSA比单一准确率指标更有诊断价值：它不仅告诉你模型「能不能行」，还告诉你「在哪一层能力断裂」——这对针对性改进LLM的时序推理能力有直接的研究指导意义。",
+      "stars": 0,
+      "tags": ["Time Series", "LLM Benchmark", "Multimodal", "Visual Reasoning", "Evaluation", "AI Research", "Data Analysis", "Financial AI", "Medical AI", "HuggingFace"]
+    },
+    {
+      "id": 11,
+      "category": "paper",
+      "title": "PersonalAI：面向个性化LLM Agent的知识图谱存储与检索方法系统比较——6类KG方案在记忆召回上的全面测评（HF Papers）",
+      "url": "https://huggingface.co/papers/2506.17001",
+      "summary": "PersonalAI对6类基于知识图谱（KG）的存储与检索方法进行了系统性比较研究，评测它们在个性化LLM Agent的长期记忆场景下的性能表现，涵盖准确率、延迟、更新效率和泛化能力等多个维度。研究结论提供了针对不同应用场景（高频更新 vs. 稳定知识、精确匹配 vs. 模糊检索）选择最优KG策略的实践指南，是当前Agent记忆基础设施设计领域的重要参考。",
+      "source": "HuggingFace Papers (April 26, 2026)",
+      "highlight": "「Agent记忆」是2026年Agent工程化落地的最大技术瓶颈之一：当前主流Agent框架（LangChain Memory、MemGPT等）对记忆的处理方式差异巨大，开发者在选型时缺乏客观的比较依据。PersonalAI通过系统性对比填补了这个空白，是「选哪种KG方案更适合我的Agent」这一工程决策的直接参考。知识图谱相比向量数据库在Agent记忆场景中有独特优势：KG能显式表示实体间关系（「用户A的同事B曾提到偏好C」），而向量相似度只能隐式捕捉这类关联——对于需要推理记忆之间关系的个性化Agent，KG的结构化优势明显。「6类方案全面对比」比单一方案论文更有工程实用价值：实际产品开发中，选型决策需要基于多个维度的横向比较，PersonalAI的比较框架本身就是一个可复用的评估工具，帮助开发者快速收敛到适合自己场景的KG方案。",
+      "stars": 0,
+      "tags": ["Knowledge Graph", "LLM Agent", "Memory", "Personalization", "RAG", "Agent Infrastructure", "AI Research", "Long-term Memory", "Information Retrieval", "HuggingFace"]
+    },
+    {
+      "id": 12,
+      "category": "tool",
+      "title": "Alishahryar1/free-claude-code：通过GitHub Copilot免费使用Claude Sonnet的开源方案——终端/VS Code/Discord三端覆盖，11,500星",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "summary": "free-claude-code是一个利用GitHub Copilot订阅（包含Claude模型访问权限）来免费使用Claude Sonnet 4.5的开源工具，支持终端命令行、VS Code插件和Discord Bot三种使用方式。随着GitHub Copilot将Claude模型纳入其订阅套餐，该工具提供了一种通过现有Copilot订阅低成本访问Claude能力的合规路径，在开发者社区获得极高关注度。",
+      "source": "GitHub Trending (11,500+ stars, April 26, 2026)",
+      "highlight": "「通过GitHub Copilot使用Claude」是Claude能力触达更广泛开发者的重要路径：GitHub Copilot拥有数百万付费用户，而不是所有人都有独立的Anthropic API Key——free-claude-code让Copilot用户无需额外付费即可在熟悉的工作环境中使用Claude能力，大幅降低了采用门槛。这个工具的病毒式传播（短期内11,500星）揭示了一个市场信号：大量开发者对Claude的能力感兴趣但对单独开通Anthropic API账户存在摩擦（信用卡、价格不透明等），通过已有订阅渠道访问是他们的首选路径。VS Code和Discord多端覆盖说明了这个工具不只是技术极客的玩具：Discord集成将Claude能力带入了技术团队的日常协作场景，是AI助手从「个人工具」向「团队工具」渗透的又一示范。",
+      "stars": 11519,
+      "tags": ["Claude", "GitHub Copilot", "Developer Tools", "Open Source", "VS Code", "Discord", "AI Coding", "Cost Optimization", "Claude Sonnet", "GitHub Trending"]
+    },
+    {
+      "id": 13,
+      "category": "news",
+      "title": "TechCrunch深度报道：为何Cohere选择与Aleph Alpha合并——欧洲市场进入权与企业LLM能力的双向互补逻辑",
+      "url": "https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/",
+      "summary": "TechCrunch对Cohere-Aleph Alpha合并交易进行了深度分析，揭示了这笔交易对双方的战略逻辑：Cohere获得了Aleph Alpha在欧洲企业客户、德国监管关系和GDPR合规体系上的积累，而Aleph Alpha在失去独立路线后，借助Cohere的技术和资金维持欧洲「主权AI」的品牌叙事。文章还分析了Schwarze集团作为主要资金方如何通过这笔投资将欧洲最大零售商与两个AI公司深度绑定。",
+      "source": "TechCrunch (April 25, 2026)",
+      "highlight": "这篇分析揭示了「为何是Cohere而不是其他买家」：欧洲的AI主权框架要求客户数据留在欧盟境内、AI供应商在欧洲有实体存在——这一门槛正好挡住了OpenAI和Anthropic等美国公司直接进场，也正好是Cohere通过Aleph Alpha获得的核心资产。「合并而非收购」的表述是刻意选择的叙事策略：Cohere将这个交易定义为「合并」而非「收购」，目的是保留Aleph Alpha「欧洲主权AI代言人」的品牌价值——如果被公开视为美国加拿大公司的简单收购，Aleph Alpha的欧洲政府客户可能立刻流失。Schwarze集团（Lidl/Kaufland母公司）出资的深层逻辑：欧洲最大零售商在供应链、物流、消费者行为分析上有海量数据和AI应用场景需求，通过投资直接绑定AI供应商既是战略采购，也是数据护城河构建。",
+      "stars": 0,
+      "tags": ["Cohere", "Aleph Alpha", "M&A", "European AI", "AI Sovereignty", "Enterprise AI", "Germany", "Schwarze Group", "Strategic Analysis", "AI Market"]
+    }
+  ]
+}
