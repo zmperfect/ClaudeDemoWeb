@@ -110,6 +110,50 @@
       "highlight": "「Agent记忆」是当前AI编程工具使用体验中最令人沮丧的缺陷之一：有经验的Claude Code用户都知道，花了一个小时建立的上下文（项目约定、已踩的坑、代码风格决策等）在会话结束后完全消失，下次开始新会话时需要重新交代——beads直接攻击这个痛点，是「AI+编程」工具层面长期记忆问题的工程化解决方案。「结构化提取」是beads区别于简单上下文保存的关键：直接保存整个对话历史既占用大量token（增加推理成本）又引入大量噪声（失效的调试路径、临时假设等）——beads通过结构化提取只保留「值得记住的信息」（决策、约定、持久知识），并在需要时精确地将相关记忆注入，这是「有选择的持久化」而非「全量历史备份」。beads代表了一类重要的「Agent中间件」产品机会：随着Claude Code、Cursor等AI编程工具的渗透率提升，为这些工具提供增强能力（记忆、工具集成、工作流编排）的中间件层正在成为独立的产品品类——beads在GitHub Trending获得快速关注，说明这个品类的市场需求已经相当成熟。",
       "stars": 152,
       "tags": ["Agent Memory", "Claude Code", "Developer Tools", "Long-term Memory", "Context Management", "AI Coding", "Open Source", "GitHub Trending", "Agentic AI", "Session Persistence"]
+    },
+    {
+      "id": 11,
+      "category": "paper",
+      "title": "DiffNR：扩散增强神经表示用于稀视角CT三维重建——以生成式先验突破稀疏视角下NeRF和3D Gaussian的伪影瓶颈（HF Papers）",
+      "url": "https://arxiv.org/abs/2604.21518",
+      "summary": "稀疏视角CT重建是医疗影像AI的核心挑战：减少CT扫描次数能降低辐射剂量，但输入视角过少会导致NeRF和3D Gaussian等神经渲染方法产生严重伪影。DiffNR将扩散模型作为正则化先验注入神经表示的优化过程，约束重建结果符合真实解剖结构的统计分布，在稀视角设定下显著提升了三维重建质量，同时保持较低的推理成本。论文今日在HuggingFace Papers获得约25个赞。",
+      "source": "HuggingFace Papers (April 27, 2026)",
+      "highlight": "「扩散模型作为先验」是将生成式AI引入反问题求解（Inverse Problem）的重要范式：传统正则化方法（如TV正则化）使用手工设计的先验，而扩散模型能够从大规模数据中学习到复杂的统计先验——这使得DiffNR在面对严重欠定问题（极稀视角）时拥有远超传统方法的约束信息量。医疗影像AI的独特价值在于安全约束：一般生成AI允许「幻觉」（生成不存在的细节），但医疗重建AI的幻觉意味着误诊风险——DiffNR通过将扩散先验与数据一致性约束结合，在生成质量和保真度之间取得平衡，这一权衡机制是医疗AI落地的关键。稀视角CT重建能力成熟后的下游影响：如果AI能从10-20个投影角度重建出高质量CT，则CT扫描仪的X射线剂量可降低5-10倍——这不仅改变癌症筛查的可及性（低剂量意味着可以更频繁地进行预防性筛查），也为儿童和孕妇等辐射敏感人群提供了更安全的影像诊断选项。",
+      "stars": 25,
+      "tags": ["Medical Imaging", "3D Reconstruction", "Diffusion Model", "NeRF", "3D Gaussian", "Sparse View", "CT Reconstruction", "Generative AI", "AI Research", "HuggingFace"]
+    },
+    {
+      "id": 12,
+      "category": "paper",
+      "title": "FlowAnchor：稳定扩散视频编辑信号的流锚点框架——无需反演实现高保真、无闪烁的创意视频编辑（HF Papers）",
+      "url": "https://arxiv.org/abs/2604.22586",
+      "summary": "基于扩散模型的视频编辑长期面临「帧间不一致」难题：对单帧的编辑结果难以在整个视频序列中保持时序一致，导致视频出现闪烁、漂移等视觉伪影。FlowAnchor提出「流锚点」机制，通过光流分析在关键帧上建立稳定的编辑锚点，然后将编辑信号在帧间传播时以锚点为约束防止漂移——整个框架无需耗时的DDIM反演步骤，在编辑速度和视觉一致性上均超越此前最优方法。",
+      "source": "HuggingFace Papers (April 27, 2026)",
+      "highlight": "「无反演」是FlowAnchor最重要的工程创新：当前基于扩散的视频编辑方法大多依赖DDIM反演（将视频帧映射回噪声空间然后条件化重建），这一步骤耗时且引入额外误差——FlowAnchor完全绕过反演，直接在前向扩散过程中通过流锚点传播编辑信号，使编辑速度可以从分钟级降至秒级，这对实时创意工具至关重要。「光流作为编辑约束」的思路代表了将经典计算机视觉方法与生成AI结合的工程哲学：纯深度学习方法在时序一致性问题上表现不稳定，而光流估计能够提供基于物理运动的精确帧间对应关系——FlowAnchor将这两者结合，是「混合传统CV+生成AI」架构在视频领域的典型案例。视频生成和编辑能力在2026年正在从「实验室演示」加速走向「生产工具」：Adobe、Runway等商业工具的用户对编辑速度和视觉质量的要求远高于研究场景——FlowAnchor提供的无反演框架和秒级编辑速度，直接对应了这些生产场景的核心需求。",
+      "stars": 9,
+      "tags": ["Video Editing", "Diffusion Model", "Optical Flow", "Video Generation", "Training-free", "Creative AI", "Generative AI", "Temporal Consistency", "AI Research", "HuggingFace"]
+    },
+    {
+      "id": 13,
+      "category": "repo",
+      "title": "upstash/context7：MCP服务器实时注入最新库文档——根治AI编程助手读到过期文档的顽疾（GitHub热门）",
+      "url": "https://github.com/upstash/context7",
+      "summary": "Context7是Upstash开发的MCP（Model Context Protocol）服务器，专门解决AI编程助手（Cursor、Claude Code、GitHub Copilot等）引用过期库文档的核心问题：AI模型的训练数据有截止日期，而库的API频繁更新，导致AI生成的代码使用了已废弃的接口或不存在的参数。Context7通过MCP协议实时拉取npm、PyPI等包注册表的最新文档并注入到LLM上下文窗口，使AI助手在生成代码时始终参考最新版本规范。",
+      "source": "GitHub Trending (April 27, 2026)",
+      "highlight": "「过期文档」是AI编程助手在专业开发者中口碑下滑的核心原因之一：开发者信任AI生成的代码→代码因使用废弃API在运行时失败→开发者花时间调试→信任度下降——这个恶性循环是当前AI编程工具「演示很好用、实际项目踩坑」体验差距的重要来源。Context7解决的问题的时效性在快速迭代的AI/ML生态中尤为突出：PyTorch、Transformers、LangChain等AI框架的API变动极其频繁，而AI助手的训练数据通常落后半年到一年以上——用过时的API知识去写最新的AI代码，几乎是必然失败的。MCP协议正在成为AI工具集成的标准层：Context7选择MCP而不是自定义集成，意味着一次开发即可支持所有兼容MCP的AI编辑器——这种「写一次、跑到处」的兼容性是MCP生态发展的核心价值主张，Context7是MCP协议在文档注入场景的标志性应用之一。",
+      "stars": 0,
+      "tags": ["MCP", "Model Context Protocol", "Developer Tools", "Documentation", "AI Coding", "Cursor", "Claude Code", "Upstash", "Open Source", "GitHub Trending"]
+    },
+    {
+      "id": 14,
+      "category": "repo",
+      "title": "alibaba/opensandbox：阿里巴巴开源AI Agent安全沙箱——Kubernetes原生隔离运行环境，解决生产Agent部署安全缺口（GitHub热门）",
+      "url": "https://github.com/alibaba/opensandbox",
+      "summary": "OpenSandbox是阿里巴巴开源的AI Agent安全沙箱运行时，构建于Kubernetes之上，为Agent的工具调用、代码执行和网页浏览等高风险操作提供隔离的执行环境。项目的核心设计目标是解决Agent在生产环境部署时的安全盲区：当Agent能够执行任意代码或访问文件系统时，任何提示词注入或越狱攻击都可能导致真实系统损坏——OpenSandbox通过容器级隔离将Agent的操作限制在可控的沙箱范围内，同时保持低延迟的执行性能。",
+      "source": "GitHub Trending (April 27, 2026)",
+      "highlight": "「Agent沙箱」是2026年Agent工程化面临的最紧迫安全问题：随着Agent从「回答问题」进化到「执行操作」（写文件、调API、运行代码、控制浏览器），Agent安全模型从NLP问题变成了系统安全问题——提示词注入的后果不再是「返回不当回答」，而可能是「删除数据库」「泄露凭证」「执行恶意代码」。阿里巴巴选择Kubernetes作为沙箱基础设施的工程决策具有战略意义：Kubernetes是企业生产环境的主流容器编排平台，基于K8s的沙箱方案可以直接集成到现有的DevOps和运维流水线中，无需为AI Agent部署单独的安全基础设施——这降低了企业在生产环境部署Agent的工程复杂度。OpenSandbox代表了大厂将AI安全工程实践开源化的重要趋势：阿里巴巴在内部大规模部署Agent（阿里云通义千问系列）积累的安全运维经验，通过OpenSandbox向开发者社区输出——这类来自生产实战的安全工具往往比学术界提出的方案更贴近实际部署需求。",
+      "stars": 0,
+      "tags": ["Agent Security", "Sandbox", "Kubernetes", "Agentic AI", "Enterprise AI", "Container", "Open Source", "Alibaba", "GitHub Trending", "Agent Infrastructure"]
     }
   ]
 }
