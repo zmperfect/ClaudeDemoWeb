@@ -1,0 +1,159 @@
+{
+  "date": "2026-04-28",
+  "items": [
+    {
+      "id": 1,
+      "category": "paper",
+      "title": "From Skills to Talent：用公司组织框架统一多Agent协调——打破固定团队结构与会话绑定限制，提出跨会话持续学习的Agent组织层（HF Papers）",
+      "url": "https://huggingface.co/papers/2604.22446",
+      "summary": "现有多Agent系统面临三大结构性缺陷：团队结构固定、协调逻辑紧耦合、学习被局限于单次会话无法跨任务积累。本文将真实企业的组织管理原则引入多Agent系统设计，提出「技能到人才」框架——Agent不再被固定分配角色，而是由组织层根据任务需求动态招募和调度具备不同技能的Agent工作者，并通过持久化的学习机制让整个Agent团队随时间持续改进，首次将人力资源管理概念系统性地引入多Agent系统研究。",
+      "source": "HuggingFace Papers (April 28, 2026)",
+      "highlight": "「把公司HR管理原则搬进多Agent系统」是本文最具颠覆性的跨域洞察：现有的多Agent框架（AutoGen、CrewAI等）几乎都在「技术架构层」解决协调问题（消息总线、工具路由、角色定义），而本文指出真正的瓶颈在「组织层」——没有一个原则性的组织机制来决定「何时招募什么技能的Agent、如何评估Agent表现、如何在会话之间积累组织知识」。「会话绑定」是当前生产级多Agent系统的隐性成本：每次启动新任务时，Agent团队需要重新建立工作流程、重新了解彼此的能力边界——这在人类组织中相当于每次项目都重新组建一支完全不认识彼此的团队。From Skills to Talent通过跨会话的组织记忆和动态调度，让Agent团队像真正的企业团队一样随时间成长，这是多Agent系统从「工具集合」走向「自主组织」的关键跃迁。对正在构建企业级Agent编排系统的工程师来说，本文的组织框架提供了一个比技术架构层次更高的系统设计视角。",
+      "stars": 0,
+      "tags": ["Multi-Agent", "Agentic AI", "Agent Orchestration", "Organization", "LLM Agent", "Long-term Memory", "AI Research", "HuggingFace", "Enterprise AI", "Agent Framework"]
+    },
+    {
+      "id": 2,
+      "category": "paper",
+      "title": "WorldMark：首个统一交互式视频世界模型基准——让Genie、YUME、HY-World等模型在同一标准下公平比较（HF Papers）",
+      "url": "https://huggingface.co/papers/2604.21686",
+      "summary": "交互式视频世界模型（Genie、YUME、HY-World、Matrix-Game等）正在快速演进，但每个模型都在自己私有的场景和轨迹上评测，导致跨模型比较几乎不可能。WorldMark提出统一基准套件，提供标准化的测试条件集合（包含多样化的交互场景、动作轨迹和评测指标），使不同世界模型可以在相同条件下进行公平的量化比较，并通过系统实验揭示了当前主流模型在不同任务维度上的能力差距与改进方向。",
+      "source": "HuggingFace Papers (April 28, 2026)",
+      "highlight": "「基准驱动领域收敛」是AI研究史上被反复验证的加速机制：ImageNet统一了图像识别研究、GLUE统一了NLP评测、AtariEnv统一了强化学习——WorldMark试图在交互式视频世界模型这个新兴领域扮演同样的角色，其学术意义远超论文本身的技术贡献。「交互式视频世界模型」与被动视频生成的本质差别在于「行动→结果」的因果一致性：用户在游戏或机器人控制中按下按键，世界模型必须生成符合物理和游戏逻辑的响应视频——这要求模型不仅能生成逼真图像，还必须「理解」动作对世界状态的影响，评测维度因此远比静态视频生成复杂。WorldMark对具身AI和游戏AI的战略价值：目前Genie 2等世界模型已被用于训练游戏AI和机器人策略，但如果世界模型自身的评测标准不统一，下游Agent的训练质量也无从保证——WorldMark通过建立评测标准，为整个「世界模型→Agent训练」的研究链提供了质量锚点。",
+      "stars": 0,
+      "tags": ["World Model", "Video Generation", "Benchmark", "Interactive AI", "Embodied AI", "Game AI", "Evaluation", "AI Research", "HuggingFace", "Foundation Model"]
+    },
+    {
+      "id": 3,
+      "category": "paper",
+      "title": "语义进程函数：分析和校正视频生成非线性语义跳跃——一维信号揭示视频内容的语义演变节奏（HF Papers）",
+      "url": "https://huggingface.co/papers/2604.22554",
+      "summary": "视频生成模型的一个普遍缺陷是语义变化的非线性：长时间内容几乎不变，然后突然发生剧烈的语义跳跃，造成不自然的视觉体验。本文引入「语义进程函数」——一个将视频序列的语义演变压缩为一维信号的表示框架，对每一帧量化其语义变化量，从而直观地分析视频生成的节奏问题。通过将语义进程函数作为条件信号引入生成过程，可以主动控制视频的语义演变速率，在多个生成任务上显著提升了视频的时间语义一致性。",
+      "source": "HuggingFace Papers (April 28, 2026)",
+      "highlight": "「语义进程函数」的核心洞察是将一个难以量化的感知问题（「这个视频为什么感觉卡顿/跳跃？」）转化为一个可计算的信号处理问题——这是AI研究中将主观体验工程化的经典范式。这项工作与当前Sora、Runway Gen-3等视频生成工具的一个真实痛点直接对应：高质量AI视频生成的最大挑战之一不是生成单帧的质量，而是帧间的语义连贯性——时间上应该平滑变化的内容（镜头运动、角色动作）会出现突然跳跃，而应该变化的内容（场景转换）又变化太慢，这个「语义节奏失控」问题一直缺乏系统性的分析工具。语义进程函数作为「视频质量检测器」的应用价值可能超过其作为「生成条件」的价值：即使不用于条件生成，仅作为视频编辑助手也极其有用——自动检测视频中语义节奏异常的片段，标记出需要后期处理的位置，可以大幅降低专业视频编辑的工作量。",
+      "stars": 0,
+      "tags": ["Video Generation", "Semantic Analysis", "Generative AI", "Temporal Consistency", "Creative AI", "Video Editing", "Diffusion Model", "AI Research", "HuggingFace", "Computer Vision"]
+    },
+    {
+      "id": 4,
+      "category": "paper",
+      "title": "VLAA-GUI：GUI自动化Agent的提前停止与死循环克服框架——模块化三组件解决自主GUI Agent的两大顽疾（HF Papers）",
+      "url": "https://huggingface.co/papers/2604.21375",
+      "summary": "自主GUI Agent面临两个根本性挑战：一是「提前停止」——Agent在没有可验证证据的情况下过早宣称任务完成；二是「重复死循环」——Agent在相同的失败动作序列中反复循环无法自救。VLAA-GUI提出围绕三个集成组件构建的模块化GUI Agent框架，分别处理任务完成验证、循环检测与恢复、以及搜索策略决策，在OSWorld、Windows AgentArena等主流GUI Agent基准上均超越现有最优方法。",
+      "source": "HuggingFace Papers (April 28, 2026)",
+      "highlight": "「提前停止」和「重复死循环」是GUI Agent在实际部署中失败率最高的两类错误模式，VLAA-GUI直接将这两个失败模式作为核心研究对象，体现了从理想化实验室设置走向真实部署场景的研究范式转变。GUI Agent的「提前停止」问题在实践中后果特别严重：当Agent宣布「我已经完成了邮件发送」但实际上只是打开了邮件草稿界面，这种误判比「报错退出」危险得多，因为用户以为任务已完成而实际上没有——VLAA-GUI的可验证完成检测机制相当于为Agent增加了「完工检查」步骤，这在工业部署中是不可或缺的安全机制。模块化设计是VLAA-GUI区别于端到端GUI Agent方法的架构哲学：端到端方法将感知、决策、验证全部融合在一个模型中，调试困难且失败时难以定位原因；VLAA-GUI的模块化使每个组件可以独立升级替换——这对需要在特定企业GUI环境中定制部署的工程团队来说，是比算法性能更重要的工程可维护性优势。",
+      "stars": 0,
+      "tags": ["GUI Agent", "Computer-Use Agent", "Agentic AI", "GUI Automation", "Agent Robustness", "Modular AI", "LLM Agent", "AI Research", "HuggingFace", "Benchmark"]
+    },
+    {
+      "id": 5,
+      "category": "paper",
+      "title": "Memanto：为长期自主Agent设计的类型化语义记忆系统——信息论检索打破Agent记忆的计算瓶颈（HF Papers）",
+      "url": "https://huggingface.co/papers/2604.22085",
+      "summary": "生产级自主Agent从单次无状态推理向多会话持久部署演进的过程中，记忆已成为首要架构瓶颈。Memanto提出「类型化语义记忆」架构，将Agent记忆分类为结构化的类型体系（事实记忆、程序记忆、情节记忆等），并引入信息论检索机制——不只按语义相似度检索，而是按信息增益最大化原则选择最有价值的记忆注入，在多个长期Agent任务基准上显著降低了记忆检索的计算开销，同时提升了任务完成质量。",
+      "source": "HuggingFace Papers (April 28, 2026)",
+      "highlight": "「信息论检索」是Memanto区别于现有语义记忆系统的核心技术创新：传统Agent记忆检索使用向量相似度排序（「哪些记忆和当前任务最相似」），但相似不等于有价值——Agent已经知道的信息即使相似度高也不需要再注入；信息增益最大化原则优先检索「能提供Agent当前不知道的新信息」的记忆，这和人类认知心理学中「新异刺激优先处理」的机制高度一致。记忆类型化的实践价值在于不同类型的记忆有不同的检索策略和生命周期：事实记忆（「用户偏好A格式输出」）需要高优先级注入且长期有效，情节记忆（「上周任务X失败了是因为Y」）在相关任务时需要检索但会逐渐过时——类型化使记忆管理系统可以为不同类型的信息制定差异化的管理策略，而不是用一刀切的向量数据库处理所有记忆。对正在构建长期Agent的工程师，Memanto提供了一个在「存什么、怎么存、何时检索」三个维度上都有理论依据的记忆架构参考。",
+      "stars": 0,
+      "tags": ["Agent Memory", "Long-term Agent", "Agentic AI", "Memory Architecture", "Information Theory", "RAG", "LLM Agent", "AI Research", "HuggingFace", "Session Persistence"]
+    },
+    {
+      "id": 6,
+      "category": "paper",
+      "title": "Context Unrolling：全模态Omni模型的跨模态推理展开机制——文本/图像/视频/3D几何联合训练涌现的新推理能力（HF Papers）",
+      "url": "https://huggingface.co/papers/2604.21921",
+      "summary": "Omni是一个在文本、图像、视频、3D几何以及隐空间表示等多种模态上进行原生联合训练的统一多模态模型。联合训练涌现了「Context Unrolling」能力：模型在生成最终预测前，会显式地在多种模态表示之间进行推理展开——例如在回答视觉问题时，先将问题用图像表示「思考」一遍，再切换到文本表示分析，然后综合多模态推理链得出答案。这种跨模态推理展开在多个多模态理解和生成任务上超越了单模态或固定模态组合的基线方法。",
+      "source": "HuggingFace Papers (April 28, 2026)",
+      "highlight": "「Context Unrolling」是一个令人兴奋的涌现现象：它并非人为设计的推理模块，而是在充分的多模态联合训练后自然出现的——这表明不同模态之间存在互补的认知功能（图像表示适合空间推理，语言表示适合逻辑推理，3D表示适合几何推理），当模型能流畅切换模态时，它会自发选择最适合当前推理步骤的模态。这种机制与人类的多感官思维高度类似：人类在解决空间问题时会在脑中「可视化」，在解决语言歧义时会在脑中「默读」，在记忆路线时会「触觉化」——Omni的Context Unrolling是AI系统首次展现类似的自适应多模态推理策略，是向「具身认知」迈进的重要信号。3D几何作为原生训练模态是Omni区别于GPT-4o等现有全模态模型的重要特征：3D几何理解对机器人操控、自动驾驶和空间AI应用至关重要，将其纳入统一多模态训练而不是后期适配，可能带来质量上的本质差异。",
+      "stars": 0,
+      "tags": ["Multimodal LLM", "Omni Model", "Reasoning", "Context Unrolling", "3D Understanding", "Video Understanding", "Foundation Model", "AI Research", "HuggingFace", "LLM"]
+    },
+    {
+      "id": 7,
+      "category": "paper",
+      "title": "TingIS：企业级云服务实时风险事件发现系统——LLM从嘈杂客户工单中提取可操作风险信号（HF Papers）",
+      "url": "https://huggingface.co/papers/2604.21889",
+      "summary": "大规模云原生服务中，即便几分钟的服务中断都可能导致巨大损失，而监控系统常常漏掉隐性风险信号。TingIS是一个生产部署的实时风险事件发现系统，利用LLM从大量嘈杂的客户工单中提取可操作的风险信号：通过对工单进行语义聚类、异常模式识别和事件关联，将碎片化的用户投诉转化为结构化的风险报告，在真实企业环境中实现了从「客户反馈」到「技术团队响应」的分钟级自动化通路。",
+      "source": "HuggingFace Papers (April 28, 2026)",
+      "highlight": "TingIS代表了一类在学术界存在感不高但在工业界极具价值的「AI基础设施论文」：它不提出新的模型架构，而是解决了企业运维中一个真实存在的棘手问题——「客户比监控系统更早发现问题」。客户工单作为风险信号的独特价值在于其覆盖了技术监控的盲区：CPU/内存/延迟指标无法感知的「功能逻辑错误」和「业务流程异常」，往往会在客户工单中以「无法完成支付」「邮件发不出去」等形式首先出现——TingIS通过LLM的语义理解能力，将这些非结构化的用户抱怨转化为结构化的技术告警，相当于在传统指标监控之外建立了「用户体验监控」层。LLM在嘈杂信号中提取有效信息的能力在这个场景中有独特优势：客户工单充满了情绪性表达、非专业描述和无关信息，传统关键词匹配和规则系统在这类噪声下准确率极低，而LLM对自然语言的深度理解使其能够透过噪声识别真正的技术问题，这是LLM在企业IT运维场景中最实用的落地方向之一。",
+      "stars": 0,
+      "tags": ["Enterprise AI", "LLM", "AIOps", "Risk Detection", "Applied AI", "Cloud Computing", "NLP", "Production AI", "AI Research", "HuggingFace"]
+    },
+    {
+      "id": 8,
+      "category": "paper",
+      "title": "Prism-Reranker：超越相关性打分的检索重排器——为RAG和Agent提供贡献度分析与精确证据定位（HF Papers）",
+      "url": "https://huggingface.co/papers/2604.23734",
+      "summary": "现代检索管道（RAG和Agent工具调用）的下游消费者需要的远不止一个「相关性分数」：仅告知调用者「多相关」会迫使Agent将整篇文档塞入上下文，浪费大量token在边缘内容上。Prism-Reranker提出联合生成「贡献度分析」与「证据定位」的重排框架：不只返回相关性排名，还指出文档中哪个段落最贡献于回答问题（贡献度），以及具体支撑答案的文本证据片段（证据定位），使RAG系统可以精确截取有效信息而非整段文档注入。",
+      "source": "HuggingFace Papers (April 28, 2026)",
+      "highlight": "「从相关性排名到证据定位」是检索增强系统的重要进化方向：当前RAG系统的主要成本之一是token浪费——检索到10篇相关文档，每篇2000 token，即使只有其中几段真正与问题相关，也不得不全部塞进上下文（因为不知道哪段最关键）。Prism-Reranker让重排器同时输出「哪段最重要」，使RAG系统可以实现精确的段落级截取而非文档级注入，在保持同等信息质量的前提下大幅降低推理成本。对Agent工具调用的价值同样显著：当Agent调用搜索工具时，它更关心「这段内容能否回答我的具体子问题」而不是「这篇文章总体上与我的任务相关」——Prism-Reranker的贡献度分析将重排从「文档级相关性判断」升级为「子问题级有效性评估」，与Agent的任务分解范式天然契合。Prism-Reranker是「检索-精排-截取」这条工程流水线上目前最欠缺的中间环节的直接解法，对所有在生产中运行RAG或Agent检索系统的工程师都有立即可用的参考价值。",
+      "stars": 0,
+      "tags": ["RAG", "Reranking", "Agentic AI", "Information Retrieval", "Evidence Extraction", "LLM", "Agent Tool Use", "NLP", "AI Research", "HuggingFace"]
+    },
+    {
+      "id": 9,
+      "category": "paper",
+      "title": "Seeing Fast and Slow：视频时间流速作为可学习视觉概念——视频加速/减速的感知与生成控制研究（HF Papers）",
+      "url": "https://huggingface.co/papers/2604.21931",
+      "summary": "如何判断一个视频是被加速还是减速了？如何以不同速率生成视频？尽管视频是现代计算机视觉研究的核心，「时间流速的感知与控制」这一维度却几乎被忽略。本文将时间作为可学习的视觉概念进行系统研究，开发了能够感知视频播放速率并在生成时精确控制速率的模型，在时间速率感知、视频速率转换和速率控制生成三个任务上建立了新的性能基准，为视频理解和创意视频生成提供了缺失的「时间维度」控制能力。",
+      "source": "HuggingFace Papers (April 28, 2026)",
+      "highlight": "「时间流速作为可学习视觉概念」是一个令人惊喜的研究空白的填补：现有视频AI在空间维度（分辨率、风格、内容）上的控制能力已经相当成熟，但时间维度（速率、节奏、时序）的可控性几乎是空白——Sora生成的视频可以指定风格和内容，但无法精确控制「这段奔跑场景看起来比正常快30%」。时间速率感知能力有出乎意料的广泛应用：体育视频分析（检测慢动作片段）、监控视频异常检测（识别被篡改加速的录像）、创意视频编辑（智能时间拉伸）、视频检索（按速率感知语义检索相关片段）——这些应用此前都缺乏AI原生的时间速率感知基础能力，本文的工作填补了这个基础设施缺口。从世界模型的视角看，时间速率理解是「因果推理」的前提：要推断动作导致的后果，模型必须理解动作的时间尺度（快速闪避和缓慢移动的物理后果完全不同）——Seeing Fast and Slow为世界模型补充了时间维度的物理直觉，是具身AI的重要基础研究。",
+      "stars": 0,
+      "tags": ["Video Understanding", "Temporal Reasoning", "Video Generation", "Computer Vision", "World Model", "Embodied AI", "Creative AI", "AI Research", "HuggingFace", "Foundation Model"]
+    },
+    {
+      "id": 10,
+      "category": "repo",
+      "title": "mattpocock/skills：面向真实工程师的Claude Code Skills精选集——直接从.claude目录输出的TypeScript实战技能库（GitHub今日5.6K星）",
+      "url": "https://github.com/mattpocock/skills",
+      "summary": "知名TypeScript教育者Matt Pocock开源了其个人Claude Code Skills集合，直接来源于其真实工程工作中的.claude目录配置。这些Skills覆盖TypeScript项目中的常见自动化工作流（代码生成、重构辅助、测试编写、文档生成等），每个Skill都经过实际工程场景验证，可以直接引入任何使用Claude Code的TypeScript项目中使用。仓库今日获得5,645颗新增星标，成为Claude Code工具链中最受关注的Skills参考库之一。",
+      "source": "GitHub Trending (April 28, 2026)",
+      "highlight": "「直接来自真实工程工作的.claude目录」是这个仓库的最大可信度背书：Matt Pocock是TypeScript社区的顶级教育者（Total TypeScript作者），其公开的Skills不是演示Demo，而是日常工程实践中打磨出的生产级自动化——这类「真实用户的真实配置」比官方文档示例更能反映Claude Code的实际能力边界和最佳实践。5,645颗单日星标反映了开发者社区对「高质量Claude Code Skills示例」的强烈需求：目前Claude Code的Skills生态还处于早期，大多数用户自己探索最佳实践，一个来自知名工程师的高质量参考库可以大幅降低上手成本，这也解释了为什么该仓库能在一天内获得如此高的关注度。与ComposioHQ的awesome-codex-skills（针对Codex CLI）一起，这两个仓库标志着「AI编程助手Skills/工作流」正在从个人配置走向社区共享的生态——类似于vim的awesome-vim、tmux的dotfiles，AI编程工具的最佳实践共享生态正在形成。",
+      "stars": 5645,
+      "tags": ["Claude Code", "Developer Tools", "TypeScript", "Skills", "Workflow Automation", "AI Coding", "Open Source", "GitHub Trending", "Productivity", "Best Practices"]
+    },
+    {
+      "id": 11,
+      "category": "repo",
+      "title": "Alishahryar1/free-claude-code：无需付费在终端/VSCode/Discord中使用Claude Code——利用免费API额度的开源替代方案（今日2.9K星）",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "summary": "free-claude-code提供了在不付费订阅Claude Code的情况下，通过终端、VSCode扩展或Discord界面使用Claude Code核心功能的开源方案，项目名称\"openclaw\"暗示其定位为Claude Code的开放替代。项目利用可用的免费API额度或低成本访问路径，使开发者能够体验Claude Code的AI编程辅助能力，今日在GitHub Trending获得2,949颗新增星标，表明社区对低成本Claude Code访问路径的高度兴趣。",
+      "source": "GitHub Trending (April 28, 2026)",
+      "highlight": "free-claude-code的高星标反映了当前AI编程工具生态的一个结构性张力：Claude Code的能力获得了开发者社区的广泛认可，但订阅成本对学生、独立开发者和发展中国家的开发者来说是实质性门槛——这类「降低访问门槛」的项目往往能在社区获得强烈共鸣，因为它代表了「技术民主化」的诉求。需要注意的是，此类项目的稳定性和合规性通常存在不确定性，用户应仔细评估其技术实现方式和使用条款合规性。从产品角度看，free-claude-code类项目的流行是Anthropic的一个市场信号：对Claude Code能力感兴趣但价格敏感的开发者群体体量显著，这是Anthropic考虑扩大免费额度或推出更低价格层级的重要市场依据。",
+      "stars": 2949,
+      "tags": ["Claude Code", "Free Tools", "AI Coding", "Developer Tools", "Open Source", "GitHub Trending", "Accessibility", "VSCode", "Terminal"]
+    },
+    {
+      "id": 12,
+      "category": "repo",
+      "title": "microsoft/VibeVoice：微软开源前沿语音AI——实时语音交互的开放源代码框架（今日757星）",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "summary": "VibeVoice是微软开源的前沿语音AI框架，定位为「Open-Source Frontier Voice AI」，提供实时语音交互的开放实现。作为微软AI工具链的新成员，VibeVoice旨在为开发者提供构建语音交互应用的开源基础设施，与微软Azure AI语音服务形成互补，今日在GitHub Trending获得757颗新增星标。",
+      "source": "GitHub Trending (April 28, 2026)",
+      "highlight": "微软将「前沿语音AI」定位为开源发布，延续了其在AI基础设施领域的开源战略（Phi系列模型、MarkItDown等），VibeVoice的发布时机恰在OpenAI Advanced Voice Mode和Google Gemini Live大规模推广后，暗示微软正在这一关键战场建立开源生态护城河。实时语音交互正在成为AI应用的下一个主战场：GPT-4o的「her-like」语音演示改变了用户对AI交互的期望，而完全依赖云端API的语音AI存在延迟和成本问题——VibeVoice的开源框架为开发者提供了更多控制权，可以在本地或私有云部署高质量的语音交互能力。对构建语音Agent、实时辅助工具或无障碍应用的开发者，VibeVoice值得深入评估其技术架构和性能特性。",
+      "stars": 757,
+      "tags": ["Voice AI", "Speech", "Open Source", "Microsoft", "Real-time AI", "Multimodal", "Developer Tools", "GitHub Trending", "Audio AI", "Foundation Model"]
+    },
+    {
+      "id": 13,
+      "category": "repo",
+      "title": "TauricResearch/TradingAgents：多Agent LLM金融交易框架——专为量化交易场景设计的多智能体协作系统（今日248星）",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "summary": "TradingAgents是一个将多Agent LLM框架应用于量化金融交易的开源项目，设计了多个专业Agent协作处理金融交易决策：分别负责市场数据分析、新闻情感评估、风险管理和交易执行等子任务，通过Agent间的信息共享和协商机制做出综合的交易决策。项目提供了完整的回测框架和实时数据接入支持，是金融AI和多Agent研究的结合点。",
+      "source": "GitHub Trending (April 28, 2026)",
+      "highlight": "TradingAgents代表了多Agent框架在垂直行业落地的典型路径：金融交易天然符合多Agent协作范式——不同专业知识（技术分析、基本面分析、宏观经济、风险控制）对应不同的专业Agent，信息综合和决策协商过程可以映射到Agent间的通信协议。金融是AI Agent高风险落地场景中监管最完善、风险最可量化的领域之一：与医疗或法律AI相比，金融AI的「幻觉」后果是可以货币化量化的（亏损多少钱），这使得金融成为AI Agent能力评估和风险管理研究最理想的测试场景之一。需要警惕的是，将LLM Agent直接用于实盘交易存在显著风险——LLM的幻觉和非确定性输出在金融场景中可能造成实际损失。TradingAgents更适合作为研究框架、策略原型验证工具，或结合严格的人工审核机制使用，而非全自动实盘部署。",
+      "stars": 248,
+      "tags": ["Multi-Agent", "Finance AI", "Trading", "LLM Agent", "Quantitative Finance", "Open Source", "GitHub Trending", "Agentic AI", "Financial AI", "Applied AI"]
+    },
+    {
+      "id": 14,
+      "category": "repo",
+      "title": "ComposioHQ/awesome-codex-skills：Codex CLI自动化工作流技能精选集——横跨Codex CLI和API的实用技能库（今日638星）",
+      "url": "https://github.com/ComposioHQ/awesome-codex-skills",
+      "summary": "awesome-codex-skills是Composio整理的Codex CLI和API自动化技能精选集合，提供可直接用于工作流自动化的实用Codex技能，覆盖代码操作、文件管理、API集成、测试生成等场景。仓库以「awesome list」格式组织，每个技能附有使用示例和适用场景说明，帮助开发者快速发现和复用Codex的最佳实践，今日获得638颗新增星标。",
+      "source": "GitHub Trending (April 28, 2026)",
+      "highlight": "awesome-codex-skills与同日大热的mattpocock/skills（Claude Code）共同揭示了2026年AI编程工具生态的一个重要趋势：「Skills/Prompt最佳实践社区化共享」正在成为AI编程工具生态的重要基础设施层。Composio选择以「awesome list」格式组织内容的策略非常聪明：awesome list格式在开发者社区已有十余年的使用习惯和传播机制，将Codex技能以这种格式发布，可以直接借用已有的社区共享范式，降低贡献者的参与门槛。对于从GitHub Copilot迁移到Codex CLI或正在评估AI编程工具的开发者，awesome-codex-skills提供了一个快速了解Codex实际能力边界的参考——实际用户场景的技能库比官方文档更真实地反映了工具在具体工作流中的表现，是选型决策的重要参考资源。",
+      "stars": 638,
+      "tags": ["Codex", "OpenAI", "Developer Tools", "CLI", "Workflow Automation", "AI Coding", "Open Source", "GitHub Trending", "Skills", "Best Practices"]
+    }
+  ]
+}
