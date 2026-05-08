@@ -1,0 +1,170 @@
+{
+  "date": "2026-05-07",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "Anthropic签约SpaceX Colossus-1数据中心，获取22万块GPU为Claude提供算力",
+      "url": "https://the-decoder.com/anthropic-taps-spacexs-colossus-1-data-center-for-220000-gpus-to-power-claude/",
+      "summary": "Anthropic与SpaceX达成合作，将使用其位于德克萨斯州的Colossus-1数据中心的22万块GPU来运行Claude模型。这是Anthropic在基础设施层面的重大扩展，标志着AI公司与太空科技公司之间的跨界合作进入新阶段。",
+      "source": "The Decoder (May 6, 2026)",
+      "highlight": "Anthropic同时宣布与Google Cloud签订2000亿美元五年合约，加上SpaceX的GPU合作，展现了其在算力储备上的激进布局——这暗示下一代Claude模型的训练规模将远超当前水平，对整个AI竞争格局有重要信号意义。",
+      "stars": 0,
+      "tags": ["Anthropic", "Claude", "Infrastructure", "GPU", "SpaceX", "AI Compute", "Industry News"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "DeepSeek首轮融资估值或达450亿美元，中国国家芯片基金领投",
+      "url": "https://techcrunch.com/2026/05/06/deepseek-could-hit-45b-valuation-from-its-first-investment-round/",
+      "summary": "中国AI实验室DeepSeek即将完成其首次外部融资，估值可能达到450亿美元，由中国国家集成电路基金领投。DeepSeek凭借开源模型（V4系列）在全球开发者社区获得广泛采用，其高效训练方法论已成为行业标杆。",
+      "source": "TechCrunch (May 6, 2026)",
+      "highlight": "DeepSeek从未融资到一步达到450亿估值，映射出中国AI领域的政策支持力度和开源模型的商业价值认可——这也意味着开源LLM赛道将获得更多资本加持，对Llama、Qwen等开源模型生态的竞争格局产生深远影响。",
+      "stars": 0,
+      "tags": ["DeepSeek", "Funding", "China AI", "Open Source LLM", "Valuation", "Industry News"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "Google将Gemma 4推理速度提升3倍：多token预测技术突破",
+      "url": "https://the-decoder.com/google-speeds-up-gemma-4-threefold-with-multi-token-prediction/",
+      "summary": "Google发布Gemma 4模型的多token预测（Multi-Token Prediction）加速方案，将推理速度提升3倍而不损失生成质量。该技术让模型每次前向传播预测多个token而非逐个生成，是推理效率优化的重要工程突破。",
+      "source": "The Decoder (May 6, 2026)",
+      "highlight": "多token预测从学术概念到生产部署的落地对整个开源LLM社区意义重大：如果Gemma 4开源版本包含该优化，意味着本地部署的推理成本将大幅下降，RTX 3090/4090等消费级显卡上运行大模型的实用性将显著提升。",
+      "stars": 0,
+      "tags": ["Google", "Gemma", "Inference Optimization", "Multi-Token Prediction", "Open Source", "LLM", "Performance"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "Google和Meta加速构建个人AI Agent，Anthropic和OpenAI在Agent竞赛中领先",
+      "url": "https://the-decoder.com/google-and-meta-race-to-build-personal-ai-agents-as-anthropic-and-openai-pull-further-ahead/",
+      "summary": "行业报道分析了当前AI Agent竞赛格局：Anthropic的Claude Code和OpenAI的Codex/Operator在自主Agent能力上持续领先，而Google（Project Mariner/Remy）和Meta正在加速追赶，竞争焦点已从「对话AI」全面转向「自主行动Agent」。",
+      "source": "The Decoder (May 6, 2026)",
+      "highlight": "Agent能力正式成为AI公司的核心竞争维度，从对话模型到自主行动的范式转变已成为行业共识——Google测试中的Remy Agent专注于用户控制和权限管理，反映出Agent安全和可控性将是下一阶段竞争的关键差异化因素。",
+      "stars": 0,
+      "tags": ["AI Agent", "Google", "Meta", "Anthropic", "OpenAI", "Competition", "Personal Agent", "Industry Trend"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "OpenAI联合AMD、Broadcom、Intel、Microsoft和NVIDIA打造AI超算网络协议",
+      "url": "https://the-decoder.com/openai-built-a-networking-protocol-with-amd-broadcom-intel-microsoft-and-nvidia-to-fix-ai-supercomputer-bottlenecks/",
+      "summary": "OpenAI与五大硬件厂商联合发布新的AI超级计算机网络互连协议，旨在解决大规模训练集群中GPU间通信的带宽瓶颈问题。该协议标准化了跨厂商的高速互连接口，有望打破NVIDIA NVLink的独占局面。",
+      "source": "The Decoder (May 6, 2026)",
+      "highlight": "这是OpenAI首次在基础硬件协议层面主导行业标准——标志着AI前沿实验室的影响力已从软件和模型延伸到底层硬件架构，对NVIDIA的生态垄断形成实质挑战。多厂商参与也意味着AI训练集群的成本可能在中期显著下降。",
+      "stars": 0,
+      "tags": ["OpenAI", "Infrastructure", "Networking", "AMD", "NVIDIA", "Hardware", "AI Training", "Standard"]
+    },
+    {
+      "id": 6,
+      "category": "paper",
+      "title": "OpenSearch-VL：开源前沿多模态搜索Agent完整方案——从训练到部署的端到端Deep Search复现",
+      "url": "https://huggingface.co/papers/2605.05185",
+      "summary": "Deep Search已成为前沿多模态Agent的关键能力，但顶级搜索Agent难以复现。OpenSearch-VL提供了完整的开源方案：包括训练数据构造、多阶段训练流程、搜索策略和推理链设计，使研究者可以从零复现一个具备主动搜索、证据验证和多步推理能力的多模态搜索Agent。",
+      "source": "HuggingFace Papers (May 7, 2026)",
+      "highlight": "「可复现性」是OpenSearch-VL最大的贡献——当前Deep Search领域存在严重的「论文可读但不可做」问题，各大厂的搜索Agent只展示效果不公开方法。OpenSearch-VL的开源方案将加速整个社区在搜索Agent方向的研究迭代，对构建RAG增强应用的工程师也有直接参考价值。",
+      "stars": 0,
+      "tags": ["Search Agent", "Multimodal", "Deep Search", "Open Source", "RAG", "Agentic AI", "HuggingFace", "AI Research"]
+    },
+    {
+      "id": 7,
+      "category": "paper",
+      "title": "重新思考推理密集型检索：评估和提升Agentic搜索系统中的检索器",
+      "url": "https://huggingface.co/papers/2605.04018",
+      "summary": "推理密集型检索（Reasoning-Intensive Retrieval）旨在为下游推理提供支持性证据，而非简单的主题匹配。本文系统评估了现有检索器在Agentic搜索系统中的表现，发现传统语义相似度检索在需要逻辑推理的场景下严重不足，并提出了针对Agent搜索需求优化的检索器改进方法。",
+      "source": "HuggingFace Papers (May 7, 2026)",
+      "highlight": "这项工作直击RAG系统的核心痛点：当Agent需要多步推理时，检索到的文档必须提供「互补证据」而非仅仅是「相关内容」——当前RAG pipeline中检索器和推理器之间的gap是导致Agent「知道去哪里找但找不到有用信息」的根本原因。对正在优化RAG系统的工程师有直接实践指导。",
+      "stars": 0,
+      "tags": ["RAG", "Retrieval", "Reasoning", "Agentic Search", "Information Retrieval", "LLM Agent", "AI Research", "HuggingFace"]
+    },
+    {
+      "id": 8,
+      "category": "paper",
+      "title": "ResRL：通过负样本投影残差强化学习提升LLM推理能力",
+      "url": "https://huggingface.co/papers/2605.00380",
+      "summary": "基于可验证奖励的强化学习（RLVR）虽然有效增强LLM推理能力，但通常因过度激励正奖励而导致生成多样性不足。ResRL提出负样本投影残差强化学习方法，通过对错误推理路径的投影分析来指导模型探索更多样化的正确推理策略，在数学和代码推理任务上显著提升了表现。",
+      "source": "HuggingFace Papers (May 7, 2026)",
+      "highlight": "「正奖励过度激励」是当前RLVR训练（如DeepSeek-R1方法）的已知缺陷——模型会过度收敛到少数「安全」的推理模式而丧失创造性推理能力。ResRL的核心insight是「错误答案中也包含有价值的推理片段」，通过残差投影提取这些信息来拓宽正确推理的搜索空间，是对RLVR训练范式的重要补充。",
+      "stars": 0,
+      "tags": ["Reinforcement Learning", "LLM Reasoning", "RLVR", "Training", "AI Research", "HuggingFace", "DeepSeek"]
+    },
+    {
+      "id": 9,
+      "category": "paper",
+      "title": "RLDX-1：面向通用机器人策略的视觉-语言-动作模型技术报告",
+      "url": "https://huggingface.co/papers/2605.03269",
+      "summary": "视觉-语言-动作模型（VLA）虽然从预训练VLM继承了广泛的场景理解和语言条件泛化能力，但在精确操控和动态适应方面仍有不足。RLDX-1提出了一套从预训练到部署的完整技术方案，在保持语言条件泛化的同时显著提升了机器人在未见场景中的操控精度和适应速度。",
+      "source": "HuggingFace Papers (May 7, 2026)",
+      "highlight": "VLA是具身AI领域当前最热的架构方向——它本质上是让机器人直接「继承」LLM的世界知识来理解任务指令和环境，RLDX-1的技术报告对于想要构建基于大模型的机器人系统的团队来说是直接可参考的工程蓝图。",
+      "stars": 0,
+      "tags": ["Robotics", "VLA", "Embodied AI", "Vision-Language-Action", "Foundation Model", "AI Research", "HuggingFace"]
+    },
+    {
+      "id": 10,
+      "category": "paper",
+      "title": "MedSkillAudit：医学研究Agent技能的领域特定审计框架",
+      "url": "https://huggingface.co/papers/2604.20441",
+      "summary": "Agent技能作为模块化、可复用的能力单元在AI Agent系统中日益普及，但医学研究Agent技能需要超越通用评估的安全保障：科学完整性、方法学有效性、可重复性和边界安全。MedSkillAudit提出了一个专门针对医学场景的Agent技能审计框架，确保AI Agent在高风险医学决策中的可靠性。",
+      "source": "HuggingFace Papers (May 7, 2026)",
+      "highlight": "随着Agent Skills生态快速扩展（如Claude Code Skills、Copilot Extensions），如何确保特定领域的Agent技能符合该领域的专业标准是一个被严重忽视的问题。MedSkillAudit为「高风险领域的Agent技能质量保证」提供了方法论模板，其审计框架的设计理念可推广到金融、法律等其他高风险领域。",
+      "stars": 0,
+      "tags": ["Medical AI", "Agent Skills", "Safety", "Audit Framework", "AI Governance", "Healthcare", "AI Research", "HuggingFace"]
+    },
+    {
+      "id": 11,
+      "category": "repo",
+      "title": "DeepClaude：用DeepSeek V4 Pro替代Claude Code后端，成本降低17倍",
+      "url": "https://github.com/aattaran/deepclaude",
+      "summary": "开源项目允许开发者保留Claude Code的自主Agent循环和完整用户体验，但将后端模型替换为DeepSeek V4 Pro或任何兼容Anthropic API的服务，实现相同功能下17倍的成本节省。支持OpenRouter路由和自定义后端配置。",
+      "source": "GitHub (Created May 3, 2026)",
+      "highlight": "Claude Code的Agent循环设计（规划→执行→验证→修复）已被证明是目前最有效的编码Agent架构之一，DeepClaude的价值在于将「最佳Agent框架」与「最佳性价比模型」解耦——对于大量使用编码Agent但预算有限的团队来说是极具吸引力的方案。1519星的快速增长验证了市场需求。",
+      "stars": 1519,
+      "tags": ["Claude Code", "DeepSeek", "Cost Optimization", "Coding Agent", "Open Source", "Tool"]
+    },
+    {
+      "id": 12,
+      "category": "repo",
+      "title": "Vercel Deepsec：基于编码Agent的代码安全漏洞扫描框架",
+      "url": "https://github.com/vercel-labs/deepsec",
+      "summary": "由Vercel Labs开发的安全工具，利用编码Agent（而非传统静态分析）来深度扫描代码库中的安全漏洞。Agent能够理解代码的业务逻辑上下文，发现静态分析工具难以检测的逻辑漏洞和安全隐患。",
+      "source": "GitHub (Created Apr 30, 2026)",
+      "highlight": "用编码Agent替代传统SAST工具的趋势正在加速——Agent理解代码语义和业务逻辑的能力使其能发现「技术上合法但逻辑上危险」的漏洞（如权限绕过、数据泄露路径），这是基于模式匹配的传统安全工具的本质盲区。Vercel的品牌背书使其更容易进入企业安全工具链。",
+      "stars": 1472,
+      "tags": ["Security", "Coding Agent", "Vulnerability", "Vercel", "DevSecOps", "Open Source", "Tool"]
+    },
+    {
+      "id": 13,
+      "category": "repo",
+      "title": "Open-Slide：为AI Agent设计的幻灯片生成框架",
+      "url": "https://github.com/1weiho/open-slide",
+      "summary": "一个专为AI Agent构建的幻灯片框架，让Agent能够程序化地创建、编辑和管理演示文稿。提供结构化的API接口，Agent可以通过工具调用直接操作幻灯片内容、布局和样式，无需依赖传统GUI操作。",
+      "source": "GitHub (Created Apr 26, 2026)",
+      "highlight": "「Agent-native工具」是一个正在形成的新品类——传统软件为人类设计UI，而Open-Slide等项目为Agent设计API-first的操作接口。当Agent需要产出视觉化文档时，直接调用结构化API比模拟鼠标点击效率高数个数量级，预示着一波「Agent-native SaaS」的兴起。",
+      "stars": 2038,
+      "tags": ["Agent Tool", "Presentation", "Slides", "API-first", "Agentic AI", "Open Source", "Productivity"]
+    },
+    {
+      "id": 14,
+      "category": "repo",
+      "title": "TokenSpeed：极速LLM推理引擎，追求推理速度极限",
+      "url": "https://github.com/lightseekorg/tokenspeed",
+      "summary": "TokenSpeed定位为「光速LLM推理引擎」，通过深度优化推理内核实现极致的token生成速度。项目刚创建一天即获得440星，显示社区对高性能本地推理引擎的强烈需求。",
+      "source": "GitHub (Created May 6, 2026)",
+      "highlight": "LLM推理引擎竞争白热化（vLLM、llama.cpp、SGLang、TensorRT-LLM），TokenSpeed的出现表明社区认为现有方案仍有大幅优化空间——一天内440星的增长速度说明开发者对推理性能的追求远未满足，这与Agent需要快速迭代调用LLM的使用场景直接相关。",
+      "stars": 440,
+      "tags": ["Inference Engine", "Performance", "LLM", "Optimization", "Open Source", "Tool"]
+    },
+    {
+      "id": 15,
+      "category": "repo",
+      "title": "RunbookHermes：基于Hermes的AIOps Agent，证据驱动的事件响应与审批门控修复",
+      "url": "https://github.com/Tommy-yw/RunbookHermes",
+      "summary": "面向生产环境的AIOps Agent，实现证据驱动的事件响应工作流：自动收集告警上下文、关联历史事件、生成修复方案，并通过审批门控确保人工确认后才执行修复操作。支持Runbook自动学习，持续积累组织的运维知识。",
+      "source": "GitHub (Created May 1, 2026)",
+      "highlight": "「审批门控」是RunbookHermes区别于简单告警助手的关键设计——在生产运维场景中，Agent未经确认的自动修复比不修复更危险。这种「Agent建议+人工审批+自动执行」的模式是当前Agent在高风险场景落地的最佳实践范式。",
+      "stars": 530,
+      "tags": ["AIOps", "Incident Response", "Agent", "DevOps", "Runbook", "Open Source", "Production AI"]
+    }
+  ]
+}
