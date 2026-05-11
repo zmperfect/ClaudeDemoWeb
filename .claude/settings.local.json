@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git:*)",
+      "Bash(winget install:*)",
+      "Bash(cmd.exe:*)",
+      "Bash(powershell.exe:*)",
+      "Bash(C:/Users/tomjrli/AppData/Local/Microsoft/WindowsApps/winget.exe install:*)",
+      "Bash(\"C:/Program Files/GitHub CLI/gh.exe\" auth status)",
+      "Bash(\"C:/Users/tomjrli/AppData/Local/Microsoft/WindowsApps/gh.exe\" auth:*)",
+      "Bash(\"C:/Program Files/GitHub CLI/gh.exe\" repo create ClaudeDemoWeb --public --source=. --push)",
+      "Bash(\"C:/Program Files/GitHub CLI/gh.exe\" api repos/zmperfect/ClaudeDemoWeb/pages -X POST -f \"build_type=workflow\")",
+      "Bash(\"C:/Program Files/GitHub CLI/gh.exe\" api repos/zmperfect/ClaudeDemoWeb/pages -X POST -f \"source[branch]=master\" -f \"source[path]=/\")",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:news.ycombinator.com)",
+      "WebFetch(domain:deepmind.google)",
+      "WebFetch(domain:cursor.com)",
+      "WebFetch(domain:qwen.ai)",
+      "WebFetch(domain:www.mintlify.com)",
+      "WebFetch(domain:ismcpdead.com)"
+    ]
+  }
+}
