@@ -1,0 +1,170 @@
+{
+  "date": "2026-05-12",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "百度Ernie 5.1将预训练成本削减94%，Once-For-All框架一次训练生成整个模型家族",
+      "url": "https://the-decoder.com/baidus-ernie-5-1-cuts-94-percent-of-pre-training-costs-while-competing-with-top-models/",
+      "summary": "百度发布Ernie 5.1，通过'Once-For-All'弹性训练框架（在单次训练中同时优化不同大小的模型）和基础设施重构（解耦模型更新、生成和评估为独立子系统），将预训练成本降至同类模型的6%。在Search Arena排行榜排名全球第四，仅次于Claude Opus和GPT-5.5，为中国模型最佳。",
+      "source": "The Decoder (May 11, 2026)",
+      "highlight": "94%的成本削减不是简单的训练trick，而是范式级创新：'训练一次得到整个模型家族'意味着小模型不再需要独立训练或蒸馏，这对资源有限的团队是重大利好。混合精度漂移修正技术（MoE drift reduction）将训练drift减半，对训练大规模MoE模型的工程团队有直接参考价值。",
+      "stars": 0,
+      "tags": ["Baidu", "Ernie", "Training Efficiency", "MoE", "Cost Reduction", "China AI", "LLM"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "AI可在30分钟内将安全补丁逆向为可用漏洞利用，90天披露窗口或已失效",
+      "url": "https://the-decoder.com/ai-turns-patches-into-working-exploits-in-30-minutes-and-the-90-day-disclosure-window-is-the-casualty/",
+      "summary": "Cloudflare安全研究员Himanshu Anand（三次DEF CON决赛选手）演示了LLM可在约30分钟内从安全补丁的代码diff中构建可用exploit。他指出90天漏洞披露窗口的四个基础假设已不成立：多人同时发现漏洞、利用速度加快、禁令被独立发现者打破、Linux 'Dirty Frag'漏洞5天禁令数小时内即被突破。",
+      "source": "The Decoder (May 11, 2026)",
+      "highlight": "这直接冲击了整个安全行业赖以运转的'负责任披露'框架——如果AI能在补丁发布后30分钟内生成exploit，那传统的'先通知厂商，等90天再公开'的流程就是给攻击者留时间窗口。建议所有安全团队将关键漏洞补丁视为紧急事件，立即部署而非等待维护窗口。",
+      "stars": 0,
+      "tags": ["Cybersecurity", "Exploit", "Vulnerability Disclosure", "AI Safety", "Cloudflare", "Security"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "OpenAI子公司DeployCo复刻Palantir模式：派驻工程师深度嵌入企业，构建工作流护城河",
+      "url": "https://the-decoder.com/openais-deployco-subsidiary-adopts-palantirs-playbook-building-a-moat-from-workflows-no-lab-can-simulate/",
+      "summary": "OpenAI成立多数控股子公司DeployCo，获TPG/高盛/软银超40亿美元投资，收购英国咨询公司Tomoro及其约150名前线部署工程师。模式是派工程师驻场企业，将OpenAI模型与企业专有数据和合规要求深度集成，叠加咨询费+API消耗双重收入流。2000多家投资方组合公司成为现成客户。",
+      "source": "The Decoder (May 11, 2026)",
+      "highlight": "当模型能力趋于同质化时，竞争优势从模型本身转向企业锁定——这是OpenAI对'模型商品化'趋势的战略回应。一旦企业用OpenAI特定架构嵌入运营流程，迁移成本将极其高昂。这对Anthropic和Google的企业市场策略构成直接威胁，也标志着AI公司从'卖API'向'卖解决方案'的范式转变。",
+      "stars": 0,
+      "tags": ["OpenAI", "Enterprise", "DeployCo", "Business Model", "Palantir", "Consulting", "Strategy"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "EU监管困境：OpenAI主动开放GPT-5.5审查权限，Anthropic拒绝提供Mythos访问",
+      "url": "https://the-decoder.com/the-eu-wants-to-regulate-ai-but-needs-openai-and-anthropic-to-let-regulators-through-the-door/",
+      "summary": "OpenAI主动向欧盟委员会提供GPT-5.5 Cyber模型的直接审查权限，潜在接收方包括ENISA、AI办公室和DG Connect。而Anthropic在就Mythos模型进行'四到五次会议'后，监管机构仍未获得实际访问权。这暴露了欧盟AI法案的根本缺陷：执行依赖企业自愿配合。",
+      "source": "The Decoder (May 11, 2026)",
+      "highlight": "这不仅是合规问题，更是AI治理的结构性难题：欧洲缺乏自己的前沿AI公司，必须与外国企业谈判才能对部署给欧洲用户的模型进行有效监管。OpenAI的'透明度攻势'同时也是竞争策略——通过配合监管来给竞争对手施加压力。",
+      "stars": 0,
+      "tags": ["EU", "AI Regulation", "OpenAI", "Anthropic", "Claude Mythos", "Governance", "Policy"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "NVIDIA今年已向AI公司投资超400亿美元，OpenAI独占300亿，批评者质疑循环融资",
+      "url": "https://the-decoder.com/nvidia-pumps-over-40-billion-dollars-into-ai-partners-so-far-in-2026/",
+      "summary": "NVIDIA 2025年累计向AI公司投资超400亿美元，其中OpenAI 300亿、数据中心运营商IREN 21亿、光纤公司Corning 32亿，另外还投资了Anthropic、xAI、CoreWeave等。CEO黄仁勋称要支持'所有'基础模型公司而非选边站。但批评者指出这本质上是GPU预融资——资金流回购买NVIDIA产品。",
+      "source": "The Decoder (May 11, 2026)",
+      "highlight": "这是一个精妙的商业飞轮：NVIDIA投资AI公司→AI公司用融资购买NVIDIA GPU→NVIDIA收入增长→股价上涨→有更多资金投资。如果AI需求减速，这个循环可能变成风险放大器。对理解当前AI热潮的底层资金结构至关重要。",
+      "stars": 0,
+      "tags": ["NVIDIA", "Investment", "OpenAI", "GPU", "AI Industry", "Finance", "Circular Investment"]
+    },
+    {
+      "id": 6,
+      "category": "news",
+      "title": "生成式AI将身份盗窃工业化：40%数据泄露涉及AI，2026年自主Agent或成主要驱动力",
+      "url": "https://the-decoder.com/generative-ai-turns-identity-theft-into-an-industrial-scale-operation/",
+      "summary": "Bloomberg调查揭露AI驱动的身份盗窃已工业化：FraudGPT等专用模型可在数分钟内测试数十万个SSN组合、生成deepfake驾照骗过银行身份验证、同时以不同身份向多家银行自动提交贷款申请。Experian报告去年40%的数据泄露涉及AI，专家预测2026年自主AI Agent将成为主要驱动力。",
+      "source": "The Decoder (May 11, 2026)",
+      "highlight": "从手动钓鱼到AI全自动'bust-out'诈骗链条（开小额信用→升级大额→刷爆→遗弃），攻击效率提升了数个数量级。这对金融科技和身份验证行业是直接警告：传统的KYC流程面对AI生成的文件和deepfake已不够用，需要从根本上重新设计身份验证架构。",
+      "stars": 0,
+      "tags": ["AI Safety", "Identity Theft", "Deepfake", "FraudGPT", "Cybersecurity", "Finance", "Bloomberg"]
+    },
+    {
+      "id": 7,
+      "category": "paper",
+      "title": "Soohak：64位数学家打造的研究级数学基准，最强模型仅答对30%，无模型超50%识别无解题",
+      "url": "https://huggingface.co/papers/2605.09063",
+      "summary": "EleutherAI联合64位数学家创建439题研究级数学基准Soohak，包含Challenge（340题研究生级）、Refusal（99题无解题识别）和Mini（702题奥赛至研究生级）三个子集。Gemini-3-Pro最高仅30.4%，开源模型落后约16-17个百分点。最关键发现：所有模型在Refusal（识别无解题）上均不超50%，且该能力不随规模线性提升。",
+      "source": "HuggingFace Papers (May 12, 2026)",
+      "highlight": "两个核心洞察：1）'识别问题不可解'比'解决问题'更难，这对Agent自主数学推理有深远影响——一个不知道何时该放弃的Agent可能在死胡同上浪费大量算力；2）开源模型在研究级数学上与闭源差距巨大（16-17pp），暗示开源社区在数学推理训练数据和方法上仍有显著短板。",
+      "stars": 0,
+      "tags": ["Math Reasoning", "Benchmark", "EleutherAI", "LLM Evaluation", "Refusal", "Research", "Frontier AI"]
+    },
+    {
+      "id": 8,
+      "category": "repo",
+      "title": "NousResearch Hermes Agent：自我改进的开源AI Agent，支持多平台统一记忆",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "summary": "Nous Research发布的自我改进Agent，核心特性是学习闭环：从经验中自动创建技能、使用中改进技能、主动持久化知识、搜索历史对话、构建用户画像。支持Terminal/Telegram/Discord/Slack/WhatsApp/Signal/Email多平台统一网关，兼容OpenAI/Anthropic/OpenRouter等200+模型，可运行在$5 VPS到云端任意环境。",
+      "source": "GitHub Trending (144.9K stars)",
+      "highlight": "144K星标的爆发式增长反映了社区对'可持续学习Agent'的强烈需求。与一次性对话Agent不同，Hermes Agent的核心差异化是'越用越好'：程序化记忆+技能自动生成+子Agent并行——这更接近Agent的终极形态。开源+MIT许可意味着可以完全本地部署，对隐私敏感场景极具吸引力。",
+      "stars": 144933,
+      "tags": ["AI Agent", "Self-Improving", "Nous Research", "Open Source", "Multi-Platform", "Memory", "Skills"]
+    },
+    {
+      "id": 9,
+      "category": "repo",
+      "title": "AgentMemory：AI编码Agent的持久化记忆系统，token消耗降低92%",
+      "url": "https://github.com/rohitg00/agentmemory",
+      "summary": "解决AI编码Agent'每次重新开始'的核心痛点：通过12个hook自动捕获代码变更、测试运行、工具调用等活动，结合BM25+语义向量+知识图谱三重混合检索，实现95.2%检索准确率（LongMemEval-S基准）。支持Cursor/Claude Code/Gemini CLI等30+Agent，基于SQLite本地运行，token消耗从年均$500降至$10。",
+      "source": "GitHub Trending (4.8K stars)",
+      "highlight": "这解决了Agent开发者最常抱怨的问题：每次新会话都要重新解释项目架构和偏好。92%的token节约不仅是成本优化，更意味着更多context窗口留给实际任务。三重混合检索+本地SQLite的架构选择在隐私和性能间取得了很好的平衡，值得关注其与Claude Code原生记忆系统的互补性。",
+      "stars": 4792,
+      "tags": ["Agent Memory", "Coding Agent", "MCP", "RAG", "Token Efficiency", "Developer Tool", "Open Source"]
+    },
+    {
+      "id": 10,
+      "category": "repo",
+      "title": "ByteDance UI-TARS Desktop：开源多模态AI Agent桌面端，连接前沿模型与Agent基础设施",
+      "url": "https://github.com/bytedance/UI-TARS-desktop",
+      "summary": "字节跳动开源的多模态AI Agent桌面应用，将前沿视觉-语言模型与Agent基础设施（屏幕感知、UI操作、任务规划）统一在桌面端。支持跨平台GUI操作自动化，Agent可以像人类一样'看到'屏幕内容并执行点击、输入等操作，实现真正的计算机使用能力。",
+      "source": "GitHub Trending (33K stars)",
+      "highlight": "33K星标反映了'Computer Use'能力的巨大市场需求。与Anthropic的Computer Use API不同，UI-TARS提供了完整的开源桌面端方案：从视觉感知到动作执行的全链路。对需要在本地环境中部署自主桌面Agent的企业（RPA替代、测试自动化、数据录入）有直接生产价值。",
+      "stars": 33039,
+      "tags": ["Multimodal Agent", "Computer Use", "ByteDance", "Desktop Agent", "UI Automation", "Open Source", "Vision-Language"]
+    },
+    {
+      "id": 11,
+      "category": "tool",
+      "title": "React Doctor：AI编码Agent的React代码质量守门人，一键健康评分0-100",
+      "url": "https://github.com/millionco/react-doctor",
+      "summary": "专为AI编码Agent设计的React代码扫描工具，自动检测状态管理反模式、性能问题、架构缺陷、安全漏洞、无障碍违规和死代码，输出0-100健康评分。支持CLI/GitHub Action/ESLint插件/Oxlint插件/Node.js API多种集成方式，可直接安装到Claude Code和Cursor中作为前置规则阻止问题上游。",
+      "source": "GitHub Trending (8.1K stars)",
+      "highlight": "'Agent写的React代码有问题？用这个抓住它'——React Doctor精准定位了AI编码时代的核心痛点：Agent生成代码的速度远超人类review能力，需要自动化质量守卫。作为CI/CD集成或Agent前置规则使用，能有效提升AI辅助开发的代码质量下限。",
+      "stars": 8093,
+      "tags": ["React", "Code Quality", "Linting", "Developer Tool", "AI Coding", "ESLint", "GitHub Action"]
+    },
+    {
+      "id": 12,
+      "category": "repo",
+      "title": "Dive into LLMs：大模型实战编程教程系列，从零开始动手学LLM",
+      "url": "https://github.com/Lordog/dive-into-llms",
+      "summary": "系统性的大语言模型实战编程教程，以Jupyter Notebook形式提供从基础到进阶的动手学习路径。涵盖LLM核心原理、训练方法、推理优化、应用开发等完整知识体系，适合希望从理论走向实践的AI工程师和研究者。",
+      "source": "GitHub Trending (37.3K stars)",
+      "highlight": "37K星标说明高质量中文LLM教程的稀缺性和需求量。对于想从'调用API'升级到'理解原理并动手实现'的开发者来说，这是一个系统性的学习资源。Jupyter Notebook格式意味着每个概念都可以直接运行和实验，学习效率远超纯文档。",
+      "stars": 37334,
+      "tags": ["Tutorial", "LLM", "Education", "Jupyter", "Chinese", "Deep Learning", "Hands-On"]
+    },
+    {
+      "id": 13,
+      "category": "repo",
+      "title": "CloakBrowser：通过所有反爬虫检测的隐身Chromium，Playwright即插即用替代",
+      "url": "https://github.com/CloakHQ/CloakBrowser",
+      "summary": "从Chromium源码级别修改指纹特征的隐身浏览器，可通过所有主流反爬虫和机器人检测测试。作为Playwright的即插即用替代方案，无需修改现有代码即可获得反检测能力。针对Web Agent在自动化操作中被网站封锁的核心问题提供底层解决方案。",
+      "source": "GitHub Trending (6.2K stars)",
+      "highlight": "Web Agent的实际部署面临一个被忽视的工程问题：主流网站的反爬虫系统会阻断Agent的自动化操作。CloakBrowser从浏览器源码层面解决这个问题，对构建生产级Web Agent（数据采集、价格监控、竞品分析）的团队是关键基础设施组件。但需注意合规和伦理使用边界。",
+      "stars": 6238,
+      "tags": ["Browser Automation", "Anti-Detection", "Playwright", "Web Agent", "Chromium", "Web Scraping", "Open Source"]
+    },
+    {
+      "id": 14,
+      "category": "news",
+      "title": "OpenAI内部股权出售造就约75位千万富翁，早期股东回报超100倍",
+      "url": "https://the-decoder.com/openais-internal-share-sale-minted-roughly-75-multimillionaires-who-each-cashed-out-the-30-million-cap/",
+      "summary": "2025年10月OpenAI二级市场股权出售中，约75名员工达到每人3000万美元的套现上限（该上限从1000万提升至3000万），部分早期股东获得超100倍投资回报。这次内部交易凸显了AI头部公司的财富效应和人才竞争格局。",
+      "source": "The Decoder (May 11, 2026)",
+      "highlight": "AI行业的'造富效应'正在重塑科技人才市场——75位千万富翁意味着OpenAI核心团队的财务自由度极高，这既是留人工具也是潜在的'退出风险'。对AI创业生态的启示：AI人才的期权预期已被拉高到前所未有的水平。",
+      "stars": 0,
+      "tags": ["OpenAI", "Stock Sale", "AI Talent", "Wealth", "Industry", "Compensation"]
+    },
+    {
+      "id": 15,
+      "category": "paper",
+      "title": "Uncovering Entity Identity Confusion in Multimodal Knowledge Editing",
+      "url": "https://huggingface.co/papers/2605.06096",
+      "summary": "中科院自动化所研究揭示多模态知识编辑中的'实体身份混淆'问题：当编辑视觉-语言模型中的某个实体知识时，模型可能将更新错误地泛化到外观相似但身份不同的实体上。论文系统分析了这一现象并提出了改进方法，对知识编辑的可靠性提出了新的质疑。",
+      "source": "HuggingFace Papers (May 12, 2026)",
+      "highlight": "知识编辑是模型更新的关键技术（无需重训即可修改模型知识），但'身份混淆'问题意味着编辑一个实体可能'污染'相似实体——这对需要精确知识管理的应用（人脸识别、医学影像）是严重的可靠性隐患。对RAG vs知识编辑的技术选型讨论有重要参考。",
+      "stars": 0,
+      "tags": ["Knowledge Editing", "Multimodal", "Vision-Language", "Entity Confusion", "CASIA", "AI Research"]
+    }
+  ]
+}
