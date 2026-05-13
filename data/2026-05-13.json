@@ -1,0 +1,170 @@
+{
+  "date": "2026-05-13",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "Mira Murati的Thinking Machines Lab发布首个模型：200ms并行块处理颠覆语音AI范式",
+      "url": "https://the-decoder.com/thinking-machines-lab-ships-its-first-model-and-argues-interactivity-is-what-openai-gets-wrong-about-voice/",
+      "summary": "前OpenAI CTO Mira Murati的创业公司发布TML-Interaction-Small，一个276B参数MoE模型。核心创新是200ms并行块处理：不等用户说完就持续处理音频/视频/文本流，消除人工对话轮次边界，可主动打断、同步说话、在沉默中思考。搭配异步后台推理系统，将深度思考结果自然融入对话。",
+      "source": "The Decoder (May 12, 2026)",
+      "highlight": "这是对OpenAI GPT-Realtime架构的根本性挑战：当前语音AI的'听完→理解→回答'模式本质上是文字聊天的音频版，而200ms连续处理实现了真正的'交互式'对话——能打断、能插话、能同步倾听和思考。如果这一范式成立，所有语音AI产品都需要重新设计交互架构。",
+      "stars": 0,
+      "tags": ["Voice AI", "Mira Murati", "Thinking Machines Lab", "MoE", "Real-Time AI", "Interaction", "Startup"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "Android获得Gemini Intelligence AI Agent：自动订机票、填表单、将语音转为精炼文本",
+      "url": "https://the-decoder.com/gemini-intelligence-makes-autofill-chrome-and-gboard-on-android-smarter/",
+      "summary": "Google为Android推出Gemini Intelligence系列AI Agent功能：跨应用自动化任务（订旅行、管购物清单）、Chrome网页摘要、智能表单填写、Gboard的Rambler功能（将口语化表达转为精炼多语言文本）、用自然语言描述即可创建自定义小部件。将于今夏在Samsung Galaxy S26和Pixel 10上线。",
+      "source": "The Decoder (May 12, 2026)",
+      "highlight": "Google在关闭实验性浏览器Agent Project Mariner后，选择将Agent能力直接嵌入Android系统层——这意味着Agent竞赛从独立App转向OS级集成。Rambler将'说话→精炼文字'的链路缩短为一步，对多语言用户有极高实用价值。Samsung S26首发合作显示Google在硬件层面锁定AI Agent分发渠道。",
+      "stars": 0,
+      "tags": ["Google", "Android", "Gemini", "AI Agent", "Mobile", "Samsung", "Voice", "Product"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "Anthropic发布12个法律AI插件和20+MCP连接器，2万律师参加Claude法律应用研讨会",
+      "url": "https://the-decoder.com/anthropic-expands-legal-ai-offerings-with-new-cowork-plugins/",
+      "summary": "Anthropic为Claude Cowork平台发布12个法律专业插件和20余个MCP连接器，覆盖合同法、劳动法和诉讼三大领域。集成Thomson Reuters CoCounsel、DocuSign、Everlaw、Harvey等法律平台，企业管理员可在工作区设置中一键启用。Anthropic首席法律官透露律师是Claude使用最频繁的职业群体之一。",
+      "source": "The Decoder (May 12, 2026)",
+      "highlight": "2万律师参加单场研讨会的数据惊人——法律行业正在成为AI应用的头部垂直场景。MCP连接器的关键价值在于打通法律工具链（文档签署→证据管理→案例研究→合规审查），而非仅仅提供一个聊天窗口。这对Anthropic的企业收入和MCP生态的行业渗透都是重要里程碑。",
+      "stars": 0,
+      "tags": ["Anthropic", "Claude", "Legal AI", "MCP", "Cowork", "Enterprise", "Plugins", "Industry"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "Google阻止首例AI辅助零日漏洞攻击，中俄朝国家级黑客组织已使用AI进行漏洞猎杀",
+      "url": "https://the-decoder.com/google-says-it-stopped-a-mass-cyberattack-after-ai-was-used-to-discover-a-zero-day-exploit/",
+      "summary": "Google威胁情报组报告了已知首例攻击者使用AI发现并武器化零日漏洞的案例，并成功阻止了后续大规模攻击。中国和朝鲜国家背景组织使用AI进行漏洞猎杀，俄罗斯关联组织在恶意软件中嵌入AI混淆代码。Google开发了Big Sleep和CodeMender等AI防御工具应对。",
+      "source": "The Decoder (May 12, 2026)",
+      "highlight": "AI安全攻防正式进入'AI vs AI'阶段——攻击方用AI发现零日漏洞，防御方用AI检测和修补。文中提到的'wooyun-legacy' Claude插件（含85000个真实漏洞案例）被用于攻击，这对AI工具的安全审计和MCP/Plugin生态的信任模型提出了全新挑战。",
+      "stars": 0,
+      "tags": ["Cybersecurity", "Zero-Day", "Google", "AI Safety", "State-Sponsored", "Big Sleep", "Threat Intelligence"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "Alphabet旗下Isomorphic Labs获21亿美元B轮融资，Demis Hassabis推进AI药物发现进入临床试验",
+      "url": "https://the-decoder.com/alphabets-isomorphic-labs-raises-2-1-billion-to-scale-ai-drug-discovery-toward-clinical-trials/",
+      "summary": "Demis Hassabis领导的AI药物研发公司Isomorphic Labs完成21亿美元B轮融资，由Thrive Capital领投，Alphabet、GV、淡马锡、英国主权AI基金等跟投。资金将扩展IsoDDE（多AI模型协同）平台，推动与Novartis、Lilly、强生合作的药物候选进入人体临床试验。",
+      "source": "The Decoder (May 12, 2026)",
+      "highlight": "从AlphaFold到临床试验，Hassabis正在验证'AI科学发现→实际产品'的完整路径。21亿美元是AI药物发现领域最大单轮融资之一，英国主权AI基金的参与标志着国家层面对AI生物科技的战略押注。如果首批临床试验成功，将为整个AI for Science赛道提供最有力的商业化证明。",
+      "stars": 0,
+      "tags": ["AI Drug Discovery", "Isomorphic Labs", "Demis Hassabis", "Biotech", "Funding", "Clinical Trials", "AlphaFold"]
+    },
+    {
+      "id": 6,
+      "category": "news",
+      "title": "亚马逊'Tokenmaxxing'现象蔓延：员工刷AI使用量攀内部排行榜，MeshClaw工具成刷量利器",
+      "url": "https://the-decoder.com/tokenmaxxing-spreads-at-amazon-as-employees-game-internal-ai-leaderboards/",
+      "summary": "亚马逊内部出现'Tokenmaxxing'现象：员工通过MeshClaw工具（可创建触发代码部署、分拣邮件、操作Slack的AI Agent）大量消耗token以攀升内部AI使用排行榜。虽然官方称该指标不影响绩效评估，但管理层监控排行榜的行为营造了竞争压力，开发者面临每周80%+ AI工具使用率的目标。",
+      "source": "The Decoder (May 12, 2026)",
+      "highlight": "这是企业AI落地的经典'Goodhart定律'案例：当使用量成为衡量标准时，它就不再是好的衡量标准。但更深层的问题是：强制80%AI使用率目标是否揠苗助长？真正的生产力提升应来自自发采用而非KPI驱动。对正在推进AI工具全员采用的企业管理者是重要的反面教材。",
+      "stars": 0,
+      "tags": ["Amazon", "AI Adoption", "Enterprise", "Tokenmaxxing", "Developer Tools", "Corporate Culture", "Metrics"]
+    },
+    {
+      "id": 7,
+      "category": "paper",
+      "title": "RubricEM：面向Deep Research Agent的元强化学习框架，8B模型逼近GPT/Gemini级研究能力",
+      "url": "https://huggingface.co/papers/2605.10899",
+      "summary": "Google提出RubricEM，用评分标准（Rubric）作为Agent规划-搜索-评审-回答全流程的共享接口，解决开放式研究任务中无标准答案、稀疏奖励和经验难复用三大难题。通过阶段化GRPO提供细粒度信用分配、异步反思元策略实现跨任务经验迁移，RubricEM-8B在长文研究任务上达55.5分（开源最佳），逼近OpenAI Deep Research的59.9分。",
+      "source": "HuggingFace Papers (May 13, 2026)",
+      "highlight": "两个关键突破：1）仅8B参数就逼近GPT/Gemini级研究Agent，说明架构设计比模型规模更重要；2）'Rubric作为共享接口'是巧妙的工程洞察——评估标准不仅用于打分，还用于指导规划和积累经验，这对构建Deep Research产品的团队有直接参考价值。1400步RL训练的高效性也值得关注。",
+      "stars": 0,
+      "tags": ["Deep Research", "Meta-RL", "Agent", "Google", "Rubric", "GRPO", "Research", "Open Source"]
+    },
+    {
+      "id": 8,
+      "category": "paper",
+      "title": "ThinC：让语言模型用代码思考——4B模型在数学竞赛中超越235B Qwen3",
+      "url": "https://huggingface.co/papers/2605.07237",
+      "summary": "Korea University提出ThinC（Thinking in Code）框架：与传统的自然语言推理+代码验证的交替模式不同，ThinC让模型直接用代码进行推理——简短NL规划后全部推理在代码块中展开，99.2%的最终答案基于解释器输出。从教师模型蒸馏12.2K代码中心轨迹训练，ThinC-4B在5个竞赛级数学基准上超越所有TIR基线，包括规模大数十倍的Qwen3-235B。",
+      "source": "HuggingFace Papers (May 13, 2026)",
+      "highlight": "核心洞察：自然语言推理在中间计算步骤中容易出错，而代码作为推理媒介天然具有可执行可验证的优势。4B超235B的结果说明'用什么语言思考'可能比'用多大的模型思考'更重要。对Agent开发者的实践启示：让Agent用代码而非自然语言进行复杂推理，可能获得更可靠的结果。",
+      "stars": 0,
+      "tags": ["Code Reasoning", "Math", "LLM", "Distillation", "TIR", "Small Model", "Research", "Korea University"]
+    },
+    {
+      "id": 9,
+      "category": "repo",
+      "title": "OpenHuman：开源个人AI超级智能，118+集成、记忆树、80%token压缩",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "summary": "开源个人AI助手，核心特性：Memory Tree记忆系统（SQLite存储，≤3K token Markdown块，兼容Obsidian）、118+一键OAuth集成（Gmail/Notion/GitHub/Slack/Stripe等，每20分钟自动同步）、TokenJuice压缩技术（HTML转Markdown，减少80% token消耗）、内置Web搜索/抓取/代码工具、可加入视频会议并后台持续思考。Rust实现，桌面优先。",
+      "source": "GitHub Trending (2.8K stars)",
+      "highlight": "OpenHuman的差异化在于'快速建立上下文'——通过连接你的Gmail/Notion/GitHub等数据源，几分钟内就理解你的工作流，而非从零开始学习。Memory Tree的Obsidian兼容设计意味着记忆可人工审查和编辑，在隐私和可控性上优于黑盒方案。适合想要完全本地部署的个人AI助手需求。",
+      "stars": 2809,
+      "tags": ["Personal AI", "Open Source", "Memory", "Rust", "Privacy", "Integrations", "Desktop Agent"]
+    },
+    {
+      "id": 10,
+      "category": "repo",
+      "title": "Hello-Agents：从零开始构建智能体——Datawhale社区48K Stars系统教程",
+      "url": "https://github.com/datawhalechina/hello-agents",
+      "summary": "Datawhale社区出品的智能体系统教程，16章从基础到实战：基础概念→ReAct等经典模式→低代码平台(Coze/Dify)→自定义框架开发→记忆系统→Context Engineering→RL训练Agent→性能评估→旅行助手/研究Agent/模拟环境实战项目→多Agent系统综合项目。以动手编码为核心，每个概念配有可运行代码。",
+      "source": "GitHub Trending (48.3K stars)",
+      "highlight": "48K星标在中文AI教育资源中现象级——填补了'会调API但不懂Agent原理'的巨大知识断层。从ReAct到Context Engineering到RL训练Agent的完整路径，覆盖了当前Agent开发者最需要的全部技能栈。第8-12章的高级主题（记忆、训练、评估）是多数教程缺失但实际开发最需要的内容。",
+      "stars": 48301,
+      "tags": ["Tutorial", "Agent", "Chinese", "Education", "Datawhale", "Open Source", "Hands-On", "Multi-Agent"]
+    },
+    {
+      "id": 11,
+      "category": "repo",
+      "title": "AI-Trader：100%全自动Agent原生交易平台，Agent间协作决策与信号同步",
+      "url": "https://github.com/HKUDS/AI-Trader",
+      "summary": "港大开发的Agent原生交易平台，从底层为自主AI交易参与者设计而非改造人类交易系统。支持Agent自注册、Agent间通信协作、跨平台信号同步和复制交易。覆盖股票/加密/外汇/期权/期货全品类，提供基于表现的声誉系统。2026年更新聚焦Agent原生工作流的生产稳定性。",
+      "source": "GitHub Trending (16.6K stars)",
+      "highlight": "与昨天推荐的TradingAgents（多Agent决策框架）互补：TradingAgents专注于团队内协作决策，AI-Trader则提供Agent间市场级交互的基础设施。'Agent原生'设计理念值得关注——不是在人类界面上加AI，而是从零设计AI之间的交互协议和信任机制。",
+      "stars": 16646,
+      "tags": ["Trading", "Agent Native", "Finance", "Multi-Agent", "HKU", "Crypto", "Open Source"]
+    },
+    {
+      "id": 12,
+      "category": "repo",
+      "title": "AgentMemory持续升温：编码Agent持久记忆系统星标从4.8K涨至5.9K",
+      "url": "https://github.com/rohitg00/agentmemory",
+      "summary": "连续两天位居GitHub Trending的Agent记忆系统，24小时内星标从4.8K增至5.9K（+23%）。通过12个hook自动捕获Agent活动，BM25+语义+知识图谱三重检索达95.2%准确率，支持30+编码Agent统一记忆。SQLite本地运行，token消耗降低92%。",
+      "source": "GitHub Trending (5.9K stars)",
+      "highlight": "连续两天trending且增速加快，说明'Agent记忆'正成为开发者社区的刚需方向。昨天已推荐过核心功能，今天的增长数据进一步验证了这个判断。值得持续关注其与各主流Agent（Claude Code/Cursor/Gemini CLI）的集成深度。",
+      "stars": 5942,
+      "tags": ["Agent Memory", "Coding Agent", "MCP", "Trending", "Developer Tool", "Open Source"]
+    },
+    {
+      "id": 13,
+      "category": "paper",
+      "title": "AutoLLMResearch：训练研究Agent自动化LLM实验配置——从便宜的学，优化贵的",
+      "url": "https://huggingface.co/papers/2605.11518",
+      "summary": "提出训练专门的研究Agent来自动化LLM实验配置过程。核心思路是'从便宜的实验中学习规律，然后指导昂贵实验的配置'——先在小规模/低成本实验上探索超参数空间，学习配置经验，再将学到的策略迁移到大规模/高成本实验中，显著降低研究成本。",
+      "source": "HuggingFace Papers (May 13, 2026)",
+      "highlight": "LLM研究中最大的隐性成本是'实验配置试错'——选错超参数意味着数千美元的GPU算力浪费。用Agent自动化这一过程，从小实验中学习规律再指导大实验，是'用AI加速AI研究'的又一实例。对资源有限但需要做模型训练实验的团队有直接的降本价值。",
+      "stars": 0,
+      "tags": ["AutoML", "LLM Research", "Experiment Automation", "Agent", "Cost Optimization", "Hyperparameter", "Research"]
+    },
+    {
+      "id": 14,
+      "category": "repo",
+      "title": "CloakBrowser持续热门：源码级反检测隐身Chromium星标从6.2K涨至8K",
+      "url": "https://github.com/CloakHQ/CloakBrowser",
+      "summary": "连续两天GitHub Trending的隐身浏览器项目，星标从6.2K涨至近8K。Chromium源码级指纹修改，通过所有主流反爬虫检测，Playwright即插即用替代。面向Web Agent在自动化操作中被网站封锁的工程问题提供底层解决方案。",
+      "source": "GitHub Trending (8.0K stars)",
+      "highlight": "两天内增长29%反映了Web Agent开发者对反检测能力的强烈需求。随着越来越多的Agent需要进行Web操作，浏览器层面的反检测将成为Agent基础设施的标准组件。但提醒注意合规边界——该工具在爬虫、测试自动化等合法场景有价值，但也可能被滥用。",
+      "stars": 7958,
+      "tags": ["Browser Automation", "Anti-Detection", "Playwright", "Web Agent", "Chromium", "Trending", "Open Source"]
+    },
+    {
+      "id": 15,
+      "category": "news",
+      "title": "生成式AI驱动身份盗窃工业化：Experian报告40%数据泄露涉及AI",
+      "url": "https://the-decoder.com/generative-ai-turns-identity-theft-into-an-industrial-scale-operation/",
+      "summary": "Bloomberg深度调查揭露AI驱动的身份盗窃已达工业规模：FraudGPT等专用模型在数分钟内测试数十万SSN组合、生成deepfake驾照、同时以不同身份向多家银行自动提交申请。Experian数据显示去年40%数据泄露涉及AI，专家预测2026年自主Agent将成主要驱动力。完整'bust-out'诈骗链条实现全自动化。",
+      "source": "The Decoder (May 12, 2026)",
+      "highlight": "这是AI安全威胁从'理论可能'到'工业化现实'的标志性报道。FraudGPT+deepfake+自动化申请的组合拳让传统KYC形同虚设。对金融科技公司的警示：身份验证需要从'检查文件真伪'升级到'检测AI生成特征'，整个行业的反欺诈架构需要重建。",
+      "stars": 0,
+      "tags": ["AI Safety", "Identity Theft", "Deepfake", "FraudGPT", "Cybersecurity", "Finance", "Bloomberg"]
+    }
+  ]
+}
