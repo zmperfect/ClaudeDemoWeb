@@ -1,0 +1,170 @@
+{
+  "date": "2026-05-14",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "Anthropic首次在B2B企业采用率上超越OpenAI：Ramp数据显示34.4% vs 32.3%",
+      "url": "https://the-decoder.com/anthropic-overtakes-openai-in-b2b-adoption-for-the-first-time-according-to-ramp-spending-data/",
+      "summary": "企业支付平台Ramp的AI指数显示，Anthropic企业渗透率达34.4%，首次超越OpenAI的32.3%。Anthropic过去一年渗透率翻四倍，而OpenAI仅增长0.3%。但Ramp经济学家警告三个风险：Opus 4.7图像处理成本翻三倍、用户反馈质量下降和服务中断、Agentic工作流导致token消耗膨胀。",
+      "source": "The Decoder (May 13, 2026)",
+      "highlight": "这是AI行业格局变化的标志性时刻——Anthropic的企业渗透率增长4倍vs OpenAI的0.3%，说明Claude在企业场景的产品力已获市场验证。但'按公司数而非使用量'的统计口径需要注意：OpenAI单客户消费可能远高于Anthropic。Ramp分析师的'几个月就能颠覆'警告也说明这个领先随时可能反转。",
+      "stars": 0,
+      "tags": ["Anthropic", "OpenAI", "Enterprise", "B2B", "Market Share", "Ramp", "Industry"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "Anthropic推出Claude for Small Business：15个Agent工作流覆盖财务/运营/营销/HR",
+      "url": "https://the-decoder.com/anthropic-launches-claude-for-small-business-to-embed-ai-into-the-tools-you-forgot-you-pay-for/",
+      "summary": "Anthropic发布面向小企业的Claude产品包，内含15个Agent工作流和15个专业技能，覆盖财务自动化（薪资匹配、预测、月结）、分析仪表盘、营销策划、发票追踪、合同管理等。集成QuickBooks/PayPal/HubSpot/Canva/DocuSign/Google Workspace。所有操作需用户确认后执行。附赠10城免费半天工作坊和Claude Max一月订阅。",
+      "source": "The Decoder (May 13, 2026)",
+      "highlight": "Anthropic同时向上（企业B2B超越OpenAI）和向下（小企业产品包）扩展市场——这是典型的平台化战略。'所有操作需用户确认'的设计体现了Anthropic在安全与实用间的平衡。10城线下工作坊更是罕见的'地推'策略，说明小企业AI采用的关键瓶颈不是技术而是教育。",
+      "stars": 0,
+      "tags": ["Anthropic", "Claude", "Small Business", "Agent Workflow", "Product", "Enterprise", "MCP"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "AI创业公司Recursive获6.5亿美元融资，前Salesforce/DeepMind高管瞄准递归自我改进型AI",
+      "url": "https://the-decoder.com/ai-startup-recursive-emerges-from-stealth-with-650-million-to-build-self-improving-ai/",
+      "summary": "Richard Socher（前Salesforce）和Tim Rocktäschel（前DeepMind）联合创立的Recursive以46.5亿美元估值获6.5亿美元融资，GV和Greycroft领投，AMD Ventures和NVIDIA跟投。核心理念是'递归自我改进'——构建能改进其他AI系统的AI，先从AI研究自身开始自动化，再扩展到更广泛的科学领域。目前无公开技术成果。",
+      "source": "The Decoder (May 13, 2026)",
+      "highlight": "46.5亿估值+零公开成果=纯粹押注'递归自我改进'的愿景。Socher（you.com创始人）和Rocktäschel的组合兼具产品和研究能力。AMD+NVIDIA同时投资暗示不绑定单一硬件平台。但'自动化科学方法'的宏大目标与'目前无任何技术成果'的现实之间的落差值得保持理性观望。",
+      "stars": 0,
+      "tags": ["Startup", "Recursive", "Self-Improving AI", "Funding", "Richard Socher", "DeepMind", "AGI"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "DeepMind提出'指针工程'：用AI光标取代提示词，暂停视频变可预订链接",
+      "url": "https://the-decoder.com/from-prompt-to-pointer-engineering-deepmind-tries-to-reinvent-the-mouse-cursor-for-the-ai-era/",
+      "summary": "DeepMind研究员提出'Pointer Engineering'概念：让Gemini驱动的光标自动捕获屏幕上的视觉和语义信息（识别地点、日期、物体），用户只需简短指令如'修这个'、'移到这里'配合手势和语音即可操作。暂停的视频帧变为可点击的预订链接，手写笔记变为交互式待办清单。Google将在新设备Googlebook上以'Magic Pointer'实现该功能。",
+      "source": "The Decoder (May 13, 2026)",
+      "highlight": "从'Prompt Engineering'到'Pointer Engineering'的范式转变意味着AI交互从'用户向AI解释上下文'变为'AI主动理解用户所见'——这大幅降低了AI使用门槛。如果Magic Pointer成熟，'用鼠标指一下+说一句话'可能比打一段prompt更高效，对AI产品的交互设计范式有深远影响。",
+      "stars": 0,
+      "tags": ["DeepMind", "Google", "UX", "Pointer Engineering", "AI Interaction", "Gemini", "Product Design"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "Meta AI推出隐私模式：对话在可信执行环境处理，Meta自己也无法访问",
+      "url": "https://the-decoder.com/meta-ai-gets-a-private-mode-where-no-conversation-data-is-stored-on-servers/",
+      "summary": "Meta推出'Incognito Chat'功能：对话在可信执行环境（TEE）中处理，即使Meta自身也无法访问，会话结束后所有数据自动消失。Zuckerberg称Meta是'首个提供此类隐私AI使用方式的AI实验室'。但文章指出关键缺陷：Meta未解释在完全隐私框架下如何检测滥用行为。",
+      "source": "The Decoder (May 13, 2026)",
+      "highlight": "在Google和OpenAI因聊天记录被搜索引擎索引或被要求在法律案件中交出数据后，Meta的TEE方案直击用户最敏感的隐私痛点。但'无法检测滥用'是一个根本性悖论：完全隐私与安全监控天然对立。这个权衡将定义下一代AI产品的隐私架构选择。",
+      "stars": 0,
+      "tags": ["Meta", "Privacy", "TEE", "Incognito", "AI Safety", "Data Protection", "Product"]
+    },
+    {
+      "id": 6,
+      "category": "news",
+      "title": "Google也开始派驻工程师帮客户部署AI，继OpenAI DeployCo后第二家采用Palantir模式",
+      "url": "https://the-decoder.com/google-is-hiring-hundreds-of-engineers-to-help-customers-adopt-its-ai/",
+      "summary": "Google Cloud成立'Forward Deployed Engineers'团队，正在招聘数百名工程师驻场帮助企业客户采用其AI产品。继OpenAI的DeployCo之后，Google成为第二家采用Palantir式驻场工程师模式的AI公司，反映出整个行业面临的企业AI落地困难。",
+      "source": "The Decoder (May 13, 2026)",
+      "highlight": "两天内OpenAI和Google先后采用相同策略，说明企业AI落地的核心瓶颈不是模型能力而是集成实施。'Forward Deployed Engineers'直接借用了Palantir的术语，验证了Palantir在企业AI服务模式上的先见之明。这对Anthropic构成压力——目前三大AI公司中只有Anthropic尚未推出类似服务。",
+      "stars": 0,
+      "tags": ["Google", "Enterprise", "Forward Deployed", "AI Adoption", "Consulting", "Palantir", "Industry"]
+    },
+    {
+      "id": 7,
+      "category": "paper",
+      "title": "AgentLens揭示SWE-Agent评估的'幸运通过'问题：10.7%的成功案例靠试错撞运气",
+      "url": "https://huggingface.co/papers/2605.12925",
+      "summary": "微软研究发现当前SWE-Agent评估存在严重的'Lucky Pass'问题：在1136个通过的轨迹中，10.7%（122个）是通过暴力试错而非系统性推理达成的。不同模型的幸运率差异达46倍（Opus 4.5仅0.5%，GPT-4.1高达23.2%）。提出AgentLens框架：基于前缀树参考和意图-阶段标注的过程质量评分，按质量排名后模型排名发生显著变化。",
+      "source": "HuggingFace Papers (May 14, 2026)",
+      "highlight": "这篇论文直击SWE-bench评估的可信度问题——'通过率'不等于'解决能力'。Opus 4.5的0.5%幸运率vs GPT-4.1的23.2%说明不同模型的'通过'有着截然不同的可靠性。对Agent评估的实践启示：仅看pass@k是不够的，过程质量（是否系统性、是否有浪费步骤）同样重要。",
+      "stars": 0,
+      "tags": ["SWE-bench", "Agent Evaluation", "Microsoft", "Lucky Pass", "Code Agent", "Quality", "Research"]
+    },
+    {
+      "id": 8,
+      "category": "paper",
+      "title": "DAgger回归：在LLM Agent时代重新审视数据聚合，4B模型SWE-bench提升3.9个点",
+      "url": "https://huggingface.co/papers/2605.12913",
+      "summary": "Georgia Tech和ETH Zurich重新将经典的DAgger（Dataset Aggregation）算法应用于多轮LLM Agent训练。针对SFT的协变量偏移和RL的稀疏反馈两大痛点，DAgger通过学生-教师策略的轮级插值收集轨迹，让学生在真实环境状态上学习教师标签。在SWE-bench Verified上，4B模型提升+3.9点达27.3%（超越已发表的8B Agent），8B模型提升+3.6点。",
+      "source": "HuggingFace Papers (May 14, 2026)",
+      "highlight": "经典方法在新场景焕发生机：DAgger的核心优势是兼具SFT的密集监督和RL的在策略探索，而计算成本远低于纯RL。4B超8B的结果再次证明训练方法比模型规模更重要。对Agent训练的实践指导：在有高质量教师模型的场景下，DAgger可能比RLVR更高效。",
+      "stars": 0,
+      "tags": ["DAgger", "Agent Training", "SWE-bench", "Imitation Learning", "LLM Agent", "Georgia Tech", "Research"]
+    },
+    {
+      "id": 9,
+      "category": "paper",
+      "title": "MinT：支撑百万级LoRA策略目录的托管基础设施，适配器加载速度提升8.5倍",
+      "url": "https://huggingface.co/papers/2605.13779",
+      "summary": "Mind Lab提出MinT系统，为百万量级LoRA适配器的训练和服务提供托管基础设施。核心思路：基础模型常驻，只移动轻量LoRA适配器。支持1T+参数模型（含MoE），rank-1适配器不到基础模型1%大小，步骤时间最高提升18.3倍，打包MoE LoRA张量将在线加载速度提升8.5倍，支持千级并发适配器波次。",
+      "source": "HuggingFace Papers (May 14, 2026)",
+      "highlight": "当每个用户/场景都需要个性化模型时，'百万LoRA目录'不是夸张而是必然需求。MinT的工程贡献在于将LoRA从'训练技巧'提升为'基础设施'——基础模型常驻+适配器热切换的架构对构建多租户AI平台的团队有直接参考价值。18.3倍步骤时间提升意味着个性化模型的训练成本可降一个数量级。",
+      "stars": 0,
+      "tags": ["LoRA", "Infrastructure", "Model Serving", "MoE", "Personalization", "Scale", "Research"]
+    },
+    {
+      "id": 10,
+      "category": "paper",
+      "title": "MAP：先建图再行动——认知地图驱动的长程Agent推理范式",
+      "url": "https://huggingface.co/papers/2605.13037",
+      "summary": "中科大和美团提出MAP（Map-then-Act Paradigm）：受人类可供性感知和认知地图理论启发，让Agent在执行前先构建环境认知地图。三阶段流程：全局探索获取环境先验→任务特定映射构建结构化认知地图→基于地图的知识增强执行。在ARC-AGI-3上，MAP让前沿模型在25个游戏环境中的22个从接近零突破到有效表现。训练在MAP轨迹上优于专家执行轨迹。",
+      "source": "HuggingFace Papers (May 14, 2026)",
+      "highlight": "'理解环境比模仿专家更重要'——MAP的实验结论直接挑战了当前Agent训练以模仿学习为主的范式。ARC-AGI-3从零到有效表现的跳跃极为显著，说明当前Agent失败的主因不是执行能力不足，而是对环境缺乏系统性理解。这对Agent架构设计的启示：先探索再行动可能比ReAct的边想边做更有效。",
+      "stars": 0,
+      "tags": ["Agent Reasoning", "Cognitive Map", "Long-Horizon", "ARC-AGI", "Meituan", "Planning", "Research"]
+    },
+    {
+      "id": 11,
+      "category": "repo",
+      "title": "Superpowers：189K Stars的Agent技能框架和软件开发方法论，支持数小时自主编码",
+      "url": "https://github.com/obra/superpowers",
+      "summary": "面向编码Agent的完整技能框架和开发方法论，包含测试（TDD红绿重构循环）、调试（四阶段系统性根因分析）、协作（设计精炼/规划/代码审查/并行Agent工作流）和元技能（技能创建）。七阶段工作流：需求澄清→规格精炼→任务分解（2-5分钟粒度）→自主执行→分阶段审查。支持Claude Code/Cursor/Gemini CLI等多平台。",
+      "source": "GitHub Trending (189.8K stars)",
+      "highlight": "189K星标使其成为当前最热门的Agent技能框架。核心价值不是单个技能，而是完整的方法论：将'Agent随意写代码'变为'需求→规格→计划→执行→审查'的工程化流程。'Agent可以自主工作数小时不偏离计划'的声明如果属实，标志着Agent从'辅助工具'到'初级工程师'的质变。",
+      "stars": 189801,
+      "tags": ["Agent Skills", "Software Development", "TDD", "Methodology", "Claude Code", "Cursor", "Open Source"]
+    },
+    {
+      "id": 12,
+      "category": "repo",
+      "title": "Scientific Agent Skills：135个科学研究Agent技能，覆盖药物发现到基因组学",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "summary": "面向科学研究Agent的135个即用技能集合：70+优化Python包（RDKit/Scanpy/PyTorch Lightning/BioPython等）、100+科学数据库访问（ChEMBL/PubChem/UniProt/ClinicalTrials.gov等78+公共数据库）。覆盖药物发现、基因组学、临床研究、医学影像、材料科学、地理空间分析等领域。一键安装后Agent自动发现并使用相关技能。",
+      "source": "GitHub Trending (21.2K stars)",
+      "highlight": "这是Agent Skills生态从软件开发向科学研究领域扩展的标志——135个技能+100+数据库意味着AI Agent可以直接执行从文献检索到分子建模到报告生成的完整科研流程。对生物信息学和药物研发团队尤其有价值：不再需要手动整合各种工具包，Agent直接获得领域专业能力。",
+      "stars": 21238,
+      "tags": ["Scientific Research", "Agent Skills", "Drug Discovery", "Genomics", "BioPython", "RDKit", "Open Source"]
+    },
+    {
+      "id": 13,
+      "category": "repo",
+      "title": "Personal AI Infrastructure：Daniel Miessler的'生命操作系统'，用Agent增强人类能力",
+      "url": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
+      "summary": "安全研究员Daniel Miessler（Fabric项目作者）开源的个人AI基础设施，定位为'生命操作系统'。三层架构：PAI OS（技能/记忆/算法/身份文件）、Pulse（localhost:31337生命仪表盘）、DA（个性化AI语音和人格层）。核心是'理想状态框架'——通过七阶段算法（模拟科学方法论）驱动当前状态→理想状态的转变。文本优先、完全透明。",
+      "source": "GitHub Trending (13.5K stars)",
+      "highlight": "Miessler（Fabric 100K+星标的作者）的新项目延续了其'AI应增强而非替代人类'的理念。'理想状态框架'将个人AI从'被动问答'提升为'主动驱动目标达成'，与OpenHuman等个人AI项目形成差异化。文本优先+完全透明的设计哲学对隐私重视者极具吸引力。",
+      "stars": 13453,
+      "tags": ["Personal AI", "Life OS", "Daniel Miessler", "Agent", "Privacy", "Self-Improvement", "Open Source"]
+    },
+    {
+      "id": 14,
+      "category": "repo",
+      "title": "GitHub Spec Kit：98K Stars，GitHub官方的规格驱动开发工具包",
+      "url": "https://github.com/github/spec-kit",
+      "summary": "GitHub官方发布的规格驱动开发（Spec-Driven Development）工具包，帮助开发者通过编写详细规格（Spec）来指导AI编码Agent的工作。核心理念是'先写规格再写代码'——通过结构化的规格文档让Agent理解需求、约束和验收标准，从而产出更高质量的代码。",
+      "source": "GitHub Trending (98.5K stars)",
+      "highlight": "98K星标+GitHub官方出品意味着'规格驱动开发'正在成为AI编码时代的主流方法论。与Superpowers的七阶段工作流理念一致：AI编码的瓶颈不是生成代码的能力，而是理解需求的能力。这对整个软件工程行业的启示：开发者的核心技能正从'写代码'转向'写规格'。",
+      "stars": 98537,
+      "tags": ["GitHub", "Spec-Driven", "Software Development", "AI Coding", "Methodology", "Developer Tool", "Official"]
+    },
+    {
+      "id": 15,
+      "category": "news",
+      "title": "腾讯计划下半年大幅增加AI支出，称国产芯片供应改善但Bloomberg报告矛盾",
+      "url": "https://the-decoder.com/tencent-plans-to-ramp-up-ai-spending-as-chinas-chip-supply-allegedly-improves/",
+      "summary": "腾讯Q1营收增长9%、利润增长21%后，计划2026下半年大幅增加AI基础设施投资。首席战略官称中国芯片制造商'可以逐月交付更多国产AI芯片'。但Bloomberg同期报道指出芯片、电路板和光学元件的关键短缺持续存在，短期内不太可能缓解，中国整体AI支出仍远落后于美国科技巨头。",
+      "source": "The Decoder (May 13, 2026)",
+      "highlight": "腾讯高管的乐观声明与Bloomberg实地调查形成鲜明对比——这种信息差可能反映了中国AI产业在芯片供应上'自上而下的乐观'与'自下而上的现实'之间的gap。对投资者和从业者的启示：关注具体的芯片型号和产能数据，而非笼统的'供应改善'表态。",
+      "stars": 0,
+      "tags": ["Tencent", "China AI", "Chips", "Infrastructure", "Investment", "Supply Chain", "Bloomberg"]
+    }
+  ]
+}
