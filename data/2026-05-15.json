@@ -1,0 +1,170 @@
+{
+  "date": "2026-05-15",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "OpenAI宣布Codex即将登陆手机端，编码Agent能力扩展至移动场景",
+      "url": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/",
+      "summary": "OpenAI宣布其编码工具Codex将推出移动版本，让用户可以在手机上管理和监控编码工作流。这一更新旨在增强用户对Agent工作流的灵活管控能力，不再局限于桌面环境。具体功能细节和发布时间尚未完全披露。",
+      "source": "TechCrunch (May 14, 2026)",
+      "highlight": "编码Agent从桌面走向移动端标志着'Agent随时可及'的趋势——开发者可以在通勤时审查Agent的工作进展、批准PR或调整任务优先级。这对Codex与Claude Code/Cursor的竞争格局有影响：谁先实现无缝的跨端Agent体验，谁就占据了生产力工具的新制高点。",
+      "stars": 0,
+      "tags": ["OpenAI", "Codex", "Mobile", "Coding Agent", "Product", "Developer Tool"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "OpenAI据报正准备对Apple提起法律诉讼，ChatGPT集成未达预期增长",
+      "url": "https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/",
+      "summary": "OpenAI正在'积极探讨'对Apple的法律行动，起因是ChatGPT与Apple设备的集成未能带来预期的订阅增长和平台曝光度。OpenAI认为Apple在集成的实现或推广上未尽合约义务。TechCrunch指出这不是Apple首次面临合作伙伴关系纠纷。",
+      "source": "TechCrunch (May 14, 2026)",
+      "highlight": "这揭示了AI公司与平台公司合作的深层张力：OpenAI想借Apple的分发渠道获取用户，Apple想借ChatGPT的能力增强Siri——当双方对'成功'的定义不一致时，合作就变成零和博弈。这对所有正在与平台方谈AI集成的公司是重要警示：分发承诺和实际执行之间可能存在巨大落差。",
+      "stars": 0,
+      "tags": ["OpenAI", "Apple", "Legal", "Partnership", "ChatGPT", "Siri", "Industry"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "Notion转型为AI Agent枢纽：开发者平台支持直接在工作区中集成Agent和外部数据",
+      "url": "https://techcrunch.com/2026/05/13/notion-just-turned-its-workspace-into-a-hub-for-ai-agents/",
+      "summary": "Notion推出开发者平台，让团队可以将AI Agent、外部数据源和自定义代码直接连接到工作区中。从静态文档管理转向'Agentic生产力软件'——Agent可以在Notion内自主执行业务流程，同时访问文档、数据库和协作工具。标志着Notion从'记录工具'向'执行平台'的战略转型。",
+      "source": "TechCrunch (May 13, 2026)",
+      "highlight": "Notion的转型反映了整个SaaS行业的Agent化趋势：从'用户操作工具'变为'Agent在工具中自主工作'。作为拥有海量企业知识库数据的平台，Notion天然适合成为Agent的'工作环境'。这对Slack、Confluence等知识管理竞品构成直接威胁——谁先成为Agent的默认工作台谁就赢了。",
+      "stars": 0,
+      "tags": ["Notion", "AI Agent", "Developer Platform", "Productivity", "SaaS", "Enterprise", "Agentic"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "Musk vs Altman案进入陪审团阶段，TechCrunch深度解析陪审团将裁定什么",
+      "url": "https://techcrunch.com/2026/05/14/what-the-jury-will-actually-decide-in-the-case-of-elon-musk-vs-sam-altman/",
+      "summary": "Elon Musk诉Sam Altman案正式进入陪审团裁决阶段。TechCrunch分析了陪审团需要裁定的具体法律问题，这场历时多年的诉讼围绕OpenAI从非营利转为营利实体、Musk的早期投资承诺以及双方对组织使命的争议展开。",
+      "source": "TechCrunch (May 14, 2026)",
+      "highlight": "这场诉讼的裁决可能对整个AI行业的组织架构产生先例效应——如果Musk胜诉，将质疑AI公司从非营利转营利的合法性；如果Altman胜诉，则为类似转型提供法律背书。无论结果如何，都会深刻影响未来AI实验室的融资和治理结构选择。",
+      "stars": 0,
+      "tags": ["OpenAI", "Elon Musk", "Sam Altman", "Legal", "Governance", "Nonprofit", "Industry"]
+    },
+    {
+      "id": 5,
+      "category": "paper",
+      "title": "EVA-Bench：首个端到端语音Agent评估框架，揭示无系统能在准确率和体验上同时超过0.5",
+      "url": "https://huggingface.co/papers/2605.13841",
+      "summary": "ServiceNow发布EVA-Bench，213个场景覆盖航空客服/医疗/IT服务三大企业领域。支持级联/原生语音/混合三种架构的公平对比，包含口音和噪音扰动测试。核心发现：没有任何系统能在准确率（EVA-A）和体验（EVA-X）上同时超过0.5分；GPT-Realtime-1.5最接近但仅达双0.4；峰值与可靠性能差距中位数达0.44。",
+      "source": "HuggingFace Papers (May 14, 2026)",
+      "highlight": "两个关键洞察：1）语音Agent的准确率-体验存在权衡前沿，目前无解——原生S2S模型交互自然但不准确，级联模型准确但延迟高；2）单次测试成绩严重高估部署级可靠性（0.44的peak-reliable差距）。对构建语音Agent产品的团队：别只看demo效果，多次测试下的可靠性才是真实水平。",
+      "stars": 0,
+      "tags": ["Voice Agent", "Evaluation", "Benchmark", "ServiceNow", "Speech AI", "Enterprise", "Research"]
+    },
+    {
+      "id": 6,
+      "category": "paper",
+      "title": "HAGE：用RL驱动的加权图演化实现Agent记忆的动态检索，长程推理准确率显著提升",
+      "url": "https://huggingface.co/papers/2605.09942",
+      "summary": "UT Dallas提出HAGE框架，将Agent记忆检索从静态向量查找重新定义为动态图遍历。记忆组织为加权多关系图，每条边附带可训练的关系特征向量。查询时LLM分类器识别关系意图，路由网络动态调制边嵌入的相应维度，遍历得分结合语义相似度和查询条件化边表示。通过RL联合优化路由行为和边表示。",
+      "source": "HuggingFace Papers (May 14, 2026)",
+      "highlight": "Agent记忆一直是热门话题（AgentMemory连续多天trending），HAGE从学术角度给出了更优雅的解决方案：记忆不是扁平的向量库，而是一个有结构、有权重、可学习的关系图。'查询条件化遍历'意味着同一段记忆对不同问题的相关性是动态计算的——这比固定的向量相似度更接近人类记忆的工作方式。",
+      "stars": 0,
+      "tags": ["Agent Memory", "Graph", "Reinforcement Learning", "Retrieval", "LLM Agent", "Research"]
+    },
+    {
+      "id": 7,
+      "category": "paper",
+      "title": "PyRAG：将多跳RAG重构为程序合成与执行，Bamboogle准确率提升25.5个点",
+      "url": "https://huggingface.co/papers/2605.12975",
+      "summary": "UIUC提出PyRAG，将多跳RAG问答重构为可执行Python程序的合成和运行。推理过程表示为代码：变量存储中间结果、retrieve()和answer()函数执行检索和提取、编译器异常提供确定性反馈。7B模型在Bamboogle上提升+25.5点，2WikiMQA上+14.5点。RL训练版PyRAG-RL平均EM达39.2，超越ReSearch等强基线。",
+      "source": "HuggingFace Papers (May 14, 2026)",
+      "highlight": "与昨天推荐的ThinC（用代码思考数学）理念一致，PyRAG证明'用代码推理'的优势可以从数学扩展到多跳问答——代码的显式状态管理和编译器反馈天然解决了自然语言推理的隐式状态和错误检测问题。Bamboogle +25.5点的提升极为显著，对RAG系统的架构设计有直接指导意义。",
+      "stars": 0,
+      "tags": ["RAG", "Multi-Hop QA", "Code Reasoning", "Program Synthesis", "UIUC", "LLM", "Research"]
+    },
+    {
+      "id": 8,
+      "category": "paper",
+      "title": "Many-Shot CoT-ICL：重新理解In-Context Learning——从模式匹配到结构化课程学习",
+      "url": "https://huggingface.co/papers/2605.13511",
+      "summary": "研究发现many-shot CoT-ICL不应被理解为模式匹配，而是上下文内的测试时课程学习。关键发现：相似度检索对推理任务失效（问题相似≠解法相似）、示例顺序敏感性随数量增加而增大（与非推理任务相反）、自生成CoT优于真实CoT（模型需要'可理解'的示例）。提出CDS方法：最小化示例间概念曲率，创建平滑的教学课程，几何推理提升5.42个点。",
+      "source": "HuggingFace Papers (May 14, 2026)",
+      "highlight": "将长context从'检索缓冲区'重新定义为'结构化学习环境'是一个范式级洞察。实践启示：在构建few-shot推理系统时，示例的排列顺序比数量更重要，'概念平滑过渡'比'语义相似'更重要。对所有使用RAG+CoT的应用——示例选择策略需要从相似度检索转向课程设计。",
+      "stars": 0,
+      "tags": ["In-Context Learning", "Chain-of-Thought", "Few-Shot", "Curriculum Learning", "LLM", "Research"]
+    },
+    {
+      "id": 9,
+      "category": "paper",
+      "title": "SPIN：IBM的结构化LLM规划框架，通过DAG验证和前缀执行将工具调用减少42%",
+      "url": "https://huggingface.co/papers/2605.14051",
+      "summary": "IBM提出SPIN框架解决工业级LLM Agent的规划可靠性问题。两个核心机制：1）DAG验证+修复提示确保计划结构合法；2）前缀执行控制——增量评估DAG前缀，当前缀已足够回答查询时提前停止。在AssetOpsBench 261个场景上，执行任务减少41%，工具调用减少42%，完成率从63.8%提升至70.6%。",
+      "source": "HuggingFace Papers (May 14, 2026)",
+      "highlight": "对构建生产级Agent的工程师最有实用价值的论文之一：不追求更强的推理能力，而是用结构化约束确保计划合法+前缀提前终止避免浪费。42%工具调用减少直接转化为API成本节约。DAG验证+修复提示的组合是简洁有效的工程方案，可以快速集成到现有Agent系统中。",
+      "stars": 0,
+      "tags": ["Agent Planning", "DAG", "IBM", "Industrial Agent", "Cost Optimization", "Tool Use", "Research"]
+    },
+    {
+      "id": 10,
+      "category": "repo",
+      "title": "Kronos：首个金融K线基础模型，覆盖45+全球交易所，开源可用",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "summary": "首个开源金融蜡烛图（K线）基础模型，在45+全球交易所数据上训练。两阶段架构：专用tokenizer将OHLCV连续数据转为分层离散token，自回归Transformer处理token序列进行预测。提供mini到large（4.1M-499.2M参数）多个尺寸，全部通过HuggingFace开放。将金融序列当作'语言'来理解和生成。",
+      "source": "GitHub Trending (24.9K stars)",
+      "highlight": "将金融数据'当语言模型来做'是一个有趣的范式——OHLCV→token→自回归预测的流程让金融预测可以利用LLM的所有工程积累（注意力机制、缩放规律、高效推理）。24.9K星标反映了量化社区对基础模型方法的高度期待，但金融数据的噪声特性意味着实际交易效果需要严格回测验证。",
+      "stars": 24851,
+      "tags": ["Finance", "Foundation Model", "Time Series", "Quantitative", "Open Source", "HuggingFace", "Trading"]
+    },
+    {
+      "id": 11,
+      "category": "repo",
+      "title": "NVIDIA视频搜索与摘要蓝图：GPU加速的Vision Agent参考架构",
+      "url": "https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization",
+      "summary": "NVIDIA官方发布的GPU加速视频分析Agent参考架构。三层设计：实时处理层（提取视觉特征和嵌入）、下游分析层（元数据丰富为可操作洞察）、Agent层（通过MCP协议统一访问，集成VLM和LLM）。支持视频问答、实时异常检测、自然语言视频搜索和分段式长视频摘要。基于Cosmos-Reason2-8B等NIM微服务。",
+      "source": "GitHub (859 stars)",
+      "highlight": "NVIDIA从卖GPU转向卖'AI应用参考架构'的战略持续深入。这个蓝图的价值在于：1）MCP协议统一视频分析接口，让Agent可以像调用工具一样分析视频；2）完整的端到端流程从实时处理到Agent推理；3）对安防、零售、制造等需要视频智能的行业是开箱即用的起点。",
+      "stars": 859,
+      "tags": ["NVIDIA", "Video Analytics", "Vision Agent", "MCP", "VLM", "GPU", "Reference Architecture"]
+    },
+    {
+      "id": 12,
+      "category": "repo",
+      "title": "OpenHuman持续爆发：个人AI助手从2.8K涨至7.8K Stars（+179%三天）",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "summary": "连续四天GitHub Trending的个人AI项目，星标从三天前的2.8K飙升至7.8K（+179%）。开源Rust实现的个人AI超级智能：Memory Tree记忆系统、118+一键OAuth集成、TokenJuice 80%压缩、内置Web搜索/抓取/代码工具、可加入视频会议。桌面优先、完全本地运行。",
+      "source": "GitHub Trending (7.8K stars)",
+      "highlight": "三天179%的增长印证了'个人AI助手'赛道的爆发势头。与企业级Agent产品不同，OpenHuman聚焦个人场景（日程管理、邮件处理、会议参与），Rust实现保证性能，本地部署保证隐私。快速增长也意味着社区反馈和贡献将加速产品成熟。",
+      "stars": 7821,
+      "tags": ["Personal AI", "Open Source", "Rust", "Memory", "Privacy", "Trending", "Desktop Agent"]
+    },
+    {
+      "id": 13,
+      "category": "repo",
+      "title": "AgentMemory四连Trending：编码Agent记忆系统突破9K Stars",
+      "url": "https://github.com/rohitg00/agentmemory",
+      "summary": "连续四天位居GitHub Trending，星标从4.8K增长至9K（+88%四天）。12个hook自动捕获Agent活动、BM25+语义+知识图谱三重检索、95.2%准确率、支持30+编码Agent、SQLite本地运行、token消耗降低92%。社区持续活跃增长中。",
+      "source": "GitHub Trending (9.0K stars)",
+      "highlight": "四天连续trending+88%增长确认了Agent记忆是当前开发者社区最刚性的需求之一。从4.8K到9K的增长轨迹表明这不是一过性热度，而是实际使用驱动的organic增长。值得关注其是否会成为Agent基础设施的标准组件。",
+      "stars": 9018,
+      "tags": ["Agent Memory", "Coding Agent", "MCP", "Trending", "Developer Tool", "Open Source"]
+    },
+    {
+      "id": 14,
+      "category": "repo",
+      "title": "GitHub Spec Kit持续热门：官方规格驱动开发工具包逼近100K Stars",
+      "url": "https://github.com/github/spec-kit",
+      "summary": "GitHub官方的规格驱动开发工具包持续热门，星标从昨天的98.5K增至99.5K，即将突破10万。通过编写结构化规格文档指导AI编码Agent的工作流程，核心理念'先写规格再写代码'正在成为AI编码时代的新标准开发方法论。",
+      "source": "GitHub Trending (99.5K stars)",
+      "highlight": "即将突破100K的里程碑标志着'Spec-Driven Development'从新概念到行业共识的转变。GitHub官方背书+近100K星标意味着这将影响整个开发者工具链的设计方向——未来的IDE、CI/CD和Agent框架都需要原生支持规格文档的创建、验证和执行。",
+      "stars": 99534,
+      "tags": ["GitHub", "Spec-Driven", "Software Development", "AI Coding", "Methodology", "Official", "Trending"]
+    },
+    {
+      "id": 15,
+      "category": "news",
+      "title": "Clio达成5亿美元里程碑，法律科技行业在Anthropic加码法律AI后加速竞争",
+      "url": "https://techcrunch.com/2026/05/13/clios-500m-milestone-arrives-just-as-anthropic-ups-the-ante/",
+      "summary": "法律科技公司Clio达到5亿美元营收里程碑，但面临Anthropic大举进军法律AI的挑战——昨天Anthropic刚发布12个法律AI插件和20+MCP连接器。Clio的成功证明法律行业AI化的市场规模，但Anthropic从平台层面切入可能改变整个法律科技的竞争格局。",
+      "source": "TechCrunch (May 13, 2026)",
+      "highlight": "Clio的5亿美元证明法律AI是真金白银的大市场，但Anthropic的平台级入场让垂直SaaS公司面临'被平台化'风险。Claude的法律插件+MCP连接器可以直接对接Thomson Reuters、DocuSign等核心工具，意味着Clio等中间层公司的护城河可能被绕过。这是AI平台vs垂直SaaS竞争的缩影。",
+      "stars": 0,
+      "tags": ["Legal Tech", "Clio", "Anthropic", "Claude", "SaaS", "Competition", "Enterprise"]
+    }
+  ]
+}
