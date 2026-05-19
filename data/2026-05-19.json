@@ -1,0 +1,170 @@
+{
+  "date": "2026-05-19",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "OpenAI正式确认1220亿美元融资和ChatGPT超级应用：估值8520亿，月收入20亿",
+      "url": "https://the-decoder.com/openai-officially-confirms-mega-funding-round-and-chatgpt-super-app/",
+      "summary": "OpenAI正式关闭最新融资轮，融资1220亿美元，估值8520亿美元。主要投资者包括Amazon、Nvidia、SoftBank和Microsoft，以及a16z、BlackRock、Sequoia等。公司月收入达20亿美元，ChatGPT周活用户突破9亿。同时官方确认将Codex、ChatGPT和Atlas浏览器整合为超级应用。",
+      "source": "The Decoder (May 19, 2026)",
+      "highlight": "8520亿美元估值和月收入20亿标志着OpenAI已进入'超大型科技公司'量级。9亿周活用户意味着ChatGPT已是全球使用最广泛的AI产品。超级应用战略+IPO准备说明OpenAI正在从'AI研究实验室'全面转型为'平台型科技巨头'。融资规模本身也说明资本市场对AI的长期预期依然极度乐观。",
+      "stars": 0,
+      "tags": ["OpenAI", "Funding", "ChatGPT", "Super App", "IPO", "Valuation", "Business"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "SpaceX斥资600亿美元收购Cursor：Musk填补xAI编码工具短板",
+      "url": "https://the-decoder.com/musks-spacex-bets-60-billion-on-cursor-to-fix-xais-coding-gap/",
+      "summary": "SpaceX已获得以600亿美元收购AI编码初创公司Cursor的期权，若交易失败需支付100亿美元分手费。Cursor计划利用xAI的算力基础设施扩展其自有模型。对Musk而言，此次收购填补了xAI在编码工具领域落后于OpenAI和Anthropic的差距。",
+      "source": "The Decoder (May 19, 2026)",
+      "highlight": "600亿美元收购Cursor是AI编码工具领域迄今最大交易。这意味着AI编码助手市场已成为AI巨头们的核心战场。Cursor估值从两年前的几十亿飙升至600亿，反映了'AI编程'赛道的疯狂增长。对开发者工具格局影响深远：如果成功，Cursor+xAI算力可能形成对Claude Code和Codex的强力竞争。但SpaceX而非xAI作为收购方，暗示Musk企业架构的复杂性。",
+      "stars": 0,
+      "tags": ["Cursor", "SpaceX", "xAI", "Elon Musk", "Acquisition", "AI Coding", "Business"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "Opus 4.7实际成本远超4.6：首批token计数揭示同价不同量，实际贵30-47%",
+      "url": "https://the-decoder.com/first-token-counts-reveal-opus-4-7-costs-significantly-more-than-4-6-despite-anthropics-flat-pricing/",
+      "summary": "开发者Abhishek Ray在Claude Code Camp发布测量数据：Anthropic的Opus 4.7虽然与4.6标价相同，但每次请求消耗显著更多token。Anthropic官方迁移指南称增幅1.0-1.35x，但实测数据显示：Claude Code内容平均1.325x，CLAUDE.md文件1.445x，技术文档高达1.47x。",
+      "source": "The Decoder (May 19, 2026)",
+      "highlight": "对所有Claude API付费用户的重要提醒：'同价格'不等于'同成本'。Opus 4.7的token消耗增加30-47%意味着在高用量场景下实际开销显著上升。这种'隐性涨价'模式值得关注——模型更强但消耗更多token，用户需要重新评估预算。对使用Claude Code的开发者尤其重要，因为编码场景的上下文窗口本就消耗大量token。",
+      "stars": 0,
+      "tags": ["Anthropic", "Claude", "Opus 4.7", "Pricing", "Token Cost", "API", "Developer"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "OpenAI领导层动荡：AGI部署CEO因病休假，Greg Brockman接管产品战略",
+      "url": "https://the-decoder.com/openai-reshuffles-leadership-as-health-issues-force-key-executives-to-step-back/",
+      "summary": "OpenAI'AGI部署'部门CEO Fidji Simo因自身免疫性神经系统疾病休病假数周。Greg Brockman接管产品职责，包括超级应用计划。营销主管Kate Rouch也因健康原因离职。CSO Jason Kwon、CFO Sarah Friar和CRO Denise Dresser临时接管商务侧。",
+      "source": "The Decoder (May 19, 2026)",
+      "highlight": "OpenAI在IPO准备期遭遇领导层连续变动，短期内增加了组织不确定性。但Brockman接管产品实际上可能加速超级应用整合——他作为联合创始人对技术和产品都有深度理解。值得注意的是OpenAI已设立'AGI部署'这个正式部门，说明他们内部认为AGI距离部署阶段已足够近。",
+      "stars": 0,
+      "tags": ["OpenAI", "Leadership", "Greg Brockman", "Fidji Simo", "AGI", "Organization"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "从GPT-2到Claude Mythos：'危险到不能发布'的AI模型卷土重来，这次有真凭实据",
+      "url": "https://the-decoder.com/from-gpt-2-to-claude-mythos-the-return-of-ai-models-deemed-too-dangerous-to-release/",
+      "summary": "7年前OpenAI声称GPT-2'危险到不能发布'引来业界嘲笑。如今Anthropic对Claude Mythos Preview采取类似立场，但这次有实证支持：该模型在操作系统和浏览器中发现了数千个漏洞，而几乎没有人类能审查这些发现。文章回顾了从GPT-2到Mythos的'负责任发布'理念演变。",
+      "source": "The Decoder (May 19, 2026)",
+      "highlight": "Mythos的案例标志着AI安全讨论从'理论担忧'进入'实证阶段'。GPT-2时代的'太危险'是预防性声明，而Mythos的'太危险'有数千个真实漏洞作为证据。这对整个AI安全领域是分水岭：我们首次有一个AI模型，其能力确实超出了人类审查者的评估范围。对网络安全行业的影响尤为深远——攻防平衡正在被AI改写。",
+      "stars": 0,
+      "tags": ["Anthropic", "Claude Mythos", "AI Safety", "Cybersecurity", "Responsible AI", "History"]
+    },
+    {
+      "id": 6,
+      "category": "paper",
+      "title": "MetaAgent-X：端到端强化学习突破多Agent系统天花板，联合优化设计与执行",
+      "url": "https://huggingface.co/papers/2605.14212",
+      "summary": "MetaAgent-X提出端到端强化学习框架，通过分层rollout和阶段性协同进化技术，联合优化多Agent系统的自动设计和执行。突破了当前自动多Agent系统依赖手工设计或独立优化各组件的局限，实现了设计与执行的端到端联合优化。",
+      "source": "HuggingFace Papers (May 19, 2026)",
+      "highlight": "多Agent系统的核心难题是'设计Agent架构'和'训练Agent执行'通常是割裂的两步。MetaAgent-X将这两步合并为一个端到端过程——RL不仅优化Agent的行为策略，还优化Agent的组织结构本身。这对构建可扩展的生产级多Agent系统有直接启发：不要预设架构再训练，让架构和策略一起学习可能是更优路径。",
+      "stars": 0,
+      "tags": ["Multi-Agent", "Reinforcement Learning", "End-to-End", "Agent Design", "Automation", "Research"]
+    },
+    {
+      "id": 7,
+      "category": "paper",
+      "title": "AIRA：AI Agent自主发现超越Transformer的新神经架构",
+      "url": "https://huggingface.co/papers/2605.15871",
+      "summary": "AIRA提出双框架（AIRA-Compose和AIRA-Design），让AI Agent自主设计超越标准Transformer的基础模型架构。通过优化架构搜索和机制实现两个维度，发现的架构在性能和效率上均超越标准Transformer，展示了AI自主进行架构创新的可能性。",
+      "source": "HuggingFace Papers (May 19, 2026)",
+      "highlight": "让AI设计AI架构——这是'递归自我改进'的早期实例。AIRA发现的架构超越Transformer说明当前主流架构并非最优，人类设计者可能遗漏了大量可行的计算结构。从实用角度：如果自动发现的架构能规模化验证，可能加速下一代基础模型的诞生。从哲学角度：AI正在获得改进自身基础设施的能力。",
+      "stars": 0,
+      "tags": ["Neural Architecture Search", "Transformer", "AI Agent", "Foundation Model", "AutoML", "Research"]
+    },
+    {
+      "id": 8,
+      "category": "paper",
+      "title": "Solvita：通过Agent进化持续学习，在竞赛编程中实现SOTA",
+      "url": "https://huggingface.co/papers/2605.15301",
+      "summary": "Solvita提出Agent进化框架，通过对图结构知识网络的强化学习更新实现代码生成的持续学习。在竞赛编程基准上达到最优性能，核心创新在于让Agent从历史解题经验中构建和进化可复用的知识图谱，而非依赖静态的预训练知识。",
+      "source": "HuggingFace Papers (May 19, 2026)",
+      "highlight": "Solvita解决了当前编码Agent的一个关键局限：每次解题都从零开始，无法积累经验。通过图结构的知识网络，Agent可以在解题过程中建立'问题模式→解决策略'的映射，类似人类程序员积累的'编程直觉'。对所有构建AI编码助手的团队：让Agent保留和复用历史经验可能是下一个重要的能力提升方向。",
+      "stars": 0,
+      "tags": ["Competitive Programming", "Agent", "Continual Learning", "Knowledge Graph", "Code Generation", "Research"]
+    },
+    {
+      "id": 9,
+      "category": "paper",
+      "title": "Auditing Agent Harness Safety：Agent产出正确结果≠执行过程安全",
+      "url": "https://huggingface.co/papers/2605.14271",
+      "summary": "研究发现LLM Agent在执行框架中可能产出正确结果但在执行过程中违反安全约束。提出需要轨迹级别的审计来确保资源访问和多Agent系统中的信息流符合安全规范，仅看最终输出不足以判断Agent行为是否安全。",
+      "source": "HuggingFace Papers (May 19, 2026)",
+      "highlight": "这篇论文揭示了Agent安全的核心盲区：当前大多数评估只看'最终结果是否正确'，忽略了'执行路径是否安全'。一个Agent可能通过不当访问敏感文件来得到正确答案——结果对了，但过程不安全。对所有部署Agent的团队：必须从'结果审计'升级到'轨迹审计'。这对Claude Code等编码Agent的企业部署尤为关键。",
+      "stars": 0,
+      "tags": ["Agent Safety", "Security Audit", "LLM Agent", "Execution Harness", "Multi-Agent", "Research"]
+    },
+    {
+      "id": 10,
+      "category": "paper",
+      "title": "MMSkills：为通用视觉Agent构建多模态技能库",
+      "url": "https://huggingface.co/papers/2605.13527",
+      "summary": "提出多模态过程性知识框架，让视觉Agent通过结构化表示（文本+状态卡+视觉关键帧）利用外部可复用技能。使Agent能够在复杂环境中做出更好的决策，核心思路是将技能模块化为可组合的多模态单元。",
+      "source": "HuggingFace Papers (May 19, 2026)",
+      "highlight": "技能的模块化和复用是通用Agent的关键需求。MMSkills的创新在于将技能表示为多模态结构（不仅是文本指令，还包括视觉参考和状态描述），这让视觉Agent能在'看到类似场景'时调用合适的技能。与Agent Skills等开源项目（纯文本技能）相比，多模态技能更适合具身AI和GUI操作场景。",
+      "stars": 0,
+      "tags": ["Visual Agent", "Multimodal", "Skills", "Embodied AI", "Knowledge Representation", "Research"]
+    },
+    {
+      "id": 11,
+      "category": "repo",
+      "title": "OpenHuman持续爆发：个人AI超级智能单日+3,941 Stars，增速翻倍",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "summary": "连续数日GitHub Trending榜首，今日单日增长3,941 stars创新高（昨日+1,690）。开源Rust实现的个人AI超级智能：Memory Tree记忆系统、118+一键OAuth集成、TokenJuice 80%压缩、内置Web搜索/代码工具、可加入视频会议。桌面优先、完全本地运行。",
+      "source": "GitHub Trending (+3,941 today)",
+      "highlight": "增速从+1,690翻倍到+3,941，进入病毒式传播阶段。OpenHuman正在验证一个市场假设：用户渴望一个'私有、本地、全能'的AI助手——不是云端订阅服务，而是属于自己的AI。Rust+本地部署确保性能和隐私。按这个增速，本周很可能突破25K stars，成为个人AI助手赛道的事实标准。",
+      "stars": 17000,
+      "tags": ["Personal AI", "Open Source", "Rust", "Memory", "Privacy", "Desktop Agent", "Viral Growth"]
+    },
+    {
+      "id": 12,
+      "category": "repo",
+      "title": "Academic Research Skills：Claude Code学术研究全流程技能包，+1,439 Stars爆发",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "summary": "为Claude Code设计的学术研究技能包，覆盖研究→写作→评审→修订→定稿完整学术工作流。通过技能系统让AI编码Agent理解学术规范和流程，支持文献检索、论文撰写、同行评审模拟等功能。单日+1,439 stars说明学术群体对Agent化研究工具的强烈需求。",
+      "source": "GitHub Trending (+1,439 today)",
+      "highlight": "学术研究是Agent技能最有价值的垂直领域之一。这个项目的爆发说明研究人员不仅需要AI写代码，更需要AI理解'做研究'的全流程。与Scientific Agent Skills侧重实验操作不同，这个项目侧重学术写作和评审流程。对博士生和研究员：将Claude Code从编码助手升级为研究助手的最快路径。",
+      "stars": 2800,
+      "tags": ["Academic Research", "Claude Code", "Agent Skills", "Writing", "Peer Review", "Trending"]
+    },
+    {
+      "id": 13,
+      "category": "repo",
+      "title": "CloakBrowser：源码级反检测浏览器，通过全部30项机器人检测，Playwright直替方案",
+      "url": "https://github.com/CloakHQ/CloakBrowser",
+      "summary": "隐身Chromium浏览器，通过源码级指纹补丁通过所有主流机器人检测测试（30/30）。作为Playwright的直替方案，无需修改现有自动化代码即可使用。解决了Web自动化和AI Agent在浏览网页时被反机器人系统拦截的痛点。今日+1,420 stars。",
+      "source": "GitHub Trending (+1,420 today)",
+      "highlight": "AI Agent需要浏览网页但频繁被反机器人系统拦截是当前的核心痛点。CloakBrowser通过源码级修改（而非运行时Hook）来隐藏自动化特征，这种方法比Puppeteer-extra-plugin-stealth等方案更彻底。对所有构建Web Agent的团队：这可能是让Agent可靠访问真实网页的基础设施级工具。但需注意合规使用边界。",
+      "stars": 4200,
+      "tags": ["Browser Automation", "Anti-Detection", "Playwright", "Web Agent", "Stealth", "Open Source", "Trending"]
+    },
+    {
+      "id": 14,
+      "category": "repo",
+      "title": "Supertonic：超快速本地TTS引擎，ONNX原生多语言文本转语音",
+      "url": "https://github.com/supertone-inc/supertonic",
+      "summary": "韩国AI音频公司Supertone（HYBE子公司）开源的超快速本地TTS引擎。通过ONNX实现跨平台原生运行，支持多语言，无需GPU即可实时合成语音。定位为本地优先的语音合成方案，适合需要低延迟和隐私保护的应用场景。今日+715 stars。",
+      "source": "GitHub Trending (+715 today)",
+      "highlight": "本地TTS是语音Agent和无障碍应用的关键基础设施。Supertonic的ONNX方案意味着可以在任何设备上零延迟运行，无需云端API调用——这对语音Agent的实时响应至关重要。由HYBE旗下Supertone出品保证了音频质量（他们是K-pop AI声音技术的领先者）。与Dograh等语音Agent平台配合使用价值更大。",
+      "stars": 3500,
+      "tags": ["TTS", "ONNX", "On-Device", "Multilingual", "Voice AI", "Open Source", "Supertone", "Trending"]
+    },
+    {
+      "id": 15,
+      "category": "repo",
+      "title": "RuView：用WiFi信号实现空间感知和生命体征监测，无需摄像头",
+      "url": "https://github.com/ruvnet/RuView",
+      "summary": "将普通WiFi信号转化为实时空间智能系统，实现生命体征监测和存在检测——完全不需要摄像头。利用WiFi信号的反射和衰减模式，通过AI算法推断空间中人员的位置、活动和呼吸/心率等生命体征。今日+700 stars。",
+      "source": "GitHub Trending (+700 today)",
+      "highlight": "WiFi感知是一个被低估的AI应用方向。相比摄像头，WiFi方案天然保护隐私（无视觉数据）、穿墙、不受光照影响。在老人看护、智能家居、安防等场景有巨大潜力。开源实现降低了入门门槛——之前这类技术主要停留在学术论文中。对IoT和健康科技开发者值得关注。",
+      "stars": 2500,
+      "tags": ["WiFi Sensing", "Spatial Intelligence", "Health Monitoring", "Privacy", "IoT", "Open Source", "Trending"]
+    }
+  ]
+}
