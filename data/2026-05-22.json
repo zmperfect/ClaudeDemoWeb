@@ -1,0 +1,170 @@
+{
+  "date": "2026-05-22",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "OpenAI将Codex升级为全天候编码Agent：可观看屏幕、自主操作、跨天持续工作",
+      "url": "https://the-decoder.com/openai-turns-codex-into-an-always-on-coding-agent-that-watches-your-screen/",
+      "summary": "OpenAI大幅扩展开发者工具Codex，新增'后台计算机使用'功能——AI可以直接看到、点击和输入屏幕内容。Codex现在可以为自己调度未来任务，自动在长期项目上持续工作（据称可跨数天或数周）。更新还包括集成浏览器，可直接在网页上评论代码。",
+      "source": "The Decoder (May 22, 2026)",
+      "highlight": "这是AI编码Agent从'被动响应'到'主动持续'的关键转变。Codex不再只是回答问题——它变成了一个'始终在线'的同事，能观察你的屏幕、理解上下文、自主安排工作。'跨天持续工作'能力意味着Agent可以承担真正的长期任务（大型重构、渐进式迁移等）。对Claude Code的竞争压力很大：Anthropic的Routines是事件驱动的，而Codex的新模式是'持续在线+主动观察'。",
+      "stars": 0,
+      "tags": ["OpenAI", "Codex", "Computer Use", "Always-On", "AI Coding", "Agent Autonomy"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "OpenAI数日内或秘密提交IPO文件：目标9月上市，估值8520亿",
+      "url": "https://the-decoder.com/openai-could-file-confidential-ipo-paperwork-within-days/",
+      "summary": "据华尔街日报报道，OpenAI正准备IPO，可能在数日内向SEC秘密提交文件。高盛和摩根士丹利协助准备招股书，目标9月上市。最近估值8520亿美元。本周一大障碍已清除——OpenAI赢得了联合创始人Elon Musk的诉讼。",
+      "source": "The Decoder (May 21, 2026)",
+      "highlight": "8520亿估值的IPO将是科技史上最大规模之一。时间点很微妙：在赢得Musk诉讼后立即推进，说明诉讼此前是关键阻碍。9月上市意味着OpenAI很快将面对公开市场的审视——财务透明度和增长叙事将接受考验。与Anthropic的IPO竞赛也在加速，先上市者可能获得品牌和融资优势。",
+      "stars": 0,
+      "tags": ["OpenAI", "IPO", "SEC", "Goldman Sachs", "Valuation", "Business"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "Cohere开源最强模型Command A+：218B参数MoE，Apache 2.0许可，2张H100即可运行",
+      "url": "https://the-decoder.com/cohere-open-sources-its-strongest-model-yet/",
+      "summary": "加拿大AI公司Cohere以Apache 2.0许可开源其最强语言模型Command A+。这是一个218B参数的MoE模型（25B活跃参数），可在2张H100或单张Blackwell GPU上运行。专为企业工作流设计：Agent任务、RAG和多语言文档处理，支持48种语言，128K上下文窗口。",
+      "source": "The Decoder (May 21, 2026)",
+      "highlight": "开源阵营的重要补强。Command A+的定位很清晰：企业级Agent+RAG+多语言，这恰好是Cohere的核心客户需求。218B总参数但仅25B活跃，MoE架构确保了效率——2张H100就能跑意味着中型企业可以自行部署。Apache 2.0许可是商用最友好的选择。对需要自托管的企业：这可能是当前性价比最高的开源Agent基础模型。",
+      "stars": 0,
+      "tags": ["Cohere", "Command A+", "Open Source", "MoE", "Enterprise", "Apache 2.0", "Multilingual"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "美军网络司令部紧急在绝密网络部署AI：OpenAI和Google模型进入五角大楼和NSA",
+      "url": "https://the-decoder.com/us-cyber-command-races-to-deploy-ai-on-top-secret-networks/",
+      "summary": "美国网络司令部正在组建专项小组，将OpenAI和Google的AI模型部署到五角大楼和NSA的绝密网络上。触发因素是新AI模型能比人类黑客更快发现数字系统安全漏洞。军方专家称这些AI工具对加速威胁检测和网络作战决策不可或缺。",
+      "source": "The Decoder (May 21, 2026)",
+      "highlight": "AI安全能力从'实验室基准'到'军方实战部署'的跨越。此前CMU基准证明AI能自主构建漏洞利用链，现在军方直接将这些模型放进最敏感的网络。这验证了一个趋势：AI网络安全不再是锦上添花而是军事必需品。注意Mistral此前警告的欧洲AI主权问题在美国并不存在——美军直接使用本土公司模型。对整个网络安全行业：AI攻防能力已成为国家安全级别的竞争。",
+      "stars": 0,
+      "tags": ["Cybersecurity", "US Military", "OpenAI", "Google", "National Security", "Deployment"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "Google WebMCP：让整个互联网成为AI Agent的结构化数据库",
+      "url": "https://the-decoder.com/googles-webmcp-moves-the-web-closer-to-becoming-a-structured-database-for-ai-agents/",
+      "summary": "Google推出WebMCP——一种让网站与AI Agent以标准化方式通信的新接口。本质上是Google版的MCP（Model Context Protocol），专为Web构建。让AI Agent通过浏览器以结构化方式与网站交互，而非依赖HTML解析。目标是让Web从'人类阅读的文档'变成'Agent可查询的数据库'。",
+      "source": "The Decoder (May 22, 2026)",
+      "highlight": "如果WebMCP被广泛采用，将是Web架构30年来最大的范式转变。当前Agent访问Web要么抓取HTML要么调用API——前者脆弱后者需要集成。WebMCP提供了第三条路：网站主动暴露结构化接口给Agent。Google的推动力确保了生态影响力。对Web开发者：像SEO一样，'Agent优化'可能很快成为标配。与llms.txt互补——一个服务于阅读理解，一个服务于交互操作。",
+      "stars": 0,
+      "tags": ["Google", "WebMCP", "MCP", "Web Standard", "AI Agent", "Structured Data", "Infrastructure"]
+    },
+    {
+      "id": 6,
+      "category": "paper",
+      "title": "π-Bench：评估主动式个人助手Agent在长期工作流中识别隐含意图的能力",
+      "url": "https://huggingface.co/papers/2605.14678",
+      "summary": "当前基准无法充分评估个人Agent系统中的'主动辅助'能力。π-Bench聚焦评估Agent在持续多轮交互中识别用户隐含意图的能力——不是等用户明确提问，而是主动发现用户可能需要什么帮助。这对构建真正实用的个人AI助手至关重要。",
+      "source": "HuggingFace Papers (May 22, 2026)",
+      "highlight": "主动式Agent是个人AI助手的终极形态：不是你问它答，而是它主动发现你需要什么。π-Bench首次系统评估这个能力维度——识别隐含意图需要理解工作上下文、历史行为模式和领域知识。与OpenHuman、Codex的'always-on'方向完全一致。对Agent框架设计者：被动响应式Agent的天花板已经到了，主动感知才是下一个差异化方向。",
+      "stars": 0,
+      "tags": ["Personal Agent", "Proactive AI", "Benchmark", "Intent Recognition", "Long-Horizon", "Research"]
+    },
+    {
+      "id": 7,
+      "category": "paper",
+      "title": "ACC：将Agent多轮轨迹编译为长上下文训练数据，提升远距离上下文整合能力",
+      "url": "https://huggingface.co/papers/2605.21850",
+      "summary": "Agent Context Compilation (ACC)通过将多轮Agent轨迹转换为结构化QA对，实现对远距离上下文整合的直接监督训练。无需额外标注，就能让LLM学会从长Agent历史中提取和整合关键信息，显著提升长上下文推理能力。",
+      "source": "HuggingFace Papers (May 22, 2026)",
+      "highlight": "Agent轨迹是最宝贵但最难利用的训练数据。ACC的创新在于将'杂乱的Agent对话历史'编译为'结构化的学习材料'——相当于给模型做了精炼的'案例教学'。这直接解决长上下文Agent的核心瓶颈：模型在长对话后遗忘早期关键信息。对所有训练Agent模型的团队：ACC方法可以直接将生产Agent的历史日志转化为训练数据。",
+      "stars": 0,
+      "tags": ["Agent Training", "Long Context", "Data Compilation", "LLM", "Trajectory", "Research"]
+    },
+    {
+      "id": 8,
+      "category": "paper",
+      "title": "Spreadsheet-RL：用强化学习训练Excel Agent，在真实电子表格环境中学习操作",
+      "url": "https://huggingface.co/papers/2605.22642",
+      "summary": "Spreadsheet-RL提出在真实Excel环境中通过强化学习训练专用电子表格Agent的框架。包含自动化数据收集和领域特定基准，让Agent学会在通用和专业电子表格任务上表现优异。解决了当前AI在复杂表格操作中的不足。",
+      "source": "HuggingFace Papers (May 22, 2026)",
+      "highlight": "电子表格是全球使用最广泛的'编程环境'——数十亿非程序员通过Excel完成数据工作。但当前AI在复杂表格操作上表现很差（多sheet关联、复杂公式、宏操作等）。Spreadsheet-RL直接在真实Excel环境中训练Agent，比在简化模拟中学习更有效。对企业AI应用：解决Excel痛点可能比代码生成影响更多用户。",
+      "stars": 0,
+      "tags": ["Spreadsheet", "Excel", "Reinforcement Learning", "Agent", "Enterprise", "Research"]
+    },
+    {
+      "id": 9,
+      "category": "paper",
+      "title": "TerminalWorld：在真实终端任务上评估Agent能力的可扩展基准",
+      "url": "https://huggingface.co/papers/2605.22535",
+      "summary": "TerminalWorld引入可扩展的数据引擎，自动生成真实终端任务用于Agent评估。覆盖系统管理、网络配置、文件操作、脚本编写等真实场景，为终端Agent（如Claude Code）提供标准化评估框架。",
+      "source": "HuggingFace Papers (May 22, 2026)",
+      "highlight": "终端是开发者和系统管理员的核心工作环境，也是Claude Code等工具的主要运行场景。TerminalWorld的价值在于'可扩展'——自动生成测试案例意味着可以持续跟踪Agent在终端操作上的进步。对Agent开发者：这是验证你的CLI Agent是否真正'能干活'还是只'看起来能干活'的标准测试场。与SpecBench互补——一个测编码，一个测系统操作。",
+      "stars": 0,
+      "tags": ["Terminal", "CLI Agent", "Benchmark", "System Administration", "Evaluation", "Research"]
+    },
+    {
+      "id": 10,
+      "category": "paper",
+      "title": "Maestro：用RL训练协调器动态编排专家模型和技能组合",
+      "url": "https://huggingface.co/papers/2605.22177",
+      "summary": "Maestro提出RL驱动的编排框架，动态组合专家模型和技能处理多模态任务。不是固定的模型流水线，而是根据任务特性实时选择最优的模型-技能组合，以低计算开销实现优异性能。",
+      "source": "HuggingFace Papers (May 22, 2026)",
+      "highlight": "模型编排是Agent系统的'操作系统级'问题：如何根据当前任务动态选择使用哪个模型、调用哪个工具？Maestro用RL学习这个调度策略，比规则引擎更灵活。对多Agent系统设计者：不要硬编码模型选择逻辑，让系统自己学习何时用大模型何时用小模型。这与Cursor Composer 2.5的思路（专用便宜模型替代通用贵模型）在系统层面是一致的。",
+      "stars": 0,
+      "tags": ["Model Orchestration", "RL", "Multi-Model", "Skills", "Efficiency", "Research"]
+    },
+    {
+      "id": 11,
+      "category": "repo",
+      "title": "CodeGraph爆发式增长：单日+4,294 Stars，AI编码Agent代码理解基础设施",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "summary": "为Claude Code、Codex、Cursor和OpenCode预建的代码知识图谱。将源代码索引到本地SQLite数据库，包含符号关系、调用图和框架路由信息。今日+4,294 stars创历史新高，累计增长远超1万。已成为AI编码Agent生态中增长最快的基础设施项目。",
+      "source": "GitHub Trending (+4,294 today)",
+      "highlight": "从3天前+2,123到今天+4,294，增速翻倍。CodeGraph正在成为AI编码Agent的'标准基础设施层'——类似于LSP之于IDE。核心价值：让Agent直接查询代码语义关系而非每次从头扫描文件。对所有AI编码工具用户：如果你还没安装CodeGraph的MCP服务器，现在是时候了——token节约90%+意味着更快的响应和更低的成本。",
+      "stars": 12000,
+      "tags": ["Code Intelligence", "Knowledge Graph", "MCP", "Claude Code", "Infrastructure", "Viral Growth", "Trending"]
+    },
+    {
+      "id": 12,
+      "category": "repo",
+      "title": "Multica：开源托管Agent平台——将编码Agent变成真正的团队成员",
+      "url": "https://github.com/multica-ai/multica",
+      "summary": "开源的托管Agent平台，让编码Agent像真正的团队成员一样工作——可分配任务、跟踪进度、积累技能。支持多Agent协同，Agent之间可以传递上下文和复用彼此的技能。与andrej-karpathy-skills同一团队出品，今日+534 stars。",
+      "source": "GitHub Trending (+534 today)",
+      "highlight": "Multica代表了Agent从'工具'到'团队成员'的范式升级。不是你调用Agent完成单次任务，而是Agent作为持久化的'角色'存在于你的开发流程中——有自己的任务板、进度追踪和技能积累。这与OpenAI Codex的'always-on'方向异曲同工，但是开源方案。对想自建Agent工作流的团队：比直接用Claude Code API组装更省力。",
+      "stars": 2000,
+      "tags": ["Agent Platform", "Team", "Open Source", "Task Management", "Multi-Agent", "Trending"]
+    },
+    {
+      "id": 13,
+      "category": "repo",
+      "title": "Understand-Anything：代码→交互式知识图谱，支持Claude Code/Codex/Cursor等",
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "summary": "将任何代码转化为可交互式探索的知识图谱，支持搜索和提问。'教学型图谱而非炫酷图谱'的设计理念——重在理解而非展示。兼容Claude Code、Codex、Cursor、Copilot、Gemini CLI等主流AI编码工具。今日+666 stars。",
+      "source": "GitHub Trending (+666 today)",
+      "highlight": "与CodeGraph互补：CodeGraph为Agent提供代码结构查询，Understand-Anything为人类提供可视化理解。'教学型图谱'的定位很准确——新加入项目的开发者最需要的不是完整代码图，而是能让他们快速建立心智模型的交互式导航。对大型遗留代码库尤其有价值：理解架构的时间成本可能从数天降至数小时。",
+      "stars": 2500,
+      "tags": ["Code Visualization", "Knowledge Graph", "Interactive", "Learning", "Developer Tool", "Trending"]
+    },
+    {
+      "id": 14,
+      "category": "repo",
+      "title": "NotebookLM-Py：Google NotebookLM非官方Python API，支持AI Agent调用",
+      "url": "https://github.com/teng-lin/notebooklm-py",
+      "summary": "Google NotebookLM的非官方Python API和Agent技能，提供完整的编程访问——包括Web UI未暴露的功能。支持Python调用、CLI使用和AI Agent（Claude Code、Codex、OpenClaw）集成。今日+186 stars，填补了NotebookLM API缺失的空白。",
+      "source": "GitHub Trending (+186 today)",
+      "highlight": "NotebookLM是Google最受欢迎的AI产品之一（播客/音频摘要功能爆火），但一直没有官方API。这个非官方方案让开发者可以将NotebookLM的能力集成到自动化工作流中——比如自动将研究论文转化为音频摘要。作为Agent技能的集成方式尤其有趣：让Claude Code能直接操作NotebookLM进行知识管理。",
+      "stars": 800,
+      "tags": ["NotebookLM", "Google", "Python API", "Agent Skill", "Knowledge Management", "Trending"]
+    },
+    {
+      "id": 15,
+      "category": "repo",
+      "title": ".NET Skills：微软官方为AI编码Agent提供的.NET/C#技能库",
+      "url": "https://github.com/dotnet/skills",
+      "summary": "微软.NET团队官方发布的AI编码Agent技能库，帮助Claude Code、Codex等Agent更好地理解和编写.NET/C#代码。涵盖.NET生态的最佳实践、模式和框架使用指南。标志着主流框架官方开始拥抱Agent生态。",
+      "source": "GitHub Trending (+129 today)",
+      "highlight": "继Anthropic官方插件目录后，微软.NET也官方加入Agent技能生态——这标志着'Agent Skills'正在从社区项目升级为主流平台的官方支持。对.NET开发者：Claude Code处理C#代码的能力将显著提升。对整个行业：当官方框架团队开始为AI Agent优化文档，说明Agent已成为开发者体验的核心一环。",
+      "stars": 500,
+      "tags": ["Microsoft", ".NET", "C#", "Agent Skills", "Official", "Claude Code", "Trending"]
+    }
+  ]
+}
