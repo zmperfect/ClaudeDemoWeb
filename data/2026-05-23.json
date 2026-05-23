@@ -1,0 +1,170 @@
+{
+  "date": "2026-05-23",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "Anthropic估值9000亿美元：首次超越OpenAI，AI双巨头格局正式形成",
+      "url": "https://the-decoder.com/anthropics-900-billion-valuation-would-make-it-more-valuable-than-openai-for-the-first-time/",
+      "summary": "据金融时报报道，Anthropic正在以9000亿美元估值谈判300亿美元新融资轮。这比1月的3500亿估值几乎翻了三倍，比去年秋天的1830亿翻了近五倍。该估值将使Dario Amodei领导的公司首次超越OpenAI（8520亿美元），尽管这种领先可能很短暂。",
+      "source": "The Decoder (May 23, 2026)",
+      "highlight": "从1830亿→3500亿→9000亿，Anthropic估值7个月增长近5倍。首次超越OpenAI是里程碑式事件——验证了'安全优先'路线可以同时赢得技术声誉和商业价值。Karpathy加入+估值超越双重利好说明市场对Anthropic的技术方向投了最大的信任票。但考虑到OpenAI即将IPO，估值竞赛远未结束。",
+      "stars": 0,
+      "tags": ["Anthropic", "Valuation", "Funding", "OpenAI", "Business", "Milestone"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "Trump最后时刻撤回AI安全行政令：Musk、Zuckerberg和Sacks联合施压",
+      "url": "https://the-decoder.com/trump-pulls-ai-safety-order-after-last-minute-calls-from-musk-zuckerberg-and-sacks/",
+      "summary": "美国总统Trump在最后一刻取消了一项计划中的AI安全行政令——在Elon Musk、Mark Zuckerberg和David Sacks的联合干预后。该草案原本要求科技公司在发布前自愿将最新AI模型提交联邦机构安全测试。批评者警告审查流程会拖慢AI发展并削弱美国对中国的领先优势。",
+      "source": "The Decoder (May 22, 2026)",
+      "highlight": "AI治理的关键政治时刻。三位科技巨头联合施压撤回安全测试要求，理由是'不能拖慢发展'——这与加州同日签署保护工人的行政令形成鲜明对比。美国AI监管格局正在分裂：联邦层面放松（企业游说成功），州层面收紧（加州领先）。对AI安全研究者：自愿安全测试被否决意味着'自我监管'仍是主旋律，Anthropic等公司的内部安全实践变得更加重要。",
+      "stars": 0,
+      "tags": ["AI Policy", "Trump", "Elon Musk", "AI Safety", "Regulation", "US Government"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "加州州长签署全美首个AI就业保护行政令：补贴留人企业、扩大再培训、探索UBC",
+      "url": "https://the-decoder.com/california-governor-signs-first-us-executive-order-to-protect-workers-from-ai-job-loss/",
+      "summary": "加州州长签署全美首个针对AI就业冲击的行政令。具体措施包括：补贴留住员工而非用AI替换的企业、扩大面向白领的再培训计划、审查'全民基本资本'(Universal Basic Capital)政策。州级机构将与研究者、工会和AI产业合作制定新的劳动力市场策略。",
+      "source": "The Decoder (May 22, 2026)",
+      "highlight": "从联邦撤回安全令到加州签署就业保护令——同一天两个方向截然相反的政策动作。'全民基本资本'(UBC)概念首次出现在官方文件中，比UBI更进一步——不是给钱而是给资本份额。这对AI行业的实际影响：加州企业使用AI替代员工的隐性成本上升。对所有AI从业者：AI对就业的影响已从学术讨论进入政策实操阶段。",
+      "stars": 0,
+      "tags": ["AI Policy", "California", "Employment", "UBC", "Regulation", "Worker Protection"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "OpenAI Appshots：一键将Mac任意窗口内容发送给Codex，不只截图还包括完整文本",
+      "url": "https://the-decoder.com/openai-appshots-turn-any-mac-window-into-context-for-codex/",
+      "summary": "OpenAI推出Codex新功能Appshots：Mac用户按双Command键即可将当前活动窗口内容发送给Codex。不仅获取截图，还获取窗口中的完整文本（包括滚动区域外的内容）。API文档、邮件、设计稿或错误信息都可一键作为Agent上下文。",
+      "source": "The Decoder (May 22, 2026)",
+      "highlight": "Appshots解决了编码Agent最大的摩擦点之一：上下文获取。之前要给AI上下文需要复制粘贴或描述——现在一个快捷键搞定。'获取滚动区域外文本'意味着Codex能看到完整的API文档或长日志，不受屏幕可见范围限制。与之前的'屏幕观察'功能配合，Codex正在构建最完整的上下文感知能力。对Claude Code的启示：桌面集成和上下文获取的便捷性是用户体验的关键差异化。",
+      "stars": 0,
+      "tags": ["OpenAI", "Codex", "Appshots", "Mac", "Context", "UX", "AI Coding"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "OpenAI Q1财务曝光：每赚1美元亏1.22美元，Codex和广告是增长引擎",
+      "url": "https://the-decoder.com/openai-burned-through-1-22-per-dollar-earned-even-after-stripping-out-stock-based-compensation/",
+      "summary": "OpenAI 2026年Q1调整后运营利润率为负122%——即每赚1美元亏损1.22美元（已扣除股权激励）。总收入约57亿美元，比Anthropic多约10亿。增长来自Codex编码Agent、企业销售和ChatGPT早期广告测试。ChatGPT月活超5.5亿但收入增长低于预期。",
+      "source": "The Decoder (May 22, 2026)",
+      "highlight": "IPO前夕曝光的财务数据揭示AI行业的核心矛盾：收入在爆发式增长（57亿/季度）但烧钱更快。Codex作为增长引擎验证了'AI编码工具'是变现最快的赛道。有趣的数据点：OpenAI收入只比Anthropic多10亿（~13%），但估值却在互相追赶——说明市场看的是增长潜力而非当前利润。对IPO投资者：这是一场信仰投资。",
+      "stars": 0,
+      "tags": ["OpenAI", "Finance", "Revenue", "Codex", "IPO", "Burn Rate", "Business"]
+    },
+    {
+      "id": 6,
+      "category": "paper",
+      "title": "Forecasting Scientific Progress：AI预测科学进展的能力评估——系统性过度自信",
+      "url": "https://huggingface.co/papers/2605.22681",
+      "summary": "评估当前AI系统预测科学进展的能力。发现AI在不同领域表现不一致，且存在系统性过度自信——倾向于高估科学突破发生的概率和速度。这对使用AI进行研究规划和资源分配的机构提出了重要警告。",
+      "source": "HuggingFace Papers (May 23, 2026)",
+      "highlight": "在菲尔兹奖得主刚确认GPT-5.5能做博士级数学研究的背景下，这篇论文提供了重要的平衡视角：AI在'做研究'上有突破，但在'预测研究走向'上存在系统性偏差。过度自信的预测可能误导研究经费分配。对AI辅助科研：AI是优秀的'执行者'但还不是可靠的'规划者'——区分这两种能力很重要。",
+      "stars": 0,
+      "tags": ["Science Forecasting", "AI Evaluation", "Overconfidence", "Research Planning", "Limitations", "Research"]
+    },
+    {
+      "id": 7,
+      "category": "paper",
+      "title": "Efficient Agentic Reasoning：三系统架构实现Agent高效推理——模拟、自我调节、反应式执行",
+      "url": "https://huggingface.co/papers/2605.22138",
+      "summary": "将Agent决策分解为三个系统：模拟推理（规划）、自我调节（控制）和反应式执行（行动）。这种分解实现了受控的规划过程，在保持性能的同时大幅减少token消耗。本质上让Agent学会'何时深思何时快速反应'。",
+      "source": "HuggingFace Papers (May 23, 2026)",
+      "highlight": "这是对Kahneman'快思考/慢思考'理论在Agent系统中的直接实现。当前Agent要么过度思考（浪费token），要么草率行动（出错）。三系统架构让Agent自主判断何时需要深度推理（规划复杂任务）何时直接行动（执行简单操作）。对Agent成本优化有直接实用价值：不是所有步骤都需要'思考'，识别并跳过简单步骤可以大幅降本。",
+      "stars": 0,
+      "tags": ["Agent Reasoning", "Efficiency", "Token Reduction", "Planning", "System Design", "Research"]
+    },
+    {
+      "id": 8,
+      "category": "paper",
+      "title": "Unsupervised Process Reward Models：无需人工标注，用语言模型概率自动发现推理错误",
+      "url": "https://huggingface.co/papers/2605.10158",
+      "summary": "提出无监督的过程奖励模型(PRM)，利用语言模型自身的下一token概率来识别推理步骤中的错误，完全消除对人工标注的依赖。在强化学习策略优化中，无监督PRM的效果接近甚至匹配有监督版本。",
+      "source": "HuggingFace Papers (May 23, 2026)",
+      "highlight": "过程奖励模型是让AI'自我纠错'的核心技术，但之前需要昂贵的人工标注每个推理步骤的对错。无监督PRM直接用模型自身的'不确定性信号'来定位错误——概率突然下降的步骤很可能有问题。这大幅降低了构建PRM的成本，使得更多团队可以训练具备自我纠错能力的推理模型。对RLVR研究的实际意义：数据标注不再是瓶颈。",
+      "stars": 0,
+      "tags": ["Process Reward Model", "Unsupervised", "Reasoning", "RLVR", "Self-Correction", "Research"]
+    },
+    {
+      "id": 9,
+      "category": "paper",
+      "title": "RTPurbo：仅需百步训练就能将全注意力LLM转化为高效稀疏推理",
+      "url": "https://huggingface.co/papers/2605.16928",
+      "summary": "RTPurbo利用全注意力LLM中固有的稀疏性，仅用约100步训练就实现高效的长上下文推理加速。在几乎无损精度的前提下显著提升推理速度，为Agent场景下的长上下文处理提供了极低成本的加速方案。",
+      "source": "HuggingFace Papers (May 23, 2026)",
+      "highlight": "100步训练就能加速推理是极具实用价值的结果。与昨天的Mix-Quant（阶段性量化）互补：一个从量化角度降本，一个从注意力稀疏化角度加速。对所有部署长上下文Agent的团队：不需要从头训练新模型或大规模微调——现有模型加上百步适配就能获得显著加速。在Agent频繁读取大型代码库的场景下尤为有价值。",
+      "stars": 0,
+      "tags": ["Sparse Attention", "LLM Inference", "Long Context", "Efficiency", "Low Cost", "Research"]
+    },
+    {
+      "id": 10,
+      "category": "paper",
+      "title": "GenEvolve：图像生成Agent自我进化——通过工具编排和视觉经验蒸馏持续提升",
+      "url": "https://huggingface.co/papers/2605.21605",
+      "summary": "提出自我进化的图像生成框架，Agent通过工具编排的轨迹和视觉经验蒸馏来迭代提升生成能力。Agent从自身的成功经验中学习，建立参考知识库，实现生成质量的持续自我改进。",
+      "source": "HuggingFace Papers (May 23, 2026)",
+      "highlight": "'自我进化'是Agent的终极目标之一。GenEvolve让图像生成Agent从自己的历史输出中'学习经验'——好的生成结果被蒸馏为参考知识，后续生成时调用。这与Solvita（编码Agent从解题经验中进化）的思路一致，验证了'经验积累→能力提升'范式在不同领域的通用性。对AI内容创作工具：基于用户反馈的自我进化将是下一代产品的核心差异。",
+      "stars": 0,
+      "tags": ["Self-Evolving", "Image Generation", "Agent", "Experience Learning", "Tool Use", "Research"]
+    },
+    {
+      "id": 11,
+      "category": "repo",
+      "title": "Claude Plugins Official爆发：Anthropic官方插件目录+2,549 Stars，生态加速",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "summary": "Anthropic官方管理的高质量Claude Code插件目录，今日+2,549 stars（昨日+682），增速翻近4倍。提供经过审核的官方插件集合，确保安全性和兼容性。Anthropic正式全力推进Claude Code的插件/技能生态建设。",
+      "source": "GitHub Trending (+2,549 today)",
+      "highlight": "从+682到+2,549的爆发说明开发者社区对官方插件生态的期待积蓄已久。Anthropic选择在估值超越OpenAI的同时加速生态建设，时机精准。官方插件目录+第三方marketplace(agent-skills)+框架官方技能(.NET Skills)三层生态正在同步建设。对Claude Code用户：现在是扩展Agent能力的最佳时机，官方背书确保安全。",
+      "stars": 5500,
+      "tags": ["Anthropic", "Claude Code", "Plugins", "Ecosystem", "Official", "Viral Growth", "Trending"]
+    },
+    {
+      "id": 12,
+      "category": "repo",
+      "title": "CodeGraph继续统治Trending：+3,684 Stars，新增Hermes Agent支持",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "summary": "代码知识图谱项目连续多天霸榜。今日+3,684 stars，描述更新新增'Hermes Agent'支持，现覆盖Claude Code、Codex、Cursor、OpenCode和Hermes Agent五大平台。已成为AI编码Agent生态中当之无愧的基础设施层项目。",
+      "source": "GitHub Trending (+3,684 today)",
+      "highlight": "连续4天3000+增长（2123→4294→3684），累计可能已超15K stars。持续扩展平台支持说明项目在向'通用标准'演进。新增Hermes Agent支持暗示Agent平台正在加速碎片化——CodeGraph作为跨平台基础层的价值越来越大。对Agent工具开发者：如果你的工具不支持CodeGraph MCP，你正在失去用户。",
+      "stars": 16000,
+      "tags": ["Code Intelligence", "Knowledge Graph", "MCP", "Multi-Platform", "Infrastructure", "Trending"]
+    },
+    {
+      "id": 13,
+      "category": "repo",
+      "title": "Understand-Anything爆发：交互式代码知识图谱+1,393 Stars，教学型可视化",
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "summary": "将代码转化为可交互探索的教学型知识图谱。支持搜索和提问，兼容Claude Code、Codex、Cursor、Copilot、Gemini CLI等。今日+1,393 stars（昨日+666），增速翻倍，验证了'理解代码'比'生成代码'更难也更有需求。",
+      "source": "GitHub Trending (+1,393 today)",
+      "highlight": "增速翻倍说明产品-市场匹配得到验证。与CodeGraph的区别进一步明确：CodeGraph服务Agent（机器可查询），Understand-Anything服务人类（可视化探索）。两者配合形成完整的'代码理解'方案——人和AI各有最适合的界面。对新入职工程师或接手遗留项目的团队尤其有价值。",
+      "stars": 4000,
+      "tags": ["Code Visualization", "Knowledge Graph", "Interactive", "Learning", "Multi-Platform", "Trending"]
+    },
+    {
+      "id": 14,
+      "category": "repo",
+      "title": "Chrome DevTools MCP：Google官方让编码Agent直接使用Chrome开发者工具",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "summary": "Chrome DevTools团队官方出品的MCP服务器，让AI编码Agent直接使用Chrome开发者工具的能力——调试、性能分析、网络监控、DOM操作等。今日+501 stars，标志着浏览器开发工具正式拥抱Agent生态。",
+      "source": "GitHub Trending (+501 today)",
+      "highlight": "继微软.NET Skills后，又一个平台级官方工具拥抱Agent生态。Chrome DevTools MCP让编码Agent能直接'看到'网页的运行状态——网络请求、性能瓶颈、CSS布局问题等。这对前端开发Agent是质的飞跃：之前只能看代码，现在能看运行效果。与WebMCP（网站暴露结构化接口）配合，Agent的Web开发能力正在变得完整。",
+      "stars": 1200,
+      "tags": ["Chrome DevTools", "MCP", "Google", "Official", "Frontend", "Debugging", "Agent Tool", "Trending"]
+    },
+    {
+      "id": 15,
+      "category": "repo",
+      "title": "Oh-My-Pi：终端AI编码Agent——哈希锚定编辑、LSP集成、子Agent支持",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "summary": "功能丰富的终端AI编码Agent，核心特色包括：哈希锚定的精确代码编辑（避免上下文偏移）、优化的工具调用框架、LSP深度集成、Python运行时、浏览器控制和子Agent编排。今日+457 stars，作为Claude Code的开源替代方案持续获得关注。",
+      "source": "GitHub Trending (+457 today)",
+      "highlight": "哈希锚定编辑是一个巧妙的技术方案——当代码因其他编辑发生偏移时，传统的行号定位会出错，而哈希锚定通过内容指纹确保编辑总是命中正确位置。这解决了Agent多步编辑中常见的'偏移错误'问题。作为Claude Code的开源替代品，oh-my-pi在技术方案上有独到之处。对关注Agent编辑可靠性的开发者值得研究。",
+      "stars": 2500,
+      "tags": ["AI Coding", "Terminal Agent", "Open Source", "Hash-Anchored", "LSP", "Subagents", "Trending"]
+    }
+  ]
+}
