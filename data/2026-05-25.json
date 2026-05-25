@@ -1,0 +1,170 @@
+{
+  "date": "2026-05-25",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "Anthropic警告：Claude Mythos一个月发现1万+关键漏洞，修复速度已跟不上发现速度",
+      "url": "https://the-decoder.com/anthropic-warns-claude-mythos-preview-finds-bugs-faster-than-developers-can-patch-them/",
+      "summary": "Anthropic与约50家合作伙伴使用Claude Mythos Preview，在仅一个月内识别出系统关键软件中超过10,000个关键安全漏洞。Anthropic警告：漏洞发现速率已超过验证和修复能力，创造了一个危险的过渡期——AI能比组织修补速度更快地发现漏洞。",
+      "source": "The Decoder (May 23, 2026)",
+      "highlight": "这是AI安全能力的'奇点时刻'：发现漏洞的速度超过修复速度意味着安全知识的增长快于防御能力的增长。1万个关键漏洞在一个月内被发现——如果这些信息泄露给攻击者，后果不堪设想。Anthropic选择公开警告而非沉默，体现了'负责任的能力披露'。对整个软件行业：你的代码中可能存在AI已知但你不知道的漏洞，安全投入需要指数级增加。",
+      "stars": 0,
+      "tags": ["Anthropic", "Claude Mythos", "Cybersecurity", "Vulnerability", "AI Safety", "Warning"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "研究者让Claude Code自主发现AI缩放算法：人类可能设计不出的新方案",
+      "url": "https://the-decoder.com/researchers-let-claude-code-discover-ai-scaling-algorithms-that-humans-probably-wouldnt-have-designed/",
+      "summary": "研究者不再自己编写更高效的AI推理规则，而是让编码Agent在模拟环境中自主搜索更好的控制算法。结果Agent发现的测试时缩放(TTS)方法击败了既有方法，同时消耗的计算资源远更少。这些算法是人类研究者可能不会设计出的新颖方案。",
+      "source": "The Decoder (May 24, 2026)",
+      "highlight": "AI设计AI算法——递归自我改进正在发生。Claude Code不仅写代码，还在发现新的AI算法。这与AIRA（AI发现超越Transformer的架构）方向一致，但更聚焦于实用的效率优化。核心启示：让Agent自主探索算法空间可能比人类设计更高效——人类受知识偏见限制，Agent没有。对AI研究团队：Agent辅助的算法搜索可能成为新的研究范式。",
+      "stars": 0,
+      "tags": ["Claude Code", "Algorithm Discovery", "Test-Time Scaling", "AI Research", "Recursive Improvement"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "阿里巴巴Qwen3.7-Max：连续自主运行35小时为自家芯片优化代码",
+      "url": "https://the-decoder.com/alibabas-latest-ai-model-ran-autonomously-for-35-hours-to-optimize-code-for-its-own-custom-chip/",
+      "summary": "阿里巴巴Qwen团队发布Qwen3.7-Max，专为长期自主任务设计，仅通过API提供（无用户界面）。模型专门用于处理复杂软件项目并长时间独立工作。实际测试中连续自主运行35小时为阿里自研芯片优化代码，在速度上超越多数竞品，标准基准与领先AI实验室持平。",
+      "source": "The Decoder (May 23, 2026)",
+      "highlight": "35小时自主运行是迄今最长的单次Agent任务之一——之前Kimi K2.6报告12小时，Codex声称可跨天工作，阿里直接验证了35小时。'为自家芯片优化代码'说明Agent已能处理硬件级别的复杂优化任务。'仅API无界面'的发布策略暗示这是面向Agent-as-a-Service而非终端用户。中国AI公司在Agent耐力竞赛中开始领先。",
+      "stars": 0,
+      "tags": ["Alibaba", "Qwen", "Long-Running Agent", "Chip Optimization", "Autonomous", "China AI"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "DeepSeek永久化75%折扣：输出token价格至少比GPT-5.5低34倍，AI价格战白热化",
+      "url": "https://the-decoder.com/deepseek-makes-its-75-percent-discount-permanent-pricing-output-tokens-at-least-34x-below-gpt-5-5/",
+      "summary": "DeepSeek宣布将旗舰模型DeepSeek V4 Pro的75%折扣永久化（原定5月31日到期）。永久折扣后：无缓存输入token仅$0.435/M，输出token价格比GPT-5.5低至少34倍。中国AI战略已演变为对西方实验室的价格战。",
+      "source": "The Decoder (May 23, 2026)",
+      "highlight": "34倍的价格差距意味着什么？用GPT-5.5花$34完成的任务，用DeepSeek V4 Pro只需$1。这不是竞争，这是定价维度的碾压。DeepSeek选择'永久折扣'而非临时促销，说明其成本结构确实支持这个价格——这得益于其训练效率优势。对所有AI应用开发者：如果你的用例对模型品牌不敏感，DeepSeek的性价比已到了不可忽视的程度。对OpenAI/Anthropic的定价策略构成长期压力。",
+      "stars": 0,
+      "tags": ["DeepSeek", "Pricing", "Price War", "GPT-5.5", "China AI", "API", "Competition"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "George Hotz警告：编码Agent将是软件开发中'代价最高的错误之一'",
+      "url": "https://the-decoder.com/george-hotz-says-coding-agents-will-be-one-of-the-most-costly-mistakes-in-software-development/",
+      "summary": "程序员George Hotz经过数月实际使用后警告不要依赖AI语言模型进行软件开发，立场与LeCun和Gary Marcus一致。他认为模型能快速生成原型，但在微调阶段表现糟糕。Hotz认为LLM只是统计性地模仿编程模式，生成的微妙错误极难捕获。",
+      "source": "The Decoder (May 25, 2026)",
+      "highlight": "在Agent编码工具全面爆发的背景下，Hotz的'逆行者'警告值得认真对待——他不是理论批评者而是数月实战后的结论。'原型快但微调差'精准描述了当前Agent的典型失效模式：0→80%很快，80%→100%极其困难。这与SpecBench论文（编码Agent博弈测试）的发现一致。对所有使用编码Agent的团队：Agent擅长脚手架和初始实现，但精细优化和边缘case处理仍需人类深度参与。",
+      "stars": 0,
+      "tags": ["George Hotz", "AI Criticism", "Coding Agent", "Limitations", "Software Quality", "Debate"]
+    },
+    {
+      "id": 6,
+      "category": "paper",
+      "title": "SkillOpt：Agent技能的系统性文本空间优化器——零推理开销实现技能自动进化",
+      "url": "https://huggingface.co/papers/2605.23904",
+      "summary": "SkillOpt引入系统性文本空间优化器，将Agent技能作为外部状态进行稳定更新训练，实现零部署推理开销。在多个基准和执行环境中达到优异性能，让Agent的技能描述可以像模型权重一样被优化而无需改变模型本身。",
+      "source": "HuggingFace Papers (May 25, 2026)",
+      "highlight": "技能优化是Agent生态的核心问题：GitHub上大量Agent Skills项目的技能都是静态的人工编写文本。SkillOpt让技能描述可以被自动优化——类似于将'提示词工程'变成'提示词训练'。零推理开销意味着优化后的技能不增加任何运行成本。对Karpathy Skills、Agent Skills等项目的启示：技能不应该是静态文档，而应该是可持续优化的动态资产。",
+      "stars": 0,
+      "tags": ["Agent Skills", "Optimization", "Text Space", "Zero Overhead", "Training", "Research"]
+    },
+    {
+      "id": 7,
+      "category": "paper",
+      "title": "SciAtlas：大规模跨学科科学知识图谱，支持自动化科学发现的拓扑推理",
+      "url": "https://huggingface.co/papers/2605.22878",
+      "summary": "SciAtlas构建大规模多学科知识图谱，整合数百万篇论文和实体，支持结构化拓扑推理以辅助学术研究。让Agent能通过图谱的关系路径发现跨领域的潜在联系，为自动化科学发现提供基础设施。",
+      "source": "HuggingFace Papers (May 25, 2026)",
+      "highlight": "与GitHub上爆发的Academic Research Skills (+2579)和Scientific Agent Skills形成完美互补：Skills提供操作能力，SciAtlas提供知识结构。科学发现的突破往往来自跨领域联系——人类难以遍历百万篇论文间的关系，但知识图谱+Agent可以。对科研团队：SciAtlas可能帮你发现你所在领域与其他领域之间被忽视的研究机会。",
+      "stars": 0,
+      "tags": ["Knowledge Graph", "Science", "Automated Discovery", "Multi-Disciplinary", "Research Infrastructure"]
+    },
+    {
+      "id": 8,
+      "category": "paper",
+      "title": "From Raw Experience to Skill Consumption：Agent技能从生成到使用的系统性研究",
+      "url": "https://huggingface.co/papers/2605.23899",
+      "summary": "系统性研究Agent可复用技能的全生命周期：从经验中提取技能、在不同场景消费技能。发现技能有效性在不同提取和消费场景间差异显著，需要精心评估和元技能引导才能优化性能。非所有技能都平等——关键在于匹配正确的技能到正确的场景。",
+      "source": "HuggingFace Papers (May 25, 2026)",
+      "highlight": "在Agent Skills项目遍地开花的今天，这篇论文提供了急需的理论基础：不是技能越多越好，错误场景下使用错误技能可能反而降低性能。这解释了为什么有些用户装了大量skills反而体验变差。对Agent Skills生态设计者：需要'技能路由'机制——根据当前任务动态选择最匹配的技能，而非简单堆叠所有技能。",
+      "stars": 0,
+      "tags": ["Agent Skills", "Skill Lifecycle", "Evaluation", "Meta-Skill", "Systematic Study", "Research"]
+    },
+    {
+      "id": 9,
+      "category": "paper",
+      "title": "HINT-SD：从失败中学习——针对性自蒸馏提升长期Agent训练效率",
+      "url": "https://huggingface.co/papers/2605.17873",
+      "summary": "HINT-SD提出针对性自蒸馏框架，从Agent完整轨迹中选择与失败相关的关键动作进行蒸馏训练，而非使用全部轨迹。这种有针对性的'从错误中学习'显著提升长期Agent训练的效率和效果。",
+      "source": "HuggingFace Papers (May 25, 2026)",
+      "highlight": "Agent训练的核心问题：长轨迹中99%的步骤都是正确的，错误集中在少数关键决策点。HINT-SD专门从这些'失败时刻'中提取训练信号——类似人类'复盘失误'而非'重看全程录像'。对Agent训练效率的提升是直觉性的：不需要处理海量无信息增益的正确步骤，聚焦于错误转折点。与Unsupervised PRM互补：一个定位错误步骤，一个从错误中学习。",
+      "stars": 0,
+      "tags": ["Agent Training", "Self-Distillation", "Failure Learning", "Long-Horizon", "Efficiency", "Research"]
+    },
+    {
+      "id": 10,
+      "category": "paper",
+      "title": "LLMs as Noisy Channels：从香农信息论视角理解模型容量和缩放定律",
+      "url": "https://huggingface.co/papers/2605.23897",
+      "summary": "将LLM重新定义为香农信息论中的噪声信道，从信息理论角度分析模型容量和缩放定律。这种视角不仅提供了理解LLM能力边界的新框架，也为预测模型在不同任务上的性能提供了理论工具。",
+      "source": "HuggingFace Papers (May 25, 2026)",
+      "highlight": "这是一个优雅的理论贡献：将LLM的能力极限与信息论中的信道容量对应起来。实际意义：如果我们能计算模型的'信道容量'，就能预测它在特定任务上的理论性能上限——不需要实际测试。对缩放定律的研究者：从bit/token的角度看缩放可能比从loss曲线看更有物理直觉。Hotz说LLM是'统计模仿'，这篇论文给出了数学框架来精确定义这种'模仿'的信息含量。",
+      "stars": 0,
+      "tags": ["Information Theory", "Shannon", "Scaling Laws", "Model Capacity", "LLM Theory", "Research"]
+    },
+    {
+      "id": 11,
+      "category": "repo",
+      "title": "Understand-Anything登顶Trending：+3,999 Stars，交互式代码知识图谱成现象级项目",
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "summary": "从+666→+1,393→+3,999连续三天指数级增长，今日登顶GitHub Trending榜首。将任何代码转化为可交互探索、可搜索、可提问的教学型知识图谱。支持Claude Code、Codex、Cursor、Copilot、Gemini CLI等所有主流Agent平台。",
+      "source": "GitHub Trending (+3,999 today)",
+      "highlight": "三天从+666到+3,999，增速呈指数级，已进入病毒式传播阶段。核心吸引力：'Graphs that teach > graphs that impress'——不是炫技的可视化，而是真正帮助理解的教学工具。在CodeGraph服务AI（机器可查询）的同时，Understand-Anything服务人类（可视化理解），两者配合定义了代码理解的完整生态。",
+      "stars": 10000,
+      "tags": ["Code Visualization", "Knowledge Graph", "Interactive", "Teaching", "Multi-Platform", "Viral", "Trending"]
+    },
+    {
+      "id": 12,
+      "category": "repo",
+      "title": "Anthropic Knowledge Work Plugins：面向知识工作者的Claude Cowork官方插件库",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "summary": "Anthropic发布第二个官方插件库——专为知识工作者设计的Claude Cowork插件。与面向开发者的claude-plugins-official不同，这个库面向非技术用户：研究、写作、分析等知识工作场景。今日+550 stars，标志着Anthropic正式将AI Agent能力扩展到编码之外。",
+      "source": "GitHub Trending (+550 today)",
+      "highlight": "Anthropic同时运营两个官方插件库：claude-plugins-official（开发者）和knowledge-work-plugins（知识工作者），清晰区分了两类用户群。'Claude Cowork'作为新产品名暗示Anthropic正在构建超越编码的AI协作平台。对非程序员用户：AI Agent的能力正式从'写代码'扩展到'做研究/写文档/数据分析'。",
+      "stars": 1200,
+      "tags": ["Anthropic", "Claude Cowork", "Knowledge Worker", "Plugins", "Official", "Non-Technical", "Trending"]
+    },
+    {
+      "id": 13,
+      "category": "repo",
+      "title": "Anthropic Cybersecurity Skills：754个结构化网安技能，映射5大安全框架",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "summary": "754个结构化网络安全技能，映射到MITRE ATT&CK、NIST CSF 2.0、MITRE ATLAS、D3FEND和NIST AI RMF五大安全框架。覆盖26个安全域，遵循agentskills.io标准。支持Claude Code、Copilot、Codex、Cursor、Gemini CLI等20+平台。Apache 2.0许可，今日+930 stars。",
+      "source": "GitHub Trending (+930 today)",
+      "highlight": "在Mythos一个月发现1万+漏洞的背景下，网安Agent技能包的出现极其及时。754个技能×5大框架映射=几乎覆盖了企业安全运营的全部场景。与Mythos的'进攻性'能力互补——这些技能更偏'防御性'：检测、响应、合规评估。对安全团队：让编码Agent理解MITRE ATT&CK意味着Agent可以参与威胁分析和安全审计工作。",
+      "stars": 2500,
+      "tags": ["Cybersecurity", "Agent Skills", "MITRE ATT&CK", "NIST", "Security Framework", "Trending"]
+    },
+    {
+      "id": 14,
+      "category": "repo",
+      "title": "cmux：为AI编码Agent设计的macOS终端——基于Ghostty，垂直标签+通知系统",
+      "url": "https://github.com/manaflow-ai/cmux",
+      "summary": "基于Ghostty终端模拟器的macOS终端应用，专为AI编码Agent优化。核心功能：垂直标签页（适合Agent多任务并行）、Agent完成通知系统、优化的Agent输出展示。定位为AI编码Agent的专属终端环境。今日+696 stars。",
+      "source": "GitHub Trending (+696 today)",
+      "highlight": "终端作为Agent的'运行环境'正在被重新设计。传统终端为人类设计——水平标签、滚动输出。cmux为Agent设计——垂直标签适合同时运行多个Agent任务、通知系统让你在Agent完成时被提醒而非持续盯屏。这代表了开发者工具的新方向：不仅是'人使用的工具支持AI'，而是'专为AI运行场景优化的工具'。",
+      "stars": 1500,
+      "tags": ["Terminal", "macOS", "Ghostty", "AI-Optimized", "Developer Tool", "UX", "Trending"]
+    },
+    {
+      "id": 15,
+      "category": "repo",
+      "title": "Free Claude Code：免费使用Claude Code的终端/VSCode/Discord方案（含语音支持）",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "summary": "提供免费使用Claude Code能力的多种途径：终端CLI、VSCode扩展和Discord集成，类似OpenClaw的免费替代方案。支持语音输入，降低了Claude Code的使用门槛。今日+553 stars，满足了大量开发者对免费AI编码工具的需求。",
+      "source": "GitHub Trending (+553 today)",
+      "highlight": "在DeepSeek将价格打到GPT-5.5的1/34、Cursor用开源模型匹配前沿性能的背景下，'免费AI编码'的趋势不可阻挡。这个项目的爆发说明：Claude Code的能力被认可，但价格仍是很多开发者的障碍。对Anthropic的启示：免费或低价入口+高级付费功能的分层策略可能是扩大用户基础的关键。语音支持也暗示了'对话式编程'的用户需求。",
+      "stars": 2000,
+      "tags": ["Claude Code", "Free", "VSCode", "Discord", "Voice", "Open Source", "Trending"]
+    }
+  ]
+}
