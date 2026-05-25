@@ -1,0 +1,170 @@
+{
+  "date": "2026-05-26",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "DeepMind AlphaProof Nexus：花几百美元解决9个数十年未解的Erdős数学问题",
+      "url": "https://the-decoder.com/google-deepminds-alphaproof-nexus-solves-decades-old-math-problems-for-a-few-hundred-dollars/",
+      "summary": "Google DeepMind开发AlphaProof Nexus框架，自主解决了353个Erdős开放问题中的9个以及其他复杂猜想。每个问题的推理成本仅数百美元。系统基于Gemini 3.1 Pro在Lean形式语言中生成证明步骤，实现机器可验证的严格数学证明。",
+      "source": "The Decoder (May 25, 2026)",
+      "highlight": "继菲尔兹奖得主确认GPT-5.5能做博士级数学后，DeepMind直接攻克了数十年未解的Erdős问题——这不是博士级而是世界级数学前沿。'每题几百美元'的成本让人震惊：人类数学家可能花数年也解不了的问题，AI花费相当于一顿高档晚餐的算力就搞定。Lean形式验证确保了结果的绝对正确性。AI数学能力已不仅是'辅助'而是'独立解决开放问题'。",
+      "stars": 0,
+      "tags": ["DeepMind", "AlphaProof", "Mathematics", "Erdős", "Formal Proof", "Lean", "Breakthrough"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "OpenAI发布GPT-5.5提示词指南：旧提示词在拖后腿，需从头开始重写",
+      "url": "https://the-decoder.com/openai-says-old-prompts-are-holding-gpt-5-5-back-and-developers-need-a-fresh-baseline/",
+      "summary": "OpenAI发布GPT-5.5提示词指南，核心信息：不要复用旧提示词。GPT-5.5不应被视为早期模型的替代品，迁移应从最小的结果导向提示词重新开始。曾被认为过时的'角色定义'(role definitions)重新回到OpenAI推荐的提示词结构顶部。",
+      "source": "The Decoder (May 26, 2026)",
+      "highlight": "这对所有使用AI API的开发者是重要实操指南。核心洞察：模型越强，越不需要'技巧性'提示词——过去为绕过GPT-4局限而设计的复杂提示词，反而限制了GPT-5.5的发挥。'角色定义回归'是有趣转折——可能因为5.5足够强，简单角色定义就能精确控制行为，无需冗长的指令。对CLAUDE.md和Agent Skills的启示：技能描述应该越简洁越好，不要堆砌'过去有效'的旧模式。",
+      "stars": 0,
+      "tags": ["OpenAI", "GPT-5.5", "Prompting", "Best Practices", "Migration", "Developer Guide"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "Hassabis宣称人类处于'奇点山脚'，LeCun反驳当前AI不具备智能",
+      "url": "https://the-decoder.com/deepminds-hassabis-sees-humanity-in-the-foothills-of-the-singularity-while-lecun-says-current-ai-isnt-intelligent/",
+      "summary": "三位顶级研究者对AI现状给出三种判断。DeepMind CEO Hassabis认为人类正处于'奇点的山脚'。Meta AI首席科学家LeCun引用皮亚杰的立场指出：真正的智能在于解决没有训练过的新问题，当前LLM不具备这种能力。AI领域正面临方向性分歧。",
+      "source": "The Decoder (May 24, 2026)",
+      "highlight": "这是AI领域最高级别的方向性辩论。Hassabis刚用AlphaProof解决了Erdős问题（支持'奇点临近'论点），LeCun坚持'LLM只是模式匹配'（支持'远未智能'论点），Hotz则在实操中发现Agent在微调阶段失效。三个视角不矛盾：AI在特定任务上可能超人类（数学证明），但在通用性上远未达到真正智能。对从业者：不必选边站，但要清楚你的AI应用处于哪个能力象限。",
+      "stars": 0,
+      "tags": ["Hassabis", "LeCun", "Singularity", "AGI Debate", "Intelligence", "Philosophy"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "斯坦福研究：AI法律助手每6个案例中出错1个，律师工作流面临可靠性危机",
+      "url": "https://the-decoder.com/ai-legal-assistants-are-making-mistakes-in-one-out-of-six-cases-stanford-study-finds/",
+      "summary": "斯坦福大学新研究发现AI法律研究系统在每6个查询中就提供1次错误信息。研究者呼吁建立公共透明标准来监管法律领域的AI使用。调查显示高达四分之三的律师计划在日常工作中使用AI（合同起草、法律意见辅助等），但错误率令人担忧。",
+      "source": "The Decoder (May 24, 2026)",
+      "highlight": "16.7%的错误率在法律领域是不可接受的——一个错误案例引用可能导致败诉、罚款甚至司法处分。这与Hotz对编码Agent的批评呼应：AI在'看起来对'但实际有微妙错误时最危险。澳大利亚法庭已在惩罚提交AI生成'胡言乱语'的律师。对AI应用开发者的启示：在高风险领域，AI不能是'单独工作者'，必须有人类审查环节——16.7%的错误率说明'自信但错误'是当前LLM的系统性问题。",
+      "stars": 0,
+      "tags": ["Legal AI", "Stanford", "Error Rate", "Reliability", "Risk", "Hallucination"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "字节跳动研究：训练多模态模型时，问答比OCR文字识别效果好得多",
+      "url": "https://the-decoder.com/bytedance-study-finds-that-asking-lmms-questions-beats-making-it-transcribe-text-for-long-document-training/",
+      "summary": "字节跳动Seed和港科大研究发现：训练图像语言模型处理长文档时，字符识别(OCR)作为训练任务反而损害性能，而问答对(QA pairs)训练效果远更好。这改变了多模态模型长文档训练的最佳实践——不应该让模型转录文本，而应该让它理解和回答关于文档的问题。",
+      "source": "The Decoder (May 24, 2026)",
+      "highlight": "反直觉但有道理：OCR训练让模型关注'逐字重现'，QA训练让模型关注'理解含义'——后者才是真正有用的能力。这对所有训练文档AI的团队是可直接采纳的实操建议。更深层的启示：训练任务的设计比数据量更重要——错误的训练目标（如OCR）不仅无益反而有害。对RAG系统设计也有启发：索引文档时关注语义理解而非精确转录。",
+      "stars": 0,
+      "tags": ["ByteDance", "Multimodal", "Training", "Document AI", "OCR", "QA", "Research"]
+    },
+    {
+      "id": 6,
+      "category": "paper",
+      "title": "PhotoFlow：Agent自主完成3D虚拟摄影任务——导演+评审+反思三角色协作",
+      "url": "https://huggingface.co/papers/2605.23771",
+      "summary": "PhotoFlow提出Director-Reviewer-Reflector三角色Agent架构，在任意Blender场景中完成语言条件的虚拟摄影任务。Agent结合3D空间理解和美学判断，自主规划相机位置、角度和构图，实现高质量虚拟摄影。",
+      "source": "HuggingFace Papers (May 25, 2026)",
+      "highlight": "三角色架构（导演规划、评审评估、反思改进）是多Agent协作的优雅范例。在3D摄影场景中，这意味着Agent不是一次性拍照，而是迭代优化：拍→评→改→再拍。对所有创意AI应用有启发：单次生成很难完美，但'生成→自评→改进'的循环可以逼近人类水平。对虚拟制作、游戏截图、建筑可视化等行业有直接应用价值。",
+      "stars": 0,
+      "tags": ["3D Photography", "Multi-Agent", "Blender", "Creative AI", "Spatial Understanding", "Research"]
+    },
+    {
+      "id": 7,
+      "category": "paper",
+      "title": "SCOPE：FPS游戏世界模型——精确模拟视角内外的动作响应",
+      "url": "https://huggingface.co/papers/2605.23345",
+      "summary": "SCOPE通过在视频扩散模型的transformer块中引入条件机制，将视角内和视角外的视觉效果分离处理，无需分割标注。实现了FPS游戏中精确的动作响应模拟——开枪时准星内外的效果各自正确渲染。",
+      "source": "HuggingFace Papers (May 25, 2026)",
+      "highlight": "游戏世界模型正在快速进步。SCOPE解决了FPS游戏模拟中的核心难题：玩家开枪时，准星内应有命中反馈而准星外的环境应继续正常运行——这需要理解'因果局部性'。与之前的ReactiveGWM（NPC响应）互补，SCOPE聚焦于玩家动作的精确视觉反馈。对游戏AI和交互式内容生成都有启发价值。",
+      "stars": 0,
+      "tags": ["Game AI", "FPS", "World Model", "Video Diffusion", "Action Response", "Research"]
+    },
+    {
+      "id": 8,
+      "category": "paper",
+      "title": "LatentUMM：统一多模态模型的潜空间对齐——解决跨模态一致性问题",
+      "url": "https://huggingface.co/papers/2605.17766",
+      "summary": "LatentUMM通过构建增强的共享潜空间，显式对齐不同模态间的变换关系，并稳定生成和重编码过程中的潜空间动态。解决了统一多模态模型中文本、图像、音频等模态之间的一致性问题。",
+      "source": "HuggingFace Papers (May 25, 2026)",
+      "highlight": "多模态模型的'模态对齐'是基础性难题：文字描述一只猫、图片展示一只猫、音频中猫在叫——模型需要理解这三者指的是同一个概念。LatentUMM从潜空间层面解决对齐，比在输出层做后处理更根本。对构建多模态Agent（需要同时处理文档、图像、对话）的团队：底层的模态对齐质量决定了Agent跨模态推理的上限。",
+      "stars": 0,
+      "tags": ["Multimodal", "Latent Space", "Alignment", "Unified Model", "Cross-Modal", "Research"]
+    },
+    {
+      "id": 9,
+      "category": "repo",
+      "title": "ECC：Agent性能优化系统——技能+直觉+记忆+安全一体化框架，+2,052 Stars",
+      "url": "https://github.com/affaan-m/ECC",
+      "summary": "Agent harness性能优化系统，将技能(skills)、直觉(instincts)、记忆(memory)、安全(security)和研究优先开发整合为一体。支持Claude Code、Codex、OpenCode、Cursor等平台。不是单一维度的优化，而是Agent整体'执行品质'的系统性提升。今日+2,052 stars爆发。",
+      "source": "GitHub Trending (+2,052 today)",
+      "highlight": "ECC将之前分散的Agent优化维度（CodeGraph管知识、Karpathy Skills管行为、AgentMemory管记忆）统一到一个框架中。'直觉(instincts)'是有趣的新概念——不是显式技能而是隐式的行为倾向（比如'遇到错误先读日志再改代码'）。对Claude Code用户：与其装5个独立工具，一个整合方案可能更协调。+2,052说明'一站式Agent优化'的需求巨大。",
+      "stars": 4000,
+      "tags": ["Agent Optimization", "Skills", "Memory", "Security", "Unified Framework", "Claude Code", "Trending"]
+    },
+    {
+      "id": 10,
+      "category": "repo",
+      "title": "GStack：Garry Tan的Claude Code完整配置——23个工具覆盖CEO/设计/工程/QA全角色",
+      "url": "https://github.com/garrytan/gstack",
+      "summary": "Y Combinator CEO Garry Tan公开分享其个人Claude Code完整配置：23个精心配置的工具，模拟CEO、设计师、工程经理、发布经理、文档工程师和QA六种角色。今日+600 stars，展示了顶级科技投资人如何实际使用AI编码Agent。",
+      "source": "GitHub Trending (+600 today)",
+      "highlight": "YC CEO亲自使用和分享Claude Code配置，是对整个Agent编码工具赛道的最高级别背书之一。23个工具×6种角色说明一个人+AI可以覆盖一个小型团队的全部职能。'opinions'（有观点的配置）比通用配置更有价值——反映了真实高效工作流的实战经验。对独立开发者和创业者：如果YC CEO这样用AI，这个模式值得学习。",
+      "stars": 1800,
+      "tags": ["Claude Code", "Garry Tan", "YC", "Configuration", "Multi-Role", "Best Practices", "Trending"]
+    },
+    {
+      "id": 11,
+      "category": "repo",
+      "title": "Stop-Slop：去除AI写作痕迹的技能文件——让AI输出不再像AI写的",
+      "url": "https://github.com/hardikpandya/stop-slop",
+      "summary": "一个技能文件(skill file)，专门去除AI生成文字中的典型'AI味'——过度使用的修辞、空洞的过渡词、假客气的语气等。让AI输出的文本读起来像真人写的而非AI生成的。今日+353 stars。",
+      "source": "GitHub Trending (+353 today)",
+      "highlight": "这反映了一个日益普遍的需求：AI的能力够用了，但输出的'风格'暴露了AI身份。'Slop'（AI生成的低质量套话）正在成为互联网内容的污染源，能识别和消除这些模式是差异化的关键。与taste-skill(+188, 给AI好品味)方向一致——越来越多人意识到：提升AI输出质量不仅是技术问题也是审美问题。对所有使用AI写作的人：一个好的anti-slop技能可能比换更强模型更有效。",
+      "stars": 1000,
+      "tags": ["Writing Quality", "Anti-Slop", "AI Style", "Skill File", "Content Quality", "Trending"]
+    },
+    {
+      "id": 12,
+      "category": "repo",
+      "title": "Understand-Anything连续第四天高增长：+3,999 Stars，稳居Trending榜首",
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "summary": "连续四天Trending前三，今日再次+3,999 stars。交互式代码知识图谱已成为现象级项目，累计星标可能已超15K。支持所有主流AI编码Agent平台，'教学型图谱'定位持续吸引新用户。",
+      "source": "GitHub Trending (+3,999 today)",
+      "highlight": "连续四天3000+增长且未见衰减迹象，说明项目已进入'自传播'阶段——早期用户的口碑正在驱动持续增长。Understand-Anything+CodeGraph已形成代码理解的'双雄格局'：前者服务人类理解，后者服务Agent查询。两者结合可能成为所有AI编码工具的标配基础设施。",
+      "stars": 15000,
+      "tags": ["Code Visualization", "Knowledge Graph", "Phenomenon", "Multi-Platform", "Infrastructure", "Trending"]
+    },
+    {
+      "id": 13,
+      "category": "repo",
+      "title": "CodeGraph维持高增长：+3,003 Stars，AI编码Agent的代码知识引擎",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "summary": "代码知识图谱持续高增长，今日+3,003 stars。支持Claude Code、Codex、Cursor、OpenCode和Hermes Agent五大平台。本地SQLite存储、19+语言支持、自动文件监听同步。作为AI编码Agent的标准知识基础设施地位进一步巩固。",
+      "source": "GitHub Trending (+3,003 today)",
+      "highlight": "连续一周保持3000+日增长，总星标可能已接近20K。CodeGraph的持续成功验证了一个核心需求：AI编码Agent需要'预建的代码理解'而非每次从头扫描。项目已从'有用的工具'进化为'不可或缺的基础设施'。对AI编码工具生态：CodeGraph正在定义'代码知识层'的标准接口。",
+      "stars": 20000,
+      "tags": ["Code Intelligence", "Knowledge Graph", "MCP", "Standard Infrastructure", "Trending"]
+    },
+    {
+      "id": 14,
+      "category": "repo",
+      "title": "Taste-Skill：给AI'好品味'——阻止AI生成无聊通用的内容",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "summary": "一个赋予AI'好品味'的技能文件，阻止AI生成无聊、通用、千篇一律的内容。不是修正语法或事实错误，而是提升审美判断——让AI知道什么样的输出是有趣的、独特的、值得阅读的。今日+188 stars。",
+      "source": "GitHub Trending (+188 today)",
+      "highlight": "与stop-slop方向一致但更进一步：stop-slop是'不要做什么'（去除AI味），taste-skill是'要做什么'（主动追求品质）。这反映了Agent技能生态的新阶段：不仅要让Agent'做对事'，还要让Agent'做好事'。审美和品味是人类创造力的最后堡垒之一——如果AI能被'教会好品味'，这对创意产业的影响将是深远的。",
+      "stars": 500,
+      "tags": ["AI Taste", "Content Quality", "Aesthetics", "Skill File", "Creative AI", "Trending"]
+    },
+    {
+      "id": 15,
+      "category": "repo",
+      "title": "AI Engineering From Scratch：从零构建AI工程能力的系统学习路径，+1,853 Stars",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "summary": "系统性的AI工程学习路径：Learn it → Build it → Ship it for others。覆盖从基础概念到部署交付的完整AI工程能力栈。今日+1,853 stars，反映了大量开发者希望系统性学习AI工程（而非零散教程拼凑知识）的需求。",
+      "source": "GitHub Trending (+1,853 today)",
+      "highlight": "在AI工具爆发式增长的背景下，'会用工具'和'理解原理'之间的差距正在扩大。这个项目的高增长说明很多开发者意识到：仅靠装插件和复制配置不够，需要系统理解AI工程才能做出好的技术决策。对从'AI用户'进阶为'AI工程师'的开发者：系统学习比堆砌工具更有长期价值。",
+      "stars": 8000,
+      "tags": ["AI Engineering", "Learning", "System Design", "Education", "Career", "Trending"]
+    }
+  ]
+}
