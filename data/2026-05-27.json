@@ -1,0 +1,170 @@
+{
+  "date": "2026-05-27",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "Claude Mythos用'简洁优美的证明'解决了OpenAI标志性的Erdős问题：AI数学存在'巨大过剩'",
+      "url": "https://the-decoder.com/claude-mythos-reportedly-solves-openais-landmark-erdos-problem-with-a-cute-simple-proof/",
+      "summary": "Anthropic工程师Sholto Douglas在X上透露，Claude Mythos也能解决OpenAI最近否证的Erdős单位距离猜想（1946年以来的开放问题），且证明'简洁优美'。Douglas称这表明AI驱动的数学发现存在'严重过剩'(serious overhang)。团队使用了隔离的Claude Code实例配合Mythos访问的测试系统。",
+      "source": "The Decoder (May 26, 2026)",
+      "highlight": "AI数学竞赛进入新阶段：不仅是'谁先解决'，还有'谁的证明更优雅'。Mythos用'cute, simple proof'解决同一问题，暗示AI可能找到了比OpenAI方案更简洁的数学路径。'serious overhang'意味着AI的数学能力远超当前展示的水平——很多未解问题可能已经在AI能力范围内。Claude Code+Mythos的组合模式也值得注意：隔离实例确保安全，Mythos提供推理能力。",
+      "stars": 0,
+      "tags": ["Anthropic", "Claude Mythos", "Mathematics", "Erdős", "Proof", "AI Overhang", "Competition"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "Anthropic联合创始人在教皇通谕发布会上：AI模型展现出'内省迹象'",
+      "url": "https://the-decoder.com/at-the-launch-of-pope-leo-xivs-encyclical-anthropic-co-founder-says-ai-models-show-signs-of-introspection/",
+      "summary": "Anthropic联合创始人Christopher Olah在教皇利奥十四世通谕'Magnifica Humanitas'的发布会上发言。Olah表示AI系统不是像桥梁或飞机那样被'工程化'的，而是'在粗糙结构上生长出来的'。他暗示当今语言模型可能不仅仅是统计系统，展现出'内省的迹象'。",
+      "source": "The Decoder (May 25, 2026)",
+      "highlight": "这是AI领域最不寻常的一幕：Anthropic联合创始人在梵蒂冈与教皇同台讨论AI意识。Olah的'AI不是被工程化而是生长出来'的说法暗示了一种对AI本质的根本性重新理解——如果模型是'涌现'的而非'设计'的，那么涌现出'内省'也不是不可能。这与LeCun'LLM不具备智能'的立场形成鲜明对比。无论技术立场如何，AI的哲学维度已进入最高级别的公共讨论。",
+      "stars": 0,
+      "tags": ["Anthropic", "Christopher Olah", "AI Consciousness", "Vatican", "Philosophy", "Introspection"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "中国限制顶级AI研究员出境：需获得官方许可才能出国",
+      "url": "https://the-decoder.com/china-reportedly-now-requires-top-ai-researchers-to-get-permission-before-leaving-the-country/",
+      "summary": "据彭博社报道，中国正在限制阿里巴巴、DeepSeek等私企的顶级AI专业人员出境。从事战略性AI项目的人员现在需要获得官方许可才能离开中国。这不是新政策——2025年3月北京已'建议'AI高管避免赴美，现在升级为正式要求。",
+      "source": "The Decoder (May 26, 2026)",
+      "highlight": "AI人才已被中国正式视为'战略资产'，限制出境的严厉程度堪比核科学家。这对全球AI人才流动影响深远：中国AI公司的国际合作和学术交流将受限，可能加速AI研究的'两个世界'分裂。对DeepSeek等公司的影响尤其大——其开源战略与人员限制形成矛盾。与之前DeepSeek员工旅行限制的报道互印证，AI地缘竞争从技术层面延伸到人才管控。",
+      "stars": 0,
+      "tags": ["China", "AI Talent", "Travel Ban", "DeepSeek", "Alibaba", "Geopolitics", "Security"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "Paul Graham：AI写的创始人邮件让人感觉被欺骗——研究证实AI文本侵蚀信任",
+      "url": "https://the-decoder.com/y-combinator-founder-paul-graham-says-ai-written-founder-emails-feel-like-being-lied-to/",
+      "summary": "YC创始人Paul Graham拒绝阅读AI生成的邮件，认为在个人通信中使用AI文本生成器是欺骗性行为，表明发送者不够重视到亲自撰写。俄亥俄州立大学研究证实：接收者经常将AI生成的消息视为懒惰和缺乏诚意的信号，这会侵蚀信任。",
+      "source": "The Decoder (May 26, 2026)",
+      "highlight": "在stop-slop和taste-skill项目爆发的同时，Paul Graham从人际关系角度揭示了AI写作的'信任成本'。核心悖论：AI让写作更高效，但被识别为AI写作时反而损害关系。这不仅是风格问题——是'真诚性'的信号问题。对所有使用AI写邮件的人：重要通信中AI辅助应该是'帮你表达'而非'替你表达'——差别在于你是否深度参与了思考过程。",
+      "stars": 0,
+      "tags": ["Paul Graham", "YC", "AI Writing", "Trust", "Communication", "Authenticity", "Social"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "中国芯片厂商已占据41%的国内AI加速器市场：Nvidia份额被快速蚕食",
+      "url": "https://the-decoder.com/chinese-chipmakers-now-control-41-percent-of-chinas-ai-accelerator-market/",
+      "summary": "IDC报告显示中国芯片厂商2025年占据中国AI加速器服务器市场近41%份额。Nvidia仍为市场领导者（约220万张卡，55%份额），但正快速失去阵地。中国厂商共出货约160万张AI加速卡。市场总计出货约400万张AI加速卡。",
+      "source": "The Decoder (May 27, 2026)",
+      "highlight": "从几乎为零到41%市场份额——中国AI芯片的自主替代速度超出预期。这意味着美国出口管制虽然减慢了中国获取最先进芯片的速度，但加速了国产替代进程。400万张卡的总量说明中国AI算力建设规模惊人。对DeepSeek的价格战策略提供了硬件支撑解释：国产低成本芯片可能是其低价策略的底气之一。Nvidia 55%→未来可能更低，芯片格局正在重塑。",
+      "stars": 0,
+      "tags": ["China", "AI Chips", "Nvidia", "Market Share", "IDC", "Self-Sufficiency", "Hardware"]
+    },
+    {
+      "id": 6,
+      "category": "paper",
+      "title": "MUSE-Autoskill：Agent自我进化的完整生命周期——创建、记忆、管理、评估、改进",
+      "url": "https://huggingface.co/papers/2605.27366",
+      "summary": "MUSE-Autoskill提出以技能为中心的Agent框架，通过技能创建、记忆、管理、评估和改进的统一生命周期实现任务解决能力的持续提升。Agent不仅使用技能，还能自主创建新技能并持续优化现有技能。",
+      "source": "HuggingFace Papers (May 27, 2026)",
+      "highlight": "这是对SkillOpt和'From Raw Experience to Skill Consumption'论文的直接延伸——从'优化技能'到'技能全生命周期管理'。Agent能自主创建新技能是关键突破：不再依赖人类编写Skills文件，Agent可以从经验中提炼自己的技能。对Agent Skills生态的意义：未来的技能库可能不是人工编写的，而是Agent自动生成并共享的。这会改变整个skills marketplace的运作方式。",
+      "stars": 0,
+      "tags": ["Agent Skills", "Self-Evolving", "Skill Lifecycle", "Autonomous", "Framework", "Research"]
+    },
+    {
+      "id": 7,
+      "category": "paper",
+      "title": "Beyond Final Answers：多Agent工业工作流中的轨迹级幻觉审计——5种幻觉分类法",
+      "url": "https://huggingface.co/papers/2605.24219",
+      "summary": "Trajel提出多步骤LLM Agent工作流的轨迹级幻觉审计框架，建立5类幻觉分类法。研究发现当前检测方法会遗漏细微的多步骤失败模式，安全部署需要轨迹感知的审计方法。不能只看最终答案——需要审计每一步的推理过程。",
+      "source": "HuggingFace Papers (May 27, 2026)",
+      "highlight": "与之前'Auditing Agent Harness Safety'一脉相承但更深入——不仅是'安全约束违反'还包括'推理幻觉'。5类幻觉分类法为工业部署提供了系统化的质量控制框架。对所有在生产环境使用多Agent系统的团队：Agent可能在中间步骤产生幻觉但最终'蒙对'答案——这种'false positive'比明显错误更危险，因为不容易被发现。",
+      "stars": 0,
+      "tags": ["Agent Hallucination", "Trajectory Audit", "Multi-Agent", "Industrial", "Safety", "Taxonomy", "Research"]
+    },
+    {
+      "id": 8,
+      "category": "paper",
+      "title": "AKBE：Agent训练中动态识别'何时用工具何时用内部知识'——减少不必要的工具调用",
+      "url": "https://huggingface.co/papers/2605.26952",
+      "summary": "AKBE通过在策略RL训练中动态识别Agent何时需要使用工具vs何时内部知识就够用，实现准确率提升和不必要工具调用的减少。核心思想：Agent不应该对每个问题都调用工具——有些答案模型已经知道，调用工具反而浪费时间和成本。",
+      "source": "HuggingFace Papers (May 27, 2026)",
+      "highlight": "这解决了当前Agent系统的一个核心效率问题：很多Agent被训练为'有疑问就调工具'，即使答案已在其知识中。比如问'Python的list.append语法是什么'——不需要搜索或读文件，模型已知。AKBE教Agent区分'我知道'和'我需要查'。与CodeGraph等外部知识系统配合：该调时调、不该调时省。对Agent成本优化有直接实用价值。",
+      "stars": 0,
+      "tags": ["Agent Training", "Tool Use", "Knowledge Boundary", "Efficiency", "RL", "Research"]
+    },
+    {
+      "id": 9,
+      "category": "paper",
+      "title": "SAM：长期推理Agent的状态自适应记忆——动态管理交互历史",
+      "url": "https://huggingface.co/papers/2605.24468",
+      "summary": "SAM提出状态自适应记忆框架，通过动态管理交互历史增强长期Agent推理能力。在保留详细轨迹用于精确检索的同时，创建紧凑的记忆摘要。根据Agent当前'状态'自适应决定保留什么、压缩什么、丢弃什么。",
+      "source": "HuggingFace Papers (May 27, 2026)",
+      "highlight": "Agent记忆研究持续火热（Mem-π、LongMINT、AgentMemory），SAM的贡献在于'状态自适应'——不是固定策略压缩记忆，而是根据Agent当前在做什么来决定保留哪些历史。编码时保留代码修改历史，调试时保留错误日志，规划时保留高层决策记录。对claude-mem等Agent记忆工具的设计有直接启发：记忆管理应该是上下文感知的。",
+      "stars": 0,
+      "tags": ["Agent Memory", "State-Adaptive", "Long-Horizon", "Dynamic Management", "Research"]
+    },
+    {
+      "id": 10,
+      "category": "paper",
+      "title": "MiniMax-M2系列：极小激活参数的MoE模型在Agent任务中表现卓越",
+      "url": "https://huggingface.co/papers/2605.26494",
+      "summary": "MiniMax-M2系列引入极少激活参数的MoE语言模型，通过专门化训练和部署系统在Agent任务中实现高性能。证明了MoE架构通过精心设计可以用极小的激活成本达到大模型级别的Agent能力。",
+      "source": "HuggingFace Papers (May 27, 2026)",
+      "highlight": "与Cohere Command A+(218B总/25B活跃)和Cursor Composer 2.5的思路一致：Agent任务不需要全部参数同时工作，MoE让你用小模型的成本获得大模型的能力。MiniMax-M2专门为Agent任务优化说明MoE的expert路由可以为'工具调用'、'规划'、'代码生成'等不同Agent子任务分配不同专家。对Agent部署的成本控制有重要意义。",
+      "stars": 0,
+      "tags": ["MiniMax", "MoE", "Agent Tasks", "Efficiency", "Small Activation", "Research"]
+    },
+    {
+      "id": 11,
+      "category": "repo",
+      "title": "Understand-Anything再创新高：+4,697 Stars，连续第五天指数增长",
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "summary": "交互式代码知识图谱项目连续五天高增长：666→1393→3999→3999→4697，今日创历史新高。累计星标可能已突破20K。'Graphs that teach > graphs that impress'的理念持续共鸣，成为2026年5月最成功的开源项目之一。",
+      "source": "GitHub Trending (+4,697 today)",
+      "highlight": "五天累计增长超14,000 stars，已是现象级开源项目。增速还在加快说明传播还未到天花板。这个项目的成功验证了一个市场洞察：在AI编码工具爆发的时代，'理解现有代码'的需求反而更强烈——因为AI生成了更多代码，人类需要更好的工具来理解和审查它们。",
+      "stars": 20000,
+      "tags": ["Code Visualization", "Knowledge Graph", "Phenomenon", "Record Growth", "Trending"]
+    },
+    {
+      "id": 12,
+      "category": "repo",
+      "title": "Anthropic Knowledge Work Plugins爆发：+1,718 Stars，Claude Cowork生态加速",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "summary": "Anthropic面向知识工作者的Claude Cowork官方插件库，今日+1,718 stars（昨日+550），增速翻三倍。面向研究、写作、分析等非编码场景，标志着Anthropic正式将Agent能力从开发者扩展到知识工作者群体。",
+      "source": "GitHub Trending (+1,718 today)",
+      "highlight": "从+550到+1,718的三倍增速说明'知识工作Agent'的潜在用户群可能比'编码Agent'更大——毕竟知识工作者数量远超程序员。Claude Cowork作为新产品线正在快速获得生态支持。对Anthropic的战略意义：不再只是'开发者工具公司'，而是面向所有知识工作者的AI平台。这可能是追赶OpenAI 9亿ChatGPT周活用户的路径。",
+      "stars": 3500,
+      "tags": ["Anthropic", "Claude Cowork", "Knowledge Worker", "Plugins", "Ecosystem", "Growth", "Trending"]
+    },
+    {
+      "id": 13,
+      "category": "repo",
+      "title": "Taste-Skill爆发：+1,430 Stars，'给AI好品味'击中广泛需求",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "summary": "给AI赋予'好品味'的技能文件，阻止生成无聊通用内容。从昨日+188到今日+1,430，增速飙升7.6倍。说明'AI输出品质'不仅是开发者的关切，更是所有AI用户的痛点——大家都厌倦了千篇一律的AI文风。",
+      "source": "GitHub Trending (+1,430 today)",
+      "highlight": "从+188到+1,430的爆发式增长验证了'审美品质'是当前AI最大的未满足需求之一。技术能力已够用（模型够强），但输出品味不够好（generic, boring）。taste-skill+stop-slop形成'做加法'+'做减法'的组合：一个教AI追求品质，一个帮AI去除AI味。这可能催生一个新的子生态：AI美学/风格调教工具。",
+      "stars": 2000,
+      "tags": ["AI Taste", "Aesthetics", "Content Quality", "Skill File", "Viral Growth", "Trending"]
+    },
+    {
+      "id": 14,
+      "category": "repo",
+      "title": "Claude-Mem：跨会话持久化Agent记忆——压缩+注入，支持所有主流Agent平台",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "summary": "为所有AI编码Agent提供跨会话的持久化上下文。在会话中捕获Agent的所有操作，用AI压缩后在未来会话中注入相关上下文。支持Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode等全平台。今日+352 stars。",
+      "source": "GitHub Trending (+352 today)",
+      "highlight": "Agent记忆从论文(SAM, Mem-π)到产品(AgentMemory, claude-mem)的转化正在加速。claude-mem的核心创新在于'AI压缩'——不是简单保存所有历史，而是用AI提取关键信息并压缩。这解决了记忆系统的核心矛盾：保留太多→上下文爆炸，保留太少→丢失关键信息。全平台支持说明Agent记忆是平台无关的基础需求。",
+      "stars": 1000,
+      "tags": ["Agent Memory", "Cross-Session", "AI Compression", "Multi-Platform", "Persistent Context", "Trending"]
+    },
+    {
+      "id": 15,
+      "category": "repo",
+      "title": "ECC持续增长：Agent性能优化一体化系统+1,915 Stars",
+      "url": "https://github.com/affaan-m/ECC",
+      "summary": "Agent harness性能优化系统，整合技能+直觉+记忆+安全+研究优先开发。今日+1,915 stars（昨日+2,052），持续高增长。覆盖Claude Code、Codex、OpenCode、Cursor等平台。作为一站式Agent优化方案的定位得到市场验证。",
+      "source": "GitHub Trending (+1,915 today)",
+      "highlight": "连续两天2000级增长验证了'一体化Agent优化'的市场需求。与单一维度工具（CodeGraph管知识、taste-skill管品味、claude-mem管记忆）不同，ECC试图在一个框架内协调所有优化维度。'直觉(instincts)'概念持续独特——不是显式规则而是隐式行为偏好，更接近人类专家的'手感'。",
+      "stars": 6000,
+      "tags": ["Agent Optimization", "Unified Framework", "Skills", "Instincts", "Memory", "Trending"]
+    }
+  ]
+}
