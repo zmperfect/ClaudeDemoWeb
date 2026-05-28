@@ -1,0 +1,170 @@
+{
+  "date": "2026-05-28",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "研究人员让Claude Code自主发现人类可能设计不出的AI扩展算法",
+      "url": "https://the-decoder.com/researchers-let-claude-code-discover-ai-scaling-algorithms-that-humans-probably-wouldnt-have-designed/",
+      "summary": "来自UMD、Google、Meta等机构的研究人员使用AutoTTS框架，让Claude Code编程智能体自主发现AI推理的控制算法。该智能体发现的算法在保持准确率的同时，将计算量减少约70%（相比标准self-consistency方法）。整个搜索过程仅花费$40，耗时160分钟。",
+      "source": "The Decoder (May 2026)",
+      "highlight": "这是AI agent'自我改进'的一个里程碑案例：让AI编程助手自己去发现更好的AI推理策略。70%的计算节省极具实用价值，而$40的成本说明这类自动化算法搜索已经非常经济。Claude Code作为'研究工具'而非仅仅'编码助手'的定位正在被验证。",
+      "stars": 0,
+      "tags": ["Claude Code", "AutoTTS", "Test-Time Scaling", "Algorithm Discovery", "AI Research"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "阿里巴巴Qwen3.7-Max自主运行35小时优化自研芯片代码",
+      "url": "https://the-decoder.com/alibabas-latest-ai-model-ran-autonomously-for-35-hours-to-optimize-code-for-its-own-custom-chip/",
+      "summary": "阿里巴巴Qwen团队发布Qwen3.7-Max，专为长时间自主Agent任务设计的闭源模型。该模型在基准测试中匹配Claude Opus 4.6，击败DeepSeek V4 Pro和Kimi K2.6。团队还演示了该模型控制四足机器人，并自主运行35小时优化芯片代码。",
+      "source": "The Decoder (May 2026)",
+      "highlight": "35小时自主运行是Agent能力的重要里程碑——这不是简单的'问答'而是持续的工程任务。Qwen3.7-Max对标Opus级别性能，加上国产芯片优化的应用场景，体现了中国AI在Agent和硬件协同上的布局。长时自主Agent是下一代AI系统的关键能力。",
+      "stars": 0,
+      "tags": ["Alibaba", "Qwen3.7-Max", "Autonomous Agent", "Chip Optimization", "Long-Running Tasks"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "OpenClaw创始人每月花130万美元运行100个AI Agent：代码、审查PR、找bug",
+      "url": "https://the-decoder.com/for-1-3-million-a-month-openclaw-founder-peter-steinberger-runs-100-ai-agents-that-code-review-prs-and-find-bugs/",
+      "summary": "Peter Steinberger领导的三人团队为开源项目OpenClaw运行约100个Codex实例，每月OpenAI API开销达130万美元。Steinberger将这笔费用定位为研究投资：他想看看当token成本不再是限制因素时，软件开发会变成什么样子。",
+      "source": "The Decoder (May 2026)",
+      "highlight": "3个人+100个AI Agent的开发模式是'AI密集型开发'的极端案例。$1.3M/月的API费用听起来疯狂，但如果能替代50+名工程师的产出，ROI可能合理。这个实验揭示了一个未来趋势：团队规模不再由人头决定，而是由AI算力预算决定。对整个软件行业的组织形态有深远启示。",
+      "stars": 0,
+      "tags": ["AI Agents", "Software Development", "OpenClaw", "Codex", "Cost Analysis", "Future of Work"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "George Hotz警告：AI编程Agent将成为软件行业'最昂贵的错误之一'",
+      "url": "https://the-decoder.com/george-hotz-says-coding-agents-will-be-one-of-the-most-costly-mistakes-in-software-development/",
+      "summary": "程序员George Hotz在测试AI编程Agent六个月后发出警告：LLM能快速生成原型但在细节上崩溃，产生的bug越来越难以发现。他认为AI编程Agent将成为行业最昂贵的错误之一。这一立场反映了AI社区对LLM在软件开发中角色的深度分歧。",
+      "source": "The Decoder (May 2026)",
+      "highlight": "作为tinygrad创始人和知名黑客，Hotz的批评值得重视。'快速原型但细节崩溃'精确描述了很多开发者的体验。这与OpenClaw的$1.3M/月投入形成鲜明对比——AI编程的价值究竟是在'量'还是在'质'？社区的分裂可能意味着AI编程的最佳实践尚未形成共识。",
+      "stars": 0,
+      "tags": ["George Hotz", "AI Criticism", "Coding Agents", "Software Quality", "LLM Limitations"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "Google DeepMind AlphaProof Nexus以几百美元成本解决数十年数学难题",
+      "url": "https://the-decoder.com/google-deepminds-alphaproof-nexus-solves-decades-old-math-problems-for-a-few-hundred-dollars/",
+      "summary": "Google DeepMind的AlphaProof Nexus系统解决了9个Erdős问题，成本仅几百美元。这与OpenAI的GPT-5.4 Pro和Anthropic的Claude Mythos形成三方竞争态势。AI数学证明正从'能否做到'转向'多便宜能做到'的新阶段。",
+      "source": "The Decoder (May 2026)",
+      "highlight": "三巨头(Google/OpenAI/Anthropic)同时攻克Erdős问题，AI数学进入'过剩时代'。AlphaProof Nexus解决9个问题且成本极低，说明形式化数学证明的AI辅助正在民主化。数学家可能很快就能用几百美元的AI预算验证/发现猜想。这对数学研究的工作流程将产生根本性改变。",
+      "stars": 0,
+      "tags": ["DeepMind", "AlphaProof Nexus", "Mathematics", "Erdős", "Formal Proof", "Cost Efficiency"]
+    },
+    {
+      "id": 6,
+      "category": "news",
+      "title": "开源AI Agent SWE-Agent紧追Cognition AI的2100万美元产品Devin",
+      "url": "https://the-decoder.com/open-source-ai-agent-swe-agent-nips-at-the-heels-of-cognition-ais-21-million-devin/",
+      "summary": "开源AI编程Agent SWE-Agent的表现已接近Cognition AI花费2100万美元开发的Devin。SWE-Agent能比GPT-4更好地解决编程任务，将开源方案推入与商业AI程序员的直接竞争。这反映了开源社区在Agent领域的快速追赶。",
+      "source": "The Decoder (May 2026)",
+      "highlight": "开源vs商业在AI Agent领域的经典故事：$21M的Devin面临免费替代品的挑战。SWE-Agent的成功验证了'Agent = 好的prompt工程 + 工具使用'这一技术路线的可行性，而非需要从零构建专有系统。对正在选择AI编程工具的团队来说，开源选项正变得越来越有竞争力。",
+      "stars": 0,
+      "tags": ["SWE-Agent", "Open Source", "Devin", "AI Programming", "Agent"]
+    },
+    {
+      "id": 7,
+      "category": "paper",
+      "title": "MiniMax-M2系列：Mini激活释放Max真实世界智能",
+      "url": "https://arxiv.org/abs/2605.26494",
+      "summary": "MiniMax-M2系列论文展示了通过最小化激活量来最大化模型在真实世界任务中的智能表现。该方法在保持模型能力的同时显著降低了推理成本，为大模型的高效部署提供了新思路。",
+      "source": "HuggingFace Papers (May 27, 2026)",
+      "highlight": "MiniMax持续在效率方向发力。'Mini Activations, Max Intelligence'的理念对部署成本敏感的团队极有价值。如果能在不损失能力的前提下大幅降低激活量，将改变大模型的部署经济学。",
+      "stars": 0,
+      "tags": ["MiniMax", "Efficient Inference", "Model Optimization", "Activation Reduction"]
+    },
+    {
+      "id": 8,
+      "category": "paper",
+      "title": "LLaVA-OneVision-2：迈向下一代感知智能",
+      "url": "https://arxiv.org/abs/2605.25979",
+      "summary": "LLaVA-OneVision-2是多模态大模型LLaVA系列的最新版本，致力于实现下一代感知智能。该模型在视觉理解、推理和多模态交互方面取得了显著进步，推动了视觉-语言模型的前沿。",
+      "source": "HuggingFace Papers (May 27, 2026)",
+      "highlight": "LLaVA系列一直是开源多模态模型的标杆。OneVision-2代表了视觉-语言模型从'看图说话'向'真正感知理解'的演进。对需要视觉AI能力但无法负担闭源API的团队来说，这是重要的开源选择。",
+      "stars": 0,
+      "tags": ["LLaVA", "Multimodal", "Vision-Language", "Perceptual Intelligence", "Open Source"]
+    },
+    {
+      "id": 9,
+      "category": "paper",
+      "title": "MobileGym：面向移动GUI Agent研究的可验证高并行仿真平台",
+      "url": "https://arxiv.org/abs/2605.26114",
+      "summary": "MobileGym是一个为移动端GUI Agent研究设计的仿真平台，支持高并行和可验证的评估。该平台解决了移动Agent研究中缺乏标准化测试环境的问题，为手机操作Agent的开发提供了基础设施。",
+      "source": "HuggingFace Papers (May 27, 2026)",
+      "highlight": "移动端Agent是AI应用的下一个前沿——人们大部分数字时间花在手机上。MobileGym提供了急需的标准化评估环境，将加速移动Agent从研究到产品的转化。高并行特性意味着可以快速迭代Agent策略。",
+      "stars": 0,
+      "tags": ["Mobile Agent", "GUI Agent", "Simulation Platform", "Benchmark", "Parallel Computing"]
+    },
+    {
+      "id": 10,
+      "category": "paper",
+      "title": "Share More, Search Less：协作并行思考实现高效测试时扩展",
+      "url": "https://arxiv.org/abs/2605.27030",
+      "summary": "该论文提出协作并行思考(Collaborative Parallel Thinking)方法，通过多个推理路径之间的信息共享来减少冗余搜索。相比传统的独立并行采样，该方法在保持准确率的同时显著提升了测试时计算的效率。",
+      "source": "HuggingFace Papers (May 27, 2026)",
+      "highlight": "测试时扩展(test-time scaling)是当前AI推理的热门方向，但传统方法(如majority voting)浪费大量计算在重复路径上。'Share More, Search Less'的思想——让并行推理路径互相通信——是一个优雅且实用的改进，可能直接降低推理API成本。",
+      "stars": 0,
+      "tags": ["Test-Time Scaling", "Parallel Reasoning", "Collaborative Thinking", "Efficiency", "Inference"]
+    },
+    {
+      "id": 11,
+      "category": "repo",
+      "title": "Understand-Anything：将代码转化为可探索的交互式知识图谱",
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "summary": "将任意代码库转化为交互式知识图谱，支持探索、搜索和提问。兼容Claude Code、Codex、Cursor、Copilot、Gemini CLI等主流AI编程工具。理念是'教人的图 > 炫人的图'。",
+      "source": "GitHub Trending (May 28, 2026)",
+      "highlight": "代码理解是所有开发者的痛点。Understand-Anything用知识图谱可视化代码结构，而非简单的文件树或调用图，让代码'可探索'。与主流AI编程工具的兼容性意味着可以无缝集成到现有工作流。今日4465星说明了社区对代码理解工具的强烈需求。",
+      "stars": 4465,
+      "tags": ["Knowledge Graph", "Code Understanding", "Visualization", "Developer Tools", "Claude Code"]
+    },
+    {
+      "id": 12,
+      "category": "repo",
+      "title": "ECC：Agent Harness性能优化系统——技能、本能、记忆、安全",
+      "url": "https://github.com/affaan-m/ECC",
+      "summary": "ECC是一个Agent Harness性能优化系统，提供技能(Skills)、本能(Instincts)、记忆(Memory)和安全(Security)等模块。支持Claude Code、Codex、Opencode、Cursor等平台，采用research-first开发方法论。",
+      "source": "GitHub Trending (May 28, 2026)",
+      "highlight": "Agent的'性能优化'正在成为独立领域：不是优化模型本身，而是优化Agent与模型交互的'harness层'。Skills/Instincts/Memory的分层设计暗示了Agent架构的成熟度正在提升。2062星反映了社区对Agent系统工程的关注。",
+      "stars": 2062,
+      "tags": ["Agent Harness", "Performance", "Skills", "Memory", "Claude Code", "System Engineering"]
+    },
+    {
+      "id": 13,
+      "category": "repo",
+      "title": "Taste-Skill：赋予AI良好审美，消除AI生成内容的平庸感",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "summary": "Taste-Skill是一个为AI编程助手注入'审美品味'的技能文件。目标是阻止AI生成无聊、通用的'slop'内容，让AI输出更有个性和品质。适用于各种AI编程工具。",
+      "source": "GitHub Trending (May 28, 2026)",
+      "highlight": "AI生成内容的同质化('AI slop')是社区公认的问题。Taste-Skill试图从系统prompt层面解决这个问题——与其等模型变好，不如通过约束让现有模型产出更有'人味'的内容。2715星说明开发者社区对AI输出质量的焦虑是真实的。与stop-slop(664星)形成互补。",
+      "stars": 2715,
+      "tags": ["AI Quality", "Anti-Slop", "Skill File", "Prompt Engineering", "Aesthetics"]
+    },
+    {
+      "id": 14,
+      "category": "repo",
+      "title": "Kronos：金融市场语言基础模型",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "summary": "Kronos是专门为金融市场设计的基础模型，能理解金融市场的'语言'——包括价格序列、市场事件、交易模式等。目标是为量化交易和金融分析提供通用的AI基础设施。",
+      "source": "GitHub Trending (May 28, 2026)",
+      "highlight": "金融领域的领域特定基础模型是高价值方向。Kronos试图建立金融市场的'语言理解'能力，不仅是NLP处理新闻，而是理解市场本身的结构和模式。401星虽不高但增长快，反映了金融AI从业者的关注。",
+      "stars": 401,
+      "tags": ["Finance", "Foundation Model", "Quantitative Trading", "Market Analysis", "Domain-Specific"]
+    },
+    {
+      "id": 15,
+      "category": "repo",
+      "title": "MoneyPrinterTurbo：利用AI大模型一键生成高清短视频",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "summary": "利用AI大模型一键生成高清短视频的工具。集成了多种AI能力（文本生成、语音合成、图像/视频生成），提供完整的自动化短视频生产流水线。",
+      "source": "GitHub Trending (May 28, 2026)",
+      "highlight": "AI短视频生成是变现最快的AI应用场景之一。MoneyPrinterTurbo作为开源方案，将原本需要多个工具串联的流程集成为一键操作。今日1742星的高热度说明内容创作者对AI自动化工具的持续需求。适合想要快速搭建AI内容生产线的团队。",
+      "stars": 1742,
+      "tags": ["Video Generation", "Content Creation", "Automation", "Short Video", "AI Tools"]
+    }
+  ]
+}
