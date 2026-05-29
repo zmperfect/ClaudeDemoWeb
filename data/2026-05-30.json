@@ -1,0 +1,170 @@
+{
+  "date": "2026-05-30",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "Amazon员工为刷AI排行榜将无意义任务自动化：'Tokenmaxxing'蔓延",
+      "url": "https://the-decoder.com/tokenmaxxing-spreads-at-amazon-as-employees-game-internal-ai-leaderboards/",
+      "summary": "Amazon员工正在将不必要的任务自动化，仅仅是为了在内部AI使用排行榜上争排名。这种'tokenmaxxing'行为（尽可能多地消耗AI token）已经从提升效率的初衷异化为'为用而用'的内卷游戏。",
+      "source": "The Decoder (May 2026)",
+      "highlight": "企业AI采用的黑暗面：当公司用'AI使用量'作为KPI时，员工自然会博弈这个指标。这与Goodhart's Law完美吻合——指标一旦成为目标就失去意义。对所有正在推动AI adoption的企业来说是重要的反面教材：应该衡量AI带来的产出提升，而非token消耗量。",
+      "stars": 0,
+      "tags": ["Tokenmaxxing", "Amazon", "AI Adoption", "Corporate Culture", "Goodhart's Law"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "Meta员工在内部AI排行榜争夺'Token Legend'和'Cache Wizard'称号",
+      "url": "https://the-decoder.com/meta-employees-compete-for-token-consumption-on-an-internal-ai-leaderboard/",
+      "summary": "Meta内部设有AI token消耗排行榜，员工竞争'Token Legend'、'Model Connoisseur'、'Cache Wizard'等称号。但消耗更多token并不自动意味着完成更多工作——这暴露了企业衡量AI使用效果的困境。",
+      "source": "The Decoder (May 2026)",
+      "highlight": "Amazon和Meta同时出现'tokenmaxxing'现象，说明这不是个别公司的问题而是系统性的。大科技公司花$7250亿建AI基础设施，同时员工在用这些资源'刷排行榜'——这种讽刺恰好说明了AI ROI计算的困难。'Cache Wizard'等游戏化称号可能短期促进尝试，但长期会扭曲使用行为。",
+      "stars": 0,
+      "tags": ["Meta", "Tokenmaxxing", "Gamification", "AI Usage", "Perverse Incentives"]
+    },
+    {
+      "id": 3,
+      "category": "paper",
+      "title": "From Pixels to Words：面向原生大规模统一视觉模型",
+      "url": "https://arxiv.org/abs/2605.28820",
+      "summary": "该论文提出从像素到文字的原生统一视觉模型架构，能在大规模训练下实现视觉感知与语言理解的深度融合。不同于后期对齐(post-alignment)的多模态方法，该模型从架构层面就是'原生多模态'的。",
+      "source": "HuggingFace Papers (May 28, 2026)",
+      "highlight": "当前大多数多模态模型是'LLM+视觉编码器'的拼装方案，而原生统一架构可能是更优雅的方向。如果模型从训练开始就同时理解像素和文字，可能获得更强的跨模态推理能力。这条路线的挑战在于训练效率和数据需求。",
+      "stars": 0,
+      "tags": ["Vision-Language", "Native Multimodal", "Unified Architecture", "Scaling"]
+    },
+    {
+      "id": 4,
+      "category": "paper",
+      "title": "DenoiseRL：引导推理模型从噪声前缀中恢复",
+      "url": "https://arxiv.org/abs/2605.28421",
+      "summary": "DenoiseRL通过强化学习训练推理模型从含噪声的推理前缀中恢复正确推理路径。解决了实际部署中推理链被干扰或起始错误时模型无法自我纠正的问题。",
+      "source": "HuggingFace Papers (May 28, 2026)",
+      "highlight": "推理模型的一个实际痛点：一旦推理链开头走错方向，后续很难纠正。DenoiseRL让模型学会'从错误中恢复'——这对长推理链(如o1/Mythos类模型)的鲁棒性至关重要。实际应用中推理前缀可能被用户输入、API错误等干扰，这个能力有直接的工程价值。",
+      "stars": 0,
+      "tags": ["Reasoning", "Reinforcement Learning", "Error Recovery", "Robustness", "Chain-of-Thought"]
+    },
+    {
+      "id": 5,
+      "category": "paper",
+      "title": "GEM：生成式监督助力具身智能",
+      "url": "https://arxiv.org/abs/2605.28548",
+      "summary": "GEM(Generative Supervision for Embodied Intelligence)提出用生成式模型的监督信号来训练具身智能Agent。利用生成模型对物理世界的理解为机器人等具身系统提供更丰富的训练信号，减少对人工标注的依赖。",
+      "source": "HuggingFace Papers (May 28, 2026)",
+      "highlight": "具身智能一直受限于标注数据稀缺。GEM的思路是'用AI教AI'——生成模型(如视频模型)对物理世界的理解可以反向指导机器人学习。这与当前'世界模型'热潮一脉相承，可能是解决sim-to-real gap的新路径。",
+      "stars": 0,
+      "tags": ["Embodied AI", "Generative Supervision", "Robotics", "World Model", "Self-Supervised"]
+    },
+    {
+      "id": 6,
+      "category": "paper",
+      "title": "MemTrace：追踪和归因大语言模型记忆系统中的错误",
+      "url": "https://arxiv.org/abs/2605.28732",
+      "summary": "MemTrace提供了一套追踪和归因LLM记忆系统错误的方法。当LLM在RAG或长上下文场景中产生错误引用或记忆混淆时，MemTrace能定位错误源头——是检索失败、注意力失焦还是生成幻觉。",
+      "source": "HuggingFace Papers (May 28, 2026)",
+      "highlight": "RAG和长上下文LLM的可靠性问题亟需解决方案。MemTrace将'记忆错误'分解为可诊断的子问题(检索/注意力/生成)，为系统性解决幻觉问题提供了框架。对任何使用RAG的生产系统来说，错误溯源能力是提升可靠性的关键。",
+      "stars": 0,
+      "tags": ["RAG", "Memory Systems", "Error Attribution", "Hallucination", "Debugging", "LLM"]
+    },
+    {
+      "id": 7,
+      "category": "paper",
+      "title": "Learn from Weaknesses：小型计算机操作Agent的自动化领域特化",
+      "url": "https://arxiv.org/abs/2605.28775",
+      "summary": "该论文提出从Agent弱点出发进行自动化领域特化的方法。通过分析小型Computer-Use Agent的失败案例，自动生成针对性训练数据，让小模型在特定领域达到大模型的表现。",
+      "source": "HuggingFace Papers (May 28, 2026)",
+      "highlight": "'从弱点学习'是一个务实而高效的思路——与其全面提升，不如针对性补短板。对Computer-Use Agent尤其重要：小模型部署成本低但能力有限，通过自动化特化可以在特定场景达到大模型水平。这为企业部署Agent提供了成本效益最优的路径。",
+      "stars": 0,
+      "tags": ["Computer Use", "Domain Specialization", "Small Models", "Automated Training", "Agent"]
+    },
+    {
+      "id": 8,
+      "category": "paper",
+      "title": "Rethinking Memory as Continuously Evolving Connectivity：将记忆重新思考为持续演化的连接",
+      "url": "https://arxiv.org/abs/2605.28773",
+      "summary": "该论文重新定义了AI系统中的'记忆'概念——不是静态的存储，而是持续演化的连接网络。提出记忆应被建模为动态的关系图谱，节点间的连接强度随交互和时间不断变化。",
+      "source": "HuggingFace Papers (May 28, 2026)",
+      "highlight": "传统AI记忆系统(向量数据库、KV cache)都是'存储'范式，而这篇论文提出'连接'范式——更接近人类记忆的工作方式。如果Agent的记忆不只是'存了什么'而是'什么和什么有关系'，可能实现更高级的联想和推理。对长期Agent系统设计有理论指导意义。",
+      "stars": 0,
+      "tags": ["Memory Architecture", "Evolving Connectivity", "Agent Memory", "Dynamic Graphs", "Cognitive Science"]
+    },
+    {
+      "id": 9,
+      "category": "paper",
+      "title": "AI Research Agents Narrow Scientific Exploration：AI研究Agent正在缩窄科学探索范围",
+      "url": "https://arxiv.org/abs/2605.27905",
+      "summary": "该论文对AI研究Agent提出警告：虽然AI加速了科研效率，但也可能缩窄科学探索的范围。AI Agent倾向于沿已知路径优化，可能忽略真正创新性的研究方向，导致科学发现的'同质化'。",
+      "source": "HuggingFace Papers (May 28, 2026)",
+      "highlight": "这是对AI科研热潮的重要'冷思考'。当所有团队都用类似的AI Agent做研究时，可能导致集体盲区——AI擅长在已知空间搜索但可能错过需要直觉跳跃的突破。这与'Self-Improving LLM'论文形成有趣对比：自我改进的AI可能越来越强但越来越窄。对AI辅助科研的治理有重要启示。",
+      "stars": 0,
+      "tags": ["AI Research", "Scientific Discovery", "Diversity", "Exploration vs Exploitation", "Risk"]
+    },
+    {
+      "id": 10,
+      "category": "repo",
+      "title": "Compound Engineering Plugin：Claude Code/Codex/Cursor官方复合工程插件",
+      "url": "https://github.com/EveryInc/compound-engineering-plugin",
+      "summary": "Every Inc发布的Compound Engineering官方插件，支持Claude Code、Codex、Cursor等平台。提供复合工程方法论的结构化实践，帮助开发者组合多种工程技术以获得乘数效应。",
+      "source": "GitHub Trending (May 30, 2026)",
+      "highlight": "继Superpowers(1730星)、ECC(1385星)、Taste-Skill(2234星)之后，又一个Agent Skills/Plugin生态的新项目。'Compound Engineering'概念——将多种工程实践组合产生1+1>2效果——与Agent Skills的可组合性设计完美契合。这个生态正在快速成熟。",
+      "stars": 184,
+      "tags": ["Claude Code", "Plugin", "Compound Engineering", "Agent Skills", "Methodology"]
+    },
+    {
+      "id": 11,
+      "category": "repo",
+      "title": "Cursor Plugins：Cursor官方插件规范和官方插件集",
+      "url": "https://github.com/cursor/plugins",
+      "summary": "Cursor官方发布的插件规范定义和官方插件集合。标志着Cursor正式开放插件生态，允许第三方开发者扩展IDE Agent的能力。",
+      "source": "GitHub Trending (May 30, 2026)",
+      "highlight": "继Claude Code的Skills/Hooks、Codex的plugins之后，Cursor也正式开放插件系统。AI IDE的生态竞争正从'模型能力'转向'生态丰富度'——谁能吸引更多插件开发者谁就能提供更好的体验。这类似于VSCode extension ecosystem的形成过程，但速度快得多。",
+      "stars": 129,
+      "tags": ["Cursor", "Plugins", "IDE", "Ecosystem", "Developer Tools"]
+    },
+    {
+      "id": 12,
+      "category": "tool",
+      "title": "LiteParse：快速、轻量的开源文档解析器",
+      "url": "https://github.com/run-llama/liteparse",
+      "summary": "LlamaIndex团队(run-llama)发布的轻量级文档解析器。专注于速度和准确性，能快速将各种格式的文档转换为LLM可处理的结构化文本。定位为LlamaIndex生态的基础组件。",
+      "source": "GitHub Trending (May 30, 2026)",
+      "highlight": "文档解析是RAG管线中最容易被忽视但最影响最终质量的环节。LlamaIndex出品的LiteParse以'fast + helpful'为目标，在markitdown(1410星)之后提供了另一个开源选择。932星的热度说明社区对高质量文档解析的持续需求。对构建RAG系统的团队是实用工具。",
+      "stars": 932,
+      "tags": ["Document Parsing", "LlamaIndex", "RAG", "Open Source", "NLP Pipeline"]
+    },
+    {
+      "id": 13,
+      "category": "repo",
+      "title": "Stable-WorldModel：可复现世界模型研究与评估平台",
+      "url": "https://github.com/galilai-group/stable-worldmodel",
+      "summary": "Galilai Group发布的世界模型研究平台，专注于可复现性和标准化评估。提供统一的训练、评估框架，让不同世界模型方案可以在公平条件下比较。",
+      "source": "GitHub Trending (May 30, 2026)",
+      "highlight": "世界模型是2026年的热门研究方向(LeCun离开Meta可能也要做这个方向)。但领域缺乏标准化评估——每篇论文用自己的数据和指标，难以比较。Stable-WorldModel填补了这个空白，对推动世界模型研究从'各说各话'走向'可比较进步'有重要价值。",
+      "stars": 346,
+      "tags": ["World Model", "Reproducibility", "Benchmark", "Research Platform", "Evaluation"]
+    },
+    {
+      "id": 14,
+      "category": "repo",
+      "title": "ESM (Biohub)：蛋白质语言模型",
+      "url": "https://github.com/Biohub/esm",
+      "summary": "Biohub发布的ESM(Evolutionary Scale Modeling)蛋白质语言模型。利用大规模蛋白质序列训练的基础模型，能预测蛋白质结构、功能和进化关系，是AI for Science在生物领域的核心基础设施。",
+      "source": "GitHub Trending (May 30, 2026)",
+      "highlight": "蛋白质语言模型是AI在生物领域最成功的应用之一(与AlphaFold并列)。ESM系列将NLP的scaling law应用到蛋白质序列，证明了'生物数据上的大力出奇迹'同样成立。对药物发现、合成生物学、酶工程等领域都有直接的产业价值。",
+      "stars": 102,
+      "tags": ["Protein", "Biology", "Foundation Model", "AI for Science", "Drug Discovery"]
+    },
+    {
+      "id": 15,
+      "category": "tool",
+      "title": "Project N.O.M.A.D：离线AI生存计算机",
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "summary": "Project N.O.M.A.D是一个自包含的离线生存计算机项目，集成了关键工具、知识库和AI能力。设计用于无网络环境下提供信息和决策支持——随时随地可用的AI辅助系统。",
+      "source": "GitHub Trending (May 30, 2026)",
+      "highlight": "一个独特的项目：将AI带到完全离线的场景。在灾难、野外或网络不可用的环境中，本地运行的AI仍能提供知识检索和决策支持。294星说明有一个小但热情的社区关注AI的离线/边缘部署。对军事、应急、探险等场景有实际应用价值。",
+      "stars": 294,
+      "tags": ["Offline AI", "Edge Computing", "Survival", "Self-Contained", "Local LLM"]
+    }
+  ]
+}
