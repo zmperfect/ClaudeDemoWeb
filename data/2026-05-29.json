@@ -1,0 +1,170 @@
+{
+  "date": "2026-05-29",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "Amazon再向Anthropic注资250亿美元，换取Anthropic承诺在AWS消费1000亿",
+      "url": "https://the-decoder.com/amazon-pours-33b-into-anthropic-which-promises-to-spend-100b-right-back-on-aws/",
+      "summary": "Amazon再向Anthropic追加最多250亿美元投资（总计约330亿），作为交换Anthropic承诺未来十年在AWS基础设施上花费超过1000亿美元。该交易旨在缓解Anthropic严重的算力紧缺，但也展现了AI行业典型的'循环投资'特征——投资方同时也是供应商。",
+      "source": "The Decoder (May 2026)",
+      "highlight": "这笔交易揭示了AI行业的深层结构：云厂商投资AI公司→AI公司把钱花回云服务→云厂商收入增长→再投资。1000亿美元的基础设施承诺意味着Anthropic对未来算力需求的预期极其庞大。这也意味着Claude系列模型在未来十年将深度绑定AWS生态。对整个AI基础设施市场格局有重大影响。",
+      "stars": 0,
+      "tags": ["Anthropic", "Amazon", "AWS", "Investment", "Infrastructure", "AI Spending"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "Anthropic与Google、Broadcom签署多吉瓦级TPU算力协议，2027年起交付",
+      "url": "https://the-decoder.com/anthropic-signs-multi-gigawatt-tpu-deal-with-google-and-broadcom/",
+      "summary": "Anthropic与Google和Broadcom签署了多吉瓦(GW)级别的TPU计算能力协议，将于2027年起开始交付。这意味着Anthropic同时锁定了AWS(GPU)和Google(TPU)两条算力路线，确保在未来几年拥有充足的训练和推理资源。",
+      "source": "The Decoder (May 2026)",
+      "highlight": "Anthropic的双线算力策略值得关注：既有AWS的330亿美元绑定，又签下Google TPU的GW级协议。这说明单一芯片供应商无法满足前沿AI公司的需求。'多吉瓦'的规模暗示了下一代模型训练的能源需求将达到小型城市的用电量级别。Broadcom的参与说明定制芯片在AI基础设施中的角色越来越重要。",
+      "stars": 0,
+      "tags": ["Anthropic", "Google", "Broadcom", "TPU", "Infrastructure", "Compute"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "大科技公司AI支出膨胀至今年7250亿美元",
+      "url": "https://the-decoder.com/big-techs-ai-spending-balloons-to-725-billion-this-year/",
+      "summary": "据金融时报报道，Google、Amazon、Microsoft和Meta的AI基础设施（数据中心、芯片等）合计预算约7250亿美元。AI军备竞赛的烧钱速度持续加剧，各家都在疯狂扩建数据中心和采购芯片。",
+      "source": "The Decoder (May 2026)",
+      "highlight": "7250亿美元——接近全球半导体行业年收入的总和——投入AI基础设施。这个数字本身就说明了AI行业的'信仰投资'规模。问题是：这些投资何时能产生匹配的回报？如果AI应用收入增长跟不上，可能出现2000年式泡沫。但如果AGI真的近在眼前，这些投资可能被证明是不够的。",
+      "stars": 0,
+      "tags": ["AI Spending", "Infrastructure", "Big Tech", "Data Centers", "Capital Expenditure"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "Meta发布Muse Spark：首个前沿模型，也是Meta首个闭源模型",
+      "url": "https://the-decoder.com/metas-muse-spark-is-its-first-frontier-model-and-its-first-without-open-weights/",
+      "summary": "Meta超级智能实验室(Meta Superintelligence Labs)发布Muse Spark，这是Meta的首个前沿级模型，也是Meta首次发布闭源(非开放权重)模型。独立测试显示它正在缩小与OpenAI、Anthropic和Google的差距，但竞争对手也没有停步。",
+      "source": "The Decoder (May 2026)",
+      "highlight": "Meta从'开源捍卫者'转向闭源前沿模型，这是AI行业格局的重大转变。Muse Spark的发布意味着Meta认为开源路线无法在前沿竞争中胜出——至少在最顶级模型上。'Meta Superintelligence Labs'的命名也暗示了Meta的AGI/ASI野心。结合LeCun离职的消息，Meta AI的战略方向正在发生根本性变化。",
+      "stars": 0,
+      "tags": ["Meta", "Muse Spark", "Closed Source", "Frontier Model", "Strategy Shift"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "LeCun离开Meta创业：'你不能告诉一个研究者该做什么'",
+      "url": "https://the-decoder.com/you-certainly-dont-tell-a-researcher-like-me-what-to-do-says-lecun-as-he-exits-meta-for-his-own-startup/",
+      "summary": "Meta首席AI科学家Yann LeCun在离开Meta后接受采访，谈到了被操纵的基准测试、愤怒的扎克伯格以及AI部门的离职潮。LeCun直言不讳地表示'你不能告诉一个像我这样的研究者该做什么'，暗示他与Meta管理层在AI方向上存在根本分歧。",
+      "source": "The Decoder (May 2026)",
+      "highlight": "LeCun离开Meta是AI领域的地震级事件。他长期主张'LLM不是通向AGI的路径'，而Meta转向闭源前沿模型显然与他的理念冲突。'被操纵的基准测试'和'愤怒的扎克伯格'暗示Meta内部关于AI战略存在严重分歧。LeCun创业可能意味着他将尝试验证自己的非LLM路线(如世界模型)。这对AI研究方向多元性有重要意义。",
+      "stars": 0,
+      "tags": ["Yann LeCun", "Meta", "AI Strategy", "Departure", "Startup", "World Models"]
+    },
+    {
+      "id": 6,
+      "category": "paper",
+      "title": "Gamma-World：超越双人的生成式多智能体世界建模",
+      "url": "https://arxiv.org/abs/2605.28816",
+      "summary": "Gamma-World提出了一种生成式多智能体世界建模方法，突破了现有方法仅限于双人交互的局限。该框架能建模多个Agent在复杂环境中的交互、决策和协作，为多Agent系统的规划和仿真提供新范式。",
+      "source": "HuggingFace Papers (May 28, 2026)",
+      "highlight": "真实世界的Agent交互不是双人博弈而是多方协作。Gamma-World将世界建模从2-player扩展到N-player，对多Agent系统的规划和预测能力是质的飞跃。这对自动驾驶、游戏AI、多机器人协调等场景都有直接价值。",
+      "stars": 0,
+      "tags": ["Multi-Agent", "World Model", "Generative Model", "Planning", "Simulation"]
+    },
+    {
+      "id": 7,
+      "category": "paper",
+      "title": "Agent Explorative Policy Optimization：多模态Agent推理的探索式策略优化",
+      "url": "https://arxiv.org/abs/2605.28774",
+      "summary": "该论文提出Agent Explorative Policy Optimization(AEPO)方法，通过探索式策略优化提升多模态Agent的推理能力。AEPO让Agent在训练中主动探索不同策略路径，而非仅依赖示范数据，从而获得更强的泛化推理能力。",
+      "source": "HuggingFace Papers (May 28, 2026)",
+      "highlight": "传统Agent训练依赖固定的专家轨迹，AEPO引入'探索'机制让Agent自己发现好策略。这与强化学习的exploration-exploitation思想结合到多模态Agent场景，是Agent训练方法论的重要进步。对提升Agent在未见任务上的表现尤为关键。",
+      "stars": 0,
+      "tags": ["Agent Training", "Policy Optimization", "Exploration", "Multimodal", "Reasoning"]
+    },
+    {
+      "id": 8,
+      "category": "paper",
+      "title": "Self-Improving Language Models with Bidirectional Evolutionary Search",
+      "url": "https://arxiv.org/abs/2605.28814",
+      "summary": "该论文提出双向进化搜索(Bidirectional Evolutionary Search)方法实现语言模型的自我改进。模型通过生成-评估-选择的进化循环不断提升自身能力，无需额外人类标注数据，实现了一种可扩展的自我进化机制。",
+      "source": "HuggingFace Papers (May 28, 2026)",
+      "highlight": "自我改进是通向AGI的关键能力之一。双向进化搜索结合了进化算法和LLM的生成能力，让模型自主迭代而不依赖人类数据。如果这条路线可行，将显著降低模型训练对高质量人类数据的依赖，解决数据瓶颈问题。",
+      "stars": 0,
+      "tags": ["Self-Improvement", "Evolutionary Search", "LLM Training", "Data-Free", "Scalability"]
+    },
+    {
+      "id": 9,
+      "category": "paper",
+      "title": "ResearchMath-14K：通过Agent扩展研究级数学数据",
+      "url": "https://arxiv.org/abs/2605.28003",
+      "summary": "ResearchMath-14K构建了14000道研究级数学问题的数据集，通过AI Agent自动从数学论文中提取、形式化和验证问题。该数据集填补了从竞赛数学到研究前沿数学之间的评估空白。",
+      "source": "HuggingFace Papers (May 28, 2026)",
+      "highlight": "结合当前AI数学证明的热潮(Erdős问题连续被解决)，研究级数学数据集的构建变得尤为重要。14K的规模提供了系统化评估AI在真正科研数学上能力的基准。用Agent自动构建数据集的方法本身也是AI辅助研究的范例。",
+      "stars": 0,
+      "tags": ["Mathematics", "Dataset", "Research-Level", "Agent", "Benchmark"]
+    },
+    {
+      "id": 10,
+      "category": "paper",
+      "title": "ScientistOne：通过证据链实现人类水平自主研究",
+      "url": "https://arxiv.org/abs/2605.26340",
+      "summary": "ScientistOne提出Chain-of-Evidence方法实现人类水平的自主科学研究。系统能自主提出假设、设计实验、收集证据、推理验证，形成完整的科研循环。目标是让AI独立完成从问题发现到结论验证的全流程。",
+      "source": "HuggingFace Papers (May 28, 2026)",
+      "highlight": "AI科研Agent是当前最火的研究方向之一。ScientistOne的Chain-of-Evidence框架为科研自动化提供了结构化方法论——不是随机生成假设，而是通过证据链进行严格推理。如果能实现可靠的自主研究，将根本改变科学发现的速度。",
+      "stars": 0,
+      "tags": ["AI Scientist", "Autonomous Research", "Chain-of-Evidence", "Scientific Discovery"]
+    },
+    {
+      "id": 11,
+      "category": "paper",
+      "title": "Your Agents Are Aging Too：部署系统中的Agent寿命工程",
+      "url": "https://arxiv.org/abs/2605.26302",
+      "summary": "该论文首次系统研究了部署环境中AI Agent的'老化'问题——随着时间推移Agent性能退化的现象。提出了Agent Lifespan Engineering框架，包括检测老化、诊断原因和延长Agent有效寿命的方法论。",
+      "source": "HuggingFace Papers (May 28, 2026)",
+      "highlight": "一个被忽视但极其重要的问题：长期运行的Agent会'老化'。环境漂移、知识过期、策略僵化都可能导致Agent性能下降。这篇论文将'Agent运维'上升为一个正式的研究领域。对任何将Agent部署到生产环境的团队都有实际指导意义。",
+      "stars": 0,
+      "tags": ["Agent Lifecycle", "Deployment", "Performance Degradation", "MLOps", "Production Systems"]
+    },
+    {
+      "id": 12,
+      "category": "paper",
+      "title": "SkillGrad：像梯度下降一样优化Agent技能",
+      "url": "https://arxiv.org/abs/2605.27760",
+      "summary": "SkillGrad将梯度下降的思想应用到Agent技能优化中。通过定义技能空间中的'梯度'，系统能自动且持续地改进Agent的技能组合和执行策略，实现了技能层面的可微优化。",
+      "source": "HuggingFace Papers (May 28, 2026)",
+      "highlight": "将优化理论引入Agent技能管理是一个优雅的抽象。SkillGrad意味着Agent的技能不再是静态配置而是动态优化的对象——像神经网络权重一样可以被'训练'。这与GitHub上trending的ECC、superpowers等Agent技能框架形成理论-实践的互补。",
+      "stars": 0,
+      "tags": ["Agent Skills", "Optimization", "Gradient Descent", "Skill Engineering", "Continuous Improvement"]
+    },
+    {
+      "id": 13,
+      "category": "repo",
+      "title": "Superpowers：Agent技能框架与软件开发方法论",
+      "url": "https://github.com/obra/superpowers",
+      "summary": "Superpowers是一个Agent技能框架和软件开发方法论，提供结构化的Agent能力增强方案。专注于让AI编程助手更有效地完成复杂任务，通过定义清晰的技能边界和协作模式提升Agent产出质量。",
+      "source": "GitHub Trending (May 29, 2026)",
+      "highlight": "Agent Skills生态正在爆发——继ECC(1385星)、Taste-Skill(2234星)之后，Superpowers以1730星加入赛道。这些框架的共同点是：不改变底层模型，而是通过结构化的'系统prompt工程'提升Agent表现。这可能成为AI应用层面最重要的工程实践之一。",
+      "stars": 1730,
+      "tags": ["Agent Skills", "Framework", "Methodology", "Software Development", "Claude Code"]
+    },
+    {
+      "id": 14,
+      "category": "repo",
+      "title": "Harness：设计领域特定Agent团队的元技能",
+      "url": "https://github.com/revfactory/harness",
+      "summary": "Harness是一个'元技能'(meta-skill)，能设计领域特定的Agent团队、定义专业化Agent角色，并生成它们使用的技能。它不是一个Agent，而是一个'Agent设计器'——自动化Agent系统的架构设计过程。",
+      "source": "GitHub Trending (May 29, 2026)",
+      "highlight": "从'Agent'到'Agent of Agents'——Harness代表了Agent工程的元层次抽象。不是手动设计每个Agent，而是让AI来设计Agent团队。虽然只有65星但理念前卫：如果Agent设计本身可以自动化，那Agent系统的复杂度上限将大幅提升。与ScientistOne的自主研究思想异曲同工。",
+      "stars": 65,
+      "tags": ["Meta-Skill", "Agent Design", "Multi-Agent", "Automation", "Architecture"]
+    },
+    {
+      "id": 15,
+      "category": "repo",
+      "title": "MoneyPrinterTurbo：AI大模型一键生成高清短视频（持续热门）",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "summary": "AI短视频一键生成工具持续火爆，今日新增4698星（累计增长显著）。集成文本、语音、图像、视频多种AI能力，提供完整的自动化短视频生产线。",
+      "source": "GitHub Trending (May 29, 2026)",
+      "highlight": "连续两天位居Trending榜首且今日新增4698星——说明AI内容创作的需求远未饱和。短视频是目前AI变现最直接的场景之一，而开源工具的爆火意味着创作门槛正在被抹平。值得注意的是这个趋势对内容平台生态的冲击：当AI生产成本趋近于零，内容稀缺性将从'制作'转向'创意'。",
+      "stars": 4698,
+      "tags": ["Video Generation", "Content Creation", "Automation", "Viral", "Open Source"]
+    }
+  ]
+}
