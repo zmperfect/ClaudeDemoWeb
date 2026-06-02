@@ -1,0 +1,170 @@
+{
+  "date": "2026-06-02",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "Anthropic完成650亿美元H轮融资，估值逼近万亿美元",
+      "url": "https://the-decoder.com/claude-company-anthropic-nears-a-trillion-dollar-valuation-after-raising-65-billion-in-series-h/",
+      "summary": "Anthropic完成650亿美元H轮融资，估值达9650亿美元逼近万亿。CFO Krishna Rao透露年化收入已超470亿美元。公司计划将资金投入安全研究、算力扩建和Claude产品线扩展。从2021年成立到万亿估值仅用5年。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "万亿美元估值+$470亿年化收入——Anthropic已从'AI安全研究公司'蜕变为全球最有价值的AI企业之一。$650亿单轮融资创下科技史纪录。结合前几天$330亿Amazon投资+Google TPU协议，Anthropic的资本密度正在追赶或超越OpenAI。Claude的商业化速度远超外界预期。",
+      "stars": 0,
+      "tags": ["Anthropic", "Funding", "Trillion Valuation", "Series H", "Revenue"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "OpenAI可能数日内向SEC提交秘密IPO文件",
+      "url": "https://the-decoder.com/openai-could-file-confidential-ipo-paperwork-within-days/",
+      "summary": "据华尔街日报报道，OpenAI正在准备IPO，可能在数日内向SEC提交秘密文件。此前OpenAI已完成从非营利到营利的转型。这将是AI行业最大规模的公开上市事件。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "Anthropic万亿估值+OpenAI准备IPO——AI两巨头同时进入资本市场新阶段。OpenAI的IPO将是对AI泡沫论的终极考验：公开市场的投资者是否认可$数千亿的AI估值？从ChatGPT到IPO仅3年，创下了从产品发布到上市的速度纪录。对整个AI行业的估值锚定有重大影响。",
+      "stars": 0,
+      "tags": ["OpenAI", "IPO", "SEC", "Public Markets", "Valuation"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "某公司一个月在Claude上花了5亿美元：AI成本失控的警示",
+      "url": "https://the-decoder.com/one-company-reportedly-spent-500-million-on-claude-in-one-month-after-failing-to-cap-ai-usage/",
+      "summary": "一家未透露名称的公司据报道在单月内花费5亿美元购买Claude许可证，原因是没有设置使用限制。此案例表明：缺乏AI使用管理专业知识(模型选择、context engineering)时，AI生产力承诺会变成失控的成本黑洞。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "单月$5亿的AI支出——这可能是历史上最贵的'忘记设限'事件。结合Amazon的tokenmaxxing和Meta的排行榜博弈，企业AI成本治理已成为紧迫问题。这也从侧面证明了Claude的市场吸引力——但'没有专业知识就上AI'的风险是真实的。Context engineering和模型选择正在成为新的企业必备能力。",
+      "stars": 0,
+      "tags": ["AI Cost", "Enterprise", "Claude", "Usage Management", "Governance"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "OpenAI关停Sora：日烧百万美元、半数用户流失，资源转向Agent",
+      "url": "https://the-decoder.com/openais-sora-burned-a-million-dollars-a-day-while-losing-half-its-users-in-record-time/",
+      "summary": "OpenAI关停视频生成应用Sora。该应用每天计算成本约100万美元，上线后迅速流失一半用户，从明星项目沦为负债。OpenAI将这些资源重新投向编程、企业和Agent类AI产品。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "Sora的失败是AI行业重要的产品教训：技术demo的惊艳不等于产品市场契合。日烧$1M+半数用户流失=经典的'烧钱无增长'困境。OpenAI将资源转向Agent/编程/企业是务实选择——这些场景有更清晰的商业模式。视频生成的'wow factor'无法支撑$365M+/年的持续投入。",
+      "stars": 0,
+      "tags": ["OpenAI", "Sora", "Shutdown", "AI Video", "Product-Market Fit", "Pivot"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "OpenAI计划将ChatGPT、Codex和Atlas浏览器合并为桌面超级应用",
+      "url": "https://the-decoder.com/openai-plans-to-merge-chatgpt-codex-and-atlas-browser-into-a-single-desktop-superapp/",
+      "summary": "OpenAI宣布重大战略转型：将ChatGPT、Codex编程Agent和Atlas浏览器合并为单一桌面超级应用。公司认为此前同时发布过多产品导致了战线分散，现在要集中力量打造一站式AI工作平台。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "从'每周发新产品'到'合并为超级应用'——OpenAI的战略大转弯。这遵循了微信/WeChat的超级应用逻辑：一个入口覆盖所有场景。ChatGPT(对话)+Codex(编程)+Atlas(浏览)的组合本质上是'AI操作系统'的雏形。这与Anthropic的Claude Code+Cowork的路线形成直接竞争。",
+      "stars": 0,
+      "tags": ["OpenAI", "Super App", "ChatGPT", "Codex", "Strategy", "Platform"]
+    },
+    {
+      "id": 6,
+      "category": "news",
+      "title": "Amazon砍掉内部AI排行榜：员工用无意义任务博弈导致云成本飙升",
+      "url": "https://the-decoder.com/amazon-kills-internal-ai-leaderboard-after-employees-gamed-it-with-pointless-tasks/",
+      "summary": "据金融时报报道，Amazon正式撤销内部AI使用排名系统。员工通过无意义的AI使用来刷分，导致公司云成本大幅上升。这是前几天'tokenmaxxing'报道的后续——从发现问题到砍掉系统。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "从'tokenmaxxing'到正式砍排行榜，仅隔数天——企业AI治理的响应速度在加快。但核心问题依然：如何衡量AI使用的真实价值？不能用token消耗量，那用什么？这对所有企业的AI采用策略提出了根本性挑战。答案可能在于衡量'AI辅助的产出质量'而非'AI使用量'。",
+      "stars": 0,
+      "tags": ["Amazon", "Tokenmaxxing", "Leaderboard", "AI Governance", "Metrics"]
+    },
+    {
+      "id": 7,
+      "category": "paper",
+      "title": "World Action Models：让机器人先模拟后果再行动",
+      "url": "https://the-decoder.com/world-action-models-give-robots-the-ability-to-simulate-consequences-before-they-move/",
+      "summary": "World Action Models(WAM)解决了当前机器人AI的根本弱点：现有模型知道动作对应什么图像，但不理解动作如何改变世界。WAM综述整理了约100篇论文，展示了两条架构路线，关键优势是能从无机器人标签的日常视频中学习。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "'先想后做'是智能行为的标志。WAM让机器人在动作前模拟后果——这与人类的规划能力类似。最关键的突破是能从YouTube等日常视频学习物理规律，不再需要昂贵的机器人操作数据。这可能解锁海量免费训练数据，从根本上改变机器人学习的成本结构。",
+      "stars": 0,
+      "tags": ["World Action Models", "Robotics", "Simulation", "Video Learning", "Embodied AI"]
+    },
+    {
+      "id": 8,
+      "category": "paper",
+      "title": "GenClaw：代码驱动的Agent式图像生成",
+      "url": "https://arxiv.org/abs/2605.30248",
+      "summary": "GenClaw提出代码驱动的Agent式图像生成方法。不同于传统的文本prompt生成图像，GenClaw让AI Agent编写代码来控制图像生成过程，实现更精确、可编程、可复现的视觉内容创作。",
+      "source": "HuggingFace Papers (May 31, 2026)",
+      "highlight": "'用代码而非prompt控制图像生成'是一个精妙的范式转换。文本prompt的模糊性一直是图像生成的痛点(同一句话每次生成不同)，而代码是确定性的。GenClaw将Agent编程能力应用到创意领域，实现了可复现、可调试的图像生成工作流——对设计师和需要一致性的商业场景极其有用。",
+      "stars": 0,
+      "tags": ["Image Generation", "Code-Driven", "Agent", "Reproducibility", "Creative AI"]
+    },
+    {
+      "id": 9,
+      "category": "paper",
+      "title": "OmniRetrieval：跨异构知识源的统一检索",
+      "url": "https://arxiv.org/abs/2605.29250",
+      "summary": "OmniRetrieval提出跨异构知识源的统一检索框架。能同时从文档、表格、代码、知识图谱等不同类型的知识源中检索信息，解决了RAG系统面对多源异构数据时的检索割裂问题。",
+      "source": "HuggingFace Papers (May 31, 2026)",
+      "highlight": "现实中的知识分散在文档、数据库、代码库、Wiki等不同地方。OmniRetrieval的价值在于统一了检索接口——一次查询跨所有知识源。这对企业RAG系统至关重要：不再需要为每种数据源单独建检索管线。统一检索是AI知识工作的基础设施级能力。",
+      "stars": 0,
+      "tags": ["Retrieval", "RAG", "Heterogeneous Data", "Unified Search", "Knowledge Sources"]
+    },
+    {
+      "id": 10,
+      "category": "paper",
+      "title": "Skill0.5：Agent强化学习中的技能内化与利用联合优化",
+      "url": "https://arxiv.org/abs/2605.28424",
+      "summary": "Skill0.5提出在Agent强化学习中同时优化技能的内化(internalization)和利用(utilization)。解决了传统方法中'学会技能'和'用好技能'分离导致的OOD泛化问题，让Agent在分布外场景也能有效运用已学技能。",
+      "source": "HuggingFace Papers (May 31, 2026)",
+      "highlight": "Agent的核心挑战之一是泛化：在训练场景中学到的技能如何迁移到新场景？Skill0.5将'学'和'用'统一优化，而非分两步走。这与GitHub上SkillGrad(技能梯度优化)的思想互补——理论上，Agent技能的学习、优化和泛化正在形成完整的研究体系。",
+      "stars": 0,
+      "tags": ["Agent Skills", "Reinforcement Learning", "Generalization", "OOD", "Skill Transfer"]
+    },
+    {
+      "id": 11,
+      "category": "repo",
+      "title": "Impeccable：让AI Harness更擅长设计的设计语言",
+      "url": "https://github.com/pbakaus/impeccable",
+      "summary": "Impeccable是一种设计语言(design language)，专门用于提升AI harness在UI/UX设计方面的能力。通过结构化的设计原则和约束，让AI编程工具生成更美观、一致的界面代码。",
+      "source": "GitHub Trending (June 2, 2026)",
+      "highlight": "AI编程的'审美缺陷'是公认问题(参考Taste-Skill的2234星)。Impeccable从'设计语言'角度切入——不是教AI什么不该做(anti-slop)，而是定义什么才是好设计。485星反映了开发者希望AI生成的不仅是正确代码还是美观代码。与Taste-Skill形成互补：一个管品味，一个管设计。",
+      "stars": 485,
+      "tags": ["Design Language", "AI Harness", "UI/UX", "Code Generation", "Aesthetics"]
+    },
+    {
+      "id": 12,
+      "category": "repo",
+      "title": "TradingAgents：多Agent LLM金融交易框架",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "summary": "TradingAgents是一个多Agent LLM金融交易框架，利用多个专业化AI Agent(分析师、风控、执行等角色)协作完成交易决策。将多Agent协作范式应用到量化金融领域。",
+      "source": "GitHub Trending (June 2, 2026)",
+      "highlight": "金融交易天然适合多Agent架构——不同Agent负责基本面分析、技术分析、风险管理、执行优化。TradingAgents将这个思路产品化。299星说明金融AI从业者的关注。但需注意：LLM在高频交易中的延迟和幻觉风险，更适合中低频的策略决策场景。",
+      "stars": 299,
+      "tags": ["Trading", "Multi-Agent", "Finance", "LLM", "Quantitative"]
+    },
+    {
+      "id": 13,
+      "category": "repo",
+      "title": "oh-my-pi：终端AI编程Agent——锚定哈希编辑、LSP、子Agent等",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "summary": "oh-my-pi是一个终端AI编程Agent，特色包括哈希锚定编辑(hash-anchored edits)、优化的工具调度(tool harness)、LSP集成、Python支持、浏览器能力和子Agent系统。定位为Claude Code的轻量替代。",
+      "source": "GitHub Trending (June 2, 2026)",
+      "highlight": "终端AI编程工具赛道持续火爆。oh-my-pi的'hash-anchored edits'是技术亮点——用哈希而非行号定位编辑，解决了行号随编辑漂移的问题。LSP集成意味着能利用IDE级别的代码理解。子Agent系统表明单Agent已不够用，编排多Agent是共识方向。335星作为新项目增长很快。",
+      "stars": 335,
+      "tags": ["Terminal Agent", "Code Editor", "Hash-Anchored", "LSP", "Sub-Agents"]
+    },
+    {
+      "id": 14,
+      "category": "repo",
+      "title": "Hermes WebUI持续升温：Agent的网页/手机操控界面",
+      "url": "https://github.com/nesquena/hermes-webui",
+      "summary": "Hermes Agent的WebUI从昨天357星暴涨至945星。提供网页和手机端界面来操作AI Agent，让非CLI用户也能使用Agent能力。增长速度说明Agent可视化操作的强烈市场需求。",
+      "source": "GitHub Trending (June 2, 2026)",
+      "highlight": "从357→945星的单日增长说明Agent WebUI击中了痛点：开发者可以用CLI，但团队协作和运维监控需要图形界面。Agent的'可观测性'(observability)正在成为独立的产品品类。这也暗示Agent正从个人工具走向团队/企业部署的阶段。",
+      "stars": 945,
+      "tags": ["Agent UI", "WebUI", "Hermes", "Observability", "Team Collaboration"]
+    },
+    {
+      "id": 15,
+      "category": "repo",
+      "title": "SuperMemory持续增长：AI时代的记忆引擎API",
+      "url": "https://github.com/supermemoryai/supermemory",
+      "summary": "SuperMemory从264星增长至647星，极速记忆引擎和API的定位得到验证。为AI Agent和应用提供高性能长期记忆存储和检索服务，解决Agent'健忘'问题。",
+      "source": "GitHub Trending (June 2, 2026)",
+      "highlight": "连续两天上榜且翻倍增长(264→647)，验证了Agent Memory作为独立基础设施的市场需求。结合本周的MemTrace(记忆错误追踪)和Rethinking Memory(记忆作为演化连接)论文，Agent记忆正在从'简单存储'走向'智能记忆系统'的成熟阶段。",
+      "stars": 647,
+      "tags": ["Memory Engine", "API", "Agent Memory", "Infrastructure", "Scaling"]
+    }
+  ]
+}
