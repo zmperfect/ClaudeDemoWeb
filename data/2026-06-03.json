@@ -1,0 +1,170 @@
+{
+  "date": "2026-06-03",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "OpenAI重返机器人领域：关停四年后再次押注",
+      "url": "https://the-decoder.com/openai-takes-another-shot-at-building-robots/",
+      "summary": "OpenAI在关闭原始机器人项目约四年后重新进入机器人领域。据Wired报道，新的招聘方向指向人形机器人系统的研究。此举与OpenAI从视频生成(Sora)转向Agent/机器人的战略重心转移一致。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "OpenAI的路径清晰了：关Sora(虚拟内容创作)→开机器人(物理世界交互)。4年前退出时因为'机器人数据太少'，现在有了GPT-5.5级别的推理能力+World Action Models的物理理解能力，条件已完全不同。结合昨天Qwen-VLA(视觉-语言-动作统一)的趋势，AI巨头正集体押注具身智能。",
+      "stars": 0,
+      "tags": ["OpenAI", "Robotics", "Humanoid", "Embodied AI", "Strategy"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "AI让硅谷极少数人暴富，其他所有人都在焦虑",
+      "url": "https://the-decoder.com/ai-made-a-tiny-slice-of-silicon-valley-filthy-rich-and-left-the-rest-wondering-why-they-bother/",
+      "summary": "据Menlo Ventures合伙人Deedy Das估计，硅谷约1万人通过Anthropic、OpenAI、xAI、Meta和Nvidia积累了超2000万美元的财富。其他人感到被甩在身后。中层管理感觉被掏空。甚至赢家也在经历'深刻的目标感缺失'。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "AI财富效应的社会影响正在显现：1万人暴富vs整个行业的焦虑。'profound lack of purpose'——当AI替代了大部分技术工作的智力满足感，即使是百万富翁也感到空虚。这不只是经济问题而是存在主义危机。对AI行业的人才吸引和保留策略有深远影响——金钱不够，需要新的'意义'叙事。",
+      "stars": 0,
+      "tags": ["Silicon Valley", "Wealth Inequality", "AI Economy", "Mental Health", "Purpose"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "OpenAI确认Sora两阶段关停：应用4月关、API 9月关",
+      "url": "https://the-decoder.com/openai-sets-two-stage-sora-shutdown-with-app-closing-april-2026-and-api-following-in-september/",
+      "summary": "OpenAI正式公布Sora关停时间表：应用已于2026年4月关闭，API将于2026年9月跟进。这标志着OpenAI从创意AI工具向编程和企业产品的战略全面转移。给现有用户和集成方留出过渡期。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "两阶段关停是负责任的产品退出方式——先关消费端再关API，给B端客户迁移时间。但更深层的信号是：AI视频生成作为独立产品的商业模式被否定了。视频AI可能更适合作为超级应用的功能而非独立产品。这对Runway、Pika等竞品也是警示——如果OpenAI都撑不住，独立视频AI公司的前景如何？",
+      "stars": 0,
+      "tags": ["OpenAI", "Sora", "Product Shutdown", "Video AI", "Strategic Pivot"]
+    },
+    {
+      "id": 4,
+      "category": "paper",
+      "title": "GrepSeek：训练搜索Agent直接与语料库交互",
+      "url": "https://arxiv.org/abs/2605.29307",
+      "summary": "GrepSeek训练AI搜索Agent学会直接与代码/文本语料库交互——像人类开发者使用grep一样搜索、浏览和定位信息。不同于传统的'先索引后检索'范式，Agent直接在原始语料上进行探索式搜索。",
+      "source": "HuggingFace Papers (June 1, 2026)",
+      "highlight": "这可能是代码搜索/导航的范式变革。传统方法需要预构建索引(embeddings/AST)，而GrepSeek让Agent像人类一样'边搜边看边理解'。对Claude Code等编程Agent的代码理解能力有直接提升价值——Agent能更有效地在陌生代码库中定位信息，而非依赖可能过时的索引。",
+      "stars": 0,
+      "tags": ["Search Agent", "Code Search", "Corpus Interaction", "Information Retrieval", "Agent"]
+    },
+    {
+      "id": 5,
+      "category": "paper",
+      "title": "COLLEAGUE.SKILL：通过专家知识蒸馏自动生成AI技能",
+      "url": "https://arxiv.org/abs/2605.31264",
+      "summary": "COLLEAGUE.SKILL提出通过专家知识蒸馏自动生成AI Agent技能。系统能从人类专家的行为模式中提取结构化知识，自动生成可被Agent直接使用的技能文件——无需人工编写prompt。",
+      "source": "HuggingFace Papers (June 1, 2026)",
+      "highlight": "完美对接当前Agent Skills生态爆发的趋势(Taste-Skill/ECC/Superpowers/Harness全在热榜)。之前技能文件靠人写，COLLEAGUE.SKILL让这个过程自动化——从专家行为蒸馏出技能。这意味着任何领域的专家知识都可以被高效转化为Agent能力。Agent Skills的生产效率将指数级提升。",
+      "stars": 0,
+      "tags": ["Agent Skills", "Knowledge Distillation", "Automation", "Expert Systems", "Skill Generation"]
+    },
+    {
+      "id": 6,
+      "category": "paper",
+      "title": "Representation Forcing：无瓶颈的统一多模态模型",
+      "url": "https://arxiv.org/abs/2605.31604",
+      "summary": "Representation Forcing提出了一种无信息瓶颈的统一多模态模型训练方法。解决了传统多模态模型中不同模态信息在融合时被压缩/损失的问题，让模型保留各模态的完整表达能力。",
+      "source": "HuggingFace Papers (June 1, 2026)",
+      "highlight": "多模态融合的信息瓶颈是性能上限的关键制约。Representation Forcing避免了'为了融合而压缩'的trade-off——各模态保持完整表达力同时实现深度融合。这对下一代多模态模型的架构设计有指导意义，可能让视觉理解和语言推理同时达到各自最强水平。",
+      "stars": 0,
+      "tags": ["Multimodal", "Representation Learning", "Bottleneck-Free", "Model Architecture"]
+    },
+    {
+      "id": 7,
+      "category": "paper",
+      "title": "LongTraceRL：从搜索Agent轨迹学习长上下文推理",
+      "url": "https://arxiv.org/abs/2605.31584",
+      "summary": "LongTraceRL通过搜索Agent的轨迹数据训练长上下文推理能力。利用Agent在搜索过程中产生的长推理链(包含搜索、阅读、推理步骤)作为训练数据，结合评分奖励(Rubric Rewards)优化模型的长文本推理。",
+      "source": "HuggingFace Papers (June 1, 2026)",
+      "highlight": "巧妙的数据飞轮：Agent搜索产生长推理轨迹→用这些轨迹训练更强的长上下文模型→更强的模型产生更好的Agent搜索。Rubric Rewards解决了长推理链难以自动评分的问题。这是'Agent改进模型、模型改进Agent'良性循环的一个具体实例。",
+      "stars": 0,
+      "tags": ["Long Context", "Reasoning", "Search Agent", "RL Training", "Data Flywheel"]
+    },
+    {
+      "id": 8,
+      "category": "paper",
+      "title": "Mellum2技术报告",
+      "url": "https://arxiv.org/abs/2605.31268",
+      "summary": "Mellum2技术报告详细介绍了该系列模型的架构、训练方法和评估结果。Mellum2在代码理解和生成方面展现出强劲性能，作为专注代码的基础模型为AI编程工具提供新的模型选择。",
+      "source": "HuggingFace Papers (June 1, 2026)",
+      "highlight": "在Cursor用Kimi K2.5训练Composer 2.5匹配顶级模型的背景下，Mellum2代表了又一个代码专用基础模型的出现。AI编程正在催生'代码原生'模型的细分赛道——不是通用模型微调，而是从头为代码场景设计的架构。这降低了AI IDE对API巨头的依赖。",
+      "stars": 0,
+      "tags": ["Code Model", "Technical Report", "Foundation Model", "AI Programming"]
+    },
+    {
+      "id": 9,
+      "category": "paper",
+      "title": "Task-Focused Memorization for Multimodal Agents：多模态Agent的任务聚焦记忆",
+      "url": "https://arxiv.org/abs/2605.31075",
+      "summary": "该论文提出面向任务的多模态Agent记忆系统。不同于通用记忆(记住所有)，Task-Focused Memorization让Agent有选择地记住与当前和未来任务相关的信息，提高记忆效率和任务完成率。",
+      "source": "HuggingFace Papers (June 1, 2026)",
+      "highlight": "Agent记忆的'选择性'是关键优化方向——记住一切既昂贵又可能引入噪声。Task-Focused让记忆与目标对齐：只记对任务有用的。这与SuperMemory(647星)等记忆基础设施结合，可能形成'智能记忆'系统——不只是存储,而是理解什么值得记住。人类记忆也是选择性的，这更接近自然智能。",
+      "stars": 0,
+      "tags": ["Agent Memory", "Task-Focused", "Multimodal", "Selective Memory", "Efficiency"]
+    },
+    {
+      "id": 10,
+      "category": "paper",
+      "title": "SANA-Streaming：实时流式视频编辑的混合扩散Transformer",
+      "url": "https://arxiv.org/abs/2605.30409",
+      "summary": "SANA-Streaming实现了基于混合扩散Transformer的实时流式视频编辑。不需要等整个视频处理完毕，可以边输入边编辑边输出，适用于直播、视频通话等实时场景。",
+      "source": "HuggingFace Papers (June 1, 2026)",
+      "highlight": "Sora关停不代表AI视频技术没有价值——SANA-Streaming将视频AI从'离线生成'推向'实时编辑'。实时流式处理意味着可以用在直播美颜、视频会议背景替换、实时特效等已经有商业模式的场景。关键区别是：Sora做生成(不确定需求)，SANA做编辑(确定需求)。",
+      "stars": 0,
+      "tags": ["Video Editing", "Real-Time", "Streaming", "Diffusion Transformer", "Hybrid"]
+    },
+    {
+      "id": 11,
+      "category": "paper",
+      "title": "dMoE：带可学习块专家的扩散语言模型",
+      "url": "https://arxiv.org/abs/2605.30876",
+      "summary": "dMoE将Mixture-of-Experts架构引入扩散语言模型(dLLMs)。通过可学习的Block Experts，模型在生成过程中动态选择不同专家处理不同token块，在保持生成质量的同时提升推理效率。",
+      "source": "HuggingFace Papers (June 1, 2026)",
+      "highlight": "扩散语言模型(非自回归生成)是LLM架构的前沿方向之一——LeCun离开Meta可能也在探索这个方向。dMoE将MoE的效率优势带入扩散LLM，可能在推理速度上获得显著优势。这代表了'后自回归时代'模型架构的探索。",
+      "stars": 0,
+      "tags": ["Diffusion LLM", "Mixture of Experts", "Architecture", "Efficiency", "Non-Autoregressive"]
+    },
+    {
+      "id": 12,
+      "category": "repo",
+      "title": "Scrapling持续暴涨：自适应爬虫框架(606→1486星)",
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "summary": "Scrapling从两天前的606星暴涨至1486星。其自适应Web抓取能力在AI时代尤为重要——训练数据、RAG知识库、实时信息获取都依赖高质量的网页抓取。框架能自动应对反爬策略变化。",
+      "source": "GitHub Trending (June 3, 2026)",
+      "highlight": "两天内从606→1486星(+146%)的爆发增长说明了什么？AI时代数据是命脉，而高质量数据采集是最被低估的基础能力。Scrapling的'自适应'特性解决了爬虫最大的运维痛点。对构建RAG、训练数据管线、竞品监控等场景都有直接价值。",
+      "stars": 1486,
+      "tags": ["Web Scraping", "Adaptive", "Data Collection", "Infrastructure", "Rapid Growth"]
+    },
+    {
+      "id": 13,
+      "category": "repo",
+      "title": "Impeccable：AI Harness的设计语言(持续增长)",
+      "url": "https://github.com/pbakaus/impeccable",
+      "summary": "Impeccable设计语言保持在Trending榜。通过结构化的设计原则和约束，让AI编程工具生成更美观、一致的界面代码。解决AI生成代码'能用但不好看'的痛点。",
+      "source": "GitHub Trending (June 3, 2026)",
+      "highlight": "Agent Skills生态的最新细分：有管品味的(Taste-Skill)、管正确性的(ECC)、管方法论的(Compound Engineering)，现在有了管设计的(Impeccable)。这个生态正在覆盖软件开发的每个质量维度。AI编程的下一阶段不是'能不能写'而是'写得多好'。",
+      "stars": 485,
+      "tags": ["Design Language", "UI/UX", "Agent Skills", "Quality", "Aesthetics"]
+    },
+    {
+      "id": 14,
+      "category": "repo",
+      "title": "Harness元技能：设计Agent团队的Agent(323→524星)",
+      "url": "https://github.com/revfactory/harness",
+      "summary": "Harness从323星增长至524星。作为'元技能'，它能自动设计领域特定的Agent团队、定义专业化Agent角色并生成它们使用的技能。Agent系统架构的自动化生成。",
+      "source": "GitHub Trending (June 3, 2026)",
+      "highlight": "从65星(首次出现)到323再到524——稳步增长反映了'meta-agent'概念的逐步被接受。设计Agent的Agent是递归自动化的体现。结合COLLEAGUE.SKILL(自动生成技能)，Agent系统的设计和构建本身都在被自动化。人类的角色正在从'编写Agent'转向'定义目标'。",
+      "stars": 524,
+      "tags": ["Meta-Skill", "Agent Architecture", "Automation", "Multi-Agent", "Design"]
+    },
+    {
+      "id": 15,
+      "category": "repo",
+      "title": "oh-my-pi：终端AI Agent（哈希锚定编辑+子Agent）",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "summary": "oh-my-pi保持在Trending榜。特色的哈希锚定编辑解决了行号漂移问题，优化的工具调度、LSP集成和子Agent系统提供了终端AI编程的完整体验。",
+      "source": "GitHub Trending (June 3, 2026)",
+      "highlight": "终端AI编程Agent竞争激烈(Claude Code/Codex/oh-my-pi等)但各有特色。oh-my-pi的hash-anchored edits是真正的技术创新——用内容哈希而非脆弱的行号定位，从根本上解决了多步编辑的准确性问题。335星作为新项目有很好的增长势头。开源终端Agent的多样性对整个生态有益。",
+      "stars": 335,
+      "tags": ["Terminal Agent", "Hash-Anchored Edits", "LSP", "Sub-Agents", "Open Source"]
+    }
+  ]
+}
