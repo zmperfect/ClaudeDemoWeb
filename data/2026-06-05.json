@@ -165,6 +165,105 @@
       "highlight": "OpenClaw(就是那个$1.3M/月跑100个Agent的项目)正在构建完整的桌面生态。Windows原生集成(系统托盘+PowerToys命令面板)意味着AI Agent正在深度嵌入操作系统的日常使用。411星说明OpenClaw社区在快速壮大。这反映了一个趋势：AI Agent不再是独立应用，而是融入OS层面的'环境智能'。",
       "stars": 411,
       "tags": ["OpenClaw", "Windows", "Desktop Integration", "System Tray", "PowerToys"]
+    },
+    {
+      "id": 16,
+      "category": "paper",
+      "title": "World-Language-Action Model：统一世界建模、语言推理与动作合成",
+      "url": "https://arxiv.org/abs/2606.05979",
+      "summary": "该论文提出World-Language-Action(WLA)模型，将世界建模(物理预测)、语言推理(抽象思维)和动作合成(行为生成)统一到单一框架中。这是对'World Models Meet Language Models'互补性研究的工程化实现。",
+      "source": "HuggingFace Papers (June 5, 2026)",
+      "highlight": "如果说VLA(视觉-语言-动作)是具身智能的当前主流，WLA则更进一步——用'世界模型'替代'视觉'，让Agent不仅看见还能预测。世界+语言+动作的三位一体可能是通用具身智能的关键架构。这呼应了本周NVIDIA Cosmos、Humanoid-GPT的趋势：物理AI正在从感知走向'理解+预测+行动'的闭环。",
+      "stars": 0,
+      "tags": ["World Model", "Language Model", "Action Synthesis", "Embodied AI", "Unified Architecture"]
+    },
+    {
+      "id": 17,
+      "category": "paper",
+      "title": "MLEvolve：自动化机器学习算法发现的自我进化框架",
+      "url": "https://arxiv.org/abs/2606.06473",
+      "summary": "MLEvolve是一个自我进化框架，用于自动发现新的机器学习算法。系统能自主生成、测试和改进ML算法，通过进化式搜索找到人类可能未曾设计的新方法，实现AI自主推进AI研究。",
+      "source": "HuggingFace Papers (June 5, 2026)",
+      "highlight": "'AI发现AI算法'是递归自我改进的核心。这与之前'让Claude Code发现AI扩展算法'(节省70%计算)的实证一脉相承，但MLEvolve将其系统化为自我进化框架。如果AI能持续发现更好的ML算法，可能形成加速的能力增长循环。这是通往'智能爆炸'最受关注也最受争议的路径之一。",
+      "stars": 0,
+      "tags": ["AutoML", "Self-Evolving", "Algorithm Discovery", "Meta-Learning", "Recursive Improvement"]
+    },
+    {
+      "id": 18,
+      "category": "paper",
+      "title": "推理的影子价格：LLM最优预算分配的经济学视角",
+      "url": "https://arxiv.org/abs/2606.03092",
+      "summary": "该论文从经济学角度分析LLM的推理预算分配问题。引入'影子价格'(shadow price)概念量化每单位推理计算的边际价值，为'何时该多想、何时该少想'提供了理论框架，实现推理资源的最优配置。",
+      "source": "HuggingFace Papers (June 5, 2026)",
+      "highlight": "极具洞察力的跨学科研究——用经济学的影子价格理论解决AI推理成本问题。在某公司月花$5亿、Headroom token压缩爆火的背景下，'推理预算最优分配'是真金白银的问题。不是所有问题都值得长推理，关键是量化'多想一步的边际收益'。这为ThoughtFold(推理链折叠)等技术提供了理论基础。",
+      "stars": 0,
+      "tags": ["Reasoning Economics", "Budget Allocation", "Shadow Price", "Cost Optimization", "Test-Time Compute"]
+    },
+    {
+      "id": 19,
+      "category": "paper",
+      "title": "AdaPlanBench：评估LLM Agent在世界与用户约束下的自适应规划",
+      "url": "https://arxiv.org/abs/2606.05622",
+      "summary": "AdaPlanBench构建了评估LLM Agent自适应规划能力的基准。重点测试Agent在面对世界约束(物理/环境限制)和用户约束(偏好/要求)发生变化时，能否动态调整规划而非僵化执行原计划。",
+      "source": "HuggingFace Papers (June 5, 2026)",
+      "highlight": "真实世界的规划必须是自适应的——计划赶不上变化。AdaPlanBench填补了'静态规划'评估之外的'动态适应'评估空白。结合AutoLab(长周期任务)，AdaPlanBench关注的'约束变化下的重规划'是Agent处理复杂真实任务的关键能力。一个只会执行固定计划的Agent在现实中很快就会失败。",
+      "stars": 0,
+      "tags": ["Adaptive Planning", "Benchmark", "LLM Agent", "Constraints", "Dynamic Replanning"]
+    },
+    {
+      "id": 20,
+      "category": "paper",
+      "title": "RobotValues：当人类价值观冲突时评估家用机器人",
+      "url": "https://arxiv.org/abs/2606.03312",
+      "summary": "RobotValues构建了评估家用机器人在人类价值观冲突场景下行为的基准。例如当家庭成员的指令相互矛盾、或安全与便利冲突时，机器人应如何决策。这是具身AI伦理对齐的重要评估工具。",
+      "source": "HuggingFace Papers (June 5, 2026)",
+      "highlight": "随着OpenAI重返机器人、Humanoid-GPT等技术成熟，家用机器人正在临近。但'机器人该听谁的'是关键伦理问题——孩子说一套、家长说一套，安全要求与用户便利冲突时怎么办？RobotValues为这类价值对齐问题提供了系统评估。这是具身AI从'能做'走向'该做'的必要研究，对机器人商业化的安全性至关重要。",
+      "stars": 0,
+      "tags": ["Robot Ethics", "Value Alignment", "Household Robots", "Benchmark", "Conflicting Values"]
+    },
+    {
+      "id": 21,
+      "category": "paper",
+      "title": "强化学习激发未见语言翻译的上下文学习能力",
+      "url": "https://arxiv.org/abs/2606.06428",
+      "summary": "该论文发现强化学习能激发LLM对未见过语言的上下文翻译能力。模型通过RL训练后，仅凭上下文中的少量示例就能翻译训练中从未见过的语言对，展现出强大的元学习/泛化能力。",
+      "source": "HuggingFace Papers (June 5, 2026)",
+      "highlight": "这揭示了RL训练的一个惊人副作用：不只是优化已知任务，还能激发对未知任务的泛化能力。对低资源语言(训练数据极少的语言)的翻译有重大意义——可能实现真正的'零样本翻译'。这也暗示RL可能在更广泛意义上提升模型的元学习能力，不仅限于翻译。对全球语言平等的AI普惠有深远价值。",
+      "stars": 0,
+      "tags": ["Reinforcement Learning", "Translation", "In-Context Learning", "Low-Resource Languages", "Generalization"]
+    },
+    {
+      "id": 22,
+      "category": "paper",
+      "title": "Camera Roll VQA的个人AI Agent：理解你的相册",
+      "url": "https://arxiv.org/abs/2606.05275",
+      "summary": "该论文提出面向手机相册(Camera Roll)视觉问答的个人AI Agent。能理解用户相册中的照片内容，回答如'我上次去海边是什么时候''帮我找去年生日的照片'等个人化问题，实现智能相册助手。",
+      "source": "HuggingFace Papers (June 5, 2026)",
+      "highlight": "极具落地价值的消费级AI应用。每个人的相册都是个人记忆的宝库，但难以检索。个人AI Agent能理解照片内容+时间+地点+人物，让相册变成可对话的记忆库。这与Perplexity Personal Computer的'个人AI'趋势一致。关键挑战是隐私(相册极敏感)——本地运行可能是必要条件。",
+      "stars": 0,
+      "tags": ["Personal AI", "Camera Roll", "VQA", "Photo Search", "Privacy", "Consumer AI"]
+    },
+    {
+      "id": 23,
+      "category": "repo",
+      "title": "GitHub Spec-Kit：规约驱动开发(Spec-Driven Development)工具包",
+      "url": "https://github.com/github/spec-kit",
+      "summary": "GitHub发布Spec-Kit，一个帮助开发者开始'规约驱动开发'(Spec-Driven Development)的工具包。在AI编程时代，先写清晰的规约再让AI实现，比直接让AI写代码更可控、质量更高。",
+      "source": "GitHub Trending (June 6, 2026)",
+      "highlight": "AI编程方法论的重要演进。当AI能快速生成代码时，瓶颈从'写代码'转移到'说清楚要什么'。Spec-Driven Development让人类专注于精确定义需求(规约)，AI负责实现。这与George Hotz的批评(AI在细节上崩溃)呼应——好的规约能约束AI的输出质量。GitHub官方推动说明这是AI编程的最佳实践方向。",
+      "stars": 321,
+      "tags": ["Spec-Driven", "AI Programming", "GitHub", "Methodology", "Software Engineering"]
+    },
+    {
+      "id": 24,
+      "category": "tool",
+      "title": "Trivy：容器/K8s/代码/云的全方位安全扫描器",
+      "url": "https://github.com/aquasecurity/trivy",
+      "summary": "Trivy是Aqua Security开发的全方位安全扫描工具，能发现容器、Kubernetes、代码仓库、云环境中的漏洞、配置错误、密钥泄露和SBOM。是DevSecOps的核心工具之一。",
+      "source": "GitHub Trending (June 6, 2026)",
+      "highlight": "在Claude Mythos发现万级漏洞的AI安全背景下，自动化安全扫描工具的需求激增。Trivy作为成熟的开源方案，覆盖了从代码到云的全栈安全检查。随着AI既能发现也能利用漏洞，'持续安全扫描'从可选变为必需。Trivy这类工具可能与AI安全Agent结合，形成'AI发现+工具验证+自动修复'的安全闭环。",
+      "stars": 255,
+      "tags": ["Security", "Vulnerability Scanner", "Container", "Kubernetes", "DevSecOps", "SBOM"]
     }
   ]
 }
