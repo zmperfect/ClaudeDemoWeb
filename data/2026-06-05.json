@@ -1,0 +1,170 @@
+{
+  "date": "2026-06-05",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "Cloudflare推出基于同意的AI爬虫机制，欲拯救开放网络",
+      "url": "https://the-decoder.com/cloudflare-aims-to-save-the-world-wide-web-by-blocking-ai-crawlers-without-explicit-consent/",
+      "summary": "Cloudflare推出基于同意(consent-based)的AI爬虫机制，让网站运营者对自己的内容拥有更多控制权。媒体公司和平台希望这能为在线原创内容创造更公平的条款。未经明确同意的AI爬虫将被默认阻止。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "这是AI时代'内容主权'之争的关键一步。当AI公司免费抓取全网内容训练模型、又用AI摘要抢走原网站流量时，内容创作者陷入双重困境。Cloudflare作为全网流量的'守门人'(覆盖大量网站)，其默认阻止策略可能重塑AI公司与内容方的关系。这关乎开放网络的可持续性——如果创作者无法变现，优质内容从何而来？",
+      "stars": 0,
+      "tags": ["Cloudflare", "AI Crawlers", "Content Rights", "Open Web", "Consent", "Publishing"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "Google首次允许网站选择退出AI搜索结果，但大多数网站别无选择",
+      "url": "https://the-decoder.com/google-lets-sites-opt-out-of-ai-search-results-knowing-most-have-nowhere-else-to-go/",
+      "summary": "Google首次在Search Console中给网站运营者提供AI搜索功能(AI Overviews和AI Mode，合计月活超35亿)的退出开关，并将展示量单独分列。此举由英国竞争与市场管理局(CMA)推动，后者认为网站运营者处于严重劣势。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "标题一针见血：'知道大多数网站别无选择'。Google的'退出选项'本质上是个伪选择——退出AI搜索就等于退出Google搜索(35亿用户)，没人敢这么做。这暴露了AI搜索时代的根本权力失衡：平台用AI摘要满足用户、截留流量，而内容方只能被动接受。监管(CMA)介入说明这已成为反垄断议题。与Cloudflare的努力形成呼应。",
+      "stars": 0,
+      "tags": ["Google", "AI Search", "AI Overviews", "Antitrust", "CMA", "Publisher Rights"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "Nous Research发布Hermes Desktop：MIT许可的全平台开源AI Agent",
+      "url": "https://the-decoder.com/nous-research-releases-hermes-desktop-an-open-source-ai-agent-for-every-platform/",
+      "summary": "Nous Research发布Hermes Desktop，一个MIT许可的开源AI Agent桌面应用，支持所有平台。这是继Hermes Agent框架和Hermes WebUI之后，Nous Research完整Agent产品栈的桌面端落地。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "Nous Research的Agent产品栈成型：模型(Hermes)+框架(hermes-agent，1913星)+网页端(WebUI)+桌面端(Desktop)。MIT许可证意味着完全开放，这与OpenAI超级应用、Perplexity Personal Computer形成开源vs闭源的对比。在Agent桌面应用赛道，开源选项的出现给了用户(尤其隐私敏感者)真正的替代方案。",
+      "stars": 0,
+      "tags": ["Nous Research", "Hermes Desktop", "Open Source", "AI Agent", "MIT License", "Cross-Platform"]
+    },
+    {
+      "id": 4,
+      "category": "paper",
+      "title": "Cosmos 3：面向物理AI的全模态世界模型(NVIDIA)",
+      "url": "https://arxiv.org/abs/2606.02800",
+      "summary": "NVIDIA发布Cosmos 3，面向物理AI(Physical AI)的全模态(omnimodal)世界模型。整合视觉、动作、空间等多种模态，为机器人、自动驾驶、智能基础设施提供统一的世界理解和预测能力。",
+      "source": "HuggingFace Papers (June 4, 2026)",
+      "highlight": "NVIDIA的世界模型布局再升级。继OmniDreams(自动驾驶仿真)之后，Cosmos 3是更通用的物理AI基础模型。'omnimodal'(全模态)意味着一个模型理解所有物理交互形式。结合GitHub上的NVIDIA/cosmos开源平台，NVIDIA正在构建物理AI的完整生态——从芯片到世界模型到工具链。这是其在具身智能时代的核心战略。",
+      "stars": 0,
+      "tags": ["NVIDIA", "Cosmos", "World Model", "Physical AI", "Omnimodal", "Robotics"]
+    },
+    {
+      "id": 5,
+      "category": "paper",
+      "title": "AutoLab：前沿模型能解决长周期自动研究和工程任务吗？",
+      "url": "https://arxiv.org/abs/2606.05080",
+      "summary": "AutoLab构建了评估前沿模型在长周期(long-horizon)自动研究和工程任务上能力的基准。测试AI能否完成需要多步骤、跨时间、有依赖关系的复杂研究和工程项目，而非单次问答。",
+      "source": "HuggingFace Papers (June 4, 2026)",
+      "highlight": "长周期任务是当前Agent的最大短板——能完成单步任务不等于能完成需要数天、数十步的复杂项目。AutoLab填补了这个评估空白。结合阿里Qwen3.7-Max(35小时自主运行)和AutoMedBench(医学研究)的趋势，'长周期自主能力'正成为Agent评估的核心维度。这个能力一旦突破，AI才能真正替代复杂的知识工作。",
+      "stars": 0,
+      "tags": ["AutoLab", "Long-Horizon", "Benchmark", "Auto Research", "Agent Evaluation"]
+    },
+    {
+      "id": 6,
+      "category": "paper",
+      "title": "深度研究Agent哪里出错？Agent轨迹的Span级错误定位",
+      "url": "https://arxiv.org/abs/2606.02060",
+      "summary": "该论文研究深度研究(Deep Research)Agent在哪些环节出错，提出Span级(span-level)的错误定位方法。能精确定位Agent执行轨迹中导致最终错误的具体步骤，而非只判断整体成功/失败。",
+      "source": "HuggingFace Papers (June 4, 2026)",
+      "highlight": "Agent调试的关键能力。当一个多步Agent任务失败时，知道'在哪一步出错'比知道'失败了'重要得多。Span级错误定位让Agent开发者能精准改进薄弱环节。这与Harness-1(状态外部化)、过时观测屏蔽研究形成完整的'Agent可观测性'体系。对生产环境的Agent运维(参考RAMP论文)至关重要。",
+      "stars": 0,
+      "tags": ["Deep Research", "Error Localization", "Agent Debugging", "Trajectory Analysis", "Observability"]
+    },
+    {
+      "id": 7,
+      "category": "paper",
+      "title": "RAMP：生产系统中Agent模型的运行时评估(基准之外)",
+      "url": "https://arxiv.org/abs/2605.27492",
+      "summary": "RAMP提出'基准测试不够'的观点，专注于生产系统中Agent模型的运行时评估。强调实验室基准与真实部署表现的差距，提供在生产环境中持续评估Agent健康度和性能的方法论。",
+      "source": "HuggingFace Papers (June 4, 2026)",
+      "highlight": "'Benchmarks are Not Enough'直击当前AI评估的痛点：基准刷得再高，生产环境照样翻车(参考Meta的rogue agent事故)。RAMP将评估从'部署前一次性'转向'运行时持续'。结合'Your Agents Are Aging'(Agent老化)的研究，生产环境Agent监控正在形成完整方法论。对企业可靠部署Agent是必备能力。",
+      "stars": 0,
+      "tags": ["Production", "Runtime Assessment", "Agent Monitoring", "Benchmark Gap", "MLOps"]
+    },
+    {
+      "id": 8,
+      "category": "paper",
+      "title": "Streaming Communication in Multi-Agent Reasoning：多Agent推理的流式通信",
+      "url": "https://arxiv.org/abs/2606.05158",
+      "summary": "该论文提出多Agent推理中的流式通信机制。不同于等待Agent完成后再交换信息，流式通信让Agent在推理过程中实时共享中间结果，提升多Agent协作的效率和质量。",
+      "source": "HuggingFace Papers (June 4, 2026)",
+      "highlight": "多Agent协作的效率瓶颈在于通信。流式通信让Agent'边想边交流'而非'想完再说'，类似人类团队的实时讨论。这与之前的'Share More, Search Less'(协作并行思考)一脉相承。在Claude Opus 4.8支持数百并行子Agent的背景下，高效的Agent间通信是大规模Agent编排的关键基础设施。",
+      "stars": 0,
+      "tags": ["Multi-Agent", "Streaming Communication", "Reasoning", "Collaboration", "Efficiency"]
+    },
+    {
+      "id": 9,
+      "category": "paper",
+      "title": "ThoughtFold：通过内省偏好学习折叠推理链",
+      "url": "https://arxiv.org/abs/2606.03503",
+      "summary": "ThoughtFold提出通过内省偏好学习(introspective preference learning)来'折叠'(压缩)推理链。让模型学会识别推理中的冗余步骤并压缩，在保持推理质量的同时大幅缩短推理链长度。",
+      "source": "HuggingFace Papers (June 4, 2026)",
+      "highlight": "长推理链虽然提升准确率但成本高昂(token多、延迟大)。ThoughtFold让模型学会'高效思考'——通过内省识别哪些步骤可以省略。这与KVarN(KV-Cache量化)、Headroom(token压缩)共同指向同一目标：在不损失质量的前提下降低推理成本。'会思考'之外还要'高效思考'是推理模型的下一阶段。",
+      "stars": 0,
+      "tags": ["Reasoning", "Chain Compression", "Introspection", "Efficiency", "Preference Learning"]
+    },
+    {
+      "id": 10,
+      "category": "paper",
+      "title": "Echo-Infinity：学习演化记忆实现实时无限视频生成",
+      "url": "https://arxiv.org/abs/2606.04527",
+      "summary": "Echo-Infinity通过学习演化记忆(evolving memory)实现实时的无限长度视频生成。模型维护一个动态更新的记忆状态，让视频可以无限延续而保持时间一致性和内容连贯。",
+      "source": "HuggingFace Papers (June 4, 2026)",
+      "highlight": "视频生成的'长度'限制一直是核心挑战(Sora也因高成本关停)。Echo-Infinity用'演化记忆'实现无限长视频且实时——这是技术路线的重要突破。与SANA-Streaming(实时编辑)结合，视频AI正从'生成几秒短片'走向'实时无限流'。这可能让AI视频找到Sora没找到的可持续应用场景(如实时虚拟环境、游戏)。",
+      "stars": 0,
+      "tags": ["Video Generation", "Infinite Length", "Evolving Memory", "Real-Time", "Temporal Consistency"]
+    },
+    {
+      "id": 11,
+      "category": "repo",
+      "title": "NVIDIA Cosmos：物理AI的开源世界模型平台",
+      "url": "https://github.com/NVIDIA/cosmos",
+      "summary": "NVIDIA Cosmos是一个开源平台，包含世界模型、数据集和工具，使开发者能为机器人、自动驾驶、智能基础设施等构建物理AI(Physical AI)。是Cosmos 3论文的开源实现和生态。",
+      "source": "GitHub Trending (June 5, 2026)",
+      "highlight": "NVIDIA将Cosmos世界模型开源，这是其物理AI战略的关键落子——通过开放生态绑定开发者，最终拉动GPU/硬件销售。'平台'定位(模型+数据集+工具)意味着NVIDIA想做物理AI领域的'安卓'。对机器人和自动驾驶开发者来说，有了NVIDIA官方支持的世界模型基础设施，开发门槛大幅降低。",
+      "stars": 133,
+      "tags": ["NVIDIA", "Cosmos", "World Model", "Physical AI", "Open Platform", "Robotics"]
+    },
+    {
+      "id": 12,
+      "category": "repo",
+      "title": "PaddleOCR：将任意PDF/图像转为AI可用的结构化数据，支持100+语言",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "summary": "百度PaddleOCR提供强大轻量的OCR工具包，能将任意PDF或图像文档转换为面向AI的结构化数据。支持100+语言，桥接图像/PDF与LLM之间的鸿沟。",
+      "source": "GitHub Trending (June 5, 2026)",
+      "highlight": "文档解析赛道再添重磅玩家(此前有markitdown、LiteParse、OpenDataLoader-PDF)。PaddleOCR的优势在于OCR能力强(处理扫描件/图片)和多语言(100+)。在RAG和企业知识库建设的浪潮中，'让任意文档变成AI可读'是基础设施级需求。百度的工业级OCR积累让PaddleOCR在准确率上有优势。",
+      "stars": 141,
+      "tags": ["OCR", "PDF Parsing", "Document AI", "Multilingual", "RAG", "Baidu"]
+    },
+    {
+      "id": 13,
+      "category": "repo",
+      "title": "Open-Notebook：更灵活的开源NotebookLM实现",
+      "url": "https://github.com/lfnovo/open-notebook",
+      "summary": "Open-Notebook是Google NotebookLM的开源实现，提供更多灵活性和功能。让用户能基于自己的文档构建AI知识助手，支持自定义模型后端和数据隐私控制。",
+      "source": "GitHub Trending (June 5, 2026)",
+      "highlight": "NotebookLM证明了'基于个人文档的AI助手'是杀手级应用，但闭源且数据上传Google。Open-Notebook提供了开源、可私有部署的替代方案——对企业和隐私敏感用户极有价值。在Cloudflare/Google内容权之争的背景下，'数据留在本地'的工具越来越受重视。212星反映了对NotebookLM开源替代的需求。",
+      "stars": 212,
+      "tags": ["NotebookLM", "Open Source", "Knowledge Assistant", "Privacy", "Self-Hosted", "RAG"]
+    },
+    {
+      "id": 14,
+      "category": "repo",
+      "title": "GitHub Copilot SDK：将Copilot Agent集成到应用和服务",
+      "url": "https://github.com/github/copilot-sdk",
+      "summary": "GitHub发布Copilot SDK，一个多平台SDK，让开发者能将GitHub Copilot Agent集成到自己的应用和服务中。标志着Copilot从IDE插件走向可嵌入的Agent平台。",
+      "source": "GitHub Trending (June 5, 2026)",
+      "highlight": "GitHub Copilot开放SDK是重要的平台化信号——从'帮你写代码'到'让你嵌入Copilot能力'。这与Cursor开放插件、OpenAI超级应用的趋势一致：AI编程巨头都在从工具走向平台。对开发者来说，可以将Copilot的代码能力嵌入自己的产品。这也加剧了Agent平台的竞争(Copilot vs Claude Code vs Cursor)。",
+      "stars": 38,
+      "tags": ["GitHub Copilot", "SDK", "Agent Platform", "Integration", "Developer Tools"]
+    },
+    {
+      "id": 15,
+      "category": "repo",
+      "title": "OpenClaw Windows Node：OpenClaw的Windows配套套件",
+      "url": "https://github.com/openclaw/openclaw-windows-node",
+      "summary": "OpenClaw的Windows配套套件，包含系统托盘应用、共享库、节点(Node)和PowerToys命令面板扩展。为OpenClaw开源项目提供完整的Windows原生集成体验。",
+      "source": "GitHub Trending (June 5, 2026)",
+      "highlight": "OpenClaw(就是那个$1.3M/月跑100个Agent的项目)正在构建完整的桌面生态。Windows原生集成(系统托盘+PowerToys命令面板)意味着AI Agent正在深度嵌入操作系统的日常使用。411星说明OpenClaw社区在快速壮大。这反映了一个趋势：AI Agent不再是独立应用，而是融入OS层面的'环境智能'。",
+      "stars": 411,
+      "tags": ["OpenClaw", "Windows", "Desktop Integration", "System Tray", "PowerToys"]
+    }
+  ]
+}
