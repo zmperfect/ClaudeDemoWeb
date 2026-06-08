@@ -165,6 +165,94 @@
       "highlight": "继Cursor Plugins、GitHub Copilot SDK之后，OpenAI也正式开放插件生态。这与Brockman整合产品团队、打造超级应用的战略直接呼应——超级应用需要丰富的插件生态。262星说明开发者对OpenAI插件平台的关注。AI巨头的插件生态竞争(OpenAI vs Anthropic Cowork vs Cursor)正在全面展开，谁的生态更繁荣谁就能提供更强的平台能力。",
       "stars": 262,
       "tags": ["OpenAI", "Plugins", "Ecosystem", "Super App", "Platform", "Extensibility"]
+    },
+    {
+      "id": 16,
+      "category": "paper",
+      "title": "OpenSkill：LLM Agent的开放世界自我进化",
+      "url": "https://arxiv.org/abs/2606.06741",
+      "summary": "OpenSkill提出LLM Agent在开放世界中的自我进化框架。Agent能在不断变化、无预定义边界的开放环境中持续学习新技能、适应新情况，而非局限于封闭的预设任务集。",
+      "source": "HuggingFace Papers (June 8, 2026)",
+      "highlight": "'开放世界'是Agent自我进化的终极考验——真实世界没有预设的任务边界和技能清单。OpenSkill与本周的'持续经验内化'、SkillAdaptor、无监督技能发现形成完整的Agent进化研究矩阵。这类研究共同指向一个目标：让Agent像生物一样在开放环境中持续成长，而非停留在训练时的能力快照。",
+      "stars": 0,
+      "tags": ["Open-World", "Self-Evolution", "LLM Agent", "Skill Learning", "Adaptation"]
+    },
+    {
+      "id": 17,
+      "category": "paper",
+      "title": "Socratic-SWE：通过轨迹衍生技能实现自我进化的编程Agent",
+      "url": "https://arxiv.org/abs/2606.07412",
+      "summary": "Socratic-SWE提出自我进化的软件工程Agent，通过从执行轨迹中提取技能(trace-derived agent skills)实现持续改进。Agent在解决编程任务的过程中自动总结可复用的技能，越用越强。",
+      "source": "HuggingFace Papers (June 8, 2026)",
+      "highlight": "在Claude写90%代码的背景下，让编程Agent'自我进化'格外有价值。Socratic-SWE的'轨迹衍生技能'意味着Agent能从每次编程经验中学习——成功的解法变成可复用技能。这与SkillAdaptor、COLLEAGUE.SKILL的思想一致，但专注于软件工程场景。这是AI编程从'静态工具'走向'成长型伙伴'的关键路径。",
+      "stars": 0,
+      "tags": ["Software Engineering", "Self-Evolving", "Coding Agent", "Trace-Derived Skills", "SWE"]
+    },
+    {
+      "id": 18,
+      "category": "paper",
+      "title": "When Tools Fail：LLM Agent动态重规划与异常恢复的基准测试",
+      "url": "https://arxiv.org/abs/2606.05806",
+      "summary": "该论文构建了测试LLM Agent在工具失败时动态重规划和异常恢复能力的基准。真实环境中工具(API、函数)经常失败，该基准评估Agent能否检测失败、调整计划并从异常中恢复。",
+      "source": "HuggingFace Papers (June 8, 2026)",
+      "highlight": "工具失败是Agent生产部署的最大现实挑战——API超时、函数报错、网络中断都很常见。一个健壮的Agent不能因为单个工具失败就崩溃。这与AdaPlanBench(自适应规划)、RAMP(生产评估)共同构成Agent鲁棒性研究。结合Meta的rogue agent事故，'异常恢复'能力直接关系到Agent能否安全可靠地部署到生产。",
+      "stars": 0,
+      "tags": ["Tool Failure", "Dynamic Replanning", "Anomaly Recovery", "Agent Robustness", "Benchmark"]
+    },
+    {
+      "id": 19,
+      "category": "paper",
+      "title": "SubtleMemory：长周期AI Agent细粒度关系记忆辨别基准",
+      "url": "https://arxiv.org/abs/2606.05761",
+      "summary": "SubtleMemory构建了评估长周期AI Agent细粒度关系记忆辨别能力的基准。测试Agent能否区分相似但有微妙差异的记忆(如'谁对谁说了什么''哪件事先发生')，这是长期交互中容易混淆的关键能力。",
+      "source": "HuggingFace Papers (June 8, 2026)",
+      "highlight": "Agent记忆研究本周持续火热(Task-Focused Memorization、SuperMemory等)。SubtleMemory聚焦一个微妙但关键的问题：记忆的'辨别力'。长期运行的Agent容易把相似的记忆搞混(记错谁说的、事情的先后)。这种细粒度辨别对个人助手(参考Camera Roll VQA)尤为重要——记错用户偏好会严重损害体验。",
+      "stars": 0,
+      "tags": ["Agent Memory", "Relational Memory", "Long-Horizon", "Benchmark", "Memory Discrimination"]
+    },
+    {
+      "id": 20,
+      "category": "paper",
+      "title": "Thinking with Imagination：用世界模拟器进行Agent式视觉空间推理",
+      "url": "https://arxiv.org/abs/2606.06476",
+      "summary": "该论文提出'用想象力思考'的方法——让Agent借助世界模拟器进行视觉空间推理。Agent在解决空间问题时，先在'脑中'(世界模拟器)想象不同方案的结果，再选择最优行动，类似人类的空间想象能力。",
+      "source": "HuggingFace Papers (June 8, 2026)",
+      "highlight": "'用想象力思考'是认知科学启发的优雅思路——人类解决空间问题时会在脑中模拟。结合Dream.exe(视频模型梦见动作)、World Action Models，'想象后行动'正成为具身智能的核心范式。让Agent在世界模拟器中预演方案，能大幅减少真实世界的试错成本，对机器人和自动驾驶意义重大。",
+      "stars": 0,
+      "tags": ["Visual Reasoning", "World Simulator", "Spatial Reasoning", "Imagination", "Embodied AI"]
+    },
+    {
+      "id": 21,
+      "category": "paper",
+      "title": "PaperFlow：在每日论文流中进行画像、推荐与适配",
+      "url": "https://arxiv.org/abs/2606.07454",
+      "summary": "PaperFlow是一个针对每日海量学术论文流的系统，能对论文进行画像分析、个性化推荐并适配用户的研究兴趣。帮助研究者从每天涌现的大量论文中高效发现相关工作。",
+      "source": "HuggingFace Papers (June 8, 2026)",
+      "highlight": "这个工具本身就和'每日AI摘要'任务高度相关——应对论文信息过载。在AI论文每天数百篇涌现的今天(本周HuggingFace每天都有十几篇高质量论文)，'读不过来'是研究者的普遍困境。PaperFlow用AI解决AI带来的信息过载，是一种自洽的应用。个性化推荐+适配意味着它能学习用户的研究品味。",
+      "stars": 0,
+      "tags": ["Paper Recommendation", "Research Tools", "Information Overload", "Personalization", "Academic"]
+    },
+    {
+      "id": 22,
+      "category": "paper",
+      "title": "你的UnEmbedding矩阵其实是文本嵌入的特征透镜",
+      "url": "https://arxiv.org/abs/2606.07502",
+      "summary": "该论文揭示了一个有趣发现：LLM的UnEmbedding矩阵(输出层)实际上可以作为文本嵌入的'特征透镜'。这意味着无需额外训练嵌入模型，现有LLM的输出层就蕴含了高质量的文本表示能力。",
+      "source": "HuggingFace Papers (June 8, 2026)",
+      "highlight": "优雅的'免费午餐'发现——LLM训练时已经在UnEmbedding矩阵中学到了文本嵌入能力，只是之前没被利用。这对RAG和语义搜索有实际价值：可能不需要单独的embedding模型，直接复用LLM的输出层。这类'重新理解已有组件'的研究往往能带来意外的效率提升，体现了对模型内部机制的深刻洞察。",
+      "stars": 0,
+      "tags": ["Text Embedding", "UnEmbedding Matrix", "Feature Lens", "RAG", "Model Interpretability"]
+    },
+    {
+      "id": 23,
+      "category": "paper",
+      "title": "Stream3D-VLM：基于增量几何先验的在线3D空间理解",
+      "url": "https://arxiv.org/abs/2606.06891",
+      "summary": "Stream3D-VLM实现在线(实时流式)的3D空间理解，利用增量几何先验逐步构建对空间的理解。模型能边接收数据边更新3D空间认知，适用于机器人导航、AR/VR等实时空间应用。",
+      "source": "HuggingFace Papers (June 8, 2026)",
+      "highlight": "实时3D空间理解是机器人和AR/VR的基础能力。Stream3D-VLM的'增量'特性是关键——不需要等完整扫描，边走边理解空间。这与AnchorWorld(自我中心世界模拟)、World Action Models形成空间智能的技术群。在Meta押注AI眼镜(超感知)、OpenAI重返机器人的背景下，实时空间理解是这些硬件的核心AI能力。",
+      "stars": 0,
+      "tags": ["3D Understanding", "Streaming", "VLM", "Spatial Intelligence", "Robotics", "AR/VR"]
     }
   ]
 }
