@@ -1,0 +1,170 @@
+{
+  "date": "2026-06-08",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "Anthropic称Claude已编写其90%代码，呼吁全球设立'AI暂停按钮'",
+      "url": "https://the-decoder.com/anthropic-says-claude-now-writes-over-90-of-its-code-and-wants-the-world-to-have-an-ai-pause-button/",
+      "summary": "Anthropic公布内部数据：超过80%的生产代码现在由Claude编写，工程师日均交付代码量是2024年的8倍。目标是实现AI自我改进，这将触发大规模加速。正因如此，Anthropic推动设立可验证的全球开发暂停选项——若其他前沿实验室也明确暂停，它会停止。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "这是AI自我改进飞轮的实证：AI写AI的代码，效率8倍提升。Anthropic一边享受加速一边呼吁'暂停按钮'，这种矛盾恰恰说明了风险的真实性——他们清楚自我改进AI的力量与危险。'可验证的全球暂停'是务实的治理提议：不是单方面停止(会被对手超越)，而是建立可验证的集体协调机制。这是AI安全治理的重要里程碑。",
+      "stars": 0,
+      "tags": ["Anthropic", "Self-Improvement", "AI Safety", "Pause Button", "Claude", "Governance"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "Anthropic的Mythos模型据报为NSA对华、对伊朗的进攻性网络行动提供支持",
+      "url": "https://the-decoder.com/anthropics-mythos-model-is-reportedly-powering-nsa-offensive-cyber-ops-against-china-and-iran/",
+      "summary": "据报道，Anthropic派驻约六名工程师直接进驻NSA(美国国家安全局)，为进攻性网络行动适配其Mythos AI模型。该模型可能被用于入侵中国或伊朗的网络。这符合Anthropic的立场：其关于限制AI滥用(如大规模监控)的承诺明确仅适用于美国公民。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "这则新闻揭示了AI安全叙事的复杂性。Anthropic以'AI安全'立身，却为NSA的进攻性网络行动提供模型——结合此前Mythos发现万级漏洞的能力，这意味着AI网络武器化已成现实。'承诺仅适用于美国公民'的表述尤其值得警惕：AI伦理的边界正在被地缘政治重新定义。这对全球AI治理和国际网络安全格局有深远影响。",
+      "stars": 0,
+      "tags": ["Anthropic", "Mythos", "NSA", "Cyber Warfare", "National Security", "AI Weaponization"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "Anthropic接管SpaceX Colossus 1数据中心：22万块GPU、300+兆瓦",
+      "url": "https://the-decoder.com/anthropic-taps-spacexs-colossus-1-data-center-for-220000-gpus-to-power-claude/",
+      "summary": "Anthropic接管SpaceX的Colossus 1数据中心全部算力——超过300兆瓦、22万+块NVIDIA GPU，预计一个月内上线。同时Anthropic将Claude Code的速率限制翻倍，并大幅提高Opus模型的API限制。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "22万块GPU+300兆瓦的算力规模令人震撼，相当于一个小型城市的用电量。Anthropic连续锁定算力(Amazon $330亿+Google TPU+现在SpaceX Colossus)，加上马斯克的SpaceX参与，AI算力争夺已成巨头间的核心战场。Claude Code速率翻倍直接惠及开发者——更充足的算力意味着更激进的产品策略。这是Anthropic万亿估值背后的硬实力支撑。",
+      "stars": 0,
+      "tags": ["Anthropic", "SpaceX", "Data Center", "GPU", "Compute", "Claude Code"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "Greg Brockman整合OpenAI产品团队，构建Agent化未来",
+      "url": "https://the-decoder.com/greg-brockman-consolidates-openais-product-teams-to-build-an-agentic-future/",
+      "summary": "OpenAI将ChatGPT、编程Agent Codex和开发者API合并为单一产品团队，由Codex负责人Thibault Sottiaux领导。目标是打造整合Atlas浏览器的'超级应用'。联合创始人Greg Brockman正式接管产品战略。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "OpenAI的超级应用战略进入执行阶段——Brockman亲自掌舵产品。将ChatGPT+Codex+API+Atlas整合到一个团队，标志着OpenAI从'多产品并行'转向'统一平台'。由Codex(编程Agent)负责人领导整合，暗示Agent能力是超级应用的核心。这与Anthropic的Claude生态形成正面竞争。AI巨头都在押注'一个入口统治所有场景'。",
+      "stars": 0,
+      "tags": ["OpenAI", "Greg Brockman", "Super App", "Codex", "Product Strategy", "Agentic"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "OpenClaw开发者Peter Steinberger加入OpenAI，构建'连他妈妈都会用'的AI Agent",
+      "url": "https://the-decoder.com/openclaw-developer-peter-steinberger-joins-openai-to-build-ai-agents/",
+      "summary": "OpenClaw创建者Peter Steinberger即将加入OpenAI，致力于开发'连他妈妈都能用'的个人AI Agent。CEO Sam Altman称未来是'极度多Agent'(extremely multi-agent)的。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "Steinberger(那个$1.3M/月跑100个Agent的人)加入OpenAI，是顶级Agent工程人才的标志性流动。'连妈妈都会用'点出了Agent普及的核心挑战：从极客工具到大众产品。Altman的'extremely multi-agent'定调了OpenAI的方向——不是单个强大AI，而是大量协作Agent。这与Claude Opus 4.8的数百并行子Agent趋势一致。Agent易用性是下一个竞争焦点。",
+      "stars": 0,
+      "tags": ["OpenAI", "Peter Steinberger", "OpenClaw", "Multi-Agent", "Sam Altman", "Consumer AI"]
+    },
+    {
+      "id": 6,
+      "category": "news",
+      "title": "Meta计划裁员高达20%，6000亿AI豪赌迫使削减成本",
+      "url": "https://the-decoder.com/meta-reportedly-plans-to-cut-up-to-20-percent-of-its-workforce-as-600-billion-ai-bet-drives-need-to-offset-costs/",
+      "summary": "据报道Meta计划大规模裁员(高达20%)以为其昂贵的AI投资融资。扎克伯格据称在'用人头换算力'——削减员工以资助AI基础设施。Meta的6000亿美元AI豪赌至今商业回报有限。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "'用人头换算力'是AI时代最残酷的资源再分配。Meta裁员20%为AI让路，反映了大科技公司的战略焦虑：开源策略失败(Muse转闭源)、研究突破未转化为产品。这与'AI让硅谷少数人暴富'的报道形成残酷对照——AI创造财富的同时也在摧毁就业。6000亿投入若无回报，可能引发更剧烈的行业震荡。",
+      "stars": 0,
+      "tags": ["Meta", "Layoffs", "AI Investment", "Cost Cutting", "Zuckerberg", "Compute"]
+    },
+    {
+      "id": 7,
+      "category": "news",
+      "title": "Meta泄露备忘录揭示AI硬件战略：AI吊坠、'超感知'眼镜、企业可穿戴",
+      "url": "https://the-decoder.com/metas-leaked-memo-reveals-ai-pendant-supersensing-glasses-and-enterprise-wearables-strategy/",
+      "summary": "Meta投入数十亿美元到AI却商业回报甚微。开源策略未奏效，研究突破未转化为产品。现在公司押注AI硬件——泄露的备忘录显示包括带'超感知'(supersensing)功能的智能眼镜、AI吊坠和企业可穿戴设备战略。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "Meta的转向逻辑清晰：软件AI竞争失利，转攻硬件差异化。'超感知'眼镜+AI吊坠代表了'环境AI'的硬件载体——AI不在手机里，而在你随身的设备上持续感知。这与Google Coral Board(边缘AI)、Perplexity Personal Computer(随身Agent)的趋势呼应。但裁员20%同时押注硬件，是高风险的背水一战。可穿戴可能是Meta的最后机会。",
+      "stars": 0,
+      "tags": ["Meta", "AI Hardware", "Smart Glasses", "Wearables", "Supersensing", "Ambient AI"]
+    },
+    {
+      "id": 8,
+      "category": "news",
+      "title": "xAI人才流失：前员工称安全标准缺失、追赶OpenAI/Anthropic的疲惫",
+      "url": "https://the-decoder.com/xais-founder-exodus-reportedly-tied-to-safety-concerns-and-frustration-over-groks-failure-to-catch-up/",
+      "summary": "马斯克的AI公司xAI正在大量流失人才。前员工描述了一种缺失安全标准的文化、日益增长的幻灭感，以及不断追赶OpenAI和Anthropic的压力。多名联合创始人也已离开。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "xAI的人才流失揭示了AI竞赛的残酷淘汰。'安全标准缺失'与Anthropic的'暂停按钮'呼吁形成鲜明对比——不同AI公司的安全文化差异巨大。Grok追赶乏力+创始人出走，说明仅有算力(xAI有Colossus)和资金不足以在前沿竞争中胜出，文化和人才同样关键。这也反映了AI行业正在分层：领先者(OpenAI/Anthropic)与追赶者的差距在拉大。",
+      "stars": 0,
+      "tags": ["xAI", "Talent Exodus", "Grok", "Safety", "Elon Musk", "Competition"]
+    },
+    {
+      "id": 9,
+      "category": "paper",
+      "title": "Dream.exe：视频生成模型能'梦见'可执行的机器人操作吗？",
+      "url": "https://arxiv.org/abs/2606.04811",
+      "summary": "Dream.exe研究视频生成模型能否生成可执行的机器人操作——即模型'想象'出的动作视频能否直接转化为机器人的实际执行指令。这是连接视频世界模型与机器人控制的关键探索。",
+      "source": "HuggingFace Papers (June 7, 2026)",
+      "highlight": "极富想象力的研究方向：让AI'梦见'动作然后真实执行。如果视频生成模型能产出物理可行、可执行的操作序列，机器人就能'先想象再行动'(呼应World Action Models)。这是视频生成从'娱乐内容'走向'机器人大脑'的关键一步。结合本周NVIDIA Cosmos、Humanoid-GPT，视频世界模型正成为具身智能的核心引擎。",
+      "stars": 0,
+      "tags": ["Video Generation", "Robot Manipulation", "World Model", "Executable", "Embodied AI"]
+    },
+    {
+      "id": 10,
+      "category": "paper",
+      "title": "Code2LoRA：软件演化下代码语言模型的超网络生成适配器",
+      "url": "https://arxiv.org/abs/2606.06492",
+      "summary": "Code2LoRA提出用超网络(hypernetwork)为代码语言模型动态生成LoRA适配器，以应对软件的持续演化。当代码库或框架更新时，无需重新训练整个模型，超网络能即时生成适配新版本的参数。",
+      "source": "HuggingFace Papers (June 7, 2026)",
+      "highlight": "软件永远在演化(新框架、新API、新版本)，但训练好的代码模型却是静态的——这是AI编程工具的隐藏痛点。Code2LoRA用超网络动态生成适配器解决这个问题，让模型'跟上'软件变化而无需昂贵重训。在Claude写90%代码、软件迭代加速的背景下，'模型持续适配演化'是保持AI编程工具有效性的关键能力。",
+      "stars": 0,
+      "tags": ["Code Model", "LoRA", "Hypernetwork", "Software Evolution", "Continual Adaptation"]
+    },
+    {
+      "id": 11,
+      "category": "paper",
+      "title": "TIDE：通过模板引导迭代的主动多问题发现",
+      "url": "https://arxiv.org/abs/2606.04743",
+      "summary": "TIDE提出通过模板引导的迭代方法实现主动的多问题发现。系统能主动识别和提出一系列相关问题(而非被动等待用户提问)，通过模板化的迭代过程系统性地探索问题空间。",
+      "source": "HuggingFace Papers (June 7, 2026)",
+      "highlight": "AI从'被动回答'走向'主动提问'是Agent能力的重要进化。TIDE让AI能主动发现'还有什么问题值得解决'，这对研究助手、代码审查、问题诊断等场景极有价值。结合'AI Research Agents缩窄科学探索'的担忧，主动多问题发现可能帮助AI拓宽而非收窄探索范围——主动找出被忽视的问题维度。",
+      "stars": 0,
+      "tags": ["Proactive Discovery", "Multi-Problem", "Template-Guided", "Agent", "Question Generation"]
+    },
+    {
+      "id": 12,
+      "category": "repo",
+      "title": "last30days-skill：跨Reddit/X/YouTube/HN等研究任意话题的AI技能",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "summary": "一个AI Agent技能，能跨Reddit、X、YouTube、Hacker News、Polymarket和网络研究任意话题，然后综合成有依据的摘要。专注于获取'最近30天'的最新讨论和动态。",
+      "source": "GitHub Trending (June 8, 2026)",
+      "highlight": "信息聚合是AI Agent的高价值应用。last30days-skill的独特之处在于跨平台(社交媒体+论坛+预测市场)和时效性(最近30天)——这正是传统搜索和训练数据的盲区。1111星的热度说明对'实时多源信息综合'的强烈需求。作为Agent Skill的形态，可以即插即用到Claude Code等工具中。这是Agent Skills生态实用化的典型案例。",
+      "stars": 1111,
+      "tags": ["Agent Skill", "Research", "Multi-Source", "Social Media", "Information Synthesis"]
+    },
+    {
+      "id": 13,
+      "category": "repo",
+      "title": "TurboVec：基于TurboQuant的Rust向量索引(Python绑定)",
+      "url": "https://github.com/RyanCodrai/turbovec",
+      "summary": "TurboVec是一个用Rust编写、提供Python绑定的高性能向量索引，构建于TurboQuant量化技术之上。专注于极致的向量检索速度和效率，为RAG和语义搜索提供基础设施。",
+      "source": "GitHub Trending (June 8, 2026)",
+      "highlight": "向量检索是RAG系统的性能瓶颈之一。TurboVec用Rust+量化技术追求极致速度，1554星的爆发说明开发者对高性能向量索引的渴求。在RAG普及(OCC-RAG、OmniRetrieval等论文活跃)的背景下，底层检索基础设施的优化直接影响整个AI应用的响应速度。Rust实现+Python绑定的组合兼顾了性能和易用性。",
+      "stars": 1554,
+      "tags": ["Vector Index", "Rust", "RAG", "Quantization", "Semantic Search", "Performance"]
+    },
+    {
+      "id": 14,
+      "category": "repo",
+      "title": "Goose：可扩展的开源AI Agent，超越代码建议",
+      "url": "https://github.com/aaif-goose/goose",
+      "summary": "Goose是一个开源、可扩展的AI Agent，能力超越代码建议——可以用任意LLM进行安装、执行、编辑和测试。定位为通用的、可定制的Agent平台，让AI真正'动手做事'而非只给建议。",
+      "source": "GitHub Trending (June 8, 2026)",
+      "highlight": "'超越代码建议'点出了Agent与传统AI助手的本质区别——不只是给建议，而是实际执行(安装/运行/编辑/测试)。Goose的'任意LLM'特性意味着不绑定特定模型供应商，给了用户选择自由。在Claude Code、Codex、oh-my-pi等终端Agent竞争中，Goose的开源+模型无关定位有独特价值。322星反映了对厂商中立Agent平台的需求。",
+      "stars": 322,
+      "tags": ["AI Agent", "Open Source", "Extensible", "Model-Agnostic", "Code Execution"]
+    },
+    {
+      "id": 15,
+      "category": "repo",
+      "title": "OpenAI Plugins：OpenAI官方插件仓库",
+      "url": "https://github.com/openai/plugins",
+      "summary": "OpenAI发布官方插件仓库，提供可扩展ChatGPT/Codex能力的插件集合和规范。这是OpenAI超级应用战略的生态基础——通过开放插件让第三方扩展平台能力。",
+      "source": "GitHub Trending (June 8, 2026)",
+      "highlight": "继Cursor Plugins、GitHub Copilot SDK之后，OpenAI也正式开放插件生态。这与Brockman整合产品团队、打造超级应用的战略直接呼应——超级应用需要丰富的插件生态。262星说明开发者对OpenAI插件平台的关注。AI巨头的插件生态竞争(OpenAI vs Anthropic Cowork vs Cursor)正在全面展开，谁的生态更繁荣谁就能提供更强的平台能力。",
+      "stars": 262,
+      "tags": ["OpenAI", "Plugins", "Ecosystem", "Super App", "Platform", "Extensibility"]
+    }
+  ]
+}
