@@ -1,0 +1,170 @@
+{
+  "date": "2026-06-09",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "Google DeepMind Gemma 4 12B：16GB内存笔记本上运行的原生多模态开源模型",
+      "url": "https://the-decoder.com/google-deepminds-gemma-4-12b-squeezes-multimodal-ai-onto-a-laptop-with-just-16-gb-of-ram/",
+      "summary": "Google DeepMind的Gemma 4 12B是一个开源模型，原生处理文本、图像和音频，仅需16GB内存即可在笔记本上运行。在基准测试中几乎匹配两倍大小的26B模型，采用Apache 2.0许可证可商用。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "Gemma 4代表了'本地多模态AI'的重要里程碑。16GB内存(普通笔记本配置)运行原生多模态模型，意味着AI能力真正下沉到个人设备。'12B匹配26B'体现了模型效率的飞跃。Apache 2.0可商用进一步降低了门槛。结合AirLLM、Google Coral Board的趋势，强大AI正在从云端走向本地，这对隐私敏感场景和离线应用意义重大。",
+      "stars": 0,
+      "tags": ["Google", "Gemma 4", "Open Source", "Multimodal", "On-Device", "Apache 2.0"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "Moonshot AI完成5亿美元C轮融资，现金储备达14亿支持Kimi K3开发",
+      "url": "https://the-decoder.com/moonshot-ai-closes-500-million-series-c-to-fund-kimi-k3-development-and-expand-computing-capacity/",
+      "summary": "中国AI公司Moonshot AI(Kimi聊天机器人开发者)完成5亿美元C轮融资，现金储备达14亿美元。充足的资金让其能从容开发K3模型并扩展算力，无需急于IPO。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "Moonshot的14亿现金储备显示中国AI公司的资本实力。'不急于IPO'与OpenAI/Anthropic的上市/融资潮形成对比——充足现金给了Moonshot专注研发的底气。Kimi K3的开发值得期待(Cursor Composer 2.5就基于Kimi K2.5)。中国AI公司在开源模型(MiniMax M3)和资本上的双重发力，正在改变全球AI竞争格局。",
+      "stars": 0,
+      "tags": ["Moonshot AI", "Kimi", "Funding", "China", "K3", "Series C"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "研究揭示为何大模型能学会小模型学不到的技能",
+      "url": "https://the-decoder.com/researchers-pinpoint-why-larger-language-models-pick-up-skills-that-small-ones-miss/",
+      "summary": "小模型在罕见任务上失败，是因为频繁任务不断覆盖它们已学到的内容。一项使用400万到40亿参数模型的新研究详细揭示了这一机制，并提供实用解决方案：与其扩大模型规模，不如增加目标任务在训练数据中出现的频率。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "这项研究有重大实践价值：它解释了'为什么需要大模型'的底层机制(罕见技能被频繁任务覆盖)，并给出了省钱的替代方案——调整数据频率而非堆参数。对资源有限的团队是福音：不必盲目追求大模型，通过精心设计训练数据分布就能让小模型掌握特定技能。这对Gemma 4等'小而强'模型的成功也提供了理论解释。",
+      "stars": 0,
+      "tags": ["LLM Research", "Model Scaling", "Rare Skills", "Training Data", "Catastrophic Forgetting"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "首批中国AI创业公司放弃离岸架构，转为在中国本土注册",
+      "url": "https://the-decoder.com/first-chinese-ai-startups-are-reportedly-ditching-offshore-structures-to-register-directly-in-china/",
+      "summary": "在北京阻止Meta收购Manus后，中国证券监管机构暗示希望上市的公司应在国内注册。现在Moonshot AI、StepFun等AI创业公司正考虑解散海外控股架构，直接在中国注册，这是北京加强对AI产业控制的更广泛举措的一部分。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "这反映了AI已成为国家战略资产。中国推动AI公司本土注册，意味着对AI产业的更强掌控和'防止技术外流'的考量。结合Mythos为NSA服务的新闻，AI正在全面地缘政治化——各国都在将AI视为需要保护的核心能力。对中国AI公司而言，本土注册可能影响其国际融资和全球化路径，但也确保了在国内资本市场上市的可能。",
+      "stars": 0,
+      "tags": ["China", "AI Regulation", "Moonshot", "StepFun", "Geopolitics", "Corporate Structure"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "Frontier Radar 3：Agent化AI如何把token变成商业指标",
+      "url": "https://the-decoder.com/frontier-radar-3-how-agentic-ai-is-turning-tokens-into-a-business-metric/",
+      "summary": "传统生成式AI是'月度订阅、开放对话、提问'模式。Agent化工作流超越了这个模式——消耗数倍的token、自主运行数小时，让固定费率对供应商不可持续。同时token价格因速度、专业化和结果的经济价值而变化。这期AI雷达剖析了新兴的'token经济'。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "深刻剖析了AI商业模式的根本转变：从'订阅制'到'消费制'。Agent自主运行数小时消耗海量token(参考OpenClaw的$1.3M/月)，让传统固定费率崩溃。文章的核心洞察：'便宜的token价格无法反映真实成本'、'token消耗量是衡量AI价值的错误指标'——这直接回应了Amazon/Meta的tokenmaxxing乱象。理解token经济是理解AI商业化的关键。",
+      "stars": 0,
+      "tags": ["Token Economy", "Agentic AI", "Business Model", "Pricing", "Consumption-Based"]
+    },
+    {
+      "id": 6,
+      "category": "paper",
+      "title": "Robots Need More than VLA and World Models：机器人需要的不止VLA和世界模型",
+      "url": "https://arxiv.org/abs/2606.06556",
+      "summary": "该论文提出一个反思性观点：当前主流的VLA(视觉-语言-动作)模型和世界模型不足以实现真正的机器人智能。论文分析了这两种范式的局限，并指出机器人还需要哪些被忽视的关键能力。",
+      "source": "HuggingFace Papers (June 8, 2026)",
+      "highlight": "在VLA和世界模型成为具身智能主流(本周Qwen-VLA、NVIDIA Cosmos、WLA Model等密集发布)的热潮中，这篇'泼冷水'的论文格外重要。它提醒研究者不要陷入范式盲从——可能还有更根本的能力(如常识推理、长期规划、物理直觉)被忽视。这种批判性反思对避免'集体盲区'(呼应AI Research Agents缩窄探索的担忧)很有价值。",
+      "stars": 0,
+      "tags": ["Robotics", "VLA", "World Model", "Critical Analysis", "Embodied AI"]
+    },
+    {
+      "id": 7,
+      "category": "paper",
+      "title": "LLM可解释性：用反事实链和因果图",
+      "url": "https://arxiv.org/abs/2606.05972",
+      "summary": "该论文提出用反事实链(counterfactual chains)和因果图(causal graphs)来解释LLM的行为。通过分析'如果输入改变会怎样'的反事实推理和构建因果关系图，让黑盒LLM的决策过程变得可理解、可追溯。",
+      "source": "HuggingFace Papers (June 8, 2026)",
+      "highlight": "LLM可解释性是AI安全和可信部署的基础。在Claude写90%代码、Mythos发现万级漏洞的背景下，理解'AI为什么这样做'变得至关重要。反事实+因果图的方法比简单的注意力可视化更深入——它揭示了决策的因果结构。这对高风险领域(医疗、法律、安全)的AI应用尤为关键，也是监管和审计AI的技术基础。",
+      "stars": 0,
+      "tags": ["Explainability", "Counterfactual", "Causal Graphs", "Interpretability", "AI Safety"]
+    },
+    {
+      "id": 8,
+      "category": "paper",
+      "title": "UnpredictaBench：评估LLM分布式随机性的基准",
+      "url": "https://arxiv.org/abs/2606.06622",
+      "summary": "UnpredictaBench构建了评估LLM分布式随机性(distributional randomness)的基准。测试LLM在需要真正随机/不可预测输出的任务上的表现，如生成随机数、模拟掷骰子、提供多样化选项等。",
+      "source": "HuggingFace Papers (June 8, 2026)",
+      "highlight": "一个有趣又重要的能力盲区：LLM其实不擅长'随机'。它们倾向于输出'典型'答案(问随机数总爱说7)，缺乏真正的分布式随机性。这在很多场景有影响——游戏、模拟、A/B测试、创意发散都需要真随机。UnpredictaBench量化了这个问题，对需要多样性和不可预测性的AI应用(如角色扮演、内容生成)有指导价值。",
+      "stars": 0,
+      "tags": ["Randomness", "Benchmark", "LLM Limitations", "Distributional", "Diversity"]
+    },
+    {
+      "id": 9,
+      "category": "paper",
+      "title": "SoCRATES：跨领域和社会认知变化的主动LLM调解可靠自动评估",
+      "url": "https://arxiv.org/abs/2606.05563",
+      "summary": "SoCRATES提出可靠评估LLM在'主动调解'(proactive mediation)场景中表现的方法。覆盖不同领域和社会认知变化，评估AI能否在人际冲突、谈判、协调等需要主动介入和平衡多方的场景中可靠工作。",
+      "source": "HuggingFace Papers (June 8, 2026)",
+      "highlight": "AI作为'调解者'是一个高价值但被低估的应用方向——客服纠纷、团队协调、谈判辅助都需要这种能力。SoCRATES的'主动调解'强调AI不只是被动回应，而是主动识别冲突并介入平衡。'社会认知变化'的考量意味着评估AI能否适应不同文化和认知背景。这对AI在社交、管理、外交等软性场景的应用有重要意义。",
+      "stars": 0,
+      "tags": ["Proactive Mediation", "Social Cognition", "Evaluation", "Conflict Resolution", "LLM"]
+    },
+    {
+      "id": 10,
+      "category": "repo",
+      "title": "Agent-Reach：给AI Agent'看遍全网'的眼睛，零API费用",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "summary": "Agent-Reach给AI Agent提供读取和搜索整个互联网的能力——Twitter、Reddit、YouTube、GitHub、Bilibili、小红书，一个CLI、零API费用。让Agent能获取实时的多平台信息。",
+      "source": "GitHub Trending (June 9, 2026)",
+      "highlight": "'零API费用'是Agent-Reach的杀手锏——在某公司月花$5亿、token经济崛起的背景下，免费的全网信息获取极具吸引力。覆盖中外主流平台(含Bilibili、小红书)对中文场景特别有价值。这与last30days-skill(跨平台研究)形成竞争/互补，反映了'让Agent获取实时信息'是当前最热门的需求之一。679星的快速增长印证了这点。",
+      "stars": 679,
+      "tags": ["Agent Tools", "Web Access", "Multi-Platform", "CLI", "Zero-Cost", "Information Retrieval"]
+    },
+    {
+      "id": 11,
+      "category": "repo",
+      "title": "Google Skills：Google产品和技术的官方Agent Skills",
+      "url": "https://github.com/google/skills",
+      "summary": "Google发布官方Agent Skills仓库，提供针对Google产品和技术的Agent技能。让AI Agent能更好地与Google生态(搜索、云、Workspace等)交互，是Google进入Agent Skills生态的官方布局。",
+      "source": "GitHub Trending (June 9, 2026)",
+      "highlight": "Agent Skills生态再添巨头玩家。继Anthropic(knowledge-work-plugins)、OpenAI(plugins)之后，Google也正式发布官方Skills。这标志着Agent Skills已从社区实验(Taste-Skill等)走向大厂标配。Google的入局意味着Agent能深度集成Google庞大的产品生态。三大巨头都在押注Agent Skills，这个生态的标准化和繁荣化正在加速。",
+      "stars": 461,
+      "tags": ["Google", "Agent Skills", "Official", "Ecosystem", "Integration"]
+    },
+    {
+      "id": 12,
+      "category": "repo",
+      "title": "MemPalace：基准测试最佳的开源AI记忆系统，免费",
+      "url": "https://github.com/MemPalace/mempalace",
+      "summary": "MemPalace自称是'基准测试最佳'的开源AI记忆系统，且完全免费。为AI Agent提供高质量的长期记忆存储、检索和管理能力，对标SuperMemory等商业记忆服务。",
+      "source": "GitHub Trending (June 9, 2026)",
+      "highlight": "Agent记忆赛道持续火热(本周SubtleMemory、SuperMemory、Task-Focused Memorization等)。MemPalace以'最佳基准+免费开源'切入，直接挑战商业记忆服务。在Agent需要长期记忆才能'越用越聪明'的共识下，开源免费的高质量记忆系统降低了所有Agent开发者的门槛。这与本周大量Agent记忆论文形成理论-工程的完整呼应。",
+      "stars": 170,
+      "tags": ["AI Memory", "Open Source", "Benchmark", "Agent Memory", "Free"]
+    },
+    {
+      "id": 13,
+      "category": "repo",
+      "title": "Roboflow Supervision：可复用的计算机视觉工具库",
+      "url": "https://github.com/roboflow/supervision",
+      "summary": "Roboflow Supervision提供一系列可复用的计算机视觉工具，帮助开发者快速构建CV应用。涵盖目标检测、追踪、标注、可视化等常用功能，是CV工程的实用工具集。",
+      "source": "GitHub Trending (June 9, 2026)",
+      "highlight": "在多模态和具身智能崛起的背景下，计算机视觉的基础工具依然不可或缺。Supervision的价值在于'让CV工程更简单'——把常用功能封装为可复用组件。1288星的热度说明CV开发者社区对高质量工具库的持续需求。随着Stream3D-VLM、视觉空间推理等研究发展，扎实的CV工具链是连接研究与应用的桥梁。",
+      "stars": 1288,
+      "tags": ["Computer Vision", "Roboflow", "Tools", "Object Detection", "Open Source"]
+    },
+    {
+      "id": 14,
+      "category": "repo",
+      "title": "Career-Ops：基于Claude Code的AI驱动求职系统",
+      "url": "https://github.com/santifer/career-ops",
+      "summary": "Career-Ops是一个基于Claude Code构建的AI驱动求职系统，包含14种技能模式、Go语言仪表盘、PDF生成和批量处理功能。将AI Agent能力应用到求职全流程自动化。",
+      "source": "GitHub Trending (June 9, 2026)",
+      "highlight": "这是Agent Skills垂直化应用的典型案例——把通用Agent能力(Claude Code)定制为特定领域(求职)的完整系统。14种技能模式覆盖求职的各个环节(简历、投递、跟进等)。在AI让部分岗位消失(Meta裁员20%)的背景下，用AI优化求职本身颇有意味。这反映了Agent应用正从'通用工具'走向'垂直解决方案'。",
+      "stars": 308,
+      "tags": ["Career", "Claude Code", "Job Search", "Agent Application", "Automation"]
+    },
+    {
+      "id": 15,
+      "category": "tool",
+      "title": "WhichLLM：找到在你硬件上实际运行且性能最好的本地LLM",
+      "url": "https://github.com/Andyyyy64/whichllm",
+      "summary": "WhichLLM帮你找到在自己硬件上真正能运行且性能最佳的本地LLM。基于真实的、考虑时效性的基准测试排名(而非仅看参数量)，一条命令即可运行测试。",
+      "source": "GitHub Trending (June 9, 2026)",
+      "highlight": "随着本地LLM选择爆炸(Gemma 4、Nemotron、MiniMax M3等)和能在普通硬件运行(16GB跑Gemma 4、4GB跑70B)，'选哪个模型'成了真问题。WhichLLM基于真实硬件性能而非参数量排名，解决了选择困难。'考虑时效性的基准'很重要——模型更新太快，旧基准会过时。对想用本地AI的开发者是实用工具，呼应了本地AI民主化的大趋势。",
+      "stars": 143,
+      "tags": ["Local LLM", "Benchmark", "Hardware", "Model Selection", "On-Device"]
+    }
+  ]
+}
