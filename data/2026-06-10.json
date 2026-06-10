@@ -1,0 +1,170 @@
+{
+  "date": "2026-06-10",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "Anthropic正式向SEC提交IPO申请，估值接近万亿美元",
+      "url": "https://the-decoder.com/claude-maker-anthropic-files-for-ipo-with-the-sec/",
+      "summary": "Claude的开发商Anthropic已秘密向美国证券交易委员会(SEC)提交IPO注册草案。在最新一轮融资后，公司估值接近1万亿美元。竞争对手OpenAI也在筹备IPO。AI行业争夺投资者资金的竞赛正在升温。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "Anthropic冲刺IPO是AI行业的历史性时刻。从2021年成立到接近万亿估值IPO仅5年，创下科技史最快纪录之一。这将是对AI泡沫论的终极公开市场考验。Anthropic与OpenAI的IPO竞赛，意味着AI两巨头同时进入资本市场的最高舞台。对整个AI行业的估值锚定、投资者信心和后续融资环境都有决定性影响。",
+      "stars": 0,
+      "tags": ["Anthropic", "IPO", "SEC", "Trillion Valuation", "Public Markets"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "Anthropic估值达9000亿美元，首次超越OpenAI",
+      "url": "https://the-decoder.com/anthropics-900-billion-valuation-would-make-it-more-valuable-than-openai-for-the-first-time/",
+      "summary": "Anthropic在三个月前同等规模融资后再融300亿美元，估值跃升至9000亿美元，首次超越竞争对手OpenAI。推动这一飙升的是接近450亿美元的年化收入——自2024年底以来增长了五倍。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "Anthropic首次估值超越OpenAI是行业格局的标志性反转。450亿年化收入(5倍增长)说明Claude的商业化极其成功——尤其在编程(Claude写90%自家代码)和企业(法律插件)领域。这印证了'安全优先'的Anthropic也能在商业上领先。两巨头估值你追我赶，反映了市场对AI价值的极高预期，也加剧了对'谁能率先实现AGI'的押注。",
+      "stars": 0,
+      "tags": ["Anthropic", "Valuation", "OpenAI", "Revenue", "Funding", "Market Leader"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "Anthropic发布Claude Fable 5和Mythos 5：编程与科学能力大幅提升",
+      "url": "https://the-decoder.com/anthropic-releases-claude-fable-5-and-mythos-5-with-major-gains-in-coding-and-science/",
+      "summary": "Anthropic发布两个新模型Claude Fable 5和Mythos 5，号称大幅超越当前Opus一代，尤其在编程和研究方面。Fable 5一天内完成了Stripe一项原本需要团队两个月的代码迁移。Mythos 5能自主设计候选药物，但因其进攻性网络能力暂时锁定不公开。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "Fable 5的'一天完成两个月工作量'(60倍效率)是AI编程能力的又一次飞跃，对应了Claude写90%代码的内部实践。Mythos 5'自主设计药物却因网络武器能力被锁定'再次凸显了前沿模型的双重用途困境——同样的能力既能救人(药物)也能攻击(网络)。这与Anthropic呼吁'AI暂停按钮'的立场一致。模型能力与安全的张力达到新高度。",
+      "stars": 0,
+      "tags": ["Anthropic", "Claude Fable 5", "Mythos 5", "Coding", "Drug Discovery", "Dual-Use"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "德国里程碑判决：Google AI概览是'Google自己的话'，需为虚假回答担责",
+      "url": "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/",
+      "summary": "德国一家地区法院裁定Google对其AI搜索概览的内容直接负责。法院认为，搜索引擎运营商以往的有限责任保护不适用于AI概览。本案中Google的AI错误地将两家出版商与欺诈关联，并做出了未出现在任何链接来源中的声称。该判决可能为全球AI生成内容的责任认定树立先例。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "这是AI内容责任认定的全球性里程碑。核心法理转变：AI生成内容不再受'搜索引擎中立平台'的责任豁免保护，而被视为'Google自己的言论'。这意味着AI公司要为其模型的幻觉和错误承担法律责任。结合此前Google/Cloudflare的内容权之争，这可能从根本上改变AI公司的产品策略——AI概览的'方便'可能带来巨大的法律风险。对全球AI监管有深远的判例价值。",
+      "stars": 0,
+      "tags": ["Google", "AI Liability", "German Court", "AI Overviews", "Legal Precedent", "Hallucination"]
+    },
+    {
+      "id": 5,
+      "category": "paper",
+      "title": "Agents' Last Exam：Agent的终极考试",
+      "url": "https://arxiv.org/abs/2606.05405",
+      "summary": "Agents' Last Exam提出一个极具挑战性的Agent能力评估基准(致敬'Humanity's Last Exam')。设计了当前最先进Agent也难以完成的复杂任务，用以衡量Agent能力的真实上限和与人类专家的差距。",
+      "source": "HuggingFace Papers (June 9, 2026)",
+      "highlight": "当现有基准纷纷被刷爆(Agent能力快速提升)，'最难的考试'变得必要。Agents' Last Exam为衡量真正的Agent能力上限提供了标尺。在Fable 5'一天完成两月工作'、Agent自我进化的背景下，需要更难的基准来区分顶级Agent。这类'天花板基准'对追踪AI能力进展、判断是否接近AGI至关重要。",
+      "stars": 0,
+      "tags": ["Agent Benchmark", "Evaluation", "Capability Ceiling", "Hard Tasks", "AGI"]
+    },
+    {
+      "id": 6,
+      "category": "paper",
+      "title": "SWE-Explore：评估编程Agent如何探索代码仓库",
+      "url": "https://arxiv.org/abs/2606.07297",
+      "summary": "SWE-Explore专门评估编程Agent探索代码仓库的能力。不同于评估最终代码产出，它关注Agent'如何理解陌生代码库'的过程——搜索、导航、定位关键文件的策略和效率。",
+      "source": "HuggingFace Papers (June 9, 2026)",
+      "highlight": "理解陌生代码库是编程Agent的核心挑战(也是人类工程师的难点)。SWE-Explore填补了'探索能力'评估的空白——一个好的编程Agent首先要会'读懂'代码。这与GrepSeek(训练Agent直接搜索语料)、Understand-Anything(代码知识图谱)的方向一致。在Fable 5完成大规模代码迁移的背景下，高效的代码库探索能力是这类壮举的前提。",
+      "stars": 0,
+      "tags": ["SWE", "Coding Agent", "Repository Exploration", "Benchmark", "Code Understanding"]
+    },
+    {
+      "id": 7,
+      "category": "paper",
+      "title": "SpatialWorld：评估多模态Agent在真实任务中的交互式空间推理",
+      "url": "https://arxiv.org/abs/2606.09669",
+      "summary": "SpatialWorld构建了评估多模态Agent交互式空间推理能力的基准，聚焦真实世界任务。测试Agent能否在动态、需要交互的空间环境中进行推理和决策，而非静态的空间问答。",
+      "source": "HuggingFace Papers (June 9, 2026)",
+      "highlight": "空间推理是具身智能的核心能力。SpatialWorld的'交互式'和'真实任务'定位很关键——真实空间推理需要边交互边更新认知(参考Stream3D-VLM)。这与本周'Thinking with Imagination'、'Robots Need More than VLA'的具身智能讨论一脉相承。在Meta押注AI眼镜、OpenAI重返机器人的背景下，可靠的空间推理评估是这些应用的基础。",
+      "stars": 0,
+      "tags": ["Spatial Reasoning", "Multimodal Agent", "Interactive", "Benchmark", "Embodied AI"]
+    },
+    {
+      "id": 8,
+      "category": "paper",
+      "title": "End-to-End Context Compression at Scale：大规模端到端上下文压缩",
+      "url": "https://arxiv.org/abs/2606.09659",
+      "summary": "该论文提出大规模的端到端上下文压缩方法。在模型处理超长上下文时，通过端到端学习的压缩机制减少计算和内存开销，同时保持对关键信息的访问能力。",
+      "source": "HuggingFace Papers (June 9, 2026)",
+      "highlight": "长上下文是当前模型的标配(MiniMax M3百万token)，但成本高昂。端到端上下文压缩直接降低长上下文的开销，与Headroom(token压缩工具,3530星)、ThoughtFold(推理链折叠)、推理影子价格形成'AI成本工程'的完整技术群。在token经济崛起、某公司月花$5亿的背景下，上下文压缩是真金白银的优化。'端到端'意味着压缩策略与任务联合优化，比启发式压缩更智能。",
+      "stars": 0,
+      "tags": ["Context Compression", "Long Context", "Efficiency", "Cost Optimization", "Scaling"]
+    },
+    {
+      "id": 9,
+      "category": "paper",
+      "title": "FlashMemory-DeepSeek-V4：通过前瞻稀疏注意力实现闪电索引超长上下文",
+      "url": "https://arxiv.org/abs/2606.09079",
+      "summary": "FlashMemory-DeepSeek-V4提出'闪电索引'(Lightning Index)机制，通过前瞻稀疏注意力(Lookahead Sparse Attention)高效处理超长上下文。在DeepSeek-V4基础上实现了超长上下文的快速访问。",
+      "source": "HuggingFace Papers (June 9, 2026)",
+      "highlight": "DeepSeek-V4的技术细节披露。前瞻稀疏注意力是处理超长上下文的关键创新——不是平等关注所有token，而是智能预判哪些重要。这与端到端上下文压缩异曲同工，都在解决'长上下文又快又省'的核心矛盾。DeepSeek持续在效率方向引领开源模型，其技术对整个行业的长上下文处理有借鉴意义。",
+      "stars": 0,
+      "tags": ["DeepSeek", "Long Context", "Sparse Attention", "Lightning Index", "Efficiency"]
+    },
+    {
+      "id": 10,
+      "category": "paper",
+      "title": "人类心理测量问卷会错误刻画LLM行为",
+      "url": "https://arxiv.org/abs/2509.10078",
+      "summary": "该论文指出，用为人类设计的心理测量问卷(如人格测试、价值观量表)来评估LLM行为是有缺陷的。LLM对这类问卷的回答方式与人类有本质不同，直接套用会得出误导性结论。",
+      "source": "HuggingFace Papers (June 9, 2026)",
+      "highlight": "这是对AI评估方法论的重要警示。很多研究用人类心理学工具测量LLM的'人格''价值观''偏见'，但这篇论文指出这种做法的根本缺陷——LLM不是人，套用人类量表会误判。这呼应了RobotValues、UnpredictaBench等研究：需要为AI设计专门的评估工具，而非简单移植人类标准。对AI对齐和安全研究的严谨性有重要意义。",
+      "stars": 0,
+      "tags": ["LLM Evaluation", "Psychometrics", "Methodology", "Anthropomorphism", "AI Behavior"]
+    },
+    {
+      "id": 11,
+      "category": "repo",
+      "title": "system-prompts-and-models-of-ai-tools：30+ AI工具的系统提示词大全",
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "summary": "收录了30+主流AI工具的完整系统提示词、内部工具和AI模型信息，包括Claude Code、Cursor、Devin AI、Manus、Perplexity、Windsurf、v0等。是研究AI工具如何设计prompt的宝贵资源。",
+      "source": "GitHub Trending (June 10, 2026)",
+      "highlight": "这个仓库极具学习价值——一窥顶级AI产品的'秘密配方'。系统提示词是AI产品的核心竞争力之一，能看到Claude Code、Cursor等如何设计prompt、组织工具，对开发者构建自己的Agent极有启发。在Agent Skills/系统prompt工程成为关键能力(Taste-Skill等)的背景下，这些真实案例是最好的教材。也反映了AI产品'prompt即护城河'正在被透明化。",
+      "stars": 79,
+      "tags": ["System Prompts", "AI Tools", "Reverse Engineering", "Prompt Engineering", "Reference"]
+    },
+    {
+      "id": 12,
+      "category": "repo",
+      "title": "Career-Ops爆发增长(308→1110星)：Claude Code驱动的求职系统",
+      "url": "https://github.com/santifer/career-ops",
+      "summary": "基于Claude Code的AI求职系统从308星增长至1110星。包含14种技能模式、Go仪表盘、PDF生成和批量处理，覆盖求职全流程自动化。",
+      "source": "GitHub Trending (June 10, 2026)",
+      "highlight": "一天内308→1110(+260%)的爆发说明AI求职工具击中了痛点——尤其在Meta裁员20%、AI冲击就业的焦虑背景下，用AI优化求职极具现实意义。Career-Ops是Agent Skills垂直化的标杆：把Claude Code定制为完整的领域解决方案。14种技能模式的设计展示了如何将通用Agent能力组织为专业工作流。这是Agent应用'从工具到产品'的优秀范例。",
+      "stars": 1110,
+      "tags": ["Career", "Claude Code", "Job Search", "Agent Application", "Rapid Growth"]
+    },
+    {
+      "id": 13,
+      "category": "repo",
+      "title": "PM-Skills：产品经理Agent技能市场，100+技能涵盖全流程",
+      "url": "https://github.com/phuryn/pm-skills",
+      "summary": "PM Skills Marketplace提供100+面向产品经理的Agent技能、命令和插件，覆盖从发现、策略、执行、发布到增长的产品全流程。让AI Agent成为产品经理的得力助手。",
+      "source": "GitHub Trending (June 10, 2026)",
+      "highlight": "继Career-Ops(求职)之后，PM-Skills(产品管理)是Agent Skills垂直化的又一力作。100+技能覆盖产品全流程，说明Agent正在深入每个专业领域。806星的热度反映了知识工作者对'专业Agent技能包'的需求。这预示了一个趋势：未来每个职业都会有自己的Agent Skills生态，AI从通用助手变为'懂行的专业伙伴'。",
+      "stars": 806,
+      "tags": ["Product Management", "Agent Skills", "Marketplace", "Knowledge Work", "Vertical"]
+    },
+    {
+      "id": 14,
+      "category": "repo",
+      "title": "Tolaria：管理Markdown知识库的桌面应用",
+      "url": "https://github.com/refactoringhq/tolaria",
+      "summary": "Tolaria是一个管理Markdown知识库的桌面应用。提供组织、检索和编辑大量Markdown文档的能力，适合构建个人或团队的结构化知识管理系统。",
+      "source": "GitHub Trending (June 10, 2026)",
+      "highlight": "在AI时代，结构化的个人知识库越来越重要——它既是人类的记忆外脑，也是AI(RAG)的知识源。Tolaria以Markdown(通用、可移植、AI友好)为核心，829星的增长说明知识管理需求旺盛。这与Open-Notebook(开源NotebookLM)、SuperMemory等趋势呼应：人们想要可控、本地、AI可读的知识系统。Markdown知识库是连接人类笔记与AI助手的理想格式。",
+      "stars": 829,
+      "tags": ["Knowledge Management", "Markdown", "Desktop App", "Note-Taking", "PKM"]
+    },
+    {
+      "id": 15,
+      "category": "repo",
+      "title": "AiToEarn：用AI赚钱的工具集",
+      "url": "https://github.com/yikart/AiToEarn",
+      "summary": "AiToEarn是一个'用AI赚钱'的工具集合，整合各种AI变现的方法和工具。帮助用户探索和实践用AI技术创造收入的途径。",
+      "source": "GitHub Trending (June 10, 2026)",
+      "highlight": "在'AI让硅谷少数人暴富、其他人焦虑'的背景下，AiToEarn代表了草根用AI变现的渴望。402星的热度反映了普通人想分享AI红利的诉求。虽然'用AI赚钱'类项目良莠不齐，但这个趋势本身值得关注——AI能力的普及正在催生新的个人创收方式(如MoneyPrinterTurbo的短视频)。这是AI民主化的另一面：不只是技术下沉，还有变现机会的下沉。",
+      "stars": 402,
+      "tags": ["AI Monetization", "Tools", "Side Hustle", "Content Creation", "Democratization"]
+    }
+  ]
+}
