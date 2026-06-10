@@ -165,6 +165,94 @@
       "highlight": "在'AI让硅谷少数人暴富、其他人焦虑'的背景下，AiToEarn代表了草根用AI变现的渴望。402星的热度反映了普通人想分享AI红利的诉求。虽然'用AI赚钱'类项目良莠不齐，但这个趋势本身值得关注——AI能力的普及正在催生新的个人创收方式(如MoneyPrinterTurbo的短视频)。这是AI民主化的另一面：不只是技术下沉，还有变现机会的下沉。",
       "stars": 402,
       "tags": ["AI Monetization", "Tools", "Side Hustle", "Content Creation", "Democratization"]
+    },
+    {
+      "id": 16,
+      "category": "paper",
+      "title": "SearchSwarm：迈向Agent式LLM在长周期深度研究中的委派智能",
+      "url": "https://arxiv.org/abs/2606.09730",
+      "summary": "SearchSwarm探索Agent式LLM的'委派智能'(delegation intelligence)——在长周期深度研究任务中，主Agent如何智能地将子任务委派给一群专门的搜索Agent。研究多Agent协作中的任务分解和委派策略。",
+      "source": "HuggingFace Papers (June 10, 2026)",
+      "highlight": "'委派智能'是大规模Agent协作的核心——当Claude Opus 4.8能启动数百子Agent时，'如何聪明地分配任务'比'有多少Agent'更重要。SearchSwarm聚焦深度研究场景的委派策略，与流式通信、多Agent推理形成协作智能的研究群。这是Agent从'单兵作战'走向'军团协同'的关键能力，呼应Altman'extremely multi-agent'的判断。",
+      "stars": 0,
+      "tags": ["Multi-Agent", "Delegation", "Deep Research", "Long-Horizon", "Task Decomposition"]
+    },
+    {
+      "id": 17,
+      "category": "paper",
+      "title": "Role-Agent：通过双角色进化引导LLM Agent",
+      "url": "https://arxiv.org/abs/2606.10917",
+      "summary": "Role-Agent提出通过'双角色进化'(dual-role evolution)来引导LLM Agent的自我提升。让Agent同时扮演执行者和评估者两个角色，通过两者的交替进化实现能力的自举增长。",
+      "source": "HuggingFace Papers (June 10, 2026)",
+      "highlight": "双角色进化是一种优雅的自我改进机制——Agent既做事又评判自己做的事，在自我博弈中提升。这与本周OpenSkill、Socratic-SWE、持续经验内化的自进化主题一致。'执行者+评估者'的设计借鉴了人类的元认知(反思自己的行为)，可能比单纯的轨迹学习更有效。Agent自我进化的方法论正在快速丰富。",
+      "stars": 0,
+      "tags": ["Self-Evolution", "Dual-Role", "LLM Agent", "Self-Improvement", "Meta-Cognition"]
+    },
+    {
+      "id": 18,
+      "category": "paper",
+      "title": "回顾式Harness优化：通过轨迹自我偏好改进LLM Agent",
+      "url": "https://arxiv.org/abs/2606.05922",
+      "summary": "该论文提出'回顾式Harness优化'，通过让Agent对自己的多次轨迹推演(trajectory rollouts)进行自我偏好排序来改进。Agent回顾自己的多个尝试，识别哪个更好，从而优化其harness层(与模型交互的框架)。",
+      "source": "HuggingFace Papers (June 10, 2026)",
+      "highlight": "Harness优化是Agent工程的前沿(对应GitHub上的Harness元技能、ECC)。这篇论文用'自我偏好'方法优化harness——让Agent通过比较自己的多次尝试来学习。这是无需人类标注的自我改进路径，与Role-Agent的双角色进化思想互补。在'优化Agent harness比优化模型更高效'成为共识的背景下，这类研究有直接的工程价值。",
+      "stars": 0,
+      "tags": ["Harness Optimization", "Self-Preference", "Trajectory Rollouts", "Agent Improvement", "RL"]
+    },
+    {
+      "id": 19,
+      "category": "paper",
+      "title": "WorldOlympiad：你的世界模型能挺过'铁人三项'吗？",
+      "url": "https://arxiv.org/abs/2606.11129",
+      "summary": "WorldOlympiad提出一个综合性基准('铁人三项')来全面考验世界模型的多方面能力。不是单一任务测试，而是要求世界模型在感知、预测、推理、控制等多个维度都表现出色，才能'幸存'。",
+      "source": "HuggingFace Papers (June 10, 2026)",
+      "highlight": "世界模型本周持续火热(NVIDIA Cosmos、Latent Spatial Memory、ABot-Earth等)，但'Robots Need More than VLA and World Models'也提出了质疑。WorldOlympiad用综合性'铁人三项'回应这个争论——全面评估世界模型的真实能力边界。这种多维度严格评估对避免'单项刷分'的虚假进步很重要，帮助识别世界模型的真实短板。",
+      "stars": 0,
+      "tags": ["World Model", "Benchmark", "Comprehensive Evaluation", "Multi-Task", "Robustness"]
+    },
+    {
+      "id": 20,
+      "category": "paper",
+      "title": "EEVEE：面向自我改进Agent的真实世界测试时prompt学习",
+      "url": "https://arxiv.org/abs/2606.11182",
+      "summary": "EEVEE探索在真实世界中进行测试时(test-time)prompt学习，以实现自我改进的Agent。Agent能在实际部署运行时动态学习和优化自己的prompt，无需重新训练即可适应新环境。",
+      "source": "HuggingFace Papers (June 10, 2026)",
+      "highlight": "测试时学习(部署中实时改进)是Agent适应真实世界的关键。EEVEE让Agent在运行时优化自己的prompt——这比离线训练更灵活，能应对训练时未见的真实情况。结合RAMP(生产评估)、When Tools Fail(异常恢复)，'部署后持续适应'正成为生产级Agent的标配能力。这对应对真实世界的不可预测性至关重要。",
+      "stars": 0,
+      "tags": ["Test-Time Learning", "Prompt Learning", "Self-Improving Agent", "Real-World", "Adaptation"]
+    },
+    {
+      "id": 21,
+      "category": "paper",
+      "title": "混合LLM的注意力遗忘：CoT微调如何破坏长程记忆及修复方法",
+      "url": "https://arxiv.org/abs/2606.11052",
+      "summary": "该论文揭示了混合LLM(Hybrid LLMs)中的'注意力遗忘'现象——思维链(CoT)微调会破坏模型的长程记忆/召回能力。论文分析了这一机制并提供了修复方法，在保留CoT推理能力的同时恢复长程召回。",
+      "source": "HuggingFace Papers (June 10, 2026)",
+      "highlight": "重要的'副作用'发现：增强推理(CoT微调)竟会损害长程记忆。这是模型能力之间的隐藏权衡——鱼和熊掌的矛盾。对依赖长上下文的应用(RAG、长文档处理)是关键警示：盲目增强推理可能损害其他能力。论文提供修复方法尤其有价值。这呼应了'人类心理测量误判LLM'——需要深入理解模型机制才能避免意外退化。",
+      "stars": 0,
+      "tags": ["Hybrid LLM", "Attention", "CoT Fine-Tuning", "Long-Range Recall", "Capability Tradeoff"]
+    },
+    {
+      "id": 22,
+      "category": "paper",
+      "title": "Data Journalist Agent：将数据转化为可验证的多模态故事",
+      "url": "https://arxiv.org/abs/2606.11176",
+      "summary": "Data Journalist Agent能将原始数据自动转化为可验证的多模态新闻故事。Agent分析数据、发现洞察、生成图表和叙述，并确保每个声称都可追溯到数据源，实现数据新闻的自动化生产。",
+      "source": "HuggingFace Papers (June 10, 2026)",
+      "highlight": "数据新闻是高价值的AI应用——把枯燥数据变成有洞察的故事。'可验证'是关键创新，直接回应了德国判决(AI需为虚假内容担责)的担忧：每个声称都可追溯数据源，避免幻觉。这与Crafter(科学图表生成)、OCC-RAG(忠实回答)的方向一致。在AI内容责任日益严格的背景下，'可验证的AI生成'是合规应用的必由之路。",
+      "stars": 0,
+      "tags": ["Data Journalism", "Agent", "Multimodal", "Verifiable", "Data Storytelling"]
+    },
+    {
+      "id": 23,
+      "category": "paper",
+      "title": "ABot-Earth 0.5：生成式3D地球模型",
+      "url": "https://arxiv.org/abs/2606.09967",
+      "summary": "ABot-Earth 0.5是一个生成式3D地球模型，能生成和模拟地球的三维环境。为地理空间分析、环境模拟、自动驾驶和机器人导航等需要真实地球环境理解的应用提供基础模型。",
+      "source": "HuggingFace Papers (June 10, 2026)",
+      "highlight": "将世界模型扩展到'整个地球'尺度是雄心勃勃的方向。ABot-Earth可能用于气候模拟、城市规划、灾害预测、自动驾驶地图等宏观场景。这与NVIDIA Cosmos(物理AI)、OmniDreams(自动驾驶仿真)形成不同尺度的世界模型矩阵——从房间级到地球级。生成式地球模型若成熟，对地理科学和大规模环境AI应用有深远价值。",
+      "stars": 0,
+      "tags": ["Earth Model", "Generative 3D", "World Model", "Geospatial", "Simulation"]
     }
   ]
 }
