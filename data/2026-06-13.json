@@ -165,6 +165,94 @@
       "highlight": "医疗是AI最有价值也最敏感的应用领域。OpenMed的'开源'定位很关键——医疗AI需要透明、可审计、可信任，闭源黑盒难以满足这些要求。结合AutoMedBench(医学研究Agent)、Mythos 5(自主设计药物)的趋势，医疗AI正在快速发展。开源方案让医院、研究机构能在保护数据隐私的前提下部署医疗AI，515星反映了这个领域的活跃需求。",
       "stars": 515,
       "tags": ["Medical AI", "Healthcare", "Open Source", "Clinical", "Transparency"]
+    },
+    {
+      "id": 16,
+      "category": "news",
+      "title": "Mistral将Le Chat更名为Vibe，押注聊天机器人的未来是'全能工作Agent'",
+      "url": "https://the-decoder.com/mistral-rebrands-lechat-as-vibe-betting-its-chatbots-future-is-as-a-full-blown-work-agent/",
+      "summary": "Mistral将聊天机器人Le Chat更名为Vibe，将聊天、编程Agent和新的'工作模式'(Work Mode)整合到一个品牌下。工作模式可对接Google Workspace、Outlook、Slack或GitHub，独立处理邮件、报告或PR等任务。Mistral以此更直接地对抗OpenAI、Google和Anthropic的Agent产品。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "从'聊天机器人'到'工作Agent'的品牌重塑反映了行业共识：AI的未来是干活而非聊天。Vibe的Work Mode对接主流办公工具(Workspace/Slack/GitHub)，意味着AI Agent直接嵌入工作流。这与OpenAI超级应用、Anthropic Cowork的方向一致——AI巨头都在抢占'AI工作平台'入口。Mistral作为欧洲代表，产品策略紧跟前沿，体现了欧洲AI主权不只是口号。",
+      "stars": 0,
+      "tags": ["Mistral", "Vibe", "Work Agent", "Rebranding", "Workflow Integration", "Europe"]
+    },
+    {
+      "id": 17,
+      "category": "news",
+      "title": "Mistral推出Mistral Compute：为欧洲机构提供私有AI基础设施",
+      "url": "https://the-decoder.com/mistral-ai-launches-mistral-compute-to-deliver-private-ai-infrastructure-for-european-institutions/",
+      "summary": "Mistral AI推出Mistral Compute，一个为政府、企业和研究机构提供私有AI基础设施的新平台。让欧洲机构能在自主可控的基础设施上部署AI，无需依赖美国云厂商。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "Mistral Compute是欧洲AI主权的关键拼图——不只是模型，还要掌控基础设施。'私有AI基础设施'对政府和敏感行业至关重要(数据不出境、不依赖美国云)。结合ASML投资、830M数据中心，Mistral正在构建'欧洲版'的全栈AI能力(模型+算力+平台)。这与美国(AWS/Azure)、中国的AI云形成三足鼎立，AI基础设施的地缘分化在加速。",
+      "stars": 0,
+      "tags": ["Mistral", "Mistral Compute", "Private Infrastructure", "Europe", "AI Sovereignty", "Cloud"]
+    },
+    {
+      "id": 18,
+      "category": "news",
+      "title": "Mistral借款8.3亿美元在巴黎附近运营新数据中心(近1.4万块GPU)",
+      "url": "https://the-decoder.com/mistral-ai-borrows-830-million-dollars-to-operate-a-new-data-center-near-paris/",
+      "summary": "Mistral AI借款8.3亿美元在巴黎附近建设数据中心，配备近1.4万块NVIDIA GPU。银行愿意提供贷款，但对一家可能尚未盈利的创业公司而言风险显著。这是Mistral扩张算力的激进举措。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "8.3亿美元债务融资建数据中心，对未盈利创业公司是高风险赌注，但也显示了Mistral扩张算力的决心。与美国巨头的循环投资(Amazon-Anthropic)不同，Mistral用债务融资——反映了欧洲AI在资本结构上的差异。1.4万GPU虽不及Anthropic的22万(SpaceX Colossus)，但对欧洲本土AI已是重要算力。算力自主是AI主权的硬性前提。",
+      "stars": 0,
+      "tags": ["Mistral", "Data Center", "GPU", "Debt Financing", "Europe", "Compute"]
+    },
+    {
+      "id": 19,
+      "category": "paper",
+      "title": "EvoArena：追踪记忆演化以构建动态环境中的鲁棒LLM Agent",
+      "url": "https://arxiv.org/abs/2606.13681",
+      "summary": "EvoArena提出追踪记忆演化的方法，用于构建在动态环境中保持鲁棒性的LLM Agent。通过监控Agent记忆随环境变化的演化过程，确保Agent在不断变化的真实环境中维持可靠表现。",
+      "source": "HuggingFace Papers (June 13, 2026)",
+      "highlight": "动态环境中的Agent鲁棒性是生产部署的核心挑战(呼应When Tools Fail、RAMP)。EvoArena聚焦'记忆演化'——环境变了，Agent的记忆也要相应更新而非僵化或混乱。这与SubtleMemory、Echo-Memory等Agent记忆研究形成体系。在Agent需要长期运行(对抗'老化')的背景下，理解和管理记忆的动态演化是关键能力。",
+      "stars": 0,
+      "tags": ["Agent Memory", "Memory Evolution", "Robustness", "Dynamic Environment", "LLM Agent"]
+    },
+    {
+      "id": 20,
+      "category": "paper",
+      "title": "InterleaveThinker：强化Agent式交错生成",
+      "url": "https://arxiv.org/abs/2606.13679",
+      "summary": "InterleaveThinker通过强化学习增强Agent的'交错生成'(interleaved generation)能力——让Agent在思考、行动、观察之间灵活交错切换，而非僵化地按固定顺序执行。实现更自然、更高效的Agent推理-行动循环。",
+      "source": "HuggingFace Papers (June 13, 2026)",
+      "highlight": "交错生成是高级Agent行为的标志——像人类一样'想一点、做一点、看一点'地灵活切换，而非机械的'想完再做'。InterleaveThinker用RL强化这种能力，与Streaming Communication(流式通信)、ThoughtFold(推理折叠)共同推进Agent推理的效率和灵活性。这对处理复杂、需要动态调整的任务尤为重要。",
+      "stars": 0,
+      "tags": ["Interleaved Generation", "Agent Reasoning", "RL", "Think-Act-Observe", "Efficiency"]
+    },
+    {
+      "id": 21,
+      "category": "paper",
+      "title": "WeaveBench：混合界面计算机操作Agent的长周期真实世界基准",
+      "url": "https://arxiv.org/abs/2606.09426",
+      "summary": "WeaveBench构建了评估计算机操作(Computer-Use)Agent的长周期真实世界基准，特点是'混合界面'(hybrid interfaces)——Agent需要在GUI、命令行、API等多种界面间切换协作完成复杂任务。",
+      "source": "HuggingFace Papers (June 13, 2026)",
+      "highlight": "真实的计算机操作往往需要跨界面(点GUI、敲命令、调API)。WeaveBench的'混合界面+长周期'定位贴近真实工作场景，比单一界面测试更有挑战性。这与AutoLab、AdaPlanBench共同推进Agent在真实复杂任务上的评估。Computer-Use Agent是AI替代知识工作的关键形态，可靠的评估基准对其发展至关重要。",
+      "stars": 0,
+      "tags": ["Computer Use", "Benchmark", "Hybrid Interface", "Long-Horizon", "Agent"]
+    },
+    {
+      "id": 22,
+      "category": "paper",
+      "title": "HYDRA-X：带整体视觉Tokenizer的原生统一多模态模型",
+      "url": "https://arxiv.org/abs/2606.13289",
+      "summary": "HYDRA-X提出带'整体视觉Tokenizer'(Holistic Visual Tokenizers)的原生统一多模态模型。通过更好的视觉token化方式，让模型从架构层面原生地理解和生成多种模态，而非后期拼接。",
+      "source": "HuggingFace Papers (June 13, 2026)",
+      "highlight": "原生多模态(而非拼装)是本周的持续主题(Representation Forcing、From Pixels to Words)。HYDRA-X的'整体视觉Tokenizer'是关键创新——视觉token化的质量直接决定多模态理解的上限。在Gemma 4(原生多模态)、VoxCPM(无tokenizer TTS)的趋势下，'如何更好地token化非文本模态'是统一多模态模型的核心技术问题。",
+      "stars": 0,
+      "tags": ["Multimodal", "Visual Tokenizer", "Unified Model", "Native", "Architecture"]
+    },
+    {
+      "id": 23,
+      "category": "paper",
+      "title": "揭秘隐状态循环：通过On-Policy强化学习实现可切换的潜在推理",
+      "url": "https://arxiv.org/abs/2606.13106",
+      "summary": "该论文揭秘了模型隐状态循环(hidden-state recurrence)的机制，提出通过on-policy强化学习实现'可切换的潜在推理'(switchable latent reasoning)。让模型能在显式推理(输出思维链)和隐式推理(内部潜在计算)之间灵活切换。",
+      "source": "HuggingFace Papers (June 13, 2026)",
+      "highlight": "推理不一定要'说出来'——潜在推理(在内部隐状态中思考)可能更高效。'可切换'是关键：简单问题用快速隐式推理，复杂问题才展开显式思维链。这与推理影子价格(何时该多想)、ThoughtFold(推理折叠)的成本优化思路一致。理解隐状态循环机制对设计更高效的推理模型有深远意义，可能是降低推理成本的新路径。",
+      "stars": 0,
+      "tags": ["Latent Reasoning", "Hidden-State Recurrence", "RL", "Switchable", "Efficiency"]
     }
   ]
 }
