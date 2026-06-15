@@ -1,0 +1,170 @@
+{
+  "date": "2026-06-15",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "Anthropic发布Claude Fable 5：SWE-bench达95%但价格翻倍、9%请求被过滤",
+      "url": "https://the-decoder.com/claude-fable-5-the-first-mythos-model-is-powerful-expensive-and-heavily-filtered/",
+      "summary": "Anthropic发布Claude Fable 5——新Mythos类的首个模型。它在几乎所有基准上领先，包括SWE-bench Verified达95%，但价格是Opus 4.8的两倍($10/$50每百万token)。严格的安全过滤阻止约9%的请求，新的30天数据保留政策甚至适用于零数据保留合同。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "Fable 5的95% SWE-bench是编程能力的新高峰，但'强大、昂贵、重度过滤'三个标签揭示了前沿模型的权衡。9%请求被拦截反映了Mythos类的双重用途风险(可设计药物也能做网络武器)。30天数据保留(覆盖零保留合同)引发隐私争议——这是安全监控的代价。能力越强，安全约束越严，成本越高，这是前沿模型的'不可能三角'。",
+      "stars": 0,
+      "tags": ["Anthropic", "Claude Fable 5", "SWE-bench", "Safety Filter", "Pricing", "Data Retention"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "OpenAI IPO推迟：Altman告诉员工'一年内'上市，可能延至2027",
+      "url": "https://the-decoder.com/openais-ipo-slips-as-altman-tells-staff-to-expect-a-public-offering-within-the-next-year/",
+      "summary": "Sam Altman告诉员工他预计OpenAI将'在一年内'IPO，但可能推迟到2027年。他将其框定为对自我改进AI的谨慎，不过Anthropic更强的增长数据和即将到来的IPO可能才是真正的等待原因。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "OpenAI IPO推迟与Anthropic抢先(已提交SEC)形成对比。Altman用'对自我改进AI谨慎'作解释，但分析指出真实原因可能是Anthropic更亮眼的增长(估值反超、收入450亿)让OpenAI不想在不利对比下上市。AI两巨头的IPO博弈反映了资本市场的微妙时机——谁先上、以什么估值上，关乎话语权和后续融资。",
+      "stars": 0,
+      "tags": ["OpenAI", "IPO", "Sam Altman", "Anthropic", "Public Offering", "Competition"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "OpenAI转向：'完全自动化一切不是我们想要的未来'，呼吁人机协同",
+      "url": "https://the-decoder.com/openai-says-entirely-automating-everything-is-not-the-future-we-want/",
+      "summary": "OpenAI正在收回2028年实现完全自主AI研究的目标，现在谈论人与机器之间的'串联'(tandem)。Altman和Pachocki还呼吁建立一个国际机构，必要时可以减缓前沿AI的发展。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "OpenAI从'全自动化'立场后撤是重要的态度转变。'人机串联'而非'AI取代人'的表述，与Anthropic的'AI暂停按钮'呼吁趋同——两大巨头都在为AI发展踩刹车、要国际监管机构。这反映了前沿实验室对自我改进AI风险的真实担忧(Claude写90%代码、Fable 5的能力)。当能力逼近临界点，'要不要继续全速前进'成了行业的集体焦虑。",
+      "stars": 0,
+      "tags": ["OpenAI", "Automation", "Human-AI Tandem", "AI Governance", "International Body", "Safety"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "微软SkillOpt：仅用一个训练过的Markdown文件就让GPT-5.5提升23分",
+      "url": "https://the-decoder.com/microsofts-skillopt-boosts-gpt-5-5-by-using-nothing-but-a-trained-markdown-file/",
+      "summary": "微软和三所中国大学开发了SkillOpt——一种用传统模型训练原理来优化AI Agent指令文档的方法。一个简单的Markdown文件就能让GPT-5.5在流程性任务上提升约23分，且同一文件可跨模型和Agent环境(如Codex和Claude Code)迁移。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "SkillOpt是Agent Skills领域的突破性方法——把'写技能文件'从手工艺变成可优化的科学。23分提升+跨模型迁移意味着一个优化好的Markdown技能文件极具价值且通用。这从理论上验证了Agent Skills生态(Taste-Skill/ECC/agent-skills等)的合理性：系统prompt/技能文件确实能像模型权重一样被'训练'优化。这可能催生'技能文件优化即服务'的新范式。",
+      "stars": 0,
+      "tags": ["Microsoft", "SkillOpt", "Agent Skills", "Prompt Optimization", "Markdown", "Transfer"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "陶哲轩：AI可能为数学带来历史上首次'分工'",
+      "url": "https://the-decoder.com/terence-tao-argues-ai-could-bring-division-of-labor-to-math-for-the-first-time-in-history/",
+      "summary": "数学家陶哲轩描述了AI如何通过首次实现'分工'重塑数学研究。此前研究者必须自己掌握每个步骤——从提出问题到验证结果。陶哲轩预见'工业化数学'的出现：大型AI支持的团队取代孤独的天才，而人类在'有灵感的猜测'上仍不可或缺。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "陶哲轩深化了其'工业化数学'愿景，核心洞察是'分工'——数学史上第一次，研究者不必精通所有环节。AI处理验证、计算、搜索，人类专注于'有灵感的猜测'(创造性飞跃)。这与MaxProof(群体级数学证明)的工程实现呼应。这种'人类提供直觉+AI执行'的分工模式可能适用于所有创造性领域，重新定义人类在AI时代的独特价值。",
+      "stars": 0,
+      "tags": ["Terence Tao", "Mathematics", "Division of Labor", "Industrial Math", "Human-AI Collaboration"]
+    },
+    {
+      "id": 6,
+      "category": "paper",
+      "title": "SpatialClaw：重新思考Agent式空间推理的动作接口",
+      "url": "https://arxiv.org/abs/2606.13673",
+      "summary": "SpatialClaw重新思考了Agent进行空间推理时的'动作接口'(action interface)。研究Agent应该用什么样的动作原语来与空间环境交互，才能最有效地进行空间推理和操作。",
+      "source": "HuggingFace Papers (June 14, 2026)",
+      "highlight": "动作接口的设计是具身Agent的关键却常被忽视——Agent能想清楚不等于能表达清楚动作。SpatialClaw关注'用什么动作语言'，与SpatialWorld(空间推理评估)、Stream3D-VLM形成空间智能技术群。好的动作接口能让空间推理能力真正转化为有效操作。这对机器人、AR/VR、游戏Agent等需要空间交互的应用有基础性价值。",
+      "stars": 0,
+      "tags": ["Spatial Reasoning", "Action Interface", "Agent", "Embodied AI", "Interaction"]
+    },
+    {
+      "id": 7,
+      "category": "paper",
+      "title": "FORT-Searcher：合成抗捷径的搜索任务训练深度搜索Agent",
+      "url": "https://arxiv.org/abs/2606.12087",
+      "summary": "FORT-Searcher通过合成'抗捷径'(shortcut-resistant)的搜索任务来训练深度搜索Agent。防止Agent学会投机取巧的捷径(如猜答案、走表面模式)，强制它真正进行深度搜索和推理。",
+      "source": "HuggingFace Papers (June 14, 2026)",
+      "highlight": "'抗捷径'直击Agent训练的核心问题——AI很会钻空子(reward hacking)，找到表面规律而非真正解决问题。FORT-Searcher用精心设计的任务堵住捷径，逼Agent学会真本事。这与SWE-Explore(代码探索)、深度研究Agent的方向一致。在Agent能力评估容易被'刷分'的背景下，抗捷径的训练方法对培养真正可靠的搜索Agent至关重要。",
+      "stars": 0,
+      "tags": ["Search Agent", "Shortcut-Resistant", "Training", "Deep Search", "Reward Hacking"]
+    },
+    {
+      "id": 8,
+      "category": "paper",
+      "title": "VIA-SD：通过模型内路由验证实现推测解码",
+      "url": "https://arxiv.org/abs/2606.12243",
+      "summary": "VIA-SD提出通过'模型内路由'(intra-model routing)进行验证的推测解码方法。利用模型内部不同部分的路由机制来验证草稿，避免了传统推测解码需要独立验证模型的开销。",
+      "source": "HuggingFace Papers (June 14, 2026)",
+      "highlight": "推测解码是降低推理成本的关键技术(此前有Domino)。VIA-SD的创新在于'模型内验证'——不需要额外的验证模型，用模型自身的内部路由就能验证草稿。在价格战(OpenAI vs Anthropic)、token经济的背景下，推理加速直接转化为成本优势。这类'用更少资源做同样事'的优化，是AI规模化部署的经济学基础。",
+      "stars": 0,
+      "tags": ["Speculative Decoding", "Intra-Model Routing", "Inference Speed", "Efficiency", "Verification"]
+    },
+    {
+      "id": 9,
+      "category": "paper",
+      "title": "从2D网格到1D token：为多模态图像融合改造共享表示",
+      "url": "https://arxiv.org/abs/2606.12303",
+      "summary": "该论文提出将图像从2D网格表示改造为1D token表示，以改善多模态图像融合。这种统一的token化方式让图像能更好地与文本等其他模态在共享表示空间中融合。",
+      "source": "HuggingFace Papers (June 14, 2026)",
+      "highlight": "图像表示方式是多模态融合的底层问题。将2D网格转为1D token(类似文本)，让图像和文本在同一表示空间更自然地融合，呼应HYDRA-X(视觉Tokenizer)、原生多模态的趋势。这种'统一表示'的思路是构建真正原生多模态模型的基础——不同模态用同一种'语言'(token)表达，才能实现深度跨模态推理。",
+      "stars": 0,
+      "tags": ["Multimodal", "Image Tokenization", "1D Tokens", "Image Fusion", "Shared Representation"]
+    },
+    {
+      "id": 10,
+      "category": "paper",
+      "title": "Robust-U1：多模态LLM能自我恢复受损视觉内容以实现鲁棒理解吗？",
+      "url": "https://arxiv.org/abs/2606.08063",
+      "summary": "Robust-U1研究多模态LLM能否自我恢复受损的视觉内容(如模糊、遮挡、噪声的图像)以实现鲁棒理解。测试模型在面对不完美视觉输入时，能否'脑补'缺失信息并正确理解。",
+      "source": "HuggingFace Papers (June 14, 2026)",
+      "highlight": "真实世界的视觉输入往往不完美——模糊、遮挡、低光照。Robust-U1关注模型的'视觉鲁棒性'，这对实际应用(如Meta超感知眼镜、自动驾驶、机器人)至关重要。人类能从残缺图像推断完整场景，AI也需要这种能力。这与DenoiseRL(从噪声恢复推理)的思想一致——鲁棒性是AI从demo走向真实部署的关键门槛。",
+      "stars": 0,
+      "tags": ["Multimodal", "Visual Robustness", "Self-Recovery", "Corrupted Input", "Understanding"]
+    },
+    {
+      "id": 11,
+      "category": "repo",
+      "title": "NVIDIA SkillSpector：AI Agent技能的安全扫描器",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "summary": "NVIDIA发布SkillSpector，一个专门扫描AI Agent技能(skills)安全性的工具。能检测Agent技能文件中的漏洞、恶意模式和安全风险，保护Agent系统免受恶意技能的攻击。",
+      "source": "GitHub Trending (June 15, 2026)",
+      "highlight": "随着Agent Skills生态爆发(本周SkillOpt、agent-skills、Google Skills等)，'技能安全'成为新的攻击面——恶意技能文件可能让Agent执行危险操作。NVIDIA SkillSpector填补了这个安全空白，964星的高热度说明业界对Agent安全的重视。结合Meta的rogue agent事故、Claude Mythos的漏洞发现能力，'Agent技能安全扫描'正成为Agent部署的必备环节。这是Agent生态成熟的标志。",
+      "stars": 964,
+      "tags": ["NVIDIA", "Agent Security", "Skill Scanner", "Vulnerability", "Agent Skills", "Security"]
+    },
+    {
+      "id": 12,
+      "category": "repo",
+      "title": "Chatwoot：开源全渠道客服平台，Intercom/Zendesk的替代品",
+      "url": "https://github.com/chatwoot/chatwoot",
+      "summary": "Chatwoot是开源的实时聊天、邮件支持、全渠道客服平台，是Intercom、Zendesk、Salesforce Service Cloud的替代品。在AI时代，可集成AI Agent实现智能客服自动化。",
+      "source": "GitHub Trending (June 15, 2026)",
+      "highlight": "客服是AI Agent最成熟的商业化场景之一。Chatwoot作为开源客服平台，是部署AI客服Agent的理想载体——企业可以在自主可控的平台上集成AI(对接Mistral Vibe、Claude等)。在SoCRATES(AI调解)、Agent化趋势下，'开源客服+AI Agent'的组合让中小企业也能拥有智能客服。400星的稳定增长反映了对开源客服基础设施的持续需求。",
+      "stars": 400,
+      "tags": ["Customer Service", "Open Source", "Omnichannel", "AI Integration", "Live Chat"]
+    },
+    {
+      "id": 13,
+      "category": "repo",
+      "title": "Kronos：金融市场语言基础模型(回归Trending)",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "summary": "Kronos是专为金融市场设计的基础模型，理解市场的'语言'(价格序列、市场事件、交易模式)。本周再次回归Trending(244星)，反映金融AI的持续热度。",
+      "source": "GitHub Trending (June 15, 2026)",
+      "highlight": "Kronos再次上榜(此前5月底也曾trending)说明金融AI的需求持续旺盛。结合TradingAgents(多Agent交易)的趋势，金融领域的领域特定基础模型正在成熟。金融数据结构化程度高、价值密度大，适合AI建模。但金融AI也需谨慎——市场的非平稳性和黑天鹅事件对模型是严峻考验。Kronos的持续关注反映了量化金融从业者对AI工具的探索热情。",
+      "stars": 244,
+      "tags": ["Finance", "Foundation Model", "Quantitative", "Market Analysis", "Domain-Specific"]
+    },
+    {
+      "id": 14,
+      "category": "paper",
+      "title": "N-GRPO：嵌入级邻居混合增强策略优化",
+      "url": "https://arxiv.org/abs/2606.10768",
+      "summary": "N-GRPO提出在嵌入层面进行'邻居混合'(neighbor mixing)来增强策略优化(基于GRPO)。通过在嵌入空间混合相邻样本的信息，改善强化学习训练的稳定性和效果。",
+      "source": "HuggingFace Papers (June 14, 2026)",
+      "highlight": "GRPO是当前LLM强化学习的主流方法(DeepSeek等广泛使用)。N-GRPO的'嵌入级邻居混合'是对这一基础方法的改进，提升训练稳定性。在Agent通过RL自我进化(本周大量相关论文)的背景下，更好的策略优化算法直接影响Agent的训练效率和最终能力。这类底层算法改进虽不显眼，但对整个RL训练生态有广泛的实际影响。",
+      "stars": 0,
+      "tags": ["GRPO", "Policy Optimization", "RL", "Embedding", "Neighbor Mixing", "Training"]
+    },
+    {
+      "id": 15,
+      "category": "repo",
+      "title": "Introduction to Autonomous Robots：自主机器人入门开源教材",
+      "url": "https://github.com/Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots",
+      "summary": "《自主机器人导论》开源教材，系统讲解自主机器人的核心概念——感知、规划、控制、学习等。是学习机器人学和具身智能的优质免费资源。",
+      "source": "GitHub Trending (June 15, 2026)",
+      "highlight": "在具身智能爆发(OpenAI重返机器人、Qwen-VLA、Humanoid-GPT、LabVLA)的背景下，这本机器人入门教材的上榜很有意义——大量开发者想进入机器人/具身AI领域。理解机器人学基础(感知-规划-控制)是构建VLA、世界模型等前沿系统的前提。这呼应了'Coding Interview University'(CS基础)的趋势：AI时代，扎实的领域基础知识反而更受重视。",
+      "stars": 293,
+      "tags": ["Robotics", "Education", "Autonomous Robots", "Textbook", "Embodied AI", "Open Source"]
+    }
+  ]
+}
