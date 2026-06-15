@@ -165,6 +165,94 @@
       "highlight": "在具身智能爆发(OpenAI重返机器人、Qwen-VLA、Humanoid-GPT、LabVLA)的背景下，这本机器人入门教材的上榜很有意义——大量开发者想进入机器人/具身AI领域。理解机器人学基础(感知-规划-控制)是构建VLA、世界模型等前沿系统的前提。这呼应了'Coding Interview University'(CS基础)的趋势：AI时代，扎实的领域基础知识反而更受重视。",
       "stars": 293,
       "tags": ["Robotics", "Education", "Autonomous Robots", "Textbook", "Embodied AI", "Open Source"]
+    },
+    {
+      "id": 16,
+      "category": "paper",
+      "title": "从聊天机器人到数字同事：迈向持久自主AI的范式转变",
+      "url": "https://arxiv.org/abs/2606.14502",
+      "summary": "该论文系统论述了AI从'聊天机器人'到'数字同事'的范式转变——从被动响应的对话工具，转向持久运行、自主工作的AI同事。分析了实现持久自主AI所需的关键能力(记忆、自主性、长期目标)。",
+      "source": "HuggingFace Papers (June 15, 2026)",
+      "highlight": "这篇论文精准概括了本周的核心主题——AI正从'chatbot'变为'digital colleague'(呼应Mistral Vibe的Work Agent、Perplexity Personal Computer)。'持久自主'意味着AI不再是用完即走的工具，而是持续存在、积累经验、主动工作的同事。这是AI商业模式(订阅→消费)、技术能力(记忆、自主)、社会影响(就业)变革的统一框架。理解这个范式转变对把握AI发展方向至关重要。",
+      "stars": 0,
+      "tags": ["Digital Colleague", "Persistent AI", "Autonomous", "Paradigm Shift", "Agent"]
+    },
+    {
+      "id": 17,
+      "category": "paper",
+      "title": "From AGI to ASI：从通用人工智能到超级人工智能",
+      "url": "https://arxiv.org/abs/2606.12683",
+      "summary": "该论文探讨了从AGI(通用人工智能)到ASI(超级人工智能)的演进路径和关键问题。分析了超越人类水平智能的可能机制、风险和治理挑战，为理解AI能力的终极发展提供框架。",
+      "source": "HuggingFace Papers (June 15, 2026)",
+      "highlight": "在Claude写90%代码、自我改进AI临近的背景下，'从AGI到ASI'的讨论从科幻变成了严肃的研究议题。这与OpenAI/Anthropic呼吁'暂停按钮'和国际监管的态度直接相关——如果ASI可能出现，治理刻不容缓。这篇论文为思考AI的终极发展和风险提供了系统框架。无论时间表如何，提前思考ASI的机制和治理是负责任的做法。",
+      "stars": 0,
+      "tags": ["AGI", "ASI", "Superintelligence", "AI Safety", "Governance"]
+    },
+    {
+      "id": 18,
+      "category": "paper",
+      "title": "HarnessX：可组合、自适应、可进化的Agent Harness铸造厂",
+      "url": "https://arxiv.org/abs/2606.14249",
+      "summary": "HarnessX提出一个可组合(composable)、自适应(adaptive)、可进化(evolvable)的Agent Harness框架('铸造厂')。让开发者能灵活构建、调整和进化Agent的harness层(与模型交互的框架结构)。",
+      "source": "HuggingFace Papers (June 15, 2026)",
+      "highlight": "Agent Harness是本周的高频主题(Harness-1、回顾式Harness优化、GitHub上的Harness元技能)。HarnessX将其系统化为'铸造厂'——可组合、自适应、可进化三大特性覆盖了harness工程的核心需求。这印证了'优化harness比优化模型更高效'的行业共识。配合SkillOpt(技能优化)，Agent的'外围工程'(harness+skills)正在成为与模型本身同等重要的能力维度。",
+      "stars": 0,
+      "tags": ["Agent Harness", "Composable", "Evolvable", "Framework", "Agent Engineering"]
+    },
+    {
+      "id": 19,
+      "category": "paper",
+      "title": "记忆是重建而非检索：面向LLM Agent的图记忆",
+      "url": "https://arxiv.org/abs/2606.06036",
+      "summary": "该论文提出'记忆是重建而非检索'的观点(借鉴认知科学)，为LLM Agent设计图记忆(Graph Memory)系统。不同于简单的存储-检索，图记忆通过关系网络'重建'记忆，更接近人类记忆的工作方式。",
+      "source": "HuggingFace Papers (June 15, 2026)",
+      "highlight": "深刻的认知科学洞察：人类记忆不是'读取存档'而是'每次重建'。这呼应了之前'Rethinking Memory as Continuously Evolving Connectivity'的思想。图记忆让Agent的记忆成为动态关系网络而非静态存储，能支持更灵活的联想和推理。在Agent记忆研究密集(SubtleMemory、EvoArena、MemPalace)的背景下，'重建式图记忆'代表了记忆架构的前沿方向。",
+      "stars": 0,
+      "tags": ["Agent Memory", "Graph Memory", "Reconstruction", "Cognitive Science", "LLM Agent"]
+    },
+    {
+      "id": 20,
+      "category": "paper",
+      "title": "Orchestra-o1：全模态Agent编排",
+      "url": "https://arxiv.org/abs/2606.13707",
+      "summary": "Orchestra-o1提出全模态(omnimodal)的Agent编排框架。能协调处理文本、图像、音频、视频等多种模态的Agent协同工作，实现跨模态的复杂任务编排。",
+      "source": "HuggingFace Papers (June 15, 2026)",
+      "highlight": "Agent编排是大规模多Agent系统的核心(呼应SearchSwarm的委派智能、Altman的extremely multi-agent)。Orchestra-o1的'全模态'特性意味着能编排处理不同模态的专业Agent——文本Agent、视觉Agent、音频Agent协同。这是构建复杂AI系统的关键能力。随着单模态Agent成熟，'如何编排多个异构Agent'成为下一个工程挑战。",
+      "stars": 0,
+      "tags": ["Agent Orchestration", "Omnimodal", "Multi-Agent", "Coordination", "Cross-Modal"]
+    },
+    {
+      "id": 21,
+      "category": "paper",
+      "title": "LLM Agent能看懂代码仓库",
+      "url": "https://arxiv.org/abs/2606.14061",
+      "summary": "该论文研究LLM Agent理解整个代码仓库的能力——不只是单个文件，而是把握仓库的整体结构、模块关系和代码逻辑。为编程Agent处理大型真实代码库提供方法。",
+      "source": "HuggingFace Papers (June 15, 2026)",
+      "highlight": "理解整个代码库是编程Agent的核心挑战(呼应SWE-Explore、GrepSeek、Understand-Anything)。在Fable 5达成95% SWE-bench、Claude写90%代码的背景下，'看懂仓库'是这些壮举的前提——只有理解全局才能正确修改。这对处理大型企业代码库、完成跨文件的复杂重构(如Fable 5的Stripe迁移)至关重要。代码理解能力的提升直接推动AI编程的实用边界。",
+      "stars": 0,
+      "tags": ["Code Repository", "LLM Agent", "Code Understanding", "Software Engineering", "Repository-Level"]
+    },
+    {
+      "id": 22,
+      "category": "paper",
+      "title": "RedAct：编辑Agent能力轨迹以保护流程性技能",
+      "url": "https://arxiv.org/abs/2606.10813",
+      "summary": "RedAct提出编辑(redacting)Agent能力轨迹的方法，以保护流程性技能(procedural skills)不被泄露或窃取。在Agent协作或共享轨迹时，隐藏核心的技能know-how，防止能力被逆向复制。",
+      "source": "HuggingFace Papers (June 15, 2026)",
+      "highlight": "随着Agent Skills成为核心竞争力(SkillOpt证明技能文件价值巨大)，'技能保护'成为新问题——如何分享Agent能力又不泄露know-how？RedAct从轨迹层面保护技能，与NVIDIA SkillSpector(技能安全扫描)形成Agent安全的两面：一个防恶意技能，一个保护自有技能。这反映了Agent Skills的'资产化'——技能既是资产就需要保护机制。",
+      "stars": 0,
+      "tags": ["Skill Protection", "Agent Security", "Procedural Skills", "Trace Redaction", "IP Protection"]
+    },
+    {
+      "id": 23,
+      "category": "paper",
+      "title": "跳过一层还是循环它？在LLM中学习'层程序'",
+      "url": "https://arxiv.org/abs/2606.06574",
+      "summary": "该论文探索LLM的'层程序'(Program-of-Layers)——让模型学会动态决定是跳过某一层还是循环执行它。不同的输入可能需要不同的'层执行程序'，实现计算的自适应分配。",
+      "source": "HuggingFace Papers (June 15, 2026)",
+      "highlight": "这是模型架构层面的'自适应计算'创新——简单输入跳过层(省算力)，复杂输入循环层(增强推理)。与可切换潜在推理、推理影子价格的思想一致：让模型按需分配计算。'Program-of-Layers'的概念很优雅——模型不只是固定的前向传播，而是能'编程'自己的计算路径。这对推理效率优化是有前景的方向。",
+      "stars": 0,
+      "tags": ["Model Architecture", "Adaptive Computation", "Layer Skipping", "Efficiency", "Dynamic Inference"]
     }
   ]
 }
