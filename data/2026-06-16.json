@@ -1,0 +1,170 @@
+{
+  "date": "2026-06-16",
+  "items": [
+    {
+      "id": 1,
+      "category": "paper",
+      "title": "APPO：Agent式流程策略优化",
+      "url": "https://arxiv.org/abs/2606.12384",
+      "summary": "APPO(Agentic Procedural Policy Optimization)提出针对Agent流程性任务的策略优化方法。专门优化Agent执行多步流程(procedural)任务的策略，提升Agent在需要严格步骤顺序的任务上的可靠性。",
+      "source": "HuggingFace Papers (June 15, 2026)",
+      "highlight": "流程性任务(按特定步骤完成)是Agent的常见但棘手场景——一步错则全错。APPO针对性优化流程策略，与微软SkillOpt(优化流程任务+23分)的方向呼应。在Agent处理真实工作流(如Mistral Vibe的邮件/PR处理)的背景下，可靠的流程执行能力是Agent从'演示'走向'生产'的关键。这类专门优化方法是Agent工程精细化的体现。",
+      "stars": 0,
+      "tags": ["Agent", "Procedural", "Policy Optimization", "RL", "Workflow"]
+    },
+    {
+      "id": 2,
+      "category": "paper",
+      "title": "衡量LLM在误导性医学语境下的认知韧性",
+      "url": "https://arxiv.org/abs/2606.12291",
+      "summary": "该论文研究LLM在面对误导性医学信息时的'认知韧性'(epistemic resilience)——当输入包含错误或诱导性的医学声称时，模型能否坚持正确判断而不被带偏。这对医疗AI的安全性至关重要。",
+      "source": "HuggingFace Papers (June 15, 2026)",
+      "highlight": "医疗AI的安全底线：不能被误导信息带偏。在OpenMed、Mythos 5(设计药物)、医疗AI快速发展的背景下，'认知韧性'是医疗AI可信部署的关键——患者可能提供错误信息，AI不能盲从。这与Robust-U1(视觉鲁棒性)、德国AI担责判决的方向一致：高风险领域的AI必须经得起对抗性和误导性输入的考验。这是医疗AI落地的重要安全研究。",
+      "stars": 0,
+      "tags": ["Medical AI", "Epistemic Resilience", "Robustness", "Misinformation", "Safety"]
+    },
+    {
+      "id": 3,
+      "category": "paper",
+      "title": "重新思考长视频中的RAG：检索什么、如何使用？",
+      "url": "https://arxiv.org/abs/2606.13141",
+      "summary": "该论文重新思考长视频理解中的RAG(检索增强生成)——面对长视频，应该检索哪些片段、如何有效利用检索到的内容。为长视频理解提供了系统的检索策略。",
+      "source": "HuggingFace Papers (June 15, 2026)",
+      "highlight": "长视频理解是多模态AI的难点(信息量巨大、时间跨度长)。将RAG思想用于长视频——只检索相关片段而非处理全部，是高效的解法。这与VideoKR(视频理解)、Echo-Infinity(无限视频)、OmniRetrieval(统一检索)的方向交汇。在视频内容爆炸(Deezer 44% AI音乐)的时代，高效的长视频理解对内容审核、搜索、分析都有实际价值。",
+      "stars": 0,
+      "tags": ["Long Video", "RAG", "Video Understanding", "Retrieval", "Multimodal"]
+    },
+    {
+      "id": 4,
+      "category": "paper",
+      "title": "OmniVideo-100K：通过结构化脚本和证据链进行视听推理的数据集",
+      "url": "https://arxiv.org/abs/2606.14702",
+      "summary": "OmniVideo-100K是一个10万规模的视听推理数据集，通过结构化脚本和证据链(evidence chains)组织。要求模型结合视觉和音频信息进行多步推理，并能追溯推理依据，推动可验证的视听理解。",
+      "source": "HuggingFace Papers (June 15, 2026)",
+      "highlight": "高质量数据集是AI能力的基石。OmniVideo-100K的'证据链'设计很关键——不只要求答对，还要能追溯推理依据(呼应Data Journalist Agent的可验证性)。视听联合推理是接近人类感知的方向(我们同时用眼睛和耳朵理解世界)。10万规模为训练强大的视听理解模型提供了基础，对视频问答、内容理解等应用有推动价值。",
+      "stars": 0,
+      "tags": ["Dataset", "Audio-Visual", "Reasoning", "Evidence Chains", "Multimodal"]
+    },
+    {
+      "id": 5,
+      "category": "paper",
+      "title": "更小的模型是GRPO中策略级多样性的天然探索者",
+      "url": "https://arxiv.org/abs/2605.30789",
+      "summary": "该论文发现更小的模型在GRPO强化学习中是策略级多样性的天然探索者。小模型的'不确定性'反而带来更丰富的策略探索，可用于提升强化学习训练中的探索效率。",
+      "source": "HuggingFace Papers (June 15, 2026)",
+      "highlight": "反直觉的洞察：小模型的'缺点'(不够确定)在RL探索中反而是优点。这呼应了'为什么大模型学到小模型学不到的技能'的研究——大小模型各有所长。在强化学习的探索-利用平衡中，用小模型负责探索、大模型负责利用，可能是高效的组合策略。这为多模型协作的RL训练提供了新思路，也体现了对模型规模作用的深入理解。",
+      "stars": 0,
+      "tags": ["GRPO", "Small Models", "Exploration", "RL", "Policy Diversity"]
+    },
+    {
+      "id": 6,
+      "category": "paper",
+      "title": "RepFusion：利用多模态先验在表示空间中去噪",
+      "url": "https://arxiv.org/abs/2606.14700",
+      "summary": "RepFusion提出利用多模态先验信息在表示空间(representation space)中进行去噪。通过融合不同模态的先验知识，在特征层面而非像素层面去除噪声，实现更高质量的内容恢复和生成。",
+      "source": "HuggingFace Papers (June 15, 2026)",
+      "highlight": "在表示空间(而非原始像素)去噪是更高级的方法——利用语义级理解去噪。RepFusion的'多模态先验'意味着用一个模态的信息帮助另一个模态去噪(如用文本描述指导图像去噪)。这与Robust-U1(视觉自恢复)、Bootstrap Your Generator的方向一致。表示空间操作是当前生成和理解模型的前沿，对提升模型的鲁棒性和生成质量有价值。",
+      "stars": 0,
+      "tags": ["Denoising", "Multimodal Priors", "Representation Space", "Generation", "Robustness"]
+    },
+    {
+      "id": 7,
+      "category": "paper",
+      "title": "OmniDirector：无需交叉配对数据的通用多镜头相机克隆",
+      "url": "https://arxiv.org/abs/2606.13432",
+      "summary": "OmniDirector实现无需交叉配对数据的通用多镜头相机克隆——能学习和复制专业的多镜头拍摄手法(运镜、切换、构图)，应用到新的视频生成中，无需成对的训练样本。",
+      "source": "HuggingFace Papers (June 15, 2026)",
+      "highlight": "视频生成的'导演能力'是高级创作需求——不只是生成画面，还要有专业的运镜和镜头语言。OmniDirector的'无需配对数据'解决了训练数据稀缺问题(类似Bootstrap Your Generator)。这与LoomVideo(多模态视频生成)、SANA-Streaming的方向一致。在Sora关停但视频AI继续演进的背景下，'可控的专业级视频生成'是找到可持续应用场景的关键。",
+      "stars": 0,
+      "tags": ["Video Generation", "Camera Control", "Multi-Shot", "Unpaired", "Cinematography"]
+    },
+    {
+      "id": 8,
+      "category": "repo",
+      "title": "trycua/cua：计算机操作Agent的开源基础设施",
+      "url": "https://github.com/trycua/cua",
+      "summary": "Cua是计算机操作Agent(Computer-Use Agents)的开源基础设施，提供沙箱、SDK和基准测试，用于训练和评估能控制完整桌面(macOS、Linux、Windows)的AI Agent。",
+      "source": "GitHub Trending (June 16, 2026)",
+      "highlight": "Computer-Use Agent(能操控整个电脑桌面)是AI替代知识工作的关键形态(呼应WeaveBench基准)。Cua提供了急需的基础设施——沙箱(安全执行)、SDK(开发)、基准(评估)。跨三大平台支持很重要。结合Apple Container(本地容器)、NVIDIA SkillSpector(技能安全)，'安全可控的Computer-Use Agent基础设施'正在成型。这是Agent从'聊天'走向'操作'的工程基石。",
+      "stars": 70,
+      "tags": ["Computer Use", "Agent Infrastructure", "Sandbox", "SDK", "Desktop Control", "Open Source"]
+    },
+    {
+      "id": 9,
+      "category": "repo",
+      "title": "Agent-Reach持续增长(679→1100星)：给Agent看遍全网的眼睛",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "summary": "Agent-Reach从此前的679星增长至1100星。给AI Agent提供读取和搜索整个互联网的能力(Twitter、Reddit、YouTube、GitHub、Bilibili、小红书)，一个CLI、零API费用。",
+      "source": "GitHub Trending (June 16, 2026)",
+      "highlight": "持续增长(679→1100)印证了'让Agent获取实时信息'是刚需。零API费用+覆盖中外平台(含B站、小红书)是其核心优势。在token经济(成本敏感)和Agent需要实时信息(对抗知识过时)的双重背景下，免费的全网信息获取极具价值。这与last30days-skill形成同赛道竞争，反映了'Agent的眼睛'(信息获取)是Agent能力的关键短板和热门方向。",
+      "stars": 1100,
+      "tags": ["Agent Tools", "Web Access", "Multi-Platform", "Zero-Cost", "Information Retrieval", "CLI"]
+    },
+    {
+      "id": 10,
+      "category": "tutorial",
+      "title": "AI Engineering from Scratch：从零学习AI工程",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "summary": "一个从零学习AI工程的教程项目，理念是'学会它、构建它、为他人交付它'。系统讲解AI工程的实践知识，帮助开发者从理论走向构建真实的AI应用。",
+      "source": "GitHub Trending (June 16, 2026)",
+      "highlight": "在AI应用爆发的时代，'AI工程'(把AI能力工程化为可用产品)成为热门技能。这个教程的'学-建-交付'理念很务实——不只是理解原理，而是能落地。562星的热度反映了大量开发者想从'AI使用者'进阶为'AI工程师'。这与'从零训练LLM''AI Engineering'等教程趋势一致：AI时代，工程能力(而非仅算法)是把AI变成价值的关键。",
+      "stars": 562,
+      "tags": ["AI Engineering", "Tutorial", "From Scratch", "Education", "Practical"]
+    },
+    {
+      "id": 11,
+      "category": "paper",
+      "title": "Memory is Reconstructed, Not Retrieved：LLM Agent的图记忆(持续受关注)",
+      "url": "https://arxiv.org/abs/2606.06036",
+      "summary": "该论文提出'记忆是重建而非检索'的认知科学视角，为LLM Agent设计图记忆系统。本周持续受关注，反映了Agent记忆从'存储-检索'向'动态重建'范式转变的重要性。",
+      "source": "HuggingFace Papers (June 15, 2026)",
+      "highlight": "Agent记忆是本周贯穿的主题(SubtleMemory、EvoArena、MemPalace、Task-Focused Memorization)。'重建式图记忆'借鉴人脑机制——记忆每次被使用时都在重构，而非简单读取。这种动态、关联的记忆模型能支持更灵活的推理。在'数字同事'(持久自主AI)需要长期积累经验的背景下，先进的记忆架构是让Agent真正'越用越聪明'的核心。这篇论文代表了该方向的前沿思考。",
+      "stars": 0,
+      "tags": ["Agent Memory", "Graph Memory", "Reconstruction", "Cognitive Science", "Persistent AI"]
+    },
+    {
+      "id": 12,
+      "category": "repo",
+      "title": "Chatwoot：开源全渠道客服平台(持续Trending)",
+      "url": "https://github.com/chatwoot/chatwoot",
+      "summary": "开源实时聊天/邮件/全渠道客服平台Chatwoot持续在Trending榜(431星)。是Intercom、Zendesk的开源替代，在AI时代可集成AI Agent实现智能客服。",
+      "source": "GitHub Trending (June 16, 2026)",
+      "highlight": "客服持续是AI Agent最务实的落地场景。Chatwoot的持续热度说明企业对'开源+可AI集成'客服平台的稳定需求。在Agent化(Mistral Vibe Work Mode、OpenAI超级应用)和成本压力(价格战)的背景下，开源客服平台让企业能自主部署AI客服而不被供应商锁定。配合SoCRATES(AI调解能力)等研究，AI客服正从'自动回复'走向'智能协调'。",
+      "stars": 431,
+      "tags": ["Customer Service", "Open Source", "Omnichannel", "AI Integration", "Live Chat"]
+    },
+    {
+      "id": 13,
+      "category": "tutorial",
+      "title": "Hello-Algo：动画图解、一键运行的数据结构与算法教程",
+      "url": "https://github.com/krahets/hello-algo",
+      "summary": "《Hello算法》是一本动画图解、一键运行的数据结构与算法教程。支持简体/繁体中文、English、日语，提供Python、Java、C++、Go、Rust等多种语言实现。",
+      "source": "GitHub Trending (June 16, 2026)",
+      "highlight": "在AI编程工具盛行的今天，数据结构与算法这类CS基础教程持续火爆(呼应Coding Interview University、自主机器人教材)。这印证了一个共识：AI能写代码，但理解底层原理才能驾驭AI、在AI出错时纠正(George Hotz的批评)。Hello-Algo的'动画图解+一键运行+多语言'让学习更高效。AI时代，扎实的基础反而成为开发者的核心竞争力，这是值得关注的趋势。",
+      "stars": 71,
+      "tags": ["Algorithms", "Data Structures", "Education", "Tutorial", "Fundamentals", "Multilingual"]
+    },
+    {
+      "id": 14,
+      "category": "paper",
+      "title": "Orchestra-o1：全模态Agent编排(持续关注)",
+      "url": "https://arxiv.org/abs/2606.13707",
+      "summary": "Orchestra-o1的全模态Agent编排框架本周持续受关注。能协调文本、图像、音频、视频等多模态Agent协同工作，是构建复杂多Agent系统的关键技术。",
+      "source": "HuggingFace Papers (June 15, 2026)",
+      "highlight": "Agent编排是'extremely multi-agent'未来(Altman语)的核心技术。Orchestra-o1的全模态编排——协调处理不同模态的专业Agent——是应对复杂真实任务的必需能力。这与SearchSwarm(委派智能)、HarnessX(harness框架)、Agency-Agents(AI代理机构)共同构成多Agent协作的技术体系。当单个Agent能力成熟，'如何高效编排多个异构Agent'成为决定系统能力上限的关键。",
+      "stars": 0,
+      "tags": ["Agent Orchestration", "Omnimodal", "Multi-Agent", "Coordination", "Cross-Modal"]
+    },
+    {
+      "id": 15,
+      "category": "tutorial",
+      "title": "IPTV-org：全球公开IPTV频道集合(开源持续热门)",
+      "url": "https://github.com/iptv-org/iptv",
+      "summary": "IPTV-org是一个收集全球公开可用IPTV电视频道的开源项目，本周高居Trending榜首(2657星)。虽非AI项目，但其数据可作为多模态AI(视频理解、音视频推理)的训练和测试素材来源。",
+      "source": "GitHub Trending (June 16, 2026)",
+      "highlight": "IPTV-org虽是流媒体项目，但在多模态AI视角下有特殊价值——全球多语言、多类型的视频流是视频理解模型(VideoKR、OmniVideo-100K、长视频RAG)的天然素材。在视听推理、内容审核、跨语言视频理解等AI研究兴起的背景下，开放的大规模真实视频源是稀缺资源。这也提醒我们：AI的发展离不开开放数据生态，许多非AI项目正成为AI研究的数据基础设施。",
+      "stars": 2657,
+      "tags": ["IPTV", "Open Data", "Video Source", "Multimodal Data", "Streaming"]
+    }
+  ]
+}
