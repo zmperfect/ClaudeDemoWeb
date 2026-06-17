@@ -165,6 +165,94 @@
       "highlight": "向量数据库是RAG的核心基础设施(呼应TurboVec)。ZVec的'进程内'设计是亮点——嵌入应用进程而非独立服务，消除了网络开销，实现极低延迟。这对Agent需要快速检索记忆/知识(如MemPalace、SuperMemory)的场景很有价值。阿里开源ZVec延续了其全栈AI布局。在RAG普及、Agent记忆需求旺盛的背景下，高性能轻量向量数据库是被持续需要的基础组件。",
       "stars": 156,
       "tags": ["Vector Database", "Alibaba", "In-Process", "RAG", "Performance", "Open Source"]
+    },
+    {
+      "id": 16,
+      "category": "news",
+      "title": "Nadella：AI成功更在于'深度用户和深度使用'而非席位数",
+      "url": "https://the-decoder.com/microsoft-ceo-satya-nadella-says-ai-success-is-more-about-getting-intense-users-and-intense-usage-than-seat-counts/",
+      "summary": "微软CEO Nadella表示AI成功的关键是获得'深度用户和深度使用'(intense users and intense usage)，而非席位数量(seat counts)。微软录得创纪录利润和强劲云增长，但与Google一样，对其生成式AI业务的实际表现说得不多。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "Nadella的'深度使用 > 席位数'与他的'token资本'论一脉相承——AI价值在于深度而非广度。这呼应了'tokenmaxxing'乱象的反思：不是用得多就好，而是用得深、用得对。但'对AI业务实际表现说得不多'也耐人寻味——巨头们高调宣传AI却回避具体盈利数据，暗示AI变现仍是难题。这对理解AI商业化的真实进展很重要：营收增长可能更多来自基础设施(Azure)而非AI应用本身。",
+      "stars": 0,
+      "tags": ["Microsoft", "Nadella", "AI Business", "Usage Metrics", "Monetization", "Cloud"]
+    },
+    {
+      "id": 17,
+      "category": "news",
+      "title": "OpenAI威胁报告：ChatGPT被滥用于网络攻击、政治影响和就业诈骗",
+      "url": "https://the-decoder.com/chatgpt-scams-range-from-silly-money-making-ploys-to-calculated-political-meddling/",
+      "summary": "根据OpenAI最新威胁报告，它发现了多个国际行动滥用其AI模型进行网络攻击、政治影响和就业诈骗，涉及朝鲜、俄罗斯到柬埔寨等多个国家。这些滥用从拙劣的赚钱伎俩到精心策划的政治干预不等。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "AI滥用的现实图景：从诈骗到政治操纵。OpenAI主动披露威胁报告体现了责任，但也暴露了AI双重用途的严峻性——同样的能力，正当用途和恶意用途并存。结合美军AI军事化、Mythos网络武器，AI安全的攻防战已全面展开。'就业诈骗'尤其值得警惕——AI让诈骗规模化、个性化。这要求AI公司、平台和监管共同构建防御体系，是AI治理的现实战场。",
+      "stars": 0,
+      "tags": ["OpenAI", "AI Abuse", "Cyberattack", "Scams", "Political Influence", "Threat Report"]
+    },
+    {
+      "id": 18,
+      "category": "paper",
+      "title": "Looped World Models：循环世界模型",
+      "url": "https://arxiv.org/abs/2606.18208",
+      "summary": "Looped World Models提出循环结构的世界模型，通过循环机制让世界模型能更好地维持长期一致性和进行多步预测。是世界模型架构的创新探索。",
+      "source": "HuggingFace Papers (June 17, 2026)",
+      "highlight": "世界模型本周持续爆发(Qwen-RobotWorld、DreamX-World、ActWorld、BadWorld)。Looped World Models的'循环'设计呼应了'Skip a Layer or Loop It'(层程序)的思想——通过循环增强模型能力。世界模型的长期一致性是关键挑战(预测越远越容易跑偏)，循环结构可能是解法。在具身智能依赖世界模型(机器人预演动作)的背景下，更可靠的世界模型架构有基础性价值。",
+      "stars": 0,
+      "tags": ["World Model", "Looped Architecture", "Long-Term Consistency", "Prediction", "Embodied AI"]
+    },
+    {
+      "id": 19,
+      "category": "paper",
+      "title": "GameCraft-Bench：Agent能在真实游戏引擎中端到端构建可玩游戏吗？",
+      "url": "https://arxiv.org/abs/2606.17861",
+      "summary": "GameCraft-Bench构建了评估Agent端到端构建可玩游戏能力的基准——在真实游戏引擎中，Agent能否从概念到可运行游戏完成全流程开发。这是对Agent复杂创造性工程能力的严格考验。",
+      "source": "HuggingFace Papers (June 17, 2026)",
+      "highlight": "游戏开发是综合性的创造工程——需要编程、设计、美术、逻辑的协同。GameCraft-Bench用'端到端造游戏'考验Agent的综合能力，比单一编程任务难得多(呼应Agents' Last Exam的高难度评估)。'真实游戏引擎'确保了实用性。这类综合创造任务是衡量Agent能否替代复杂知识工作的试金石。如果Agent能独立做出可玩游戏，意味着创意工程的自动化迈出关键一步。",
+      "stars": 0,
+      "tags": ["Game Development", "Agent Benchmark", "End-to-End", "Game Engine", "Creative Engineering"]
+    },
+    {
+      "id": 20,
+      "category": "paper",
+      "title": "ACE-Ego-0：统一第一人称人类与机器人数据用于VLA预训练",
+      "url": "https://arxiv.org/abs/2606.17200",
+      "summary": "ACE-Ego-0统一了第一人称(egocentric)的人类数据和机器人数据，用于视觉-语言-动作(VLA)模型的预训练。让VLA模型能同时从人类第一视角视频和机器人数据中学习，扩大训练数据来源。",
+      "source": "HuggingFace Papers (June 17, 2026)",
+      "highlight": "具身智能的数据瓶颈解法：用海量的人类第一人称视频(如可穿戴相机、Meta超感知眼镜)补充稀缺的机器人数据。ACE-Ego-0的'统一'让人类'怎么做'的经验直接迁移到机器人。这呼应了World Action Models(从日常视频学习)的思路。在OpenAI重返机器人、VLA密集发布(LabVLA、Qwen-VLA)的背景下，统一人类和机器人数据是突破具身智能数据瓶颈的关键路径。",
+      "stars": 0,
+      "tags": ["VLA", "Egocentric", "Human-Robot Data", "Pretraining", "Embodied AI", "Data"]
+    },
+    {
+      "id": 21,
+      "category": "paper",
+      "title": "OPD-Evolver：通过On-Policy蒸馏培育整体性Agent进化器",
+      "url": "https://arxiv.org/abs/2606.17628",
+      "summary": "OPD-Evolver通过on-policy蒸馏培育'整体性Agent进化器'(holistic agent evolver)。让Agent能全面地自我进化——不只是单项技能，而是整体能力的协调提升。",
+      "source": "HuggingFace Papers (June 17, 2026)",
+      "highlight": "Agent自我进化是本周持续主题(OpenSkill、Role-Agent、Socratic-SWE)。OPD-Evolver强调'整体性'——避免Agent只在单项上进化而能力失衡。on-policy蒸馏是当前的热门技术方向(本周多篇相关论文)。在'数字同事'需要全面可靠能力的背景下，整体协调的自我进化比单点突破更有实用价值。这代表了Agent进化研究从'局部'走向'整体'的深化。",
+      "stars": 0,
+      "tags": ["Agent Evolution", "On-Policy Distillation", "Holistic", "Self-Improvement", "Agent"]
+    },
+    {
+      "id": 22,
+      "category": "paper",
+      "title": "LecturaAgents：自适应个性化AI辅助学习与具身教学的多Agent框架",
+      "url": "https://arxiv.org/abs/2606.16428",
+      "summary": "LecturaAgents提出一个多Agent框架，用于自适应个性化的AI辅助学习和具身教学。多个专业Agent协作，根据学习者的特点提供个性化教学，并支持具身(embodied)的教学交互。",
+      "source": "HuggingFace Papers (June 17, 2026)",
+      "highlight": "教育是AI最有社会价值的应用之一。LecturaAgents的'个性化+多Agent+具身教学'组合很有前景——不同Agent扮演不同教学角色(讲解、答疑、评估)，根据每个学生因材施教。这呼应了'百万个人化模型'(PEFT缩放)的个性化趋势。在AI能提供一对一个性化教育的愿景下，多Agent教学框架可能让优质教育资源真正普惠。这是AI'放大人类能力'的正面范例。",
+      "stars": 0,
+      "tags": ["Education", "Multi-Agent", "Personalized Learning", "Embodied Teaching", "AI Tutor"]
+    },
+    {
+      "id": 23,
+      "category": "paper",
+      "title": "ChLogic：评估中文表达中逻辑推理的鲁棒性",
+      "url": "https://arxiv.org/abs/2606.17905",
+      "summary": "ChLogic构建了评估LLM在中文表达中逻辑推理鲁棒性的基准。中文的语言特性(如歧义、省略、语序灵活)对逻辑推理提出独特挑战，ChLogic专门测试模型在中文语境下的推理可靠性。",
+      "source": "HuggingFace Papers (June 17, 2026)",
+      "highlight": "多数推理基准以英文为主，但中文有独特的语言逻辑挑战(歧义、省略、意合)。ChLogic填补了中文逻辑推理评估的空白，对服务中文用户的AI(阿里Qwen、DeepSeek、Moonshot等)很重要。这呼应了'人类心理测量误判LLM'的方法论思考——评估工具需要适配具体语言和场景。在中国AI快速发展(本周DeepSeek融资、阿里连发)的背景下，针对中文的严格评估基准对提升中文AI质量有实际价值。",
+      "stars": 0,
+      "tags": ["Chinese", "Logical Reasoning", "Benchmark", "Robustness", "Language-Specific", "Evaluation"]
     }
   ]
 }
