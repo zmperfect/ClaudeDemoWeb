@@ -253,6 +253,72 @@
       "highlight": "多数推理基准以英文为主，但中文有独特的语言逻辑挑战(歧义、省略、意合)。ChLogic填补了中文逻辑推理评估的空白，对服务中文用户的AI(阿里Qwen、DeepSeek、Moonshot等)很重要。这呼应了'人类心理测量误判LLM'的方法论思考——评估工具需要适配具体语言和场景。在中国AI快速发展(本周DeepSeek融资、阿里连发)的背景下，针对中文的严格评估基准对提升中文AI质量有实际价值。",
       "stars": 0,
       "tags": ["Chinese", "Logical Reasoning", "Benchmark", "Robustness", "Language-Specific", "Evaluation"]
+    },
+    {
+      "id": 24,
+      "category": "news",
+      "title": "巴菲特的伯克希尔押注100亿美元于Alphabet的AI基础设施建设",
+      "url": "https://the-decoder.com/warren-buffetts-berkshire-hathaway-bets-10-billion-on-alphabets-ai-infrastructure-buildout/",
+      "summary": "Alphabet正募集800亿美元扩展其AI基础设施，其中包括来自巴菲特的100亿美元私人投资。公司预计2026年资本支出将达1900亿美元，且这个数字只会继续上升。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "巴菲特出手AI基础设施意义重大——这位以'不投不懂的科技'著称的价值投资者下注Alphabet，是对AI基础设施长期价值的强力背书。Alphabet $1900亿的资本支出印证了'大科技AI支出$7250亿'的军备竞赛。值得注意的是巴菲特投的是'基础设施'(确定性的算力需求)而非AI应用(不确定的变现)——这与Nadella'token资本'、价值可能被基础设施攫取的判断一致。聪明钱在押注AI的'卖铲人'。",
+      "stars": 0,
+      "tags": ["Warren Buffett", "Berkshire", "Alphabet", "AI Infrastructure", "Investment", "Capex"]
+    },
+    {
+      "id": 25,
+      "category": "news",
+      "title": "NVIDIA加入AI债务热潮：自2021年来首次发债，规模至少200亿美元",
+      "url": "https://the-decoder.com/nvidia-joins-ai-debt-boom-with-20-billion-bond-sale/",
+      "summary": "据彭博报道，NVIDIA计划通过自2021年以来的首次债券发行募集至少200亿美元。这是AI行业'债务热潮'的一部分——巨头们纷纷通过发债为AI基础设施融资。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "连现金充裕的NVIDIA都发债，标志着AI'债务融资时代'的到来。结合Mistral借款8.3亿建数据中心、Alphabet募800亿，AI基础设施的资金需求已大到需要债务杠杆。这是双刃剑：放大了投资规模，也放大了风险——如果AI回报不及预期，债务负担将很沉重。'AI债务热潮'是泡沫论者最担心的信号之一。当所有人都在借钱建数据中心，这场豪赌的赌注正越来越高。",
+      "stars": 0,
+      "tags": ["NVIDIA", "Bond Sale", "AI Debt", "Financing", "Infrastructure", "Risk"]
+    },
+    {
+      "id": 26,
+      "category": "repo",
+      "title": "codebase-memory-mcp：为编程Agent提供代码库记忆的MCP服务器",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "summary": "codebase-memory-mcp是一个MCP(Model Context Protocol)服务器，为编程Agent提供持久的代码库记忆。让Agent能记住代码库的结构、约定和历史，跨会话保持对项目的理解。",
+      "source": "GitHub Trending (June 17, 2026)",
+      "highlight": "结合了本周两大热点：MCP生态和Agent记忆。编程Agent的痛点之一是'每次都要重新理解代码库'(呼应FastContext、SWE-Explore)。codebase-memory-mcp用MCP标准提供持久代码库记忆，让Agent'记住'项目而非反复探索。这既省token(GitHub Copilot转token计费的背景下)又提升连续性。MCP作为连接标准让这种能力可以即插即用到Claude Code等工具，是Agent记忆工程化的实用案例。",
+      "stars": 0,
+      "tags": ["MCP", "Codebase Memory", "Coding Agent", "Persistent Memory", "Context"]
+    },
+    {
+      "id": 27,
+      "category": "repo",
+      "title": "Google TimesFM：时间序列预测基础模型",
+      "url": "https://github.com/google-research/timesfm",
+      "summary": "Google Research的TimesFM是一个时间序列预测的基础模型。像LLM处理文本一样处理时间序列数据，提供通用的、可零样本应用的时间序列预测能力，适用于需求预测、异常检测等场景。",
+      "source": "GitHub Trending (June 17, 2026)",
+      "highlight": "时间序列是被LLM革命'遗忘'的重要数据类型，但其商业价值巨大(金融、供应链、运维、能源)。TimesFM将'基础模型'范式带入时间序列——一个模型零样本预测各种时序，呼应Kronos(金融市场模型)的方向。Google开源TimesFM降低了时序AI的门槛。在专用基础模型(蛋白质ESM、金融Kronos)兴起的背景下，时序基础模型补齐了重要一块，对企业的预测分析有直接价值。",
+      "stars": 0,
+      "tags": ["Time Series", "Foundation Model", "Google", "Forecasting", "Zero-Shot", "Open Source"]
+    },
+    {
+      "id": 28,
+      "category": "repo",
+      "title": "Continue：开源的AI代码助手，可自定义的编程Agent",
+      "url": "https://github.com/continuedev/continue",
+      "summary": "Continue是一个开源的AI代码助手，让开发者能创建、分享和使用自定义的AI编程Agent。支持多种模型后端，可深度定制，是Cursor、Copilot等闭源工具的开源替代。",
+      "source": "GitHub Trending (June 17, 2026)",
+      "highlight": "在AI编程工具竞争白热化(GitHub Copilot转token计费、OpenAI收购Astral、微软集成Claude)的背景下，Continue代表了开源、可定制、模型无关的路线。'自定义编程Agent'让开发者不被单一供应商锁定。这与Goose、oh-my-pi的开源Agent趋势一致。当闭源工具纷纷涨价或转消费计费时，可自托管、用任意模型的开源方案对成本敏感和注重自主性的团队越来越有吸引力。",
+      "stars": 0,
+      "tags": ["AI Coding", "Open Source", "Customizable", "Coding Agent", "Model-Agnostic", "IDE"]
+    },
+    {
+      "id": 29,
+      "category": "paper",
+      "title": "ActWorld：通过动作感知记忆从可探索到可交互的世界模型",
+      "url": "https://arxiv.org/abs/2606.17730",
+      "summary": "ActWorld提出通过'动作感知记忆'(action-aware memory)将世界模型从'可探索'(explorable)提升到'可交互'(interactive)。让世界模型不仅能被动展示环境，还能响应Agent的动作并记住交互历史。",
+      "source": "HuggingFace Papers (June 17, 2026)",
+      "highlight": "世界模型的'可交互'是关键升级(本周Looped World、Qwen-RobotWorld、DreamX-World密集出现)。'可探索'只是看，'可交互'才能用于Agent决策——Agent做动作，世界模型响应并记住。'动作感知记忆'让世界模型理解'我的动作如何改变世界'，这正是World Action Models的核心。在具身智能依赖世界模型预演动作的背景下，可交互世界模型是机器人'先想后做'的基础设施。",
+      "stars": 0,
+      "tags": ["World Model", "Action-Aware Memory", "Interactive", "Embodied AI", "Agent"]
     }
   ]
 }
