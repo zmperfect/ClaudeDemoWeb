@@ -1,0 +1,170 @@
+{
+  "date": "2026-06-17",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "微软将Anthropic的Claude Cowork集成进Copilot：跨Outlook/Teams/Excel自主执行任务",
+      "url": "https://the-decoder.com/microsoft-brings-anthropics-claude-cowork-into-copilot-to-run-tasks-across-outlook-teams-and-excel/",
+      "summary": "微软推出Copilot Cowork，选用Anthropic的Claude(而非OpenAI)来让AI自主处理跨Outlook、Teams和Excel的任务。这标志着微软在其核心Copilot产品中引入竞争对手的模型。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "微软Copilot选用Claude而非OpenAI是行业地震——微软是OpenAI最大投资者，却在旗舰产品中引入Anthropic。这反映了(1)Claude在Agent任务上的领先(Fable 5的95% SWE-bench)；(2)微软'多模型'去依赖策略；(3)Anthropic估值反超OpenAI的实力体现。跨Office全家桶的自主任务执行，是'数字同事'落地办公场景的标志。OpenAI-微软联盟的微妙变化值得持续关注。",
+      "stars": 0,
+      "tags": ["Microsoft", "Claude Cowork", "Copilot", "Anthropic", "Office", "Agent"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "Anthropic向华盛顿进言：与中国的AI竞争是'现在或永不'的时刻",
+      "url": "https://the-decoder.com/anthropic-frames-ai-competition-with-china-as-a-now-or-never-moment-for-washington/",
+      "summary": "在一份政策文件中，Anthropic为2028年列出两种情景：要么美国锁定对中国的算力领先优势，要么威权政权制定AI时代的规则。这份文件的时机并非偶然(正值IPO和政策博弈期)。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "Anthropic的政策文件将AI竞争上升到地缘政治高度。'现在或永不'的紧迫框架，结合此前Mythos为NSA服务，显示Anthropic深度卷入美国AI国家战略。但这种'非此即彼'的叙事也服务于其商业利益(争取政策支持、算力配额)。在DeepSeek等中国模型崛起的背景下，AI竞争的'国家化'正在重塑行业——技术问题越来越多地用地缘政治语言表述。",
+      "stars": 0,
+      "tags": ["Anthropic", "China", "AI Policy", "Geopolitics", "Compute", "Washington"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "美军在对伊朗行动中用AI支持打击3000个目标，但监督投入不足",
+      "url": "https://the-decoder.com/u-s-military-strikes-3000-targets-in-iran-with-ai-support-but-oversight-remains-underinvested/",
+      "summary": "华尔街日报证实并扩展了此前关于生成式AI在美军对伊朗军事行动中大规模使用的报道。新细节揭示了AI已深度嵌入情报、目标定位和后勤，但监督机制的投入仍然不足。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "AI军事化从理论变成大规模现实——3000个目标的打击有AI参与。'监督投入不足'是最令人担忧的——AI辅助决定生死，问责和监督却跟不上。结合Mythos的网络武器能力、Anthropic的国家安全立场，AI已全面进入战争领域。这引发了根本的伦理和治理问题：AI在致命决策中应扮演什么角色？如何确保人类有效监督？这是AI治理最紧迫也最沉重的议题。",
+      "stars": 0,
+      "tags": ["Military AI", "Iran", "Targeting", "AI Warfare", "Oversight", "Ethics"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "GitHub Copilot 2026年6月起转向基于token的计费",
+      "url": "https://the-decoder.com/github-copilot-switches-to-token-based-billing-in-june-2026/",
+      "summary": "从2026年6月1日起，GitHub将根据实际使用量(token)而非高级请求次数向Copilot用户收费。这反映了Agent化AI消耗大量token、固定费率不可持续的行业趋势。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "GitHub Copilot转token计费是'token经济'(Frontier Radar 3)落地的标志性案例。从'订阅制'到'消费制'的转变印证了：Agent化工作流消耗的token远超传统对话，固定费率难以为继。这与OpenAI vs Anthropic价格战、某公司月花$5亿形成完整图景。对开发者意味着成本透明化但也可能更贵。这是AI商业模式重构的必然一步，Headroom等token压缩工具的价值也因此凸显。",
+      "stars": 0,
+      "tags": ["GitHub Copilot", "Token Billing", "Pricing", "Consumption-Based", "Token Economy"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "DeepSeek首次寻求外部融资，估值100亿美元",
+      "url": "https://the-decoder.com/deepseek-reportedly-seeks-outside-funding-for-the-first-time-at-10-billion-valuation/",
+      "summary": "DeepSeek据报道首次寻求外部投资者，目标募集至少3亿美元，估值100亿。这一转变源于模型发布延迟、顶尖研究员被对手挖角，以及来自财力雄厚的科技巨头的压力加剧。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "DeepSeek放弃独立性、首次融资是中国AI竞争白热化的信号。曾以'极低成本高性能'震撼硅谷的DeepSeek，也面临人才流失和巨头压力。100亿估值虽不及Anthropic(9000亿)，但反映了中国AI的资本化进程。结合阿里Qwen3.6+连发、中国AI本土注册的趋势，中国AI正从'技术惊艳'走向'资本和规模的持久战'。DeepSeek优先AGI研究而非快速盈利的姿态值得关注。",
+      "stars": 0,
+      "tags": ["DeepSeek", "Funding", "China", "Valuation", "Competition", "AGI"]
+    },
+    {
+      "id": 6,
+      "category": "news",
+      "title": "Nadella：企业应构建'token资本'，否则少数大模型将吞噬整个行业价值",
+      "url": "https://the-decoder.com/microsoft-ceo-satya-nadella-warns-of-a-small-number-of-ai-systems-capturing-all-the-economic-returns/",
+      "summary": "微软CEO Satya Nadella希望企业在人力资本之外构建'token资本'——基于内部数据和专有学习循环的自有AI能力。他警告，否则少数大模型可能吸收整个行业的价值(这一观点也恰好契合其Azure平台的商业逻辑)。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "'token资本'是Nadella提出的重要概念——企业的AI竞争力不只是用大模型，而是用自有数据构建专有AI能力。这个警告很深刻：如果都用同样的大模型，价值会被模型提供商攫取。企业需要'护城河'(专有数据+学习循环)。这呼应了'某公司月花$5亿却失控'的教训(没有AI专业能力)。当然Nadella的论点也服务于Azure(卖基础设施)。这对所有企业的AI战略有指导意义。",
+      "stars": 0,
+      "tags": ["Microsoft", "Satya Nadella", "Token Capital", "Enterprise AI", "Strategy", "Moat"]
+    },
+    {
+      "id": 7,
+      "category": "news",
+      "title": "阿里巴巴发布Qwen3.6-Plus：几天内第三个闭源AI模型",
+      "url": "https://the-decoder.com/alibaba-launches-qwen3-6-plus-its-third-proprietary-ai-model-in-days/",
+      "summary": "阿里巴巴发布Qwen3.6-Plus，这是其在短短几天内推出的第三个闭源AI模型。阿里在AI模型上的密集发布显示了中国科技巨头的快速迭代节奏。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "阿里'几天三个模型'的发布节奏体现了中国AI的速度。值得注意的是'闭源'——阿里在开源(Qwen系列)之外也在做闭源旗舰，走'开源建生态+闭源赚利润'的双轨。结合Qwen-VLA、Qwen-RobotWorld(今日论文)，阿里的AI布局覆盖语言、具身、世界模型全栈。在DeepSeek融资、中国AI竞争加剧的背景下，阿里的资源和速度优势明显。",
+      "stars": 0,
+      "tags": ["Alibaba", "Qwen3.6-Plus", "China", "Proprietary Model", "Rapid Release"]
+    },
+    {
+      "id": 8,
+      "category": "news",
+      "title": "NVIDIA Nemotron 3改用Mamba-Transformer混合架构以高效运行AI Agent",
+      "url": "https://the-decoder.com/nvidias-nemotron-3-swaps-pure-transformers-for-a-mamba-hybrid-to-run-ai-agents-efficiently/",
+      "summary": "NVIDIA新的Nemotron 3系列结合Mamba和Transformer架构，能高效处理长上下文窗口而不过度消耗资源。专为高效运行AI Agent设计。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "Mamba-Transformer混合架构是模型架构的重要演进方向。纯Transformer处理长上下文成本高，Mamba(状态空间模型)在长序列上更高效。NVIDIA用混合架构平衡性能和效率，专门优化Agent场景(需要长上下文+低成本)。这与MiniMax稀疏注意力、dMoE扩散LLM等共同推进'后纯Transformer'架构探索。在Agent消耗大量token的背景下，高效架构直接关系到Agent的经济可行性。",
+      "stars": 0,
+      "tags": ["NVIDIA", "Nemotron 3", "Mamba", "Hybrid Architecture", "Long Context", "Agent"]
+    },
+    {
+      "id": 9,
+      "category": "paper",
+      "title": "VibeThinker-3B：探索小语言模型可验证推理的前沿",
+      "url": "https://arxiv.org/abs/2606.16140",
+      "summary": "VibeThinker-3B是一个仅30亿参数的小模型，探索小语言模型在可验证推理(verifiable reasoning)上的能力前沿。证明了精心训练的小模型也能进行高质量、可验证的推理。",
+      "source": "HuggingFace Papers (June 16, 2026)",
+      "highlight": "小模型的推理能力是AI民主化的关键(呼应Gemma 4、'为何大模型学到小模型学不到技能')。VibeThinker-3B证明3B小模型也能做可验证推理——这对本地部署、边缘计算、成本敏感场景意义重大。'可验证'尤其重要：小模型不仅能推理，还能让推理过程可检查。这挑战了'推理需要大模型'的假设，为低成本AI推理开辟了道路。",
+      "stars": 0,
+      "tags": ["Small Model", "Verifiable Reasoning", "3B", "Efficiency", "Reasoning"]
+    },
+    {
+      "id": 10,
+      "category": "paper",
+      "title": "Qwen-RobotWorld：通过语言条件视频生成统一具身世界建模",
+      "url": "https://arxiv.org/abs/2606.17030",
+      "summary": "Qwen-RobotWorld技术报告提出通过语言条件的视频生成来统一具身世界建模。让机器人能根据语言指令'想象'(生成视频)世界的演化，从而进行规划和决策。是阿里在具身智能的最新成果。",
+      "source": "HuggingFace Papers (June 16, 2026)",
+      "highlight": "阿里在具身智能的持续发力(继Qwen-VLA之后)。Qwen-RobotWorld将'语言指令→视频想象→机器人行动'统一，呼应Dream.exe(视频模型梦见动作)、Thinking with Imagination的思路。语言条件的世界模型让机器人能'听懂指令并预演结果'。结合NVIDIA Cosmos、DreamX-World等，世界模型正成为具身智能的标配。阿里的全栈布局(语言+具身+世界模型)展现了系统性野心。",
+      "stars": 0,
+      "tags": ["Qwen", "RobotWorld", "World Model", "Embodied AI", "Video Generation", "Alibaba"]
+    },
+    {
+      "id": 11,
+      "category": "paper",
+      "title": "Ling和Ring 2.6技术报告：万亿参数级的高效即时Agent智能",
+      "url": "https://arxiv.org/abs/2606.15079",
+      "summary": "Ling和Ring 2.6技术报告介绍了在万亿参数规模上实现高效、即时(instant)Agent智能的方法。在保持万亿参数能力的同时，实现Agent任务所需的快速响应。",
+      "source": "HuggingFace Papers (June 16, 2026)",
+      "highlight": "万亿参数+即时响应是Agent部署的理想组合——既要强大能力又要低延迟。Ling/Ring 2.6(蚂蚁集团百灵系列)在这个方向的探索很有价值。Agent场景对延迟敏感(用户等不了)，但又需要强能力。这与NVIDIA Nemotron(Mamba混合)、MiniMax稀疏注意力共同攻克'大模型如何快速服务Agent'的问题。中国AI在高效Agent基础模型上的持续贡献值得关注。",
+      "stars": 0,
+      "tags": ["Ling", "Ring", "Trillion Parameter", "Agent", "Efficiency", "Low Latency"]
+    },
+    {
+      "id": 12,
+      "category": "paper",
+      "title": "BadWorld：对世界模型的对抗性攻击",
+      "url": "https://arxiv.org/abs/2606.16519",
+      "summary": "BadWorld研究对世界模型(World Models)的对抗性攻击。揭示了世界模型可能被恶意输入欺骗、产生错误的世界预测，这对依赖世界模型的机器人、自动驾驶等系统构成安全威胁。",
+      "source": "HuggingFace Papers (June 16, 2026)",
+      "highlight": "世界模型安全是被忽视但极其重要的领域。当机器人/自动驾驶依赖世界模型决策时，如果世界模型被攻击(产生错误预测)，后果可能是灾难性的。BadWorld率先揭示这一风险，与RobotValues(机器人伦理)、医学认知韧性形成具身AI安全研究。在世界模型爆发(Cosmos、Qwen-RobotWorld、DreamX-World)的背景下，安全性研究必须同步跟上，否则强大的世界模型可能成为新的攻击面。",
+      "stars": 0,
+      "tags": ["World Model", "Adversarial Attack", "Security", "Robustness", "Embodied AI"]
+    },
+    {
+      "id": 13,
+      "category": "paper",
+      "title": "FastContext：为编程Agent训练高效的仓库探索器",
+      "url": "https://arxiv.org/abs/2606.14066",
+      "summary": "FastContext训练高效的代码仓库探索器，帮助编程Agent快速理解和导航代码库。优化Agent获取相关代码上下文的效率，减少探索时间和token消耗。",
+      "source": "HuggingFace Papers (June 16, 2026)",
+      "highlight": "高效的代码库探索是编程Agent的核心(呼应SWE-Explore、LLM Agents Can See Code Repositories、GrepSeek)。FastContext聚焦'快速'——在大型代码库中迅速定位相关上下文，既省时间又省token。在GitHub Copilot转token计费、Fable 5完成大规模迁移的背景下，高效上下文获取直接降低成本、提升能力。这是编程Agent工程优化的关键一环，让AI能经济地处理真实的大型代码库。",
+      "stars": 0,
+      "tags": ["Coding Agent", "Repository Explorer", "Context", "Efficiency", "Code Understanding"]
+    },
+    {
+      "id": 14,
+      "category": "paper",
+      "title": "TokenPilot：面向LLM Agent的缓存高效上下文管理",
+      "url": "https://arxiv.org/abs/2606.17016",
+      "summary": "TokenPilot提出面向LLM Agent的缓存高效(cache-efficient)上下文管理方法。通过智能管理KV缓存和上下文，降低Agent长时间运行时的内存和计算开销。",
+      "source": "HuggingFace Papers (June 16, 2026)",
+      "highlight": "Agent长时间运行(数小时自主工作)会累积大量上下文，缓存管理成为性能瓶颈。TokenPilot优化缓存效率，与KVarN(KV-Cache量化)、端到端上下文压缩、Headroom形成'Agent成本工程'技术群。在token计费(GitHub Copilot)和Agent化(消耗大量token)的双重压力下，高效的上下文/缓存管理直接关系到Agent的经济可行性。这是支撑'持久自主AI'的底层基础设施优化。",
+      "stars": 0,
+      "tags": ["LLM Agent", "Context Management", "Cache", "Efficiency", "KV-Cache", "Cost"]
+    },
+    {
+      "id": 15,
+      "category": "repo",
+      "title": "Alibaba ZVec：轻量级、极速的进程内向量数据库",
+      "url": "https://github.com/alibaba/zvec",
+      "summary": "阿里巴巴开源ZVec，一个轻量级、极速的进程内(in-process)向量数据库。专注于高性能向量检索，可嵌入应用进程内运行，为RAG和语义搜索提供低延迟的向量存储方案。",
+      "source": "GitHub Trending (June 17, 2026)",
+      "highlight": "向量数据库是RAG的核心基础设施(呼应TurboVec)。ZVec的'进程内'设计是亮点——嵌入应用进程而非独立服务，消除了网络开销，实现极低延迟。这对Agent需要快速检索记忆/知识(如MemPalace、SuperMemory)的场景很有价值。阿里开源ZVec延续了其全栈AI布局。在RAG普及、Agent记忆需求旺盛的背景下，高性能轻量向量数据库是被持续需要的基础组件。",
+      "stars": 156,
+      "tags": ["Vector Database", "Alibaba", "In-Process", "RAG", "Performance", "Open Source"]
+    }
+  ]
+}
