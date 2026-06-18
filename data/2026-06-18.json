@@ -1,0 +1,170 @@
+{
+  "date": "2026-06-18",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "知名AI研究者Karpathy选择Anthropic而非老东家OpenAI，重返前沿LLM研究",
+      "url": "https://the-decoder.com/prominent-ai-researcher-andrej-karpathy-picks-anthropic-over-former-home-openai-to-get-back-into-frontier-llm-research/",
+      "summary": "AI领域重量级人物Andrej Karpathy加入Anthropic。这位前OpenAI核心团队成员、特斯拉Autopilot架构师表示想重返研发，称未来几年LLM前沿'格外具有塑造性'。他选择Anthropic而非重回OpenAI，对其老东家是明显的损失。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "Karpathy加入Anthropic是顶级人才流向的标志性事件。作为OpenAI创始团队成员和深度学习教育的标志人物，他'弃OpenAI选Anthropic'强化了Anthropic的人才磁吸力(呼应其估值反超、Claude写90%代码)。他认为'未来几年LLM前沿格外具塑造性'，这与LeCun'LLM到头了'的观点形成鲜明对比——顶尖研究者对AI路径的判断分歧巨大。人才是AI竞赛的终极资源，这次流动意义深远。",
+      "stars": 0,
+      "tags": ["Andrej Karpathy", "Anthropic", "OpenAI", "Talent", "LLM Research", "Frontier"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "李飞飞的World Labs融资10亿美元，押注空间智能",
+      "url": "https://the-decoder.com/fei-fei-lis-world-labs-raises-one-billion-dollars-for-spatial-intelligence/",
+      "summary": "李飞飞的AI创业公司World Labs在新一轮融资中募集10亿美元，致力于用所谓的'世界模型'教AI系统理解和在三维世界中操作。专注于空间智能(spatial intelligence)。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "李飞飞(ImageNet之母、AI教母)的World Labs募资10亿，是世界模型/空间智能赛道的重磅。这与今天的Hassabis(世界模型迈向AGI)、LeCun(世界模型路线)形成共振——AI顶尖人物集体押注'让AI理解3D物理世界'。空间智能被视为通向AGI的关键缺失能力(LLM擅长语言但不懂物理世界)。10亿融资规模显示资本对这个方向的强烈信心。世界模型正从研究热点变成下一个主战场。",
+      "stars": 0,
+      "tags": ["Fei-Fei Li", "World Labs", "Spatial Intelligence", "World Model", "Funding", "3D"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "DeepMind CEO Hassabis：世界模型正朝通用智能取得惊人进展",
+      "url": "https://the-decoder.com/google-deepmind-ceo-demis-hassabi-says-world-models-are-making-progress-toward-agi/",
+      "summary": "Google DeepMind CEO Demis Hassabis表示，世界模型——模拟真实世界结构的AI系统——已经在朝通用智能(AGI)方向取得惊人进展。他认为世界模型是通向AGI的关键路径之一。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "Hassabis(DeepMind掌门、诺奖得主)为世界模型路线背书，分量极重。今天三位AI巨擘(Hassabis、李飞飞、LeCun)罕见地一致看好世界模型，标志着行业共识的形成：纯LLM不够，需要理解物理世界的世界模型。这与本周密集的世界模型论文(Cosmos、Qwen-RobotWorld、Looped World等)和具身智能热潮完全吻合。'世界模型迈向AGI'可能是2026年下半年AI的核心叙事。",
+      "stars": 0,
+      "tags": ["Demis Hassabis", "DeepMind", "World Model", "AGI", "Spatial Intelligence"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "Meta的LeCun：对下一代AI感兴趣的学生不应该研究LLM",
+      "url": "https://the-decoder.com/metas-lecun-says-students-interested-in-next-gen-ai-shouldnt-bother-with-llms/",
+      "summary": "Meta首席AI研究员Yann LeCun认为大语言模型(LLM)不会带来类人智能。他转而追求另一种'世界模型'方法，并建议对下一代AI感兴趣的学生不要费心研究LLM。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "LeCun的'别研究LLM'建议极具争议——尤其与同日Karpathy'LLM前沿格外具塑造性'的判断针锋相对。但在世界模型上，LeCun与Hassabis、李飞飞罕见地一致。这揭示了AI研究的深刻分歧：LLM是终点还是过渡？LeCun押注世界模型(也是他离开Meta后的方向)。对学生和研究者而言，这场顶尖人物的路线之争意味着AI的未来仍有多种可能。多元探索而非单一押注，可能才是健康的。",
+      "stars": 0,
+      "tags": ["Yann LeCun", "Meta", "LLM", "World Model", "Next-Gen AI", "Research Direction"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "Google从Character.AI获取关键AI人才和技术的战略授权交易",
+      "url": "https://the-decoder.com/google-acquires-key-ai-talent-and-tech-from-character-ai-in-a-strategic-licensing-deal/",
+      "summary": "Google与AI聊天机器人创业公司Character.AI达成协议，获得该公司当前语言模型技术的非独家授权。这是一种'收购式授权'(acqui-licensing)交易，Google借此获取关键AI人才和技术。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "'收购式授权'是大厂获取AI人才/技术的新模式(规避反垄断审查)。Google通过授权交易吸纳Character.AI的人才和技术，反映了AI人才争夺的白热化(对照Karpathy加入Anthropic)。Character.AI(陪伴聊天领头羊)的技术对Google的消费级AI有价值。这种交易模式在AI行业越来越常见——不直接收购公司，而是'授权+挖人'，既得人才技术又避监管。",
+      "stars": 0,
+      "tags": ["Google", "Character.AI", "Acqui-licensing", "Talent", "Acquisition", "Companion AI"]
+    },
+    {
+      "id": 6,
+      "category": "news",
+      "title": "Character.AI让年轻人日均盯手机80分钟，引发沉迷担忧",
+      "url": "https://the-decoder.com/character-ai-keeps-young-people-glued-to-their-smartphones-for-an-average-of-80-minutes-a-day/",
+      "summary": "据Character.AI CEO Karandeep Anand透露，用户平均每天花80分钟与AI生成的虚构角色聊天。如此高的使用时长引发了对AI陪伴产品让年轻人沉迷的担忧。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "日均80分钟——AI陪伴的'粘性'惊人，这正是Nadella所说的'深度使用'。但这也是双刃剑：高粘性意味着商业成功(Google因此授权)，却也引发青少年沉迷、心理健康、情感依赖的严肃担忧。AI陪伴(呼应ArcANE角色一致性、Open-LLM-VTuber)是增长最快也最具争议的应用之一。当AI比真人更'懂你'、随时陪伴，社会影响深远。这是AI伦理需要正视的现实问题。",
+      "stars": 0,
+      "tags": ["Character.AI", "AI Companion", "Addiction", "Youth", "Engagement", "Ethics"]
+    },
+    {
+      "id": 7,
+      "category": "news",
+      "title": "生成式AI创业公司Odyssey演示可实时交互的AI生成视频",
+      "url": "https://the-decoder.com/generative-ai-startup-odyssey-demos-interactive-ai-generated-video/",
+      "summary": "Odyssey发布了一种新型视频的研究预览：完全由AI生成、并能实时响应用户输入的序列。这是'可交互AI视频'的突破——视频不再是预先生成的，而是根据用户操作实时变化。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "可交互AI视频是世界模型的消费级体现——视频根据你的输入实时变化，本质上是一个可玩的'世界'。这与本周的ActWorld(可交互世界模型)、WorldOlympiad完全呼应。Odyssey的演示让抽象的世界模型变得可感知：你能'进入'并影响AI生成的世界。这可能开创新的内容形态(介于视频和游戏之间)，也是Sora式被动视频生成之后的新方向——交互性可能是AI视频找到可持续应用的关键。",
+      "stars": 0,
+      "tags": ["Odyssey", "Interactive Video", "World Model", "Generative AI", "Real-Time", "Gaming"]
+    },
+    {
+      "id": 8,
+      "category": "paper",
+      "title": "EgoCS-400K：用于世界模型的第一人称游戏数据集",
+      "url": "https://arxiv.org/abs/2606.18180",
+      "summary": "EgoCS-400K是一个40万规模的第一人称(egocentric)游戏数据集，专为训练世界模型设计。提供丰富的第一视角游戏交互数据，让世界模型学习在交互环境中预测和理解。",
+      "source": "HuggingFace Papers (June 17, 2026)",
+      "highlight": "世界模型需要大量交互数据，游戏是理想的数据源(可控、丰富、有明确动作-结果)。EgoCS-400K呼应了今天的世界模型热潮(World Labs、Hassabis、Odyssey)和ACE-Ego-0(第一人称数据)。第一人称游戏数据让世界模型学习'我的动作如何改变世界'。在世界模型成为AGI关键路径的共识下(三位巨擘背书)，高质量交互数据集是训练强大世界模型的基础设施。",
+      "stars": 0,
+      "tags": ["World Model", "Dataset", "Egocentric", "Gameplay", "Interactive", "Training Data"]
+    },
+    {
+      "id": 9,
+      "category": "paper",
+      "title": "LoopCoder-v2：只循环一次的高效测试时计算扩展",
+      "url": "https://arxiv.org/abs/2606.18023",
+      "summary": "LoopCoder-v2提出'只循环一次'(Only Loop Once)的高效测试时计算扩展方法，用于编程任务。在保持推理质量的同时，大幅减少测试时的迭代计算开销。",
+      "source": "HuggingFace Papers (June 17, 2026)",
+      "highlight": "测试时计算扩展(test-time scaling)能提升能力但成本高。LoopCoder-v2的'只循环一次'是高效优化——在GitHub Copilot转token计费、编程Agent消耗大量token的背景下，减少迭代直接省钱。这与ThoughtFold(推理折叠)、推理影子价格、TokenPilot形成编程Agent成本优化的技术群。当AI编程普及，'又好又省'的推理方法是规模化的经济基础。",
+      "stars": 0,
+      "tags": ["Coding", "Test-Time Scaling", "Efficiency", "Loop", "Cost Optimization"]
+    },
+    {
+      "id": 10,
+      "category": "paper",
+      "title": "超越单语深度研究：用跨语言BrowseComp-Plus评估Agent和检索器",
+      "url": "https://arxiv.org/abs/2606.15345",
+      "summary": "该论文提出跨语言的BrowseComp-Plus基准，评估深度研究Agent和检索器在多语言环境下的能力。突破了以往只评估单语(主要是英语)研究Agent的局限，测试Agent能否跨语言检索和综合信息。",
+      "source": "HuggingFace Papers (June 17, 2026)",
+      "highlight": "真正的深度研究需要跨语言能力——重要信息分散在不同语言中。跨语言BrowseComp-Plus填补了这个评估空白，呼应ChLogic(中文推理)、RL翻译的多语言主题。在AI全球化(阿里/DeepSeek服务中文、Mistral服务欧洲)的背景下，跨语言研究能力对获取全面信息至关重要。一个只懂英语的研究Agent会错过大量非英语的关键信息。这对构建真正全球化的AI研究工具有指导意义。",
+      "stars": 0,
+      "tags": ["Cross-Lingual", "Deep Research", "Benchmark", "Retrieval", "Multilingual", "Agent"]
+    },
+    {
+      "id": 11,
+      "category": "paper",
+      "title": "统一多模态自回归建模：共享上下文-视觉Tokenizer是统一的关键",
+      "url": "https://arxiv.org/abs/2606.18249",
+      "summary": "该论文提出，共享的上下文-视觉Tokenizer(Shared Context-Visual Tokenizer)是实现统一多模态自回归建模的关键。通过让文本和视觉共享同一种token化方式，实现真正统一的多模态模型。",
+      "source": "HuggingFace Papers (June 17, 2026)",
+      "highlight": "统一多模态是本周持续主题(HYDRA-X、2D网格→1D token、Representation Forcing)。这篇论文明确指出'共享tokenizer是统一的关键'——文本和视觉用同一种'语言'(token)，才能实现深度融合而非拼接。这呼应了原生多模态(Gemma 4)的趋势。当不同模态共享表示空间，模型才能在模态间自由推理。这是构建下一代统一多模态模型的核心架构洞察。",
+      "stars": 0,
+      "tags": ["Multimodal", "Shared Tokenizer", "Unified Model", "Autoregressive", "Architecture"]
+    },
+    {
+      "id": 12,
+      "category": "repo",
+      "title": "mattpocock/skills：'真正工程师的技能'——来自实战的Claude技能",
+      "url": "https://github.com/mattpocock/skills",
+      "summary": "知名TypeScript教育者Matt Pocock发布的'Skills for Real Engineers'，直接来自其.claude目录的实战Agent技能。提供经过真实工程实践检验的Claude Code技能集。",
+      "source": "GitHub Trending (June 18, 2026)",
+      "highlight": "继addyosmani/agent-skills之后，又一位知名开发者(Matt Pocock，TS教育界权威)分享实战技能，1523星的高热度延续了Agent Skills的火爆。'直接来自我的.claude目录'强调了真实性——这些是开发者日常实际使用的技能，而非理论。这与SkillOpt(技能优化)、SkillSpector(技能安全)形成Agent Skills的完整生态。业界专家的实战技能分享，正在加速Agent Skills从'玩具'走向'专业生产力工具'。",
+      "stars": 1523,
+      "tags": ["Agent Skills", "Claude Code", "Engineering", "Matt Pocock", "Real-World", "TypeScript"]
+    },
+    {
+      "id": 13,
+      "category": "repo",
+      "title": "codebase-memory-mcp增长(371星)：毫秒级索引代码库的MCP服务器",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "summary": "高性能代码智能MCP服务器，将代码库索引为持久知识图谱——平均仓库毫秒级完成。支持158种语言、亚毫秒查询、减少99% token。单一静态二进制、零依赖。",
+      "source": "GitHub Trending (June 18, 2026)",
+      "highlight": "更详细的数据展示了其价值：毫秒级索引、158语言、亚毫秒查询、减少99% token。'减少99% token'在GitHub Copilot转token计费的背景下极具吸引力——直接转化为成本节省。这与FastContext、Understand-Anything的代码理解方向一致，但用MCP标准+知识图谱+极致性能实现。'单一静态二进制零依赖'体现了工程品质。让编程Agent高效'记住'代码库，是降低成本、提升能力的关键基础设施。",
+      "stars": 371,
+      "tags": ["MCP", "Codebase Memory", "Knowledge Graph", "Token Efficiency", "Code Intelligence"]
+    },
+    {
+      "id": 14,
+      "category": "repo",
+      "title": "iroh：'IP会断，拨号密钥'——Rust模块化网络栈",
+      "url": "https://github.com/n0-computer/iroh",
+      "summary": "iroh是用Rust编写的模块化网络栈，理念是'IP地址会失效，改用拨号密钥(dial keys)'。提供基于公钥而非IP的点对点连接，为分布式应用和去中心化AI提供网络基础设施。",
+      "source": "GitHub Trending (June 18, 2026)",
+      "highlight": "在AI走向分布式和边缘(本地模型、去中心化训练、Agent协作)的背景下，iroh的点对点网络栈有特殊价值。'用密钥而非IP拨号'让设备能直接、安全地连接，对分布式AI(去中心化指令调优、联邦学习)、本地Agent协作、边缘设备组网都有基础设施价值。421星的热度反映了对'去中心化连接'的需求。当AI不只在云端，而是分布在无数设备上时，这类网络基础设施变得重要。",
+      "stars": 421,
+      "tags": ["Networking", "Rust", "P2P", "Decentralized", "Infrastructure", "Edge"]
+    },
+    {
+      "id": 15,
+      "category": "paper",
+      "title": "Self-Evolving Visual Questioner：自我进化的视觉提问者",
+      "url": "https://arxiv.org/abs/2606.13929",
+      "summary": "该论文提出自我进化的视觉提问者(Visual Questioner)——能自主生成关于图像的高质量问题并不断改进提问能力的模型。通过自我进化提升视觉理解和问题生成的质量。",
+      "source": "HuggingFace Papers (June 17, 2026)",
+      "highlight": "'会提问'是智能的高级标志——好的问题往往比答案更难。自我进化的视觉提问者结合了两大主题：自我进化(本周OpenSkill、Role-Agent等)和视觉理解。这对教育(LecturaAgents)、主动学习、数据标注、视觉对话都有价值。AI从'被动答题'到'主动提问'(呼应TIDE主动多问题发现)是能力的跃升。会提出好问题的AI，能更主动地探索和学习，这是迈向更自主智能的一步。",
+      "stars": 0,
+      "tags": ["Self-Evolving", "Visual Questioning", "VQA", "Active Learning", "Multimodal"]
+    }
+  ]
+}
