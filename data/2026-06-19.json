@@ -165,6 +165,94 @@
       "highlight": "知识抽取是连接非结构化文本与结构化AI应用(RAG、推理)的关键。Hyper-Extract的'超图'支持是亮点——普通图只能表达成对关系，超图能表达多元关系(一个事件涉及多个实体)，更适合复杂知识。这呼应了'记忆是图记忆'、codebase-memory-mcp(知识图谱)的趋势。在RAG和Agent记忆需要高质量结构化知识的背景下，强大的知识抽取工具是基础设施。时空抽取对事件分析、时序推理也有价值。",
       "stars": 124,
       "tags": ["Knowledge Extraction", "Hypergraph", "LLM", "Knowledge Graph", "Structured Data", "RAG"]
+    },
+    {
+      "id": 16,
+      "category": "paper",
+      "title": "当前世界模型缺乏持久状态核心",
+      "url": "https://arxiv.org/abs/2606.20545",
+      "summary": "该论文指出当前世界模型的一个根本缺陷——缺乏'持久状态核心'(persistent state core)。现有世界模型难以维持对世界状态的长期一致记忆，导致预测随时间漂移。论文分析了这一问题并提出改进方向。",
+      "source": "HuggingFace Papers (June 19, 2026)",
+      "highlight": "在世界模型被三巨头(李飞飞/Hassabis/LeCun)集体看好的热潮中，这篇'指出缺陷'的论文格外清醒(呼应'Robots Need More than VLA')。'缺乏持久状态核心'是深刻批评——世界模型若不能长期维持一致的世界状态，就无法可靠地用于长程规划。这与EvoArena(记忆演化)、图记忆的主题相通。这种在热潮中保持批判性的研究，对世界模型真正走向成熟至关重要——先认清缺陷才能解决它。",
+      "stars": 0,
+      "tags": ["World Model", "Persistent State", "Critical Analysis", "Long-Term Consistency", "Limitation"]
+    },
+    {
+      "id": 17,
+      "category": "paper",
+      "title": "ImageWAM：世界动作模型真的需要视频生成，还是只需图像编辑？",
+      "url": "https://arxiv.org/abs/2606.19531",
+      "summary": "ImageWAM提出一个尖锐问题：世界动作模型(World Action Models)真的需要昂贵的视频生成吗，还是图像编辑就够了？论文探索用更轻量的图像编辑替代视频生成来实现世界动作建模。",
+      "source": "HuggingFace Papers (June 19, 2026)",
+      "highlight": "又一篇'挑战主流'的世界模型论文——质疑'视频生成是必需的'假设。如果图像编辑(更便宜)就能实现世界动作建模，将大幅降低成本(呼应AI变贵时代的成本焦虑)。这种'我们真的需要那么重吗'的反思很有价值——避免行业盲目追求最复杂的方案。在世界模型计算成本高昂的背景下，找到'够用且更省'的方法对实用化至关重要。批判性思考推动技术务实发展。",
+      "stars": 0,
+      "tags": ["World Action Model", "Image Editing", "Video Generation", "Efficiency", "Critical Analysis"]
+    },
+    {
+      "id": 18,
+      "category": "paper",
+      "title": "Holo-World：相机、物体与天气统一控制的视频世界模型",
+      "url": "https://arxiv.org/abs/2606.20083",
+      "summary": "Holo-World提出一个视频世界模型，能统一控制相机、物体和天气。用户可以精确控制视频中的运镜、物体行为和天气变化，实现高度可控的视频世界生成。",
+      "source": "HuggingFace Papers (June 19, 2026)",
+      "highlight": "可控性是视频世界模型走向应用的关键(呼应OmniDirector运镜、Odyssey交互视频)。Holo-World的'相机+物体+天气'三维统一控制非常实用——这正是影视、游戏、仿真所需的精确控制。在世界模型热潮(本周大爆发)中，Holo-World代表了'可控生成'方向。能精确控制的视频世界模型对自动驾驶仿真(各种天气场景)、影视制作、游戏开发都有直接价值。",
+      "stars": 0,
+      "tags": ["Video World Model", "Controllable", "Camera Control", "Weather", "Generation"]
+    },
+    {
+      "id": 19,
+      "category": "paper",
+      "title": "ENPIRE：真实世界中的Agent式机器人策略自我改进",
+      "url": "https://arxiv.org/abs/2606.19980",
+      "summary": "ENPIRE提出在真实世界中让机器人策略进行Agent式自我改进的方法。机器人能在实际环境中通过自主探索和经验积累不断优化自己的策略，而非仅依赖仿真训练。",
+      "source": "HuggingFace Papers (June 19, 2026)",
+      "highlight": "'真实世界自我改进'是机器人学习的圣杯——sim-to-real(仿真到现实)的鸿沟一直是难题，直接在真实世界学习更可靠但更难。ENPIRE结合了自我进化(本周主题)和具身智能。在OpenAI重返机器人、具身智能爆发的背景下，能在真实世界自我改进的机器人策略是迈向实用机器人的关键。这比纯仿真训练更接近真实部署需求，对机器人商业化有重要意义。",
+      "stars": 0,
+      "tags": ["Robot Learning", "Self-Improvement", "Real-World", "Agent", "Embodied AI"]
+    },
+    {
+      "id": 20,
+      "category": "paper",
+      "title": "超越静态排行榜：LLM Agent评估的预测效度",
+      "url": "https://arxiv.org/abs/2606.19704",
+      "summary": "该论文提出超越静态排行榜的LLM Agent评估方法，强调'预测效度'(predictive validity)——评估结果能否真实预测Agent在实际任务中的表现，而非仅在基准上的得分。",
+      "source": "HuggingFace Papers (June 19, 2026)",
+      "highlight": "直击Agent评估的核心问题：基准分数高≠实际表现好(呼应RAMP'基准不够'、KPMG造假的信任危机)。'预测效度'是统计学概念——评估的价值在于能预测真实表现。在Agent能力被各种排行榜衡量、但实际部署常翻车(Meta rogue agent)的背景下，这种'评估的评估'很重要。它提醒我们：刷榜不等于有用，真正的评估应该能预测真实世界的成败。这对Agent评估方法论的严谨化有指导意义。",
+      "stars": 0,
+      "tags": ["Agent Evaluation", "Predictive Validity", "Benchmark", "Methodology", "LLM Agent"]
+    },
+    {
+      "id": 21,
+      "category": "paper",
+      "title": "FAPO：多步LLM管线的全自主提示优化",
+      "url": "https://arxiv.org/abs/2606.19605",
+      "summary": "FAPO(Fully Autonomous Prompt Optimization)实现多步LLM管线的全自主提示优化。能自动优化复杂的多步骤LLM工作流中每一步的提示，无需人工调试，提升整个管线的性能。",
+      "source": "HuggingFace Papers (June 19, 2026)",
+      "highlight": "提示优化正在自动化(呼应微软SkillOpt+23分、SkillAdaptor)。FAPO的'多步管线全自主'是重要进步——复杂AI应用往往是多步LLM调用的管线，手工调每一步的prompt极其繁琐。全自主优化让整个管线自动调优。在Agent化(多步工作流)和成本压力(优化即省钱)的背景下，自动提示优化是提升AI应用质量和效率的实用工具。这是Agent工程精细化的又一体现。",
+      "stars": 0,
+      "tags": ["Prompt Optimization", "Autonomous", "Multi-Step Pipeline", "LLM", "Automation"]
+    },
+    {
+      "id": 22,
+      "category": "paper",
+      "title": "S-Agent：空间工具使用激发空间智能推理",
+      "url": "https://arxiv.org/abs/2606.20515",
+      "summary": "S-Agent提出通过'空间工具使用'(spatial tool-use)来激发Agent的空间智能推理。让Agent学会使用空间相关的工具(测量、定位、变换等)来增强其空间推理能力。",
+      "source": "HuggingFace Papers (June 19, 2026)",
+      "highlight": "空间智能是本周核心主题(李飞飞World Labs押注空间智能)。S-Agent的思路很巧妙——不是让模型'天生'会空间推理，而是教它'使用空间工具'(像人类用尺子、地图)。这呼应了SpatialClaw(动作接口)、SpatialWorld的空间推理研究。工具使用是Agent的核心能力，将其用于空间任务是自然延伸。对机器人、AR/VR、导航等需要空间推理的应用有实用价值，也是连接LLM工具使用与空间智能的桥梁。",
+      "stars": 0,
+      "tags": ["Spatial Intelligence", "Tool Use", "Agent", "Spatial Reasoning", "Embodied AI"]
+    },
+    {
+      "id": 23,
+      "category": "paper",
+      "title": "Moebius：0.2B轻量图像修复框架达到10B级性能",
+      "url": "https://arxiv.org/abs/2606.19195",
+      "summary": "Moebius是一个仅2亿(0.2B)参数的轻量图像修复(inpainting)框架，却达到了100亿(10B)级模型的性能。通过高效的架构设计，实现了极致的参数效率。",
+      "source": "HuggingFace Papers (June 19, 2026)",
+      "highlight": "'0.2B达到10B性能'(50倍参数效率)是模型效率的惊人成果，呼应'小模型也强'的趋势(Gemma 4、VibeThinker-3B)。在AI全面变贵(本周Gemini涨5.5倍)的背景下，极致参数效率直接转化为成本优势和部署灵活性。图像修复是实用的视觉任务(照片修复、内容编辑)。Moebius证明了精心设计的小模型能匹敌大模型——这对边缘部署、移动应用、成本敏感场景意义重大。效率优化是对抗'AI变贵'的关键武器。",
+      "stars": 0,
+      "tags": ["Image Inpainting", "Lightweight", "Parameter Efficiency", "0.2B", "Small Model"]
     }
   ]
 }
