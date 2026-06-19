@@ -1,0 +1,170 @@
+{
+  "date": "2026-06-19",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "美国政府强制Anthropic全球禁用Claude Fable 5和Mythos 5",
+      "url": "https://the-decoder.com/us-government-forces-anthropic-to-disable-claude-fable-5-and-mythos-5-for-all-customers-worldwide/",
+      "summary": "美国政府命令Anthropic关闭Fable 5和Mythos 5的全球访问，理由是所谓的越狱风险。Anthropic遵从但公开反驳：这些漏洞很小，且竞争对手如GPT-5.5也存在——这在公司花数月炒作自家Mythos类网络安全风险后显得讽刺。Anthropic警告此举可能开创阻止所有前沿部署的先例。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "这是AI监管史上的标志性事件——政府首次强制下线前沿模型(全球范围)。极具讽刺：Anthropic数月来炒作Mythos的网络武器能力(发现万级漏洞)，现在反被这套叙事'反噬'。深层影响：(1)政府用出口管制令在数小时内下线模型，展示了监管的雷霆手段；(2)开创危险先例——若小漏洞就能禁用，所有前沿部署都悬了；(3)安全叙事的双刃剑——你越强调危险，越给监管干预的理由。",
+      "stars": 0,
+      "tags": ["Anthropic", "US Government", "Fable 5", "Mythos 5", "Regulation", "Export Control"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "Amazon等六家公司据报触发了政府对Anthropic Fable模型的打击",
+      "url": "https://the-decoder.com/amazon-and-five-other-companies-reportedly-triggered-the-government-crackdown-on-anthropics-fable-model/",
+      "summary": "据报道，Amazon CEO Andy Jassy和其他科技公司高管向特朗普政府警告Anthropic Fable模型的安全漏洞——尽管Amazon是Anthropic最大投资者之一。数小时内，白宫通过出口管制令强制该模型下线。此举可能是合理的安全政策，但也像是对一家'碍事'公司的实力展示。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "剧情反转——Amazon(Anthropic最大投资者之一)竟是举报者！这揭示了AI竞争的残酷与复杂：投资关系挡不住竞争利益。'六家公司联合举报+白宫数小时响应'暗示这可能是商业竞争借安全之名的打击。当Fable 5以95% SWE-bench领先时，竞争对手用监管手段扳回一城。这是AI竞争'政治化'的危险信号——技术优势可能被监管博弈抵消。",
+      "stars": 0,
+      "tags": ["Amazon", "Anthropic", "Competition", "Regulation", "Lobbying", "Fable"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "Anthropic将Project Glasswing扩展到15国150个合作伙伴，同时两头获利",
+      "url": "https://the-decoder.com/anthropic-scales-project-glasswing-to-150-partners-across-15-countries-to-hunt-critical-software-flaws/",
+      "summary": "Anthropic将Project Glasswing扩展到15+国家的150个新合作伙伴，都用Claude Mythos Preview扫描关键基础设施的安全漏洞。已加入的伙伴已发现超10000个严重漏洞。同时Anthropic用Claude Security出售商业修复方案，从问题的两端都获利。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "'两头获利'的商业模式引人深思：Mythos发现漏洞，Claude Security卖修复——既制造问题又卖解药。这在商业上聪明，但伦理上微妙(类似'又造病毒又卖药')。结合政府禁用Fable的新闻，Anthropic的'安全'叙事既是卖点也是风险。150伙伴扫描关键基础设施意味着巨大的安全数据积累。这种'安全即商业'的模式可能成为AI安全公司的范式，但也引发利益冲突的质疑。",
+      "stars": 0,
+      "tags": ["Anthropic", "Project Glasswing", "Security", "Vulnerabilities", "Business Model", "Claude Security"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "Altman：主动AI是聊天机器人和Agent之后的下一个大阶段",
+      "url": "https://the-decoder.com/openai-ceo-sam-altman-sees-proactive-ai-as-the-next-big-phase-after-chatbots-and-agents/",
+      "summary": "OpenAI CEO Altman勾勒了AI产品的下一阶段：'主动AI'(proactive AI)——持续在后台运行、自主行动而非等待用户提示。企业也在应对飙升的AI成本和一个基本问题：大多数员工不知道该问AI什么。Altman承诺'帮人们用更少花费获得更多价值'。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "AI产品进化的清晰路线图：聊天机器人→Agent→主动AI。'主动AI'是质变——从'你问它答'到'它主动帮你做'(呼应'数字同事'、Perplexity Personal Computer)。Altman点出关键痛点：'员工不知道该问AI什么'——这是AI采用的真实障碍(也解释了tokenmaxxing)。主动AI正是解法：不需要用户会提问，AI自己发现该做什么。但'持续后台运行'也意味着成本和隐私的新挑战。",
+      "stars": 0,
+      "tags": ["OpenAI", "Sam Altman", "Proactive AI", "Agent", "Product Evolution", "Cost"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "Google Gemini 3.5 Flash性能提升，但运行成本是前代的5.5倍",
+      "url": "https://the-decoder.com/googles-gemini-3-5-flash-follows-anthropic-and-openai-in-making-newer-ai-models-significantly-pricier/",
+      "summary": "Google的Gemini 3.5 Flash比前代大幅提升，但基准测试中运行成本是前代的5.5倍。在Agent任务上，总成本甚至比更贵的Gemini 3.1 Pro高75%，因为它需要比所有竞品更多的交互步骤。Google并不孤单——随着巨额投资需要回报，AI正全面变贵。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "'AI全面变贵'是重要趋势反转——一直以来AI成本在下降，现在转向上涨。Gemini 3.5 Flash(本应是'快而省'的Flash定位)成本反增5.5倍，揭示了行业压力：巨额基础设施投资(Alphabet $1900亿、NVIDIA发债)需要回报。这与Fable 5涨价、GitHub转token计费形成完整图景——'AI变贵时代'到来。这解释了为何Headroom等省token工具爆火。对用户是坏消息，对盈利是必然。",
+      "stars": 0,
+      "tags": ["Google", "Gemini 3.5 Flash", "Pricing", "Cost Increase", "Agent", "Monetization"]
+    },
+    {
+      "id": 6,
+      "category": "news",
+      "title": "KPMG报告造假AI案例研究，警示'二次幻觉'风险",
+      "url": "https://the-decoder.com/kpmg-fabricated-ai-case-studies-in-a-report-designed-to-sell-clients-on-ai-adoption/",
+      "summary": "KPMG发布的一份AI商业报告包含捏造的案例研究，涉及UBS、NHS等机构。帮助揭露错误的GPTZero CEO Edward Tian警告'二次幻觉'——来自可信咨询公司的错误声称会不受质疑地传播。KPMG已撤回该报告。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "'二次幻觉'是深刻的新概念——AI的幻觉经由可信机构(KPMG)放大后更危险，因为人们不会质疑权威。讽刺的是：一份'推销AI'的报告本身因AI幻觉而造假。这呼应了德国AI担责判决、医学认知韧性的主题：AI错误信息的传播链。当咨询公司、媒体用AI生成内容却不核实，错误会披着权威外衣扩散。这警示所有用AI的专业机构：可信度一旦被AI幻觉污染，损失是系统性的。",
+      "stars": 0,
+      "tags": ["KPMG", "AI Hallucination", "Secondary Hallucination", "Fabrication", "Trust", "Consulting"]
+    },
+    {
+      "id": 7,
+      "category": "news",
+      "title": "OpenAI升级GPT-5.5 Instant可读性，淘汰o3和GPT-4.5",
+      "url": "https://the-decoder.com/openai-gives-gpt-5-5-instant-a-readability-upgrade-while-phasing-out-two-older-models/",
+      "summary": "OpenAI更新GPT-5.5 Instant以获得更自然的回应，并从最新模型中去掉Canvas功能——写作和编程任务将直接在聊天中运行。公司还从ChatGPT退役较旧的o3和GPT-4.5模型，最迟于2026年8月关闭。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "模型迭代和淘汰的常态化。淘汰o3(曾经的推理旗舰)和GPT-4.5说明AI模型的'生命周期'在缩短——一年前的旗舰已成淘汰对象。'去掉Canvas、回归聊天'反映了产品哲学的调整：减少复杂功能，让AI能力直接融入对话(呼应超级应用的整合思路)。对开发者意味着需要持续迁移(呼应Code2LoRA应对模型演化)。模型快速更替是AI时代的新常态。",
+      "stars": 0,
+      "tags": ["OpenAI", "GPT-5.5", "Model Retirement", "Canvas", "o3", "Product Update"]
+    },
+    {
+      "id": 8,
+      "category": "paper",
+      "title": "Kairos：面向物理AI的原生世界模型技术栈",
+      "url": "https://arxiv.org/abs/2606.16533",
+      "summary": "Kairos提出一个面向物理AI(Physical AI)的原生世界模型技术栈。提供从底层到应用的完整世界模型基础设施，支持机器人、自动驾驶等物理AI系统理解和预测真实世界。",
+      "source": "HuggingFace Papers (June 18, 2026)",
+      "highlight": "紧扣本周世界模型大爆发(李飞飞、Hassabis、LeCun集体背书)。Kairos的'技术栈'定位很关键——不是单个模型，而是完整的世界模型基础设施(类比NVIDIA Cosmos)。物理AI需要标准化的世界模型工具链才能规模化发展。在世界模型被视为通向AGI关键路径的共识下，'原生世界模型技术栈'是支撑整个物理AI生态的基础设施，对机器人和自动驾驶的工程化有重要价值。",
+      "stars": 0,
+      "tags": ["World Model", "Physical AI", "Native Stack", "Infrastructure", "Robotics"]
+    },
+    {
+      "id": 9,
+      "category": "paper",
+      "title": "MaineCoon：追求实时音视频社交世界模型",
+      "url": "https://arxiv.org/abs/2606.17800",
+      "summary": "MaineCoon致力于构建实时的音视频社交世界模型。让AI能实时理解和模拟社交场景中的音频和视觉互动，为虚拟社交、数字人、实时互动应用提供世界模型支持。",
+      "source": "HuggingFace Papers (June 18, 2026)",
+      "highlight": "世界模型从物理世界扩展到'社交世界'是有趣的方向。MaineCoon关注音视频社交互动的实时建模，呼应Odyssey(交互视频)、Character.AI(社交陪伴)、Open-LLM-VTuber的趋势。社交世界模型能让数字人/虚拟角色更自然地实时互动。在AI陪伴日均80分钟使用的背景下，更真实的社交世界模型有巨大商业潜力，但也需注意沉迷等伦理问题。",
+      "stars": 0,
+      "tags": ["World Model", "Audio-Visual", "Social", "Real-Time", "Digital Human"]
+    },
+    {
+      "id": 10,
+      "category": "paper",
+      "title": "SAE干预不可靠：被抑制行为的干预后恢复",
+      "url": "https://arxiv.org/abs/2606.18322",
+      "summary": "该论文揭示了稀疏自编码器(SAE)干预的不可靠性——通过SAE抑制模型的某些行为后，这些行为可能在干预后恢复。这对依赖SAE进行模型可解释性和安全控制的方法提出了警示。",
+      "source": "HuggingFace Papers (June 18, 2026)",
+      "highlight": "SAE是当前模型可解释性和安全控制的热门工具(用于理解和调控模型内部)。这篇论文的'泼冷水'很重要：SAE干预可能不可靠，被压制的行为会恢复。在AI安全备受关注(政府禁用Fable、越狱风险)的背景下，这警示我们：可解释性工具本身需要被审视。如果安全控制方法不可靠，基于它的安全保证就站不住脚。这种批判性研究对AI安全的严谨性至关重要。",
+      "stars": 0,
+      "tags": ["SAE", "Interpretability", "AI Safety", "Model Control", "Reliability"]
+    },
+    {
+      "id": 11,
+      "category": "paper",
+      "title": "奖励一直在你的数据里：用判别器引导的RL修正Flow Matching",
+      "url": "https://arxiv.org/abs/2606.19162",
+      "summary": "该论文提出'奖励一直在数据里'的洞察，用判别器引导的强化学习(Discriminator-Guided RL)修正Flow Matching生成模型。通过从数据中提取隐含的奖励信号，改善生成质量。",
+      "source": "HuggingFace Papers (June 18, 2026)",
+      "highlight": "优雅的洞察——奖励信号其实隐含在数据中，不需要额外标注。这对生成模型(Flow Matching是扩散模型的重要变体)的训练优化有价值。'判别器引导'借鉴了GAN的思想，与RL结合修正生成。这类'从数据中挖掘隐含信号'的方法(呼应'UnEmbedding矩阵是特征透镜')往往能带来效率提升。对图像/视频生成(本周LoomVideo、OmniDirector等)的质量改进有基础性意义。",
+      "stars": 0,
+      "tags": ["Flow Matching", "Discriminator-Guided", "RL", "Generation", "Reward"]
+    },
+    {
+      "id": 12,
+      "category": "repo",
+      "title": "GLM-5：从Vibe Coding到Agentic Engineering",
+      "url": "https://github.com/zai-org/GLM-5",
+      "summary": "智谱AI(zai-org)发布GLM-5，定位从'Vibe Coding'到'Agentic Engineering'。新一代GLM模型强化了Agent化工程能力，面向自主软件开发和复杂工程任务。",
+      "source": "GitHub Trending (June 19, 2026)",
+      "highlight": "智谱GLM-5是中国AI模型的最新力作，紧跟Agentic Engineering趋势(呼应Fable 5、Mistral Vibe)。'从Vibe Coding到Agentic Engineering'的定位精准——AI编程正从'随手写'走向'系统化工程'。在中国AI密集发布(阿里Qwen、DeepSeek、Moonshot)和美国监管收紧(禁用Fable)的背景下，中国开源模型的持续推进提供了重要的替代选择。GLM系列一直是中国开源模型的代表，GLM-5的Agent能力值得关注。",
+      "stars": 202,
+      "tags": ["GLM-5", "Zhipu", "China", "Agentic Engineering", "Coding", "Open Source"]
+    },
+    {
+      "id": 13,
+      "category": "repo",
+      "title": "codebase-memory-mcp暴涨(371→2322星)：减少99% token的代码智能MCP",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "summary": "codebase-memory-mcp从昨天的371星暴涨至2322星(+526%)。高性能代码智能MCP服务器，毫秒级索引代码库为知识图谱，158语言、亚毫秒查询、减少99% token、单一静态二进制零依赖。",
+      "source": "GitHub Trending (June 19, 2026)",
+      "highlight": "一天371→2322(+526%)的爆发印证了'减少99% token'的巨大吸引力——在AI全面变贵(Gemini涨5.5倍)、GitHub转token计费的背景下，省token就是省钱。MCP标准让它即插即用到Claude Code等工具。'毫秒级索引+亚毫秒查询+零依赖'的工程品质是爆火的基础。这是'AI成本工程'赛道的明星项目，反映了开发者对降低AI使用成本的迫切需求。",
+      "stars": 2322,
+      "tags": ["MCP", "Codebase Memory", "Token Efficiency", "Explosive Growth", "Code Intelligence"]
+    },
+    {
+      "id": 14,
+      "category": "repo",
+      "title": "KiloCode：一体化Agent工程平台",
+      "url": "https://github.com/Kilo-Org/kilocode",
+      "summary": "Kilo是一个一体化的Agent工程平台，自称是最流行的开源编程Agent。让开发者能更快地构建、发布和迭代，提供完整的Agent化软件开发工作流。",
+      "source": "GitHub Trending (June 19, 2026)",
+      "highlight": "开源编程Agent竞争激烈(Continue、Goose、oh-my-pi、KiloCode)。Kilo的'一体化平台'定位试图覆盖从构建到发布迭代的全流程。1345星的热度反映了开源编程Agent的持续需求——尤其在闭源工具涨价(GitHub转token计费)的背景下。这与GLM-5的'Agentic Engineering'呼应：AI编程正从单点工具走向完整平台。开源、可自托管的Agent平台对成本和自主性敏感的团队有吸引力。",
+      "stars": 1345,
+      "tags": ["Coding Agent", "Open Source", "Platform", "Agentic Engineering", "Developer Tools"]
+    },
+    {
+      "id": 15,
+      "category": "repo",
+      "title": "Hyper-Extract：用LLM将非结构化文本转为结构化知识(图/超图)",
+      "url": "https://github.com/yifanfeng97/Hyper-Extract",
+      "summary": "Hyper-Extract用LLM将非结构化文本转换为结构化知识，支持图(graphs)、超图(hypergraphs)和时空抽取，一条命令完成。为知识图谱构建和复杂关系抽取提供工具。",
+      "source": "GitHub Trending (June 19, 2026)",
+      "highlight": "知识抽取是连接非结构化文本与结构化AI应用(RAG、推理)的关键。Hyper-Extract的'超图'支持是亮点——普通图只能表达成对关系，超图能表达多元关系(一个事件涉及多个实体)，更适合复杂知识。这呼应了'记忆是图记忆'、codebase-memory-mcp(知识图谱)的趋势。在RAG和Agent记忆需要高质量结构化知识的背景下，强大的知识抽取工具是基础设施。时空抽取对事件分析、时序推理也有价值。",
+      "stars": 124,
+      "tags": ["Knowledge Extraction", "Hypergraph", "LLM", "Knowledge Graph", "Structured Data", "RAG"]
+    }
+  ]
+}
