@@ -165,6 +165,94 @@
       "highlight": "'结构化状态'直击Agent可靠性的核心痛点(呼应'世界模型缺乏持久状态核心'、Meta rogue agent失控)。工具调用Agent最大的风险是行为漂移、违反策略，LedgerAgent用明确的状态账本约束Agent行为，让其'策略遵从'。这对企业级Agent部署至关重要——可控、可审计、合规。在Agent被赋予越来越多自主权(主动AI、100个Agent并行编码)的背景下，结构化状态与策略遵从是Agent安全落地的工程保障。",
       "stars": 3,
       "tags": ["Agent", "Tool-Calling", "Structured State", "Policy-Adherent", "Reliability", "Arizona State"]
+    },
+    {
+      "id": 16,
+      "category": "news",
+      "title": "诺贝尔化学奖授予DeepMind AI研究者，表彰蛋白质结构突破",
+      "url": "https://the-decoder.com/nobel-prize-in-chemistry-google-deepmind-ai-researchers-honoured-for-protein-breakthrough/",
+      "summary": "瑞典皇家科学院将2024年诺贝尔化学奖授予三位在预测和设计蛋白质结构方面取得突破性进展的研究者，其中包括Google DeepMind的AI研究者。这是AI驱动的科学发现获得最高科学荣誉的标志性时刻。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "AI正式登上科学的最高殿堂——诺贝尔奖。AlphaFold解决了困扰生物学50年的蛋白质折叠难题，这次获奖是对'AI for Science'的终极认可。结合本周陶哲轩'工业化数学'、AutoMedBench(医学研究Agent)，AI正在从'工具'变为'科学发现的主体'。这个里程碑意味着AI能做出配得上诺奖的原创科学贡献，将激励更多AI for Science的投入。也呼应了今日John Jumper(AlphaFold核心)加入Anthropic的人才流动。",
+      "stars": 0,
+      "tags": ["Nobel Prize", "DeepMind", "AlphaFold", "Protein", "AI for Science", "Chemistry"]
+    },
+    {
+      "id": 17,
+      "category": "news",
+      "title": "OpenAI完成史上最大私募融资，Amazon投资500亿成战略伙伴",
+      "url": "https://the-decoder.com/openais-up-to-110-billion-raise-lines-up-almost-exactly-with-the-111-billion-it-just-added-to-its-cash-burn-forecast/",
+      "summary": "OpenAI完成史上最大私募融资(高达1100亿美元)，Amazon投资最多500亿成为战略伙伴，同时微软强调其自身合作关系不会改变。值得注意的是，这1100亿融资几乎正好对应OpenAI刚增加的1110亿现金消耗预测。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "$1100亿融资恰好匹配$1110亿烧钱预测——这个数字对应揭示了AI军备竞赛的烧钱本质。Amazon同时投资OpenAI(500亿)和Anthropic(330亿)，'两头下注'对冲风险。微软急忙澄清'合作不变'反映了OpenAI关系的微妙(此前微软引入Claude Cowork)。史上最大融资+史上最大烧钱，OpenAI把AI竞赛的赌注推到极致。这种规模的资本运作，成败都将是历史性的。",
+      "stars": 0,
+      "tags": ["OpenAI", "Funding", "Amazon", "Cash Burn", "Microsoft", "Investment"]
+    },
+    {
+      "id": 18,
+      "category": "news",
+      "title": "DeepMind元老David Silver融资10亿，押注'非LLM'的超级智能",
+      "url": "https://the-decoder.com/deepmind-veteran-david-silver-raises-1b-seed-round-to-build-superintelligence-without-llms/",
+      "summary": "DeepMind资深研究员David Silver(AlphaGo核心)为其伦敦AI创业公司Ineffable Intelligence募集10亿美元，创欧洲创业史最大种子轮。与今天的LLM不同，Silver押注在模拟环境中的强化学习来构建'无限学习的超级智能'。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "David Silver(AlphaGo/AlphaZero缔造者)创业是重磅——10亿种子轮(欧洲史上最大)押注'非LLM路线'。这与LeCun'别研究LLM'、世界模型热潮形成强大的'反LLM'阵营。Silver的强化学习+模拟环境路线，正是AlphaZero'自我对弈学习'思想的延伸。在Karpathy力挺LLM、Silver/LeCun押注RL+世界模型的对立中，AI通向超智能的路径之争达到高潮。顶尖人物用真金白银投票，多元路线并进。",
+      "stars": 0,
+      "tags": ["David Silver", "Superintelligence", "Reinforcement Learning", "Non-LLM", "Funding", "DeepMind"]
+    },
+    {
+      "id": 19,
+      "category": "news",
+      "title": "'Attention Is All You Need'作者Shazeer加入OpenAI",
+      "url": "https://the-decoder.com/googles-gemini-co-lead-noam-shazeer-joins-openai-after-two-year-return-stint/",
+      "summary": "Transformer奠基论文'Attention Is All You Need'共同作者、Google Gemini前联合负责人Noam Shazeer加入OpenAI。他2024年才通过27亿美元交易从Character.AI回归Google。继Karpathy加入Anthropic后，这是今年又一起重大AI人才变动。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "Shazeer(Transformer之父之一)加入OpenAI，与Karpathy投奔Anthropic、John Jumper加入Anthropic形成顶级人才的剧烈'对流'。这揭示了AI巨头的人才争夺白热化。讽刺的是Shazeer 2024年才以27亿回归Google，现在又走——顶级AI人才的流动性和身价都达到极致。在路线之争(LLM vs 世界模型)和人才争夺的双重背景下，谁能聚集最强大脑，谁就掌握AI竞赛的主动权。",
+      "stars": 0,
+      "tags": ["Noam Shazeer", "OpenAI", "Transformer", "Talent", "Google", "Gemini"]
+    },
+    {
+      "id": 20,
+      "category": "news",
+      "title": "Google DeepMind发布AlphaFold 3供科学使用",
+      "url": "https://the-decoder.com/google-deepmind-releases-alphafold-3-for-scientific-use/",
+      "summary": "Google DeepMind及其AI医药分拆公司Isomorphic Labs推出AlphaFold 3——蛋白质预测模型的最新版本。在诺贝尔奖加持下，AlphaFold 3的发布将进一步推动AI在生物医药领域的应用。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "AlphaFold 3在诺奖光环下发布，意义重大。从预测蛋白质结构到现在更全面的生物分子建模，AlphaFold系列持续推进AI for Science的边界。Isomorphic Labs(AI制药)的参与显示了从'科学突破'到'药物研发产业化'的路径。结合Mythos 5自主设计药物、OpenMed开源医疗AI，AI正在系统性地变革生物医药。AlphaFold 3可能加速新药发现、疾病机理研究，对人类健康有深远影响。",
+      "stars": 0,
+      "tags": ["AlphaFold 3", "DeepMind", "Protein", "Drug Discovery", "Isomorphic Labs", "Biology"]
+    },
+    {
+      "id": 21,
+      "category": "news",
+      "title": "爆料：Altman被解雇期间，OpenAI董事会曾与Anthropic洽谈合并",
+      "url": "https://the-decoder.com/openai-board-spoke-with-anthropic-about-possible-merger/",
+      "summary": "据爆料，在OpenAI CEO Sam Altman被解雇期间，公司董事会曾与Anthropic CEO Dario Amodei讨论两家AI公司可能的合并。这一从未公开的细节揭示了2023年OpenAI领导层危机的惊人内幕。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "惊人内幕——OpenAI和Anthropic差点合并！2023年Altman被解雇危机中，董事会竟考虑与最大竞争对手(Anthropic由前OpenAI员工创立)合并。这个'平行宇宙'令人遐想：若合并成功，AI格局将完全不同。如今两家成为最激烈的竞争对手(估值你追我赶、人才对流、Cowork之争)。这段历史(Amazon MGM正在拍成电影)揭示了AI权力斗争的戏剧性。历史的偶然性塑造了今天的AI版图。",
+      "stars": 0,
+      "tags": ["OpenAI", "Anthropic", "Merger", "Altman", "Corporate History", "Amodei"]
+    },
+    {
+      "id": 22,
+      "category": "paper",
+      "title": "HumanScale：第一人称人类视频在具身预训练上可超越真实机器人数据",
+      "url": "https://arxiv.org/abs/2606.20521",
+      "summary": "HumanScale发现，第一人称(egocentric)人类视频在具身智能预训练上可以超越真实的机器人数据。海量易得的人类第一视角视频，比稀缺昂贵的机器人数据更能有效地预训练具身模型。",
+      "source": "HuggingFace Papers (June 19, 2026)",
+      "highlight": "突破性发现——人类视频竟比机器人数据更好用！这解决了具身智能的核心瓶颈：机器人数据稀缺昂贵，而人类第一视角视频海量易得(可穿戴相机、Meta眼镜)。呼应ACE-Ego-0(统一人类机器人数据)、World Action Models。'人类视频>机器人数据'意味着具身智能的数据规模可以指数级扩大。在OpenAI重返机器人、具身智能爆发的背景下，这条数据路径可能加速人形机器人的能力突破。",
+      "stars": 0,
+      "tags": ["Embodied AI", "Egocentric Video", "Pretraining", "Human Data", "Robotics", "Data"]
+    },
+    {
+      "id": 23,
+      "category": "news",
+      "title": "Google Gemini 3.5 Flash性能提升，但运行成本是前代的5.5倍",
+      "url": "https://the-decoder.com/googles-gemini-3-5-flash-follows-anthropic-and-openai-in-making-newer-ai-models-significantly-pricier/",
+      "summary": "Google的Gemini 3.5 Flash比前代大幅提升，但基准测试中运行成本是前代的5.5倍。在Agent任务上，总成本甚至比更贵的Gemini 3.1 Pro高75%，因为它需要比所有竞品更多的交互步骤。Google并不孤单——随着巨额投资需要回报，AI正全面变贵。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "'AI全面变贵'是重要趋势反转——一直以来AI成本在下降，现在转向上涨。Gemini 3.5 Flash(本应是'快而省'的Flash定位)成本反增5.5倍，揭示了行业压力：巨额基础设施投资(OpenAI千亿融资烧钱、Alphabet $1900亿)需要回报。这与Fable 5涨价、GitHub转token计费形成完整图景。这解释了为何Headroom(本日4000星)等省token工具爆火。对用户是坏消息，对盈利是必然。",
+      "stars": 0,
+      "tags": ["Google", "Gemini 3.5 Flash", "Pricing", "Cost Increase", "Agent", "Monetization"]
     }
   ]
 }
