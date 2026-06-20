@@ -1,0 +1,170 @@
+{
+  "date": "2026-06-20",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "诺奖得主John Jumper离开Google DeepMind加入Anthropic",
+      "url": "https://the-decoder.com/google-deepmind-loses-another-top-ai-researcher-as-nobel-laureate-john-jumper-leaves-for-anthropic/",
+      "summary": "AlphaFold团队负责人、2024年诺贝尔化学奖得主John Jumper在DeepMind工作近九年后跳槽Anthropic。这是Google近期连续流失的又一位顶级研究者——此前Gemini联合负责人Noam Shazeer去了OpenAI，AlphaGo/AlphaZero的David Silver也已离开创业。",
+      "source": "The Decoder (June 19, 2026)",
+      "highlight": "顶级AI人才战白热化的标志性事件——诺奖级科学家也成抢夺对象。三连击(Jumper→Anthropic、Shazeer→OpenAI、Silver创业)揭示DeepMind的人才流失危机。结合'Gemini 3.5 Pro据传不及竞品'的传闻，Google在模型竞赛中似显疲态。人才即护城河——当AlphaFold这样改变世界的项目负责人都离开，反映的是组织吸引力和前沿话语权的此消彼长。这对Google的AGI竞争力是深层警讯。",
+      "stars": 0,
+      "tags": ["Google DeepMind", "Anthropic", "John Jumper", "AlphaFold", "Talent War", "Nobel Prize"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "AA-Briefcase新基准：最强AI在真实知识工作上仅完整解决3%任务",
+      "url": "https://the-decoder.com/new-benchmark-exposes-how-badly-ai-struggles-with-real-knowledge-work/",
+      "summary": "Artificial Analysis推出的AA-Briefcase基准用数千个碎片化源文件(Slack对话、邮件、会议记录、数据导出)构建数周跨度的真实知识工作项目。表现最好的Claude Fable 5虽得分最高，但只在3%的任务上满足全部标准；91个任务中有31个无任何模型超过50%。",
+      "source": "The Decoder (June 19, 2026)",
+      "highlight": "给'AI即将取代知识工作者'的叙事泼了一盆冷水(呼应昨日Agent评估预测效度、KPMG造假)。3%的满分率揭示真实工作与基准刷分的鸿沟——越强的模型失败得越'安静'(满足明显要求却漏掉需要拼接多源信息的细节)。800倍的成本差距(DeepSeek V4 Flash $0.04 vs Claude Fable 5 $31)更凸显性价比难题。这是对Agent实用化最清醒的现实检验：真实知识工作的复杂性远超当前评测。",
+      "stars": 0,
+      "tags": ["Benchmark", "AA-Briefcase", "Knowledge Work", "Artificial Analysis", "Claude Fable 5", "Evaluation"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "挪威禁止小学使用生成式AI工具以保护儿童基础学习能力",
+      "url": "https://the-decoder.com/norway-bans-generative-ai-tools-in-elementary-schools-to-protect-kids-basic-learning-skills/",
+      "summary": "挪威将于8月底起禁止小学(1-7年级)使用生成式AI工具，中学也仅允许在监督下使用。总理Stoere表示，孩子必须先'学会读、写和算术'。这是对AI过早介入基础教育的政策性回应。",
+      "source": "The Decoder (June 19, 2026)",
+      "highlight": "AI教育监管的标志性政策——与'AI普及一切'的趋势形成鲜明对立。核心论点深刻：基础认知能力(读写算)必须靠人脑亲历建立，不能被AI代劳(呼应此前医学认知韧性、二次幻觉的主题)。这触及AI时代教育的根本两难：工具便利 vs 能力退化。挪威的'先学会基础再用AI'立场可能成为各国教育政策的参考范式。对AI教育产品是重要的政策风向标。",
+      "stars": 0,
+      "tags": ["Norway", "AI Regulation", "Education", "Generative AI", "Cognitive Skills", "Policy"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "OpenAI研究：少量'有益特质'训练让模型全面更安全且更难被操纵",
+      "url": "https://the-decoder.com/openai-researchers-show-small-doses-of-beneficial-trait-training-make-ai-models-broadly-safer-and-harder-to-manipulate/",
+      "summary": "OpenAI研究者发现，在RL后训练中混入少量'有益特质'(真实性、可纠正性、透明推理等)数据，模型就能在53个独立基准中的44个上改善。仅用健康数据训练也能提升非健康领域(如奖励黑客、欺骗检测)的表现，并对有害微调更具抵抗力。",
+      "source": "The Decoder (June 19, 2026)",
+      "highlight": "'好行为可跨域泛化'是对齐研究的重要正面发现——此前已知坏行为会扩散，现证明善行同样能广泛迁移。OpenAI称之为'选择性持久'：模型抵抗有害引导却不失有用的灵活性。这与Anthropic的'宪法'路线形成方法论对照(经验可测特质 vs 明文价值文档)，是两条对齐路径的正面交锋。在AI安全备受关注的当下，'少量数据带来广泛安全提升'对降低对齐成本意义重大。",
+      "stars": 0,
+      "tags": ["OpenAI", "AI Safety", "Alignment", "Beneficial Traits", "RL", "Generalization"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "Anthropic将Artifacts带入Claude Code，团队可分享编码会话的实时页面",
+      "url": "https://the-decoder.com/anthropic-brings-artifacts-to-claude-code-letting-teams-share-live-pages-from-coding-sessions/",
+      "summary": "Claude Code现支持Artifacts——可将编码会话结果转为交互式网页并分享给团队。页面由完整会话上下文(代码、连接的工具、聊天历史)生成，内容变化时同一URL自动更新并保留版本历史。适用于PR讲解、事故时间线、架构概览等。",
+      "source": "The Decoder (June 18, 2026)",
+      "highlight": "把'编码过程'变成'可分享的活文档'是Agent协作的重要一步(有趣的是本项目正是用Claude Code自动生成的网页)。传统编码会话是黑盒，Artifacts让其结果可视化、可协作、可追溯(自动更新+版本历史)。这呼应了'数字同事'、团队级Agent协作的趋势。对开发团队意味着AI不仅写代码，还能产出团队共享的知识产物。默认私有+权限管控也体现了企业级的安全考量。",
+      "stars": 0,
+      "tags": ["Anthropic", "Claude Code", "Artifacts", "Collaboration", "Developer Tools", "Enterprise"]
+    },
+    {
+      "id": 6,
+      "category": "repo",
+      "title": "Google TimesFM：时序预测基础模型",
+      "url": "https://github.com/google-research/timesfm",
+      "summary": "TimesFM(Time Series Foundation Model)是Google Research开发的预训练时序基础模型，专为时间序列预测设计。像LLM一样'预训练+零样本'地处理各种时序预测任务，无需为每个数据集单独训练。",
+      "source": "GitHub Trending (June 20, 2026)",
+      "highlight": "时序预测是被LLM浪潮相对忽视但商业价值巨大的领域(金融、供应链、能源、运维)。TimesFM把'基础模型'范式带入时序——一个预训练模型零样本应对多种预测任务，颠覆了传统'一数据集一模型'的做法。当日+1510星反映了产业界对通用时序预测的强烈需求。Google的背书和工程质量让它成为该方向的标杆。这是'基础模型泛化到非文本模态'的代表性实践。",
+      "stars": 24099,
+      "tags": ["Time Series", "Foundation Model", "Google", "Forecasting", "Zero-Shot", "Pretrained"]
+    },
+    {
+      "id": 7,
+      "category": "tool",
+      "title": "Headroom：在内容进入LLM前压缩，省60-95% token",
+      "url": "https://github.com/chopratejas/headroom",
+      "summary": "Headroom在工具输出、日志、文件和RAG分块进入LLM之前对其压缩，宣称在保持相同答案的前提下减少60-95%的token。提供库、代理(proxy)和MCP服务器三种接入方式。",
+      "source": "GitHub Trending (June 20, 2026)",
+      "highlight": "当日暴涨+4005星(trending榜首热度之一)，再次印证'省token就是省钱'的爆发逻辑(呼应昨日codebase-memory-mcp、Gemini涨价5.5倍)。Headroom切入的是更通用的场景——任何进入LLM的内容(日志、工具输出、RAG)都能压缩。三种接入方式(库/代理/MCP)体现了对不同集成需求的覆盖。在'AI全面变贵'时代，上下文压缩已成为独立的工程赛道，Headroom是其中的明星项目。",
+      "stars": 38799,
+      "tags": ["Token Efficiency", "Compression", "MCP", "RAG", "Cost Optimization", "LLM"]
+    },
+    {
+      "id": 8,
+      "category": "repo",
+      "title": "OpenMontage：全球首个开源agentic视频制作系统",
+      "url": "https://github.com/calesthio/openmontage",
+      "summary": "OpenMontage自称全球首个开源、agentic的视频制作系统，包含12条流水线、52个工具和500+ agent技能，能把AI编程助手变成完整的视频制作工作室。",
+      "source": "GitHub Trending (June 20, 2026)",
+      "highlight": "把'编码Agent'的能力迁移到视频制作领域，是Agent应用扩张的有趣方向(呼应GLM-5/KiloCode的agentic engineering)。'12流水线+52工具+500技能'的体量显示了agentic工作流的复杂度上限。让AI编程助手转型为视频制作工作室，模糊了'代码Agent'与'创意Agent'的边界。在视频生成模型(LTX-2、Holo-World)爆发的背景下，OpenMontage补上了'编排与生产'这一应用层环节，是开源创意Agent的代表。",
+      "stars": 6314,
+      "tags": ["Video Production", "Agent", "Open Source", "Pipeline", "Creative AI", "Workflow"]
+    },
+    {
+      "id": 9,
+      "category": "repo",
+      "title": "Superpowers：可落地的agentic技能框架与软件开发方法论",
+      "url": "https://github.com/obra/superpowers",
+      "summary": "Superpowers是一个agentic技能框架及软件开发方法论，自称'真正可用'。为AI Agent提供结构化的技能体系和工程方法论，让Agent能更系统地完成软件开发任务。",
+      "source": "GitHub Trending (June 20, 2026)",
+      "highlight": "超高星量(23万+)反映了'Agent技能化'已成开发者社区的核心议题(呼应微软SkillOpt、SkillAdaptor、本项目的skill机制)。Superpowers强调'方法论'而非单纯工具——这是Agent工程走向成熟的标志：从'能调用工具'到'有系统的工作方法'。'技能框架'让Agent能力可组合、可复用、可沉淀。在agentic engineering成为主流的当下，标准化的技能与方法论框架是团队规模化使用Agent的基础设施。",
+      "stars": 233390,
+      "tags": ["Agent", "Skills Framework", "Methodology", "Software Development", "Open Source", "Agentic Engineering"]
+    },
+    {
+      "id": 10,
+      "category": "repo",
+      "title": "Lightricks LTX-2：开源音视频联合生成模型",
+      "url": "https://github.com/Lightricks/LTX-2",
+      "summary": "LTX-2是Lightricks官方发布的音视频(audio-video)生成模型，提供Python推理和LoRA训练包。能联合生成视频与配套音频，支持用LoRA进行定制化微调。",
+      "source": "GitHub Trending (June 20, 2026)",
+      "highlight": "音视频'联合生成'是视频生成的下一前沿——不再是无声画面，而是画面与声音同步生成(呼应MaineCoon音视频社交世界模型)。LTX-2提供完整的推理+LoRA训练能力，意味着开发者能定制自己的音视频生成。当日+1220星显示开源视频生成的强劲需求。在视频世界模型(Holo-World)、创意Agent(OpenMontage)的生态中，LTX-2这样可自托管、可微调的开源生成模型，是降低视频创作门槛的关键基础设施。",
+      "stars": 7678,
+      "tags": ["Video Generation", "Audio-Video", "LoRA", "Open Source", "Lightricks", "Generative Model"]
+    },
+    {
+      "id": 11,
+      "category": "paper",
+      "title": "DragMesh-2：与铰接物体的物理合理灵巧手-物交互",
+      "url": "https://huggingface.co/papers",
+      "summary": "DragMesh-2(北京大学)研究物理合理的灵巧手与铰接物体(articulated objects)的交互。让机器人/虚拟手能以符合物理规律的方式操作带关节的复杂物体(如剪刀、抽屉、笔记本电脑)。",
+      "source": "HuggingFace Daily Papers (June 19, 2026)",
+      "highlight": "当日HuggingFace第二高赞(61赞)，紧扣具身智能与灵巧操作的热点。'铰接物体'是机器人操作的难点——物体本身会变形/转动，交互需同时满足运动学和物理约束。DragMesh-2的'物理合理'强调了与真实世界的一致性(呼应ENPIRE真实世界自我改进、世界模型需持久状态)。在具身智能爆发、机器人走向实用的背景下，灵巧手对复杂物体的可靠操作是关键能力，对机器人操作和仿真有基础价值。",
+      "stars": 61,
+      "tags": ["Dexterous Manipulation", "Articulated Objects", "Embodied AI", "Robotics", "Physics", "Peking University"]
+    },
+    {
+      "id": 12,
+      "category": "paper",
+      "title": "Playful Agentic Robot Learning：游戏式agentic机器人学习",
+      "url": "https://huggingface.co/papers",
+      "summary": "UC Berkeley提出'游戏式'的agentic机器人学习方法。让机器人像孩子玩耍一样通过自主探索和'玩'来学习技能，而非仅依赖任务导向的训练，从而获得更通用、更鲁棒的能力。",
+      "source": "HuggingFace Daily Papers (June 19, 2026)",
+      "highlight": "'玩耍式学习'是受人类/动物认知启发的优雅思路——通过无明确目标的探索积累通用能力(呼应ENPIRE真实世界自我改进、自我进化主题)。相比死板的任务训练，'playful'探索能让机器人发现更丰富的技能和泛化能力。这与S-Agent(空间工具使用)共同指向具身智能的核心问题：如何让机器人自主获得通用能力。UC Berkeley的背书+35赞显示了学界对'探索式机器人学习'的兴趣。这是迈向通用机器人的有前景方向。",
+      "stars": 35,
+      "tags": ["Robot Learning", "Agentic", "Exploration", "Embodied AI", "UC Berkeley", "Generalization"]
+    },
+    {
+      "id": 13,
+      "category": "paper",
+      "title": "Multi-LCB：将LiveCodeBench扩展到多种编程语言",
+      "url": "https://huggingface.co/papers",
+      "summary": "Multi-LCB将流行的代码评测基准LiveCodeBench从单一语言扩展到多种编程语言，更全面地评估LLM在不同语言上的真实编程能力，避免对单一语言(如Python)的过拟合评估。",
+      "source": "HuggingFace Daily Papers (June 19, 2026)",
+      "highlight": "代码评估的多语言化是必要的纠偏——现有基准过度集中于Python，无法反映模型在C++/Rust/Go等语言的真实水平(呼应AA-Briefcase、预测效度对评估真实性的追问)。Multi-LCB让编程能力评估更全面、更接近真实开发场景。在GLM-5、agentic engineering、AI编程工具激烈竞争的当下，公平且多语言的评测基准对衡量真实编程能力至关重要。这是评估方法论严谨化的又一体现，对开发者选型有实用参考价值。",
+      "stars": 26,
+      "tags": ["Benchmark", "Code Generation", "LiveCodeBench", "Multilingual", "Evaluation", "LLM"]
+    },
+    {
+      "id": 14,
+      "category": "paper",
+      "title": "Context-Aware RL：面向agentic与多模态LLM的上下文感知强化学习",
+      "url": "https://huggingface.co/papers",
+      "summary": "普林斯顿大学提出面向agentic和多模态LLM的上下文感知强化学习方法。让RL训练能够感知和利用任务上下文，提升Agent在多步骤、多模态任务中的表现。",
+      "source": "HuggingFace Daily Papers (June 19, 2026)",
+      "highlight": "RL正成为提升Agent能力的核心引擎(呼应OpenAI有益特质训练、FAPO自主提示优化)。'上下文感知'是关键——Agent任务往往是多步、多模态的，让RL训练利用上下文信息能显著提升复杂任务表现。普林斯顿的研究瞄准了agentic+多模态的交叉点，这正是当前最热的方向。在Agent从单步走向长程、从纯文本走向多模态的趋势下，上下文感知的RL是支撑下一代Agent能力的方法论基础。",
+      "stars": 4,
+      "tags": ["Reinforcement Learning", "Agentic", "Multimodal", "Context-Aware", "Princeton", "LLM"]
+    },
+    {
+      "id": 15,
+      "category": "paper",
+      "title": "LedgerAgent：为策略遵从的工具调用Agent提供结构化状态",
+      "url": "https://huggingface.co/papers",
+      "summary": "LedgerAgent(亚利桑那州立大学)为工具调用Agent引入结构化状态(structured state)，使其更好地遵从策略(policy-adherent)。通过维护明确的状态'账本'，让Agent在调用工具时严格遵守预设规则和约束。",
+      "source": "HuggingFace Daily Papers (June 19, 2026)",
+      "highlight": "'结构化状态'直击Agent可靠性的核心痛点(呼应'世界模型缺乏持久状态核心'、Meta rogue agent失控)。工具调用Agent最大的风险是行为漂移、违反策略，LedgerAgent用明确的状态账本约束Agent行为，让其'策略遵从'。这对企业级Agent部署至关重要——可控、可审计、合规。在Agent被赋予越来越多自主权(主动AI、100个Agent并行编码)的背景下，结构化状态与策略遵从是Agent安全落地的工程保障。",
+      "stars": 3,
+      "tags": ["Agent", "Tool-Calling", "Structured State", "Policy-Adherent", "Reliability", "Arizona State"]
+    }
+  ]
+}
