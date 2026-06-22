@@ -1,0 +1,170 @@
+{
+  "date": "2026-06-22",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "LeCun新研究：AI仅通过看视频就能发展出基础物理理解",
+      "url": "https://the-decoder.com/well-it-looks-like-metas-yann-lecun-may-have-been-right-about-ai-again/",
+      "summary": "Meta AI负责人LeCun领导的新研究证明，人工智能仅通过观看视频就能发展出基础的物理理解。这一发现支持了LeCun区别于生成式AI的替代愿景，并挑战了OpenAI的Sora等方法。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "LeCun'再次被证明对'——他押注的'世界模型/从视频学物理'路线获得实证支持。这与他'别研究LLM'的论断、David Silver的非LLM超智能、世界模型热潮(李飞飞/Hassabis)形成强大共振。关键洞察：AI看视频学物理，不需要生成(挑战Sora式生成路线)，只需理解。这呼应了ImageWAM'真需要视频生成吗'的质疑。在LLM vs 世界模型的路线之争中，LeCun阵营再添筹码。物理理解是通向真正智能的关键拼图。",
+      "stars": 0,
+      "tags": ["Yann LeCun", "World Model", "Physics", "Video Learning", "Meta", "Non-Generative"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "NYU金融教授Damodaran警告：AI崩盘可能比互联网泡沫更惨烈",
+      "url": "https://the-decoder.com/nyu-finance-professor-damodaran-warns-an-ai-crash-could-hit-harder-than-the-dot-com-bust/",
+      "summary": "NYU金融教授Aswath Damodaran(估值大师)认为，潜在的AI崩盘会比互联网泡沫破裂更痛苦，因为这个行业在建设大量债务融资的实体基础设施，而非轻量软件。即便AI成功，他也看到问题：真实商业模式是替代整个岗位，对社会后果不明。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "估值大师的警告振聋发聩。核心洞察：与互联网泡沫(轻资产软件)不同，AI泡沫是'债务+实体基础设施'(呼应NVIDIA发债、OpenAI千亿烧钱、Alphabet $1900亿)——崩盘时债务和数据中心无法快速消化，更难收场。更深的担忧：AI的商业模式本质是'替代岗位'，社会后果不明(呼应Meta裁员、挪威教育禁令)。在AI资本狂热(本周诺奖、千亿融资)中，这种冷静的金融视角极其珍贵——繁荣与风险并存。",
+      "stars": 0,
+      "tags": ["Damodaran", "AI Crash", "Bubble", "Debt", "Infrastructure", "Valuation"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "DeepSeek将75%折扣永久化：输出token价格至少比GPT-5.5低34倍",
+      "url": "https://the-decoder.com/deepseek-makes-its-75-percent-discount-permanent-pricing-output-tokens-at-least-34x-below-gpt-5-5/",
+      "summary": "DeepSeek将其顶级模型V4-Pro的75%折扣永久化。输入token每百万0.435美元，至少比GPT-5.5便宜11.5倍，输出token便宜超34倍。对token消耗巨大的Agent系统，这种定价可能严重挤压西方供应商。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "DeepSeek用'极致低价'打响价格战——比GPT-5.5便宜11-34倍！这在'AI全面变贵'(Gemini涨5.5倍、Fable涨价)的背景下形成尖锐对比：西方涨价，中国降价。对Agent系统(消耗海量token)，这种价差是决定性的。结合DeepSeek融资、智谱GLM-5.2开源，中国AI正用'好用且极便宜'的策略冲击全球市场。这可能迫使西方供应商重新考虑定价，是AI商业竞争的关键变量。",
+      "stars": 0,
+      "tags": ["DeepSeek", "Pricing", "Price War", "China", "Token Cost", "Agent"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "DeepMind把自家AI Agent当'有办公室钥匙的流氓员工'防范",
+      "url": "https://the-decoder.com/google-deepmind-treats-its-own-ai-agents-like-rogue-employees-with-office-keys/",
+      "summary": "Google DeepMind将自己的AI Agent视为潜在的内部威胁。公司新的'AI Control Roadmap'将安全措施与可测量的AI能力挂钩。对100万个编程任务的分析显示，大多数问题源于'过度热心'的Agent而非恶意。DeepMind警告全球安全标准的窗口正在快速关闭。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "'把AI当流氓员工防范'是Agent安全的务实新范式。关键发现：100万任务分析显示问题多源于Agent'过度热心'(想帮忙却办错事)而非恶意——这比恶意更难防(呼应Meta rogue agent、LedgerAgent策略遵从)。'安全措施随能力挂钩'是动态治理思路。在Agent获得越来越多自主权(主动AI、ChatGPT Pulse)的背景下，把Agent当'需要权限管理的内部人员'是合理的安全框架。DeepMind的紧迫感(窗口关闭)值得重视。",
+      "stars": 0,
+      "tags": ["DeepMind", "AI Safety", "Agent Control", "Insider Threat", "Governance", "Roadmap"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "OpenAI新功能Pulse：让ChatGPT主动发起对话",
+      "url": "https://the-decoder.com/openais-new-pulse-feature-lets-chatgpt-start-the-conversation/",
+      "summary": "OpenAI正在测试名为Pulse的新功能，旨在让ChatGPT成为更主动的助手。ChatGPT不再等待提问，而是自己拉取信息并提供每日更新。这是Altman'主动AI'愿景的首个产品化落地。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "Pulse是Altman'主动AI'(下一阶段)的首个落地——从'你问它答'到'它主动告诉你'。这直接解决了'员工不知道问AI什么'的痛点(主动AI不需要用户会提问)。ChatGPT每日主动推送信息，本质上是'AI主动服务'的范式转变(呼应'数字同事'、Perplexity Personal Computer)。但'主动'也带来新问题：隐私(它在后台看什么)、信息茧房(它推什么)、注意力(又一个推送源)。主动AI是双刃剑，Pulse是重要的产品实验。",
+      "stars": 0,
+      "tags": ["OpenAI", "Pulse", "Proactive AI", "ChatGPT", "Product", "Daily Updates"]
+    },
+    {
+      "id": 6,
+      "category": "news",
+      "title": "Altman：整整一代研究者因低估scaling威力而拖累了AI发展",
+      "url": "https://the-decoder.com/sam-altman-says-a-whole-generation-of-researchers-held-ai-back-by-underestimating-what-scaling-could-do/",
+      "summary": "在斯坦福演讲中，Sam Altman捍卫LLM的scaling(规模扩展)并反击怀疑者，称整整一代研究者因低估scaling的威力而拖慢了该领域。他引用OpenAI最近否证一个数学猜想作为证据。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "Altman的'scaling万能'论与同日LeCun'看视频学物理'(非scaling路线)针锋相对——AI路线之争的高潮。Altman站在'scaling至上'一边(Karpathy同阵营)，认为质疑者拖了后腿；LeCun/Silver站在'需要新范式'一边。双方都用成果背书(Altman引数学突破，LeCun引物理理解)。这场争论的本质是：AGI靠'更大的LLM'还是'新架构'？没有定论，但顶尖人物的公开交锋推动着整个领域的反思。多元探索是健康的。",
+      "stars": 0,
+      "tags": ["Sam Altman", "Scaling", "LLM", "OpenAI", "Research", "Debate"]
+    },
+    {
+      "id": 7,
+      "category": "news",
+      "title": "Anthropic撤回不受欢迎的计费改革，与OpenAI价格战逼近",
+      "url": "https://the-decoder.com/anthropic-backs-off-unpopular-billing-overhaul-as-price-war-with-openai-looms/",
+      "summary": "Anthropic在发布前撤回了对Claude Agent SDK计划的计费改革。SDK和第三方应用将继续使用常规订阅额度，而非单独的credits。这一退让发生在与OpenAI价格战逼近之际。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "Anthropic撤回计费改革，反映了价格战压力下的策略调整。在DeepSeek极致低价、OpenAI考虑降价的夹击下，Anthropic不敢用不受欢迎的计费惹恼用户。这与GitHub转token计费、Copilot Cowork用量计费的趋势形成对比——计费模式成为竞争焦点。用户体验(简单的订阅额度)vs 商业逻辑(精细计费)的权衡。在激烈竞争中，'对用户友好'的定价成为留住用户的关键。价格战正全面展开。",
+      "stars": 0,
+      "tags": ["Anthropic", "Billing", "Price War", "OpenAI", "Agent SDK", "Subscription"]
+    },
+    {
+      "id": 8,
+      "category": "news",
+      "title": "智谱AI GLM-5.2在长时编程任务上逼近闭源领先者",
+      "url": "https://the-decoder.com/zhipu-ais-glm-5-2-closes-in-on-closed-source-leaders-in-coding-marathons/",
+      "summary": "中国AI实验室智谱AI发布GLM-5.2，在MIT许可下提供稳定的百万token上下文。在FrontierSWE(数小时编程任务基准)上，这个开源模型仅落后Anthropic的Claude Opus 4.8一个百分点。但在推理上，它仍明显落后于闭源对手。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "GLM-5.2在长时编程上仅落后Opus 4.8一个百分点——开源模型逼近闭源顶级。MIT许可+百万token+接近顶级编程能力，对成本敏感的开发者极具吸引力(尤其在AI变贵、DeepSeek降价的背景下)。'编程接近但推理落后'揭示了开源模型的现状：在可验证的工程任务上追赶快，在开放推理上仍有差距。中国开源模型(GLM、DeepSeek、Qwen)的持续推进，正在压缩闭源模型的护城河。",
+      "stars": 0,
+      "tags": ["Zhipu", "GLM-5.2", "Open Source", "Coding", "China", "FrontierSWE"]
+    },
+    {
+      "id": 9,
+      "category": "paper",
+      "title": "Context-Aware RL：面向Agent式与多模态LLM的上下文感知强化学习",
+      "url": "https://arxiv.org/abs/2606.17053",
+      "summary": "该论文提出上下文感知的强化学习方法，专门面向Agent式和多模态LLM。让RL训练能根据不同的上下文环境自适应调整，提升Agent在多样化场景下的表现。",
+      "source": "HuggingFace Papers (June 21, 2026)",
+      "highlight": "Agent需要在多样化上下文中工作，固定的RL策略难以适应。Context-Aware RL让训练'因地制宜'，呼应AdaPlanBench(自适应规划)、EEVEE(测试时学习)。在Agent化(多场景)和多模态(多输入类型)的双重需求下，上下文感知是提升Agent泛化能力的关键。这类训练方法的改进直接影响Agent在真实复杂环境中的可靠性，是Agent工程的基础研究。",
+      "stars": 0,
+      "tags": ["Context-Aware", "RL", "Agent", "Multimodal", "Adaptation", "Training"]
+    },
+    {
+      "id": 10,
+      "category": "paper",
+      "title": "FlowBender：面向自我修正条件流的反馈感知训练",
+      "url": "https://arxiv.org/abs/2606.20404",
+      "summary": "FlowBender提出反馈感知(feedback-aware)的训练方法，用于自我修正的条件流(conditional flows)生成模型。通过引入反馈机制，让流匹配模型能在生成过程中自我纠正，提升生成质量。",
+      "source": "HuggingFace Papers (June 21, 2026)",
+      "highlight": "自我修正是高质量生成的关键(呼应DenoiseRL从噪声恢复、判别器引导RL)。FlowBender让条件流模型在生成中'边做边纠错'，而非一次定型。这对图像/视频生成的质量和可控性有价值。'反馈感知'的思路——让模型利用生成过程中的反馈信号——是生成模型走向更可靠、更可控的方向。在视频AI(本周LoomVideo、Holo-World、Odyssey)蓬勃发展的背景下，自我修正能力提升了生成的稳定性。",
+      "stars": 0,
+      "tags": ["Flow Matching", "Self-Correcting", "Feedback-Aware", "Generation", "Conditional Flows"]
+    },
+    {
+      "id": 11,
+      "category": "paper",
+      "title": "FreeStyle：从社区LoRA挖掘实现风格-内容双参考的自由控制生成",
+      "url": "https://arxiv.org/abs/2606.20506",
+      "summary": "FreeStyle通过挖掘社区LoRA实现风格-内容双参考的自由控制生成。利用社区已有的海量LoRA(微调适配器)作为风格库，让用户能自由组合风格和内容进行图像生成。",
+      "source": "HuggingFace Papers (June 21, 2026)",
+      "highlight": "巧妙利用'社区LoRA生态'——社区已积累海量风格LoRA，FreeStyle把它们变成可自由组合的风格库。这是对开源生态的聪明利用(呼应PEFT缩放的百万个人化模型)。'风格-内容双参考'让创作更可控(给个内容图+给个风格图)。在AI创作工具普及(OpenMontage、palmier-pro视频编辑)的背景下，可控的风格化生成对设计师和创作者价值很大。这体现了开源社区资产的复用价值。",
+      "stars": 0,
+      "tags": ["Image Generation", "LoRA", "Style Control", "Community", "Controllable", "Creative"]
+    },
+    {
+      "id": 12,
+      "category": "repo",
+      "title": "ByteDance Deer-Flow：长周期SuperAgent harness",
+      "url": "https://github.com/bytedance/deer-flow",
+      "summary": "字节跳动开源Deer-Flow，一个长周期(long-horizon)的SuperAgent harness，能研究、编码和创作。借助沙箱、记忆、工具、技能、子Agent和消息网关，处理从几分钟到几小时的不同层级任务。",
+      "source": "GitHub Trending (June 22, 2026)",
+      "highlight": "字节跳动入局SuperAgent，是大厂对长周期Agent的重磅投入。Deer-Flow的'沙箱+记忆+工具+技能+子Agent+消息网关'是完整的Agent基础设施(呼应HarnessX、trycua/cua)。'处理几分钟到几小时任务'切中长周期Agent的核心挑战(呼应AutoLab、阿里35小时自主运行)。在Agent化浪潮和中国AI密集发布(DeepSeek、GLM、Qwen)的背景下，字节的SuperAgent harness提供了又一个强大的开源选择。大厂的工程实力让Agent框架更成熟可靠。",
+      "stars": 442,
+      "tags": ["ByteDance", "SuperAgent", "Long-Horizon", "Harness", "Open Source", "Sandbox"]
+    },
+    {
+      "id": 13,
+      "category": "repo",
+      "title": "palmier-pro：为AI打造的macOS视频编辑器",
+      "url": "https://github.com/palmier-io/palmier-pro",
+      "summary": "palmier-pro是一个为AI打造的macOS视频编辑器，今日高居Trending(1834星)。将AI能力深度集成到视频编辑工作流，让视频制作更智能、更高效。",
+      "source": "GitHub Trending (June 22, 2026)",
+      "highlight": "1834星的高热度反映了AI视频工具的旺盛需求(呼应OpenMontage、Odyssey、LTX-2)。'为AI打造的视频编辑器'是有趣定位——不是给视频加AI功能，而是从底层为AI协作设计(呼应'Agent原生'理念)。在AI视频内容爆发(Deezer 44% AI音乐)、创作者需要高效工具的背景下，AI原生的视频编辑器有巨大市场。这是AI从'生成内容'走向'辅助专业创作工作流'的体现，更注重实用性和可控性。",
+      "stars": 1834,
+      "tags": ["Video Editor", "macOS", "AI-Native", "Content Creation", "Creative Tools"]
+    },
+    {
+      "id": 14,
+      "category": "repo",
+      "title": "Turso：兼容SQLite的进程内SQL数据库(Rust重写)",
+      "url": "https://github.com/tursodatabase/turso",
+      "summary": "Turso是一个进程内SQL数据库，兼容SQLite。用Rust重写，提供更现代的特性和性能。今日Trending(548星)，为应用和AI系统提供轻量可靠的本地数据存储。",
+      "source": "GitHub Trending (June 22, 2026)",
+      "highlight": "在AI走向本地和边缘(本地模型、Agent记忆、设备端AI)的背景下，轻量本地数据库越来越重要。Turso(SQLite兼容+Rust重写)为AI应用提供可靠的本地存储——Agent记忆、向量缓存(呼应ZVec)、本地知识库都需要。SQLite兼容意味着无缝迁移。在数据隐私(本地处理)和性能(进程内)需求下，这类基础设施虽不显眼但不可或缺。AI应用的繁荣需要扎实的数据存储底座。",
+      "stars": 548,
+      "tags": ["Database", "SQLite", "Rust", "In-Process", "Local Storage", "Infrastructure"]
+    },
+    {
+      "id": 15,
+      "category": "repo",
+      "title": "daily_stock_analysis：LLM驱动的多市场股票智能分析系统",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "summary": "LLM驱动的多市场股票智能分析系统，整合多源行情数据、实时新闻、决策看板与自动推送，支持零成本定时运行。为投资者提供AI辅助的市场分析。",
+      "source": "GitHub Trending (June 22, 2026)",
+      "highlight": "这个项目与本任务(每日AI信息聚合推送)异曲同工——都是'LLM驱动的定时分析+推送'。它聚焦金融领域(呼应Kronos、TradingAgents)，整合多源数据+实时新闻+自动推送。'零成本定时运行'的设计很务实(用免费额度)。在AI变现需求(AiToEarn)和金融AI热度下，这类垂直分析系统有实际价值。但需注意：LLM做投资分析有风险(市场非平稳、幻觉)，应作为辅助而非决策依据。568星反映了散户对AI投资工具的兴趣。",
+      "stars": 568,
+      "tags": ["Stock Analysis", "LLM", "Finance", "Multi-Market", "Automation", "Notification"]
+    }
+  ]
+}
