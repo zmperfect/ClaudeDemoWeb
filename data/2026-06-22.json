@@ -165,6 +165,105 @@
       "highlight": "这个项目与本任务(每日AI信息聚合推送)异曲同工——都是'LLM驱动的定时分析+推送'。它聚焦金融领域(呼应Kronos、TradingAgents)，整合多源数据+实时新闻+自动推送。'零成本定时运行'的设计很务实(用免费额度)。在AI变现需求(AiToEarn)和金融AI热度下，这类垂直分析系统有实际价值。但需注意：LLM做投资分析有风险(市场非平稳、幻觉)，应作为辅助而非决策依据。568星反映了散户对AI投资工具的兴趣。",
       "stars": 568,
       "tags": ["Stock Analysis", "LLM", "Finance", "Multi-Market", "Automation", "Notification"]
+    },
+    {
+      "id": 16,
+      "category": "news",
+      "title": "OpenAI推理模型反证1946年Erdős猜想：AI数学里程碑",
+      "url": "https://the-decoder.com/openai-shifts-the-boundary-of-automated-reasoning-with-a-milestone-in-ai-mathematics-that-experts-are-now-unpacking/",
+      "summary": "OpenAI推理模型反证了数学家Erdős自1946年悬而未决的单位距离几何猜想，使用了代数数论中专家从未预期的工具。菲尔兹奖得主Tim Gowers称其为'AI数学的里程碑'并警告：我们可能已进入人类很难与AI竞争解决数学问题的时代。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "这是AI数学能力的标志性突破——不是解题，而是反证长期悬而未决的猜想。关键：模型使用了'人类专家从未预期'的代数数论工具，说明AI不只是复现人类思路，而是产生了原创性的方法论创新。Gowers的警告('人类将很难竞争')与他对ChatGPT 5.5 Pro数学能力的独立验证相互印证。这与Claude Mythos解Erdős问题形成双重验证——多个顶尖模型同时突破数学前沿。AI正从'工具'变为'数学研究伙伴'。",
+      "stars": 0,
+      "tags": ["OpenAI", "Mathematics", "Reasoning", "Erdos Conjecture", "Fields Medal", "Breakthrough"]
+    },
+    {
+      "id": 17,
+      "category": "news",
+      "title": "菲尔兹奖得主：ChatGPT 5.5 Pro两小时零人工完成博士级数学研究",
+      "url": "https://the-decoder.com/fields-medalist-says-chatgpt-5-5-pro-delivered-phd-level-math-research-in-under-two-hours-with-zero-human-help/",
+      "summary": "菲尔兹奖得主Timothy Gowers让ChatGPT 5.5 Pro攻克数论中的开放问题。模型在不到一小时内将一个指数级界改进为多项式级界。MIT研究者称关键思路'完全原创'。Gowers感叹：数学贡献的门槛现在是'证明LLM做不到的事'。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "菲尔兹奖得主的第一手验证，比任何benchmark都有说服力。核心发现：1)指数→多项式的改进是'质的飞跃'而非渐进提升；2)关键思路'完全原创'意味着不是数据库检索+拼接；3)'证明LLM做不到的事才算贡献'重新定义了数学研究标准。与OpenAI反证Erdős猜想同周发生——AI数学能力的'iPhone时刻'：从能解难题→能做博士级原创研究→能推翻数十年猜想，三重升级在一周内同时验证。",
+      "stars": 0,
+      "tags": ["ChatGPT 5.5 Pro", "Mathematics", "Research", "Fields Medal", "Number Theory", "Original"]
+    },
+    {
+      "id": 18,
+      "category": "news",
+      "title": "Claude Code自主发现人类可能设计不出的AI Scaling算法",
+      "url": "https://the-decoder.com/researchers-let-claude-code-discover-ai-scaling-algorithms-that-humans-probably-wouldnt-have-designed/",
+      "summary": "UMD、Google、Meta等机构研究者使用AutoTTS让Claude Code编程Agent自主发现AI推理控制算法。发现的算法在保持准确率的同时减少约70%计算量(对比标准self-consistency)。整个搜索仅耗费$40、160分钟。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "AI设计AI算法——元递归正在变为现实。关键数据：1)节省70%计算量且不损准确率(实用价值巨大)；2)$40+160分钟的成本极低(民主化)；3)'人类可能设计不出'暗示AI的解空间探索能力超越人类直觉。这呼应了AlphaEvolve(Gemini自主编程发现数学算法)和FunSearch——AI不仅能用算法，还能发现算法。当AI开始优化自身推理过程时，递归自我改进的路径变得清晰。Anthropic的Claude Code在这场'AI造AI'竞赛中展现了强大能力。",
+      "stars": 0,
+      "tags": ["Claude Code", "AutoTTS", "Algorithm Discovery", "Self-Improvement", "Meta-Learning", "Efficiency"]
+    },
+    {
+      "id": 19,
+      "category": "news",
+      "title": "德国里程碑判决：Google AI Overviews是Google自己的话，需承担虚假信息责任",
+      "url": "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/",
+      "summary": "德国地方法院裁定Google对AI搜索摘要的内容负有直接责任。法院认定，搜索引擎运营商此前享有的有限责任保护不适用于AI生成内容。此案中Google AI虚假关联两家出版商与欺诈行为，且声称的内容在任何引用来源中都不存在。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "这可能成为全球AI内容责任的标杆判例。核心突破：法院将AI Overviews定性为'Google自己的话'(而非中性聚合/引用)，这打破了科技巨头长期躲藏的'平台免责'护盾。关键事实：AI说了'源中不存在的内容'——即幻觉(hallucination)首次被法律认定为侵权。影响：所有提供AI摘要/Overview的平台(Google/Bing/Perplexity)都可能面临类似诉讼。与挪威禁止学校用AI相呼应——欧洲正在率先建立AI责任法律框架。",
+      "stars": 0,
+      "tags": ["Germany", "Legal", "AI Liability", "Google", "AI Overviews", "Hallucination", "Precedent"]
+    },
+    {
+      "id": 20,
+      "category": "news",
+      "title": "OpenAI Codex新功能'录制与重放'：看你操作一次，永久自动重复",
+      "url": "https://the-decoder.com/openais-codex-can-now-watch-you-work-once-and-repeat-the-task-forever/",
+      "summary": "OpenAI为macOS版Codex发布'Record & Replay'功能：用户演示一次工作流，Codex将其转化为可复用的'技能'，然后自主重复执行。该功能暂未在欧盟、英国和瑞士上线。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "从'写代码'到'录制操作流程'——这是Agent能力的重要进化。不再需要用户描述任务(提示词)，而是直接观察并模仿(PbD: Programming by Demonstration)。这与Google DeepMind的Mariner(浏览器Agent)、Anthropic的Computer Use方向一致，但Codex选择了更轻量的'看一次就学会'路线。关键限制：欧盟/英国未上线暗示监管担忧(GDPR对自动化决策的约束)。竞争格局：Codex(看操作学)vs Claude Computer Use(实时控制)vs Gemini(多模态理解)。",
+      "stars": 0,
+      "tags": ["OpenAI", "Codex", "Record Replay", "Skill Learning", "Agent", "PbD", "macOS"]
+    },
+    {
+      "id": 21,
+      "category": "news",
+      "title": "OpenClaw创始人月花$130万运行100个AI Agent写代码、审PR、找Bug",
+      "url": "https://the-decoder.com/for-1-3-million-a-month-openclaw-founder-peter-steinberger-runs-100-ai-agents-that-code-review-prs-and-find-bugs/",
+      "summary": "Peter Steinberger领导的三人团队为开源项目OpenClaw运行约100个Codex实例，OpenAI API月支出达$130万。Steinberger将这笔费用定位为研究投资：他想看看当token成本不再是约束时，软件开发会变成什么样。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "这是'token不要钱会怎样'的极端实验——$130万/月的AI编程账单，3人团队指挥100个Agent。几个洞察：1)软件开发正从'人写代码'转向'人管Agent军团'——管理/编排成为核心技能；2)$130万听起来惊人，但如果替代50+开发者则可能划算(呼应Devin/Cursor代替程序员的讨论)；3)'研究投资'暗示当前还不划算，但他押注未来token价格持续暴跌(DeepSeek永久降价75%)。这是AI编程规模化的先锋案例。",
+      "stars": 0,
+      "tags": ["AI Agents", "Codex", "Cost", "Software Development", "Scaling", "OpenClaw", "Token Economy"]
+    },
+    {
+      "id": 22,
+      "category": "repo",
+      "title": "Headroom：压缩LLM工具输出/日志/RAG数据，减少60-95% token",
+      "url": "https://github.com/chopratejas/headroom",
+      "summary": "Headroom可以压缩发送给LLM的工具输出、日志、文件和RAG数据块，实现60-95%的token减少同时保持信息完整性。解决Agent/RAG系统中上下文窗口被非核心数据占满的问题。",
+      "source": "GitHub Trending (June 22, 2026)",
+      "highlight": "解决AI工程最痛的问题之一：Agent工具输出太长撑爆上下文窗口。60-95%压缩率意味着同样的上下文能塞5-20倍信息——这对RAG质量和Agent可靠性有直接影响。竞品思路包括摘要(信息丢失)和选择性返回(需要先验知识)，Headroom选择'保真压缩'路线。2624星/单日是今日GitHub最热AI项目，说明开发者对此需求极大。与Claude Code的context管理、Cognee的记忆压缩问题域重叠。",
+      "stars": 2624,
+      "tags": ["Context Compression", "Token Optimization", "RAG", "Agent", "LLM", "Efficiency"]
+    },
+    {
+      "id": 23,
+      "category": "repo",
+      "title": "OpenMontage：全球首个开源Agent式视频制作系统(12管线/52工具)",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "summary": "世界首个开源的Agent驱动视频制作系统，包含12条处理管线、52个工具和500+Agent技能。实现从脚本到成片的全自动化视频生产流程。",
+      "source": "GitHub Trending (June 22, 2026)",
+      "highlight": "视频制作的'Agent化'完整方案——不是单点工具(如视频生成模型)，而是全流程编排(脚本→分镜→拍摄/生成→剪辑→后期)。12管线+52工具+500技能的规模说明视频制作的复杂性需要Agent军团协作。与palmier-pro(AI视频编辑器)互补：palmier是交互式编辑，OpenMontage是全自动化生产。开源意味着可以接入任何底层模型(Sora/Runway/Kling)。987星说明创作者社区对AI视频工具链有强需求。",
+      "stars": 987,
+      "tags": ["Video Production", "Agent", "Open Source", "Pipeline", "Automation", "Content Creation"]
+    },
+    {
+      "id": 24,
+      "category": "repo",
+      "title": "codebase-memory-mcp：高性能代码智能MCP Server(知识图谱索引)",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "summary": "高性能代码智能MCP Server，将代码库索引为持久化知识图谱。为AI编程助手提供深度代码理解能力，支持跨文件关系推理和上下文感知的代码导航。",
+      "source": "GitHub Trending (June 22, 2026)",
+      "highlight": "解决AI编程的'记忆'问题——当前Cursor/Claude Code等工具每次会话都要重新理解代码库，而knowledge graph索引让AI拥有持久的代码理解。MCP协议(Anthropic推出)正成为AI工具集成的标准接口，1032星说明开发者生态在快速形成。C语言实现追求极致性能(对比Python实现)。与Cognee(Agent记忆平台)理念一致但聚焦代码领域。这预示着AI编程的未来：从'无状态问答'到'有记忆的持续理解'。",
+      "stars": 1032,
+      "tags": ["MCP", "Code Intelligence", "Knowledge Graph", "AI Coding", "Memory", "Performance"]
     }
   ]
 }
