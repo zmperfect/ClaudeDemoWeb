@@ -264,6 +264,94 @@
       "highlight": "解决AI编程的'记忆'问题——当前Cursor/Claude Code等工具每次会话都要重新理解代码库，而knowledge graph索引让AI拥有持久的代码理解。MCP协议(Anthropic推出)正成为AI工具集成的标准接口，1032星说明开发者生态在快速形成。C语言实现追求极致性能(对比Python实现)。与Cognee(Agent记忆平台)理念一致但聚焦代码领域。这预示着AI编程的未来：从'无状态问答'到'有记忆的持续理解'。",
       "stars": 1032,
       "tags": ["MCP", "Code Intelligence", "Knowledge Graph", "AI Coding", "Memory", "Performance"]
+    },
+    {
+      "id": 25,
+      "category": "news",
+      "title": "Claude Mythos周末解决OpenAI刚攻克的Erdős猜想：'可爱的简洁证明'",
+      "url": "https://the-decoder.com/claude-mythos-reportedly-solves-openais-landmark-erdos-problem-with-a-cute-simple-proof/",
+      "summary": "OpenAI反证Erdős单位距离猜想后不久，Anthropic展示Claude Mythos也能解决同一问题——'用了一个周末'。工程师Sholto Douglas称Mythos给出了一个'可爱的简洁证明'，认为这标志着AI驱动数学发现存在'严重的overhang'(潜力远未释放)。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "与OpenAI的数学突破形成直接对标——两家顶尖AI公司几乎同时攻克同一个80年悬案，证明这不是单一模型的偶然突破而是AI数学能力的系统性飞跃。'可爱的简洁证明'暗示Mythos找到了比OpenAI方法更优雅的路径(OpenAI用了'代数数论中意想不到的工具')。'serious overhang'是关键判断：意味着AI的数学能力远超目前展示的，还有大量成果等待'释放'。Anthropic vs OpenAI的竞争从编程/Agent延伸到纯数学前沿。",
+      "stars": 0,
+      "tags": ["Claude Mythos", "Anthropic", "Erdos Conjecture", "Math Proof", "AI Competition", "Overhang"]
+    },
+    {
+      "id": 26,
+      "category": "news",
+      "title": "微软研究员用帝国时代2的山羊搭建神经网络，批判AI研究方法论",
+      "url": "https://the-decoder.com/microsoft-researcher-builds-a-working-neural-network-out-of-goats-in-age-of-empires-ii-to-critique-ai-science/",
+      "summary": "微软研究员在帝国时代2地图编辑器中用山羊、桥梁和冰坡搭建了一个可运行的神经网络。看似恶搞实为尖锐批判：他分析315篇论文发现超过半数在实验开始前就假设语言模型具有类人特质。把聊天界面换成游荡的山羊，数学不变，但'你在和某人对话'的感觉消失了。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "可能是今年最具洞察力的AI批评。核心论点：我们对LLM的'智能感知'来自聊天界面(拟人化幻觉)而非底层能力。315篇论文超半数犯了'先假设有人格再实验'的逻辑错误——这是整个领域的方法论危机。山羊神经网络的天才之处：它证明任何图灵完备系统都能做'同样的计算'，但没人会觉得山羊有意识。这直接挑战了'涌现'叙事(emergent abilities)和拟人化倾向。在AI炒作最盛时，这种清醒的方法论批判极其珍贵。",
+      "stars": 0,
+      "tags": ["AI Critique", "Methodology", "Anthropomorphism", "Microsoft", "Neural Network", "Game"]
+    },
+    {
+      "id": 27,
+      "category": "tool",
+      "title": "Data2Story：7个AI Agent协作将CSV变为可验证的交互式新闻文章",
+      "url": "https://the-decoder.com/data2story-turns-a-csv-file-into-a-verified-interactive-news-article-using-seven-ai-agents/",
+      "summary": "牛津和斯坦福的'数据记者Agent'使用7个AI Agent像新闻编辑部一样协作，将CSV文件转化为带图表、网络检索和可验证来源链接的交互式文章。93%的陈述有来源支撑。读者研究中74%偏好Agent产出(vs人类原文)，但与精心撰写的长篇报告打平。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "7 Agent协作是'AI新闻编辑部'的雏形——不是单一LLM写稿，而是分工协作(数据分析/事实核查/可视化/写作/编辑)。93%可验证率解决了AI内容的最大痛点(幻觉)。'74%偏好AI vs人类'但'与精品长文打平'是诚实的定位：AI已超越普通记者但未超越精英记者。这呼应了Data Journalism的转型和本任务(每日自动搜集+摘要)的方向——AI辅助的信息生产正在成熟。牛津+斯坦福背书增加可信度。",
+      "stars": 0,
+      "tags": ["Data Journalism", "Multi-Agent", "Verification", "Content Generation", "Oxford", "Stanford"]
+    },
+    {
+      "id": 28,
+      "category": "news",
+      "title": "Google发布Coral Board迷你单板机：本地运行Gemma 3",
+      "url": "https://the-decoder.com/google-launches-a-tiny-board-that-runs-gemma-3-locally/",
+      "summary": "Google在I/O大会发布新版Coral Board——一款紧凑的单板计算机，专为本地AI推理设计，可运行Gemma 3模型。面向边缘AI和物联网场景。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "AI从云端走向边缘的标志性硬件——Google用专用单板机(类似树莓派)运行自家Gemma 3，让AI在没有网络的场景也能工作。这呼应了'AI本地化'趋势(Apple Intelligence在设备端/NVIDIA Jetson系列)和隐私需求(数据不出设备)。Coral系列之前的TPU加速器已被IoT开发者广泛使用，新版支持Gemma 3意味着边缘设备也能运行相当强大的语言模型。边缘AI是万亿级市场(工业检测/智能家居/自动驾驶)。",
+      "stars": 0,
+      "tags": ["Google", "Coral Board", "Edge AI", "Gemma 3", "Local Inference", "Hardware", "IoT"]
+    },
+    {
+      "id": 29,
+      "category": "paper",
+      "title": "GateMem：多主体共享内存Agent的内存治理基准",
+      "url": "https://arxiv.org/abs/2606.18829",
+      "summary": "提出GateMem基准，专门评估多主体(multi-principal)共享内存Agent系统中的内存治理能力。研究多个Agent共享记忆空间时的权限控制、隔离和安全性问题。",
+      "source": "HuggingFace Papers (June 22, 2026)",
+      "highlight": "当多个Agent共享记忆时，'谁能读/写/删除什么'成为关键安全问题——这是Agent安全的未来核心议题。与DeepMind'流氓员工'防范框架高度互补：DeepMind关注单Agent行为控制，GateMem关注多Agent间的信息隔离。随着Agent军团(OpenClaw 100个/OpenMontage 12管线)普及，记忆治理将从学术问题变为工程必需。类比操作系统的内存保护机制——AI Agent系统正在重走OS的进化路径。",
+      "stars": 0,
+      "tags": ["Multi-Agent", "Memory Governance", "Security", "Benchmark", "Shared Memory", "Access Control"]
+    },
+    {
+      "id": 30,
+      "category": "paper",
+      "title": "WorldLines：长周期有状态具身Agent基准与建模",
+      "url": "https://arxiv.org/abs/2606.18847",
+      "summary": "提出WorldLines基准，专门评测长时间跨度的有状态具身Agent——Agent需要在复杂物理环境中维持长期记忆和状态，完成跨时间步的多阶段任务。",
+      "source": "HuggingFace Papers (June 22, 2026)",
+      "highlight": "具身Agent从'单步反应'到'长期规划+记忆'的关键基准。'有状态'意味着Agent需要记住几百/几千步前的决策和观察(vs当前多数Agent是无状态的)。这与Deer-Flow(长周期SuperAgent)、WorldLines同名暗示方向：真正智能的Agent必须有'时间线'概念——理解因果、记住历史、预测未来。随着具身AI(机器人/自动驾驶)的发展，长周期有状态评测将成为黄金标准。",
+      "stars": 0,
+      "tags": ["Embodied Agent", "Long-Horizon", "Stateful", "Benchmark", "Memory", "Planning"]
+    },
+    {
+      "id": 31,
+      "category": "repo",
+      "title": "Cognee：开源AI记忆平台，赋予Agent持久长期记忆",
+      "url": "https://github.com/topoteretes/cognee",
+      "summary": "Cognee是开源AI记忆平台，为AI Agent提供持久化的长期记忆能力。支持结构化记忆存储、检索和推理，让Agent跨会话保持上下文连贯性。",
+      "source": "GitHub Trending (June 22, 2026)",
+      "highlight": "Agent记忆是2026年最热工程问题之一——从codebase-memory-mcp(代码记忆)到GateMem(记忆治理)到Cognee(通用记忆平台)，今天的内容形成完整闭环。Cognee选择'平台化'路线：不绑定特定Agent框架，提供记忆即服务。347星+持续trending说明需求强劲。核心价值：让Agent从'金鱼记忆'(每次对话重新开始)变为'有生命线的智能体'。与MemGPT等早期工作方向一致但更工程化。",
+      "stars": 347,
+      "tags": ["Agent Memory", "Long-term Memory", "Open Source", "Platform", "Knowledge Management"]
+    },
+    {
+      "id": 32,
+      "category": "repo",
+      "title": "mattpocock/skills：真实工程师的Claude技能目录",
+      "url": "https://github.com/mattpocock/skills",
+      "summary": "Matt Pocock(TypeScript教育者)公开其.claude目录中的Claude Code技能集合。提供经实战验证的AI编程技能模板，帮助工程师更高效地使用Claude Code。",
+      "source": "GitHub Trending (June 22, 2026)",
+      "highlight": "1443星/单日是今日GitHub第二热项目——说明工程师对'如何更好使用AI编码工具'的需求爆发。这不是又一个AI工具，而是'使用AI工具的方法论'(meta-skill)。与system_prompts_leaks(泄露系统提示)形成有趣对比：一个是'看AI怎么被配置的'，一个是'教你怎么配置AI'。Matt Pocock是TypeScript社区顶流(百万粉)，他的实践有极高参考价值。预示趋势：'prompt engineering'正演化为'skill engineering'。",
+      "stars": 1443,
+      "tags": ["Claude Code", "Skills", "Developer Tools", "Prompt Engineering", "Best Practices", "TypeScript"]
     }
   ]
 }
