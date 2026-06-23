@@ -1,0 +1,170 @@
+{
+  "date": "2026-06-23",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "美国政府强制Anthropic全球禁用Claude Fable 5和Mythos 5",
+      "url": "https://the-decoder.com/us-government-forces-anthropic-to-disable-claude-fable-5-and-mythos-5-for-all-customers-worldwide/",
+      "summary": "美国政府以越狱风险为由，命令Anthropic在全球范围内关闭Fable 5和Mythos 5的访问。Anthropic正在执行但公开反对：称这些漏洞是轻微的，且竞品GPT-5.5也存在同样问题。Anthropic警告此举可能开创先例，阻碍所有前沿模型部署。讽刺的是，Anthropic此前数月一直在宣传Mythos的网络安全风险。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "AI行业的'核弹级'事件——政府首次强制关停前沿模型的全球访问。几层深意：1)Anthropic以'负责任AI'著称，却成为第一个被政府限制的公司(安全叙事反噬)；2)'漏洞轻微且GPT-5.5也有'暗示这可能是政治/竞争动机而非纯技术原因；3)'全球禁用'意味着非美国用户也受影响——美国单方面控制全球AI访问权的先例极其危险；4)与NSA使用Mythos的新闻联动——政府既要用最强AI做网络攻击，又禁止商业用户使用，双标明显。这重新定义了AI治理的边界。",
+      "stars": 0,
+      "tags": ["Anthropic", "Government", "Ban", "Fable 5", "Mythos 5", "Jailbreak", "Regulation", "Precedent"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "NSA正在使用Anthropic最强模型Mythos进行进攻性网络行动",
+      "url": "https://the-decoder.com/the-nsa-is-using-anthropics-most-powerful-ai-model-mythos/",
+      "summary": "美国国安局(NSA)正在使用Anthropic最强大的AI模型Mythos Preview。据报道，Anthropic已派驻约6名工程师直接进入NSA，将Mythos适配用于针对中国和伊朗的进攻性网络行动。Anthropic关于限制AI用于大规模监控的承诺明确仅适用于美国公民。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "这是AI军事化的标志性时刻——以'安全AI'著称的Anthropic直接参与NSA进攻性网络行动。几个关键洞察：1)6名工程师驻扎NSA意味着深度定制而非简单API调用；2)'仅承诺保护美国公民'暴露了AI伦理的国界——对外国目标(中国/伊朗)没有约束；3)与美国政府同时禁用商业版Mythos形成荒诞对比：公众不能用，军方可以用；4)这验证了AI'双重用途'的终极担忧——最安全导向的AI公司也无法抵挡国家力量的征用。AI伦理在国家安全面前形同虚设。",
+      "stars": 0,
+      "tags": ["NSA", "Anthropic", "Mythos", "Cyber Warfare", "China", "Iran", "Military AI", "Ethics"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "Anthropic完成$650亿H轮融资，估值逼近万亿美元",
+      "url": "https://the-decoder.com/claude-company-anthropic-nears-a-trillion-dollar-valuation-after-raising-65-billion-in-series-h/",
+      "summary": "Anthropic完成H轮融资650亿美元，估值达9650亿美元逼近万亿。CFO Krishna Rao透露年化收入已超470亿美元。资金将投入安全研究、算力扩建和Claude产品线拓展。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "万亿估值俱乐部即将迎来第一家纯AI公司。$650亿单轮融资是人类历史上最大的私募融资之一。年化$470亿收入意味着Anthropic已不是'烧钱研究所'而是真正的商业巨头(对比OpenAI Q1收入$57亿)。但与NSA合作+政府禁令同时发生——Anthropic正在'安全AI先锋'和'国家安全工具'之间走钢丝。Micron(美光)投资+内存合作暗示AI公司正向硬件供应链纵深整合。这个估值是否泡沫？昨天Damodaran的AI崩盘警告言犹在耳。",
+      "stars": 0,
+      "tags": ["Anthropic", "Funding", "Trillion", "Valuation", "Series H", "Revenue"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "五眼联盟警告：能摧毁政府和企业的AI模型距离我们只有数月之遥",
+      "url": "https://the-decoder.com/five-eyes-intelligence-alliance-says-frontier-ai-models-could-reshape-offensive-cyber-ops-in-months/",
+      "summary": "五眼情报联盟(美英加澳新)警告：能够瘫痪政府和企业的AI模型距离部署只有数月时间。据《卫报》报道，情报机构认为前沿AI模型将在极短时间内重塑进攻性网络行动格局。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "五眼联盟的公开警告极其罕见——五个英语系国家的联合情报评估代表了西方最高级别的威胁研判。'数月而非数年'的时间线与NSA使用Mythos的新闻完美吻合：情报机构一边警告AI武器化风险，一边率先武器化AI。这形成了经典的'军备竞赛'逻辑：因为对手(中国/俄罗斯)可能先用AI攻击，所以我们必须先掌握AI攻击能力。与Anthropic被禁+被征用的矛盾故事线交织——今天可能是AI历史的转折点：从技术竞赛正式转入地缘安全博弈。",
+      "stars": 0,
+      "tags": ["Five Eyes", "Intelligence", "Cyber Threat", "AI Weapons", "National Security", "Geopolitics"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "Google将Interactions API设为Gemini模型/Agent的默认接口",
+      "url": "https://the-decoder.com/google-makes-interactions-api-the-default-interface-for-gemini-models-and-agents/",
+      "summary": "Google DeepMind将Interactions API设为Gemini模型和Agent的默认接口，取代旧的generateContent API。新API使用类型化步骤(typed steps)替代基于角色的结构。所有新Agent功能将仅通过此API发布。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "Google对AI API的根本性重构——从'对话式'(role-based)转向'交互式'(typed steps)。这不是简单改名：新架构原生支持Agent(多步骤/工具调用/状态管理)，意味着Google认为未来的AI交互不再是'人类发消息→AI回复'的对话模式，而是复杂的多步骤交互流。'新功能仅通过此API'是强制迁移信号——开发者必须适应。与OpenAI的Assistants API、Anthropic的MCP形成三足鼎立的Agent API标准之争。",
+      "stars": 0,
+      "tags": ["Google", "Gemini", "API", "Interactions", "Agent", "Architecture"]
+    },
+    {
+      "id": 6,
+      "category": "news",
+      "title": "Google开放升级版Deep Research Agent给开发者并发布开源搜索基准",
+      "url": "https://the-decoder.com/google-opens-updated-deep-research-agent-to-developers-with-new-api/",
+      "summary": "Google发布更强大版本的Deep Research Agent，首次向开发者开放API。同时推出新的开源复杂网络搜索基准。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "Deep Research从消费者功能变为开发者平台——这意味着任何应用都可以内嵌'深度研究'能力。结合Interactions API的新架构，Google正在构建完整的Agent开发栈(API标准+研究Agent+搜索基准)。开源基准的推出是聪明一招：定义评测标准=定义竞赛规则。与OpenAI的Codex(代码Agent)和Anthropic的Claude Code形成差异化：Google押注'研究/搜索'Agent作为核心竞争力，利用其搜索引擎的天然优势。",
+      "stars": 0,
+      "tags": ["Google", "Deep Research", "Agent API", "Developer", "Benchmark", "Open Source"]
+    },
+    {
+      "id": 7,
+      "category": "news",
+      "title": "Anthropic与美光合作共同设计AI专用内存架构",
+      "url": "https://the-decoder.com/anthropic-and-micron-want-to-co-design-ai-memory-architecture/",
+      "summary": "美光(Micron)投资Anthropic H轮并获得多年合作合同，为Claude基础设施供应内存。Anthropic联合创始人Tom Brown称内存对训练和运行Claude至关重要。批评者认为这类循环交易正在助长AI泡沫。美光股价一年内涨超10倍。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "AI公司开始向下游整合硬件供应链——不再只是买GPU，而是参与设计内存架构。这暗示AI模型对内存的需求已突破标准硬件能力(可能与context window扩展、KV cache优化有关)。'循环交易助长泡沫'的批评值得关注：投资方变供应商→虚增收入→推高估值→更多投资，这与2000年互联网泡沫的模式惊人相似(呼应昨天Damodaran的崩盘警告)。美光10倍涨幅是AI硬件热的缩影。",
+      "stars": 0,
+      "tags": ["Anthropic", "Micron", "Memory", "Hardware", "Supply Chain", "Bubble"]
+    },
+    {
+      "id": 8,
+      "category": "news",
+      "title": "Sakana AI推出Fugu：编排多个LLM对标Anthropic Fable/Mythos",
+      "url": "https://the-decoder.com/sakana-ais-fugu-orchestrates-multiple-llms-to-match-anthropics-fable-and-mythos-benchmarks/",
+      "summary": "日本AI初创Sakana AI推出Fugu系统，通过实时编排多个AI模型协作来匹配Anthropic Fable 5等领先模型的性能。该方法同时旨在降低对单一AI供应商的依赖。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "这可能是2026年最重要的架构创新之一——不训练更大的模型，而是让多个小模型协作达到巨头水平。这与Mixture of Experts(MoE)理念相通但更激进：跨公司/跨模型的编排。核心价值：1)去中心化——不依赖单一供应商(当政府可以禁用Mythos时，多模型冗余成为刚需)；2)成本效率——多个小模型可能比一个巨型模型便宜；3)日本AI的差异化路线——不卷算力，卷编排。Sakana是Transformer论文作者创办，技术可信度高。",
+      "stars": 0,
+      "tags": ["Sakana AI", "Fugu", "Multi-Model", "Orchestration", "Japan", "Decentralization"]
+    },
+    {
+      "id": 9,
+      "category": "news",
+      "title": "Vibecoding成为软件收购的关键测试：Bain用AI复制目标公司产品",
+      "url": "https://the-decoder.com/vibecoding-is-becoming-a-deal-breaker-test-for-software-acquisitions/",
+      "summary": "管理咨询巨头贝恩(Bain)在评估收购目标时使用Vibecoding来复制目标公司的软件产品。这些AI复制品已经在影响具体的收购决策——如果AI能快速复制，则目标公司的'护城河'不存在。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "AI对商业世界最具颠覆性的应用之一——用AI复制来测试软件公司的护城河。这意味着：1)如果贝恩能用Vibecoding在几天内复制你的产品，你的公司就不值钱(颠覆传统软件估值逻辑)；2)软件公司的价值将从'代码'转向'数据+用户+网络效应'(代码本身不再是壁垒)；3)这是咨询巨头整合AI的绝佳案例——直接影响百亿级并购决策。对SaaS行业是警钟：如果AI能轻松复制你的产品，你需要重新思考什么才是真正的竞争优势。",
+      "stars": 0,
+      "tags": ["Vibecoding", "M&A", "Bain", "Software Valuation", "Moat", "Disruption"]
+    },
+    {
+      "id": 10,
+      "category": "news",
+      "title": "英国法院裁定Stable Diffusion不构成侵权复制：AI版权里程碑",
+      "url": "https://the-decoder.com/uk-judge-rules-that-ai-image-generator-stable-diffusion-is-not-an-infringing-copy/",
+      "summary": "伦敦高等法院驳回Getty Images对Stability AI的核心版权诉讼，裁定用版权图片训练AI模型不构成版权侵权。这是生成式AI开发者的一个关键胜利。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "与昨天德国法院判Google AI Overviews需承担责任形成鲜明对比——英国vs欧陆的AI法律分歧正在形成。英国判决的逻辑：训练≠复制(模型学习的是模式不是具体图片)。这对整个生成式AI行业是重大利好：如果训练=侵权，所有AI公司都面临巨额赔偿。但问题远未解决：1)仅驳回'复制'论点，其他侵权理论仍在审理；2)不同国家判决相反(德国vs英国)增加了全球合规复杂度。AI版权法正在逐案成型，尚无定论。",
+      "stars": 0,
+      "tags": ["UK", "Copyright", "Stable Diffusion", "Getty Images", "Legal", "Training Data"]
+    },
+    {
+      "id": 11,
+      "category": "news",
+      "title": "微软在德州建2GW数据中心，自建燃气电厂脱离电网",
+      "url": "https://the-decoder.com/microsoft-is-building-a-2-gigawatt-data-center-in-texas-with-its-own-gas-plant-to-dodge-the-grid/",
+      "summary": "微软正在德州Pecos建设约2GW的数据中心园区，是其历史上最大的单次容量扩建之一。公司自建燃气发电厂脱离电网，并承诺稳定电价和最小化用水，以应对当地社区的抵制——此类抵制已在全美扼杀了数十个数据中心项目。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "2GW相当于两座核电站的功率——为AI建设的基础设施规模已达到能源工业级别。'自建燃气电厂脱离电网'揭示了AI行业的能源困境：1)电网容量已无法满足AI增长(必须自建)；2)化石燃料成为AI的能源后盾(与绿色承诺矛盾)；3)社区抵制('已扼杀数十个项目')显示公众反对正在成为AI扩张的实质障碍。呼应Damodaran的警告：AI需要'债务+实体基础设施'，这与互联网泡沫的轻资产模式根本不同。",
+      "stars": 0,
+      "tags": ["Microsoft", "Data Center", "Energy", "Texas", "Infrastructure", "2GW"]
+    },
+    {
+      "id": 12,
+      "category": "paper",
+      "title": "EnterpriseClawBench：来自真实职场会话的Agent能力基准测试",
+      "url": "https://arxiv.org/abs/2606.23654",
+      "summary": "提出EnterpriseClawBench基准，从真实企业职场会话中提取任务来评估AI Agent的实际工作能力。不同于合成测试，直接测量Agent在真实商业场景中的表现。",
+      "source": "HuggingFace Papers (June 23, 2026)",
+      "highlight": "Agent基准从'实验室合成任务'走向'真实职场任务'——这是评测成熟化的标志。'Enterprise'定位意味着直接服务于B2B市场(对比OpenAI/Anthropic的企业级产品)。真实会话数据让评测结果更可信，也暴露了当前Agent在实际工作中的真实差距(vs合成测试中的虚高分数)。与Samsung部署ChatGPT Enterprise、Bain的Vibecoding收购测试呼应——企业正在认真评估AI Agent的能力边界。",
+      "stars": 0,
+      "tags": ["Enterprise", "Benchmark", "Agent", "Workplace", "Real-World", "Evaluation"]
+    },
+    {
+      "id": 13,
+      "category": "paper",
+      "title": "World Action Models综述：从世界模型到行动模型的全景调研",
+      "url": "https://arxiv.org/abs/2606.20781",
+      "summary": "全面综述World Action Models领域——整合世界模型(理解环境)和行动模型(在环境中行动)的研究前沿。覆盖从LeCun的世界模型愿景到具身Agent的行动规划。",
+      "source": "HuggingFace Papers (June 23, 2026)",
+      "highlight": "将昨天的两大热点(LeCun世界模型+Agent行动能力)整合为统一框架的重要综述。'World Action Model'不是简单的世界模型+RL，而是'理解世界→在世界中行动'的端到端架构。这是通向AGI的关键路径之一：纯语言模型(LLM)只能'说'，世界模型只能'看'，WAM要实现'看→理解→规划→行动'的完整闭环。与WorldLines(具身Agent基准)互补，共同标注了领域前沿。",
+      "stars": 0,
+      "tags": ["World Model", "Action Model", "Survey", "Embodied AI", "Planning", "AGI"]
+    },
+    {
+      "id": 14,
+      "category": "paper",
+      "title": "训练开放模型实现Agent式手机操控",
+      "url": "https://arxiv.org/abs/2606.23049",
+      "summary": "研究训练开放(open-weight)模型来实现Agent式手机操控——让AI直接操作手机界面完成复杂任务，如同人类用户一样。探索从UI理解到操作执行的全流程。",
+      "source": "HuggingFace Papers (June 23, 2026)",
+      "highlight": "手机Agent是最大的商业化场景之一——全球数十亿智能手机用户，每个人都可能需要AI助手操控手机。'开放模型'是关键：意味着手机厂商(Samsung/小米/OPPO)可以本地部署而不依赖云端API(隐私+成本优势)。与Samsung部署ChatGPT Enterprise的新闻形成对比：Samsung同时在探索云端(OpenAI)和本地(开放模型)两条路。Codex的'录制重放'是桌面端Agent，这篇论文则是移动端Agent——两条路线在竞速。",
+      "stars": 0,
+      "tags": ["Mobile Agent", "Phone", "Open Model", "UI Automation", "Edge AI", "Training"]
+    },
+    {
+      "id": 15,
+      "category": "repo",
+      "title": "HyperFrames：写HTML，渲染视频——专为Agent打造",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "summary": "HeyGen推出的开源项目：用HTML描述视频内容，自动渲染为视频。专为AI Agent设计，让Agent可以通过生成HTML代码来创建视频内容。",
+      "source": "GitHub Trending (June 23, 2026)",
+      "highlight": "HeyGen(AI视频独角兽)开源的'HTML→视频'引擎——解决了Agent制作视频的核心问题：Agent擅长生成代码(HTML)但不擅长直接生成视频像素。通过'代码即视频'的中间层，任何能写代码的Agent都能制作视频。与OpenMontage(Agent视频制作系统)、palmier-pro(AI视频编辑器)形成互补：HyperFrames是底层渲染引擎，OpenMontage是编排框架，palmier-pro是交互工具。AI视频工具链正在快速成型。",
+      "stars": 395,
+      "tags": ["HeyGen", "Video", "HTML", "Agent", "Rendering", "Open Source"]
+    }
+  ]
+}
