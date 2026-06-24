@@ -1,0 +1,170 @@
+{
+  "date": "2026-06-24",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "SpaceX以$600亿收购Cursor(Anysphere)：Musk补齐xAI编程短板",
+      "url": "https://the-decoder.com/musks-spacex-bets-60-billion-on-cursor-to-fix-xais-coding-gap/",
+      "summary": "SpaceX在IPO两天后即以600亿美元收购AI编程工具Cursor的母公司Anysphere。此举旨在弥补Musk旗下xAI在编程工具领域的短板，追赶OpenAI和Anthropic。这笔交易将Cursor纳入Musk的AI版图。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "AI编程赛道最大的并购事件——$600亿是天文数字(对比GitHub被微软$75亿收购)。几层深意：1)Musk承认xAI的Grok在编程上追不上Claude Code/Codex，必须用钱买；2)SpaceX(火箭公司)收购AI编程工具暗示Musk的AI帝国野心——Tesla(自动驾驶)+xAI(通用AI)+SpaceX(算力/基建)+Cursor(编程)；3)IPO两天后就花$600亿，SpaceX的现金储备和估值令人咋舌；4)对开发者生态冲击巨大——Cursor用户担心Musk接管后的方向变化。这可能改写AI编程工具的竞争格局。",
+      "stars": 0,
+      "tags": ["SpaceX", "Cursor", "Acquisition", "Musk", "xAI", "$60B", "AI Coding"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "Cursor宣布自研AI模型、新Git平台和移动端App",
+      "url": "https://the-decoder.com/cursor-announces-its-own-ai-model-a-new-git-platform-and-a-mobile-app/",
+      "summary": "Cursor公布了三大战略产品：首个完全自研训练的AI模型、一个新的Git平台产品、以及移动端App。标志着Cursor从'IDE插件'向'全栈AI开发平台'的转型。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "Cursor的'平台化'三连：自研模型+Git平台+移动端。这是对'被收购'的最好注解——Anysphere在$600亿估值下不只是一个编辑器公司。自研模型(而非仅依赖Claude/GPT)意味着垂直整合——在AI编程赛道，谁拥有专用模型谁就有成本和质量优势(呼应Composer 2.5基于Kimi K2.5)。Git平台挑战GitHub——这是微软的核心资产，等于直接向微软宣战。移动端App则瞄准'随时随地AI编程'的需求。Cursor正从工具变为生态。",
+      "stars": 0,
+      "tags": ["Cursor", "AI Model", "Git Platform", "Mobile", "Platform", "Strategy"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "Cursor Composer 2.5：基于Kimi K2.5训练，匹配Opus 4.7/GPT-5.5但成本极低",
+      "url": "https://the-decoder.com/cursors-composer-2-5-matches-opus-4-7-and-gpt-5-5-benchmarks-at-a-fraction-of-the-cost/",
+      "summary": "Cursor发布Composer 2.5编程模型，基于Kimi K2.5，合成训练数据量为前代25倍。在基准测试上匹配Opus 4.7和GPT-5.5但成本仅为零头。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "AI编程领域的'价格屠夫'——用中国模型(Kimi K2.5)作为base+25倍合成数据训练=达到顶级模型水平但成本极低。几个关键信号：1)Cursor选择月之暗面的Kimi而非Claude/GPT作为基座模型——中国模型在性价比上的竞争力已被西方头部产品认可；2)25倍合成训练数据暗示'合成数据'是编程AI的核心方法论(不需要更多人类代码)；3)'成本零头'直接威胁Claude Code和Codex的商业模式——如果同等质量但便宜一个数量级，开发者会用脚投票。",
+      "stars": 0,
+      "tags": ["Cursor", "Composer 2.5", "Kimi K2.5", "Cost Efficiency", "Benchmark", "Synthetic Data"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "字节跳动Seedance 2.5突破AI视频30秒壁垒",
+      "url": "https://the-decoder.com/bytedances-seedance-2-5-breaks-the-30-second-barrier-for-ai-video-generation/",
+      "summary": "字节跳动在火山引擎FORCE大会发布5个新AI模型，核心是Seedance 2.5视频模型，突破AI视频30秒生成壁垒。计划7月初上线。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "30秒是AI视频的心理关口——从'动图/片段'到'短视频/内容'的质变。目前Sora/Runway/Kling等主流工具多在5-15秒区间，30秒意味着可以生成完整的TikTok/抖音短视频。字节(TikTok母公司)做AI视频生成有天然优势：1)海量视频训练数据；2)直接的商业化出口(TikTok/抖音)；3)创作者生态。5个模型同时发布显示字节的AI全面发力。但Seedance 2.0被禁止在美国上线(版权争议)——地缘政治再次成为技术扩散的障碍。",
+      "stars": 0,
+      "tags": ["ByteDance", "Seedance 2.5", "Video Generation", "30 Seconds", "AI Video", "TikTok"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "OpenAI发布GPT-5.5 Cyber：网络安全专用模型超越Anthropic Mythos",
+      "url": "https://the-decoder.com/openai-says-new-gpt-5-5-cyber-outperforms-anthropics-mythos-on-cybersecurity-benchmark/",
+      "summary": "OpenAI扩大Daybreak网络安全计划，发布GPT-5.5-Cyber完整版和升级版Codex Security插件，并与25+安全公司和多国政府建立合作网络。重心从漏洞发现转向自动修补。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "OpenAI直接对标昨天的NSA+Mythos新闻——用GPT-5.5 Cyber回应'Anthropic垄断国家安全AI'的叙事。几个信号：1)'超越Mythos'是直接挑衅——在Anthropic被禁的节骨眼上抢占网络安全市场；2)25+安全公司+政府合作网络=构建生态壁垒(vs Anthropic的单客户NSA合作)；3)'从发现漏洞到自动修补'是关键转向——AI不只是找Bug，还要修Bug(agent化)；4)OpenAI vs Anthropic的竞争从通用模型蔓延到国家安全垂直市场。网络安全正成为AI公司的新战场。",
+      "stars": 0,
+      "tags": ["OpenAI", "GPT-5.5 Cyber", "Cybersecurity", "Daybreak", "Mythos", "Auto-Patch"]
+    },
+    {
+      "id": 6,
+      "category": "news",
+      "title": "NVIDIA发布Picasso：为Adobe/Getty/Shutterstock提供生成式AI数字制作设施",
+      "url": "https://the-decoder.com/nvidias-picasso-brings-generative-ai-to-adobe-getty-images-and-shutterstock/",
+      "summary": "NVIDIA推出Picasso——生成式AI模型的数字制作设施。Adobe、Shutterstock和Getty Images成为首批客户。提供企业级的AI内容生成基础设施。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "NVIDIA从卖GPU到提供AI内容生成'工厂'——垂直整合再进一步。Picasso定位为'数字制作设施'(不是工具而是工厂)意味着企业级规模化生成。首批客户是创意产业三巨头(Adobe+Getty+Shutterstock)——这些正是AI版权争议的核心当事方，NVIDIA帮他们用'授权内容'训练合规模型。与英国判决(AI训练不侵权)和Getty诉讼形成闭环：版权方不再对抗AI，而是通过NVIDIA平台变现自有内容。NVIDIA的AI生态从算力→训练→推理→内容生成，几乎覆盖全链条。",
+      "stars": 0,
+      "tags": ["NVIDIA", "Picasso", "Adobe", "Getty", "Shutterstock", "Content Generation", "Enterprise"]
+    },
+    {
+      "id": 7,
+      "category": "news",
+      "title": "Google DeepMind与A24电影公司达成长期AI电影制作研究合作",
+      "url": "https://the-decoder.com/google-deepmind-and-a24-team-up-on-ai-filmmaking-research/",
+      "summary": "Google DeepMind与知名独立电影公司A24建立长期研究合作关系。Google还向A24投资约7500万美元。双方将共同探索AI在电影制作中的应用。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "AI巨头+顶级电影公司的联姻——A24不是好莱坞流水线而是艺术片殿堂(《瞬息全宇宙》《月光男孩》)，这个选择很有品味。$7500万投资不大但信号价值巨大：AI不只是替代创作者的工具，而是与最顶级艺术家合作探索新可能。与字节Seedance(批量生产短视频)+NVIDIA Picasso(商业内容工厂)形成差异化：Google选择了'AI+艺术'的高端路线。这也是DeepMind从纯研究走向应用的标志——从AlphaFold(蛋白质)到电影(创意)。",
+      "stars": 0,
+      "tags": ["Google DeepMind", "A24", "Film", "AI Art", "Partnership", "Investment"]
+    },
+    {
+      "id": 8,
+      "category": "paper",
+      "title": "Qwen-AgentWorld：基于语言世界模型的通用Agent系统",
+      "url": "https://arxiv.org/abs/2606.24597",
+      "summary": "阿里Qwen团队提出AgentWorld——将语言世界模型作为Agent的核心引擎。Agent不再仅依赖语言理解和工具调用，而是内建对世界状态的模拟和预测能力，实现更通用的Agent行为。",
+      "source": "HuggingFace Papers (June 24, 2026)",
+      "highlight": "将'世界模型'从视觉领域(LeCun路线)引入语言Agent——这是理论融合的重要一步。传统Agent是'感知→推理→行动'，AgentWorld是'感知→世界模拟→预测→行动'——增加了'预测后果'的能力。Qwen团队做这个研究有战略意义：中国AI在'通用Agent'层面发力(vs DeepSeek的推理/豆包的视频)。与昨天的World Action Models综述呼应——世界模型+Agent是2026下半年的核心研究方向。阿里在Agent赛道的投入信号明确。",
+      "stars": 0,
+      "tags": ["Qwen", "World Model", "Agent", "Alibaba", "Language Model", "Simulation"]
+    },
+    {
+      "id": 9,
+      "category": "paper",
+      "title": "NatureBench：编程Agent能否复现Nature级论文的SOTA结果？",
+      "url": "https://arxiv.org/abs/2606.24530",
+      "summary": "提出NatureBench基准：测试AI编程Agent能否复现Nature系列顶刊论文中发表的SOTA(最优)结果。直接检验Agent从阅读论文到编写代码再到复现实验的全流程能力。",
+      "source": "HuggingFace Papers (June 24, 2026)",
+      "highlight": "可能是最硬核的Agent基准——不是解leetcode或写CRUD，而是'读Nature论文→写代码→复现SOTA'。这直接测试AI是否能替代研究工程师(论文最耗时的部分就是复现)。如果Agent能可靠地复现Nature论文，意味着：1)科研效率指数级提升；2)论文可复现性危机可能被AI解决(当前50%+论文难以复现)；3)与菲尔兹奖得主验证ChatGPT做数学研究呼应——AI正在渗透科研全流程。这个基准的难度远超SWE-Bench。",
+      "stars": 0,
+      "tags": ["Benchmark", "Nature", "Reproducibility", "Coding Agent", "Research", "SOTA"]
+    },
+    {
+      "id": 10,
+      "category": "paper",
+      "title": "OpenThoughts-Agent：构建Agent模型的数据配方",
+      "url": "https://arxiv.org/abs/2606.24855",
+      "summary": "提出OpenThoughts-Agent——一套专门用于训练Agent模型的数据配方(data recipes)。系统化研究什么样的训练数据组合最能提升模型的Agent能力(工具使用/多步推理/环境交互)。",
+      "source": "HuggingFace Papers (June 24, 2026)",
+      "highlight": "'数据配方'概念非常实用——训练Agent不仅需要数据量，更需要正确的数据组合(比例/多样性/难度梯度)。这解决了开源社区的核心痛点：大家知道要微调Agent模型但不知道用什么数据。OpenThoughts系列(之前有OpenThoughts用于reasoning)正在成为开源训练数据的标杆。与Cursor的'25倍合成数据'策略呼应——合成数据配方正成为AI能力的核心竞争力，而不是模型架构。数据>架构的趋势更加明确。",
+      "stars": 0,
+      "tags": ["Training Data", "Agent", "Data Recipe", "Open Source", "Fine-tuning", "OpenThoughts"]
+    },
+    {
+      "id": 11,
+      "category": "paper",
+      "title": "Self-Compacting Language Model Agents：Agent自我压缩上下文",
+      "url": "https://arxiv.org/abs/2606.23525",
+      "summary": "提出自压缩语言模型Agent——Agent在运行过程中自动压缩和管理自身的上下文窗口，无需外部干预即可在长任务中保持关键信息并丢弃冗余内容。",
+      "source": "HuggingFace Papers (June 24, 2026)",
+      "highlight": "解决Agent最致命的工程问题：长任务中上下文溢出。当前方案(如Headroom外部压缩)需要额外系统，Self-Compacting让Agent'自己管理自己的记忆'——更优雅也更可靠。这与人类认知的'遗忘曲线'类似：保留重要的，遗忘不重要的。工程价值：让Agent能处理需要数百步的长任务而不崩溃(当前Agent多在50-100步后质量下降)。与Cognee(外部记忆平台)和codebase-memory-mcp(代码记忆)是互补关系——一个管'内在记忆'，一个管'外在记忆'。",
+      "stars": 0,
+      "tags": ["Self-Compacting", "Context Management", "Agent", "Memory", "Long-Horizon", "Efficiency"]
+    },
+    {
+      "id": 12,
+      "category": "repo",
+      "title": "garrytan/gstack：Y Combinator总裁的Claude Code工具套装(23工具)",
+      "url": "https://github.com/garrytan/gstack",
+      "summary": "Y Combinator总裁Garry Tan公开其Claude Code配置：23个精心配置的工具，涵盖CEO、设计师、工程经理等角色。提供即开即用的AI编程工作流。",
+      "source": "GitHub Trending (June 24, 2026)",
+      "highlight": "YC总裁公开自己的AI工作流——这比任何教程都有说服力。23个工具覆盖CEO/设计/工程管理=AI不只是写代码，是做一个创业公司的'全栈副手'。1011星/日说明创始人/开发者群体对'AI辅助创业'的强烈需求。与mattpocock/skills(TypeScript大佬的Claude技能)形成趋势：顶级从业者分享AI工作流正成为新的影响力货币。这也是Claude Code生态的标志性时刻——从'工具'变为'平台'需要的就是用户驱动的生态。",
+      "stars": 1011,
+      "tags": ["Y Combinator", "Garry Tan", "Claude Code", "Tools", "Startup", "Workflow"]
+    },
+    {
+      "id": 13,
+      "category": "repo",
+      "title": "Anthropic官方Claude Code Plugins目录",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "summary": "Anthropic官方管理的高质量Claude Code插件目录。提供经过审核的插件集合，扩展Claude Code的功能覆盖范围。",
+      "source": "GitHub Trending (June 24, 2026)",
+      "highlight": "Anthropic正式建立Claude Code插件生态——这是平台化的标志事件。'官方管理+高质量'定位意味着Anthropic在质量和安全之间做了选择(对比Chrome Web Store的开放模式)。与garrytan/gstack、mattpocock/skills的社区驱动形成互补：官方目录=可信基线，社区=创新前沿。这直接对标VS Code Extensions和GitHub Copilot Extensions——AI编程工具的竞争正式进入'生态之战'。Cursor自研模型+Git平台+插件生态的竞争格局日趋清晰。",
+      "stars": 77,
+      "tags": ["Anthropic", "Claude Code", "Plugins", "Ecosystem", "Official", "Platform"]
+    },
+    {
+      "id": 14,
+      "category": "repo",
+      "title": "NousResearch/hermes-agent：与你一起成长的AI Agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "summary": "NousResearch(开源AI研究组织)推出Hermes Agent——一个能够学习和适应用户习惯、随使用而持续进化的AI Agent系统。强调'与用户共同成长'的个性化Agent体验。",
+      "source": "GitHub Trending (June 24, 2026)",
+      "highlight": "NousResearch是开源AI社区的重要力量(Hermes系列模型广受好评)。'与你一起成长'切中了Agent的核心痛点：当前Agent没有长期记忆，每次对话都是'陌生人'。Hermes Agent的方向是让Agent变成'了解你的助手'——记住偏好、学习习惯、适应风格。936星说明需求强烈。与Cognee(Agent记忆平台)、codebase-memory-mcp(代码记忆)形成生态——开源社区正在合力解决'Agent个性化'问题。",
+      "stars": 936,
+      "tags": ["NousResearch", "Hermes", "Personalization", "Agent", "Learning", "Open Source"]
+    },
+    {
+      "id": 15,
+      "category": "repo",
+      "title": "VoiceBox：开源AI语音工作室(克隆/听写/创作)",
+      "url": "https://github.com/jamiepine/voicebox",
+      "summary": "开源AI语音工作室，提供语音克隆、语音听写和语音创作功能。支持本地运行，一站式解决AI语音相关需求。",
+      "source": "GitHub Trending (June 24, 2026)",
+      "highlight": "AI语音工具的'瑞士军刀'——克隆+听写+创作三合一，且开源。1045星/日说明语音AI正进入实用化阶段。语音克隆一直是争议功能(诈骗/deepfake)，开源意味着无法通过限制API来管控——这与Stable Diffusion开放图像生成一样，是技术民主化与安全的张力。与HeyGen(AI视频+语音)、OpenMontage(视频制作)组合使用，可以实现'AI全自动多媒体内容生产'。语音是多模态AI中发展最快但讨论最少的方向之一。",
+      "stars": 1045,
+      "tags": ["Voice AI", "Clone", "Dictation", "Open Source", "Audio", "Studio"]
+    }
+  ]
+}
