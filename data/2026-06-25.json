@@ -1,0 +1,170 @@
+{
+  "date": "2026-06-25",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "OpenAI与Broadcom联合发布Jalapeño：专为LLM推理打造的自研芯片",
+      "url": "https://the-decoder.com/openai-and-broadcom-unveil-jalapeno-a-custom-chip-built-for-llm-inference/",
+      "summary": "OpenAI正式进军自研芯片领域。与Broadcom合作开发的'Jalapeño'芯片专为大语言模型推理优化，计划2026年底大规模部署。这标志着OpenAI从纯软件公司向软硬件一体化转型。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "AI行业的'苹果时刻'——从依赖通用GPU(NVIDIA)到自研专用芯片。几层深意：1)OpenAI+Broadcom vs Google(TPU)+Anthropic+Micron(内存)——AI芯片三国杀成型；2)'Jalapeño'专注推理(inference)而非训练(training)，说明推理成本已成为核心瓶颈(DeepSeek降价75%的压力)；3)2026底大规模部署=不是概念芯片而是量产计划；4)打破NVIDIA垄断的最实质举动——当最大客户开始自研，NVIDIA的护城河受到挑战。与Anthropic+Micron合作的逻辑一致：AI巨头向硬件纵深整合。",
+      "stars": 0,
+      "tags": ["OpenAI", "Broadcom", "Jalapeno", "Custom Chip", "Inference", "Hardware"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "Claude Tag嵌入Slack：Anthropic称已自动编写内部65%代码",
+      "url": "https://the-decoder.com/claude-tag-embeds-anthropics-ai-in-slack-already-writes-65-percent-of-internal-code-company-says/",
+      "summary": "Claude Tag让团队在Slack中@Claude即可分配任务。Anthropic透露该工具已在内部产品团队生成65%的代码。将AI从独立工具变为团队协作中的原生成员。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "两个炸弹级信息：1)'65%代码由AI编写'——Anthropic自己就是最极端的AI编程案例，这个数字远超行业平均(Copilot约30-40%辅助)；2)AI从独立工具→团队成员的转变——不用切换到Claude界面，直接在Slack中@就行(降低使用门槛到零)。这直接对标Copilot Chat(嵌入Teams)和Codex(嵌入工作流)。更深的信号：如果Anthropic自己65%代码用AI写，他们对AI编程能力的信心比任何营销材料都有说服力。'吃自己的狗粮'是最强的产品验证。",
+      "stars": 0,
+      "tags": ["Anthropic", "Claude Tag", "Slack", "AI Coding", "65 Percent", "Team Integration"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "Snowflake CEO实测：智谱GLM-5.2在编程上逼近Opus 4.7，成本仅1/5",
+      "url": "https://the-decoder.com/snowflake-ceo-finds-glm-5-2-competitive-with-opus-4-7-at-a-fraction-of-the-cost/",
+      "summary": "Snowflake用103个编程任务实测：智谱GLM-5.2接近Claude Opus 4.7水平，但每输出token成本仅为1/5。不过GLM每任务消耗近2倍token。尽管如此，定价差距正在给Anthropic和OpenAI施加实质压力，可能动摇西方AI公司估值。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "Snowflake(数据巨头)的独立实测比任何官方benchmark都可信。核心发现：1)GLM-5.2质量逼近Opus 4.7(差距可忽略)——中国模型在编程上已到第一梯队；2)成本1/5但token消耗2倍=实际成本约2/5，仍便宜一半多；3)'可能动摇西方AI公司估值'是关键判断——与Damodaran的AI泡沫警告+DeepSeek降价75%形成共振。Cursor已用中国模型(Kimi K2.5)做基座——这不是个例而是趋势。中国AI的价格优势正在重塑全球竞争格局。",
+      "stars": 0,
+      "tags": ["Snowflake", "GLM-5.2", "Zhipu", "Opus 4.7", "Cost", "Pricing Pressure", "China"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "OpenAI更新GPT-5.5 Instant：更准确理解用户真实意图",
+      "url": "https://the-decoder.com/openai-says-chatgpt-instant-now-better-understands-what-users-actually-want/",
+      "summary": "OpenAI更新其使用量最大的ChatGPT模型GPT-5.5 Instant。重点改进对话质量：更好的意图识别、多轮上下文保持、以及对复杂多条件提示的可靠处理。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "GPT-5.5 Instant是ChatGPT的'主力模型'(使用量最大)——针对它的更新影响数亿用户。'理解用户真实意图'是LLM最核心的能力改进(vs大多数更新聚焦推理/编程)。多轮上下文+复杂提示优化直接提升日常使用体验。这反映了AI行业的成熟化：从追求'做到以前做不到的事'(benchmark刷分)转向'把常见的事做得更好'(用户体验打磨)。与Pangram的AI检测论文呼应——模型越像人说话(多样性+意图理解)，越难被检测。",
+      "stars": 0,
+      "tags": ["OpenAI", "GPT-5.5 Instant", "Intent Recognition", "UX", "Multi-turn", "Update"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "Figma Config 2026：画布变全功能工作区，但AI能力依赖外部API",
+      "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else/",
+      "summary": "Figma在Config 2026大会将画布升级为包含代码、动画、着色器和AI Agent的完整工作空间。但驱动这一切的AI智能来自外部API(挤压利润率)，而且其中一家供应商正在构建竞争性设计工具。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "Figma面临经典的'平台依赖困境'——AI能力越强越不可或缺，但AI由别人提供(可能是Anthropic/OpenAI)=核心竞争力不在自己手里。更致命的：'供应商正在构建竞争性设计工具'几乎确定指向Anthropic/Claude Artifacts或Google(Gemini设计功能)——你的供应商变成了你的竞争对手。这与Cursor自研模型(不再依赖Claude/GPT)的逻辑一样：AI应用层必须拥有自己的模型才能长期生存。Figma的困境是所有AI应用公司的缩影。",
+      "stars": 0,
+      "tags": ["Figma", "Config 2026", "Design", "API Dependency", "Competition", "Platform Risk"]
+    },
+    {
+      "id": 6,
+      "category": "news",
+      "title": "Mistral发布OCR 4：72%盲测胜率击败竞品",
+      "url": "https://the-decoder.com/mistrals-new-ocr-model-beats-competitors-in-72-percent-of-blind-test-cases-company-says/",
+      "summary": "Mistral AI发布OCR 4新模型，能从PDF、Word、PowerPoint等文档中提取文本。在盲测中72%的案例优于竞品。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "欧洲AI冠军Mistral在'文档智能'赛道发力——OCR听起来老派但实际上是企业AI的基础设施。原因：1)企业80%的数据在非结构化文档中(PDF/Word/PPT)；2)RAG系统的质量取决于文档解析质量；3)Agent处理企业任务必须能'读懂文件'。72%盲测胜率相当强(意味着同类型任务几乎3/4情况下最优)。Mistral选择垂直能力(OCR)而非通用大模型竞争=差异化策略明智。这与企业Agent、RAG系统、自动化办公的需求高度吻合。",
+      "stars": 0,
+      "tags": ["Mistral", "OCR", "Document AI", "Enterprise", "PDF", "Text Extraction"]
+    },
+    {
+      "id": 7,
+      "category": "news",
+      "title": "OpenAI部署总监谈Codex爆发式增长、AI价格暴跌和ROI之问",
+      "url": "https://the-decoder.com/openais-deployment-chief-on-codex-growth-falling-ai-prices-and-the-roi-question/",
+      "summary": "OpenAI部署总监Arnaud Fournier详述DeployCo如何用自有工程师将AI深度嵌入大型企业。他谈到Codex爆发式增长、客户反馈如何回流到模型开发、以及为什么AI智能的价格已经'急剧下降'。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "OpenAI企业部署策略的罕见披露。几个关键信号：1)'自有工程师嵌入企业'=不只是卖API而是做咨询+定制(类似Palantir模式)——高利润但难以规模化；2)Codex'爆发式增长'呼应Samsung全员部署+OpenClaw百Agent军团；3)'客户反馈→模型开发'的飞轮=企业数据反哺模型改进(数据护城河)；4)承认'AI价格急剧下降'与DeepSeek/GLM的价格压力吻合。ROI之问是企业AI的核心矛盾：花了那么多钱，到底赚回来了吗？",
+      "stars": 0,
+      "tags": ["OpenAI", "DeployCo", "Enterprise", "Codex Growth", "AI Pricing", "ROI"]
+    },
+    {
+      "id": 8,
+      "category": "news",
+      "title": "Pangram CEO：语言模型因论证同质化而暴露自身——人类推理远更多样",
+      "url": "https://the-decoder.com/pangram-ceo-says-language-models-give-themselves-away-by-making-the-same-arguments/",
+      "summary": "Pangram CEO Max Spero指出，让LLM对同一话题生成100个论点，它们会高度聚集。而人类推理的多样性远超AI。这种'论证同质化'可能是检测AI生成内容的可靠方法。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "可能是最优雅的AI检测思路——不看文风(容易伪装)而看论证的多样性(难以伪装)。LLM的训练目标是'最可能的下一个token'→必然趋向均值/共识→论证同质化。人类因为经历/文化/情绪不同，同一话题能产生极多样的论点。这与帝国时代山羊神经网络的批评呼应：LLM的'智能感'来自流畅性而非真正的多样思考。实用价值：学术诚信(论文检测)、新闻真实性、法律文件鉴定。但也暗示：如果模型学会了刻意多样化，这种检测也会失效。",
+      "stars": 0,
+      "tags": ["AI Detection", "Pangram", "Argument Diversity", "LLM Limitation", "Homogeneity"]
+    },
+    {
+      "id": 9,
+      "category": "paper",
+      "title": "Wan-Streamer v0.1：端到端实时交互式基础模型",
+      "url": "https://arxiv.org/abs/2606.25041",
+      "summary": "提出Wan-Streamer——端到端的实时交互式基础模型。支持流式输入输出，实现人与AI的实时交互式生成，适用于视频/音频/多模态等需要低延迟交互的场景。",
+      "source": "HuggingFace Papers (June 25, 2026)",
+      "highlight": "'实时交互式基础模型'代表了AI从'问答'到'对话流'到'实时共创'的进化。关键技术：流式处理(streaming)——不等生成完毕就开始交互，像人类对话一样边说边听边反应。应用场景极广：实时视频编辑(边看边改)、音乐即兴创作(人+AI合奏)、游戏NPC(真正实时反应)、远程协作(AI实时参与会议)。这与Google的Interactions API(交互优先的API设计)理念一致——AI交互正从'请求-响应'转向'持续流式交互'。",
+      "stars": 0,
+      "tags": ["Real-time", "Streaming", "Interactive", "Foundation Model", "Low Latency", "Multimodal"]
+    },
+    {
+      "id": 10,
+      "category": "repo",
+      "title": "Apple Container：Mac上用轻量虚拟机运行Linux容器",
+      "url": "https://github.com/apple/container",
+      "summary": "Apple官方开源的容器工具，在Mac上通过轻量级虚拟机创建和运行Linux容器。提供Docker的替代方案，原生集成macOS生态。",
+      "source": "GitHub Trending (June 25, 2026)",
+      "highlight": "Apple官方进军容器领域——直接挑战Docker Desktop。1838星/日的爆发说明开发者对Docker替代品的需求强烈(Docker Desktop的商业化策略一直被诟病)。'轻量虚拟机'意味着性能优于Docker Desktop的HyperKit/Colima方案。对AI开发的影响：AI工作负载(训练/推理/Agent)严重依赖容器化部署，Apple Silicon(M系列芯片)的高性能本地AI推理+原生容器支持=Mac作为AI开发平台的竞争力进一步提升。",
+      "stars": 1838,
+      "tags": ["Apple", "Container", "Linux", "macOS", "Docker Alternative", "Open Source"]
+    },
+    {
+      "id": 11,
+      "category": "repo",
+      "title": "DESIGN.md：给AI编程Agent的视觉设计规范格式",
+      "url": "https://github.com/google-labs-code/design.md",
+      "summary": "Google Labs推出DESIGN.md格式规范——一种标准化的视觉设计描述格式，让AI编程Agent理解和遵循品牌视觉体系。解决Agent写代码时忽略设计一致性的问题。",
+      "source": "GitHub Trending (June 25, 2026)",
+      "highlight": "解决AI编程最被忽略的痛点——Agent写的代码功能正确但设计丑陋/不一致。DESIGN.md定位为.cursorrules/CLAUDE.md的设计层面等价物：代码规范有了，设计规范也该有。619星说明开发者已意识到这个问题。Google Labs出品暗示这可能成为行业标准(类似README.md/LICENSE)。更深层意义：当Agent能理解设计系统，'全栈AI开发'(从设计→前端→后端→测试→部署)的最后一块拼图正在补齐。",
+      "stars": 619,
+      "tags": ["Google Labs", "Design System", "DESIGN.md", "Visual Identity", "AI Coding", "Standard"]
+    },
+    {
+      "id": 12,
+      "category": "repo",
+      "title": "Orca：并行Agent集群的AI开发环境(ADE)",
+      "url": "https://github.com/stablyai/orca",
+      "summary": "Orca是一个Agent开发环境(ADE)，专为管理并行Agent集群设计。支持运行任意编程Agent，使用自定义订阅模型，实现Agent军团的编排和监控。",
+      "source": "GitHub Trending (June 25, 2026)",
+      "highlight": "从IDE到ADE(Agent Development Environment)——开发工具的范式正在转移。Orca解决的核心问题：当你同时运行10-100个编程Agent(呼应OpenClaw的100个Codex)，如何编排/监控/管理？'自定义订阅模型'暗示灵活的后端切换(不绑定特定AI供应商)。331星但概念前沿——ADE可能成为2026下半年的热门赛道。与Cursor(IDE进化)+Harness(Agent团队设计)+Deer-Flow(Agent编排)形成完整的Agent开发工具栈。",
+      "stars": 331,
+      "tags": ["ADE", "Agent Development", "Parallel Agents", "Orchestration", "Fleet Management"]
+    },
+    {
+      "id": 13,
+      "category": "repo",
+      "title": "Harness：设计领域专属Agent团队的元技能",
+      "url": "https://github.com/revfactory/harness",
+      "summary": "一个元技能(meta-skill)系统：自动设计领域专属的Agent团队，定义专业化Agent角色，并生成编排配置。让用户描述需求，自动构建最适合的Agent军团。",
+      "source": "GitHub Trending (June 25, 2026)",
+      "highlight": "'设计Agent团队的Agent'——元递归再进一步。不用手动配置每个Agent的角色和协作方式，Harness根据领域需求自动设计整个团队。这是Agent工程从'手工'到'自动化'的转折：就像DevOps自动化了部署，Harness自动化了Agent团队搭建。277星但277+增长迅速，说明'Agent团队设计'是新兴需求。与Orca(Agent集群管理)互补：Harness设计团队→Orca运行团队。Agent工程的完整工具链正在成型。",
+      "stars": 277,
+      "tags": ["Meta-Skill", "Agent Team", "Design", "Orchestration", "Automation", "No-Code"]
+    },
+    {
+      "id": 14,
+      "category": "repo",
+      "title": "HiringAgent：AI驱动的简历评估与评分Agent",
+      "url": "https://github.com/interviewstreet/hiring-agent",
+      "summary": "HackerRank(interviewstreet)推出的AI招聘Agent，自动评估和评分简历。将AI Agent应用于HR招聘流程的具体场景。",
+      "source": "GitHub Trending (June 25, 2026)",
+      "highlight": "HackerRank(技术面试平台龙头)官方出品的AI招聘Agent——从'考试工具'到'招聘全流程AI'的转型。AI简历筛选早已存在(LinkedIn/Workday)，但Agent化意味着更复杂的评估：不只是关键词匹配，而是理解项目经验/技术深度/文化匹配。伦理警报：AI招聘的偏见(bias)是最敏感的AI伦理话题之一(Amazon曾因AI招聘偏见性别而下线系统)。但需求真实：大公司一个岗位收到500+简历，人工筛选不现实。HR AI是Agent落地最快的垂直领域之一。",
+      "stars": 203,
+      "tags": ["HackerRank", "Hiring", "Resume", "HR", "Agent", "Recruitment"]
+    },
+    {
+      "id": 15,
+      "category": "repo",
+      "title": "no-mistakes：git push前的安全检查工具",
+      "url": "https://github.com/kunchenguid/no-mistakes",
+      "summary": "一个Git工具，在push前自动检查常见错误（敏感信息泄露、大文件、空提交等）。用Go编写，轻量高效。在AI大量生成代码的时代防止意外提交。",
+      "source": "GitHub Trending (June 25, 2026)",
+      "highlight": "小工具大价值——在AI编程时代，Agent生成代码后直接commit+push的风险急剧增加(API密钥泄露/大文件/错误提交)。no-mistakes是'AI编程安全网'的一部分。110星但增长快说明痛点真实。这与Anthropic'65%代码由AI写'的现实直接相关：当大部分代码不是人类手写时，传统code review流程不够用，需要自动化安全检查作为最后防线。Go语言实现保证了性能(不会拖慢CI/CD)。简单、精准、实用。",
+      "stars": 110,
+      "tags": ["Git", "Security", "Pre-push", "Safety Check", "AI Coding", "Go"]
+    }
+  ]
+}
