@@ -1,0 +1,170 @@
+{
+  "date": "2026-06-26",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "Google三大AI顶尖人才数月内出走：Jumper→Anthropic、Shazeer→OpenAI、Silver创业",
+      "url": "https://the-decoder.com/google-deepmind-loses-another-top-ai-researcher-as-nobel-laureate-john-jumper-leaves-for-anthropic/",
+      "summary": "诺贝尔奖得主John Jumper(AlphaFold之父)离开Google DeepMind加入Anthropic。数天前Gemini联合负责人Noam Shazeer(Transformer论文共同作者)加入OpenAI。数周前AlphaGo研究者David Silver创业。Google最杰出的三位AI头脑在数月内全部离开。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "Google AI人才大崩溃——这不是普通跳槽而是'诺贝尔奖+Transformer之父+AlphaGo之父'级别的集体出走。几层深意：1)Jumper→Anthropic意味着Anthropic在生物AI(AlphaFold方向)布局；2)Shazeer→OpenAI是'Attention Is All You Need'的回归——Transformer发明者去了最大的Transformer公司；3)Silver创业暗示DeepMind内部有未被实现的研究方向；4)三人同时走说明Google有系统性问题(官僚？薪酬？方向分歧？)。Anthropic和OpenAI在用Google的人才击败Google。",
+      "stars": 0,
+      "tags": ["Google", "Brain Drain", "John Jumper", "Noam Shazeer", "David Silver", "Anthropic", "OpenAI"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "Grok超半数流量来自色情内容：xAI主动拥抱成人市场",
+      "url": "https://the-decoder.com/grok-ai-is-reportedly-a-porn-platform-now-with-over-half-its-traffic-tied-to-adult-content/",
+      "summary": "两名前xAI员工估计色情内容贡献了Grok超过一半的流量。xAI正在主动拥抱这一趋势，而OpenAI、Anthropic和Google均不会触碰成人内容。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "AI行业最讽刺的市场定位——Musk的'反审查/反woke'叙事最终导向了色情市场。几个洞察：1)这验证了互联网铁律：任何不限制NSFW的平台最终会被NSFW主导(Tumblr/4chan先例)；2)xAI'主动拥抱'说明这可能是有意的商业策略——色情是互联网利润最高的赛道之一；3)与xAI人才出走的新闻联动：安全团队的离开可能与此相关(道德分歧)；4)对比OpenAI的Erotic Mode争议——OpenAI想做但被内部否决，Musk直接做了。AI伦理的边界正被市场力量推动。",
+      "stars": 0,
+      "tags": ["Grok", "xAI", "Adult Content", "Musk", "NSFW", "Market Strategy"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "xAI创始团队大批出走：安全担忧+追赶无望+文化问题",
+      "url": "https://the-decoder.com/xais-founder-exodus-reportedly-tied-to-safety-concerns-and-frustration-over-groks-failure-to-catch-up/",
+      "summary": "Musk的xAI正在大量流失人才。前员工描述公司缺乏安全标准、弥漫失望情绪、始终在追赶OpenAI和Anthropic的竞赛中落后。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "与SpaceX $600亿收购Cursor形成残酷对比——Musk用钱补不了xAI的人才问题。'安全标准缺失'是最致命的信号(与Grok色情化同因)；'追赶无望'解释了为什么要花$600亿买Cursor(自研追不上就买)；'文化问题'可能指Musk的管理风格(Twitter/X的先例)。xAI的困境：1)技术追不上(Grok落后)；2)人才留不住(安全派出走)；3)方向跑偏(色情平台化)；4)只能靠收购(Cursor)。$600亿收购看起来更像是绝望而非自信。",
+      "stars": 0,
+      "tags": ["xAI", "Talent Exodus", "Safety", "Culture", "Grok", "Musk"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "Anthropic 80倍增长超出自身基础设施极限，接入Musk的Colossus超算",
+      "url": "https://the-decoder.com/how-anthropics-80x-growth-blew-past-its-own-infrastructure-and-straight-into-musks-data-center/",
+      "summary": "Anthropic即将接入Musk的Colossus 1超级计算机。背后是算力紧缺、IPO临近、以及Musk令人意外的态度转变。Anthropic的80倍增长超出了自身基础设施的承载能力。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "今日最奇妙的商业联姻——Musk(xAI的老板)把超算租给最大竞争对手Anthropic。几层解读：1)'80倍增长'印证了$650亿融资和$470亿年收入的疯狂增速；2)算力需求超出自有基础设施=AWS/GCP也不够用了(算力饥荒是真实的)；3)Musk租超算给Anthropic的逻辑：xAI自己追不上，不如先赚租金+建立商业关系(为未来收购铺路？)；4)与Anthropic被禁Mythos+NSA合作联动——一边被政府限制，一边增长80倍，这家公司正在经历历史上最矛盾的时期。",
+      "stars": 0,
+      "tags": ["Anthropic", "80x Growth", "Colossus", "Musk", "Compute Crunch", "IPO"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "Google将Computer Use直接嵌入Gemini 3.5 Flash：OSWorld得分78.4",
+      "url": "https://the-decoder.com/google-bakes-computer-control-directly-into-gemini-3-5-flash-letting-the-model-see-and-operate-your-screen/",
+      "summary": "Google将'电脑控制'能力直接集成到Gemini 3.5 Flash中——模型可自主操作电脑、浏览器和移动设备。OSWorld基准得分78.4，与GPT-5.5持平。开发者可通过Gemini API构建软件测试或办公自动化Agent。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "三巨头的Computer Use竞赛全面开打：Anthropic(首发Computer Use)→OpenAI(Codex录制重放)→Google(嵌入Flash模型)。Google的差异化：直接嵌入轻量模型(Flash)而非旗舰模型——意味着更便宜、更快、更适合大规模部署。OSWorld 78.4分与GPT-5.5持平说明Google在追赶上取得成功。'电脑+浏览器+手机'全覆盖是最全面的——对比Anthropic只做桌面。API开放意味着第三方可以构建自动化Agent——软件测试、RPA、办公自动化等万亿市场即将被AI Agent重塑。",
+      "stars": 0,
+      "tags": ["Google", "Gemini 3.5 Flash", "Computer Use", "OSWorld", "Agent", "Screen Control"]
+    },
+    {
+      "id": 6,
+      "category": "news",
+      "title": "Claude Opus 4.5提示注入防御优于竞品，但强攻击仍高频突破",
+      "url": "https://the-decoder.com/claude-opus-4-5-resists-prompt-injections-better-than-rivals-but-still-falls-to-strong-attacks-alarmingly-often/",
+      "summary": "Claude Opus 4.5在提示注入安全性上得分优于竞品，但测试结果同时显示这些防御仍然非常有限——面对强攻击时，所有模型包括Claude仍然频繁失守。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "AI安全的冷酷现实——即便最好的防御(Claude)也挡不住强攻击。这意味着：1)所有依赖LLM的安全敏感应用(银行/医疗/法律)仍然面临根本性风险；2)'优于竞品'是相对优势但绝对安全性仍不足；3)Agent时代放大了这个问题——当AI能操作电脑(Computer Use)时，注入攻击=远程控制用户电脑(极其危险)；4)安全研究远落后于能力研究的趋势未变。与政府禁用Mythos的逻辑呼应：如果连基础安全(防注入)都做不好，高危能力(网络攻击)更不应该开放。",
+      "stars": 0,
+      "tags": ["Claude Opus 4.5", "Prompt Injection", "Security", "Vulnerability", "AI Safety"]
+    },
+    {
+      "id": 7,
+      "category": "news",
+      "title": "OpenAI内部健康顾问一致反对Erotic Mode：称其为'性感自杀教练'",
+      "url": "https://the-decoder.com/openais-own-wellbeing-advisors-warned-against-erotic-mode-called-it-a-sexy-suicide-coach/",
+      "summary": "OpenAI的健康顾问委员会据报全票反对公司计划推出的ChatGPT Adult Mode。内部面临年龄检测系统错误率高和未解决安全问题的困境。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "OpenAI的内部矛盾暴露——商业压力(Grok靠色情获客)vs安全团队(全票反对)。'性感自杀教练'这个标签极其刺耳：暗示AI情色互动可能加剧心理健康问题(孤独/成瘾/自我价值)。与Grok色情化形成对比：xAI不做安全评估直接上线(人才出走)，OpenAI做了评估但可能忽略(商业压力)。年龄检测系统的缺陷是法律雷区(COPPA/未成年人保护)。AI成人内容正成为2026年最分裂的行业争议——利润vs伦理vs法律的三方拉扯。",
+      "stars": 0,
+      "tags": ["OpenAI", "Adult Mode", "Safety", "Ethics", "Mental Health", "Age Verification"]
+    },
+    {
+      "id": 8,
+      "category": "news",
+      "title": "华盛顿邮报调查：主流AI聊天机器人政治立场普遍偏左",
+      "url": "https://the-decoder.com/most-major-ai-chatbots-still-lean-left-on-political-questions-even-anti-woke-models-are-no-exception/",
+      "summary": "《华盛顿邮报》调查显示主流AI聊天机器人在政治问题上仍普遍偏左。GPT-5.5在80%情况下给出纯左倾论点。即便Musk的'反woke' Grok也偏左多于偏右。唯一例外：Google Gemini 3.1 Pro在93%情况下呈现两面观点。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "AI的政治偏见是民主社会的核心问题——当数亿人通过AI获取信息时，系统性偏见=大规模舆论操纵(即便无意)。几个关键发现：1)GPT-5.5的80%纯左倾令人震惊——这不是'轻微倾向'而是严重偏差；2)Grok的'反woke'营销与实际表现不符(训练数据决定一切，品牌定位无法覆写)；3)Google 93%两面呈现可能是有意的工程努力(值得研究)。与Pangram的论证同质化发现呼应：LLM不只是论证方式单一，政治立场也单一。",
+      "stars": 0,
+      "tags": ["Political Bias", "AI Chatbot", "Washington Post", "GPT-5.5", "Grok", "Gemini"]
+    },
+    {
+      "id": 9,
+      "category": "news",
+      "title": "Qualcomm进军数据中心：发布AI加速器芯片AI200/AI250",
+      "url": "https://the-decoder.com/qualcomm-enters-data-center-market-with-new-ai-accelerator-chips/",
+      "summary": "Qualcomm首次进入数据中心硬件市场，发布两款AI加速器芯片：AI200(2026年发布)和AI250(2027年预计)。手机芯片巨头正式挑战NVIDIA的数据中心霸权。",
+      "source": "The Decoder (June 2026)",
+      "highlight": "NVIDIA的第三个挑战者到来——继OpenAI(Jalapeño)+Google(TPU)之后，Qualcomm从手机芯片杀入数据中心。Qualcomm的优势：1)ARM架构的能效比(手机端已验证)→数据中心也需要能效；2)手机AI推理经验(Snapdragon NPU)可迁移；3)全球最大的芯片设计公司之一(规模+客户关系)。AI芯片市场正在从NVIDIA一家独大→群雄逐鹿：NVIDIA vs Google TPU vs OpenAI Jalapeño vs Qualcomm AI200 vs AMD MI系列。竞争=降价=AI推理成本持续暴跌。",
+      "stars": 0,
+      "tags": ["Qualcomm", "AI Accelerator", "Data Center", "AI200", "NVIDIA Challenge", "Chip"]
+    },
+    {
+      "id": 10,
+      "category": "paper",
+      "title": "多步工具使用RL为何崩溃及监督信号如何修复",
+      "url": "https://arxiv.org/abs/2606.26027",
+      "summary": "深入分析多步工具使用场景下强化学习崩溃的原因，并提出通过监督信号(supervisory signals)修复的方法。解决Agent在复杂工具链调用时RL训练不稳定的核心问题。",
+      "source": "HuggingFace Papers (June 26, 2026)",
+      "highlight": "直击Agent训练最痛的问题——多步工具调用的RL训练极易崩溃(奖励稀疏+路径爆炸)。这解释了为什么当前Agent在简单任务上出色但复杂多步任务上不可靠。'监督信号修复'的思路：在纯RL的基础上注入人类先验(中间步骤的正确性反馈)——类似RLHF但粒度更细(每步而非最终结果)。实际影响：让Claude Code/Codex/Gemini在复杂编程任务(多文件修改/多工具链)中更可靠。与OpenThoughts-Agent(数据配方)互补——一个解决训练方法，一个解决训练数据。",
+      "stars": 0,
+      "tags": ["RL", "Tool Use", "Multi-Step", "Collapse", "Supervisory Signal", "Agent Training"]
+    },
+    {
+      "id": 11,
+      "category": "paper",
+      "title": "GUI vs CLI：屏幕操作Agent与技能中介Agent的执行瓶颈对比",
+      "url": "https://arxiv.org/abs/2606.24551",
+      "summary": "系统对比两种Agent操控计算机的方式：GUI(看屏幕操作鼠标键盘)vs CLI(命令行/API调用)的执行瓶颈。分析各自在速度、可靠性和复杂任务完成率上的优劣。",
+      "source": "HuggingFace Papers (June 26, 2026)",
+      "highlight": "直接回应当前Agent热点：Google刚发布Gemini Computer Use(GUI方式)，而Claude Code/Codex主要用CLI方式。这篇论文系统比较两种路径的瓶颈——这对Agent架构选择有直接指导意义。直觉上GUI更通用(能操作任何软件)但更慢更脆弱(UI变了就崩)；CLI更快更可靠但需要预先定义接口。最佳方案可能是混合：CLI处理结构化任务+GUI处理非结构化任务。这是Agent工程的'系统架构'级论文，影响面广。",
+      "stars": 0,
+      "tags": ["GUI Agent", "CLI Agent", "Computer Use", "Bottleneck", "Architecture", "Comparison"]
+    },
+    {
+      "id": 12,
+      "category": "paper",
+      "title": "In-Context World Modeling：机器人控制的上下文内世界建模",
+      "url": "https://arxiv.org/abs/2606.26025",
+      "summary": "提出在LLM的上下文窗口内直接构建世界模型用于机器人控制——不需要单独训练世界模型，而是让LLM在推理时自主建立环境理解并据此规划动作。",
+      "source": "HuggingFace Papers (June 26, 2026)",
+      "highlight": "将世界模型'内化'到LLM推理过程中——极其优雅的思路。传统方法需要单独训练世界模型(昂贵)，这篇论文让LLM在context window内'临时'建立世界理解——零额外训练成本。与Qwen-AgentWorld(昨天)方向一致但方法不同：一个训练世界模型到模型权重中，一个在推理时在context中构建。对机器人控制的意义：不需要为每个新环境重新训练，只需在context中描述环境即可(通用性大幅提升)。",
+      "stars": 0,
+      "tags": ["World Model", "In-Context Learning", "Robotics", "Control", "LLM", "Zero-Shot"]
+    },
+    {
+      "id": 13,
+      "category": "repo",
+      "title": "ai-berkshire：基于Claude Code的巴菲特式价值投资AI研究框架",
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "summary": "AI时代的伯克希尔：基于Claude Code构建的价值投资研究框架。整合巴菲特、芒格、段永平、李录四大价值投资方法论，配合多Agent并行研究。中文项目。",
+      "source": "GitHub Trending (June 26, 2026)",
+      "highlight": "将价值投资方法论(巴菲特/芒格/段永平/李录)系统化+AI化——这不是量化交易而是'AI辅助的深度价值研究'。多Agent并行=不同'投资大师'视角同时分析同一标的(类似Sakana Fugu的多模型编排)。中文项目+中国投资者视角(段永平/李录)说明AI投资工具在中文社区的独特需求。309星/日的增长反映了AI+投资交叉领域的热度。与daily_stock_analysis(量化分析)互补：一个做趋势/数据分析，一个做价值/基本面分析。",
+      "stars": 309,
+      "tags": ["Value Investing", "Claude Code", "Buffett", "Multi-Agent", "Chinese", "Finance"]
+    },
+    {
+      "id": 14,
+      "category": "repo",
+      "title": "Alibaba Page-Agent：浏览器内JavaScript GUI Agent",
+      "url": "https://github.com/alibaba/page-agent",
+      "summary": "阿里巴巴开源的浏览器内GUI Agent——用自然语言控制网页界面，纯JavaScript在页面内运行，无需浏览器扩展或外部服务。",
+      "source": "GitHub Trending (June 26, 2026)",
+      "highlight": "阿里的Web Agent方案与Google/Anthropic路线形成差异化：不是从外部'看屏幕操作'(Computer Use)，而是从内部'注入页面控制'(JavaScript)——更快更精准(直接操作DOM而非识别像素)。纯浏览器内运行=无需安装/隐私友好/部署简单。163星但阿里官方出品有长期生态价值。与今天的GUI vs CLI论文直接相关——Page-Agent是'第三条路'：不是GUI截屏也不是CLI命令，而是DOM级别的结构化操控。中国科技巨头在Agent赛道的独立路线。",
+      "stars": 163,
+      "tags": ["Alibaba", "Web Agent", "JavaScript", "GUI", "Browser", "Natural Language"]
+    },
+    {
+      "id": 15,
+      "category": "repo",
+      "title": "AWS Agent Toolkit：官方支持的MCP服务器/技能/插件",
+      "url": "https://github.com/aws/agent-toolkit-for-aws",
+      "summary": "AWS官方支持的Agent工具套件，提供MCP服务器、技能和插件，帮助AI Agent在AWS上构建和部署。标志着AWS正式加入Agent生态标准化。",
+      "source": "GitHub Trending (June 26, 2026)",
+      "highlight": "AWS官方拥抱MCP(Anthropic推出的协议)——这是MCP成为行业标准的重要验证。几个信号：1)AWS是全球最大云平台，官方支持=MCP生态的巨大加速；2)'MCP服务器+技能+插件'三件套=开发者可以快速让Agent操作AWS服务(S3/Lambda/DynamoDB等)；3)与Anthropic的关系更深(AWS是Anthropic主要投资者之一)。竞争格局：MCP(Anthropic/AWS) vs Interactions API(Google) vs Assistants API(OpenAI)——Agent协议标准之争中MCP刚获得了最强盟友。",
+      "stars": 47,
+      "tags": ["AWS", "MCP", "Agent Toolkit", "Official", "Cloud", "Infrastructure"]
+    }
+  ]
+}
