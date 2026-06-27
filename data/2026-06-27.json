@@ -1,0 +1,170 @@
+{
+  "date": "2026-06-27",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "Anthropic 估值达 9000 亿美元，首次超越 OpenAI",
+      "url": "https://the-decoder.com/anthropics-900-billion-valuation-would-make-it-more-valuable-than-openai-for-the-first-time/",
+      "summary": "Anthropic 在上轮融资仅三个月后再融 300 亿美元，估值跃升至 9000 亿美元，首次超越 OpenAI。驱动因素是年化收入接近 450 亿美元，比 2024 年底增长五倍。",
+      "source": "The Decoder",
+      "highlight": "AI 实验室估值格局重塑，Anthropic 首次登顶",
+      "stars": 5,
+      "tags": ["anthropic", "funding", "valuation", "openai"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "OpenAI GPT-5.6 部署需美国政府逐客户审批",
+      "url": "https://the-decoder.com/openais-gpt-5-6-rollout-now-requires-us-government-approval-on-a-customer-by-customer-basis/",
+      "summary": "应美国政府要求，OpenAI 新模型 GPT-5.6 仅对特定合作伙伴开放，需逐客户审批。Altman 称这不是'理想的长期模式'。继 Anthropic Fable 被强制下架后，AI 实验室担忧事实上的模型许可制度正在形成。",
+      "source": "The Decoder",
+      "highlight": "AI 模型分发进入政府管控时代",
+      "stars": 5,
+      "tags": ["openai", "gpt-5.6", "regulation", "us-government"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "Sam Altman：主动式 AI 是聊天机器人和 Agent 之后的下一个大阶段",
+      "url": "https://the-decoder.com/openai-ceo-sam-altman-sees-proactive-ai-as-the-next-big-phase-after-chatbots-and-agents/",
+      "summary": "OpenAI CEO Altman 描述 AI 产品的下一阶段：一个持续在后台运行、主动行动而非等待用户提示的'主动式 AI'。企业也在应对飙升的 AI 成本和员工不知如何使用 AI 的问题。",
+      "source": "The Decoder",
+      "highlight": "从被动问答到主动行动，AI 产品形态演进",
+      "stars": 4,
+      "tags": ["openai", "proactive-ai", "product-vision", "altman"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "GLM-5.2 在 Snowflake 基准测试中以 1/5 成本接近 Opus 4.7",
+      "url": "https://the-decoder.com/snowflake-ceo-finds-glm-5-2-competitive-with-opus-4-7-at-a-fraction-of-the-cost/",
+      "summary": "智谱 AI 的 GLM-5.2 在 Snowflake 103 项编码任务基准测试中以 1/5 的输出 token 价格接近 Claude Opus 4.7 的表现。但中国模型每任务消耗近两倍 token。价格差距对西方 AI 实验室估值构成压力。",
+      "source": "The Decoder",
+      "highlight": "中国模型性价比优势对西方 AI 实验室形成定价压力",
+      "stars": 4,
+      "tags": ["zhipu", "glm-5.2", "claude-opus", "cost-efficiency", "benchmark"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "AI 模型连续编程 19 天完成单个 MirrorCode 任务，花费 2600 美元",
+      "url": "https://the-decoder.com/an-ai-model-programmed-nonstop-for-19-days-on-a-single-mirrorcode-task-that-cost-2600-to-run/",
+      "summary": "Epoch AI 的 MirrorCode 基准测试考验 AI 模型在无源码情况下重建完整程序的能力。Claude Opus 4.7 以 56% 解决率领先，14 小时内重建了 1.6 万行工具包。但所有模型在最复杂任务上仍然失败。",
+      "source": "The Decoder",
+      "highlight": "Opus 4.7 14 小时重建 1.6 万行代码，但复杂任务仍是天花板",
+      "stars": 4,
+      "tags": ["benchmark", "mirrorcode", "claude-opus", "coding", "epoch-ai"]
+    },
+    {
+      "id": 6,
+      "category": "paper",
+      "title": "DanceOPD: On-Policy Generative Field Distillation",
+      "url": "https://huggingface.co/papers/2606.27377",
+      "summary": "提出基于 on-policy 的生成场蒸馏方法，用于高效训练生成模型。通过在策略内采样和场蒸馏结合，提升生成质量和训练效率。",
+      "source": "HuggingFace Papers",
+      "highlight": "on-policy 蒸馏新范式，提升生成模型训练效率",
+      "stars": 3,
+      "tags": ["distillation", "generative-models", "on-policy", "training"]
+    },
+    {
+      "id": 7,
+      "category": "paper",
+      "title": "Qwen-Image-Agent: 弥合真实世界图像生成的上下文鸿沟",
+      "url": "https://huggingface.co/papers/2606.26907",
+      "summary": "Qwen 团队提出 Image-Agent 框架，解决真实世界图像生成中上下文理解不足的问题。通过 agent 架构桥接文本理解与视觉生成之间的语义鸿沟。",
+      "source": "HuggingFace Papers",
+      "highlight": "Agent 架构赋能图像生成，解决上下文理解瓶颈",
+      "stars": 4,
+      "tags": ["qwen", "image-generation", "agent", "multimodal"]
+    },
+    {
+      "id": 8,
+      "category": "paper",
+      "title": "The Verification Horizon: 编码 Agent 奖励机制没有银弹",
+      "url": "https://huggingface.co/papers/2606.26300",
+      "summary": "研究分析了编码 Agent 的奖励验证问题，指出当前没有单一的奖励信号能可靠评估 agent 的代码生成质量。提出'验证地平线'概念，揭示验证难度随任务复杂度指数增长。",
+      "source": "HuggingFace Papers",
+      "highlight": "揭示 coding agent 奖励设计的根本困难",
+      "stars": 4,
+      "tags": ["coding-agent", "reinforcement-learning", "reward", "verification"]
+    },
+    {
+      "id": 9,
+      "category": "paper",
+      "title": "GUI vs. CLI: 屏幕操控和技能中介的计算机使用 Agent 执行瓶颈",
+      "url": "https://huggingface.co/papers/2606.24551",
+      "summary": "对比分析了纯屏幕操控（GUI）和技能中介（CLI）两种计算机使用 Agent 范式的执行瓶颈。发现 GUI Agent 受限于视觉感知延迟，而 CLI 中介方式在复杂操作中效率更高。",
+      "source": "HuggingFace Papers",
+      "highlight": "GUI vs CLI Agent 对决：各自瓶颈与适用场景的系统分析",
+      "stars": 4,
+      "tags": ["computer-use", "gui-agent", "cli", "benchmark"]
+    },
+    {
+      "id": 10,
+      "category": "paper",
+      "title": "为何多步工具使用 RL 会崩溃，以及监督信号如何修复",
+      "url": "https://huggingface.co/papers/2606.26027",
+      "summary": "分析了多步工具使用强化学习中的崩溃现象，发现缺乏中间监督信号时 agent 倾向于退化为单步或重复行为。提出基于监督信号注入的修复方法，显著提升多步推理稳定性。",
+      "source": "HuggingFace Papers",
+      "highlight": "解决 tool-use RL 训练崩溃问题的关键发现",
+      "stars": 4,
+      "tags": ["reinforcement-learning", "tool-use", "multi-step", "training-stability"]
+    },
+    {
+      "id": 11,
+      "category": "paper",
+      "title": "JetSpec: 用并行树起草打破投机解码的扩展天花板",
+      "url": "https://huggingface.co/papers/2606.18394",
+      "summary": "提出 JetSpec 框架，通过并行树状 token 起草突破投机解码的性能瓶颈。相比传统顺序起草方式，显著提升大模型推理吞吐量。",
+      "source": "HuggingFace Papers",
+      "highlight": "投机解码新突破：并行树起草大幅提升推理效率",
+      "stars": 4,
+      "tags": ["speculative-decoding", "inference", "throughput", "optimization"]
+    },
+    {
+      "id": 12,
+      "category": "repo",
+      "title": "google-labs-code/design.md — 给编码 Agent 的视觉设计规范格式",
+      "url": "https://github.com/google-labs-code/design.md",
+      "summary": "Google Labs 推出的 DESIGN.md 格式规范，为编码 Agent 提供结构化的视觉设计系统描述。让 AI 编码助手能理解并保持一致的设计语言。",
+      "source": "GitHub Trending",
+      "highlight": "Google 定义 Agent 理解设计系统的标准格式，2400+ star",
+      "stars": 5,
+      "tags": ["google", "design-system", "coding-agent", "specification"]
+    },
+    {
+      "id": 13,
+      "category": "repo",
+      "title": "xbtlin/ai-berkshire — 基于 Claude Code 的价值投资多 Agent 研究框架",
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "summary": "AI 时代的伯克希尔：基于 Claude Code 构建的价值投资研究框架。整合巴菲特、芒格、段永平、李录四大投资大师方法论，通过多 Agent 并行对抗分析进行深度投研。",
+      "source": "GitHub Trending",
+      "highlight": "Claude Code + 价值投资方法论 + 多 Agent 对抗，1200+ star",
+      "stars": 5,
+      "tags": ["claude-code", "investing", "multi-agent", "research-framework"]
+    },
+    {
+      "id": 14,
+      "category": "repo",
+      "title": "opendatalab/MinerU — 将复杂文档转换为 LLM 友好格式",
+      "url": "https://github.com/opendatalab/MinerU",
+      "summary": "将 PDF 和 Office 等复杂文档转换为 LLM 可读的 Markdown/JSON 格式，专为 Agentic 工作流设计。支持复杂排版、表格、公式等元素的精确提取。",
+      "source": "GitHub Trending",
+      "highlight": "复杂文档→LLM 就绪格式，Agentic 场景必备工具，960 star/天",
+      "stars": 4,
+      "tags": ["document-parsing", "pdf", "llm-ready", "agentic-workflow"]
+    },
+    {
+      "id": 15,
+      "category": "repo",
+      "title": "kunchenguid/no-mistakes — git push 防错误提交工具",
+      "url": "https://github.com/kunchenguid/no-mistakes",
+      "summary": "一个轻量级 git push 保护工具，在推送前自动检查常见错误（敏感信息泄露、大文件、错误分支等），防止不可逆的 git 操作失误。",
+      "source": "GitHub Trending",
+      "highlight": "git push 前的安全网，防止敏感信息和错误操作",
+      "stars": 3,
+      "tags": ["git", "developer-tools", "security", "devops"]
+    }
+  ]
+}
