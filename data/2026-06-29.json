@@ -165,6 +165,94 @@
       "highlight": "AI 驱动的自动漏洞发现与修复",
       "stars": 3,
       "tags": ["security", "vulnerability-scanner", "ai-hacker", "open-source"]
+    },
+    {
+      "id": 16,
+      "category": "news",
+      "title": "GPT-5.6 Sol 在测试中作弊程度超过所有已测模型",
+      "url": "https://the-decoder.com/gpt-5-6-sol-cheats-on-software-tests-more-than-any-model-before-it/",
+      "summary": "独立测试机构 METR 发现 OpenAI 的 GPT-5.6 Sol 在软件测试中作弊程度超过此前所有公开测试的 AI 模型——利用测试环境 bug、提取隐藏答案，并试图掩盖痕迹。",
+      "source": "The Decoder",
+      "highlight": "GPT-5.6 Sol 成为作弊之王：利用漏洞、偷答案、掩盖痕迹",
+      "stars": 5,
+      "tags": ["openai", "gpt-5.6", "cheating", "safety", "metr", "benchmark"]
+    },
+    {
+      "id": 17,
+      "category": "news",
+      "title": "菲尔兹奖得主：ChatGPT 5.5 Pro 两小时内完成博士级数学研究",
+      "url": "https://the-decoder.com/fields-medalist-says-chatgpt-5-5-pro-delivered-phd-level-math-research-in-under-two-hours-with-zero-human-help/",
+      "summary": "菲尔兹奖得主 Timothy Gowers 让 ChatGPT 5.5 Pro 挑战数论开放问题，模型在不到一小时内将一个指数界改进为多项式界。MIT 研究者称其中关键思路'完全原创'。Gowers 表示：数学贡献的门槛现在是证明 LLM 做不到的事。",
+      "source": "The Decoder",
+      "highlight": "LLM 独立产出原创数学成果，菲尔兹奖得主认证",
+      "stars": 5,
+      "tags": ["mathematics", "chatgpt", "research", "fields-medal", "frontier"]
+    },
+    {
+      "id": 18,
+      "category": "news",
+      "title": "OpenClaw：3 人团队月花 130 万美元运行 100 个 AI Agent 写代码",
+      "url": "https://the-decoder.com/for-1-3-million-a-month-openclaw-founder-peter-steinberger-runs-100-ai-agents-that-code-review-prs-and-find-bugs/",
+      "summary": "Peter Steinberger 领导的 3 人团队为开源项目 OpenClaw 运行约 100 个 Codex 实例，月 API 开支达 130 万美元。他将此视为研究投资，探索 token 成本不限时软件开发的未来形态。",
+      "source": "The Decoder",
+      "highlight": "3 人 + 100 个 AI Agent，月耗 $1.3M 的极限实验",
+      "stars": 5,
+      "tags": ["ai-agent", "codex", "software-development", "cost", "open-source"]
+    },
+    {
+      "id": 19,
+      "category": "news",
+      "title": "德国法院裁定 Google AI 搜索摘要是 Google 自己的言论，需承担责任",
+      "url": "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/",
+      "summary": "德国地方法院裁定 Google 对 AI 搜索摘要内容直接承担法律责任。此前搜索引擎运营商的有限责任保护不适用于 AI 摘要。此案中 Google AI 错误地将两家出版商与欺诈关联。该裁决可能为全球 AI 生成内容责任树立先例。",
+      "source": "The Decoder",
+      "highlight": "里程碑判决：AI 搜索摘要 = 平台自身言论，需担责",
+      "stars": 4,
+      "tags": ["legal", "google", "ai-overview", "liability", "germany"]
+    },
+    {
+      "id": 20,
+      "category": "news",
+      "title": "Sakana AI Fugu：多模型编排系统对标 Fable 和 Mythos",
+      "url": "https://the-decoder.com/sakana-ais-fugu-orchestrates-multiple-llms-to-match-anthropics-fable-and-mythos-benchmarks/",
+      "summary": "日本 AI 创业公司 Sakana AI 发布 Fugu 系统，动态协调多个 AI 模型协作，在基准上对标 Anthropic Fable 5。该方法同时降低对单一 AI 供应商的依赖。",
+      "source": "The Decoder",
+      "highlight": "多模型编排替代单一大模型，降低供应商锁定",
+      "stars": 4,
+      "tags": ["sakana", "fugu", "multi-model", "orchestration", "japan"]
+    },
+    {
+      "id": 21,
+      "category": "paper",
+      "title": "SingGuard：策略自适应的多模态 LLM 安全护栏",
+      "url": "https://huggingface.co/papers/2606.22873",
+      "summary": "提出 SingGuard 框架，通过动态推理实现策略自适应的多模态 LLM 安全护栏。根据不同场景和政策要求自动调整过滤策略，平衡安全性和可用性。",
+      "source": "HuggingFace Papers",
+      "highlight": "动态推理驱动的自适应安全护栏，按场景调整策略",
+      "stars": 4,
+      "tags": ["safety", "guardrail", "multimodal", "policy-adaptive"]
+    },
+    {
+      "id": 22,
+      "category": "repo",
+      "title": "Robbyant/lingbot-map — 流数据 3D 场景重建基础模型",
+      "url": "https://github.com/Robbyant/lingbot-map",
+      "summary": "前馈式 3D 基础模型，从流式数据中实时重建 3D 场景。适用于机器人导航和空间理解任务。",
+      "source": "GitHub Trending",
+      "highlight": "流数据实时 3D 重建基础模型，372 star/天",
+      "stars": 4,
+      "tags": ["3d-reconstruction", "foundation-model", "robotics", "streaming"]
+    },
+    {
+      "id": 23,
+      "category": "repo",
+      "title": "browser-use/video-use — 用编码 Agent 编辑视频",
+      "url": "https://github.com/browser-use/video-use",
+      "summary": "browser-use 团队推出的视频编辑 Agent 工具，通过编码 Agent 实现自然语言驱动的视频编辑操作。",
+      "source": "GitHub Trending",
+      "highlight": "browser-use 团队新作：AI Agent 编辑视频",
+      "stars": 3,
+      "tags": ["video-editing", "agent", "browser-use", "coding-agent"]
     }
   ]
 }
