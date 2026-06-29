@@ -253,6 +253,72 @@
       "highlight": "browser-use 团队新作：AI Agent 编辑视频",
       "stars": 3,
       "tags": ["video-editing", "agent", "browser-use", "coding-agent"]
+    },
+    {
+      "id": 24,
+      "category": "paper",
+      "title": "GBC：基于梯度的多 Agent 系统优化连接方法",
+      "url": "https://huggingface.co/papers/2606.28187",
+      "summary": "提出 Gradient-Based Connections（GBC）框架，通过梯度信号优化多 Agent 系统中 Agent 间的连接和协作方式，提升多 Agent 协同效率和任务完成质量。",
+      "source": "HuggingFace Papers",
+      "highlight": "用梯度信号优化多 Agent 协作拓扑",
+      "stars": 4,
+      "tags": ["multi-agent", "optimization", "gradient", "collaboration"]
+    },
+    {
+      "id": 25,
+      "category": "paper",
+      "title": "Thinking While Speaking：推理时知识迁移实现智能语音 Agent",
+      "url": "https://huggingface.co/papers/2511.07397",
+      "summary": "提出推理时知识迁移方法，让语音对话 Agent 在说话过程中同步进行推理。解决语音 Agent 响应性和智能性的矛盾，实现边说边想的自然对话体验。",
+      "source": "HuggingFace Papers",
+      "highlight": "边说边想：语音 Agent 推理时知识迁移新范式",
+      "stars": 4,
+      "tags": ["voice-agent", "inference", "knowledge-transfer", "conversational-ai"]
+    },
+    {
+      "id": 26,
+      "category": "paper",
+      "title": "以物体为中心的残差 RL 实现零样本 Sim-to-Real VLA 增强",
+      "url": "https://huggingface.co/papers/2606.18953",
+      "summary": "提出以物体为中心的残差强化学习方法，增强视觉-语言-动作（VLA）模型的零样本仿真到真实迁移能力。无需真实环境数据即可提升机器人操控性能。",
+      "source": "HuggingFace Papers",
+      "highlight": "零样本 Sim-to-Real：残差 RL 增强 VLA 机器人操控",
+      "stars": 3,
+      "tags": ["robotics", "sim-to-real", "vla", "reinforcement-learning", "zero-shot"]
+    },
+    {
+      "id": 27,
+      "category": "repo",
+      "title": "msitarzewski/agency-agents — 完整 AI 代理机构专家团队",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "summary": "一整套 AI Agent 专家团队框架：前端开发、社区运营、创意注入、现实检查等。每个 Agent 都有专属人格、工作流程和可交付成果，开箱即用的 AI 代理机构。",
+      "source": "GitHub Trending",
+      "highlight": "开箱即用的 AI 代理机构全套 Agent，1221 star/天",
+      "stars": 4,
+      "tags": ["ai-agency", "agent", "automation", "multi-agent", "workflow"]
+    },
+    {
+      "id": 28,
+      "category": "repo",
+      "title": "Unclecheng-li/VulnClaw — AI Agent + MCP 全自动渗透测试",
+      "url": "https://github.com/Unclecheng-li/VulnClaw",
+      "summary": "基于 AI Agent + MCP 工具链 + 渗透技能编排，配合大语言模型，自然语言输入即可自动完成信息收集、漏洞发现、漏洞利用到报告生成的全流程安全测试。",
+      "source": "GitHub Trending",
+      "highlight": "自然语言驱动全自动渗透测试：信息收集→漏洞利用→报告",
+      "stars": 4,
+      "tags": ["security", "penetration-testing", "mcp", "agent", "vulnerability"]
+    },
+    {
+      "id": 29,
+      "category": "repo",
+      "title": "refactoringhq/tolaria — Markdown 知识库桌面管理工具",
+      "url": "https://github.com/refactoringhq/tolaria",
+      "summary": "桌面应用，用于管理 Markdown 格式的知识库。提供结构化的知识组织和检索界面，适合个人和团队知识管理场景。",
+      "source": "GitHub Trending",
+      "highlight": "Markdown 知识库专用桌面管理器，249 star/天",
+      "stars": 3,
+      "tags": ["knowledge-base", "markdown", "desktop-app", "productivity"]
     }
   ]
 }
