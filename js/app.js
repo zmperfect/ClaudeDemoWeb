@@ -54,7 +54,7 @@
     const today = new Date();
     dateInput.value = formatDate(today);
 
-    async function loadData(dateStr) {
+    async function loadData(dateStr, fallback) {
         currentDateStr = dateStr;
         grid.innerHTML = `
             <div class="loading" style="grid-column: 1 / -1;">
@@ -69,6 +69,13 @@
             const data = await resp.json();
             allItems = (data.items || []).filter(i => !isItemHidden(dateStr, i.id));
         } catch {
+            if (fallback) {
+                const d = new Date(dateStr);
+                d.setDate(d.getDate() - 1);
+                const prev = formatDate(d);
+                dateInput.value = prev;
+                return loadData(prev, fallback - 1);
+            }
             allItems = [];
         }
 
@@ -311,5 +318,5 @@
         loadData(dateInput.value);
     });
 
-    loadData(formatDate(today));
+    loadData(formatDate(today), 7);
 })();
