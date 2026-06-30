@@ -21,36 +21,44 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Remove item from JSON
-        run: |
-          FILE="data/${{ github.event.inputs.date }}.json"
-          if [ -f "$FILE" ]; then
-            jq '.items |= map(select(.id != ($id | tonumber)))' \
-              --arg id "${{ github.event.inputs.item_id }}" \
-              "$FILE" > tmp.json && mv tmp.json "$FILE"
-            jq '.items |= [to_entries[] | .value.id = (.key + 1) | .value]' \
-              "$FILE" > tmp.json && mv tmp.json "$FILE"
-          fi
-
-      - name: Commit and push
+      - name: Remove item and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-            exit 0
-          fi
-          git commit -m "Hide item ${{ github.event.inputs.item_id }} from ${{ github.event.inputs.date }}"
-          for i in 1 2 3; do
-            git push && break
-            echo "Push failed, pulling and retrying ($i/3)..."
-            git pull --rebase
-            if [ $i -eq 3 ]; then
-              echo "Failed after 3 retries"
-              exit 1
+
+          FILE="data/${{ github.event.inputs.date }}.json"
+          ID="${{ github.event.inputs.item_id }}"
+
+          for i in 1 2 3 4 5; do
+            git fetch origin master
+            git reset --hard origin/master
+
+            if [ ! -f "$FILE" ]; then
+              echo "File $FILE not found, skipping"
+              exit 0
             fi
+
+            jq '.items |= map(select(.id != ($id | tonumber)))' \
+              --arg id "$ID" "$FILE" > tmp.json && mv tmp.json "$FILE"
+            jq '.items |= [to_entries[] | .value.id = (.key + 1) | .value]' \
+              "$FILE" > tmp.json && mv tmp.json "$FILE"
+
+            git add -A
+            if git diff --staged --quiet; then
+              echo "Item already removed, nothing to do"
+              exit 0
+            fi
+
+            git commit -m "Hide item $ID from ${{ github.event.inputs.date }}"
+            if git push; then
+              echo "Push succeeded on attempt $i"
+              exit 0
+            fi
+
+            echo "Push failed on attempt $i, retrying..."
+            sleep 2
           done
+
+          echo "Failed after 5 attempts"
+          exit 1
