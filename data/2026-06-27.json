@@ -10,7 +10,12 @@
       "source": "The Decoder",
       "highlight": "AI 实验室估值格局重塑，Anthropic 首次登顶",
       "stars": 5,
-      "tags": ["anthropic", "funding", "valuation", "openai"]
+      "tags": [
+        "anthropic",
+        "funding",
+        "valuation",
+        "openai"
+      ]
     },
     {
       "id": 2,
@@ -21,7 +26,12 @@
       "source": "The Decoder",
       "highlight": "AI 模型分发进入政府管控时代",
       "stars": 5,
-      "tags": ["openai", "gpt-5.6", "regulation", "us-government"]
+      "tags": [
+        "openai",
+        "gpt-5.6",
+        "regulation",
+        "us-government"
+      ]
     },
     {
       "id": 3,
@@ -32,7 +42,12 @@
       "source": "The Decoder",
       "highlight": "从被动问答到主动行动，AI 产品形态演进",
       "stars": 4,
-      "tags": ["openai", "proactive-ai", "product-vision", "altman"]
+      "tags": [
+        "openai",
+        "proactive-ai",
+        "product-vision",
+        "altman"
+      ]
     },
     {
       "id": 4,
@@ -43,7 +58,13 @@
       "source": "The Decoder",
       "highlight": "中国模型性价比优势对西方 AI 实验室形成定价压力",
       "stars": 4,
-      "tags": ["zhipu", "glm-5.2", "claude-opus", "cost-efficiency", "benchmark"]
+      "tags": [
+        "zhipu",
+        "glm-5.2",
+        "claude-opus",
+        "cost-efficiency",
+        "benchmark"
+      ]
     },
     {
       "id": 5,
@@ -54,7 +75,13 @@
       "source": "The Decoder",
       "highlight": "Opus 4.7 14 小时重建 1.6 万行代码，但复杂任务仍是天花板",
       "stars": 4,
-      "tags": ["benchmark", "mirrorcode", "claude-opus", "coding", "epoch-ai"]
+      "tags": [
+        "benchmark",
+        "mirrorcode",
+        "claude-opus",
+        "coding",
+        "epoch-ai"
+      ]
     },
     {
       "id": 6,
@@ -65,7 +92,12 @@
       "source": "HuggingFace Papers",
       "highlight": "on-policy 蒸馏新范式，提升生成模型训练效率",
       "stars": 3,
-      "tags": ["distillation", "generative-models", "on-policy", "training"]
+      "tags": [
+        "distillation",
+        "generative-models",
+        "on-policy",
+        "training"
+      ]
     },
     {
       "id": 7,
@@ -76,7 +108,12 @@
       "source": "HuggingFace Papers",
       "highlight": "Agent 架构赋能图像生成，解决上下文理解瓶颈",
       "stars": 4,
-      "tags": ["qwen", "image-generation", "agent", "multimodal"]
+      "tags": [
+        "qwen",
+        "image-generation",
+        "agent",
+        "multimodal"
+      ]
     },
     {
       "id": 8,
@@ -87,7 +124,12 @@
       "source": "HuggingFace Papers",
       "highlight": "揭示 coding agent 奖励设计的根本困难",
       "stars": 4,
-      "tags": ["coding-agent", "reinforcement-learning", "reward", "verification"]
+      "tags": [
+        "coding-agent",
+        "reinforcement-learning",
+        "reward",
+        "verification"
+      ]
     },
     {
       "id": 9,
@@ -98,7 +140,12 @@
       "source": "HuggingFace Papers",
       "highlight": "GUI vs CLI Agent 对决：各自瓶颈与适用场景的系统分析",
       "stars": 4,
-      "tags": ["computer-use", "gui-agent", "cli", "benchmark"]
+      "tags": [
+        "computer-use",
+        "gui-agent",
+        "cli",
+        "benchmark"
+      ]
     },
     {
       "id": 10,
@@ -109,7 +156,12 @@
       "source": "HuggingFace Papers",
       "highlight": "解决 tool-use RL 训练崩溃问题的关键发现",
       "stars": 4,
-      "tags": ["reinforcement-learning", "tool-use", "multi-step", "training-stability"]
+      "tags": [
+        "reinforcement-learning",
+        "tool-use",
+        "multi-step",
+        "training-stability"
+      ]
     },
     {
       "id": 11,
@@ -120,7 +172,12 @@
       "source": "HuggingFace Papers",
       "highlight": "投机解码新突破：并行树起草大幅提升推理效率",
       "stars": 4,
-      "tags": ["speculative-decoding", "inference", "throughput", "optimization"]
+      "tags": [
+        "speculative-decoding",
+        "inference",
+        "throughput",
+        "optimization"
+      ]
     },
     {
       "id": 12,
@@ -131,21 +188,15 @@
       "source": "GitHub Trending",
       "highlight": "Google 定义 Agent 理解设计系统的标准格式，2400+ star",
       "stars": 5,
-      "tags": ["google", "design-system", "coding-agent", "specification"]
+      "tags": [
+        "google",
+        "design-system",
+        "coding-agent",
+        "specification"
+      ]
     },
     {
       "id": 13,
-      "category": "repo",
-      "title": "xbtlin/ai-berkshire — 基于 Claude Code 的价值投资多 Agent 研究框架",
-      "url": "https://github.com/xbtlin/ai-berkshire",
-      "summary": "AI 时代的伯克希尔：基于 Claude Code 构建的价值投资研究框架。整合巴菲特、芒格、段永平、李录四大投资大师方法论，通过多 Agent 并行对抗分析进行深度投研。",
-      "source": "GitHub Trending",
-      "highlight": "Claude Code + 价值投资方法论 + 多 Agent 对抗，1200+ star",
-      "stars": 5,
-      "tags": ["claude-code", "investing", "multi-agent", "research-framework"]
-    },
-    {
-      "id": 14,
       "category": "repo",
       "title": "opendatalab/MinerU — 将复杂文档转换为 LLM 友好格式",
       "url": "https://github.com/opendatalab/MinerU",
@@ -153,10 +204,15 @@
       "source": "GitHub Trending",
       "highlight": "复杂文档→LLM 就绪格式，Agentic 场景必备工具，960 star/天",
       "stars": 4,
-      "tags": ["document-parsing", "pdf", "llm-ready", "agentic-workflow"]
+      "tags": [
+        "document-parsing",
+        "pdf",
+        "llm-ready",
+        "agentic-workflow"
+      ]
     },
     {
-      "id": 15,
+      "id": 14,
       "category": "repo",
       "title": "kunchenguid/no-mistakes — git push 防错误提交工具",
       "url": "https://github.com/kunchenguid/no-mistakes",
@@ -164,7 +220,12 @@
       "source": "GitHub Trending",
       "highlight": "git push 前的安全网，防止敏感信息和错误操作",
       "stars": 3,
-      "tags": ["git", "developer-tools", "security", "devops"]
+      "tags": [
+        "git",
+        "developer-tools",
+        "security",
+        "devops"
+      ]
     }
   ]
 }
