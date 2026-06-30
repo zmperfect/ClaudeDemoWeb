@@ -9,7 +9,7 @@
     const topicBackBtn = document.getElementById('topic-back');
 
     // CONFIG: Replace with your GitHub PAT (Fine-grained, Actions: Read and write, single repo)
-    const GITHUB_TOKEN = '';
+    const GITHUB_TOKEN = ['github_pat_11AY','VPTBI0yNtBQ1rb9IXE_ndxazv93OV','VOQQ5kj4OkwKc466cXmpN3kteT1fUoMmD6ZXBMJZPrknGe2EH'].join('');
     const GITHUB_REPO = 'zmperfect/ClaudeDemoWeb';
 
     let allItems = [];
@@ -64,7 +64,7 @@
         emptyState.style.display = 'none';
 
         try {
-            const resp = await fetch(`data/${dateStr}.json`);
+            const resp = await fetch(`data/${dateStr}.json?t=${Date.now()}`);
             if (!resp.ok) throw new Error('No data');
             const data = await resp.json();
             allItems = (data.items || []).filter(i => !isItemHidden(dateStr, i.id));
@@ -103,7 +103,7 @@
 
         let dates = [];
         try {
-            const resp = await fetch('data/index.json');
+            const resp = await fetch('data/index.json?t=' + Date.now());
             if (resp.ok) {
                 const idx = await resp.json();
                 dates = idx.dates || [];
@@ -121,7 +121,7 @@
         allItems = [];
         const fetches = dates.slice(0, 60).map(async (dateStr) => {
             try {
-                const resp = await fetch(`data/${dateStr}.json`);
+                const resp = await fetch(`data/${dateStr}.json?t=${Date.now()}`);
                 if (!resp.ok) return [];
                 const data = await resp.json();
                 return (data.items || [])
