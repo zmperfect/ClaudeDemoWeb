@@ -215,22 +215,6 @@
     },
     {
       "id": 14,
-      "category": "repo",
-      "title": "usestrix/strix — 开源 AI 安全漏洞扫描器",
-      "url": "https://github.com/usestrix/strix",
-      "summary": "开源 AI 黑客工具，自动发现和修复应用程序漏洞。通过 AI 驱动的安全扫描替代传统人工渗透测试。",
-      "source": "GitHub Trending",
-      "highlight": "AI 驱动的自动漏洞发现与修复",
-      "stars": 3,
-      "tags": [
-        "security",
-        "vulnerability-scanner",
-        "ai-hacker",
-        "open-source"
-      ]
-    },
-    {
-      "id": 15,
       "category": "news",
       "title": "GPT-5.6 Sol 在测试中作弊程度超过所有已测模型",
       "url": "https://the-decoder.com/gpt-5-6-sol-cheats-on-software-tests-more-than-any-model-before-it/",
@@ -248,7 +232,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": 15,
       "category": "news",
       "title": "菲尔兹奖得主：ChatGPT 5.5 Pro 两小时内完成博士级数学研究",
       "url": "https://the-decoder.com/fields-medalist-says-chatgpt-5-5-pro-delivered-phd-level-math-research-in-under-two-hours-with-zero-human-help/",
@@ -265,7 +249,7 @@
       ]
     },
     {
-      "id": 17,
+      "id": 16,
       "category": "news",
       "title": "OpenClaw：3 人团队月花 130 万美元运行 100 个 AI Agent 写代码",
       "url": "https://the-decoder.com/for-1-3-million-a-month-openclaw-founder-peter-steinberger-runs-100-ai-agents-that-code-review-prs-and-find-bugs/",
@@ -282,7 +266,7 @@
       ]
     },
     {
-      "id": 18,
+      "id": 17,
       "category": "news",
       "title": "德国法院裁定 Google AI 搜索摘要是 Google 自己的言论，需承担责任",
       "url": "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/",
@@ -299,7 +283,7 @@
       ]
     },
     {
-      "id": 19,
+      "id": 18,
       "category": "news",
       "title": "Sakana AI Fugu：多模型编排系统对标 Fable 和 Mythos",
       "url": "https://the-decoder.com/sakana-ais-fugu-orchestrates-multiple-llms-to-match-anthropics-fable-and-mythos-benchmarks/",
@@ -316,7 +300,7 @@
       ]
     },
     {
-      "id": 20,
+      "id": 19,
       "category": "paper",
       "title": "SingGuard：策略自适应的多模态 LLM 安全护栏",
       "url": "https://huggingface.co/papers/2606.22873",
@@ -332,7 +316,7 @@
       ]
     },
     {
-      "id": 21,
+      "id": 20,
       "category": "repo",
       "title": "Robbyant/lingbot-map — 流数据 3D 场景重建基础模型",
       "url": "https://github.com/Robbyant/lingbot-map",
@@ -348,7 +332,7 @@
       ]
     },
     {
-      "id": 22,
+      "id": 21,
       "category": "repo",
       "title": "browser-use/video-use — 用编码 Agent 编辑视频",
       "url": "https://github.com/browser-use/video-use",
@@ -364,7 +348,7 @@
       ]
     },
     {
-      "id": 23,
+      "id": 22,
       "category": "paper",
       "title": "GBC：基于梯度的多 Agent 系统优化连接方法",
       "url": "https://huggingface.co/papers/2606.28187",
@@ -380,7 +364,7 @@
       ]
     },
     {
-      "id": 24,
+      "id": 23,
       "category": "paper",
       "title": "Thinking While Speaking：推理时知识迁移实现智能语音 Agent",
       "url": "https://huggingface.co/papers/2511.07397",
@@ -396,7 +380,7 @@
       ]
     },
     {
-      "id": 25,
+      "id": 24,
       "category": "paper",
       "title": "以物体为中心的残差 RL 实现零样本 Sim-to-Real VLA 增强",
       "url": "https://huggingface.co/papers/2606.18953",
@@ -413,7 +397,7 @@
       ]
     },
     {
-      "id": 26,
+      "id": 25,
       "category": "repo",
       "title": "msitarzewski/agency-agents — 完整 AI 代理机构专家团队",
       "url": "https://github.com/msitarzewski/agency-agents",
@@ -430,7 +414,7 @@
       ]
     },
     {
-      "id": 27,
+      "id": 26,
       "category": "repo",
       "title": "Unclecheng-li/VulnClaw — AI Agent + MCP 全自动渗透测试",
       "url": "https://github.com/Unclecheng-li/VulnClaw",
@@ -447,7 +431,7 @@
       ]
     },
     {
-      "id": 28,
+      "id": 27,
       "category": "repo",
       "title": "refactoringhq/tolaria — Markdown 知识库桌面管理工具",
       "url": "https://github.com/refactoringhq/tolaria",
