@@ -5,12 +5,22 @@
     const dateInput = document.getElementById('date-input');
     const searchInput = document.getElementById('search-input');
     const categoryFilter = document.getElementById('category-filter');
+    const topicFilter = document.getElementById('topic-filter');
+    const topicBackBtn = document.getElementById('topic-back');
 
     let allItems = [];
     let currentCategory = 'all';
     let currentSearch = '';
+    let currentTopic = null;
+    let isTopicMode = false;
 
-    // Format date as YYYY-MM-DD
+    const TOPIC_TAG_MAP = {
+        'post-training': ['lora', 'qlora', 'sft', 'rlhf', 'dpo', 'ppo', 'grpo', 'fine-tuning', 'finetuning', 'post-training', 'alignment', 'reward-model', 'distillation'],
+        'rag': ['rag', 'retrieval', 'embedding', 'reranking', 'rerank', 'chunking', 'vector-db', 'vector-database', 'hybrid-search', 'semantic-search', 'document-parsing'],
+        'memory': ['memory', 'context-management', 'long-term-memory', 'context-compression', 'personalization', 'conversation-state', 'context-window', 'user-memory'],
+        'agent': ['agent', 'tool-use', 'function-calling', 'planning', 'multi-agent', 'agentic', 'coding-agent', 'computer-use', 'gui-agent']
+    };
+
     function formatDate(date) {
         const y = date.getFullYear();
         const m = String(date.getMonth() + 1).padStart(2, '0');
@@ -18,11 +28,9 @@
         return `${y}-${m}-${d}`;
     }
 
-    // Init date
     const today = new Date();
     dateInput.value = formatDate(today);
 
-    // Load data for a given date
     async function loadData(dateStr) {
         grid.innerHTML = `
             <div class="loading" style="grid-column: 1 / -1;">
@@ -43,16 +51,83 @@
         render();
     }
 
-    // Render cards
+    function itemMatchesTopic(item, topic) {
+        if (item.topic && item.topic.includes(topic)) return true;
+        const relatedTags = TOPIC_TAG_MAP[topic] || [];
+        if (item.tags && item.tags.some(t => relatedTags.includes(t.toLowerCase()))) return true;
+        return false;
+    }
+
+    async function loadTopicData(topic) {
+        isTopicMode = true;
+        currentTopic = topic;
+
+        topicBackBtn.style.display = 'inline-block';
+        document.querySelector('.date-picker').style.opacity = '0.4';
+        document.querySelector('.date-picker').style.pointerEvents = 'none';
+
+        topicFilter.querySelectorAll('.topic-btn').forEach(b => {
+            b.classList.toggle('active', b.dataset.topic === topic);
+        });
+
+        grid.innerHTML = `
+            <div class="loading" style="grid-column: 1 / -1;">
+                <div class="loading-spinner"></div>
+                <p>Loading topic: ${topic}...</p>
+            </div>`;
+        emptyState.style.display = 'none';
+
+        let dates = [];
+        try {
+            const resp = await fetch('data/index.json');
+            if (resp.ok) {
+                const idx = await resp.json();
+                dates = idx.dates || [];
+            }
+        } catch {}
+
+        if (dates.length === 0) {
+            const d = new Date();
+            for (let i = 0; i < 60; i++) {
+                dates.push(formatDate(d));
+                d.setDate(d.getDate() - 1);
+            }
+        }
+
+        allItems = [];
+        const fetches = dates.slice(0, 60).map(async (dateStr) => {
+            try {
+                const resp = await fetch(`data/${dateStr}.json`);
+                if (!resp.ok) return [];
+                const data = await resp.json();
+                return (data.items || []).filter(item => itemMatchesTopic(item, topic))
+                    .map(item => ({ ...item, _date: dateStr }));
+            } catch { return []; }
+        });
+
+        const results = await Promise.all(fetches);
+        allItems = results.flat().sort((a, b) => b._date.localeCompare(a._date));
+
+        render();
+    }
+
+    function exitTopicMode() {
+        isTopicMode = false;
+        currentTopic = null;
+        topicBackBtn.style.display = 'none';
+        document.querySelector('.date-picker').style.opacity = '1';
+        document.querySelector('.date-picker').style.pointerEvents = 'auto';
+        topicFilter.querySelectorAll('.topic-btn').forEach(b => b.classList.remove('active'));
+        loadData(dateInput.value);
+    }
+
     function render() {
         let items = allItems;
 
-        // Filter by category
         if (currentCategory !== 'all') {
             items = items.filter(i => i.category === currentCategory);
         }
 
-        // Filter by search
         if (currentSearch) {
             const q = currentSearch.toLowerCase();
             items = items.filter(i =>
@@ -63,8 +138,11 @@
             );
         }
 
-        // Stats
-        statsEl.textContent = `Showing ${items.length} of ${allItems.length} items`;
+        if (isTopicMode) {
+            statsEl.textContent = `Topic "${currentTopic}" — ${items.length} items across all dates`;
+        } else {
+            statsEl.textContent = `Showing ${items.length} of ${allItems.length} items`;
+        }
 
         if (items.length === 0) {
             grid.innerHTML = '';
@@ -87,11 +165,18 @@
         const tagsHtml = (item.tags || [])
             .map(t => `<span class="tag">${esc(t)}</span>`)
             .join('');
+        const topicHtml = (item.topic || [])
+            .map(t => `<span class="topic-tag topic-tag-${t}">${esc(t)}</span>`)
+            .join('');
+        const dateHtml = item._date
+            ? `<span class="card-date">${esc(item._date)}</span>`
+            : '';
 
         return `
         <div class="card" data-category="${item.category}">
             <div class="card-header">
                 <span class="card-badge ${badgeClass}">${esc(item.category)}</span>
+                ${dateHtml}
                 ${starsHtml}
             </div>
             <div class="card-title">
@@ -101,7 +186,7 @@
             ${highlightHtml}
             <div class="card-footer">
                 <span class="card-source">${esc(item.source || '')}</span>
-                <div class="card-tags">${tagsHtml}</div>
+                <div class="card-tags">${topicHtml}${tagsHtml}</div>
             </div>
         </div>`;
     }
@@ -118,7 +203,6 @@
         return d.innerHTML;
     }
 
-    // Event: category filter
     categoryFilter.addEventListener('click', e => {
         const btn = e.target.closest('.cat-btn');
         if (!btn) return;
@@ -128,7 +212,19 @@
         render();
     });
 
-    // Event: search
+    topicFilter.addEventListener('click', e => {
+        const btn = e.target.closest('.topic-btn');
+        if (!btn) return;
+        const topic = btn.dataset.topic;
+        if (isTopicMode && currentTopic === topic) {
+            exitTopicMode();
+        } else {
+            loadTopicData(topic);
+        }
+    });
+
+    topicBackBtn.addEventListener('click', exitTopicMode);
+
     let searchTimeout;
     searchInput.addEventListener('input', () => {
         clearTimeout(searchTimeout);
@@ -138,12 +234,12 @@
         }, 200);
     });
 
-    // Event: date change
     dateInput.addEventListener('change', () => {
-        loadData(dateInput.value);
+        if (!isTopicMode) loadData(dateInput.value);
     });
 
     document.getElementById('prev-day').addEventListener('click', () => {
+        if (isTopicMode) return;
         const d = new Date(dateInput.value);
         d.setDate(d.getDate() - 1);
         dateInput.value = formatDate(d);
@@ -151,12 +247,12 @@
     });
 
     document.getElementById('next-day').addEventListener('click', () => {
+        if (isTopicMode) return;
         const d = new Date(dateInput.value);
         d.setDate(d.getDate() + 1);
         dateInput.value = formatDate(d);
         loadData(dateInput.value);
     });
 
-    // Initial load
     loadData(formatDate(today));
 })();

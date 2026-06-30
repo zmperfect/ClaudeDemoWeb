@@ -344,6 +344,110 @@ main {
     color: var(--text-secondary);
 }
 
+/* Topic Bar */
+.topic-bar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+    padding: 12px 16px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+}
+
+.topic-label {
+    color: var(--text-muted);
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    flex-shrink: 0;
+}
+
+.topic-filter {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.topic-btn {
+    padding: 5px 14px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--text-secondary);
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.topic-btn:hover {
+    border-color: var(--accent-purple);
+    color: var(--text-primary);
+    background: rgba(188,140,255,0.08);
+}
+
+.topic-btn.active {
+    background: rgba(188,140,255,0.15);
+    border-color: var(--accent-purple);
+    color: var(--accent-purple);
+    box-shadow: 0 0 0 2px rgba(188,140,255,0.1);
+}
+
+.topic-btn[data-topic="post-training"] { --topic-color: #f97316; }
+.topic-btn[data-topic="rag"] { --topic-color: #06b6d4; }
+.topic-btn[data-topic="memory"] { --topic-color: #a855f7; }
+.topic-btn[data-topic="agent"] { --topic-color: #22c55e; }
+
+.topic-btn[data-topic="post-training"].active { color: #f97316; border-color: #f97316; background: rgba(249,115,22,0.12); box-shadow: 0 0 0 2px rgba(249,115,22,0.1); }
+.topic-btn[data-topic="rag"].active { color: #06b6d4; border-color: #06b6d4; background: rgba(6,182,212,0.12); box-shadow: 0 0 0 2px rgba(6,182,212,0.1); }
+.topic-btn[data-topic="memory"].active { color: #a855f7; border-color: #a855f7; background: rgba(168,85,247,0.12); box-shadow: 0 0 0 2px rgba(168,85,247,0.1); }
+.topic-btn[data-topic="agent"].active { color: #22c55e; border-color: #22c55e; background: rgba(34,197,94,0.12); box-shadow: 0 0 0 2px rgba(34,197,94,0.1); }
+
+.topic-back-btn {
+    padding: 5px 12px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--accent-blue);
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: auto;
+    transition: all 0.2s;
+}
+
+.topic-back-btn:hover {
+    background: rgba(88,166,255,0.1);
+    border-color: var(--accent-blue);
+}
+
+/* Topic Tags on Cards */
+.topic-tag {
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+.topic-tag-post-training { background: rgba(249,115,22,0.15); color: #f97316; }
+.topic-tag-rag { background: rgba(6,182,212,0.15); color: #06b6d4; }
+.topic-tag-memory { background: rgba(168,85,247,0.15); color: #a855f7; }
+.topic-tag-agent { background: rgba(34,197,94,0.15); color: #22c55e; }
+
+/* Card Date (for topic aggregation mode) */
+.card-date {
+    font-size: 11px;
+    color: var(--text-muted);
+    background: rgba(139,148,158,0.1);
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
 /* Empty State */
 .empty-state {
     text-align: center;
