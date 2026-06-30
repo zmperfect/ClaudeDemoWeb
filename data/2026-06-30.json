@@ -338,24 +338,6 @@
     {
       "id": 19,
       "category": "news",
-      "title": "Google 发布微型开发板，本地运行 Gemma 3",
-      "url": "https://the-decoder.com/google-launches-a-tiny-board-that-runs-gemma-3-locally/",
-      "summary": "Google 在 I/O 大会推出新 Coral Board，一款紧凑单板计算机专为设备端 AI 设计。可本地运行 Gemma 3 模型，推动边缘 AI 硬件生态。",
-      "source": "The Decoder",
-      "highlight": "单板电脑运行 Gemma 3：边缘 AI 硬件新选择",
-      "stars": 3,
-      "tags": [
-        "google",
-        "coral",
-        "edge-ai",
-        "gemma",
-        "on-device",
-        "hardware"
-      ]
-    },
-    {
-      "id": 20,
-      "category": "news",
       "title": "OpenAI 发布 GPT-5.5 Cyber 网络安全专用模型",
       "url": "https://the-decoder.com/openai-says-new-gpt-5-5-cyber-outperforms-anthropics-mythos-on-cybersecurity-benchmark/",
       "summary": "OpenAI 扩展 Daybreak 网安计划，推出 Codex Security 插件和 GPT-5.5-Cyber 完整版，联合 25+ 安全公司和多国政府。重心从发现漏洞转向自动修补漏洞。",
