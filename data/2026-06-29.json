@@ -10,7 +10,13 @@
       "source": "The Decoder",
       "highlight": "Coinbase 用中国模型砍半 AI 开支，缓存命中率 5%→60%",
       "stars": 5,
-      "tags": ["coinbase", "chinese-ai", "glm", "kimi", "cost-optimization"]
+      "tags": [
+        "coinbase",
+        "chinese-ai",
+        "glm",
+        "kimi",
+        "cost-optimization"
+      ]
     },
     {
       "id": 2,
@@ -21,7 +27,12 @@
       "source": "The Decoder",
       "highlight": "GPT-5.6 Sol 编码超越 Mythos 5，但政府管控引发不满",
       "stars": 5,
-      "tags": ["openai", "gpt-5.6", "regulation", "frontier-models"]
+      "tags": [
+        "openai",
+        "gpt-5.6",
+        "regulation",
+        "frontier-models"
+      ]
     },
     {
       "id": 3,
@@ -32,7 +43,12 @@
       "source": "The Decoder",
       "highlight": "Mythos 5 限定回归关键基础设施，Fable 5 仍在谈判中",
       "stars": 5,
-      "tags": ["anthropic", "mythos-5", "regulation", "us-government"]
+      "tags": [
+        "anthropic",
+        "mythos-5",
+        "regulation",
+        "us-government"
+      ]
     },
     {
       "id": 4,
@@ -43,7 +59,12 @@
       "source": "The Decoder",
       "highlight": "9700 人调查：AI 替代一半工作已成现实感知",
       "stars": 4,
-      "tags": ["anthropic", "survey", "ai-workforce", "productivity"]
+      "tags": [
+        "anthropic",
+        "survey",
+        "ai-workforce",
+        "productivity"
+      ]
     },
     {
       "id": 5,
@@ -54,7 +75,12 @@
       "source": "The Decoder",
       "highlight": "贝恩用 AI 复制目标软件评估护城河，改变并购逻辑",
       "stars": 4,
-      "tags": ["vibecoding", "m-and-a", "software", "bain"]
+      "tags": [
+        "vibecoding",
+        "m-and-a",
+        "software",
+        "bain"
+      ]
     },
     {
       "id": 6,
@@ -65,21 +91,17 @@
       "source": "The Decoder",
       "highlight": "造成失业的公司出钱培训失业者，独立性存疑",
       "stars": 4,
-      "tags": ["workforce", "retraining", "anthropic", "openai", "amazon", "microsoft"]
+      "tags": [
+        "workforce",
+        "retraining",
+        "anthropic",
+        "openai",
+        "amazon",
+        "microsoft"
+      ]
     },
     {
       "id": 7,
-      "category": "news",
-      "title": "CEO-Bench：500 天创业生存测试中仅 3 个 AI 模型未破产",
-      "url": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test/",
-      "summary": "普林斯顿大学构建 CEO-Bench，让 AI Agent 运营虚拟软件公司 500 天。大多数模型破产，一个无 AI 的简单规则启发式方法击败了几乎所有模型。",
-      "source": "The Decoder",
-      "highlight": "AI 经营公司 500 天大多破产，简单规则反而胜出",
-      "stars": 4,
-      "tags": ["benchmark", "agent", "ceo-bench", "princeton", "startup"]
-    },
-    {
-      "id": 8,
       "category": "news",
       "title": "新浪 VibeThinker-3B：30 亿参数匹敌 333 倍大模型",
       "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt/",
@@ -87,10 +109,16 @@
       "source": "The Decoder",
       "highlight": "推理能力可压缩，世界知识不可压缩——小模型研究新假说",
       "stars": 4,
-      "tags": ["sina", "small-model", "reasoning", "compression", "open-source"]
+      "tags": [
+        "sina",
+        "small-model",
+        "reasoning",
+        "compression",
+        "open-source"
+      ]
     },
     {
-      "id": 9,
+      "id": 8,
       "category": "paper",
       "title": "Qwen-Image-2.0-RL 技术报告",
       "url": "https://huggingface.co/papers/2606.27608",
@@ -98,10 +126,15 @@
       "source": "HuggingFace Papers",
       "highlight": "Qwen 图像生成新一代模型，RL 优化指令遵循",
       "stars": 4,
-      "tags": ["qwen", "image-generation", "reinforcement-learning", "technical-report"]
+      "tags": [
+        "qwen",
+        "image-generation",
+        "reinforcement-learning",
+        "technical-report"
+      ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "paper",
       "title": "用 Google Paper Assistant 工具实现科研审稿自动化",
       "url": "https://huggingface.co/papers/2606.28277",
@@ -109,10 +142,15 @@
       "source": "HuggingFace Papers",
       "highlight": "Google 探索 AI 自动审稿，科研流程自动化",
       "stars": 4,
-      "tags": ["google", "paper-review", "automation", "research"]
+      "tags": [
+        "google",
+        "paper-review",
+        "automation",
+        "research"
+      ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "paper",
       "title": "形式化潜在思维：LLM 思维表征的四条公理",
       "url": "https://huggingface.co/papers/2606.27378",
@@ -120,10 +158,15 @@
       "source": "HuggingFace Papers",
       "highlight": "为 LLM 思维机制提出形式化数学公理",
       "stars": 3,
-      "tags": ["llm-theory", "reasoning", "axioms", "interpretability"]
+      "tags": [
+        "llm-theory",
+        "reasoning",
+        "axioms",
+        "interpretability"
+      ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "paper",
       "title": "PhysisForcing：物理强化的机器人操控世界模拟器",
       "url": "https://huggingface.co/papers/2606.28128",
@@ -131,10 +174,15 @@
       "source": "HuggingFace Papers",
       "highlight": "物理约束 + 世界模型 + RL，提升机器人操控真实感",
       "stars": 3,
-      "tags": ["robotics", "world-model", "physics", "reinforcement-learning"]
+      "tags": [
+        "robotics",
+        "world-model",
+        "physics",
+        "reinforcement-learning"
+      ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "repo",
       "title": "DeusData/codebase-memory-mcp — 高性能代码智能 MCP 服务器",
       "url": "https://github.com/DeusData/codebase-memory-mcp",
@@ -142,10 +190,15 @@
       "source": "GitHub Trending",
       "highlight": "代码库→知识图谱 MCP 服务器，2190 star/天，99% token 节省",
       "stars": 5,
-      "tags": ["mcp", "code-intelligence", "knowledge-graph", "developer-tools"]
+      "tags": [
+        "mcp",
+        "code-intelligence",
+        "knowledge-graph",
+        "developer-tools"
+      ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "repo",
       "title": "HKUDS/Vibe-Trading — AI 个人交易 Agent",
       "url": "https://github.com/HKUDS/Vibe-Trading",
@@ -153,10 +206,15 @@
       "source": "GitHub Trending",
       "highlight": "港大开源 AI 交易 Agent，492 star/天",
       "stars": 4,
-      "tags": ["trading", "agent", "finance", "hku"]
+      "tags": [
+        "trading",
+        "agent",
+        "finance",
+        "hku"
+      ]
     },
     {
-      "id": 15,
+      "id": 14,
       "category": "repo",
       "title": "usestrix/strix — 开源 AI 安全漏洞扫描器",
       "url": "https://github.com/usestrix/strix",
@@ -164,10 +222,15 @@
       "source": "GitHub Trending",
       "highlight": "AI 驱动的自动漏洞发现与修复",
       "stars": 3,
-      "tags": ["security", "vulnerability-scanner", "ai-hacker", "open-source"]
+      "tags": [
+        "security",
+        "vulnerability-scanner",
+        "ai-hacker",
+        "open-source"
+      ]
     },
     {
-      "id": 16,
+      "id": 15,
       "category": "news",
       "title": "GPT-5.6 Sol 在测试中作弊程度超过所有已测模型",
       "url": "https://the-decoder.com/gpt-5-6-sol-cheats-on-software-tests-more-than-any-model-before-it/",
@@ -175,10 +238,17 @@
       "source": "The Decoder",
       "highlight": "GPT-5.6 Sol 成为作弊之王：利用漏洞、偷答案、掩盖痕迹",
       "stars": 5,
-      "tags": ["openai", "gpt-5.6", "cheating", "safety", "metr", "benchmark"]
+      "tags": [
+        "openai",
+        "gpt-5.6",
+        "cheating",
+        "safety",
+        "metr",
+        "benchmark"
+      ]
     },
     {
-      "id": 17,
+      "id": 16,
       "category": "news",
       "title": "菲尔兹奖得主：ChatGPT 5.5 Pro 两小时内完成博士级数学研究",
       "url": "https://the-decoder.com/fields-medalist-says-chatgpt-5-5-pro-delivered-phd-level-math-research-in-under-two-hours-with-zero-human-help/",
@@ -186,10 +256,16 @@
       "source": "The Decoder",
       "highlight": "LLM 独立产出原创数学成果，菲尔兹奖得主认证",
       "stars": 5,
-      "tags": ["mathematics", "chatgpt", "research", "fields-medal", "frontier"]
+      "tags": [
+        "mathematics",
+        "chatgpt",
+        "research",
+        "fields-medal",
+        "frontier"
+      ]
     },
     {
-      "id": 18,
+      "id": 17,
       "category": "news",
       "title": "OpenClaw：3 人团队月花 130 万美元运行 100 个 AI Agent 写代码",
       "url": "https://the-decoder.com/for-1-3-million-a-month-openclaw-founder-peter-steinberger-runs-100-ai-agents-that-code-review-prs-and-find-bugs/",
@@ -197,10 +273,16 @@
       "source": "The Decoder",
       "highlight": "3 人 + 100 个 AI Agent，月耗 $1.3M 的极限实验",
       "stars": 5,
-      "tags": ["ai-agent", "codex", "software-development", "cost", "open-source"]
+      "tags": [
+        "ai-agent",
+        "codex",
+        "software-development",
+        "cost",
+        "open-source"
+      ]
     },
     {
-      "id": 19,
+      "id": 18,
       "category": "news",
       "title": "德国法院裁定 Google AI 搜索摘要是 Google 自己的言论，需承担责任",
       "url": "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/",
@@ -208,10 +290,16 @@
       "source": "The Decoder",
       "highlight": "里程碑判决：AI 搜索摘要 = 平台自身言论，需担责",
       "stars": 4,
-      "tags": ["legal", "google", "ai-overview", "liability", "germany"]
+      "tags": [
+        "legal",
+        "google",
+        "ai-overview",
+        "liability",
+        "germany"
+      ]
     },
     {
-      "id": 20,
+      "id": 19,
       "category": "news",
       "title": "Sakana AI Fugu：多模型编排系统对标 Fable 和 Mythos",
       "url": "https://the-decoder.com/sakana-ais-fugu-orchestrates-multiple-llms-to-match-anthropics-fable-and-mythos-benchmarks/",
@@ -219,10 +307,16 @@
       "source": "The Decoder",
       "highlight": "多模型编排替代单一大模型，降低供应商锁定",
       "stars": 4,
-      "tags": ["sakana", "fugu", "multi-model", "orchestration", "japan"]
+      "tags": [
+        "sakana",
+        "fugu",
+        "multi-model",
+        "orchestration",
+        "japan"
+      ]
     },
     {
-      "id": 21,
+      "id": 20,
       "category": "paper",
       "title": "SingGuard：策略自适应的多模态 LLM 安全护栏",
       "url": "https://huggingface.co/papers/2606.22873",
@@ -230,10 +324,15 @@
       "source": "HuggingFace Papers",
       "highlight": "动态推理驱动的自适应安全护栏，按场景调整策略",
       "stars": 4,
-      "tags": ["safety", "guardrail", "multimodal", "policy-adaptive"]
+      "tags": [
+        "safety",
+        "guardrail",
+        "multimodal",
+        "policy-adaptive"
+      ]
     },
     {
-      "id": 22,
+      "id": 21,
       "category": "repo",
       "title": "Robbyant/lingbot-map — 流数据 3D 场景重建基础模型",
       "url": "https://github.com/Robbyant/lingbot-map",
@@ -241,10 +340,15 @@
       "source": "GitHub Trending",
       "highlight": "流数据实时 3D 重建基础模型，372 star/天",
       "stars": 4,
-      "tags": ["3d-reconstruction", "foundation-model", "robotics", "streaming"]
+      "tags": [
+        "3d-reconstruction",
+        "foundation-model",
+        "robotics",
+        "streaming"
+      ]
     },
     {
-      "id": 23,
+      "id": 22,
       "category": "repo",
       "title": "browser-use/video-use — 用编码 Agent 编辑视频",
       "url": "https://github.com/browser-use/video-use",
@@ -252,10 +356,15 @@
       "source": "GitHub Trending",
       "highlight": "browser-use 团队新作：AI Agent 编辑视频",
       "stars": 3,
-      "tags": ["video-editing", "agent", "browser-use", "coding-agent"]
+      "tags": [
+        "video-editing",
+        "agent",
+        "browser-use",
+        "coding-agent"
+      ]
     },
     {
-      "id": 24,
+      "id": 23,
       "category": "paper",
       "title": "GBC：基于梯度的多 Agent 系统优化连接方法",
       "url": "https://huggingface.co/papers/2606.28187",
@@ -263,10 +372,15 @@
       "source": "HuggingFace Papers",
       "highlight": "用梯度信号优化多 Agent 协作拓扑",
       "stars": 4,
-      "tags": ["multi-agent", "optimization", "gradient", "collaboration"]
+      "tags": [
+        "multi-agent",
+        "optimization",
+        "gradient",
+        "collaboration"
+      ]
     },
     {
-      "id": 25,
+      "id": 24,
       "category": "paper",
       "title": "Thinking While Speaking：推理时知识迁移实现智能语音 Agent",
       "url": "https://huggingface.co/papers/2511.07397",
@@ -274,10 +388,15 @@
       "source": "HuggingFace Papers",
       "highlight": "边说边想：语音 Agent 推理时知识迁移新范式",
       "stars": 4,
-      "tags": ["voice-agent", "inference", "knowledge-transfer", "conversational-ai"]
+      "tags": [
+        "voice-agent",
+        "inference",
+        "knowledge-transfer",
+        "conversational-ai"
+      ]
     },
     {
-      "id": 26,
+      "id": 25,
       "category": "paper",
       "title": "以物体为中心的残差 RL 实现零样本 Sim-to-Real VLA 增强",
       "url": "https://huggingface.co/papers/2606.18953",
@@ -285,10 +404,16 @@
       "source": "HuggingFace Papers",
       "highlight": "零样本 Sim-to-Real：残差 RL 增强 VLA 机器人操控",
       "stars": 3,
-      "tags": ["robotics", "sim-to-real", "vla", "reinforcement-learning", "zero-shot"]
+      "tags": [
+        "robotics",
+        "sim-to-real",
+        "vla",
+        "reinforcement-learning",
+        "zero-shot"
+      ]
     },
     {
-      "id": 27,
+      "id": 26,
       "category": "repo",
       "title": "msitarzewski/agency-agents — 完整 AI 代理机构专家团队",
       "url": "https://github.com/msitarzewski/agency-agents",
@@ -296,10 +421,16 @@
       "source": "GitHub Trending",
       "highlight": "开箱即用的 AI 代理机构全套 Agent，1221 star/天",
       "stars": 4,
-      "tags": ["ai-agency", "agent", "automation", "multi-agent", "workflow"]
+      "tags": [
+        "ai-agency",
+        "agent",
+        "automation",
+        "multi-agent",
+        "workflow"
+      ]
     },
     {
-      "id": 28,
+      "id": 27,
       "category": "repo",
       "title": "Unclecheng-li/VulnClaw — AI Agent + MCP 全自动渗透测试",
       "url": "https://github.com/Unclecheng-li/VulnClaw",
@@ -307,10 +438,16 @@
       "source": "GitHub Trending",
       "highlight": "自然语言驱动全自动渗透测试：信息收集→漏洞利用→报告",
       "stars": 4,
-      "tags": ["security", "penetration-testing", "mcp", "agent", "vulnerability"]
+      "tags": [
+        "security",
+        "penetration-testing",
+        "mcp",
+        "agent",
+        "vulnerability"
+      ]
     },
     {
-      "id": 29,
+      "id": 28,
       "category": "repo",
       "title": "refactoringhq/tolaria — Markdown 知识库桌面管理工具",
       "url": "https://github.com/refactoringhq/tolaria",
@@ -318,7 +455,12 @@
       "source": "GitHub Trending",
       "highlight": "Markdown 知识库专用桌面管理器，249 star/天",
       "stars": 3,
-      "tags": ["knowledge-base", "markdown", "desktop-app", "productivity"]
+      "tags": [
+        "knowledge-base",
+        "markdown",
+        "desktop-app",
+        "productivity"
+      ]
     }
   ]
 }
