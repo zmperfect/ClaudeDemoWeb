@@ -1,0 +1,42 @@
+name: Hide Item
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Date of the JSON file (YYYY-MM-DD)'
+        required: true
+      item_id:
+        description: 'Item ID to remove'
+        required: true
+
+concurrency:
+  group: hide-items
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  hide:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Remove item from JSON
+        run: |
+          FILE="data/${{ github.event.inputs.date }}.json"
+          if [ -f "$FILE" ]; then
+            jq '.items |= map(select(.id != ($id | tonumber)))' \
+              --arg id "${{ github.event.inputs.item_id }}" \
+              "$FILE" > tmp.json && mv tmp.json "$FILE"
+            jq '.items |= [to_entries[] | .value.id = (.key + 1) | .value]' \
+              "$FILE" > tmp.json && mv tmp.json "$FILE"
+          fi
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --staged --quiet || git commit -m "Hide item ${{ github.event.inputs.item_id }} from ${{ github.event.inputs.date }}"
+          git push

@@ -8,11 +8,16 @@
     const topicFilter = document.getElementById('topic-filter');
     const topicBackBtn = document.getElementById('topic-back');
 
+    // CONFIG: Replace with your GitHub PAT (Fine-grained, Actions: Read and write, single repo)
+    const GITHUB_TOKEN = '';
+    const GITHUB_REPO = 'zmperfect/ClaudeDemoWeb';
+
     let allItems = [];
     let currentCategory = 'all';
     let currentSearch = '';
     let currentTopic = null;
     let isTopicMode = false;
+    let currentDateStr = '';
 
     const TOPIC_TAG_MAP = {
         'post-training': ['lora', 'qlora', 'sft', 'rlhf', 'dpo', 'ppo', 'grpo', 'fine-tuning', 'finetuning', 'post-training', 'alignment', 'reward-model', 'distillation'],
@@ -20,6 +25,24 @@
         'memory': ['memory', 'context-management', 'long-term-memory', 'context-compression', 'personalization', 'conversation-state', 'context-window', 'user-memory'],
         'agent': ['agent', 'tool-use', 'function-calling', 'planning', 'multi-agent', 'agentic', 'coding-agent', 'computer-use', 'gui-agent']
     };
+
+    const HIDDEN_KEY = 'ai-digest-hidden';
+
+    function getHiddenItems() {
+        try { return JSON.parse(localStorage.getItem(HIDDEN_KEY) || '{}'); } catch { return {}; }
+    }
+
+    function addHiddenItem(date, id) {
+        const hidden = getHiddenItems();
+        if (!hidden[date]) hidden[date] = [];
+        hidden[date].push(id);
+        localStorage.setItem(HIDDEN_KEY, JSON.stringify(hidden));
+    }
+
+    function isItemHidden(date, id) {
+        const hidden = getHiddenItems();
+        return hidden[date] && hidden[date].includes(id);
+    }
 
     function formatDate(date) {
         const y = date.getFullYear();
@@ -32,6 +55,7 @@
     dateInput.value = formatDate(today);
 
     async function loadData(dateStr) {
+        currentDateStr = dateStr;
         grid.innerHTML = `
             <div class="loading" style="grid-column: 1 / -1;">
                 <div class="loading-spinner"></div>
@@ -43,7 +67,7 @@
             const resp = await fetch(`data/${dateStr}.json`);
             if (!resp.ok) throw new Error('No data');
             const data = await resp.json();
-            allItems = data.items || [];
+            allItems = (data.items || []).filter(i => !isItemHidden(dateStr, i.id));
         } catch {
             allItems = [];
         }
@@ -100,7 +124,9 @@
                 const resp = await fetch(`data/${dateStr}.json`);
                 if (!resp.ok) return [];
                 const data = await resp.json();
-                return (data.items || []).filter(item => itemMatchesTopic(item, topic))
+                return (data.items || [])
+                    .filter(item => !isItemHidden(dateStr, item.id))
+                    .filter(item => itemMatchesTopic(item, topic))
                     .map(item => ({ ...item, _date: dateStr }));
             } catch { return []; }
         });
@@ -119,6 +145,25 @@
         document.querySelector('.date-picker').style.pointerEvents = 'auto';
         topicFilter.querySelectorAll('.topic-btn').forEach(b => b.classList.remove('active'));
         loadData(dateInput.value);
+    }
+
+    async function hideItem(date, itemId) {
+        addHiddenItem(date, itemId);
+        allItems = allItems.filter(i => !(i.id === itemId && (i._date || currentDateStr) === date));
+        render();
+
+        if (!GITHUB_TOKEN) return;
+        try {
+            await fetch(`https://api.github.com/repos/${GITHUB_REPO}/actions/workflows/hide-item.yml/dispatches`, {
+                method: 'POST',
+                headers: {
+                    'Authorization': `token ${GITHUB_TOKEN}`,
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/vnd.github.v3+json'
+                },
+                body: JSON.stringify({ ref: 'master', inputs: { date, item_id: String(itemId) } })
+            });
+        } catch {}
     }
 
     function render() {
@@ -156,6 +201,7 @@
 
     function createCard(item) {
         const badgeClass = `badge-${item.category}`;
+        const itemDate = item._date || currentDateStr;
         const starsHtml = item.stars
             ? `<span class="card-stars">&#9733; ${formatStars(item.stars)}</span>`
             : '';
@@ -173,7 +219,8 @@
             : '';
 
         return `
-        <div class="card" data-category="${item.category}">
+        <div class="card" data-category="${item.category}" data-item-id="${item.id}" data-item-date="${esc(itemDate)}">
+            <button class="hide-btn" onclick="event.stopPropagation(); window.__hideItem('${esc(itemDate)}', ${item.id})" title="Not interested">&times;</button>
             <div class="card-header">
                 <span class="card-badge ${badgeClass}">${esc(item.category)}</span>
                 ${dateHtml}
@@ -190,6 +237,16 @@
             </div>
         </div>`;
     }
+
+    window.__hideItem = function(date, itemId) {
+        const card = document.querySelector(`.card[data-item-id="${itemId}"][data-item-date="${date}"]`);
+        if (card) {
+            card.classList.add('card-hiding');
+            setTimeout(() => hideItem(date, itemId), 300);
+        } else {
+            hideItem(date, itemId);
+        }
+    };
 
     function formatStars(n) {
         if (n >= 1000) return (n / 1000).toFixed(1) + 'k';
