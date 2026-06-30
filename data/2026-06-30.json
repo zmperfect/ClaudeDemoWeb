@@ -153,23 +153,6 @@
     {
       "id": 9,
       "category": "repo",
-      "title": "cupy/cupy — GPU 加速的 NumPy/SciPy 替代",
-      "url": "https://github.com/cupy/cupy",
-      "summary": "NumPy 和 SciPy 的 GPU 加速替代库，API 高度兼容。在 AI 数据预处理和数值计算中显著提速。今日 352 star/天热度回升。",
-      "source": "GitHub Trending",
-      "highlight": "GPU 加速科学计算，NumPy API 无缝替换",
-      "stars": 3,
-      "tags": [
-        "gpu",
-        "numpy",
-        "scientific-computing",
-        "cuda",
-        "python"
-      ]
-    },
-    {
-      "id": 10,
-      "category": "repo",
       "title": "xbtlin/ai-berkshire — Claude Code 多 Agent 价值投资框架",
       "url": "https://github.com/xbtlin/ai-berkshire",
       "summary": "基于 Claude Code/Codex 的价值投资研究框架，整合巴菲特、芒格、段永平、李录方法论。多 Agent 对抗分析，持续霸榜 1386 star/天。",
@@ -187,7 +170,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "repo",
       "title": "Unclecheng-li/VulnClaw — AI Agent + MCP 全自动渗透测试",
       "url": "https://github.com/Unclecheng-li/VulnClaw",
@@ -207,7 +190,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "repo",
       "title": "logto-io/logto — SaaS 和 AI 应用的身份认证基础设施",
       "url": "https://github.com/logto-io/logto",
@@ -224,7 +207,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "news",
       "title": "SimpleX Chat 霸榜 GitHub Trending：零标识符隐私通信",
       "url": "https://github.com/simplex-chat/simplex-chat",
