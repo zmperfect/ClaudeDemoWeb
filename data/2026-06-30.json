@@ -132,22 +132,6 @@
     },
     {
       "id": 8,
-      "category": "news",
-      "title": "ByteDance Seedance 2.5 突破 30 秒 AI 视频生成限制",
-      "url": "https://the-decoder.com/bytedances-seedance-2-5-breaks-the-30-second-barrier-for-ai-video-generation/",
-      "summary": "字节跳动在火山引擎 FORCE 大会推出五个新 AI 模型，核心是突破 30 秒视频生成限制的 Seedance 2.5，计划 7 月初上线。",
-      "source": "The Decoder",
-      "highlight": "AI 视频生成突破 30 秒瓶颈",
-      "stars": 4,
-      "tags": [
-        "bytedance",
-        "video-generation",
-        "seedance",
-        "multimodal"
-      ]
-    },
-    {
-      "id": 9,
       "category": "paper",
       "title": "Agents-A1: 35B MoE 模型达到万亿参数级 Agent 性能",
       "url": "https://huggingface.co/papers/2606.30616",
@@ -167,7 +151,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "paper",
       "title": "TACO: Agent 工具使用的信用优化方法",
       "url": "https://huggingface.co/papers/2606.30251",
@@ -186,7 +170,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "paper",
       "title": "OSWorld 2.0: 长程真实计算机操作基准测试",
       "url": "https://huggingface.co/papers/2606.29537",
@@ -206,7 +190,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "paper",
       "title": "PolicyGuard: LLM Agent 对话级策略合规验证器",
       "url": "https://huggingface.co/papers/2606.29225",
@@ -226,7 +210,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "paper",
       "title": "TUA-Bench: 通用终端操作 Agent 基准测试",
       "url": "https://huggingface.co/papers/2606.28480",
@@ -246,7 +230,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "paper",
       "title": "Orca: 统一世界基础模型的 Next-State-Prediction",
       "url": "https://huggingface.co/papers/2606.30534",
@@ -262,7 +246,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 14,
       "category": "paper",
       "title": "InnerZoom: 高效精准的 GUI 定位方法",
       "url": "https://huggingface.co/papers/2606.30084",
@@ -281,7 +265,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": 15,
       "category": "repo",
       "title": "refactoringhq/tolaria — 桌面端 Markdown 知识库管理",
       "url": "https://github.com/refactoringhq/tolaria",
@@ -297,7 +281,7 @@
       ]
     },
     {
-      "id": 17,
+      "id": 16,
       "category": "repo",
       "title": "HKUDS/Vibe-Trading — AI 个人交易 Agent",
       "url": "https://github.com/HKUDS/Vibe-Trading",
@@ -316,7 +300,7 @@
       ]
     },
     {
-      "id": 18,
+      "id": 17,
       "category": "repo",
       "title": "free-for-dev — 免费 SaaS/PaaS/IaaS 服务大全",
       "url": "https://github.com/ripienaar/free-for-dev",
@@ -332,7 +316,7 @@
       ]
     },
     {
-      "id": 19,
+      "id": 18,
       "category": "news",
       "title": "CEO-Bench: AI Agent 运营公司 500 天，仅 3 个模型未破产",
       "url": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test/",
@@ -352,7 +336,7 @@
       ]
     },
     {
-      "id": 20,
+      "id": 19,
       "category": "news",
       "title": "Google 发布微型开发板，本地运行 Gemma 3",
       "url": "https://the-decoder.com/google-launches-a-tiny-board-that-runs-gemma-3-locally/",
@@ -370,7 +354,7 @@
       ]
     },
     {
-      "id": 21,
+      "id": 20,
       "category": "news",
       "title": "OpenAI 发布 GPT-5.5 Cyber 网络安全专用模型",
       "url": "https://the-decoder.com/openai-says-new-gpt-5-5-cyber-outperforms-anthropics-mythos-on-cybersecurity-benchmark/",
