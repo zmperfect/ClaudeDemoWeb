@@ -10,8 +10,16 @@
       "source": "The Decoder",
       "highlight": "Apple 的蒸馏策略：用 Gemini 大模型训练设备端小模型",
       "stars": 5,
-      "topic": ["post-training"],
-      "tags": ["apple", "distillation", "on-device", "gemini", "siri"]
+      "topic": [
+        "post-training"
+      ],
+      "tags": [
+        "apple",
+        "distillation",
+        "on-device",
+        "gemini",
+        "siri"
+      ]
     },
     {
       "id": 2,
@@ -22,8 +30,16 @@
       "source": "The Decoder",
       "highlight": "计费模式切换前的自救：蒸馏大模型降本",
       "stars": 5,
-      "topic": ["post-training"],
-      "tags": ["amazon", "anthropic", "distillation", "cost-optimization", "token-pricing"]
+      "topic": [
+        "post-training"
+      ],
+      "tags": [
+        "amazon",
+        "anthropic",
+        "distillation",
+        "cost-optimization",
+        "token-pricing"
+      ]
     },
     {
       "id": 3,
@@ -34,8 +50,16 @@
       "source": "The Decoder",
       "highlight": "供应链攻击新范式：AI 编程工具成为攻击入口",
       "stars": 5,
-      "topic": ["agent"],
-      "tags": ["claude-code", "security", "supply-chain", "malware", "coding-agent"]
+      "topic": [
+        "agent"
+      ],
+      "tags": [
+        "claude-code",
+        "security",
+        "supply-chain",
+        "malware",
+        "coding-agent"
+      ]
     },
     {
       "id": 4,
@@ -46,7 +70,13 @@
       "source": "The Decoder",
       "highlight": "LLM 产出原创数学定理，数学家重新定义贡献标准",
       "stars": 5,
-      "tags": ["chatgpt", "mathematics", "research", "reasoning", "frontier"]
+      "tags": [
+        "chatgpt",
+        "mathematics",
+        "research",
+        "reasoning",
+        "frontier"
+      ]
     },
     {
       "id": 5,
@@ -57,7 +87,13 @@
       "source": "The Decoder",
       "highlight": "旗舰模型作弊最严重：能力与对齐的矛盾激化",
       "stars": 5,
-      "tags": ["openai", "gpt-5.6", "alignment", "cheating", "safety"]
+      "tags": [
+        "openai",
+        "gpt-5.6",
+        "alignment",
+        "cheating",
+        "safety"
+      ]
     },
     {
       "id": 6,
@@ -68,8 +104,16 @@
       "source": "The Decoder",
       "highlight": "130 万/月的 AI 编程实验：token 无限时代的软件开发",
       "stars": 4,
-      "topic": ["agent"],
-      "tags": ["codex", "agent", "open-source", "cost", "automation"]
+      "topic": [
+        "agent"
+      ],
+      "tags": [
+        "codex",
+        "agent",
+        "open-source",
+        "cost",
+        "automation"
+      ]
     },
     {
       "id": 7,
@@ -80,7 +124,13 @@
       "source": "The Decoder",
       "highlight": "AI 公司互相封锁：防止竞品模型污染训练数据",
       "stars": 4,
-      "tags": ["meta", "claude-code", "codex", "training-data", "competition"]
+      "tags": [
+        "meta",
+        "claude-code",
+        "codex",
+        "training-data",
+        "competition"
+      ]
     },
     {
       "id": 8,
@@ -91,7 +141,14 @@
       "source": "The Decoder",
       "highlight": "西方企业拥抱中国模型：自动路由 + 高缓存 = 成本减半",
       "stars": 4,
-      "tags": ["coinbase", "chinese-ai", "glm", "kimi", "cost-optimization", "routing"]
+      "tags": [
+        "coinbase",
+        "chinese-ai",
+        "glm",
+        "kimi",
+        "cost-optimization",
+        "routing"
+      ]
     },
     {
       "id": 9,
@@ -102,7 +159,12 @@
       "source": "The Decoder",
       "highlight": "AI 视频生成突破 30 秒瓶颈",
       "stars": 4,
-      "tags": ["bytedance", "video-generation", "seedance", "multimodal"]
+      "tags": [
+        "bytedance",
+        "video-generation",
+        "seedance",
+        "multimodal"
+      ]
     },
     {
       "id": 10,
@@ -113,8 +175,16 @@
       "source": "HuggingFace Papers",
       "highlight": "不靠堆参数：扩展 agent 视野同样能达到顶级性能",
       "stars": 5,
-      "topic": ["agent"],
-      "tags": ["moe", "agent", "scaling", "long-horizon", "agentic-model"]
+      "topic": [
+        "agent"
+      ],
+      "tags": [
+        "moe",
+        "agent",
+        "scaling",
+        "long-horizon",
+        "agentic-model"
+      ]
     },
     {
       "id": 11,
@@ -125,8 +195,15 @@
       "source": "HuggingFace Papers",
       "highlight": "精确归因每次工具调用的贡献，优化 Agent 效率",
       "stars": 4,
-      "topic": ["agent"],
-      "tags": ["tool-use", "credit-assignment", "process-reward", "agent-optimization"]
+      "topic": [
+        "agent"
+      ],
+      "tags": [
+        "tool-use",
+        "credit-assignment",
+        "process-reward",
+        "agent-optimization"
+      ]
     },
     {
       "id": 12,
@@ -137,8 +214,16 @@
       "source": "HuggingFace Papers",
       "highlight": "人类 1.6 小时的工作流，AI Agent 仍难以完成",
       "stars": 4,
-      "topic": ["agent"],
-      "tags": ["benchmark", "computer-use", "long-horizon", "gui-agent", "evaluation"]
+      "topic": [
+        "agent"
+      ],
+      "tags": [
+        "benchmark",
+        "computer-use",
+        "long-horizon",
+        "gui-agent",
+        "evaluation"
+      ]
     },
     {
       "id": 13,
@@ -149,8 +234,16 @@
       "source": "HuggingFace Papers",
       "highlight": "Agent 策略合规不是拦截问题，而是对话理解问题",
       "stars": 4,
-      "topic": ["agent"],
-      "tags": ["policy-compliance", "guardrails", "dialogue", "safety", "agent"]
+      "topic": [
+        "agent"
+      ],
+      "tags": [
+        "policy-compliance",
+        "guardrails",
+        "dialogue",
+        "safety",
+        "agent"
+      ]
     },
     {
       "id": 14,
@@ -161,8 +254,16 @@
       "source": "HuggingFace Papers",
       "highlight": "终端 Agent 能力评估：从编码专用走向通用操作",
       "stars": 3,
-      "topic": ["agent"],
-      "tags": ["terminal", "benchmark", "computer-use", "general-purpose", "agent"]
+      "topic": [
+        "agent"
+      ],
+      "tags": [
+        "terminal",
+        "benchmark",
+        "computer-use",
+        "general-purpose",
+        "agent"
+      ]
     },
     {
       "id": 15,
@@ -173,7 +274,12 @@
       "source": "HuggingFace Papers",
       "highlight": "世界模型新范式：统一状态预测替代分散的序列预测",
       "stars": 4,
-      "tags": ["world-model", "foundation-model", "next-state-prediction", "multimodal"]
+      "tags": [
+        "world-model",
+        "foundation-model",
+        "next-state-prediction",
+        "multimodal"
+      ]
     },
     {
       "id": 16,
@@ -184,8 +290,15 @@
       "source": "HuggingFace Papers",
       "highlight": "一次前向传播胜过两次：GUI 点击定位新方法",
       "stars": 3,
-      "topic": ["agent"],
-      "tags": ["gui-grounding", "mllm", "efficiency", "gui-agent"]
+      "topic": [
+        "agent"
+      ],
+      "tags": [
+        "gui-grounding",
+        "mllm",
+        "efficiency",
+        "gui-agent"
+      ]
     },
     {
       "id": 17,
@@ -196,7 +309,12 @@
       "source": "GitHub Trending",
       "highlight": "Markdown 知识库桌面应用，个人知识管理新选择",
       "stars": 3,
-      "tags": ["knowledge-base", "markdown", "desktop-app", "note-taking"]
+      "tags": [
+        "knowledge-base",
+        "markdown",
+        "desktop-app",
+        "note-taking"
+      ]
     },
     {
       "id": 18,
@@ -207,8 +325,15 @@
       "source": "GitHub Trending",
       "highlight": "学术团队出品的 AI 交易 Agent",
       "stars": 3,
-      "topic": ["agent"],
-      "tags": ["trading", "agent", "finance", "llm"]
+      "topic": [
+        "agent"
+      ],
+      "tags": [
+        "trading",
+        "agent",
+        "finance",
+        "llm"
+      ]
     },
     {
       "id": 19,
@@ -219,7 +344,12 @@
       "source": "GitHub Trending",
       "highlight": "开发者免费资源大全，1935 star/天霸榜",
       "stars": 4,
-      "tags": ["free-tier", "saas", "developer-tools", "infrastructure"]
+      "tags": [
+        "free-tier",
+        "saas",
+        "developer-tools",
+        "infrastructure"
+      ]
     },
     {
       "id": 20,
@@ -230,22 +360,19 @@
       "source": "The Decoder",
       "highlight": "AI 当 CEO？500 天测试多数破产，简单规则反而更强",
       "stars": 4,
-      "topic": ["agent"],
-      "tags": ["benchmark", "agent", "business", "decision-making", "evaluation"]
+      "topic": [
+        "agent"
+      ],
+      "tags": [
+        "benchmark",
+        "agent",
+        "business",
+        "decision-making",
+        "evaluation"
+      ]
     },
     {
       "id": 21,
-      "category": "news",
-      "title": "EU 寻求 AI 独立：奥地利提议吸引 Anthropic 落户欧洲",
-      "url": "https://the-decoder.com/eu-seeks-ai-independence-as-austria-proposes-luring-anthropic-to-europe/",
-      "summary": "奥地利数字化国务秘书呼吁欧盟将 Anthropic 引入欧洲，回应美国禁止向外国用户提供先进 AI 模型的限制。但方案可能不切实际，背景中的中国 AI 模型替代方案只是换一种依赖。",
-      "source": "The Decoder",
-      "highlight": "AI 地缘政治：欧洲在美国和中国模型间寻找第三条路",
-      "stars": 3,
-      "tags": ["eu", "anthropic", "geopolitics", "regulation", "ai-sovereignty"]
-    },
-    {
-      "id": 22,
       "category": "news",
       "title": "Google 发布微型开发板，本地运行 Gemma 3",
       "url": "https://the-decoder.com/google-launches-a-tiny-board-that-runs-gemma-3-locally/",
@@ -253,10 +380,17 @@
       "source": "The Decoder",
       "highlight": "单板电脑运行 Gemma 3：边缘 AI 硬件新选择",
       "stars": 3,
-      "tags": ["google", "coral", "edge-ai", "gemma", "on-device", "hardware"]
+      "tags": [
+        "google",
+        "coral",
+        "edge-ai",
+        "gemma",
+        "on-device",
+        "hardware"
+      ]
     },
     {
-      "id": 23,
+      "id": 22,
       "category": "news",
       "title": "OpenAI 发布 GPT-5.5 Cyber 网络安全专用模型",
       "url": "https://the-decoder.com/openai-says-new-gpt-5-5-cyber-outperforms-anthropics-mythos-on-cybersecurity-benchmark/",
@@ -264,7 +398,13 @@
       "source": "The Decoder",
       "highlight": "AI 网安从发现漏洞进化为自动修补漏洞",
       "stars": 4,
-      "tags": ["openai", "cybersecurity", "gpt-5.5", "vulnerability", "patching"]
+      "tags": [
+        "openai",
+        "cybersecurity",
+        "gpt-5.5",
+        "vulnerability",
+        "patching"
+      ]
     }
   ]
 }
