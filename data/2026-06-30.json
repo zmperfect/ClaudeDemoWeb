@@ -4,26 +4,6 @@
     {
       "id": 1,
       "category": "news",
-      "title": "Apple 使用 Gemini 蒸馏构建轻量设备端 AI 模型",
-      "url": "https://the-decoder.com/apple-gets-full-gemini-access-and-uses-distillation-to-build-lightweight-on-device-ai/",
-      "summary": "Apple 接入 Google Gemini 完整能力，通过知识蒸馏将大模型能力压缩到设备端小模型中，用于 Siri 和各设备 AI 功能。本质上是付费做中国 AI 公司据称秘密在做的事情。",
-      "source": "The Decoder",
-      "highlight": "Apple 的蒸馏策略：用 Gemini 大模型训练设备端小模型",
-      "stars": 5,
-      "topic": [
-        "post-training"
-      ],
-      "tags": [
-        "apple",
-        "distillation",
-        "on-device",
-        "gemini",
-        "siri"
-      ]
-    },
-    {
-      "id": 2,
-      "category": "news",
       "title": "Amazon Nova 2 以低价策略对标 OpenAI 和 Google，但性能仍有差距",
       "url": "https://the-decoder.com/amazons-nova-2-undercuts-openai-and-google-on-price-but-still-trails-top-tier-models/",
       "summary": "Amazon re:Invent 2025 聚焦自研硬件扩展、Nova 2 系列模型降本，并将 AI 工具从简单助手推向更自主的行为。价格有优势但与顶级模型仍有差距。",
@@ -38,7 +18,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 2,
       "category": "news",
       "title": "Deloitte 内部报告：AI Agent 将摧毁咨询行业按小时计费模式",
       "url": "https://the-decoder.com/deloitte-tells-its-own-consultants-ai-is-coming-for-the-billable-hour/",
@@ -58,7 +38,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 3,
       "category": "paper",
       "title": "AsyncOPD: On-Policy 蒸馏的过时容忍度研究",
       "url": "https://huggingface.co/papers/2606.24143",
@@ -77,7 +57,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 4,
       "category": "repo",
       "title": "msitarzewski/agency-agents — 完整 AI 代理机构专家团队框架",
       "url": "https://github.com/msitarzewski/agency-agents",
@@ -96,7 +76,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 5,
       "category": "repo",
       "title": "browser-use/video-use — 编码 Agent 驱动的视频编辑",
       "url": "https://github.com/browser-use/video-use",
@@ -115,7 +95,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 6,
       "category": "repo",
       "title": "altic-dev/FluidVoice — 最快 macOS 离线语音转文字",
       "url": "https://github.com/altic-dev/FluidVoice",
@@ -132,7 +112,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 7,
       "category": "repo",
       "title": "xbtlin/ai-berkshire — Claude Code 多 Agent 价值投资框架",
       "url": "https://github.com/xbtlin/ai-berkshire",
@@ -151,7 +131,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "category": "repo",
       "title": "Unclecheng-li/VulnClaw — AI Agent + MCP 全自动渗透测试",
       "url": "https://github.com/Unclecheng-li/VulnClaw",
@@ -171,7 +151,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "repo",
       "title": "logto-io/logto — SaaS 和 AI 应用的身份认证基础设施",
       "url": "https://github.com/logto-io/logto",
@@ -188,7 +168,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "news",
       "title": "SimpleX Chat 霸榜 GitHub Trending：零标识符隐私通信",
       "url": "https://github.com/simplex-chat/simplex-chat",
