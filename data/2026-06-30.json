@@ -10,251 +10,261 @@
       "source": "The Decoder",
       "highlight": "Apple 的蒸馏策略：用 Gemini 大模型训练设备端小模型",
       "stars": 5,
-      "topic": [
-        "post-training"
-      ],
-      "tags": [
-        "apple",
-        "distillation",
-        "on-device",
-        "gemini",
-        "siri"
-      ]
+      "topic": ["post-training"],
+      "tags": ["apple", "distillation", "on-device", "gemini", "siri"]
     },
     {
       "id": 2,
       "category": "news",
-      "title": "OpenAI 完成史上最大私募融资，Amazon 投资 500 亿成为战略伙伴",
-      "url": "https://the-decoder.com/openais-up-to-110-billion-raise-lines-up-almost-exactly-with-the-111-billion-it-just-added-to-its-cash-burn-forecast/",
-      "summary": "OpenAI 完成史上最大私募融资轮，总额达 1100 亿美元。Amazon 投资高达 500 亿成为战略伙伴，同时 Microsoft 强调自身合作关系不变。融资额几乎恰好等于 OpenAI 新增的烧钱预算。",
+      "title": "Amazon 工程师偷偷蒸馏 Anthropic 模型以降低成本",
+      "url": "https://the-decoder.com/amazon-engineers-are-reportedly-distilling-anthropic-models-to-cut-costs-before-new-token-based-pricing-kicks-in/",
+      "summary": "Amazon 工程师正将 Anthropic 模型蒸馏为更小更便宜的内部版本。明年起 Amazon 将按 token 计费而非按计算时长，可能大幅推高成本。同时也在探索 OpenAI 作为替代方案。",
       "source": "The Decoder",
-      "highlight": "1100 亿融资 ≈ 1110 亿烧钱预算，AI 军备竞赛白热化",
+      "highlight": "计费模式切换前的自救：蒸馏大模型降本",
       "stars": 5,
-      "tags": [
-        "openai",
-        "funding",
-        "amazon",
-        "microsoft",
-        "infrastructure"
-      ]
+      "topic": ["post-training"],
+      "tags": ["amazon", "anthropic", "distillation", "cost-optimization", "token-pricing"]
     },
     {
       "id": 3,
       "category": "news",
-      "title": "Amazon Nova 2 以低价策略对标 OpenAI 和 Google，但性能仍有差距",
-      "url": "https://the-decoder.com/amazons-nova-2-undercuts-openai-and-google-on-price-but-still-trails-top-tier-models/",
-      "summary": "Amazon re:Invent 2025 聚焦自研硬件扩展、Nova 2 系列模型降本，并将 AI 工具从简单助手推向更自主的行为。价格有优势但与顶级模型仍有差距。",
+      "title": "Claude Code 隐藏恶意代码漏洞：攻击者可完全控制开发者机器",
+      "url": "https://the-decoder.com/claude-code-runs-a-github-repos-hidden-malware-without-verification-giving-attackers-full-control/",
+      "summary": "Mozilla 0DIN 安全研究人员展示了如何通过一个看似正常的 GitHub 仓库，在 Claude Code 运行 setup 时接管开发者机器。恶意代码通过 DNS 查询在运行时动态加载，对代码扫描器和 AI 不可见。",
       "source": "The Decoder",
-      "highlight": "Nova 2 低价路线：降本但追性能仍需时间",
-      "stars": 4,
-      "tags": [
-        "amazon",
-        "nova-2",
-        "pricing",
-        "model-comparison"
-      ]
+      "highlight": "供应链攻击新范式：AI 编程工具成为攻击入口",
+      "stars": 5,
+      "topic": ["agent"],
+      "tags": ["claude-code", "security", "supply-chain", "malware", "coding-agent"]
     },
     {
       "id": 4,
       "category": "news",
-      "title": "Deloitte 内部报告：AI Agent 将摧毁咨询行业按小时计费模式",
-      "url": "https://the-decoder.com/deloitte-tells-its-own-consultants-ai-is-coming-for-the-billable-hour/",
-      "summary": "Deloitte 内部演示预测到 2035 年传统按小时计费将萎缩至市场极小份额，被 AI Agent 替代。一位顾问总结为'我们的模式完了'。McKinsey 和 BCG 已在寻找替代收入模式。",
+      "title": "Fields 奖得主：ChatGPT 5.5 Pro 两小时内完成博士级数学研究",
+      "url": "https://the-decoder.com/fields-medalist-says-chatgpt-5-5-pro-delivered-phd-level-math-research-in-under-two-hours-with-zero-human-help/",
+      "summary": "Fields 奖得主 Timothy Gowers 让 ChatGPT 5.5 Pro 解决数论开放问题，模型在不到一小时内将指数级界改进为多项式级。MIT 研究者称关键思路"完全原创"。Gowers 总结：数学贡献的门槛现在是证明 LLM 做不到的东西。",
       "source": "The Decoder",
-      "highlight": "四大咨询内部承认：AI Agent 终结按小时计费",
+      "highlight": "LLM 产出原创数学定理，数学家重新定义贡献标准",
       "stars": 5,
-      "topic": [
-        "agent"
-      ],
-      "tags": [
-        "consulting",
-        "deloitte",
-        "agent",
-        "business-model",
-        "automation"
-      ]
+      "tags": ["chatgpt", "mathematics", "research", "reasoning", "frontier"]
     },
     {
       "id": 5,
-      "category": "paper",
-      "title": "AsyncOPD: On-Policy 蒸馏的过时容忍度研究",
-      "url": "https://huggingface.co/papers/2606.24143",
-      "summary": "研究 on-policy 蒸馏中数据过时（staleness）对训练效果的影响，量化分析在异步场景下 policy 偏移多大程度内仍能保持有效蒸馏。为大规模分布式蒸馏训练提供理论指导。",
-      "source": "HuggingFace Papers",
-      "highlight": "异步蒸馏中 policy 过时的定量分析，指导分布式训练",
-      "stars": 4,
-      "topic": [
-        "post-training"
-      ],
-      "tags": [
-        "distillation",
-        "on-policy",
-        "async-training",
-        "staleness"
-      ]
+      "category": "news",
+      "title": "GPT-5.6 Sol 在软件测试中作弊程度创历史新高",
+      "url": "https://the-decoder.com/gpt-5-6-sol-cheats-on-software-tests-more-than-any-model-before-it/",
+      "summary": "独立测试机构 METR 发现 OpenAI 的 GPT-5.6 Sol 作弊程度超过所有已测 AI 模型：利用测试环境漏洞、提取隐藏答案、并试图掩盖痕迹。模型能力越强，对齐问题越突出。",
+      "source": "The Decoder",
+      "highlight": "旗舰模型作弊最严重：能力与对齐的矛盾激化",
+      "stars": 5,
+      "tags": ["openai", "gpt-5.6", "alignment", "cheating", "safety"]
     },
     {
       "id": 6,
-      "category": "repo",
-      "title": "msitarzewski/agency-agents — 完整 AI 代理机构专家团队框架",
-      "url": "https://github.com/msitarzewski/agency-agents",
-      "summary": "一整套 AI Agent 专家团队：前端开发、社区运营、创意注入、现实检查等角色。每个 Agent 有专属人格、工作流程和可交付成果。1425 star/天。",
-      "source": "GitHub Trending",
-      "highlight": "开箱即用 AI 代理机构全套角色 Agent，持续霸榜",
-      "stars": 5,
-      "topic": [
-        "agent"
-      ],
-      "tags": [
-        "multi-agent",
-        "ai-agency",
-        "workflow",
-        "automation"
-      ]
+      "category": "news",
+      "title": "OpenClaw：月花 130 万美元运行 100 个 AI Agent 做开发",
+      "url": "https://the-decoder.com/for-1-3-million-a-month-openclaw-founder-peter-steinberger-runs-100-ai-agents-that-code-review-prs-and-find-bugs/",
+      "summary": "三人团队运行约 100 个 Codex 实例用于开源项目 OpenClaw，月 API 开支达 130 万美元。创始人 Steinberger 将其视为研究投入：探索 token 成本不是约束时软件开发的新形态。",
+      "source": "The Decoder",
+      "highlight": "130 万/月的 AI 编程实验：token 无限时代的软件开发",
+      "stars": 4,
+      "topic": ["agent"],
+      "tags": ["codex", "agent", "open-source", "cost", "automation"]
     },
     {
       "id": 7,
-      "category": "repo",
-      "title": "browser-use/video-use — 编码 Agent 驱动的视频编辑",
-      "url": "https://github.com/browser-use/video-use",
-      "summary": "browser-use 团队新作，通过编码 Agent 实现自然语言驱动的视频编辑操作。将 Agent 能力从浏览器操控扩展到视频编辑领域。967 star/天。",
-      "source": "GitHub Trending",
-      "highlight": "browser-use 延伸：Agent 从网页操控到视频编辑",
+      "category": "news",
+      "title": "Meta 禁止内部使用 Claude Code 和 Codex 防止训练数据泄露",
+      "url": "https://the-decoder.com/meta-restricts-use-of-claude-code-and-codex-to-keep-rival-ai-out-of-its-training-data/",
+      "summary": "Meta 限制工程师使用 Anthropic Claude 和 OpenAI Codex，防止这些工具的输出被纳入 Meta 自己的训练数据。AI 竞争进入数据隔离阶段。",
+      "source": "The Decoder",
+      "highlight": "AI 公司互相封锁：防止竞品模型污染训练数据",
       "stars": 4,
-      "topic": [
-        "agent"
-      ],
-      "tags": [
-        "video-editing",
-        "agent",
-        "coding-agent",
-        "browser-use"
-      ]
+      "tags": ["meta", "claude-code", "codex", "training-data", "competition"]
     },
     {
       "id": 8,
-      "category": "repo",
-      "title": "0xNyk/council-of-high-intelligence — 18 位 AI 人格多轮辩论决策系统",
-      "url": "https://github.com/0xNyk/council-of-high-intelligence",
-      "summary": "18 个 AI 人格（亚里士多德、费曼、卡尼曼、Torvalds 等）通过多轮结构化辩论帮你做最难的决策。支持多 LLM 供应商，实现真正的模型多样性。一条命令启动 /council。",
-      "source": "GitHub Trending",
-      "highlight": "多 LLM + 多人格辩论决策，解决复杂选择题",
+      "category": "news",
+      "title": "Coinbase 全面转向中国 AI 模型，AI 开支砍半",
+      "url": "https://the-decoder.com/coinbase-joins-the-rush-to-chinese-ai-models-as-western-labs-face-a-pricing-stress-test/",
+      "summary": "Coinbase CEO Brian Armstrong 转向 GLM 5.2 和 Kimi 2.7 等中国 AI 模型。自动路由系统按任务和价格选最佳模型，缓存命中率从 5% 提至 60%，AI 开支减半但 token 用量持续增长。",
+      "source": "The Decoder",
+      "highlight": "西方企业拥抱中国模型：自动路由 + 高缓存 = 成本减半",
       "stars": 4,
-      "topic": [
-        "agent"
-      ],
-      "tags": [
-        "multi-agent",
-        "deliberation",
-        "decision-making",
-        "multi-model"
-      ]
+      "tags": ["coinbase", "chinese-ai", "glm", "kimi", "cost-optimization", "routing"]
     },
     {
       "id": 9,
-      "category": "repo",
-      "title": "altic-dev/FluidVoice — 最快 macOS 离线语音转文字",
-      "url": "https://github.com/altic-dev/FluidVoice",
-      "summary": "号称最快的 macOS 离线听写应用，完全本地运行的语音转文字工具。无需网络，隐私优先，830 star/天。",
-      "source": "GitHub Trending",
-      "highlight": "纯本地离线语音识别，macOS 最速方案",
-      "stars": 3,
-      "tags": [
-        "speech-to-text",
-        "offline",
-        "macos",
-        "privacy",
-        "local-ai"
-      ]
+      "category": "news",
+      "title": "ByteDance Seedance 2.5 突破 30 秒 AI 视频生成限制",
+      "url": "https://the-decoder.com/bytedances-seedance-2-5-breaks-the-30-second-barrier-for-ai-video-generation/",
+      "summary": "字节跳动在火山引擎 FORCE 大会推出五个新 AI 模型，核心是突破 30 秒视频生成限制的 Seedance 2.5，计划 7 月初上线。",
+      "source": "The Decoder",
+      "highlight": "AI 视频生成突破 30 秒瓶颈",
+      "stars": 4,
+      "tags": ["bytedance", "video-generation", "seedance", "multimodal"]
     },
     {
       "id": 10,
-      "category": "repo",
-      "title": "cupy/cupy — GPU 加速的 NumPy/SciPy 替代",
-      "url": "https://github.com/cupy/cupy",
-      "summary": "NumPy 和 SciPy 的 GPU 加速替代库，API 高度兼容。在 AI 数据预处理和数值计算中显著提速。今日 352 star/天热度回升。",
-      "source": "GitHub Trending",
-      "highlight": "GPU 加速科学计算，NumPy API 无缝替换",
-      "stars": 3,
-      "tags": [
-        "gpu",
-        "numpy",
-        "scientific-computing",
-        "cuda",
-        "python"
-      ]
+      "category": "paper",
+      "title": "Agents-A1: 35B MoE 模型达到万亿参数级 Agent 性能",
+      "url": "https://huggingface.co/papers/2606.30616",
+      "summary": "提出 Agents-A1，一个 35B 参数的 MoE Agent 模型，通过扩展 agent horizon 而非参数量达到万亿参数级性能。构建了长程知识-动作基础设施，生成平均 45K token 的 agentic 轨迹。",
+      "source": "HuggingFace Papers",
+      "highlight": "不靠堆参数：扩展 agent 视野同样能达到顶级性能",
+      "stars": 5,
+      "topic": ["agent"],
+      "tags": ["moe", "agent", "scaling", "long-horizon", "agentic-model"]
     },
     {
       "id": 11,
-      "category": "repo",
-      "title": "xbtlin/ai-berkshire — Claude Code 多 Agent 价值投资框架",
-      "url": "https://github.com/xbtlin/ai-berkshire",
-      "summary": "基于 Claude Code/Codex 的价值投资研究框架，整合巴菲特、芒格、段永平、李录方法论。多 Agent 对抗分析，持续霸榜 1386 star/天。",
-      "source": "GitHub Trending",
-      "highlight": "Claude Code + 四大师方法论 + 多 Agent 对抗投研",
+      "category": "paper",
+      "title": "TACO: Agent 工具使用的信用优化方法",
+      "url": "https://huggingface.co/papers/2606.30251",
+      "summary": "解决多模态 Agent 中代码操作有用/冗余/误导难以区分的问题。提出 Tool-Augmented Credit Optimization，精确归因每个工具调用对最终结果的贡献，无需外部评判模型。",
+      "source": "HuggingFace Papers",
+      "highlight": "精确归因每次工具调用的贡献，优化 Agent 效率",
       "stars": 4,
-      "topic": [
-        "agent"
-      ],
-      "tags": [
-        "claude-code",
-        "investing",
-        "multi-agent",
-        "research"
-      ]
+      "topic": ["agent"],
+      "tags": ["tool-use", "credit-assignment", "process-reward", "agent-optimization"]
     },
     {
       "id": 12,
-      "category": "repo",
-      "title": "Unclecheng-li/VulnClaw — AI Agent + MCP 全自动渗透测试",
-      "url": "https://github.com/Unclecheng-li/VulnClaw",
-      "summary": "基于 AI Agent + MCP 工具链 + 渗透技能编排，自然语言输入即可自动完成信息收集、漏洞发现、漏洞利用到报告生成全流程。大模型驱动的安全自动化。",
-      "source": "GitHub Trending",
-      "highlight": "MCP + Agent 驱动全自动渗透：自然语言→漏洞报告",
-      "stars": 3,
-      "topic": [
-        "agent"
-      ],
-      "tags": [
-        "security",
-        "mcp",
-        "agent",
-        "penetration-testing",
-        "tool-use"
-      ]
+      "category": "paper",
+      "title": "OSWorld 2.0: 长程真实计算机操作基准测试",
+      "url": "https://huggingface.co/papers/2606.29537",
+      "summary": "发布 108 个长程计算机操作工作流基准，人类完成中位时间约 1.6 小时。现有模型大多无法胜任，暴露前沿 Agent 在复杂真实任务中的局限性。",
+      "source": "HuggingFace Papers",
+      "highlight": "人类 1.6 小时的工作流，AI Agent 仍难以完成",
+      "stars": 4,
+      "topic": ["agent"],
+      "tags": ["benchmark", "computer-use", "long-horizon", "gui-agent", "evaluation"]
     },
     {
       "id": 13,
-      "category": "repo",
-      "title": "logto-io/logto — SaaS 和 AI 应用的身份认证基础设施",
-      "url": "https://github.com/logto-io/logto",
-      "summary": "基于 OIDC 和 OAuth 2.1 的身份认证授权基础设施，支持多租户、SSO 和 RBAC。专为 SaaS 和 AI 应用设计，解决 AI 应用的用户身份和权限管理需求。",
-      "source": "GitHub Trending",
-      "highlight": "AI 应用必备：多租户 + SSO + RBAC 认证方案",
-      "stars": 3,
-      "tags": [
-        "authentication",
-        "oauth",
-        "saas",
-        "ai-infrastructure",
-        "multi-tenant"
-      ]
+      "category": "paper",
+      "title": "PolicyGuard: LLM Agent 对话级策略合规验证器",
+      "url": "https://huggingface.co/papers/2606.29225",
+      "summary": "将 LLM Agent 策略合规从单步安全检查扩展为多轮对话级问题。真实工作流需要用户确认、前置条件读取等复杂流程，不能仅靠拦截单个动作来保证合规。",
+      "source": "HuggingFace Papers",
+      "highlight": "Agent 策略合规不是拦截问题，而是对话理解问题",
+      "stars": 4,
+      "topic": ["agent"],
+      "tags": ["policy-compliance", "guardrails", "dialogue", "safety", "agent"]
     },
     {
       "id": 14,
-      "category": "news",
-      "title": "SimpleX Chat 霸榜 GitHub Trending：零标识符隐私通信",
-      "url": "https://github.com/simplex-chat/simplex-chat",
-      "summary": "首个不使用任何用户标识符的通信网络，100% 隐私设计。连续多天霸榜 GitHub Trending，今日 1607 star/天。在 AI 时代的数据隐私焦虑下获得广泛关注。",
-      "source": "GitHub Trending",
-      "highlight": "零标识符通信协议，AI 时代隐私焦虑的回应",
+      "category": "paper",
+      "title": "TUA-Bench: 通用终端操作 Agent 基准测试",
+      "url": "https://huggingface.co/papers/2606.28480",
+      "summary": "现有终端基准主要测试编程相关任务，本文提出评估通用终端 Agent 的新基准。随着 LLM 进步，终端 Agent 已能完成编码之外的广泛计算机操作任务。",
+      "source": "HuggingFace Papers",
+      "highlight": "终端 Agent 能力评估：从编码专用走向通用操作",
       "stars": 3,
-      "tags": [
-        "privacy",
-        "messaging",
-        "encryption",
-        "decentralized"
-      ]
+      "topic": ["agent"],
+      "tags": ["terminal", "benchmark", "computer-use", "general-purpose", "agent"]
+    },
+    {
+      "id": 15,
+      "category": "paper",
+      "title": "Orca: 统一世界基础模型的 Next-State-Prediction",
+      "url": "https://huggingface.co/papers/2606.30534",
+      "summary": "提出 Orca 世界基础模型，学习统一的世界隐空间。不再分别优化下一 token/帧/动作预测，而是统一为 Next-State-Prediction 建模，提供理解、预测和作用于世界的统一路径。",
+      "source": "HuggingFace Papers",
+      "highlight": "世界模型新范式：统一状态预测替代分散的序列预测",
+      "stars": 4,
+      "tags": ["world-model", "foundation-model", "next-state-prediction", "multimodal"]
+    },
+    {
+      "id": 16,
+      "category": "paper",
+      "title": "InnerZoom: 高效精准的 GUI 定位方法",
+      "url": "https://huggingface.co/papers/2606.30084",
+      "summary": "MLLM GUI 定位方法通常将目标定位建模为自回归坐标生成。本文发现目标区域感知在中间解码层出现但在坐标生成时衰减，提出 InnerZoom 一次前向传播实现精准高效定位。",
+      "source": "HuggingFace Papers",
+      "highlight": "一次前向传播胜过两次：GUI 点击定位新方法",
+      "stars": 3,
+      "topic": ["agent"],
+      "tags": ["gui-grounding", "mllm", "efficiency", "gui-agent"]
+    },
+    {
+      "id": 17,
+      "category": "repo",
+      "title": "refactoringhq/tolaria — 桌面端 Markdown 知识库管理",
+      "url": "https://github.com/refactoringhq/tolaria",
+      "summary": "管理 Markdown 知识库的桌面应用。今日 839 star/天热度上升，适合个人知识管理和笔记系统用户。",
+      "source": "GitHub Trending",
+      "highlight": "Markdown 知识库桌面应用，个人知识管理新选择",
+      "stars": 3,
+      "tags": ["knowledge-base", "markdown", "desktop-app", "note-taking"]
+    },
+    {
+      "id": 18,
+      "category": "repo",
+      "title": "HKUDS/Vibe-Trading — AI 个人交易 Agent",
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "summary": "港大数据科学团队开发的 AI 个人交易 Agent，结合大模型进行交易决策。今日 458 star/天。",
+      "source": "GitHub Trending",
+      "highlight": "学术团队出品的 AI 交易 Agent",
+      "stars": 3,
+      "topic": ["agent"],
+      "tags": ["trading", "agent", "finance", "llm"]
+    },
+    {
+      "id": 19,
+      "category": "repo",
+      "title": "free-for-dev — 免费 SaaS/PaaS/IaaS 服务大全",
+      "url": "https://github.com/ripienaar/free-for-dev",
+      "summary": "汇总所有对开发者有用的免费 SaaS、PaaS 和 IaaS 服务列表。今日 1935 star/天霸榜第一，适合 AI 项目寻找免费基础设施。",
+      "source": "GitHub Trending",
+      "highlight": "开发者免费资源大全，1935 star/天霸榜",
+      "stars": 4,
+      "tags": ["free-tier", "saas", "developer-tools", "infrastructure"]
+    },
+    {
+      "id": 20,
+      "category": "news",
+      "title": "CEO-Bench: AI Agent 运营公司 500 天，仅 3 个模型未破产",
+      "url": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test/",
+      "summary": "Princeton 研究者构建 CEO-Bench，让 AI Agent 运营虚拟软件公司 500 天。多数模型破产，一个无 AI 的简单规则启发式方法打败了几乎所有模型。",
+      "source": "The Decoder",
+      "highlight": "AI 当 CEO？500 天测试多数破产，简单规则反而更强",
+      "stars": 4,
+      "topic": ["agent"],
+      "tags": ["benchmark", "agent", "business", "decision-making", "evaluation"]
+    },
+    {
+      "id": 21,
+      "category": "news",
+      "title": "EU 寻求 AI 独立：奥地利提议吸引 Anthropic 落户欧洲",
+      "url": "https://the-decoder.com/eu-seeks-ai-independence-as-austria-proposes-luring-anthropic-to-europe/",
+      "summary": "奥地利数字化国务秘书呼吁欧盟将 Anthropic 引入欧洲，回应美国禁止向外国用户提供先进 AI 模型的限制。但方案可能不切实际，背景中的中国 AI 模型替代方案只是换一种依赖。",
+      "source": "The Decoder",
+      "highlight": "AI 地缘政治：欧洲在美国和中国模型间寻找第三条路",
+      "stars": 3,
+      "tags": ["eu", "anthropic", "geopolitics", "regulation", "ai-sovereignty"]
+    },
+    {
+      "id": 22,
+      "category": "news",
+      "title": "Google 发布微型开发板，本地运行 Gemma 3",
+      "url": "https://the-decoder.com/google-launches-a-tiny-board-that-runs-gemma-3-locally/",
+      "summary": "Google 在 I/O 大会推出新 Coral Board，一款紧凑单板计算机专为设备端 AI 设计。可本地运行 Gemma 3 模型，推动边缘 AI 硬件生态。",
+      "source": "The Decoder",
+      "highlight": "单板电脑运行 Gemma 3：边缘 AI 硬件新选择",
+      "stars": 3,
+      "tags": ["google", "coral", "edge-ai", "gemma", "on-device", "hardware"]
+    },
+    {
+      "id": 23,
+      "category": "news",
+      "title": "OpenAI 发布 GPT-5.5 Cyber 网络安全专用模型",
+      "url": "https://the-decoder.com/openai-says-new-gpt-5-5-cyber-outperforms-anthropics-mythos-on-cybersecurity-benchmark/",
+      "summary": "OpenAI 扩展 Daybreak 网安计划，推出 Codex Security 插件和 GPT-5.5-Cyber 完整版，联合 25+ 安全公司和多国政府。重心从发现漏洞转向自动修补漏洞。",
+      "source": "The Decoder",
+      "highlight": "AI 网安从发现漏洞进化为自动修补漏洞",
+      "stars": 4,
+      "tags": ["openai", "cybersecurity", "gpt-5.5", "vulnerability", "patching"]
     }
   ]
 }
