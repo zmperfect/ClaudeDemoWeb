@@ -117,25 +117,6 @@
     {
       "id": 7,
       "category": "repo",
-      "title": "0xNyk/council-of-high-intelligence — 18 位 AI 人格多轮辩论决策系统",
-      "url": "https://github.com/0xNyk/council-of-high-intelligence",
-      "summary": "18 个 AI 人格（亚里士多德、费曼、卡尼曼、Torvalds 等）通过多轮结构化辩论帮你做最难的决策。支持多 LLM 供应商，实现真正的模型多样性。一条命令启动 /council。",
-      "source": "GitHub Trending",
-      "highlight": "多 LLM + 多人格辩论决策，解决复杂选择题",
-      "stars": 4,
-      "topic": [
-        "agent"
-      ],
-      "tags": [
-        "multi-agent",
-        "deliberation",
-        "decision-making",
-        "multi-model"
-      ]
-    },
-    {
-      "id": 8,
-      "category": "repo",
       "title": "altic-dev/FluidVoice — 最快 macOS 离线语音转文字",
       "url": "https://github.com/altic-dev/FluidVoice",
       "summary": "号称最快的 macOS 离线听写应用，完全本地运行的语音转文字工具。无需网络，隐私优先，830 star/天。",
@@ -151,7 +132,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "category": "repo",
       "title": "xbtlin/ai-berkshire — Claude Code 多 Agent 价值投资框架",
       "url": "https://github.com/xbtlin/ai-berkshire",
@@ -170,7 +151,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "repo",
       "title": "Unclecheng-li/VulnClaw — AI Agent + MCP 全自动渗透测试",
       "url": "https://github.com/Unclecheng-li/VulnClaw",
@@ -190,7 +171,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "repo",
       "title": "logto-io/logto — SaaS 和 AI 应用的身份认证基础设施",
       "url": "https://github.com/logto-io/logto",
@@ -207,7 +188,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "news",
       "title": "SimpleX Chat 霸榜 GitHub Trending：零标识符隐私通信",
       "url": "https://github.com/simplex-chat/simplex-chat",
