@@ -89,23 +89,6 @@
     {
       "id": 6,
       "category": "news",
-      "title": "Meta 效仿 SpaceX 建云业务：对外出售闲置 AI 算力",
-      "url": "https://the-decoder.com/meta-follows-spacexs-playbook-and-builds-a-cloud-business-to-sell-its-spare-ai-compute-to-outside-customers/",
-      "summary": "Meta 正在建立自己的云业务，向外部客户出售闲置 AI 算力。今年仅 AI 投资就高达 1450 亿美元，和 xAI 一样面临同样的问题：为什么不把所有算力用于自己的模型？",
-      "source": "The Decoder",
-      "highlight": "算力过剩变现：Meta 从 AI 消费者转型为算力供应商",
-      "stars": 4,
-      "tags": [
-        "meta",
-        "cloud",
-        "compute",
-        "infrastructure",
-        "business-model"
-      ]
-    },
-    {
-      "id": 7,
-      "category": "news",
       "title": "Deloitte 内部通告：AI 正在终结咨询业按小时计费的模式",
       "url": "https://the-decoder.com/deloitte-tells-its-own-consultants-ai-is-coming-for-the-billable-hour/",
       "summary": "Deloitte 内部演示预测到 2035 年，咨询行业经典的按小时计费模式将被 AI Agent 替代，缩减为市场的一小部分。一位顾问总结：「我们的模式完了」。麦肯锡和 BCG 已在寻找替代收入模式。",
@@ -124,7 +107,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 7,
       "category": "news",
       "title": "OpenAI 论文意外泄露 GPT-5.6 Pro 三个变体",
       "url": "https://the-decoder.com/openai-paper-reveals-three-gpt-5-6-pro-models-breaking-with-single-top-tier-strategy/",
@@ -141,7 +124,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "category": "news",
       "title": "OpenAI 正在造手机：用 Agent 任务流取代 App 网格",
       "url": "https://the-decoder.com/openais-first-hardware-play-might-be-a-phone-that-replaces-your-app-grid-with-an-agent-task-stream/",
@@ -161,7 +144,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "news",
       "title": "SpaceX 向 Google 出租 11 万块 Nvidia 芯片：月费 9.2 亿美元",
       "url": "https://the-decoder.com/spacex-signs-920-million-per-month-deal-with-google-for-110000-nvidia-ai-chips-ahead-of-ipo/",
@@ -178,7 +161,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "news",
       "title": "科技巨头 AI 支出今年膨胀至 7250 亿美元",
       "url": "https://the-decoder.com/big-techs-ai-spending-balloons-to-725-billion-this-year/",
@@ -196,7 +179,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "news",
       "title": "Meta 非侵入式脑机接口 AI 正在接近手术植入设备的精度",
       "url": "https://the-decoder.com/metas-non-invasive-brain-to-text-ai-is-closing-the-gap-with-surgical-implants/",
@@ -213,7 +196,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "news",
       "title": "Zuckerberg 用人头换算力：Meta 准备裁员 10% 为 AI 基建买单",
       "url": "https://the-decoder.com/zuckerberg-reportedly-trades-headcount-for-compute-as-meta-readies-to-cut-10-percent-of-its-workforce-to-fund-ai-infrastructure/",
@@ -230,7 +213,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "paper",
       "title": "Seed2.0: 面向真实世界复杂性的智能前沿模型",
       "url": "https://huggingface.co/papers/2607.00248",
@@ -247,7 +230,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 14,
       "category": "paper",
       "title": "ASPIRE: Agent 技能自动发现用于机器人",
       "url": "https://huggingface.co/papers/2607.00272",
@@ -267,7 +250,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": 15,
       "category": "paper",
       "title": "MemSyco-Bench: Agent 记忆中的谄媚行为基准测试",
       "url": "https://huggingface.co/papers/2607.01071",
@@ -288,7 +271,7 @@
       ]
     },
     {
-      "id": 17,
+      "id": 16,
       "category": "paper",
       "title": "CausalMix: 将数据混合视为因果推断的语言模型训练",
       "url": "https://huggingface.co/papers/2607.01104",
@@ -308,7 +291,7 @@
       ]
     },
     {
-      "id": 18,
+      "id": 17,
       "category": "paper",
       "title": "自主科学发现：通过迭代元反思实现",
       "url": "https://huggingface.co/papers/2607.01131",
@@ -328,7 +311,7 @@
       ]
     },
     {
-      "id": 19,
+      "id": 18,
       "category": "paper",
       "title": "AutoTrainess: 教语言模型自主改进语言模型",
       "url": "https://huggingface.co/papers/2606.31551",
@@ -348,7 +331,7 @@
       ]
     },
     {
-      "id": 20,
+      "id": 19,
       "category": "repo",
       "title": "TencentCloud/CubeSandbox: AI Agent 即时安全沙箱",
       "url": "https://github.com/TencentCloud/CubeSandbox",
@@ -368,7 +351,7 @@
       ]
     },
     {
-      "id": 21,
+      "id": 20,
       "category": "repo",
       "title": "allenai/olmocr: PDF 线性化工具包，用于 LLM 数据集和训练",
       "url": "https://github.com/allenai/olmocr",
@@ -385,7 +368,7 @@
       ]
     },
     {
-      "id": 22,
+      "id": 21,
       "category": "news",
       "title": "SpaceX 向投资者展示 xAI 驱动的超薄 AI 手机原型",
       "url": "https://the-decoder.com/spacex-shows-investors-a-slim-ai-smartphone-prototype-powered-by-xai-technology/",
@@ -402,7 +385,7 @@
       ]
     },
     {
-      "id": 23,
+      "id": 22,
       "category": "news",
       "title": "OpenAI 正在做智能音箱：$200-300，带摄像头和面部识别",
       "url": "https://the-decoder.com/openai-is-building-a-200-to-300-smart-speaker-that-tells-you-when-to-go-to-bed/",
