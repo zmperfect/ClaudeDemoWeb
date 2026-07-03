@@ -216,24 +216,6 @@
     },
     {
       "id": 13,
-      "category": "news",
-      "title": "Meta 秘密用未成年人视角危机提示测试 ChatGPT、Gemini 等竞品",
-      "url": "https://the-decoder.com/meta-secretly-tested-chatgpt-gemini-and-character-ai-with-thousands-of-minor-perspective-crisis-prompts/",
-      "summary": "Meta 让数百名承包商扮演未成年人，向 OpenAI、Google 和 Character.AI 的聊天机器人发送自杀、性和毒品相关提示。单轮测试超过 45000 条提示。被测试的公司完全不知情。",
-      "source": "The Decoder",
-      "highlight": "竞争情报新手段：Meta 对竞品做大规模未成年人安全红队测试",
-      "stars": 5,
-      "tags": [
-        "meta",
-        "safety",
-        "red-teaming",
-        "minors",
-        "chatgpt",
-        "character-ai"
-      ]
-    },
-    {
-      "id": 14,
       "category": "paper",
       "title": "MemLearner: 学习查询上下文记忆的视频世界模型",
       "url": "https://huggingface.co/papers/2606.31734",
@@ -253,7 +235,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 14,
       "category": "paper",
       "title": "Xiaomi-GUI-0: 小米 GUI Agent 技术报告",
       "url": "https://huggingface.co/papers/2606.31410",
@@ -273,7 +255,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": 15,
       "category": "paper",
       "title": "AVTok: 统一的 1D 音视频 Tokenization 用于整体生成",
       "url": "https://huggingface.co/papers/2606.30811",
@@ -290,7 +272,7 @@
       ]
     },
     {
-      "id": 17,
+      "id": 16,
       "category": "paper",
       "title": "LUMOS: 面向无障碍 AI Agent 的语义操作系统层",
       "url": "https://huggingface.co/papers/2606.30697",
@@ -310,7 +292,7 @@
       ]
     },
     {
-      "id": 18,
+      "id": 17,
       "category": "paper",
       "title": "Evolution Fine-Tuning: 跨 371 个优化任务的学习发现",
       "url": "https://huggingface.co/papers/2606.29082",
@@ -330,7 +312,7 @@
       ]
     },
     {
-      "id": 19,
+      "id": 18,
       "category": "paper",
       "title": "Dockerless: 无环境依赖的编码 Agent 程序验证器",
       "url": "https://huggingface.co/papers/2606.28436",
@@ -350,7 +332,7 @@
       ]
     },
     {
-      "id": 20,
+      "id": 19,
       "category": "repo",
       "title": "browser-use/video-use: 用编码 Agent 编辑视频",
       "url": "https://github.com/browser-use/video-use",
@@ -370,7 +352,7 @@
       ]
     },
     {
-      "id": 21,
+      "id": 20,
       "category": "repo",
       "title": "google/agents-cli: 将编码助手变为 Google Cloud Agent 部署专家",
       "url": "https://github.com/google/agents-cli",
@@ -390,7 +372,7 @@
       ]
     },
     {
-      "id": 22,
+      "id": 21,
       "category": "repo",
       "title": "facebook/astryx: Meta 开源 Agent-Ready 设计系统",
       "url": "https://github.com/facebook/astryx",
@@ -410,7 +392,7 @@
       ]
     },
     {
-      "id": 23,
+      "id": 22,
       "category": "repo",
       "title": "OmniRoute: 免费 AI 网关，231+ 提供商统一接入",
       "url": "https://github.com/diegosouzapw/OmniRoute",
