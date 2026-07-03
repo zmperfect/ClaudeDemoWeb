@@ -1,0 +1,417 @@
+{
+  "date": "2026-07-03",
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "Claude Fable 5 发布：首个 Mythos 级模型，强大但昂贵且过滤严格",
+      "url": "https://the-decoder.com/claude-fable-5-the-first-mythos-model-is-powerful-expensive-and-heavily-filtered/",
+      "summary": "Anthropic 发布 Claude Fable 5，新 Mythos 级别的首个模型。SWE-bench Verified 得分 95%，几乎领跑所有基准。但价格为 Opus 4.8 的两倍(10/50 美元每百万 token)，安全过滤器拦截约 9% 的请求，且新增 30 天数据保留政策即使对零保留合同也适用。",
+      "source": "The Decoder",
+      "highlight": "最强但最贵：SWE-bench 95%，代价是 2x 价格 + 9% 误拦截",
+      "stars": 5,
+      "tags": [
+        "anthropic",
+        "fable-5",
+        "mythos",
+        "benchmark",
+        "frontier",
+        "pricing"
+      ]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "Anthropic 砍掉 Claude Code 80% 系统提示：Fable 5 需要更少指令",
+      "url": "https://the-decoder.com/anthropic-says-it-cut-80-percent-of-claude-codes-system-prompt-because-fable-5-models-want-a-smaller-system-prompt/",
+      "summary": "Anthropic 将 Claude Code 系统提示削减 80%。员工 Tariq Shihipar 表示新 Fable 5 模型需要更少指令和示例，过多指南反而会限制模型表现。模型变得比指令更有「想象力」，Anthropic 现在通过上下文而非严格规则来引导行为。",
+      "source": "The Decoder",
+      "highlight": "模型进化悖论：越强的模型越不需要指令，规则反而成为约束",
+      "stars": 5,
+      "topic": [
+        "agent"
+      ],
+      "tags": [
+        "claude-code",
+        "system-prompt",
+        "fable-5",
+        "prompt-engineering",
+        "coding-agent"
+      ]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "OpenAI 与 Broadcom 发布 Jalapeno：专为 LLM 推理打造的定制芯片",
+      "url": "https://the-decoder.com/openai-and-broadcom-unveil-jalapeno-a-custom-chip-built-for-llm-inference/",
+      "summary": "OpenAI 将定制硬件加入技术栈。与 Broadcom 联合开发的 Jalapeno 芯片专为大语言模型推理优化，计划 2026 年底大规模运行。AI 公司自研芯片降低基础设施成本的趋势加速。",
+      "source": "The Decoder",
+      "highlight": "OpenAI 自研推理芯片：Jalapeno 年底上线，减少 Nvidia 依赖",
+      "stars": 5,
+      "tags": [
+        "openai",
+        "broadcom",
+        "custom-chip",
+        "inference",
+        "hardware"
+      ]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "Anthropic 与三星探讨定制芯片制造",
+      "url": "https://the-decoder.com/anthropic-reportedly-explores-custom-chip-manufacturing-with-samsung-while-insisting-nvidia-still-matters/",
+      "summary": "Anthropic 据报与三星电子洽谈定制 AI 芯片制造。项目仍处早期，但已招聘芯片工程师。继 OpenAI Jalapeno 之后又一家 AI 公司进入芯片自研，以削减基础设施成本。",
+      "source": "The Decoder",
+      "highlight": "AI 公司扎堆造芯：继 OpenAI 后 Anthropic 也找三星代工",
+      "stars": 4,
+      "tags": [
+        "anthropic",
+        "samsung",
+        "custom-chip",
+        "manufacturing",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "Anthropic 从 OpenAI 挖走第二号芯片工程师",
+      "url": "https://the-decoder.com/anthropic-poaches-openais-second-ever-chip-engineer-as-both-companies-race-toward-ipos/",
+      "summary": "Clive Chan 自称 OpenAI 芯片项目第二号员工，现跳槽 Anthropic。他带来 Tesla Autopilot ASIC 和 OpenAI-Broadcom 合作的经验。两家公司都在筹备 IPO，Anthropic 正考虑开发自己的 AI 芯片。",
+      "source": "The Decoder",
+      "highlight": "芯片人才争夺：OpenAI 核心芯片工程师跳槽 Anthropic",
+      "stars": 4,
+      "tags": [
+        "anthropic",
+        "openai",
+        "talent",
+        "chip-engineering",
+        "ipo"
+      ]
+    },
+    {
+      "id": 6,
+      "category": "news",
+      "title": "AI Agent 已能以专业质量完成 16% 的自由职业工作（8 个月前仅 2.5%）",
+      "url": "https://the-decoder.com/ai-agents-can-now-complete-16-percent-of-freelance-jobs-at-pro-quality-up-from-2-5-percent-eight-months-ago/",
+      "summary": "Remote Labor Index 衡量 AI Agent 以专业质量完成付费自由职业项目的频率。8 个月内，最高自动化率从 2.5% 跃升至 16%，增长超过四倍。",
+      "source": "The Decoder",
+      "highlight": "Agent 能力量化：8 个月内能胜任的自由职业比例增长 6 倍",
+      "stars": 5,
+      "topic": [
+        "agent"
+      ],
+      "tags": [
+        "agent",
+        "freelance",
+        "automation",
+        "benchmark",
+        "labor-market"
+      ]
+    },
+    {
+      "id": 7,
+      "category": "news",
+      "title": "Google NotebookLM 重大升级：自带云计算机 + Agent 研究能力",
+      "url": "https://the-decoder.com/googles-notebooklm-now-runs-its-own-cloud-computer-with-code-execution-and-agent-based-research/",
+      "summary": "Google 为 NotebookLM 带来重大升级：运行 Gemini 3.5 Flash，拥有自己的云计算机执行代码，可通过 Google 搜索自主寻找信息源。内部测试中新系统在 78.2% 的情况下优于旧版。",
+      "source": "The Decoder",
+      "highlight": "研究工具进化：NotebookLM = Gemini 3.5 + 代码执行 + 自主搜索",
+      "stars": 5,
+      "topic": [
+        "agent"
+      ],
+      "tags": [
+        "google",
+        "notebooklm",
+        "code-execution",
+        "agent",
+        "research-tool"
+      ]
+    },
+    {
+      "id": 8,
+      "category": "news",
+      "title": "Google 为 NotebookLM 增加 TikTok 风格视频短片功能",
+      "url": "https://the-decoder.com/google-brings-tiktok-style-video-shorts-to-notebooklm/",
+      "summary": "Google 扩展 NotebookLM 功能，新增社交媒体常见的短视频格式概览。将研究内容自动转化为易于分享的视频短片。",
+      "source": "The Decoder",
+      "highlight": "知识传播新形态：研究笔记自动转为 TikTok 风格短视频",
+      "stars": 3,
+      "tags": [
+        "google",
+        "notebooklm",
+        "video",
+        "content-generation",
+        "social-media"
+      ]
+    },
+    {
+      "id": 9,
+      "category": "news",
+      "title": "Microsoft 投 25 亿美元成立 Frontier Company：6000 名 AI 工程师驻场企业客户",
+      "url": "https://the-decoder.com/microsoft-launches-2-5-billion-frontier-company-to-embed-6000-ai-engineers-inside-enterprise-clients/",
+      "summary": "Microsoft 投资 25 亿美元成立 Frontier Company，派遣 6000 名工程师直接驻场企业客户。目标是将 AI 集成到核心业务流程并实现可衡量 ROI。Microsoft 定位为平台中立的替代方案，区别于 OpenAI 和 Anthropic 推自家模型。",
+      "source": "The Decoder",
+      "highlight": "25 亿 + 6000 工程师：Microsoft 用人海战术推 AI 落地企业",
+      "stars": 5,
+      "topic": [
+        "agent"
+      ],
+      "tags": [
+        "microsoft",
+        "enterprise",
+        "ai-integration",
+        "consulting",
+        "investment"
+      ]
+    },
+    {
+      "id": 10,
+      "category": "news",
+      "title": "Nvidia 资助 AI 初创公司以松动大厂对芯片业务的控制",
+      "url": "https://the-decoder.com/nvidia-is-bankrolling-ai-startups-to-loosen-big-techs-grip-on-its-chip-business/",
+      "summary": "Nvidia 正在扮演 AI 初创公司的「央行」角色，通过资金支持积极塑造算力市场，减少对大型科技公司的客户集中依赖。",
+      "source": "The Decoder",
+      "highlight": "Nvidia 的客户多元化策略：资助初创减少大厂依赖",
+      "stars": 4,
+      "tags": [
+        "nvidia",
+        "startups",
+        "investment",
+        "compute-market",
+        "diversification"
+      ]
+    },
+    {
+      "id": 11,
+      "category": "news",
+      "title": "OpenAI 据报向特朗普政府提供 5% 公司股权",
+      "url": "https://the-decoder.com/openai-reportedly-offers-the-trump-administration-a-five-percent-stake-in-the-company/",
+      "summary": "OpenAI 据报向特朗普政府提供公司 5% 股权。政府将给予什么回报尚不清楚。此举表明 AI 公司正多么积极地试图与华盛顿绑定。",
+      "source": "The Decoder",
+      "highlight": "AI 与政治联姻：OpenAI 向美国政府让渡 5% 股权",
+      "stars": 4,
+      "tags": [
+        "openai",
+        "government",
+        "politics",
+        "equity",
+        "regulation"
+      ]
+    },
+    {
+      "id": 12,
+      "category": "paper",
+      "title": "AgenticDataBench: 数据 Agent 综合基准测试",
+      "url": "https://huggingface.co/papers/2607.01647",
+      "summary": "提出 AgenticDataBench，一个评估数据 Agent 能力的综合基准。覆盖数据清洗、转换、分析和可视化等全流程任务，系统化衡量 AI Agent 在真实数据工作中的自动化水平。",
+      "source": "HuggingFace Papers",
+      "highlight": "数据 Agent 全流程评估：从清洗到可视化的综合基准",
+      "stars": 4,
+      "topic": [
+        "agent"
+      ],
+      "tags": [
+        "benchmark",
+        "data-agent",
+        "evaluation",
+        "automation",
+        "agent"
+      ]
+    },
+    {
+      "id": 13,
+      "category": "paper",
+      "title": "Denser != Better: 持续后训练中 On-Policy 自蒸馏的局限",
+      "url": "https://huggingface.co/papers/2607.01763",
+      "summary": "研究发现在持续后训练(continual post-training)中，on-policy 自蒸馏并非越密集越好。过度使用自蒸馏会导致模型能力退化，揭示了当前流行的自我改进方法的边界条件。",
+      "source": "HuggingFace Papers",
+      "highlight": "自蒸馏的边界：持续后训练中并非越密集越好",
+      "stars": 4,
+      "topic": [
+        "post-training"
+      ],
+      "tags": [
+        "self-distillation",
+        "post-training",
+        "continual-learning",
+        "scaling",
+        "limitations"
+      ]
+    },
+    {
+      "id": 14,
+      "category": "paper",
+      "title": "AnyGroundBench: 视觉语言模型的专业领域视频定位基准",
+      "url": "https://huggingface.co/papers/2607.02269",
+      "summary": "提出 AnyGroundBench，针对专业领域(医疗、工业、科研等)的视频定位基准测试。评估视觉语言模型在非通用场景下精确定位视频中特定事件或对象的能力。",
+      "source": "HuggingFace Papers",
+      "highlight": "专业领域视频理解：从通用到垂直场景的定位能力评估",
+      "stars": 3,
+      "tags": [
+        "video-grounding",
+        "vlm",
+        "benchmark",
+        "specialized-domain",
+        "multimodal"
+      ]
+    },
+    {
+      "id": 15,
+      "category": "paper",
+      "title": "通过分布级奖励优化视觉生成模型",
+      "url": "https://huggingface.co/papers/2607.02291",
+      "summary": "提出基于分布级奖励的视觉生成模型优化方法。不再逐样本评分，而是从整体分布质量角度给予奖励信号，使生成模型在多样性和质量之间取得更好平衡。",
+      "source": "HuggingFace Papers",
+      "highlight": "生成模型新优化范式：从单样本评分到分布级质量奖励",
+      "stars": 4,
+      "topic": [
+        "post-training"
+      ],
+      "tags": [
+        "visual-generation",
+        "reward-model",
+        "distribution",
+        "optimization",
+        "rlhf"
+      ]
+    },
+    {
+      "id": 16,
+      "category": "paper",
+      "title": "Program-as-Weights: 模糊函数的编程范式",
+      "url": "https://huggingface.co/papers/2607.02512",
+      "summary": "提出 Program-as-Weights 编程范式，将程序结构编码为神经网络权重来实现模糊函数。架起传统编程（精确逻辑）和神经网络（模糊近似）之间的桥梁，为 AI 系统中的不确定性推理提供新思路。",
+      "source": "HuggingFace Papers",
+      "highlight": "程序即权重：将编程结构编入网络权重，统一精确逻辑与模糊推理",
+      "stars": 4,
+      "tags": [
+        "neural-programming",
+        "fuzzy-logic",
+        "paradigm",
+        "weights",
+        "reasoning"
+      ]
+    },
+    {
+      "id": 17,
+      "category": "repo",
+      "title": "ChromeDevTools/chrome-devtools-mcp: 为编码 Agent 提供 Chrome 开发者工具",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "summary": "Google 官方将 Chrome DevTools 封装为 MCP 服务，让编码 Agent 可以直接使用浏览器调试工具。Agent 可检查 DOM、网络请求、控制台日志等，实现自动化前端调试。",
+      "source": "GitHub Trending",
+      "highlight": "Agent 调试前端：Chrome DevTools 官方 MCP 接入",
+      "stars": 5,
+      "topic": [
+        "agent"
+      ],
+      "tags": [
+        "chrome",
+        "devtools",
+        "mcp",
+        "coding-agent",
+        "debugging"
+      ]
+    },
+    {
+      "id": 18,
+      "category": "repo",
+      "title": "openai/codex-plugin-cc: 在 Claude Code 中使用 Codex 审查代码或委托任务",
+      "url": "https://github.com/openai/codex-plugin-cc",
+      "summary": "OpenAI 官方发布 Claude Code 插件，让用户在 Claude Code 中调用 Codex 进行代码审查或任务委托。竞品间的互操作性达到新高度。",
+      "source": "GitHub Trending",
+      "highlight": "竞品互操作：OpenAI 官方让 Codex 在 Claude Code 里跑",
+      "stars": 5,
+      "topic": [
+        "agent"
+      ],
+      "tags": [
+        "openai",
+        "codex",
+        "claude-code",
+        "plugin",
+        "interoperability"
+      ]
+    },
+    {
+      "id": 19,
+      "category": "repo",
+      "title": "JuliusBrussee/caveman: Claude Code 技能——用原始人语法省 65% token",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "summary": "一个 Claude Code 技能插件，通过让模型用「原始人」风格精简语法沟通来减少 65% 的 token 消耗。简单实用的 token 优化技巧，why use many token when few token do trick。",
+      "source": "GitHub Trending",
+      "highlight": "省 token 神器：让 AI 说原始人话，减少 65% token 消耗",
+      "stars": 3,
+      "tags": [
+        "claude-code",
+        "token-optimization",
+        "skill",
+        "cost-saving",
+        "humor"
+      ]
+    },
+    {
+      "id": 20,
+      "category": "repo",
+      "title": "agentskills/agentskills: Agent Skills 规范与文档",
+      "url": "https://github.com/agentskills/agentskills",
+      "summary": "定义 Agent Skills 的标准规范和文档。为不同编码 Agent（Claude Code、Codex、Cursor 等）提供统一的技能接口标准，推动 Agent 生态互通。",
+      "source": "GitHub Trending",
+      "highlight": "Agent 技能标准化：跨平台统一的 Skills 规范",
+      "stars": 4,
+      "topic": [
+        "agent"
+      ],
+      "tags": [
+        "agent-skills",
+        "specification",
+        "standard",
+        "interoperability",
+        "ecosystem"
+      ]
+    },
+    {
+      "id": 21,
+      "category": "repo",
+      "title": "affaan-m/ECC: Agent 性能优化系统——技能、本能、记忆与安全",
+      "url": "https://github.com/affaan-m/ECC",
+      "summary": "为 Claude Code、Codex、Cursor 等编码 Agent 打造的性能优化系统。整合技能(skills)、本能(instincts)、记忆(memory)和安全(security)模块，以研究优先的方法论提升 Agent 表现。",
+      "source": "GitHub Trending",
+      "highlight": "Agent 性能全栈优化：技能+本能+记忆+安全的统一框架",
+      "stars": 4,
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "tags": [
+        "agent-optimization",
+        "skills",
+        "memory",
+        "security",
+        "coding-agent"
+      ]
+    },
+    {
+      "id": 22,
+      "category": "repo",
+      "title": "langflow-ai/langflow: 构建和部署 AI Agent 与工作流的可视化工具",
+      "url": "https://github.com/langflow-ai/langflow",
+      "summary": "Langflow 是构建和部署 AI Agent 及工作流的强大可视化工具。通过拖拽式界面设计复杂的 Agent 流程，降低 AI 应用开发门槛。",
+      "source": "GitHub Trending",
+      "highlight": "可视化 Agent 构建：拖拽式设计复杂 AI 工作流",
+      "stars": 3,
+      "topic": [
+        "agent"
+      ],
+      "tags": [
+        "langflow",
+        "visual-builder",
+        "workflow",
+        "agent",
+        "low-code"
+      ]
+    }
+  ]
+}
