@@ -234,24 +234,6 @@
     },
     {
       "id": 14,
-      "category": "news",
-      "title": "德国法院裁定：Google AI 概览为自身言论，需为错误答案负责",
-      "url": "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/",
-      "summary": "德国地方法院裁定 Google 对其 AI 搜索概览内容承担直接责任。法院认为搜索引擎运营商此前的有限责任保护不适用于 AI 概览。此案中 Google AI 错误地将两家出版商与欺诈联系起来。该裁决可能为全球 AI 生成内容责任设定先例。",
-      "source": "The Decoder",
-      "highlight": "里程碑判例：AI 生成内容 = 平台自身言论，需承担全部责任",
-      "stars": 4,
-      "tags": [
-        "google",
-        "legal",
-        "liability",
-        "ai-overviews",
-        "regulation",
-        "germany"
-      ]
-    },
-    {
-      "id": 15,
       "category": "paper",
       "title": "MemLearner: 学习查询上下文记忆的视频世界模型",
       "url": "https://huggingface.co/papers/2606.31734",
@@ -271,7 +253,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": 15,
       "category": "paper",
       "title": "Xiaomi-GUI-0: 小米 GUI Agent 技术报告",
       "url": "https://huggingface.co/papers/2606.31410",
@@ -291,7 +273,7 @@
       ]
     },
     {
-      "id": 17,
+      "id": 16,
       "category": "paper",
       "title": "AVTok: 统一的 1D 音视频 Tokenization 用于整体生成",
       "url": "https://huggingface.co/papers/2606.30811",
@@ -308,7 +290,7 @@
       ]
     },
     {
-      "id": 18,
+      "id": 17,
       "category": "paper",
       "title": "LUMOS: 面向无障碍 AI Agent 的语义操作系统层",
       "url": "https://huggingface.co/papers/2606.30697",
@@ -328,7 +310,7 @@
       ]
     },
     {
-      "id": 19,
+      "id": 18,
       "category": "paper",
       "title": "Evolution Fine-Tuning: 跨 371 个优化任务的学习发现",
       "url": "https://huggingface.co/papers/2606.29082",
@@ -348,7 +330,7 @@
       ]
     },
     {
-      "id": 20,
+      "id": 19,
       "category": "paper",
       "title": "Dockerless: 无环境依赖的编码 Agent 程序验证器",
       "url": "https://huggingface.co/papers/2606.28436",
@@ -368,7 +350,7 @@
       ]
     },
     {
-      "id": 21,
+      "id": 20,
       "category": "repo",
       "title": "browser-use/video-use: 用编码 Agent 编辑视频",
       "url": "https://github.com/browser-use/video-use",
@@ -388,7 +370,7 @@
       ]
     },
     {
-      "id": 22,
+      "id": 21,
       "category": "repo",
       "title": "google/agents-cli: 将编码助手变为 Google Cloud Agent 部署专家",
       "url": "https://github.com/google/agents-cli",
@@ -408,7 +390,7 @@
       ]
     },
     {
-      "id": 23,
+      "id": 22,
       "category": "repo",
       "title": "facebook/astryx: Meta 开源 Agent-Ready 设计系统",
       "url": "https://github.com/facebook/astryx",
@@ -428,7 +410,7 @@
       ]
     },
     {
-      "id": 24,
+      "id": 23,
       "category": "repo",
       "title": "OmniRoute: 免费 AI 网关，231+ 提供商统一接入",
       "url": "https://github.com/diegosouzapw/OmniRoute",
