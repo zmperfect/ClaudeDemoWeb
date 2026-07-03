@@ -92,23 +92,6 @@
     {
       "id": 6,
       "category": "news",
-      "title": "Snowflake CEO：GLM-5.2 性能接近 Opus 4.7，成本仅五分之一",
-      "url": "https://the-decoder.com/snowflake-ceo-finds-glm-5-2-competitive-with-opus-4-7-at-a-fraction-of-the-cost/",
-      "summary": "智谱 AI 的 GLM-5.2 在 Snowflake 103 个编码任务基准中接近 Claude Opus 4.7 的表现，而每输出 token 成本仅为其 1/5。但中国模型每任务消耗近两倍 token。定价差距正对西方 AI 实验室估值构成压力。",
-      "source": "The Decoder",
-      "highlight": "中国模型性价比冲击：GLM-5.2 以 1/5 成本达到 Opus 4.7 水平",
-      "stars": 4,
-      "tags": [
-        "zhipu",
-        "glm",
-        "snowflake",
-        "cost-comparison",
-        "chinese-ai"
-      ]
-    },
-    {
-      "id": 7,
-      "category": "news",
       "title": "每月 130 万美元运行 100 个 AI Agent 写代码、审 PR、找 Bug",
       "url": "https://the-decoder.com/for-1-3-million-a-month-openclaw-founder-peter-steinberger-runs-100-ai-agents-that-code-review-prs-and-find-bugs/",
       "summary": "OpenClaw 创始人 Peter Steinberger 三人团队运行约 100 个 Codex 实例，月 API 开支达 130 万美元。他将此视为研究投资：当 token 成本不再是问题时，软件开发会变成什么样？",
@@ -127,7 +110,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 7,
       "category": "news",
       "title": "Vibecoding 正在成为软件收购的关键测试",
       "url": "https://the-decoder.com/vibecoding-is-becoming-a-deal-breaker-test-for-software-acquisitions/",
@@ -144,7 +127,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "category": "news",
       "title": "Figma Config 2026：押注人类判断力，但 AI 引擎来自他人",
       "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else/",
@@ -164,7 +147,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "news",
       "title": "Google 发布 Nano Banana 2 Lite 图像生成 + Gemini Omni Flash 视频 API",
       "url": "https://the-decoder.com/google-launches-nano-banana-2-lite-for-fast-ai-images-and-gemini-omni-flash-for-video-via-api/",
@@ -181,7 +164,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "news",
       "title": "Google 发布可本地运行 Gemma 3 的微型开发板",
       "url": "https://the-decoder.com/google-launches-a-tiny-board-that-runs-gemma-3-locally/",
@@ -198,7 +181,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "paper",
       "title": "MemLearner: 学习查询上下文记忆的视频世界模型",
       "url": "https://huggingface.co/papers/2606.31734",
@@ -218,7 +201,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "paper",
       "title": "Xiaomi-GUI-0: 小米 GUI Agent 技术报告",
       "url": "https://huggingface.co/papers/2606.31410",
@@ -238,7 +221,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "paper",
       "title": "AVTok: 统一的 1D 音视频 Tokenization 用于整体生成",
       "url": "https://huggingface.co/papers/2606.30811",
@@ -255,7 +238,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 14,
       "category": "paper",
       "title": "LUMOS: 面向无障碍 AI Agent 的语义操作系统层",
       "url": "https://huggingface.co/papers/2606.30697",
@@ -275,7 +258,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": 15,
       "category": "paper",
       "title": "Evolution Fine-Tuning: 跨 371 个优化任务的学习发现",
       "url": "https://huggingface.co/papers/2606.29082",
@@ -295,7 +278,7 @@
       ]
     },
     {
-      "id": 17,
+      "id": 16,
       "category": "paper",
       "title": "Dockerless: 无环境依赖的编码 Agent 程序验证器",
       "url": "https://huggingface.co/papers/2606.28436",
@@ -315,7 +298,7 @@
       ]
     },
     {
-      "id": 18,
+      "id": 17,
       "category": "repo",
       "title": "browser-use/video-use: 用编码 Agent 编辑视频",
       "url": "https://github.com/browser-use/video-use",
@@ -335,7 +318,7 @@
       ]
     },
     {
-      "id": 19,
+      "id": 18,
       "category": "repo",
       "title": "google/agents-cli: 将编码助手变为 Google Cloud Agent 部署专家",
       "url": "https://github.com/google/agents-cli",
@@ -355,7 +338,7 @@
       ]
     },
     {
-      "id": 20,
+      "id": 19,
       "category": "repo",
       "title": "facebook/astryx: Meta 开源 Agent-Ready 设计系统",
       "url": "https://github.com/facebook/astryx",
@@ -375,7 +358,7 @@
       ]
     },
     {
-      "id": 21,
+      "id": 20,
       "category": "repo",
       "title": "OmniRoute: 免费 AI 网关，231+ 提供商统一接入",
       "url": "https://github.com/diegosouzapw/OmniRoute",
