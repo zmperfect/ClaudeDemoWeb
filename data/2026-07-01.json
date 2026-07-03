@@ -4,23 +4,6 @@
     {
       "id": 1,
       "category": "news",
-      "title": "Anthropic 发布 Claude Sonnet 5，逼近更贵的 Opus 系列",
-      "url": "https://the-decoder.com/anthropics-new-claude-sonnet-5-closes-the-gap-to-the-pricier-opus-model-series/",
-      "summary": "Anthropic 发布 Claude Sonnet 5，在所有基准测试中超越前代 Sonnet 4.6，甚至在 GDPval-AA v2 知识工作测试中以 1618 分超过更大的 Opus 4.8。Anthropic 同时强调该模型在网络安全任务上远低于美国政府封锁的模型水平，在出口管制辩论中发出信号。",
-      "source": "The Decoder",
-      "highlight": "中端模型逼近旗舰：Sonnet 5 在知识工作基准上超越 Opus 4.8",
-      "stars": 5,
-      "tags": [
-        "anthropic",
-        "claude",
-        "sonnet-5",
-        "benchmark",
-        "frontier"
-      ]
-    },
-    {
-      "id": 2,
-      "category": "news",
       "title": "Anthropic 推出 Claude Science：专为科研人员打造的 AI 工作台",
       "url": "https://the-decoder.com/anthropic-launches-claude-science-an-ai-workspace-built-specifically-for-researchers/",
       "summary": "Anthropic 发布 Claude Science，一个面向研究者的 AI 工作台。超过 60 个预配置技能覆盖基因组学和计算化学等领域，验证代理自动检查引用和计算。支持本地或 HPC 集群运行，敏感数据无需离开实验室。",
@@ -39,7 +22,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 2,
       "category": "news",
       "title": "DeepSeek DSpark 推理加速 85%：美国芯片管制下的战略突破",
       "url": "https://the-decoder.com/deepseeks-dspark-boosts-ai-speed-by-up-to-85-percent-a-strategic-win-under-tightening-us-export-controls/",
@@ -56,7 +39,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 3,
       "category": "news",
       "title": "美团 LongCat-2.0：纯国产芯片训练 1.6 万亿参数模型",
       "url": "https://the-decoder.com/meituans-longcat-2-0-shows-china-can-train-massive-ai-models-without-nvidia/",
@@ -73,7 +56,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 4,
       "category": "news",
       "title": "每月 130 万美元运行 100 个 AI Agent 写代码、审 PR、找 Bug",
       "url": "https://the-decoder.com/for-1-3-million-a-month-openclaw-founder-peter-steinberger-runs-100-ai-agents-that-code-review-prs-and-find-bugs/",
@@ -93,7 +76,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 5,
       "category": "news",
       "title": "Vibecoding 正在成为软件收购的关键测试",
       "url": "https://the-decoder.com/vibecoding-is-becoming-a-deal-breaker-test-for-software-acquisitions/",
@@ -110,7 +93,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 6,
       "category": "news",
       "title": "Figma Config 2026：押注人类判断力，但 AI 引擎来自他人",
       "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else/",
@@ -130,7 +113,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 7,
       "category": "news",
       "title": "Google 发布 Nano Banana 2 Lite 图像生成 + Gemini Omni Flash 视频 API",
       "url": "https://the-decoder.com/google-launches-nano-banana-2-lite-for-fast-ai-images-and-gemini-omni-flash-for-video-via-api/",
@@ -147,7 +130,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "category": "news",
       "title": "Google 发布可本地运行 Gemma 3 的微型开发板",
       "url": "https://the-decoder.com/google-launches-a-tiny-board-that-runs-gemma-3-locally/",
@@ -164,7 +147,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "paper",
       "title": "MemLearner: 学习查询上下文记忆的视频世界模型",
       "url": "https://huggingface.co/papers/2606.31734",
@@ -184,7 +167,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "paper",
       "title": "Xiaomi-GUI-0: 小米 GUI Agent 技术报告",
       "url": "https://huggingface.co/papers/2606.31410",
@@ -204,7 +187,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "paper",
       "title": "AVTok: 统一的 1D 音视频 Tokenization 用于整体生成",
       "url": "https://huggingface.co/papers/2606.30811",
@@ -221,7 +204,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "paper",
       "title": "LUMOS: 面向无障碍 AI Agent 的语义操作系统层",
       "url": "https://huggingface.co/papers/2606.30697",
@@ -241,7 +224,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "paper",
       "title": "Evolution Fine-Tuning: 跨 371 个优化任务的学习发现",
       "url": "https://huggingface.co/papers/2606.29082",
@@ -261,7 +244,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 14,
       "category": "paper",
       "title": "Dockerless: 无环境依赖的编码 Agent 程序验证器",
       "url": "https://huggingface.co/papers/2606.28436",
@@ -281,7 +264,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": 15,
       "category": "repo",
       "title": "browser-use/video-use: 用编码 Agent 编辑视频",
       "url": "https://github.com/browser-use/video-use",
@@ -301,7 +284,7 @@
       ]
     },
     {
-      "id": 17,
+      "id": 16,
       "category": "repo",
       "title": "google/agents-cli: 将编码助手变为 Google Cloud Agent 部署专家",
       "url": "https://github.com/google/agents-cli",
@@ -321,7 +304,7 @@
       ]
     },
     {
-      "id": 18,
+      "id": 17,
       "category": "repo",
       "title": "facebook/astryx: Meta 开源 Agent-Ready 设计系统",
       "url": "https://github.com/facebook/astryx",
@@ -341,7 +324,7 @@
       ]
     },
     {
-      "id": 19,
+      "id": 18,
       "category": "repo",
       "title": "OmniRoute: 免费 AI 网关，231+ 提供商统一接入",
       "url": "https://github.com/diegosouzapw/OmniRoute",
