@@ -239,26 +239,6 @@
     {
       "id": 14,
       "category": "paper",
-      "title": "CausalMix: 将数据混合视为因果推断的语言模型训练",
-      "url": "https://huggingface.co/papers/2607.01104",
-      "summary": "提出 CausalMix，将语言模型训练中的数据混合问题建模为因果推断。不再凭经验调配训练数据比例，而是通过因果分析确定最优数据混合策略，系统化解决「该用多少代码/文本/数学数据」的问题。",
-      "source": "HuggingFace Papers",
-      "highlight": "训练数据配比的因果分析：从经验调参到系统化方法",
-      "stars": 4,
-      "topic": [
-        "post-training"
-      ],
-      "tags": [
-        "data-mixture",
-        "causal-inference",
-        "training",
-        "pre-training",
-        "optimization"
-      ]
-    },
-    {
-      "id": 15,
-      "category": "paper",
       "title": "自主科学发现：通过迭代元反思实现",
       "url": "https://huggingface.co/papers/2607.01131",
       "summary": "提出通过迭代元反思实现自主科学发现的框架。AI 系统不仅执行实验，还能反思自己的发现过程，识别方法论偏差，并自主改进研究策略。向真正的自主科研迈进一步。",
@@ -277,7 +257,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": 15,
       "category": "paper",
       "title": "AutoTrainess: 教语言模型自主改进语言模型",
       "url": "https://huggingface.co/papers/2606.31551",
@@ -297,7 +277,7 @@
       ]
     },
     {
-      "id": 17,
+      "id": 16,
       "category": "repo",
       "title": "TencentCloud/CubeSandbox: AI Agent 即时安全沙箱",
       "url": "https://github.com/TencentCloud/CubeSandbox",
@@ -317,7 +297,7 @@
       ]
     },
     {
-      "id": 18,
+      "id": 17,
       "category": "repo",
       "title": "allenai/olmocr: PDF 线性化工具包，用于 LLM 数据集和训练",
       "url": "https://github.com/allenai/olmocr",
@@ -334,7 +314,7 @@
       ]
     },
     {
-      "id": 19,
+      "id": 18,
       "category": "news",
       "title": "SpaceX 向投资者展示 xAI 驱动的超薄 AI 手机原型",
       "url": "https://the-decoder.com/spacex-shows-investors-a-slim-ai-smartphone-prototype-powered-by-xai-technology/",
@@ -351,7 +331,7 @@
       ]
     },
     {
-      "id": 20,
+      "id": 19,
       "category": "news",
       "title": "OpenAI 正在做智能音箱：$200-300，带摄像头和面部识别",
       "url": "https://the-decoder.com/openai-is-building-a-200-to-300-smart-speaker-that-tells-you-when-to-go-to-bed/",
