@@ -109,23 +109,6 @@
     {
       "id": 7,
       "category": "news",
-      "title": "OpenAI 论文意外泄露 GPT-5.6 Pro 三个变体",
-      "url": "https://the-decoder.com/openai-paper-reveals-three-gpt-5-6-pro-models-breaking-with-single-top-tier-strategy/",
-      "summary": "OpenAI 基因组学论文暗示 GPT-5.6 Pro 层将推出三个变体，这将是 ChatGPT Pro 结构自上线以来的首次重大变革。",
-      "source": "The Decoder",
-      "highlight": "意外泄露：GPT-5.6 Pro 将分三档，打破单一旗舰策略",
-      "stars": 4,
-      "tags": [
-        "openai",
-        "gpt-5.6",
-        "pro",
-        "product-strategy",
-        "leak"
-      ]
-    },
-    {
-      "id": 8,
-      "category": "news",
       "title": "OpenAI 正在造手机：用 Agent 任务流取代 App 网格",
       "url": "https://the-decoder.com/openais-first-hardware-play-might-be-a-phone-that-replaces-your-app-grid-with-an-agent-task-stream/",
       "summary": "OpenAI 正在规划自己的 AI 智能手机，使用联发科和高通芯片，由立讯精密代工。分析师郭明錤预测 2027 年上半年量产，首两年出货量可达 3000 万台。选择手机形态也说明更实验性的 AI 硬件还未准备好面向主流。",
@@ -144,7 +127,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "category": "news",
       "title": "SpaceX 向 Google 出租 11 万块 Nvidia 芯片：月费 9.2 亿美元",
       "url": "https://the-decoder.com/spacex-signs-920-million-per-month-deal-with-google-for-110000-nvidia-ai-chips-ahead-of-ipo/",
@@ -161,7 +144,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "news",
       "title": "科技巨头 AI 支出今年膨胀至 7250 亿美元",
       "url": "https://the-decoder.com/big-techs-ai-spending-balloons-to-725-billion-this-year/",
@@ -179,7 +162,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "news",
       "title": "Meta 非侵入式脑机接口 AI 正在接近手术植入设备的精度",
       "url": "https://the-decoder.com/metas-non-invasive-brain-to-text-ai-is-closing-the-gap-with-surgical-implants/",
@@ -196,7 +179,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "news",
       "title": "Zuckerberg 用人头换算力：Meta 准备裁员 10% 为 AI 基建买单",
       "url": "https://the-decoder.com/zuckerberg-reportedly-trades-headcount-for-compute-as-meta-readies-to-cut-10-percent-of-its-workforce-to-fund-ai-infrastructure/",
@@ -213,7 +196,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "paper",
       "title": "Seed2.0: 面向真实世界复杂性的智能前沿模型",
       "url": "https://huggingface.co/papers/2607.00248",
@@ -230,7 +213,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "paper",
       "title": "ASPIRE: Agent 技能自动发现用于机器人",
       "url": "https://huggingface.co/papers/2607.00272",
@@ -250,7 +233,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 14,
       "category": "paper",
       "title": "MemSyco-Bench: Agent 记忆中的谄媚行为基准测试",
       "url": "https://huggingface.co/papers/2607.01071",
@@ -271,7 +254,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": 15,
       "category": "paper",
       "title": "CausalMix: 将数据混合视为因果推断的语言模型训练",
       "url": "https://huggingface.co/papers/2607.01104",
@@ -291,7 +274,7 @@
       ]
     },
     {
-      "id": 17,
+      "id": 16,
       "category": "paper",
       "title": "自主科学发现：通过迭代元反思实现",
       "url": "https://huggingface.co/papers/2607.01131",
@@ -311,7 +294,7 @@
       ]
     },
     {
-      "id": 18,
+      "id": 17,
       "category": "paper",
       "title": "AutoTrainess: 教语言模型自主改进语言模型",
       "url": "https://huggingface.co/papers/2606.31551",
@@ -331,7 +314,7 @@
       ]
     },
     {
-      "id": 19,
+      "id": 18,
       "category": "repo",
       "title": "TencentCloud/CubeSandbox: AI Agent 即时安全沙箱",
       "url": "https://github.com/TencentCloud/CubeSandbox",
@@ -351,7 +334,7 @@
       ]
     },
     {
-      "id": 20,
+      "id": 19,
       "category": "repo",
       "title": "allenai/olmocr: PDF 线性化工具包，用于 LLM 数据集和训练",
       "url": "https://github.com/allenai/olmocr",
@@ -368,7 +351,7 @@
       ]
     },
     {
-      "id": 21,
+      "id": 20,
       "category": "news",
       "title": "SpaceX 向投资者展示 xAI 驱动的超薄 AI 手机原型",
       "url": "https://the-decoder.com/spacex-shows-investors-a-slim-ai-smartphone-prototype-powered-by-xai-technology/",
@@ -385,7 +368,7 @@
       ]
     },
     {
-      "id": 22,
+      "id": 21,
       "category": "news",
       "title": "OpenAI 正在做智能音箱：$200-300，带摄像头和面部识别",
       "url": "https://the-decoder.com/openai-is-building-a-200-to-300-smart-speaker-that-tells-you-when-to-go-to-bed/",
