@@ -4,23 +4,6 @@
     {
       "id": 1,
       "category": "news",
-      "title": "Fable 5 解禁：越狱事件后两周恢复全球服务",
-      "url": "https://the-decoder.com/anthropics-fable-5-is-back-worldwide-after-a-two-week-government-ban-over-a-jailbreak/",
-      "summary": "美国政府解除对 Anthropic Fable 5 的两周禁令。Amazon 研究人员此前发现一个越狱漏洞，但 Anthropic 表示连 Haiku 4.5 这样的小模型也能执行同样的攻击。新的安全分类器可拦截 99% 以上的越狱尝试，但也误伤了更多无害请求。",
-      "source": "The Decoder",
-      "highlight": "政府禁令与解禁：越狱漏洞引发的安全过滤升级",
-      "stars": 5,
-      "tags": [
-        "anthropic",
-        "fable-5",
-        "jailbreak",
-        "safety",
-        "government-ban"
-      ]
-    },
-    {
-      "id": 2,
-      "category": "news",
       "title": "Claude Sonnet 5 隐性涨价：token 单价不变但每任务消耗多 40%",
       "url": "https://the-decoder.com/claude-sonnet-5-continues-anthropics-pattern-of-hiding-price-increases-behind-unchanged-token-rates/",
       "summary": "Claude Sonnet 5 在 Artificial Analysis 智能指数排名第五(53分)，在部分 Agent 任务上甚至超越更贵的 Opus 4.8。但模型每任务消耗比前代多约 40% token，实际成本近乎翻倍。Anthropic 的隐性涨价正成为一种模式。",
@@ -36,7 +19,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 2,
       "category": "news",
       "title": "Meta 发布 Muse Spark：首个前沿模型，首次不开源权重",
       "url": "https://the-decoder.com/metas-muse-spark-is-its-first-frontier-model-and-its-first-without-open-weights/",
@@ -53,7 +36,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 3,
       "category": "news",
       "title": "Claude Code 暗藏代码秘密标记中国用户",
       "url": "https://the-decoder.com/hidden-code-in-claude-code-secretly-flagged-chinese-users/",
@@ -70,7 +53,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 4,
       "category": "news",
       "title": "LeCun 向 28 岁的 Alexandr Wang 汇报：Meta AI 领导层大洗牌",
       "url": "https://the-decoder.com/lecun-now-reports-to-alexandr-wang-as-meta-reshuffles-its-top-ai-leadership/",
@@ -87,7 +70,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 5,
       "category": "news",
       "title": "Meta 签数十亿美元协议租用 Google TPU，直接挑战 Nvidia 统治地位",
       "url": "https://the-decoder.com/meta-signs-multi-billion-dollar-deal-to-rent-googles-tpus-in-a-direct-challenge-to-nvidias-ai-chip-dominance/",
@@ -104,7 +87,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 6,
       "category": "news",
       "title": "Meta 效仿 SpaceX 建云业务：对外出售闲置 AI 算力",
       "url": "https://the-decoder.com/meta-follows-spacexs-playbook-and-builds-a-cloud-business-to-sell-its-spare-ai-compute-to-outside-customers/",
@@ -121,7 +104,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 7,
       "category": "news",
       "title": "Deloitte 内部通告：AI 正在终结咨询业按小时计费的模式",
       "url": "https://the-decoder.com/deloitte-tells-its-own-consultants-ai-is-coming-for-the-billable-hour/",
@@ -141,7 +124,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "category": "news",
       "title": "OpenAI 论文意外泄露 GPT-5.6 Pro 三个变体",
       "url": "https://the-decoder.com/openai-paper-reveals-three-gpt-5-6-pro-models-breaking-with-single-top-tier-strategy/",
@@ -158,7 +141,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "news",
       "title": "OpenAI 正在造手机：用 Agent 任务流取代 App 网格",
       "url": "https://the-decoder.com/openais-first-hardware-play-might-be-a-phone-that-replaces-your-app-grid-with-an-agent-task-stream/",
@@ -178,7 +161,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "news",
       "title": "SpaceX 向 Google 出租 11 万块 Nvidia 芯片：月费 9.2 亿美元",
       "url": "https://the-decoder.com/spacex-signs-920-million-per-month-deal-with-google-for-110000-nvidia-ai-chips-ahead-of-ipo/",
@@ -195,7 +178,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "news",
       "title": "科技巨头 AI 支出今年膨胀至 7250 亿美元",
       "url": "https://the-decoder.com/big-techs-ai-spending-balloons-to-725-billion-this-year/",
@@ -213,7 +196,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "news",
       "title": "Meta 非侵入式脑机接口 AI 正在接近手术植入设备的精度",
       "url": "https://the-decoder.com/metas-non-invasive-brain-to-text-ai-is-closing-the-gap-with-surgical-implants/",
@@ -230,7 +213,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "news",
       "title": "Zuckerberg 用人头换算力：Meta 准备裁员 10% 为 AI 基建买单",
       "url": "https://the-decoder.com/zuckerberg-reportedly-trades-headcount-for-compute-as-meta-readies-to-cut-10-percent-of-its-workforce-to-fund-ai-infrastructure/",
@@ -247,7 +230,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 14,
       "category": "paper",
       "title": "Seed2.0: 面向真实世界复杂性的智能前沿模型",
       "url": "https://huggingface.co/papers/2607.00248",
@@ -264,7 +247,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": 15,
       "category": "paper",
       "title": "ASPIRE: Agent 技能自动发现用于机器人",
       "url": "https://huggingface.co/papers/2607.00272",
@@ -284,7 +267,7 @@
       ]
     },
     {
-      "id": 17,
+      "id": 16,
       "category": "paper",
       "title": "MemSyco-Bench: Agent 记忆中的谄媚行为基准测试",
       "url": "https://huggingface.co/papers/2607.01071",
@@ -305,7 +288,7 @@
       ]
     },
     {
-      "id": 18,
+      "id": 17,
       "category": "paper",
       "title": "CausalMix: 将数据混合视为因果推断的语言模型训练",
       "url": "https://huggingface.co/papers/2607.01104",
@@ -325,7 +308,7 @@
       ]
     },
     {
-      "id": 19,
+      "id": 18,
       "category": "paper",
       "title": "自主科学发现：通过迭代元反思实现",
       "url": "https://huggingface.co/papers/2607.01131",
@@ -345,7 +328,7 @@
       ]
     },
     {
-      "id": 20,
+      "id": 19,
       "category": "paper",
       "title": "AutoTrainess: 教语言模型自主改进语言模型",
       "url": "https://huggingface.co/papers/2606.31551",
@@ -365,7 +348,7 @@
       ]
     },
     {
-      "id": 21,
+      "id": 20,
       "category": "repo",
       "title": "TencentCloud/CubeSandbox: AI Agent 即时安全沙箱",
       "url": "https://github.com/TencentCloud/CubeSandbox",
@@ -385,7 +368,7 @@
       ]
     },
     {
-      "id": 22,
+      "id": 21,
       "category": "repo",
       "title": "allenai/olmocr: PDF 线性化工具包，用于 LLM 数据集和训练",
       "url": "https://github.com/allenai/olmocr",
@@ -402,7 +385,7 @@
       ]
     },
     {
-      "id": 23,
+      "id": 22,
       "category": "news",
       "title": "SpaceX 向投资者展示 xAI 驱动的超薄 AI 手机原型",
       "url": "https://the-decoder.com/spacex-shows-investors-a-slim-ai-smartphone-prototype-powered-by-xai-technology/",
@@ -419,7 +402,7 @@
       ]
     },
     {
-      "id": 24,
+      "id": 23,
       "category": "news",
       "title": "OpenAI 正在做智能音箱：$200-300，带摄像头和面部识别",
       "url": "https://the-decoder.com/openai-is-building-a-200-to-300-smart-speaker-that-tells-you-when-to-go-to-bed/",
