@@ -1,0 +1,175 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "Anthropic指控DeepSeek、Moonshot和MiniMax通过1600万次查询窃取Claude数据",
+      "url": "https://the-decoder.com/anthropic-accuses-deepseek-moonshot-and-minimax-of-stealing-claudes-ai-data-through-16-million-queries/",
+      "summary": "Anthropic称中国AI实验室DeepSeek、Moonshot和MiniMax使用数百万次查询系统性提取Claude的能力来训练自己的模型。这是AI行业首次公开指控竞对通过API进行模型蒸馏。",
+      "source": "The Decoder",
+      "tags": ["anthropic", "deepseek", "data-theft"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "Anthropic启动自研药物发现计划，瞄准大药企不做的冷门疾病",
+      "url": "https://the-decoder.com/anthropic-launches-its-own-drug-discovery-programs-to-tackle-diseases-big-pharma-considers-unprofitable/",
+      "summary": "Anthropic启动针对被忽视疾病的自研药物开发项目。诺华CEO认为AI可将开发周期从12年缩短至7-8年，成功率从8%提高到16%。Anthropic正将AI能力延伸至生物医药领域。",
+      "source": "The Decoder",
+      "tags": ["anthropic", "drug-discovery", "applied"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "Claude Cowork桌面代理向所有Pro用户开放",
+      "url": "https://the-decoder.com/anthropic-opens-claude-cowork-ai-agent-to-all-pro-subscribers/",
+      "summary": "Anthropic的桌面代理功能Cowork现已向Pro订阅用户开放，此前仅限Max用户。这使得Pro用户也能让Claude直接操作桌面应用完成任务。",
+      "source": "The Decoder",
+      "tags": ["anthropic", "agent", "desktop"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "Project Glasswing扩展至15国150个合作伙伴，猎取关键软件漏洞",
+      "url": "https://the-decoder.com/anthropic-scales-project-glasswing-to-150-partners-across-15-countries-to-hunt-critical-software-flaws/",
+      "summary": "Anthropic将Project Glasswing扩展到15个国家的150个合作伙伴，使用Claude Mythos Preview扫描关键基础设施漏洞。已发现超1万个严重漏洞。同时Anthropic通过Claude Security商业化修复方案盈利。",
+      "source": "The Decoder",
+      "tags": ["security", "anthropic", "infrastructure"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "Claude Mythos Preview发现漏洞的速度超过开发者修补速度",
+      "url": "https://the-decoder.com/anthropic-warns-claude-mythos-preview-finds-bugs-faster-than-developers-can-patch-them/",
+      "summary": "Claude Mythos Preview与约50个合作伙伴合作，已在系统关键软件中发现超1万个严重漏洞。Anthropic警告漏洞堆积速度超过修补速度，形成高风险过渡期，且无公司有足够防护措施防止滥用。",
+      "source": "The Decoder",
+      "tags": ["security", "frontier", "risk"]
+    },
+    {
+      "id": 6,
+      "category": "news",
+      "title": "字节跳动Seedance 2.5突破AI视频30秒时长限制",
+      "url": "https://the-decoder.com/bytedances-seedance-2-5-breaks-the-30-second-barrier-for-ai-video-generation/",
+      "summary": "字节跳动在火山引擎FORCE大会上发布五款新AI模型，核心是Seedance 2.5视频模型，突破了AI生成视频30秒的时长瓶颈，计划7月初上线。",
+      "source": "The Decoder",
+      "tags": ["video-generation", "bytedance", "multimodal"]
+    },
+    {
+      "id": 7,
+      "category": "news",
+      "title": "中国AI初创企业掀起IPO浪潮，抢先硅谷登陆公开市场",
+      "url": "https://the-decoder.com/chinese-ai-startups-beat-silicon-valley-to-the-public-markets-in-a-massive-ipo-wave/",
+      "summary": "DeepSeek的崛起推动中国AI公司扎堆上市。智谱AI有望成为首家上市的大语言模型公司，而OpenAI和Anthropic仍在筹划IPO中。",
+      "source": "The Decoder",
+      "tags": ["china", "ipo", "industry"]
+    },
+    {
+      "id": 8,
+      "category": "news",
+      "title": "Kling 3.0：中国AI视频模型迈向可用创意资产",
+      "url": "https://the-decoder.com/chinese-ai-video-model-kling-3-0-takes-another-step-toward-usable-creative-assets/",
+      "summary": "Kling AI发布视频模型3.0，支持更长片段、改进角色一致性以及4K图像生成。向可商用的创意资产工具进一步迈进。",
+      "source": "The Decoder",
+      "tags": ["video-generation", "china", "creative"]
+    },
+    {
+      "id": 9,
+      "category": "news",
+      "title": "Frontier Radar #3：代理AI如何将token变为商业指标",
+      "url": "https://the-decoder.com/frontier-radar-3-how-agentic-ai-is-turning-tokens-into-a-business-metric/",
+      "summary": "代理工作流消耗的token是传统聊天的数倍，自主运行数小时使固定费率变得不可行。token价格因速度、专业化和经济价值而异。AI计费模式正从订阅制转向消费制。",
+      "source": "The Decoder",
+      "tags": ["agent", "business-model", "analysis"]
+    },
+    {
+      "id": 10,
+      "category": "news",
+      "title": "Google Veo 3.1更新：更锐利画面、更真实纹理和改进音频",
+      "url": "https://the-decoder.com/googles-veo-3-1-update-delivers-sharper-visuals-more-realistic-textures-and-improved-audio/",
+      "summary": "Google推出最新视频AI模型Veo 3.1，为Flow平台和其他Google服务提供更高质量的视频生成，在画面清晰度、纹理真实感和音频方面均有提升。",
+      "source": "The Decoder",
+      "tags": ["google", "video-generation", "multimodal"]
+    },
+    {
+      "id": 11,
+      "category": "news",
+      "title": "德国里程碑判决：Google须为AI概览中的错误内容负责",
+      "url": "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/",
+      "summary": "德国法院裁定Google对其AI搜索概览内容直接负责，此前搜索引擎的有限责任保护不适用于AI概览。Google AI曾将两家出版商错误关联到欺诈行为。该判决可能为全球AI内容责任立法树立先例。",
+      "source": "The Decoder",
+      "tags": ["regulation", "google", "legal"]
+    },
+    {
+      "id": 12,
+      "category": "news",
+      "title": "MPA称字节跳动Seedance 2.0是为系统性侵权而建的机器",
+      "url": "https://the-decoder.com/hollywoods-mpa-calls-bytedances-seedance-2-0-a-machine-built-for-systemic-infringement/",
+      "summary": "好莱坞MPA正式对字节跳动Seedance 2.0发难，Netflix、华纳、迪士尼、派拉蒙和索尼联合指控该AI视频生成器基于窃取的内容训练。其API上线可能已暂停。",
+      "source": "The Decoder",
+      "tags": ["copyright", "video-generation", "legal"]
+    },
+    {
+      "id": 13,
+      "category": "paper",
+      "title": "优化训练策略的幻象：单调推理策略才是LLM强化学习的真正目标",
+      "url": "https://huggingface.co/papers/2606.29526",
+      "summary": "揭示LLM强化学习中的一个关键洞察：优化训练策略本身可能是幻象，单调推理策略（推理时的一致性行为）才是真正需要优化的目标。",
+      "source": "HuggingFace Papers",
+      "tags": ["reinforcement-learning", "post-training", "theory"]
+    },
+    {
+      "id": 14,
+      "category": "paper",
+      "title": "AGE：图检索增强生成中的自适应掩码图嵌入",
+      "url": "https://huggingface.co/papers/2607.00052",
+      "summary": "提出AGE方法，通过自适应掩码机制改进图嵌入质量，提升图检索增强生成(Graph RAG)的效果。为结构化知识与LLM的结合提供新思路。",
+      "source": "HuggingFace Papers",
+      "tags": ["rag", "graph", "retrieval"]
+    },
+    {
+      "id": 15,
+      "category": "paper",
+      "title": "Embodied.cpp：异构机器人上具身AI模型的便携推理运行时",
+      "url": "https://huggingface.co/papers/2607.02501",
+      "summary": "提出Embodied.cpp，一个可在异构机器人硬件上运行具身AI模型的轻量级推理运行时。降低了将AI模型部署到不同机器人平台的门槛。",
+      "source": "HuggingFace Papers",
+      "tags": ["robotics", "inference", "edge"]
+    },
+    {
+      "id": 16,
+      "category": "repo",
+      "title": "ruvnet/RuView - WiFi信号实时空间感知",
+      "url": "https://github.com/ruvnet/RuView",
+      "summary": "将普通WiFi信号转化为实时空间智能、生命体征监测和存在检测，无需任何摄像头。纯无线电信号实现非视觉感知。",
+      "source": "GitHub Trending",
+      "tags": ["sensing", "privacy", "edge-ai"]
+    },
+    {
+      "id": 17,
+      "category": "repo",
+      "title": "Leonxlnx/taste-skill - 给AI以好品味",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "summary": "Claude Code技能插件，防止AI生成无聊、通用的内容。通过品味约束让AI输出更有个性和质量。",
+      "source": "GitHub Trending",
+      "tags": ["claude-code", "skills", "quality"]
+    },
+    {
+      "id": 18,
+      "category": "repo",
+      "title": "hesreallyhim/awesome-claude-code - Claude Code资源精选",
+      "url": "https://github.com/hesreallyhim/awesome-claude-code",
+      "summary": "精选Claude Code生态资源合集，涵盖技能、代理、状态栏、开发工具和插件。为Claude Code用户提供一站式资源导航。",
+      "source": "GitHub Trending",
+      "tags": ["claude-code", "awesome-list", "ecosystem"]
+    },
+    {
+      "id": 19,
+      "category": "repo",
+      "title": "immich-app/immich - 高性能自托管照片管理",
+      "url": "https://github.com/immich-app/immich",
+      "summary": "高性能自托管照片和视频管理方案，支持AI辅助的人脸识别、地图视图和智能搜索。Google Photos的开源替代品。",
+      "source": "GitHub Trending",
+      "tags": ["self-hosted", "photos", "open-source"]
+    }
+  ]
+}
