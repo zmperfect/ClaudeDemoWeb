@@ -1,0 +1,157 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "Anthropic将Claude Code系统提示缩减80%：Fable 5需要更少指令",
+      "url": "https://the-decoder.com/anthropic-says-it-cut-80-percent-of-claude-codes-system-prompt-because-fable-5-models-want-a-smaller-system-prompt/",
+      "summary": "Anthropic将Claude Code的系统提示缩减了80%。员工Tariq Shihipar表示，Fable 5模型需要更少的指令和示例，过多规则反而会限制模型发挥。Anthropic现在通过上下文而非严格规则来引导模型行为。",
+      "source": "The Decoder",
+      "tags": ["claude-code", "fable-5", "prompting"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "Fable 5在被政府禁令两周后恢复全球可用",
+      "url": "https://the-decoder.com/anthropics-fable-5-is-back-worldwide-after-a-two-week-government-ban-over-a-jailbreak/",
+      "summary": "美国政府允许Anthropic重新全球发布Fable 5。此前Amazon研究人员发现了一个越狱漏洞，但Anthropic指出更小的模型如Haiku 4.5也能实现同样的利用。新的安全分类器可在99%以上情况下阻止该技术。",
+      "source": "The Decoder",
+      "tags": ["fable-5", "safety", "regulation"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "Claude Code可能运行GitHub仓库中的隐藏恶意代码",
+      "url": "https://the-decoder.com/claude-code-runs-a-github-repos-hidden-malware-without-verification-giving-attackers-full-control/",
+      "summary": "Mozilla 0DIN平台的安全研究人员展示了一个被入侵的GitHub仓库如何在Claude Code运行其设置时接管开发者机器。恶意代码仅在运行时通过DNS查询加载，对仓库扫描器和AI代理均不可见。",
+      "source": "The Decoder",
+      "tags": ["security", "claude-code", "supply-chain"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "菲尔兹奖得主：ChatGPT 5.5 Pro两小时内完成博士级数学研究",
+      "url": "https://the-decoder.com/fields-medalist-says-chatgpt-5-5-pro-delivered-phd-level-math-research-in-under-two-hours-with-zero-human-help/",
+      "summary": "菲尔兹奖得主Timothy Gowers让ChatGPT 5.5 Pro解决数论中的开放问题。模型在不到一小时内将指数界改进为多项式界。MIT研究者称其关键思路完全原创。Gowers总结：数学贡献的门槛现在是证明LLM做不到的事。",
+      "source": "The Decoder",
+      "tags": ["math", "reasoning", "frontier"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "OpenAI论文意外泄露GPT-5.6 Pro三款变体",
+      "url": "https://the-decoder.com/openai-paper-reveals-three-gpt-5-6-pro-models-breaking-with-single-top-tier-strategy/",
+      "summary": "OpenAI一篇基因组学论文暗示GPT-5.6的Pro层级可能发布三个变体。这将是ChatGPT Pro计划结构自推出以来的首次重大改变。",
+      "source": "The Decoder",
+      "tags": ["openai", "gpt-5.6", "product"]
+    },
+    {
+      "id": 6,
+      "category": "news",
+      "title": "Sam Altman：一代研究者因低估扩展能力而拖慢了AI发展",
+      "url": "https://the-decoder.com/sam-altman-says-a-whole-generation-of-researchers-held-ai-back-by-underestimating-what-scaling-could-do/",
+      "summary": "在斯坦福演讲中，Sam Altman为LLM扩展辩护，称一代研究者因低估扩展能力而减缓了该领域发展。他引用OpenAI最近推翻一个数学猜想作为证据。",
+      "source": "The Decoder",
+      "tags": ["openai", "scaling", "industry"]
+    },
+    {
+      "id": 7,
+      "category": "news",
+      "title": "AI私立学校向美国富裕家庭兜售个性化学习",
+      "url": "https://the-decoder.com/ai-private-schools-sell-wealthy-us-families-on-personalized-learning-over-traditional-education/",
+      "summary": "越来越多美国富裕家庭将孩子送入Alpha School等AI学校，结合两小时AI辅导与项目制工作坊，年学费高达7.5万美元。这凸显了AI时代日益扩大的教育差距。",
+      "source": "The Decoder",
+      "tags": ["education", "ai-impact", "society"]
+    },
+    {
+      "id": 8,
+      "category": "paper",
+      "title": "PACE：代理能力评估的代理基准",
+      "url": "https://huggingface.co/papers/2607.02032",
+      "summary": "提出PACE(Proxy for Agentic Capability Evaluation)，一种面向可靠性的代理能力评估框架，为衡量LLM代理在实际任务中的表现提供标准化方法。",
+      "source": "HuggingFace Papers",
+      "tags": ["agent", "benchmark", "evaluation"]
+    },
+    {
+      "id": 9,
+      "category": "paper",
+      "title": "SkillCoach：自进化的代理技能评估与增强框架",
+      "url": "https://huggingface.co/papers/2607.01874",
+      "summary": "SkillCoach通过自进化的评分标准来评估和增强代理的技能使用能力。框架能自动发现代理弱点并针对性提升，无需人工标注。",
+      "source": "HuggingFace Papers",
+      "tags": ["agent", "self-improvement", "evaluation"]
+    },
+    {
+      "id": 10,
+      "category": "paper",
+      "title": "AutoMem：将记忆作为认知技能的自动学习",
+      "url": "https://huggingface.co/papers/2607.01224",
+      "summary": "AutoMem将记忆能力视为可学习的认知技能，让模型自动学习何时存储、检索和遗忘信息。为长上下文代理提供更自然的记忆管理机制。",
+      "source": "HuggingFace Papers",
+      "tags": ["memory", "agent", "cognitive"]
+    },
+    {
+      "id": 11,
+      "category": "paper",
+      "title": "Logit-Contribution Scoring识别非字面检索头",
+      "url": "https://huggingface.co/papers/2607.01002",
+      "summary": "提出Logit-Contribution Scoring方法，用于识别Transformer中的非字面检索头。揭示了模型内部信息检索的新机制，有助于理解大模型的推理过程。",
+      "source": "HuggingFace Papers",
+      "tags": ["interpretability", "transformer", "research"]
+    },
+    {
+      "id": 12,
+      "category": "paper",
+      "title": "打破失败级联：面向医学多模态推理的步骤感知强化学习",
+      "url": "https://huggingface.co/papers/2606.31825",
+      "summary": "提出步骤感知强化学习方法解决医学多模态推理中的失败级联问题。当推理链中一步出错导致后续步骤全部失败时，该方法能针对性修复关键步骤。",
+      "source": "HuggingFace Papers",
+      "tags": ["medical-ai", "reasoning", "reinforcement-learning"]
+    },
+    {
+      "id": 13,
+      "category": "repo",
+      "title": "alirezarezvani/claude-skills - 337个Claude Code技能合集",
+      "url": "https://github.com/alirezarezvani/claude-skills",
+      "summary": "收录337个Claude Code技能与代理技能，包含30+代理、70+自定义命令，覆盖工程、营销、产品、合规等领域。兼容Claude Code、Codex、Gemini CLI等8+编码代理。",
+      "source": "GitHub Trending",
+      "tags": ["claude-code", "skills", "agent"]
+    },
+    {
+      "id": 14,
+      "category": "repo",
+      "title": "asgeirtj/system_prompts_leaks - AI系统提示词收集",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "summary": "提取并收集了Claude Fable 5、Opus 4.8、ChatGPT 5.5、GPT 5.5 Instant、Gemini 3.5 Flash、Grok等主流AI系统的系统提示词。定期更新。",
+      "source": "GitHub Trending",
+      "tags": ["system-prompt", "reverse-engineering", "collection"]
+    },
+    {
+      "id": 15,
+      "category": "repo",
+      "title": "Zackriya-Solutions/meetily - 本地AI会议助手",
+      "url": "https://github.com/Zackriya-Solutions/meetily",
+      "summary": "隐私优先的AI会议助手，基于Rust构建，支持Parakeet/Whisper实时转录（4倍速）、说话人分离和Ollama本地摘要。100%本地处理，无需云端。",
+      "source": "GitHub Trending",
+      "tags": ["meeting", "privacy", "local-ai"]
+    },
+    {
+      "id": 16,
+      "category": "repo",
+      "title": "usestrix/strix - 开源AI渗透测试工具",
+      "url": "https://github.com/usestrix/strix",
+      "summary": "开源AI渗透测试工具，自动发现并修复应用程序漏洞。将AI能力应用于安全测试自动化，降低安全审计门槛。",
+      "source": "GitHub Trending",
+      "tags": ["security", "pentesting", "open-source"]
+    },
+    {
+      "id": 17,
+      "category": "repo",
+      "title": "steipete/CodexBar - Codex和Claude Code用量统计",
+      "url": "https://github.com/steipete/CodexBar",
+      "summary": "无需登录即可查看OpenAI Codex和Claude Code的使用统计数据。为开发者提供便捷的token消耗监控工具。",
+      "source": "GitHub Trending",
+      "tags": ["developer-tools", "monitoring", "claude-code"]
+    }
+  ]
+}
