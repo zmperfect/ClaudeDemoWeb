@@ -29,19 +29,6 @@
     {
       "id": 3,
       "category": "news",
-      "title": "Anthropic开发者分享Fable 5提示词技巧：先发现自己的盲区",
-      "url": "https://the-decoder.com/anthropic-developer-shares-prompting-tips-for-fable-5-that-focus-on-finding-your-own-blind-spots-first/",
-      "summary": "Anthropic开发者Thariq Shihipar认为，Fable 5的瓶颈不再是模型本身，而是用户的盲区。他描述了盲区扫描和结构化访谈等技术，帮助程序员在让Claude实现代码前系统性发现自己的知识盲点。",
-      "source": "The Decoder",
-      "tags": [
-        "prompting",
-        "fable-5",
-        "developer-tools"
-      ]
-    },
-    {
-      "id": 4,
-      "category": "news",
       "title": "百度「无限OCR」：模拟人类遗忘机制，一次处理数十页文档",
       "url": "https://the-decoder.com/baidus-unlimited-ocr-processes-dozens-of-document-pages-in-one-pass-by-treating-memory-like-human-forgetting/",
       "summary": "百度的Unlimited OCR通过改进的注意力机制，可在单次推理中处理数十页文档，此前系统上限约10页。内存使用量不随页数增长，目前在最重要的OCR基准测试中排名第一。",
@@ -53,7 +40,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 4,
       "category": "news",
       "title": "ChatGPT新浏览功能表现不如搜索引擎",
       "url": "https://the-decoder.com/chatgpts-new-browsing-feature-is-worse-than-search-engines/",
@@ -66,7 +53,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 5,
       "category": "news",
       "title": "Claude Code + Fable 5数小时内将2003年PC游戏移植到iOS",
       "url": "https://the-decoder.com/claude-code-and-fable-5-ported-the-2003-pc-game-command-conquer-to-native-ios-in-a-few-hours/",
@@ -79,7 +66,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 6,
       "category": "news",
       "title": "OpenAI开放ChatGPT平台：开发者可直接构建和部署应用与代理",
       "url": "https://the-decoder.com/developers-can-now-build-and-deploy-both-apps-and-agents-directly-on-the-chatgpt-platform/",
@@ -92,7 +79,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 7,
       "category": "news",
       "title": "GPT和Claude在桥水金融测试中失败：正确答案从未公开过",
       "url": "https://the-decoder.com/gpt-and-claude-failed-bridgewaters-finance-tests-because-the-right-answers-were-never-public/",
@@ -105,7 +92,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "category": "news",
       "title": "好莱坞想禁Seedance，但据报也想继续用它",
       "url": "https://the-decoder.com/hollywood-wants-seedance-banned-and-reportedly-also-wants-to-keep-using-it/",
@@ -118,7 +105,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "news",
       "title": "Mistral CEO警告：专有AI模型让实验室深入窥视你的业务流程",
       "url": "https://the-decoder.com/mistral-ceo-mensch-says-proprietary-ai-models-give-labs-a-front-row-seat-to-your-business-processes/",
@@ -131,7 +118,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "news",
       "title": "开源工具pxpipe将文本隐藏在PNG中，为Claude Code节省70% token成本",
       "url": "https://the-decoder.com/open-source-tool-pxpipe-hides-text-in-pngs-to-cut-claude-code-and-fable-5-token-costs-up-to-70/",
@@ -144,7 +131,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "news",
       "title": "OpenAI联合创始人设想\"几乎无界面\"的未来",
       "url": "https://the-decoder.com/openai-cofounder-envisions-almost-no-interface-future-where-nobody-learns-software-anymore/",
@@ -157,7 +144,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "news",
       "title": "OpenAI计划将ChatGPT、Codex和Atlas浏览器合并为桌面超级应用",
       "url": "https://the-decoder.com/openai-plans-to-merge-chatgpt-codex-and-atlas-browser-into-a-single-desktop-superapp/",
@@ -170,7 +157,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "news",
       "title": "OpenAI自定义GPT可能允许用户下载你上传的知识文件",
       "url": "https://the-decoder.com/openais-custom-chatgpts-might-let-users-download-your-uploaded-knowledge-files/",
@@ -183,7 +170,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 14,
       "category": "paper",
       "title": "Program-as-Weights：模糊函数的编程范式",
       "url": "https://huggingface.co/papers/2607.02512",
@@ -196,7 +183,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": 15,
       "category": "paper",
       "title": "AgenticSTS：有限内存下的长期LLM代理测试平台",
       "url": "https://huggingface.co/papers/2607.02255",
@@ -209,7 +196,7 @@
       ]
     },
     {
-      "id": 17,
+      "id": 16,
       "category": "paper",
       "title": "WorldDirector：构建具有持久动态记忆的可控世界模拟器",
       "url": "https://huggingface.co/papers/2607.02517",
@@ -222,7 +209,7 @@
       ]
     },
     {
-      "id": 18,
+      "id": 17,
       "category": "paper",
       "title": "EvoPolicyGym：交互环境中自主策略演化的评估平台",
       "url": "https://huggingface.co/papers/2607.02440",
@@ -235,7 +222,7 @@
       ]
     },
     {
-      "id": 19,
+      "id": 18,
       "category": "paper",
       "title": "Multi-Resolution Flow Matching：免训练的扩散加速方法",
       "url": "https://huggingface.co/papers/2607.01642",
@@ -248,7 +235,7 @@
       ]
     },
     {
-      "id": 20,
+      "id": 19,
       "category": "repo",
       "title": "alibaba/page-agent - 网页内GUI代理",
       "url": "https://github.com/alibaba/page-agent",
@@ -261,7 +248,7 @@
       ]
     },
     {
-      "id": 21,
+      "id": 20,
       "category": "repo",
       "title": "CoplayDev/unity-mcp - Unity编辑器的AI桥接工具",
       "url": "https://github.com/CoplayDev/unity-mcp",
@@ -274,7 +261,7 @@
       ]
     },
     {
-      "id": 22,
+      "id": 21,
       "category": "repo",
       "title": "ogulcancelik/herdr - 终端中的代理多路复用器",
       "url": "https://github.com/ogulcancelik/herdr",
