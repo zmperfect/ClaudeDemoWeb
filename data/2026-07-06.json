@@ -94,19 +94,6 @@
     {
       "id": 8,
       "category": "news",
-      "title": "Mistral CEO警告：专有AI模型让实验室深入窥视你的业务流程",
-      "url": "https://the-decoder.com/mistral-ceo-mensch-says-proprietary-ai-models-give-labs-a-front-row-seat-to-your-business-processes/",
-      "summary": "Mistral创始人Arthur Mensch警告企业不要依赖闭源AI模型，声称AI实验室正存储越来越多客户数据，某些情况下甚至利用这些数据与客户竞争。Mistral押注欧盟数据主权作为战略优势。",
-      "source": "The Decoder",
-      "tags": [
-        "mistral",
-        "open-source",
-        "privacy"
-      ]
-    },
-    {
-      "id": 9,
-      "category": "news",
       "title": "开源工具pxpipe将文本隐藏在PNG中，为Claude Code节省70% token成本",
       "url": "https://the-decoder.com/open-source-tool-pxpipe-hides-text-in-pngs-to-cut-claude-code-and-fable-5-token-costs-up-to-70/",
       "summary": "开源工具pxpipe将长文本提示转换为紧凑PNG图片，利用Anthropic按像素大小而非文本内容计费的特点。开发者Steven Chong报告成本节省59-70%，但以准确性和速度为代价。",
@@ -118,7 +105,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "news",
       "title": "OpenAI联合创始人设想\"几乎无界面\"的未来",
       "url": "https://the-decoder.com/openai-cofounder-envisions-almost-no-interface-future-where-nobody-learns-software-anymore/",
@@ -131,7 +118,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "news",
       "title": "OpenAI计划将ChatGPT、Codex和Atlas浏览器合并为桌面超级应用",
       "url": "https://the-decoder.com/openai-plans-to-merge-chatgpt-codex-and-atlas-browser-into-a-single-desktop-superapp/",
@@ -144,7 +131,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "news",
       "title": "OpenAI自定义GPT可能允许用户下载你上传的知识文件",
       "url": "https://the-decoder.com/openais-custom-chatgpts-might-let-users-download-your-uploaded-knowledge-files/",
@@ -157,7 +144,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "paper",
       "title": "Program-as-Weights：模糊函数的编程范式",
       "url": "https://huggingface.co/papers/2607.02512",
@@ -170,7 +157,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "paper",
       "title": "AgenticSTS：有限内存下的长期LLM代理测试平台",
       "url": "https://huggingface.co/papers/2607.02255",
@@ -183,7 +170,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 14,
       "category": "paper",
       "title": "WorldDirector：构建具有持久动态记忆的可控世界模拟器",
       "url": "https://huggingface.co/papers/2607.02517",
@@ -196,7 +183,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": 15,
       "category": "paper",
       "title": "EvoPolicyGym：交互环境中自主策略演化的评估平台",
       "url": "https://huggingface.co/papers/2607.02440",
@@ -209,7 +196,7 @@
       ]
     },
     {
-      "id": 17,
+      "id": 16,
       "category": "paper",
       "title": "Multi-Resolution Flow Matching：免训练的扩散加速方法",
       "url": "https://huggingface.co/papers/2607.01642",
@@ -222,7 +209,7 @@
       ]
     },
     {
-      "id": 18,
+      "id": 17,
       "category": "repo",
       "title": "alibaba/page-agent - 网页内GUI代理",
       "url": "https://github.com/alibaba/page-agent",
@@ -235,7 +222,7 @@
       ]
     },
     {
-      "id": 19,
+      "id": 18,
       "category": "repo",
       "title": "CoplayDev/unity-mcp - Unity编辑器的AI桥接工具",
       "url": "https://github.com/CoplayDev/unity-mcp",
@@ -248,7 +235,7 @@
       ]
     },
     {
-      "id": 20,
+      "id": 19,
       "category": "repo",
       "title": "ogulcancelik/herdr - 终端中的代理多路复用器",
       "url": "https://github.com/ogulcancelik/herdr",
