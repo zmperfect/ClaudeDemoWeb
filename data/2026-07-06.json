@@ -133,19 +133,6 @@
     {
       "id": 11,
       "category": "paper",
-      "title": "Program-as-Weights：模糊函数的编程范式",
-      "url": "https://huggingface.co/papers/2607.02512",
-      "summary": "提出将程序本身作为权重的编程范式，用于处理模糊函数。这一新颖的方法将传统编程与神经网络权重概念统一，为可编程AI系统提供理论基础。",
-      "source": "HuggingFace Papers",
-      "tags": [
-        "programming-paradigm",
-        "theory",
-        "neural-networks"
-      ]
-    },
-    {
-      "id": 12,
-      "category": "paper",
       "title": "AgenticSTS：有限内存下的长期LLM代理测试平台",
       "url": "https://huggingface.co/papers/2607.02255",
       "summary": "提出AgenticSTS基准，在有限内存约束下测试长周期LLM代理的能力。填补了长期代理在资源约束环境下评估的空白。",
@@ -157,7 +144,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "paper",
       "title": "WorldDirector：构建具有持久动态记忆的可控世界模拟器",
       "url": "https://huggingface.co/papers/2607.02517",
@@ -170,7 +157,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "paper",
       "title": "EvoPolicyGym：交互环境中自主策略演化的评估平台",
       "url": "https://huggingface.co/papers/2607.02440",
@@ -183,7 +170,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 14,
       "category": "paper",
       "title": "Multi-Resolution Flow Matching：免训练的扩散加速方法",
       "url": "https://huggingface.co/papers/2607.01642",
@@ -196,7 +183,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": 15,
       "category": "repo",
       "title": "alibaba/page-agent - 网页内GUI代理",
       "url": "https://github.com/alibaba/page-agent",
@@ -209,7 +196,7 @@
       ]
     },
     {
-      "id": 17,
+      "id": 16,
       "category": "repo",
       "title": "CoplayDev/unity-mcp - Unity编辑器的AI桥接工具",
       "url": "https://github.com/CoplayDev/unity-mcp",
@@ -222,7 +209,7 @@
       ]
     },
     {
-      "id": 18,
+      "id": 17,
       "category": "repo",
       "title": "ogulcancelik/herdr - 终端中的代理多路复用器",
       "url": "https://github.com/ogulcancelik/herdr",
