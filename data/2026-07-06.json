@@ -68,19 +68,6 @@
     {
       "id": 6,
       "category": "news",
-      "title": "OpenAI开放ChatGPT平台：开发者可直接构建和部署应用与代理",
-      "url": "https://the-decoder.com/developers-can-now-build-and-deploy-both-apps-and-agents-directly-on-the-chatgpt-platform/",
-      "summary": "OpenAI在今年Dev Day上将ChatGPT推向第三方应用和AI代理平台方向，引入新的开发者工具，使开发者可以直接在ChatGPT平台上构建和部署应用及代理。",
-      "source": "The Decoder",
-      "tags": [
-        "openai",
-        "platform",
-        "agent"
-      ]
-    },
-    {
-      "id": 7,
-      "category": "news",
       "title": "GPT和Claude在桥水金融测试中失败：正确答案从未公开过",
       "url": "https://the-decoder.com/gpt-and-claude-failed-bridgewaters-finance-tests-because-the-right-answers-were-never-public/",
       "summary": "桥水基金与前OpenAI CTO Mira Murati的Thinking Machines Lab合作微调了Qwen3-235B模型用于金融任务，准确率达84.7%，超过Gemini、Claude和GPT，成本仅为后者的1/14。但数据未经外部验证。",
@@ -92,7 +79,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 7,
       "category": "news",
       "title": "好莱坞想禁Seedance，但据报也想继续用它",
       "url": "https://the-decoder.com/hollywood-wants-seedance-banned-and-reportedly-also-wants-to-keep-using-it/",
@@ -105,7 +92,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "category": "news",
       "title": "Mistral CEO警告：专有AI模型让实验室深入窥视你的业务流程",
       "url": "https://the-decoder.com/mistral-ceo-mensch-says-proprietary-ai-models-give-labs-a-front-row-seat-to-your-business-processes/",
@@ -118,7 +105,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "news",
       "title": "开源工具pxpipe将文本隐藏在PNG中，为Claude Code节省70% token成本",
       "url": "https://the-decoder.com/open-source-tool-pxpipe-hides-text-in-pngs-to-cut-claude-code-and-fable-5-token-costs-up-to-70/",
@@ -131,7 +118,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "news",
       "title": "OpenAI联合创始人设想\"几乎无界面\"的未来",
       "url": "https://the-decoder.com/openai-cofounder-envisions-almost-no-interface-future-where-nobody-learns-software-anymore/",
@@ -144,7 +131,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "news",
       "title": "OpenAI计划将ChatGPT、Codex和Atlas浏览器合并为桌面超级应用",
       "url": "https://the-decoder.com/openai-plans-to-merge-chatgpt-codex-and-atlas-browser-into-a-single-desktop-superapp/",
@@ -157,7 +144,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "news",
       "title": "OpenAI自定义GPT可能允许用户下载你上传的知识文件",
       "url": "https://the-decoder.com/openais-custom-chatgpts-might-let-users-download-your-uploaded-knowledge-files/",
@@ -170,7 +157,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "paper",
       "title": "Program-as-Weights：模糊函数的编程范式",
       "url": "https://huggingface.co/papers/2607.02512",
@@ -183,7 +170,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 14,
       "category": "paper",
       "title": "AgenticSTS：有限内存下的长期LLM代理测试平台",
       "url": "https://huggingface.co/papers/2607.02255",
@@ -196,7 +183,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": 15,
       "category": "paper",
       "title": "WorldDirector：构建具有持久动态记忆的可控世界模拟器",
       "url": "https://huggingface.co/papers/2607.02517",
@@ -209,7 +196,7 @@
       ]
     },
     {
-      "id": 17,
+      "id": 16,
       "category": "paper",
       "title": "EvoPolicyGym：交互环境中自主策略演化的评估平台",
       "url": "https://huggingface.co/papers/2607.02440",
@@ -222,7 +209,7 @@
       ]
     },
     {
-      "id": 18,
+      "id": 17,
       "category": "paper",
       "title": "Multi-Resolution Flow Matching：免训练的扩散加速方法",
       "url": "https://huggingface.co/papers/2607.01642",
@@ -235,7 +222,7 @@
       ]
     },
     {
-      "id": 19,
+      "id": 18,
       "category": "repo",
       "title": "alibaba/page-agent - 网页内GUI代理",
       "url": "https://github.com/alibaba/page-agent",
@@ -248,7 +235,7 @@
       ]
     },
     {
-      "id": 20,
+      "id": 19,
       "category": "repo",
       "title": "CoplayDev/unity-mcp - Unity编辑器的AI桥接工具",
       "url": "https://github.com/CoplayDev/unity-mcp",
@@ -261,7 +248,7 @@
       ]
     },
     {
-      "id": 21,
+      "id": 20,
       "category": "repo",
       "title": "ogulcancelik/herdr - 终端中的代理多路复用器",
       "url": "https://github.com/ogulcancelik/herdr",
