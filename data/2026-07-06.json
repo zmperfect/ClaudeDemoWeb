@@ -107,19 +107,6 @@
     {
       "id": 9,
       "category": "news",
-      "title": "OpenAI联合创始人设想\"几乎无界面\"的未来",
-      "url": "https://the-decoder.com/openai-cofounder-envisions-almost-no-interface-future-where-nobody-learns-software-anymore/",
-      "summary": "Greg Brockman承认2023年大力推广的ChatGPT插件失败了，因为「模型还没准备好」。他认为未来不是应用扩展，而是无形的、上下文感知的代理。但OpenAI的Codex离这一愿景仍很远。",
-      "source": "The Decoder",
-      "tags": [
-        "openai",
-        "agent",
-        "vision"
-      ]
-    },
-    {
-      "id": 10,
-      "category": "news",
       "title": "OpenAI计划将ChatGPT、Codex和Atlas浏览器合并为桌面超级应用",
       "url": "https://the-decoder.com/openai-plans-to-merge-chatgpt-codex-and-atlas-browser-into-a-single-desktop-superapp/",
       "summary": "OpenAI认为之前同时发布过多产品的策略使公司暴露在风险中。一项重大战略转向将把ChatGPT、Codex和Atlas浏览器整合为单一桌面超级应用，重新聚焦产品线。",
@@ -131,7 +118,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "news",
       "title": "OpenAI自定义GPT可能允许用户下载你上传的知识文件",
       "url": "https://the-decoder.com/openais-custom-chatgpts-might-let-users-download-your-uploaded-knowledge-files/",
@@ -144,7 +131,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "paper",
       "title": "Program-as-Weights：模糊函数的编程范式",
       "url": "https://huggingface.co/papers/2607.02512",
@@ -157,7 +144,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "paper",
       "title": "AgenticSTS：有限内存下的长期LLM代理测试平台",
       "url": "https://huggingface.co/papers/2607.02255",
@@ -170,7 +157,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "paper",
       "title": "WorldDirector：构建具有持久动态记忆的可控世界模拟器",
       "url": "https://huggingface.co/papers/2607.02517",
@@ -183,7 +170,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 14,
       "category": "paper",
       "title": "EvoPolicyGym：交互环境中自主策略演化的评估平台",
       "url": "https://huggingface.co/papers/2607.02440",
@@ -196,7 +183,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": 15,
       "category": "paper",
       "title": "Multi-Resolution Flow Matching：免训练的扩散加速方法",
       "url": "https://huggingface.co/papers/2607.01642",
@@ -209,7 +196,7 @@
       ]
     },
     {
-      "id": 17,
+      "id": 16,
       "category": "repo",
       "title": "alibaba/page-agent - 网页内GUI代理",
       "url": "https://github.com/alibaba/page-agent",
@@ -222,7 +209,7 @@
       ]
     },
     {
-      "id": 18,
+      "id": 17,
       "category": "repo",
       "title": "CoplayDev/unity-mcp - Unity编辑器的AI桥接工具",
       "url": "https://github.com/CoplayDev/unity-mcp",
@@ -235,7 +222,7 @@
       ]
     },
     {
-      "id": 19,
+      "id": 18,
       "category": "repo",
       "title": "ogulcancelik/herdr - 终端中的代理多路复用器",
       "url": "https://github.com/ogulcancelik/herdr",
