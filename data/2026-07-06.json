@@ -185,19 +185,6 @@
     {
       "id": 15,
       "category": "repo",
-      "title": "alibaba/page-agent - 网页内GUI代理",
-      "url": "https://github.com/alibaba/page-agent",
-      "summary": "阿里巴巴开源的JavaScript页内GUI代理，用自然语言控制网页界面。无需浏览器扩展或额外设置，直接在页面中运行。",
-      "source": "GitHub Trending",
-      "tags": [
-        "agent",
-        "gui",
-        "alibaba"
-      ]
-    },
-    {
-      "id": 16,
-      "category": "repo",
       "title": "CoplayDev/unity-mcp - Unity编辑器的AI桥接工具",
       "url": "https://github.com/CoplayDev/unity-mcp",
       "summary": "Unity MCP作为AI助手与Unity编辑器之间的桥梁，让LLM可以管理资产、控制场景、编辑脚本并在Unity内自动化任务。",
@@ -209,7 +196,7 @@
       ]
     },
     {
-      "id": 17,
+      "id": 16,
       "category": "repo",
       "title": "ogulcancelik/herdr - 终端中的代理多路复用器",
       "url": "https://github.com/ogulcancelik/herdr",
