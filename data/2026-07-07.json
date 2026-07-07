@@ -93,19 +93,6 @@
     },
     {
       "id": 8,
-      "category": "paper",
-      "title": "打破失败级联：面向医学多模态推理的步骤感知强化学习",
-      "url": "https://huggingface.co/papers/2606.31825",
-      "summary": "提出步骤感知强化学习方法解决医学多模态推理中的失败级联问题。当推理链中一步出错导致后续步骤全部失败时，该方法能针对性修复关键步骤。",
-      "source": "HuggingFace Papers",
-      "tags": [
-        "medical-ai",
-        "reasoning",
-        "reinforcement-learning"
-      ]
-    },
-    {
-      "id": 9,
       "category": "repo",
       "title": "alirezarezvani/claude-skills - 337个Claude Code技能合集",
       "url": "https://github.com/alirezarezvani/claude-skills",
@@ -118,7 +105,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "repo",
       "title": "asgeirtj/system_prompts_leaks - AI系统提示词收集",
       "url": "https://github.com/asgeirtj/system_prompts_leaks",
@@ -131,7 +118,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "repo",
       "title": "Zackriya-Solutions/meetily - 本地AI会议助手",
       "url": "https://github.com/Zackriya-Solutions/meetily",
@@ -144,7 +131,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "repo",
       "title": "usestrix/strix - 开源AI渗透测试工具",
       "url": "https://github.com/usestrix/strix",
@@ -157,7 +144,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "repo",
       "title": "steipete/CodexBar - Codex和Claude Code用量统计",
       "url": "https://github.com/steipete/CodexBar",
