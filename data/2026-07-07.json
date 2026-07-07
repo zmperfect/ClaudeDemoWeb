@@ -81,19 +81,6 @@
     {
       "id": 7,
       "category": "paper",
-      "title": "AutoMem：将记忆作为认知技能的自动学习",
-      "url": "https://huggingface.co/papers/2607.01224",
-      "summary": "AutoMem将记忆能力视为可学习的认知技能，让模型自动学习何时存储、检索和遗忘信息。为长上下文代理提供更自然的记忆管理机制。",
-      "source": "HuggingFace Papers",
-      "tags": [
-        "memory",
-        "agent",
-        "cognitive"
-      ]
-    },
-    {
-      "id": 8,
-      "category": "paper",
       "title": "Logit-Contribution Scoring识别非字面检索头",
       "url": "https://huggingface.co/papers/2607.01002",
       "summary": "提出Logit-Contribution Scoring方法，用于识别Transformer中的非字面检索头。揭示了模型内部信息检索的新机制，有助于理解大模型的推理过程。",
@@ -105,7 +92,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "category": "paper",
       "title": "打破失败级联：面向医学多模态推理的步骤感知强化学习",
       "url": "https://huggingface.co/papers/2606.31825",
@@ -118,7 +105,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "repo",
       "title": "alirezarezvani/claude-skills - 337个Claude Code技能合集",
       "url": "https://github.com/alirezarezvani/claude-skills",
@@ -131,7 +118,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "repo",
       "title": "asgeirtj/system_prompts_leaks - AI系统提示词收集",
       "url": "https://github.com/asgeirtj/system_prompts_leaks",
@@ -144,7 +131,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "repo",
       "title": "Zackriya-Solutions/meetily - 本地AI会议助手",
       "url": "https://github.com/Zackriya-Solutions/meetily",
@@ -157,7 +144,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "repo",
       "title": "usestrix/strix - 开源AI渗透测试工具",
       "url": "https://github.com/usestrix/strix",
@@ -170,7 +157,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "repo",
       "title": "steipete/CodexBar - Codex和Claude Code用量统计",
       "url": "https://github.com/steipete/CodexBar",
