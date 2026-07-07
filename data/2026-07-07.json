@@ -55,19 +55,6 @@
     {
       "id": 5,
       "category": "news",
-      "title": "Sam Altman：一代研究者因低估扩展能力而拖慢了AI发展",
-      "url": "https://the-decoder.com/sam-altman-says-a-whole-generation-of-researchers-held-ai-back-by-underestimating-what-scaling-could-do/",
-      "summary": "在斯坦福演讲中，Sam Altman为LLM扩展辩护，称一代研究者因低估扩展能力而减缓了该领域发展。他引用OpenAI最近推翻一个数学猜想作为证据。",
-      "source": "The Decoder",
-      "tags": [
-        "openai",
-        "scaling",
-        "industry"
-      ]
-    },
-    {
-      "id": 6,
-      "category": "news",
       "title": "AI私立学校向美国富裕家庭兜售个性化学习",
       "url": "https://the-decoder.com/ai-private-schools-sell-wealthy-us-families-on-personalized-learning-over-traditional-education/",
       "summary": "越来越多美国富裕家庭将孩子送入Alpha School等AI学校，结合两小时AI辅导与项目制工作坊，年学费高达7.5万美元。这凸显了AI时代日益扩大的教育差距。",
@@ -79,7 +66,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 6,
       "category": "paper",
       "title": "PACE：代理能力评估的代理基准",
       "url": "https://huggingface.co/papers/2607.02032",
@@ -92,7 +79,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 7,
       "category": "paper",
       "title": "SkillCoach：自进化的代理技能评估与增强框架",
       "url": "https://huggingface.co/papers/2607.01874",
@@ -105,7 +92,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "category": "paper",
       "title": "AutoMem：将记忆作为认知技能的自动学习",
       "url": "https://huggingface.co/papers/2607.01224",
@@ -118,7 +105,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "paper",
       "title": "Logit-Contribution Scoring识别非字面检索头",
       "url": "https://huggingface.co/papers/2607.01002",
@@ -131,7 +118,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "paper",
       "title": "打破失败级联：面向医学多模态推理的步骤感知强化学习",
       "url": "https://huggingface.co/papers/2606.31825",
@@ -144,7 +131,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "repo",
       "title": "alirezarezvani/claude-skills - 337个Claude Code技能合集",
       "url": "https://github.com/alirezarezvani/claude-skills",
@@ -157,7 +144,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "repo",
       "title": "asgeirtj/system_prompts_leaks - AI系统提示词收集",
       "url": "https://github.com/asgeirtj/system_prompts_leaks",
@@ -170,7 +157,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "repo",
       "title": "Zackriya-Solutions/meetily - 本地AI会议助手",
       "url": "https://github.com/Zackriya-Solutions/meetily",
@@ -183,7 +170,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 14,
       "category": "repo",
       "title": "usestrix/strix - 开源AI渗透测试工具",
       "url": "https://github.com/usestrix/strix",
@@ -196,7 +183,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": 15,
       "category": "repo",
       "title": "steipete/CodexBar - Codex和Claude Code用量统计",
       "url": "https://github.com/steipete/CodexBar",
