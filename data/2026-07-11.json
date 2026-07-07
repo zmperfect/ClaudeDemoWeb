@@ -133,19 +133,6 @@
     {
       "id": 11,
       "category": "paper",
-      "title": "衡量人类与LLM研究创意之间的差距",
-      "url": "https://huggingface.co/papers/2607.01233",
-      "summary": "系统性衡量人类研究者与LLM生成的研究创意之间的质量差距。为评估AI在科学研究中的创新能力提供定量基准。",
-      "source": "HuggingFace Papers",
-      "tags": [
-        "research",
-        "creativity",
-        "evaluation"
-      ]
-    },
-    {
-      "id": 12,
-      "category": "paper",
       "title": "AnyBokeh：物理引导的任意虚化编辑与光学指纹迁移",
       "url": "https://huggingface.co/papers/2606.31959",
       "summary": "提出AnyBokeh方法，通过物理引导和光学指纹迁移实现任意虚化效果编辑。将计算摄影与AI结合，提供精确可控的景深效果。",
