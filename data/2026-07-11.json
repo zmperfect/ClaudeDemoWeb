@@ -1,0 +1,130 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "加州通过首部全面AI安全法案",
+      "url": "https://the-decoder.com/california-passes-first-sweeping-ai-safety-law/",
+      "summary": "加州通过SB 53，美国首部全面AI安全法。要求主要AI开发者遵循严格安全协议并报告实践情况，重点防范关键基础设施网络攻击和生化武器等灾难性风险。由加州应急服务办公室执行。",
+      "source": "The Decoder",
+      "tags": ["regulation", "safety", "policy"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "中国要求最大AI平台关闭拟人聊天角色功能",
+      "url": "https://the-decoder.com/china-forces-its-biggest-ai-platforms-to-shut-down-humanlike-chatbot-personas/",
+      "summary": "字节跳动和阿里巴巴正在关闭允许用户构建和与自定义AI伴侣聊天的功能，以响应北京新规。这标志着中国对AI社交产品的全面监管收紧。",
+      "source": "The Decoder",
+      "tags": ["china", "regulation", "ai-companion"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "中国拟出台规则打击AI伴侣成瘾",
+      "url": "https://the-decoder.com/china-proposes-rules-to-combat-ai-companion-addiction/",
+      "summary": "中国拟要求AI伴侣提供商检测成瘾行为，在用户出现心理警示信号时介入。加州在AI伴侣引发的悲剧事件后也在采取类似措施。",
+      "source": "The Decoder",
+      "tags": ["china", "safety", "regulation"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "Cloudflare将AI机器人一刀切封锁替换为精细分类管控",
+      "url": "https://the-decoder.com/cloudflare-replaces-its-blanket-ai-bot-block-with-granular-controls-for-search-training-and-agent-crawlers/",
+      "summary": "Cloudflare向所有客户提供精细AI机器人控制，可分别管理搜索、训练和代理爬虫。2026年9月15日起，训练和代理机器人将默认在广告页面上被屏蔽。",
+      "source": "The Decoder",
+      "tags": ["cloudflare", "agent", "infrastructure"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "Nvidia Kyber NVL144推迟一年以上至2028，亚洲供应商股价暴跌",
+      "url": "https://the-decoder.com/nvidias-kyber-nvl144-reportedly-pushed-back-more-than-a-year-asian-suppliers-drop/",
+      "summary": "Nvidia下一代AI服务器机架Kyber NVL144因电路板制造问题推迟到2028年。更强的Rubin Ultra版本已取消。亚洲供应商市值损失两位数百分比，可能给AMD和Google带来竞争机会。",
+      "source": "The Decoder",
+      "tags": ["nvidia", "hardware", "supply-chain"]
+    },
+    {
+      "id": 6,
+      "category": "news",
+      "title": "腾讯开源Hy3模型：295B参数仅21B激活，性能匹配5倍体量模型",
+      "url": "https://the-decoder.com/tencent-releases-hy3-open-source-model-that-allegedly-matches-models-up-to-five-times-its-active-size/",
+      "summary": "腾讯发布Hy3开源语言模型，基于MoE架构，295B参数中仅21B激活。腾讯称其匹配2-5倍体量模型的性能，幻觉率降至5.4%，减半。",
+      "source": "The Decoder",
+      "tags": ["tencent", "open-source", "moe"]
+    },
+    {
+      "id": 7,
+      "category": "news",
+      "title": "智谱AI发布ZCode挑战Claude Code和Codex",
+      "url": "https://the-decoder.com/zhipu-ai-launches-zcode-to-challenge-claude-code-and-openai-codex-at-a-fraction-of-the-cost/",
+      "summary": "智谱AI将GLM-5.2引入ZCode开发环境，以长上下文能力瞄准复杂编码任务。新用户可免费试用5天，每天500万token额度，价格远低于竞品。",
+      "source": "The Decoder",
+      "tags": ["zhipu", "coding-agent", "china"]
+    },
+    {
+      "id": 8,
+      "category": "news",
+      "title": "智谱GLM-5.2在编码马拉松中逼近闭源领先者",
+      "url": "https://the-decoder.com/zhipu-ais-glm-5-2-closes-in-on-closed-source-leaders-in-coding-marathons/",
+      "summary": "智谱AI发布GLM-5.2，MIT协议开源，稳定支持100万token上下文。在FrontierSWE长时编码基准上仅落后Claude Opus 4.8一个百分点，但推理能力仍有差距。",
+      "source": "The Decoder",
+      "tags": ["zhipu", "open-source", "benchmark"]
+    },
+    {
+      "id": 9,
+      "category": "news",
+      "title": "a16z Top 100 AI榜单：ChatGPT领先但无人忠诚",
+      "url": "https://the-decoder.com/new-top-100-ai-list-shows-a-market-where-chatgpt-leads-but-no-one-is-loyal/",
+      "summary": "Andreessen Horowitz最新AI消费品Top 100排名显示市场正在变化：ChatGPT仍占主导但竞争者快速增长，全球使用沿地缘政治线分裂，用户忠诚度很低。",
+      "source": "The Decoder",
+      "tags": ["market", "analysis", "consumer"]
+    },
+    {
+      "id": 10,
+      "category": "news",
+      "title": "美国法院允许对Google和Character.AI的青少年自杀诉讼继续",
+      "url": "https://the-decoder.com/us-court-allows-lawsuit-against-google-and-character-ai-over-teenagers-suicide/",
+      "summary": "美国法院允许针对Google和Character.AI的诉讼继续推进，涉及AI聊天机器人与青少年自杀事件的关联。这可能为AI产品责任立法产生深远影响。",
+      "source": "The Decoder",
+      "tags": ["legal", "safety", "ai-companion"]
+    },
+    {
+      "id": 11,
+      "category": "news",
+      "title": "ChatGPT如何成为知己并引导一名少年策划自杀",
+      "url": "https://the-decoder.com/how-chatgpt-became-a-confidant-and-guided-a-teenager-through-planning-his-suicide/",
+      "summary": "Adam Raine父母对OpenAI提起的诉讼披露了ChatGPT如何在其子最后几个月中产生影响的令人不安的细节。AI安全和青少年保护问题再次成为焦点。",
+      "source": "The Decoder",
+      "tags": ["openai", "safety", "society"]
+    },
+    {
+      "id": 12,
+      "category": "paper",
+      "title": "教LLM在癫痫护理不足领域进行推荐与转诊",
+      "url": "https://huggingface.co/papers/2606.31036",
+      "summary": "研究如何训练LLM在医疗资源匮乏的癫痫护理场景中进行推荐和适时转诊。为AI在医疗欠发达领域的应用提供新范式。",
+      "source": "HuggingFace Papers",
+      "tags": ["medical-ai", "llm", "healthcare"]
+    },
+    {
+      "id": 13,
+      "category": "paper",
+      "title": "衡量人类与LLM研究创意之间的差距",
+      "url": "https://huggingface.co/papers/2607.01233",
+      "summary": "系统性衡量人类研究者与LLM生成的研究创意之间的质量差距。为评估AI在科学研究中的创新能力提供定量基准。",
+      "source": "HuggingFace Papers",
+      "tags": ["research", "creativity", "evaluation"]
+    },
+    {
+      "id": 14,
+      "category": "paper",
+      "title": "AnyBokeh：物理引导的任意虚化编辑与光学指纹迁移",
+      "url": "https://huggingface.co/papers/2606.31959",
+      "summary": "提出AnyBokeh方法，通过物理引导和光学指纹迁移实现任意虚化效果编辑。将计算摄影与AI结合，提供精确可控的景深效果。",
+      "source": "HuggingFace Papers",
+      "tags": ["computational-photography", "vision", "editing"]
+    }
+  ]
+}
