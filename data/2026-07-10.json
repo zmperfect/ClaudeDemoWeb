@@ -3,164 +3,223 @@
     {
       "id": 1,
       "category": "news",
-      "title": "JADEPUFFER：首个代理式勒索软件，以机器速度暴露安全旧疾",
-      "url": "https://the-decoder.com/jadepuffer-is-the-first-agentic-ransomware-operation-and-it-exposes-old-security-sins-at-machine-speed/",
-      "summary": "安全公司Sysdig描述了一次由语言模型自主执行的勒索攻击：AI独立完成入侵、窃取凭证并销毁数据库，全程无人类操控。这是首个被记录的代理式勒索软件行动。",
-      "source": "The Decoder",
-      "tags": ["security", "agent", "ransomware"]
-    },
-    {
-      "id": 2,
-      "category": "news",
       "title": "AI猎Bug以来安全漏洞报告爆发式增长",
       "url": "https://the-decoder.com/security-vulnerability-reports-have-exploded-since-ai-models-started-hunting-for-bugs/",
       "summary": "Epoch AI报告称2026年6月，21个组织报告约1500个高危和严重CVE，是此前月度纪录的3.5倍以上。这一激增与AI驱动的漏洞猎取项目启动时间吻合。",
       "source": "The Decoder",
-      "tags": ["security", "vulnerability", "ai-impact"]
+      "tags": [
+        "security",
+        "vulnerability",
+        "ai-impact"
+      ]
     },
     {
-      "id": 3,
+      "id": 2,
       "category": "news",
       "title": "OpenAI GPT-5.5-Cyber在网络安全基准上超越Anthropic Mythos",
       "url": "https://the-decoder.com/openai-says-new-gpt-5-5-cyber-outperforms-anthropics-mythos-on-cybersecurity-benchmark/",
       "summary": "OpenAI扩展Daybreak网络安全计划，发布完整GPT-5.5-Cyber模型和更新的Codex Security插件，与25+安全公司及多个政府合作。重心从发现漏洞转向自动修补。",
       "source": "The Decoder",
-      "tags": ["openai", "security", "frontier"]
+      "tags": [
+        "openai",
+        "security",
+        "frontier"
+      ]
     },
     {
-      "id": 4,
+      "id": 3,
       "category": "news",
       "title": "英国AISI：标准基准系统性低估AI代理的实际能力",
       "url": "https://the-decoder.com/uks-ai-security-institute-finds-standard-benchmarks-systematically-underestimate-what-ai-agents-can-actually-do/",
       "summary": "英国AI安全研究所在7个基准测试中发现，标准评估因限制计算预算而系统性低估代理能力。将token预算增加10倍后，软件工程任务成功率提升约25%。前沿模型实际进步速度比此前测量快约60%。",
       "source": "The Decoder",
-      "tags": ["benchmark", "agent", "safety"]
+      "tags": [
+        "benchmark",
+        "agent",
+        "safety"
+      ]
     },
     {
-      "id": 5,
+      "id": 4,
       "category": "news",
       "title": "微软发布实时AI生成的可玩Quake II演示",
       "url": "https://the-decoder.com/microsoft-releases-real-time-ai-generated-playable-demo-of-quake-ii/",
       "summary": "微软推出一个研究项目，完全在AI模型内部生成和运行Quake II，实时产出可玩版本的游戏。这是世界模型在游戏场景中的重要突破。",
       "source": "The Decoder",
-      "tags": ["microsoft", "world-model", "game"]
+      "tags": [
+        "microsoft",
+        "world-model",
+        "game"
+      ]
     },
     {
-      "id": 6,
+      "id": 5,
       "category": "news",
       "title": "Mistral开源Leanstral 1.5：形式化数学基准顶尖，还能找出代码真实Bug",
       "url": "https://the-decoder.com/mistrals-open-source-leanstral-1-5-aces-formal-math-benchmarks-and-catches-real-bugs-in-code/",
       "summary": "Mistral发布Leanstral 1.5开源模型，专注Lean 4形式化验证。除数学外，该模型在扫描57个开源仓库时发现了5个此前未知的Bug。",
       "source": "The Decoder",
-      "tags": ["mistral", "formal-verification", "open-source"]
+      "tags": [
+        "mistral",
+        "formal-verification",
+        "open-source"
+      ]
     },
     {
-      "id": 7,
+      "id": 6,
       "category": "news",
       "title": "OpenAI确认1220亿美元融资和ChatGPT超级应用",
       "url": "https://the-decoder.com/openai-officially-confirms-mega-funding-round-and-chatgpt-super-app/",
       "summary": "OpenAI完成1220亿美元融资，估值达8520亿美元，正式公布ChatGPT Super App，并明确向企业方向硬转型。",
       "source": "The Decoder",
-      "tags": ["openai", "funding", "strategy"]
+      "tags": [
+        "openai",
+        "funding",
+        "strategy"
+      ]
     },
     {
-      "id": 8,
+      "id": 7,
       "category": "news",
       "title": "AI文本涌入最重要的人类数据源之一",
       "url": "https://the-decoder.com/ai-text-floods-one-of-the-most-important-human-data-sources/",
       "summary": "研究发现近半数号称人工撰写的文本摘要实际来自AI。人类数据源的污染正威胁未来AI训练数据的质量。",
       "source": "The Decoder",
-      "tags": ["data-quality", "training", "research"]
+      "tags": [
+        "data-quality",
+        "training",
+        "research"
+      ]
     },
     {
-      "id": 9,
+      "id": 8,
       "category": "news",
       "title": "亚马逊关停Mechanical Turk：告别最初的「人工人工智能」",
       "url": "https://the-decoder.com/amazon-sunsets-mechanical-turk-the-original-artificial-artificial-intelligence/",
       "summary": "AWS将于2026年7月30日起不再接受Mechanical Turk新客户。这一曾为AI训练提供海量人工标注的众包平台在AI自动化时代走向落幕。",
       "source": "The Decoder",
-      "tags": ["amazon", "crowdsourcing", "ai-impact"]
+      "tags": [
+        "amazon",
+        "crowdsourcing",
+        "ai-impact"
+      ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "paper",
       "title": "DataComp-VLM：改进的视觉语言模型开放数据集",
       "url": "https://huggingface.co/papers/2606.28551",
       "summary": "提出DataComp-VLM，为视觉语言模型提供经过改进的开放数据集。通过更好的数据筛选和质量控制，提升多模态模型的训练效果。",
       "source": "HuggingFace Papers",
-      "tags": ["vlm", "dataset", "multimodal"]
+      "tags": [
+        "vlm",
+        "dataset",
+        "multimodal"
+      ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "paper",
       "title": "MultAttnAttrib：长文档问答的免训练多模态归因",
       "url": "https://huggingface.co/papers/2607.01420",
       "summary": "提出MultAttnAttrib，无需额外训练即可在长文档问答中实现多模态归因。帮助用户追溯AI答案的来源证据，提升可解释性。",
       "source": "HuggingFace Papers",
-      "tags": ["attribution", "long-context", "interpretability"]
+      "tags": [
+        "attribution",
+        "long-context",
+        "interpretability"
+      ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "paper",
       "title": "OrbitQuant：图像和视频扩散Transformer的数据无关量化",
       "url": "https://huggingface.co/papers/2607.02461",
       "summary": "提出OrbitQuant方法，实现图像和视频扩散Transformer的数据无关量化。无需校准数据集即可压缩模型，降低部署成本。",
       "source": "HuggingFace Papers",
-      "tags": ["quantization", "diffusion", "efficiency"]
+      "tags": [
+        "quantization",
+        "diffusion",
+        "efficiency"
+      ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "repo",
       "title": "addyosmani/agent-skills - 生产级AI编码代理技能",
       "url": "https://github.com/addyosmani/agent-skills",
       "summary": "Google Chrome团队Addy Osmani出品的生产级工程技能集合，为AI编码代理提供经过实战验证的技能模板和最佳实践。",
       "source": "GitHub Trending",
-      "tags": ["agent", "skills", "engineering"]
+      "tags": [
+        "agent",
+        "skills",
+        "engineering"
+      ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "repo",
       "title": "bradautomates/claude-video - 让Claude观看任意视频",
       "url": "https://github.com/bradautomates/claude-video",
       "summary": "通过/watch命令下载视频、提取帧、转录音频后交给Claude处理。赋予Claude Code理解和分析视频内容的能力。",
       "source": "GitHub Trending",
-      "tags": ["claude-code", "video", "multimodal"]
+      "tags": [
+        "claude-code",
+        "video",
+        "multimodal"
+      ]
     },
     {
-      "id": 15,
+      "id": 14,
       "category": "repo",
       "title": "alibaba/zvec - 轻量级超快进程内向量数据库",
       "url": "https://github.com/alibaba/zvec",
       "summary": "阿里巴巴开源的轻量级向量数据库，以极快速度在进程内运行。适合需要低延迟向量搜索但不想部署独立服务的场景。",
       "source": "GitHub Trending",
-      "tags": ["vector-db", "alibaba", "performance"]
+      "tags": [
+        "vector-db",
+        "alibaba",
+        "performance"
+      ]
     },
     {
-      "id": 16,
+      "id": 15,
       "category": "repo",
       "title": "firecrawl/firecrawl - 大规模网页抓取和搜索API",
       "url": "https://github.com/firecrawl/firecrawl",
       "summary": "用于大规模搜索、抓取和与网页交互的API。为AI代理和RAG系统提供可靠的网页数据获取基础设施。",
       "source": "GitHub Trending",
-      "tags": ["scraping", "api", "rag"]
+      "tags": [
+        "scraping",
+        "api",
+        "rag"
+      ]
     },
     {
-      "id": 17,
+      "id": 16,
       "category": "repo",
       "title": "mvanhorn/last30days-skill - AI代理多源研究技能",
       "url": "https://github.com/mvanhorn/last30days-skill",
       "summary": "AI代理技能：跨Reddit、X、YouTube、HN、Polymarket和网页研究任意主题，综合过去30天信息生成有据可查的摘要。",
       "source": "GitHub Trending",
-      "tags": ["agent", "research", "skill"]
+      "tags": [
+        "agent",
+        "research",
+        "skill"
+      ]
     },
     {
-      "id": 18,
+      "id": 17,
       "category": "repo",
       "title": "karakeep-app/karakeep - AI自动标签的自托管书签应用",
       "url": "https://github.com/karakeep-app/karakeep",
       "summary": "自托管的书签管理应用，支持链接、笔记和图片，具备AI自动标签和全文搜索功能。隐私优先的知识收集工具。",
       "source": "GitHub Trending",
-      "tags": ["self-hosted", "bookmarks", "ai-tagging"]
+      "tags": [
+        "self-hosted",
+        "bookmarks",
+        "ai-tagging"
+      ]
     }
   ]
 }
