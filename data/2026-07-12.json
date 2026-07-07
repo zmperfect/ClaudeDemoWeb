@@ -42,19 +42,6 @@
     {
       "id": 4,
       "category": "paper",
-      "title": "Wan-Streamer v0.2：更高分辨率、同等延迟",
-      "url": "https://huggingface.co/papers/2607.04443",
-      "summary": "Wan-Streamer升级至v0.2版本，在保持相同延迟的前提下实现更高分辨率的实时视频流生成。推动AI视频生成向实时应用迈进。",
-      "source": "HuggingFace Papers",
-      "tags": [
-        "video-generation",
-        "streaming",
-        "real-time"
-      ]
-    },
-    {
-      "id": 5,
-      "category": "paper",
       "title": "ResearchStudio-Idea：基于ML会议成果的研究创意生成技能套件",
       "url": "https://huggingface.co/papers/2607.04439",
       "summary": "ResearchStudio-Idea从ML会议成果中提取证据，自动生成有据可查的研究创意。为AI辅助科学研究提供系统化的创意发现工具链。",
@@ -66,7 +53,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 5,
       "category": "paper",
       "title": "UI-MOPD：跨平台策略蒸馏实现GUI代理持续学习",
       "url": "https://huggingface.co/papers/2607.04425",
@@ -79,7 +66,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 6,
       "category": "paper",
       "title": "dOPSD：扩散语言模型的在线策略自蒸馏",
       "url": "https://huggingface.co/papers/2607.04428",
@@ -92,7 +79,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 7,
       "category": "paper",
       "title": "PraMem：基于实践经验记忆的长期行为预测",
       "url": "https://huggingface.co/papers/2607.02881",
@@ -105,7 +92,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "category": "paper",
       "title": "大规模安全测试LLM代理：从风险发现到证据驱动验证",
       "url": "https://huggingface.co/papers/2607.01793",
@@ -118,7 +105,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "paper",
       "title": "Mastermind：基于策略学习的仓库级漏洞复现",
       "url": "https://huggingface.co/papers/2607.01764",
@@ -131,7 +118,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "paper",
       "title": "GigaWorld-1：构建机器人策略评估的世界模型路线图",
       "url": "https://huggingface.co/papers/2607.02642",
@@ -144,7 +131,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "paper",
       "title": "EdgeBench：揭示从真实世界环境学习的规模定律",
       "url": "https://huggingface.co/papers/2607.05155",
