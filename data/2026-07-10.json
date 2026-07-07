@@ -120,19 +120,6 @@
     {
       "id": 10,
       "category": "repo",
-      "title": "addyosmani/agent-skills - 生产级AI编码代理技能",
-      "url": "https://github.com/addyosmani/agent-skills",
-      "summary": "Google Chrome团队Addy Osmani出品的生产级工程技能集合，为AI编码代理提供经过实战验证的技能模板和最佳实践。",
-      "source": "GitHub Trending",
-      "tags": [
-        "agent",
-        "skills",
-        "engineering"
-      ]
-    },
-    {
-      "id": 11,
-      "category": "repo",
       "title": "bradautomates/claude-video - 让Claude观看任意视频",
       "url": "https://github.com/bradautomates/claude-video",
       "summary": "通过/watch命令下载视频、提取帧、转录音频后交给Claude处理。赋予Claude Code理解和分析视频内容的能力。",
@@ -144,7 +131,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "repo",
       "title": "alibaba/zvec - 轻量级超快进程内向量数据库",
       "url": "https://github.com/alibaba/zvec",
@@ -157,7 +144,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "repo",
       "title": "firecrawl/firecrawl - 大规模网页抓取和搜索API",
       "url": "https://github.com/firecrawl/firecrawl",
@@ -170,7 +157,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "repo",
       "title": "mvanhorn/last30days-skill - AI代理多源研究技能",
       "url": "https://github.com/mvanhorn/last30days-skill",
@@ -183,7 +170,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 14,
       "category": "repo",
       "title": "karakeep-app/karakeep - AI自动标签的自托管书签应用",
       "url": "https://github.com/karakeep-app/karakeep",
