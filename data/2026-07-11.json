@@ -55,19 +55,6 @@
     {
       "id": 5,
       "category": "news",
-      "title": "腾讯开源Hy3模型：295B参数仅21B激活，性能匹配5倍体量模型",
-      "url": "https://the-decoder.com/tencent-releases-hy3-open-source-model-that-allegedly-matches-models-up-to-five-times-its-active-size/",
-      "summary": "腾讯发布Hy3开源语言模型，基于MoE架构，295B参数中仅21B激活。腾讯称其匹配2-5倍体量模型的性能，幻觉率降至5.4%，减半。",
-      "source": "The Decoder",
-      "tags": [
-        "tencent",
-        "open-source",
-        "moe"
-      ]
-    },
-    {
-      "id": 6,
-      "category": "news",
       "title": "智谱AI发布ZCode挑战Claude Code和Codex",
       "url": "https://the-decoder.com/zhipu-ai-launches-zcode-to-challenge-claude-code-and-openai-codex-at-a-fraction-of-the-cost/",
       "summary": "智谱AI将GLM-5.2引入ZCode开发环境，以长上下文能力瞄准复杂编码任务。新用户可免费试用5天，每天500万token额度，价格远低于竞品。",
@@ -79,7 +66,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 6,
       "category": "news",
       "title": "智谱GLM-5.2在编码马拉松中逼近闭源领先者",
       "url": "https://the-decoder.com/zhipu-ais-glm-5-2-closes-in-on-closed-source-leaders-in-coding-marathons/",
@@ -92,7 +79,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 7,
       "category": "news",
       "title": "a16z Top 100 AI榜单：ChatGPT领先但无人忠诚",
       "url": "https://the-decoder.com/new-top-100-ai-list-shows-a-market-where-chatgpt-leads-but-no-one-is-loyal/",
@@ -105,7 +92,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "category": "news",
       "title": "美国法院允许对Google和Character.AI的青少年自杀诉讼继续",
       "url": "https://the-decoder.com/us-court-allows-lawsuit-against-google-and-character-ai-over-teenagers-suicide/",
@@ -118,7 +105,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "news",
       "title": "ChatGPT如何成为知己并引导一名少年策划自杀",
       "url": "https://the-decoder.com/how-chatgpt-became-a-confidant-and-guided-a-teenager-through-planning-his-suicide/",
@@ -131,7 +118,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "paper",
       "title": "教LLM在癫痫护理不足领域进行推荐与转诊",
       "url": "https://huggingface.co/papers/2606.31036",
@@ -144,7 +131,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "paper",
       "title": "衡量人类与LLM研究创意之间的差距",
       "url": "https://huggingface.co/papers/2607.01233",
@@ -157,7 +144,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "paper",
       "title": "AnyBokeh：物理引导的任意虚化编辑与光学指纹迁移",
       "url": "https://huggingface.co/papers/2606.31959",
