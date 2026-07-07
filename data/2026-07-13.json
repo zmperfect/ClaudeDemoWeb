@@ -54,19 +54,6 @@
     },
     {
       "id": 5,
-      "category": "news",
-      "title": "OpenAI联合创始人设想「几乎无界面」的未来",
-      "url": "https://the-decoder.com/openai-cofounder-envisions-almost-no-interface-future-where-nobody-learns-software-anymore/",
-      "summary": "Greg Brockman承认2023年大力推广的ChatGPT插件失败了，因为「模型还没准备好」。他认为未来不是应用扩展，而是无形的、上下文感知的代理。但OpenAI的Codex离这一愿景仍很远。",
-      "source": "The Decoder",
-      "tags": [
-        "openai",
-        "agent",
-        "vision"
-      ]
-    },
-    {
-      "id": 6,
       "category": "paper",
       "title": "Perceptual Flow Matching：少步生成式建模",
       "url": "https://huggingface.co/papers/2607.03524",
@@ -79,7 +66,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 6,
       "category": "paper",
       "title": "OmniOpt：现代优化器的分类、几何与基准测试",
       "url": "https://huggingface.co/papers/2607.04033",
@@ -92,7 +79,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 7,
       "category": "paper",
       "title": "所有视觉Token同等重要吗？视觉语言检索的目标证据保留Token合并",
       "url": "https://huggingface.co/papers/2607.04605",
@@ -105,7 +92,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "category": "paper",
       "title": "ResearchStudio-Reel：从论文到海报、视频和博客的最后一公里自动化",
       "url": "https://huggingface.co/papers/2607.04438",
@@ -118,7 +105,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "paper",
       "title": "GORGO：跨区域网络感知LLM服务的在线调优",
       "url": "https://huggingface.co/papers/2602.11688",
@@ -131,7 +118,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "repo",
       "title": "Tencent/Tencent-Hunyuan-Large - 腾讯混元大模型开源",
       "url": "https://github.com/Tencent/Tencent-Hunyuan-Large",
