@@ -1,0 +1,130 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "GPT-4称霸一年 vs 如今顶级模型仅撑7周",
+      "url": "https://the-decoder.com/gpt-4s-dominance-lasted-a-year-while-todays-top-models-barely-survive-seven-weeks-at-the-top/",
+      "summary": "GPT-4在Epoch能力指数中领先约一年。自2024年2月Claude 3 Opus登顶以来，领先地位已更替17次，中位停留仅7周。竞争更激烈，但模型间的能力差距正在缩小。",
+      "source": "The Decoder",
+      "tags": ["benchmark", "competition", "analysis"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "Snowflake CEO：GLM-5.2以五分之一成本与Opus 4.7竞争",
+      "url": "https://the-decoder.com/snowflake-ceo-finds-glm-5-2-competitive-with-opus-4-7-at-a-fraction-of-the-cost/",
+      "summary": "智谱GLM-5.2在Snowflake 103项编码任务基准中几乎匹配Claude Opus 4.7，输出token成本仅为后者五分之一。但每个任务消耗近两倍token。这一价格差距正对Anthropic和OpenAI形成实质压力。",
+      "source": "The Decoder",
+      "tags": ["zhipu", "benchmark", "pricing"]
+    },
+    {
+      "id": 3,
+      "category": "paper",
+      "title": "LLM-as-a-Verifier：通用验证框架",
+      "url": "https://huggingface.co/papers/2607.05391",
+      "summary": "提出将LLM作为通用验证器的框架，让模型系统性地验证各类任务输出的正确性。为自动化质量保证和可靠性评估提供统一方法。",
+      "source": "HuggingFace Papers",
+      "tags": ["verification", "framework", "reliability"]
+    },
+    {
+      "id": 4,
+      "category": "paper",
+      "title": "多玩家交互式世界模型与表示自编码器",
+      "url": "https://huggingface.co/papers/2607.05352",
+      "summary": "提出支持多玩家交互的世界模型，结合表示自编码器实现多智能体环境的模拟。推动世界模型从单代理向多代理交互场景扩展。",
+      "source": "HuggingFace Papers",
+      "tags": ["world-model", "multi-agent", "simulation"]
+    },
+    {
+      "id": 5,
+      "category": "paper",
+      "title": "InternVLA-A1.5：统一理解、潜在预见和动作的组合泛化",
+      "url": "https://huggingface.co/papers/2607.04988",
+      "summary": "InternVLA-A1.5将视觉理解、潜在预见能力和动作执行统一到单一架构中，实现组合泛化。在具身AI任务中展现出更强的跨场景迁移能力。",
+      "source": "HuggingFace Papers",
+      "tags": ["vla", "robotics", "embodied-ai"]
+    },
+    {
+      "id": 6,
+      "category": "paper",
+      "title": "Wan-Streamer v0.2：更高分辨率、同等延迟",
+      "url": "https://huggingface.co/papers/2607.04443",
+      "summary": "Wan-Streamer升级至v0.2版本，在保持相同延迟的前提下实现更高分辨率的实时视频流生成。推动AI视频生成向实时应用迈进。",
+      "source": "HuggingFace Papers",
+      "tags": ["video-generation", "streaming", "real-time"]
+    },
+    {
+      "id": 7,
+      "category": "paper",
+      "title": "ResearchStudio-Idea：基于ML会议成果的研究创意生成技能套件",
+      "url": "https://huggingface.co/papers/2607.04439",
+      "summary": "ResearchStudio-Idea从ML会议成果中提取证据，自动生成有据可查的研究创意。为AI辅助科学研究提供系统化的创意发现工具链。",
+      "source": "HuggingFace Papers",
+      "tags": ["research-automation", "ideation", "agent"]
+    },
+    {
+      "id": 8,
+      "category": "paper",
+      "title": "UI-MOPD：跨平台策略蒸馏实现GUI代理持续学习",
+      "url": "https://huggingface.co/papers/2607.04425",
+      "summary": "提出UI-MOPD方法，通过多平台在线策略蒸馏实现GUI代理的持续学习。使代理能跨不同平台积累经验并持续提升操作能力。",
+      "source": "HuggingFace Papers",
+      "tags": ["agent", "gui", "continual-learning"]
+    },
+    {
+      "id": 9,
+      "category": "paper",
+      "title": "dOPSD：扩散语言模型的在线策略自蒸馏",
+      "url": "https://huggingface.co/papers/2607.04428",
+      "summary": "提出dOPSD方法，将在线策略自蒸馏应用于扩散语言模型。通过模型自身生成数据进行迭代优化，提升扩散式文本生成质量。",
+      "source": "HuggingFace Papers",
+      "tags": ["diffusion", "language-model", "self-distillation"]
+    },
+    {
+      "id": 10,
+      "category": "paper",
+      "title": "PraMem：基于实践经验记忆的长期行为预测",
+      "url": "https://huggingface.co/papers/2607.02881",
+      "summary": "提出PraMem（实践衍生经验记忆），从过往实践中提取经验用于长期行为预测。为自动驾驶等需要长周期预判的场景提供新的记忆机制。",
+      "source": "HuggingFace Papers",
+      "tags": ["memory", "prediction", "autonomous"]
+    },
+    {
+      "id": 11,
+      "category": "paper",
+      "title": "大规模安全测试LLM代理：从风险发现到证据驱动验证",
+      "url": "https://huggingface.co/papers/2607.01793",
+      "summary": "提出大规模LLM代理安全测试方法论，覆盖从风险发现到证据驱动验证的完整流程。为代理系统的安全评估提供可扩展的系统化方案。",
+      "source": "HuggingFace Papers",
+      "tags": ["agent", "safety", "testing"]
+    },
+    {
+      "id": 12,
+      "category": "paper",
+      "title": "Mastermind：基于策略学习的仓库级漏洞复现",
+      "url": "https://huggingface.co/papers/2607.01764",
+      "summary": "提出Mastermind方法，通过策略引导学习实现仓库级别的安全漏洞自动复现。将安全研究中的漏洞复现任务从人工转向AI自动化。",
+      "source": "HuggingFace Papers",
+      "tags": ["security", "vulnerability", "agent"]
+    },
+    {
+      "id": 13,
+      "category": "paper",
+      "title": "GigaWorld-1：构建机器人策略评估的世界模型路线图",
+      "url": "https://huggingface.co/papers/2607.02642",
+      "summary": "GigaWorld-1提出构建面向机器人策略评估的世界模型的系统路线图。为具身AI从模拟到真实世界的策略迁移提供评估基础设施。",
+      "source": "HuggingFace Papers",
+      "tags": ["robotics", "world-model", "evaluation"]
+    },
+    {
+      "id": 14,
+      "category": "paper",
+      "title": "EdgeBench：揭示从真实世界环境学习的规模定律",
+      "url": "https://huggingface.co/papers/2607.05155",
+      "summary": "EdgeBench揭示了从真实世界环境中学习的规模定律。研究数据量、模型规模与真实环境性能的关系，为边缘AI部署提供理论指导。",
+      "source": "HuggingFace Papers",
+      "tags": ["scaling-law", "edge-ai", "benchmark"]
+    }
+  ]
+}
