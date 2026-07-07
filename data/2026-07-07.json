@@ -133,19 +133,6 @@
     {
       "id": 11,
       "category": "repo",
-      "title": "usestrix/strix - 开源AI渗透测试工具",
-      "url": "https://github.com/usestrix/strix",
-      "summary": "开源AI渗透测试工具，自动发现并修复应用程序漏洞。将AI能力应用于安全测试自动化，降低安全审计门槛。",
-      "source": "GitHub Trending",
-      "tags": [
-        "security",
-        "pentesting",
-        "open-source"
-      ]
-    },
-    {
-      "id": 12,
-      "category": "repo",
       "title": "steipete/CodexBar - Codex和Claude Code用量统计",
       "url": "https://github.com/steipete/CodexBar",
       "summary": "无需登录即可查看OpenAI Codex和Claude Code的使用统计数据。为开发者提供便捷的token消耗监控工具。",
