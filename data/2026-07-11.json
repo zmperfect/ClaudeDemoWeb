@@ -120,19 +120,6 @@
     {
       "id": 10,
       "category": "paper",
-      "title": "教LLM在癫痫护理不足领域进行推荐与转诊",
-      "url": "https://huggingface.co/papers/2606.31036",
-      "summary": "研究如何训练LLM在医疗资源匮乏的癫痫护理场景中进行推荐和适时转诊。为AI在医疗欠发达领域的应用提供新范式。",
-      "source": "HuggingFace Papers",
-      "tags": [
-        "medical-ai",
-        "llm",
-        "healthcare"
-      ]
-    },
-    {
-      "id": 11,
-      "category": "paper",
       "title": "AnyBokeh：物理引导的任意虚化编辑与光学指纹迁移",
       "url": "https://huggingface.co/papers/2606.31959",
       "summary": "提出AnyBokeh方法，通过物理引导和光学指纹迁移实现任意虚化效果编辑。将计算摄影与AI结合，提供精确可控的景深效果。",
