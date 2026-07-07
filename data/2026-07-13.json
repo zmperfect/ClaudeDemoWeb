@@ -116,19 +116,6 @@
         "infrastructure",
         "optimization"
       ]
-    },
-    {
-      "id": 10,
-      "category": "repo",
-      "title": "Tencent/Tencent-Hunyuan-Large - 腾讯混元大模型开源",
-      "url": "https://github.com/Tencent/Tencent-Hunyuan-Large",
-      "summary": "腾讯混元大模型系列的官方GitHub仓库，包含Hy3等模型的代码、配置和部署指南。MoE架构实现高效推理，提供完整的开源生态支持。",
-      "source": "GitHub",
-      "tags": [
-        "tencent",
-        "open-source",
-        "llm"
-      ]
     }
   ]
 }
