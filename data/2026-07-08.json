@@ -146,19 +146,6 @@
     {
       "id": 12,
       "category": "paper",
-      "title": "AGE：图检索增强生成中的自适应掩码图嵌入",
-      "url": "https://huggingface.co/papers/2607.00052",
-      "summary": "提出AGE方法，通过自适应掩码机制改进图嵌入质量，提升图检索增强生成(Graph RAG)的效果。为结构化知识与LLM的结合提供新思路。",
-      "source": "HuggingFace Papers",
-      "tags": [
-        "rag",
-        "graph",
-        "retrieval"
-      ]
-    },
-    {
-      "id": 13,
-      "category": "paper",
       "title": "Embodied.cpp：异构机器人上具身AI模型的便携推理运行时",
       "url": "https://huggingface.co/papers/2607.02501",
       "summary": "提出Embodied.cpp，一个可在异构机器人硬件上运行具身AI模型的轻量级推理运行时。降低了将AI模型部署到不同机器人平台的门槛。",
@@ -170,7 +157,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "repo",
       "title": "ruvnet/RuView - WiFi信号实时空间感知",
       "url": "https://github.com/ruvnet/RuView",
@@ -183,7 +170,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 14,
       "category": "repo",
       "title": "Leonxlnx/taste-skill - 给AI以好品味",
       "url": "https://github.com/Leonxlnx/taste-skill",
@@ -196,7 +183,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": 15,
       "category": "repo",
       "title": "hesreallyhim/awesome-claude-code - Claude Code资源精选",
       "url": "https://github.com/hesreallyhim/awesome-claude-code",
@@ -209,7 +196,7 @@
       ]
     },
     {
-      "id": 17,
+      "id": 16,
       "category": "repo",
       "title": "immich-app/immich - 高性能自托管照片管理",
       "url": "https://github.com/immich-app/immich",
