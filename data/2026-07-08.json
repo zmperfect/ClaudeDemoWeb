@@ -68,19 +68,6 @@
     {
       "id": 6,
       "category": "news",
-      "title": "中国AI初创企业掀起IPO浪潮，抢先硅谷登陆公开市场",
-      "url": "https://the-decoder.com/chinese-ai-startups-beat-silicon-valley-to-the-public-markets-in-a-massive-ipo-wave/",
-      "summary": "DeepSeek的崛起推动中国AI公司扎堆上市。智谱AI有望成为首家上市的大语言模型公司，而OpenAI和Anthropic仍在筹划IPO中。",
-      "source": "The Decoder",
-      "tags": [
-        "china",
-        "ipo",
-        "industry"
-      ]
-    },
-    {
-      "id": 7,
-      "category": "news",
       "title": "Kling 3.0：中国AI视频模型迈向可用创意资产",
       "url": "https://the-decoder.com/chinese-ai-video-model-kling-3-0-takes-another-step-toward-usable-creative-assets/",
       "summary": "Kling AI发布视频模型3.0，支持更长片段、改进角色一致性以及4K图像生成。向可商用的创意资产工具进一步迈进。",
@@ -92,7 +79,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 7,
       "category": "news",
       "title": "Frontier Radar #3：代理AI如何将token变为商业指标",
       "url": "https://the-decoder.com/frontier-radar-3-how-agentic-ai-is-turning-tokens-into-a-business-metric/",
@@ -105,7 +92,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "category": "news",
       "title": "Google Veo 3.1更新：更锐利画面、更真实纹理和改进音频",
       "url": "https://the-decoder.com/googles-veo-3-1-update-delivers-sharper-visuals-more-realistic-textures-and-improved-audio/",
@@ -118,7 +105,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "news",
       "title": "德国里程碑判决：Google须为AI概览中的错误内容负责",
       "url": "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/",
@@ -131,7 +118,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "news",
       "title": "MPA称字节跳动Seedance 2.0是为系统性侵权而建的机器",
       "url": "https://the-decoder.com/hollywoods-mpa-calls-bytedances-seedance-2-0-a-machine-built-for-systemic-infringement/",
@@ -144,7 +131,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "paper",
       "title": "优化训练策略的幻象：单调推理策略才是LLM强化学习的真正目标",
       "url": "https://huggingface.co/papers/2606.29526",
@@ -157,7 +144,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "paper",
       "title": "AGE：图检索增强生成中的自适应掩码图嵌入",
       "url": "https://huggingface.co/papers/2607.00052",
@@ -170,7 +157,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "paper",
       "title": "Embodied.cpp：异构机器人上具身AI模型的便携推理运行时",
       "url": "https://huggingface.co/papers/2607.02501",
@@ -183,7 +170,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 14,
       "category": "repo",
       "title": "ruvnet/RuView - WiFi信号实时空间感知",
       "url": "https://github.com/ruvnet/RuView",
@@ -196,7 +183,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": 15,
       "category": "repo",
       "title": "Leonxlnx/taste-skill - 给AI以好品味",
       "url": "https://github.com/Leonxlnx/taste-skill",
@@ -209,7 +196,7 @@
       ]
     },
     {
-      "id": 17,
+      "id": 16,
       "category": "repo",
       "title": "hesreallyhim/awesome-claude-code - Claude Code资源精选",
       "url": "https://github.com/hesreallyhim/awesome-claude-code",
@@ -222,7 +209,7 @@
       ]
     },
     {
-      "id": 18,
+      "id": 17,
       "category": "repo",
       "title": "immich-app/immich - 高性能自托管照片管理",
       "url": "https://github.com/immich-app/immich",
