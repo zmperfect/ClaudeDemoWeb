@@ -133,19 +133,6 @@
     {
       "id": 11,
       "category": "paper",
-      "title": "优化训练策略的幻象：单调推理策略才是LLM强化学习的真正目标",
-      "url": "https://huggingface.co/papers/2606.29526",
-      "summary": "揭示LLM强化学习中的一个关键洞察：优化训练策略本身可能是幻象，单调推理策略（推理时的一致性行为）才是真正需要优化的目标。",
-      "source": "HuggingFace Papers",
-      "tags": [
-        "reinforcement-learning",
-        "post-training",
-        "theory"
-      ]
-    },
-    {
-      "id": 12,
-      "category": "paper",
       "title": "Embodied.cpp：异构机器人上具身AI模型的便携推理运行时",
       "url": "https://huggingface.co/papers/2607.02501",
       "summary": "提出Embodied.cpp，一个可在异构机器人硬件上运行具身AI模型的轻量级推理运行时。降低了将AI模型部署到不同机器人平台的门槛。",
@@ -157,7 +144,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "repo",
       "title": "ruvnet/RuView - WiFi信号实时空间感知",
       "url": "https://github.com/ruvnet/RuView",
@@ -170,7 +157,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "repo",
       "title": "Leonxlnx/taste-skill - 给AI以好品味",
       "url": "https://github.com/Leonxlnx/taste-skill",
@@ -183,7 +170,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 14,
       "category": "repo",
       "title": "hesreallyhim/awesome-claude-code - Claude Code资源精选",
       "url": "https://github.com/hesreallyhim/awesome-claude-code",
@@ -196,7 +183,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": 15,
       "category": "repo",
       "title": "immich-app/immich - 高性能自托管照片管理",
       "url": "https://github.com/immich-app/immich",
