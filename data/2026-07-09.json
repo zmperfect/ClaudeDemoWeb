@@ -1,0 +1,184 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "中国考虑对顶级AI模型实施出口管制，欧洲左右为难",
+      "url": "https://the-decoder.com/china-eyes-export-curbs-on-its-top-ai-models-and-europe-is-caught-in-the-middle/",
+      "summary": "中国商务部上月与领先科技公司就限制外国获取中国最先进AI模型进行磋商，涉及闭源和开源模型。官员考虑将AI技术窃取或转让纳入国家安全法管辖。欧洲在中美AI脱钩之间面临两难。",
+      "source": "The Decoder",
+      "tags": ["china", "regulation", "geopolitics"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "Fable 5主导行业基准但溢价陡峭：Agent Arena领先16.58%",
+      "url": "https://the-decoder.com/anthropics-claude-fable-5-dominates-new-industry-benchmarks-at-a-steep-premium/",
+      "summary": "Artificial Analysis推出六大行业能力指数（金融、法律、医疗等）。Fable 5在Agent Arena中领先平均水平16.58%，远超GPT-5.5 xHigh的8.66%和GLM-5.2的6.62%。但其定价远高于竞品。",
+      "source": "The Decoder",
+      "tags": ["anthropic", "benchmark", "fable-5"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "Anthropic的降本方案：让Fable 5当经理，Sonnet 5当员工",
+      "url": "https://the-decoder.com/anthropics-fix-for-fable-5s-high-cost-is-turning-it-into-a-manager-that-delegates-to-sonnet-5/",
+      "summary": "Anthropic分享应对Fable 5高成本的模式：让Fable 5作为规划者将任务委派给Sonnet 5工作代理。在BrowseComp上实现96%的Fable 5性能，成本仅为46%。这一提示源于日益增大的价格压力。",
+      "source": "The Decoder",
+      "tags": ["anthropic", "agent", "cost-optimization"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "ChatGPT推出GPT-Live：AI可以边听边说，对话更自然",
+      "url": "https://the-decoder.com/chatgpt-can-now-listen-and-talk-at-the-same-time-making-ai-conversations-seem-more-human/",
+      "summary": "OpenAI推出GPT-Live全双工语音模型，AI可同时听和说。模型每秒多次决定是说话、继续听、暂停还是中断，支持填充词如「嗯」「明白了」。GPT-Live-1面向付费用户，mini版对免费用户开放。",
+      "source": "The Decoder",
+      "tags": ["openai", "voice", "product"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "OpenAI GPT-5.6周四发布：美国政府解除发布禁令",
+      "url": "https://the-decoder.com/openais-gpt-5-6-launches-thursday-after-a-delay-forced-by-the-u-s-government/",
+      "summary": "OpenAI将在周四发布GPT-5.6，此前美国政府在额外测试后解除了发布禁令。OpenAI称Sol模型在编码基准上超越Claude Mythos 5，但未来模型审批的约束性标准尚不存在。",
+      "source": "The Decoder",
+      "tags": ["openai", "gpt-5.6", "regulation"]
+    },
+    {
+      "id": 6,
+      "category": "news",
+      "title": "Grok 4.5定价极低：性能差距可能不再重要",
+      "url": "https://the-decoder.com/grok-4-5-is-so-cheap-compared-to-fable-5-and-gpt-5-5-that-benchmark-gaps-may-not-matter-much/",
+      "summary": "Grok 4.5输入$2/百万token、输出$6/百万token，远低于Fable 5的$10/$50和Opus 4.8的$5/$25。在Terminal Bench上达83.3%接近GPT-5.5，但DeepSWE上落后。token效率比竞品高4.2倍。",
+      "source": "The Decoder",
+      "tags": ["xai", "pricing", "benchmark"]
+    },
+    {
+      "id": 7,
+      "category": "news",
+      "title": "DeepSeek自研AI芯片，同时首次接受外部融资500亿美元估值",
+      "url": "https://the-decoder.com/deepseek-is-designing-its-own-ai-chip/",
+      "summary": "DeepSeek正在自主设计AI芯片，已与芯片设计、制造和存储公司接洽，并秘密招聘芯片工程师。同时以500亿美元估值首次接受外部融资70亿美元，投资者五年锁定期且无投票权。",
+      "source": "The Decoder",
+      "tags": ["deepseek", "hardware", "funding"]
+    },
+    {
+      "id": 8,
+      "category": "news",
+      "title": "MiniMax M3开源百万token上下文模型，挑战闭源领先者",
+      "url": "https://the-decoder.com/minimax-m3-open-weight-model-with-a-million-token-context-challenges-proprietary-leaders/",
+      "summary": "MiniMax发布M3开放权重模型，稳定支持100万token上下文。SWE-Bench Pro得分59%，12小时无干预独立复现论文产出18个commits和23张图。内部2.7万亿参数M3 Pro版也在酝酿中。",
+      "source": "The Decoder",
+      "tags": ["minimax", "open-source", "long-context"]
+    },
+    {
+      "id": 9,
+      "category": "news",
+      "title": "Mistral进军机器人：Robostral Navigate仅凭单摄像头导航",
+      "url": "https://the-decoder.com/mistral-enters-robotics-with-robostral-navigate-an-8b-model-that-steers-robots-using-just-one-camera/",
+      "summary": "Mistral发布8B参数的Robostral Navigate模型，仅用单个摄像头实现机器人导航。完全在模拟环境训练（40万条路径、6000个虚拟空间），支持轮式、腿式和飞行机器人。强化学习进一步提升成功率3.2个百分点。",
+      "source": "The Decoder",
+      "tags": ["mistral", "robotics", "embodied-ai"]
+    },
+    {
+      "id": 10,
+      "category": "news",
+      "title": "Meta测试全天候AI眼镜：可捕获用户全天活动",
+      "url": "https://the-decoder.com/meta-tests-always-on-ai-glasses-that-capture-your-entire-day/",
+      "summary": "Meta正测试「超级感知」模式的AI眼镜原型，可全天录制而无LED指示灯提示旁人。隐私争议已在内部引发讨论。Meta将AI眼镜视为不造手机也能进入智能手机市场的第二次机会。",
+      "source": "The Decoder",
+      "tags": ["meta", "hardware", "privacy"]
+    },
+    {
+      "id": 11,
+      "category": "news",
+      "title": "特朗普新行政令：AI公司自愿将模型提交政府安全审查",
+      "url": "https://the-decoder.com/trumps-new-executive-order-wants-ai-companies-to-voluntarily-submit-models-for-government-safety-reviews/",
+      "summary": "特朗普行政令指示联邦机构30天内加强网络防御，扩展AI防护工具。前沿模型开发者可自愿提交模型进行政府安全测试，但明确排除强制审批流程。同时要求扩大AI在政府服务中的应用。",
+      "source": "The Decoder",
+      "tags": ["regulation", "safety", "policy"]
+    },
+    {
+      "id": 12,
+      "category": "news",
+      "title": "Anthropic获美国政府批准恢复Claude Mythos 5",
+      "url": "https://the-decoder.com/anthropic-gets-us-approval-to-bring-back-claude-mythos-5/",
+      "summary": "Anthropic自6月12日起与美国政府合作恢复Mythos 5和Fable 5的访问权限。同时正扩大Mythos 5的可用范围并使Fable 5重新广泛开放，但未给出具体时间表。",
+      "source": "The Decoder",
+      "tags": ["anthropic", "mythos", "regulation"]
+    },
+    {
+      "id": 13,
+      "category": "news",
+      "title": "Google DeepMind为Gemini API代理添加后台执行和MCP支持",
+      "url": "https://the-decoder.com/google-deepmind-adds-background-execution-and-mcp-support-to-gemini-api-managed-agents/",
+      "summary": "Google DeepMind为Gemini Interactions API的托管代理添加后台执行和MCP协议支持。通过JavaScript、Python和cURL代码示例提供完整开发文档，使代理可长时间后台运行并连接外部工具。",
+      "source": "The Decoder",
+      "tags": ["google", "agent", "mcp"]
+    },
+    {
+      "id": 14,
+      "category": "paper",
+      "title": "WildCity：真实城市级渲染、模拟与空间智能测试平台",
+      "url": "https://huggingface.co/papers/2607.06838",
+      "summary": "提出WildCity，一个真实世界城市级别的测试平台，用于渲染、模拟和空间智能研究。为自动驾驶和城市规划AI提供大规模真实场景基准。",
+      "source": "HuggingFace Papers",
+      "tags": ["spatial-intelligence", "simulation", "benchmark"]
+    },
+    {
+      "id": 15,
+      "category": "paper",
+      "title": "Infinite Worlds with Versatile Interactions：无限世界与多样交互",
+      "url": "https://huggingface.co/papers/2607.07534",
+      "summary": "提出构建具有多样交互能力的无限世界模型方法。推动开放世界生成和交互式环境模拟的边界，为游戏和具身AI提供新范式。",
+      "source": "HuggingFace Papers",
+      "tags": ["world-model", "generation", "interaction"]
+    },
+    {
+      "id": 16,
+      "category": "paper",
+      "title": "视觉语言动作模型中的双潜在记忆用于机器人操作",
+      "url": "https://huggingface.co/papers/2607.07608",
+      "summary": "提出在VLA模型中引入双潜在记忆机制来改善机器人操作能力。通过分离短期和长期记忆提升操作的连贯性和精确度。",
+      "source": "HuggingFace Papers",
+      "tags": ["robotics", "vla", "memory"]
+    },
+    {
+      "id": 17,
+      "category": "paper",
+      "title": "混合专家视频预训练用于具身智能的规模化",
+      "url": "https://huggingface.co/papers/2607.07675",
+      "summary": "研究如何通过MoE架构的视频预训练来规模化具身智能。将视频理解与机器人动作学习结合，探索多模态预训练对具身AI的加速效果。",
+      "source": "HuggingFace Papers",
+      "tags": ["moe", "video", "embodied-ai"]
+    },
+    {
+      "id": 18,
+      "category": "repo",
+      "title": "TencentCloud/TencentDB-Agent-Memory - 全本地AI代理长期记忆",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "summary": "腾讯云开源的AI代理长期记忆方案，通过四层渐进式管道实现完全本地化运行，零外部API依赖。为Hy3等模型的代理应用提供持久记忆支持。",
+      "source": "GitHub Trending",
+      "tags": ["tencent", "agent", "memory"]
+    },
+    {
+      "id": 19,
+      "category": "repo",
+      "title": "addyosmani/agent-skills - AI编码代理的生产级工程技能",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "summary": "由Google Chrome团队Addy Osmani维护的生产级AI编码代理技能集，提供经过实战验证的工程实践和提示模式，帮助开发者构建更可靠的AI辅助编码工作流。",
+      "source": "GitHub Trending",
+      "tags": ["agent", "skills", "developer-tools"]
+    },
+    {
+      "id": 20,
+      "category": "repo",
+      "title": "obra/superpowers - 代理技能框架与软件开发方法论",
+      "url": "https://github.com/obra/superpowers",
+      "summary": "一个可行的代理技能框架和软件开发方法论，为AI编码代理提供结构化的能力组织方式。强调实际有效性而非理论完美。",
+      "source": "GitHub Trending",
+      "tags": ["agent", "framework", "methodology"]
+    }
+  ]
+}
