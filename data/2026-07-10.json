@@ -1,0 +1,157 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "OpenAI正式发布GPT-5.6模型系列，涵盖网络安全等多领域提升",
+      "url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
+      "summary": "OpenAI发布最新GPT-5.6系列模型，在网络安全等多个领域带来改进。美国政府在额外安全测试后解除发布禁令，OpenAI称Sol模型在编码基准上超越Claude Mythos 5。",
+      "source": "TechCrunch",
+      "tags": ["openai", "gpt-5.6", "frontier"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "GPT-5.6成为Microsoft Copilot首选模型，分手传闻中的合作信号",
+      "url": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
+      "summary": "在与微软关系传言不断之际，OpenAI宣布GPT-5.6已成为Microsoft Copilot的首选模型。这一动态显示双方合作仍在深化，尽管外界关于「分手」的猜测不断。",
+      "source": "TechCrunch",
+      "tags": ["openai", "microsoft", "partnership"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "Meta推出Muse Spark 1.1进军AI编码市场",
+      "url": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/",
+      "summary": "Meta发布Muse Spark 1.1进入AI编码市场竞争。核心卖点是处理大型代理工作负载、修复bug和大规模代码迁移的能力，瞄准企业日益增长的AI自动化需求。",
+      "source": "TechCrunch",
+      "tags": ["meta", "coding-agent", "enterprise"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "AI代理初创Lyzr让自己的代理完成1亿美元融资",
+      "url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
+      "summary": "企业AI代理公司Lyzr使用自研的AI代理完成了1亿美元融资全流程，以此证明产品确实可用。这是AI代理自主完成高风险商业任务的标志性案例。",
+      "source": "TechCrunch",
+      "tags": ["agent", "funding", "enterprise"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "Musk承诺不切断Anthropic：xAI托管Claude的400亿美元赌局",
+      "url": "https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic/",
+      "summary": "Musk盛赞Claude Mythos和Fable，承诺xAI不会切断对Anthropic模型的托管。背后是约400亿美元的收入规模，Musk坚称Anthropic可以信任xAI作为模型托管方。",
+      "source": "TechCrunch",
+      "tags": ["xai", "anthropic", "infrastructure"]
+    },
+    {
+      "id": 6,
+      "category": "news",
+      "title": "Meta自研AI芯片将于9月量产，采用模块化设计",
+      "url": "https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/",
+      "summary": "Meta自研AI芯片将于9月进入量产阶段。采用模块化设计方式，预见到AI快速演进可能使芯片需求在量产时已发生变化。这标志着大厂减少对Nvidia依赖的又一步。",
+      "source": "TechCrunch",
+      "tags": ["meta", "hardware", "chip"]
+    },
+    {
+      "id": 7,
+      "category": "news",
+      "title": "OpenAI二号人物Fidji Simo卸任：IPO前的领导层真空",
+      "url": "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/",
+      "summary": "OpenAI二号高管Fidji Simo因病假延长卸任全职岗位。时值公司筹备IPO并在企业市场与Anthropic竞争之际，领导层出现关键真空。",
+      "source": "TechCrunch",
+      "tags": ["openai", "leadership", "business"]
+    },
+    {
+      "id": 8,
+      "category": "news",
+      "title": "美国政府如何判定OpenAI前沿模型可以安全发布",
+      "url": "https://techcrunch.com/2026/07/09/how-did-the-government-decide-openais-frontier-model-was-safe-to-release/",
+      "summary": "深入分析美国政府判定GPT-5.6安全可发布的决策过程。政府与Anthropic、OpenAI之间的对话细节仍不透明，前沿模型的安全审查流程亟需标准化。",
+      "source": "TechCrunch",
+      "tags": ["safety", "regulation", "transparency"]
+    },
+    {
+      "id": 9,
+      "category": "news",
+      "title": "Nvidia成为自己创造的算力市场的「受害者」",
+      "url": "https://techcrunch.com/2026/07/09/nvidia-is-a-victim-of-the-compute-marketplace-it-created/",
+      "summary": "Nvidia证明了算力的巨大价值，却发现自己处于一个所有人都想进入的市场中心，而更简单的技术和不那么耀眼的公司在一旁赚得盆满钵满。算力商品化趋势开始反噬。",
+      "source": "TechCrunch",
+      "tags": ["nvidia", "market", "analysis"]
+    },
+    {
+      "id": 10,
+      "category": "news",
+      "title": "巴黎AI语音创业公司Gradium获Nvidia支持的1亿美元种子轮",
+      "url": "https://techcrunch.com/2026/07/09/paris-based-ai-voice-startup-gradium-raises-100m-seed-backed-by-nvidia/",
+      "summary": "法国巴黎AI语音初创公司Gradium获得由Nvidia领投的1亿美元种子轮融资。AI语音赛道持续吸引大额资本，欧洲AI创业生态展现活力。",
+      "source": "TechCrunch",
+      "tags": ["voice", "funding", "europe"]
+    },
+    {
+      "id": 11,
+      "category": "paper",
+      "title": "ELF：何恺明团队提出嵌入式语言流，连续扩散语言模型新范式",
+      "url": "https://huggingface.co/papers/2605.10938",
+      "summary": "何恺明团队提出Embedded Language Flows(ELF)，在连续嵌入空间中运行基于Flow Matching的扩散语言模型，仅在最终时间步映射到离散token。支持无分类器引导(CFG)，大幅超越现有离散和连续DLM，以更少采样步骤获得更高质量。",
+      "source": "HuggingFace Papers",
+      "tags": ["kaiming-he", "diffusion", "language-model"]
+    },
+    {
+      "id": 12,
+      "category": "paper",
+      "title": "Jet-Long：动态双焦RoPE实现免训练长上下文扩展",
+      "url": "https://huggingface.co/papers/2607.07740",
+      "summary": "提出Jet-Long方法，通过动态双焦RoPE实现零训练的长上下文扩展。在短输入时精确还原基础模型，长输入时干净外推。H100上预填充吞吐达FA2的1.39倍，在Qwen3多个规模上RULER和HELMET-RAG均取得最优。",
+      "source": "HuggingFace Papers",
+      "tags": ["long-context", "rope", "efficiency"]
+    },
+    {
+      "id": 13,
+      "category": "paper",
+      "title": "OpenCoF：通过视频生成进行推理学习",
+      "url": "https://huggingface.co/papers/2607.08763",
+      "summary": "提出通过视频生成进行推理的新路径，不同于传统Chain-of-Thought文本推理，推理在时间连续的帧中展开。为多模态推理提供了视觉生成式的替代方案。",
+      "source": "HuggingFace Papers",
+      "tags": ["video-generation", "reasoning", "multimodal"]
+    },
+    {
+      "id": 14,
+      "category": "paper",
+      "title": "IdeaGene-Bench：科学思想的基因组基准",
+      "url": "https://huggingface.co/papers/2607.08758",
+      "summary": "提出IdeaGene-Bench，将科学思想类比为基因组来评估AI的科学谱系推理能力。思想继承机制、修复已知局限和重组前人成果，就像生物基因组一样。",
+      "source": "HuggingFace Papers",
+      "tags": ["research-automation", "benchmark", "reasoning"]
+    },
+    {
+      "id": 15,
+      "category": "repo",
+      "title": "kyutai-labs/pocket-tts - 能装进口袋的CPU端TTS",
+      "url": "https://github.com/kyutai-labs/pocket-tts",
+      "summary": "Kyutai Lab开源的超轻量TTS模型，可在CPU上运行并适合嵌入式设备部署。将高质量语音合成带到边缘设备，无需GPU。",
+      "source": "GitHub Trending",
+      "tags": ["tts", "edge-ai", "open-source"]
+    },
+    {
+      "id": 16,
+      "category": "repo",
+      "title": "vxcontrol/pentagi - 全自主AI渗透测试代理系统",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "summary": "完全自主的AI代理系统，能执行复杂的渗透测试任务。将AI代理能力应用于安全攻防领域，自动化发现和利用漏洞。",
+      "source": "GitHub Trending",
+      "tags": ["security", "agent", "pentesting"]
+    },
+    {
+      "id": 17,
+      "category": "repo",
+      "title": "unclecode/crawl4ai - LLM友好的开源网络爬虫",
+      "url": "https://github.com/unclecode/crawl4ai",
+      "summary": "专为LLM设计的开源网络爬虫和抓取工具，输出对大模型友好的结构化数据。帮助AI应用获取高质量网页内容，支持RAG和数据标注场景。",
+      "source": "GitHub Trending",
+      "tags": ["crawling", "llm", "data"]
+    }
+  ]
+}
