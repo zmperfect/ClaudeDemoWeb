@@ -146,19 +146,6 @@
     {
       "id": 12,
       "category": "paper",
-      "title": "Remember When It Matters：长时域代理的主动记忆机制",
-      "url": "https://huggingface.co/papers/2607.08716",
-      "summary": "提出面向长时域代理的主动记忆机制，让代理在关键时刻主动记住重要信息而非被动存储一切。提升代理在长期任务中的效率和准确性。",
-      "source": "HuggingFace Papers",
-      "tags": [
-        "agent",
-        "memory",
-        "long-horizon"
-      ]
-    },
-    {
-      "id": 13,
-      "category": "paper",
       "title": "线性注意力架构：机制、权衡与跨层路由",
       "url": "https://huggingface.co/papers/2607.07953",
       "summary": "系统研究线性注意力架构的机制和设计权衡，提出跨层路由方案。为高效Transformer变体的设计选择提供理论和实验指导。",
@@ -170,7 +157,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "paper",
       "title": "CausalDS：数据科学代理的因果推理基准",
       "url": "https://huggingface.co/papers/2607.08093",
@@ -183,7 +170,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 14,
       "category": "repo",
       "title": "google-labs-code/stitch-skills - Google Agent Skills开放标准库",
       "url": "https://github.com/google-labs-code/stitch-skills",
@@ -196,7 +183,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": 15,
       "category": "repo",
       "title": "davila7/claude-code-templates - Claude Code配置与监控CLI",
       "url": "https://github.com/davila7/claude-code-templates",
