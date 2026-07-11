@@ -7,7 +7,11 @@
       "url": "https://the-decoder.com/gpt-5-6-sol-nearly-matches-fable-5-on-aggregated-benchmarks-at-one-third-the-cost/",
       "summary": "Artificial Analysis评估显示GPT-5.6 Sol(max)在智能指数上仅落后Fable 5一分（59 vs 60），在Coding Agent Index中夺冠。每任务成本$1.04，为Fable 5的三分之一。Token价格：Sol $5/$30，Terra $2.50/$15，Luna $1/$6。",
       "source": "The Decoder",
-      "tags": ["openai", "gpt-5.6", "benchmark"]
+      "tags": [
+        "openai",
+        "gpt-5.6",
+        "benchmark"
+      ]
     },
     {
       "id": 2,
@@ -16,7 +20,11 @@
       "url": "https://the-decoder.com/openais-gpt-5-6-sol-autonomously-post-trained-the-smaller-luna-model-with-a-fairly-underspecified-prompt/",
       "summary": "OpenAI称GPT-5.6 Sol通过Codex平台独立完成了Luna模型的后训练。研究员仅给出模糊提示，Sol自行选择训练配置、GPU、启动脚本并验证运行。OpenAI认为「自动化研究员」已非常接近。",
       "source": "The Decoder",
-      "tags": ["openai", "automated-research", "agent"]
+      "tags": [
+        "openai",
+        "automated-research",
+        "agent"
+      ]
     },
     {
       "id": 3,
@@ -25,7 +33,11 @@
       "url": "https://the-decoder.com/openai-pairs-its-gpt-5-6-public-rollout-with-chatgpt-work-a-new-agent-that-handles-entire-workflows/",
       "summary": "ChatGPT Work可跨应用和文件工作数小时完成复杂项目。首批集成Google Drive、SharePoint、Slack、Teams、Salesforce等。单个提示即可完成从客户研究到营销素材生成并适配不同市场的全流程。",
       "source": "The Decoder",
-      "tags": ["openai", "agent", "enterprise"]
+      "tags": [
+        "openai",
+        "agent",
+        "enterprise"
+      ]
     },
     {
       "id": 4,
@@ -34,7 +46,11 @@
       "url": "https://the-decoder.com/anthropic-brings-bun-in-house-the-runtime-powering-claude-codes-1b-arr/",
       "summary": "Anthropic将Bun运行时收归旗下。Claude Code于2025年5月公开发布后仅6个月就达到10亿美元年化收入。Bun创始人Jarred Sumner表示Anthropic对保持运行时快速稳定有直接利益。",
       "source": "The Decoder",
-      "tags": ["anthropic", "claude-code", "acquisition"]
+      "tags": [
+        "anthropic",
+        "claude-code",
+        "acquisition"
+      ]
     },
     {
       "id": 5,
@@ -43,124 +59,167 @@
       "url": "https://the-decoder.com/bun-ditches-zig-for-rust-with-help-from-claude-fable-5-writes-over-a-million-lines-of-code-in-11-days/",
       "summary": "Bun用Claude Fable 5预发布版将核心从Zig迁移到Rust。64个Claude实例并行运行11天，编写超百万行代码，API账单约$165,000。人工团队需要约一年。新版Bun v1.4.0已发布。",
       "source": "The Decoder",
-      "tags": ["fable-5", "coding-agent", "rust"]
+      "tags": [
+        "fable-5",
+        "coding-agent",
+        "rust"
+      ]
     },
     {
       "id": 6,
-      "category": "news",
-      "title": "Apple起诉OpenAI：指控通过挖角员工系统性窃取商业机密",
-      "url": "https://the-decoder.com/apple-sues-openai-for-allegedly-running-a-coordinated-campaign-to-steal-trade-secrets-through-poached-employees/",
-      "summary": "Apple在加州联邦法院起诉OpenAI，称其从技术人员到首席硬件官全面窃取Apple商业机密，OpenAI的硬件业务建立在被盗知识产权之上。OpenAI否认指控。",
-      "source": "The Decoder",
-      "tags": ["apple", "openai", "legal"]
-    },
-    {
-      "id": 7,
       "category": "news",
       "title": "中国阻止Meta收购Manus后，腾讯接手多数股权",
       "url": "https://the-decoder.com/tencent-moves-to-buy-majority-stake-in-manus-after-beijing-forced-meta-to-unwind-its-2-billion-deal/",
       "summary": "中国发改委阻止Meta对AI代理初创Manus的20亿美元收购。腾讯、真格基金等此前投资方正以相同估值商谈接盘。Manus将继续在新加坡独立运营，年收入接近3亿美元。",
       "source": "The Decoder",
-      "tags": ["tencent", "manus", "geopolitics"]
+      "tags": [
+        "tencent",
+        "manus",
+        "geopolitics"
+      ]
     },
     {
-      "id": 8,
+      "id": 7,
       "category": "news",
       "title": "OpenAI关停Sora：日烧百万美元、半数用户流失",
       "url": "https://the-decoder.com/openais-sora-burned-a-million-dollars-a-day-while-losing-half-its-users-in-record-time/",
       "summary": "OpenAI关闭Sora视频生成应用。该产品每天消耗约百万美元算力，用户迅速流失一半，从旗舰项目沦为负担。资源将重新分配到编码、企业和代理AI产品。",
       "source": "The Decoder",
-      "tags": ["openai", "video-generation", "business"]
+      "tags": [
+        "openai",
+        "video-generation",
+        "business"
+      ]
     },
     {
-      "id": 9,
+      "id": 8,
       "category": "news",
       "title": "Meta Muse Spark 1.1 API定价挤压OpenAI和Anthropic",
       "url": "https://the-decoder.com/metas-muse-spark-1-1-api-pricing-squeezes-openai-and-anthropic-as-the-ai-price-war-heats-up/",
       "summary": "Meta Superintelligence Labs发布Muse Spark 1.1多模态推理模型，专为代理任务、编码和多代理编排设计。可作为主代理规划并委派子代理执行，支持MCP和原生工具。API定价显著低于竞品。",
       "source": "The Decoder",
-      "tags": ["meta", "agent", "pricing"]
+      "tags": [
+        "meta",
+        "agent",
+        "pricing"
+      ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "news",
       "title": "SK Hynix美国上市融资265亿美元，创外资IPO最大纪录",
       "url": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/",
       "summary": "AI芯片热潮催生华尔街最大时刻：SK Hynix在美IPO融资265亿美元，创外资在美上市最大纪录。同时面临在美国建设新晶圆厂的压力，三星也受到类似要求。",
       "source": "TechCrunch",
-      "tags": ["hardware", "ipo", "memory"]
+      "tags": [
+        "hardware",
+        "ipo",
+        "memory"
+      ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "news",
       "title": "HuggingFace CEO：企业已经不愿再租用AI了",
       "url": "https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/",
       "summary": "HuggingFace CEO Clem Delangue谈开源vs闭源之争，警告少数大公司可能最终控制一切。企业正从租用AI转向拥有AI，开源模型的战略价值凸显。",
       "source": "TechCrunch",
-      "tags": ["open-source", "enterprise", "strategy"]
+      "tags": [
+        "open-source",
+        "enterprise",
+        "strategy"
+      ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "news",
       "title": "美联储邀Marc Andreessen研究AI能否抑制通胀",
       "url": "https://the-decoder.com/the-fed-wants-ai-investor-marc-andreessen-to-help-figure-out-if-ai-can-tame-inflation/",
       "summary": "美联储成立工作组研究AI对货币政策的影响，由a16z的Andreessen、斯坦福经济学家（现在Anthropic）和微软高管共同主持。核心问题：AI提高生产力是否能压低物价，还是会推高中性利率。",
       "source": "The Decoder",
-      "tags": ["economics", "policy", "ai-impact"]
+      "tags": [
+        "economics",
+        "policy",
+        "ai-impact"
+      ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "paper",
       "title": "UniClawBench：真实世界任务上的主动代理通用基准",
       "url": "https://huggingface.co/papers/2607.08768",
       "summary": "提出UniClawBench，面向真实世界任务的主动代理通用评估基准。覆盖多种实际场景，评估代理主动行动和问题解决能力。",
       "source": "HuggingFace Papers",
-      "tags": ["agent", "benchmark", "evaluation"]
+      "tags": [
+        "agent",
+        "benchmark",
+        "evaluation"
+      ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "paper",
       "title": "Remember When It Matters：长时域代理的主动记忆机制",
       "url": "https://huggingface.co/papers/2607.08716",
       "summary": "提出面向长时域代理的主动记忆机制，让代理在关键时刻主动记住重要信息而非被动存储一切。提升代理在长期任务中的效率和准确性。",
       "source": "HuggingFace Papers",
-      "tags": ["agent", "memory", "long-horizon"]
+      "tags": [
+        "agent",
+        "memory",
+        "long-horizon"
+      ]
     },
     {
-      "id": 15,
+      "id": 14,
       "category": "paper",
       "title": "线性注意力架构：机制、权衡与跨层路由",
       "url": "https://huggingface.co/papers/2607.07953",
       "summary": "系统研究线性注意力架构的机制和设计权衡，提出跨层路由方案。为高效Transformer变体的设计选择提供理论和实验指导。",
       "source": "HuggingFace Papers",
-      "tags": ["architecture", "efficiency", "attention"]
+      "tags": [
+        "architecture",
+        "efficiency",
+        "attention"
+      ]
     },
     {
-      "id": 16,
+      "id": 15,
       "category": "paper",
       "title": "CausalDS：数据科学代理的因果推理基准",
       "url": "https://huggingface.co/papers/2607.08093",
       "summary": "提出CausalDS基准，评估数据科学代理的因果推理能力。测试代理能否正确识别因果关系而非仅依赖统计相关性，填补代理评估中的关键空白。",
       "source": "HuggingFace Papers",
-      "tags": ["agent", "causal-reasoning", "benchmark"]
+      "tags": [
+        "agent",
+        "causal-reasoning",
+        "benchmark"
+      ]
     },
     {
-      "id": 17,
+      "id": 16,
       "category": "repo",
       "title": "google-labs-code/stitch-skills - Google Agent Skills开放标准库",
       "url": "https://github.com/google-labs-code/stitch-skills",
       "summary": "Google Labs开源的Agent Skills库，遵循开放标准，兼容Antigravity、Gemini CLI、Claude Code、Cursor等多种编码代理。配合Stitch MCP服务器使用。",
       "source": "GitHub Trending",
-      "tags": ["google", "agent", "skills"]
+      "tags": [
+        "google",
+        "agent",
+        "skills"
+      ]
     },
     {
-      "id": 18,
+      "id": 17,
       "category": "repo",
       "title": "davila7/claude-code-templates - Claude Code配置与监控CLI",
       "url": "https://github.com/davila7/claude-code-templates",
       "summary": "用于配置和监控Claude Code的CLI工具，提供模板化的项目配置管理。帮助开发者快速搭建和追踪Claude Code工作环境。",
       "source": "GitHub Trending",
-      "tags": ["claude-code", "developer-tools", "cli"]
+      "tags": [
+        "claude-code",
+        "developer-tools",
+        "cli"
+      ]
     }
   ]
 }
