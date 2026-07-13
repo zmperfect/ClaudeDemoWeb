@@ -3,146 +3,197 @@
     {
       "id": 1,
       "category": "news",
-      "title": "GPT-5.6 Sol Ultra据报在不到一小时内解决50年未解数学问题",
-      "url": "https://the-decoder.com/openais-gpt-5-6-sol-ultra-reportedly-solves-a-50-year-old-math-problem-in-under-an-hour/",
-      "summary": "GPT-5.6 Sol Ultra据称独立解决了图论中一个1970年代提出的猜想：任何图中是否存在遍历每条边恰好两次的环集。关键在于一个反直觉的推理小扭转，人类数学家尝试失败后会放弃，AI不会。",
-      "source": "The Decoder",
-      "tags": ["openai", "math", "reasoning"]
-    },
-    {
-      "id": 2,
-      "category": "news",
       "title": "Claude Code新增内置浏览器：AI可在外部网站上阅读、点击和输入",
       "url": "https://the-decoder.com/claude-code-now-has-a-built-in-browser-that-lets-the-ai-read-click-and-type-on-external-websites/",
       "summary": "Claude Code新增内置浏览器工具，让AI可以在外部网站上阅读、点击和输入。组织可通过白名单限制访问范围或完全禁用该功能。",
       "source": "The Decoder",
-      "tags": ["claude-code", "browser", "agent"]
+      "tags": [
+        "claude-code",
+        "browser",
+        "agent"
+      ]
     },
     {
-      "id": 3,
+      "id": 2,
       "category": "news",
       "title": "Anthropic CEO预测AI将导致20%失业率，建议对每次AI响应征税",
       "url": "https://the-decoder.com/anthropic-ceo-predicts-20-unemployment-from-ai-and-suggests-taxing-every-ai-responseanthropic-ceo-predicts-massive-job-losses-and-proposes-a-token-tax/",
       "summary": "Dario Amodei向Axios警告：「癌症治愈、经济增长10%、预算平衡——但20%的人没有工作。」他认为政府和行业需要停止淡化AI导致失业的威胁，第一步是发出警告。",
       "source": "The Decoder",
-      "tags": ["anthropic", "employment", "policy"]
+      "tags": [
+        "anthropic",
+        "employment",
+        "policy"
+      ]
     },
     {
-      "id": 4,
+      "id": 3,
       "category": "news",
       "title": "JADEPUFFER：首个代理型勒索软件，以机器速度暴露旧安全漏洞",
       "url": "https://the-decoder.com/jadepuffer-is-the-first-agentic-ransomware-operation-and-it-exposes-old-security-sins-at-machine-speed/",
       "summary": "首个AI代理驱动的勒索软件JADEPUFFER被发现。代理自主利用已知未修补漏洞入侵，收集凭证、建立持久访问并攻击MySQL生产数据库。传统勒索依赖人工，这次完全自主化。",
       "source": "The Decoder",
-      "tags": ["security", "agent", "ransomware"]
+      "tags": [
+        "security",
+        "agent",
+        "ransomware"
+      ]
     },
     {
-      "id": 5,
+      "id": 4,
       "category": "news",
       "title": "Meta计划裁员20%：6000亿AI豪赌需要对冲成本",
       "url": "https://the-decoder.com/meta-reportedly-plans-to-cut-up-to-20-percent-of-its-workforce-as-600-billion-ai-bet-drives-need-to-offset-costs/",
       "summary": "扎克伯格将重注押在生成式AI上，Meta据报计划裁减最多20%员工以对冲巨额AI投资。Amazon和Block也做出了类似的AI相关裁员。",
       "source": "The Decoder",
-      "tags": ["meta", "layoffs", "ai-impact"]
+      "tags": [
+        "meta",
+        "layoffs",
+        "ai-impact"
+      ]
     },
     {
-      "id": 6,
+      "id": 5,
       "category": "news",
       "title": "Block裁掉近半员工：Dorsey归功于AI但真正原因早于炒作",
       "url": "https://the-decoder.com/block-cuts-nearly-half-its-workforce-as-dorsey-credits-ai-but-the-real-reasons-predate-the-hype/",
       "summary": "Block裁掉4000+名员工（近半数），CEO Dorsey称赞AI取代了岗位。公司财务健康，选择一次性大裁而非渐进式。股价暴涨25%。被裁员工获20周工资+每年一周额外补偿。",
       "source": "The Decoder",
-      "tags": ["layoffs", "fintech", "ai-impact"]
+      "tags": [
+        "layoffs",
+        "fintech",
+        "ai-impact"
+      ]
     },
     {
-      "id": 7,
+      "id": 6,
       "category": "news",
       "title": "Altman坚持万亿估值IPO：OpenAI上市可能推迟到2027",
       "url": "https://the-decoder.com/altman-wont-go-public-for-less-than-1-trillion-so-openais-ipo-may-slip-to-2027/",
       "summary": "OpenAI倾向将IPO推迟至2027年。Altman坚持1万亿美元估值（高于上轮7300亿），顾问给出两个选择：2027年万亿上市或2026年以较低估值上市。",
       "source": "The Decoder",
-      "tags": ["openai", "ipo", "business"]
+      "tags": [
+        "openai",
+        "ipo",
+        "business"
+      ]
     },
     {
-      "id": 8,
+      "id": 7,
       "category": "news",
       "title": "AI代理用结构化记忆替代聊天日志，赢下Slay the Spire 2",
       "url": "https://the-decoder.com/ai-agents-win-at-slay-the-spire-2-after-researchers-replace-growing-chat-logs-with-structured-memory/",
       "summary": "AgenticSTS项目让AI代理永远不看自己的聊天记录，而是从外部数据库按需重建上下文。在Slay the Spire 2（数百步决策的roguelike）中胜率从5%提升到75%，证明结构化记忆大幅优于上下文积累。",
       "source": "The Decoder",
-      "tags": ["agent", "memory", "gaming"]
+      "tags": [
+        "agent",
+        "memory",
+        "gaming"
+      ]
     },
     {
-      "id": 9,
+      "id": 8,
       "category": "news",
       "title": "禁AI考试后成绩从96%暴跌至48%：布朗大学教授揭露AI作弊",
       "url": "https://the-decoder.com/grades-dropped-from-96-to-48-percent-when-a-brown-professor-made-students-take-the-exam-without-ai/",
       "summary": "布朗大学经济学教授发现86名学生的居家考试平均96分（历史正常65-80%），ChatGPT给出几乎相同答案。改为监考后：18人退课、9人缺考，平均分跌至48.6%，创课程最差纪录。",
       "source": "The Decoder",
-      "tags": ["education", "cheating", "ai-impact"]
+      "tags": [
+        "education",
+        "cheating",
+        "ai-impact"
+      ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "news",
       "title": "腾讯发布Hy-MT2系列和Hy-Embodied具身模型",
       "url": "https://huggingface.co/tencent/Hy-MT2-30B-A3B",
       "summary": "腾讯混元生态持续扩展：Hy-MT2系列发布7B和30B-A3B（MoE架构，30B参数仅3B激活）两个规模，同时发布Hy-Embodied-0.5-VLA机器人视觉语言动作模型。Hy3开源生态从语言扩展到具身智能。",
       "source": "HuggingFace",
-      "tags": ["tencent", "hy3", "embodied-ai"]
+      "tags": [
+        "tencent",
+        "hy3",
+        "embodied-ai"
+      ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "paper",
       "title": "何恺明团队GenCeption：视频生成模型是通用视觉学习器",
       "url": "https://huggingface.co/papers/2607.09024",
       "summary": "何恺明团队提出GenCeption，利用预训练视频生成扩散骨干定义前馈感知模型。在深度估计、法线估计、分割等任务上达SOTA，数据效率惊人（7-500倍更少数据匹配领先模型）。论证视频生成是通向通用物理世界视觉智能的基础路径。",
       "source": "HuggingFace Papers",
-      "tags": ["kaiming-he", "vision", "video-generation"]
+      "tags": [
+        "kaiming-he",
+        "vision",
+        "video-generation"
+      ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "paper",
       "title": "Self-Guided TTT：长上下文LLM的自引导测试时训练",
       "url": "https://huggingface.co/papers/2607.09415",
       "summary": "提出自引导测试时训练方法改善长上下文LLM的利用效果。随输入长度增长准确率通常下降，该方法在测试时将上下文作为训练样本进行实例特定参数更新。",
       "source": "HuggingFace Papers",
-      "tags": ["long-context", "test-time-training", "llm"]
+      "tags": [
+        "long-context",
+        "test-time-training",
+        "llm"
+      ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "paper",
       "title": "为何记忆知识未能在LLM微调中泛化的机制性理解",
       "url": "https://huggingface.co/papers/2607.08393",
       "summary": "从机制层面分析LLM微调中记忆知识无法泛化的原因。为理解大模型的知识获取和泛化瓶颈提供理论洞察。",
       "source": "HuggingFace Papers",
-      "tags": ["mechanistic", "finetuning", "generalization"]
+      "tags": [
+        "mechanistic",
+        "finetuning",
+        "generalization"
+      ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "repo",
       "title": "ColeMurray/background-agents - 开源后台代理编码系统",
       "url": "https://github.com/ColeMurray/background-agents",
       "summary": "开源后台代理编码系统，让AI编码代理在后台持续运行任务。类似Anthropic的Claude背景代理功能，但完全开源可自部署。",
       "source": "GitHub Trending",
-      "tags": ["agent", "coding", "open-source"]
+      "tags": [
+        "agent",
+        "coding",
+        "open-source"
+      ]
     },
     {
-      "id": 15,
+      "id": 14,
       "category": "repo",
       "title": "Dicklesworthstone/destructive_command_guard - AI代理破坏性命令防护",
       "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
       "summary": "保护系统免受AI代理执行危险git和shell命令的防护工具。在代理自主操作日益普及的背景下提供安全兜底。",
       "source": "GitHub Trending",
-      "tags": ["security", "agent", "safety"]
+      "tags": [
+        "security",
+        "agent",
+        "safety"
+      ]
     },
     {
-      "id": 16,
+      "id": 15,
       "category": "repo",
       "title": "HKUDS/Vibe-Trading - 你的个人AI交易代理",
       "url": "https://github.com/HKUDS/Vibe-Trading",
       "summary": "港大数据科学实验室开源的个人AI交易代理，将LLM代理能力应用于金融交易场景。支持策略生成、市场分析和自动执行。",
       "source": "GitHub Trending",
-      "tags": ["agent", "trading", "finance"]
+      "tags": [
+        "agent",
+        "trading",
+        "finance"
+      ]
     }
   ]
 }
