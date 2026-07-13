@@ -107,19 +107,6 @@
     {
       "id": 9,
       "category": "paper",
-      "title": "何恺明团队GenCeption：视频生成模型是通用视觉学习器",
-      "url": "https://huggingface.co/papers/2607.09024",
-      "summary": "何恺明团队提出GenCeption，利用预训练视频生成扩散骨干定义前馈感知模型。在深度估计、法线估计、分割等任务上达SOTA，数据效率惊人（7-500倍更少数据匹配领先模型）。论证视频生成是通向通用物理世界视觉智能的基础路径。",
-      "source": "HuggingFace Papers",
-      "tags": [
-        "kaiming-he",
-        "vision",
-        "video-generation"
-      ]
-    },
-    {
-      "id": 10,
-      "category": "paper",
       "title": "Self-Guided TTT：长上下文LLM的自引导测试时训练",
       "url": "https://huggingface.co/papers/2607.09415",
       "summary": "提出自引导测试时训练方法改善长上下文LLM的利用效果。随输入长度增长准确率通常下降，该方法在测试时将上下文作为训练样本进行实例特定参数更新。",
@@ -131,7 +118,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "paper",
       "title": "为何记忆知识未能在LLM微调中泛化的机制性理解",
       "url": "https://huggingface.co/papers/2607.08393",
@@ -144,7 +131,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "repo",
       "title": "ColeMurray/background-agents - 开源后台代理编码系统",
       "url": "https://github.com/ColeMurray/background-agents",
@@ -157,7 +144,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "repo",
       "title": "Dicklesworthstone/destructive_command_guard - AI代理破坏性命令防护",
       "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
@@ -170,7 +157,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "repo",
       "title": "HKUDS/Vibe-Trading - 你的个人AI交易代理",
       "url": "https://github.com/HKUDS/Vibe-Trading",
