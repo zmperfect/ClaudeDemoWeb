@@ -1,0 +1,148 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "LeCun离开Meta自立门户：「你不能告诉我这样的研究者该做什么」",
+      "url": "https://the-decoder.com/you-certainly-dont-tell-a-researcher-like-me-what-to-do-says-lecun-as-he-exits-meta-for-his-own-startup/",
+      "summary": "Yann LeCun公开炮轰Meta，称扎克伯格对GenAI项目失望后「失去对所有相关人员的信任」。LeCun批评新AI负责人Wang「年轻且无研究经验」，称大量研究人员已离开或即将离开。",
+      "source": "The Decoder",
+      "tags": ["meta", "lecun", "leadership"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "图灵奖得主Rich Sutton创办Oak Lab：构建自主学习的AI代理",
+      "url": "https://the-decoder.com/turing-award-winner-rich-sutton-founds-oak-lab-to-build-ai-agents-that-learn-on-their-own/",
+      "summary": "强化学习之父Sutton创办Oak Lab，推动AI从人类数据训练转向通过行动和反馈自主学习。他指出当前生成式AI几乎完全建立在人类数据上，终将触及天花板。AI下一跃需要在世界中实践而非仅阅读。",
+      "source": "The Decoder",
+      "tags": ["reinforcement-learning", "agent", "research"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "Nadella批评AI实验室：禁止蒸馏却用别人的数据训练",
+      "url": "https://the-decoder.com/nadella-calls-out-ai-labs-like-openai-and-anthropic-for-banning-distillation-while-training-on-everyone-elses-data/",
+      "summary": "微软CEO Nadella公开批评OpenAI和Anthropic等AI实验室的双重标准：一方面禁止他人蒸馏自己的模型，另一方面却用海量他人数据训练。他认为「消费智能就是创造智能」。",
+      "source": "The Decoder",
+      "tags": ["microsoft", "distillation", "policy"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "美国版权局裁定：合理使用不涵盖基于大量版权作品训练的AI",
+      "url": "https://the-decoder.com/us-copyright-office-says-fair-use-does-not-cover-ai-trained-on-vast-troves-of-copyrighted-works/",
+      "summary": "美国版权局新报告拒绝AI行业的关键辩护理由。AI处理信息方式与人类根本不同——人类保留部分模糊印象，AI摄取完美副本并几乎瞬时分析。若输出在市场上与原作竞争，则不构成合理使用。",
+      "source": "The Decoder",
+      "tags": ["copyright", "regulation", "legal"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "Google工程师：Claude Code一小时构建了我团队花一年做的东西",
+      "url": "https://the-decoder.com/google-engineer-says-claude-code-built-in-one-hour-what-her-team-spent-a-year-on/",
+      "summary": "Google工程师Dogan分享周末用Claude Code快速构建原型的经历。她强调这不是生产级的，但证明一旦具备领域知识和设计洞察，用AI将其具现化变得「完全平凡」。",
+      "source": "The Decoder",
+      "tags": ["claude-code", "productivity", "developer"]
+    },
+    {
+      "id": 6,
+      "category": "news",
+      "title": "诺贝尔奖得主和AI领袖联合警告：应对AI经济冲击的窗口正在关闭",
+      "url": "https://the-decoder.com/nobel-laureates-and-ai-leaders-warn-the-window-to-prepare-for-ais-economic-impact-is-closing-fast/",
+      "summary": "斯坦福数字经济实验室联合诺贝尔奖得主Michael Spence等发出警告：AI能力进展远快于经济影响认知。明确警示「大规模就业替代」风险，呼吁各方全力以赴应对。",
+      "source": "The Decoder",
+      "tags": ["economics", "employment", "safety"]
+    },
+    {
+      "id": 7,
+      "category": "news",
+      "title": "德国AI联盟开源Soofi-S：30B参数MoE模型英德双语称霸",
+      "url": "https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/",
+      "summary": "德国AI协会联盟发布Soofi-S开源MoE模型：31.6B参数仅激活3.2B，计算成本接近3B模型。仅6层用标准注意力，其余为线性注意力，KV缓存不随上下文线性增长。英德双语基准均领先。",
+      "source": "The Decoder",
+      "tags": ["open-source", "moe", "multilingual"]
+    },
+    {
+      "id": 8,
+      "category": "news",
+      "title": "Anthropic延长Fable 5免费额度回应GPT-5.6 Sol定价战",
+      "url": "https://the-decoder.com/anthropic-extends-free-fable-5-access-for-subscribers-as-openais-gpt-5-6-sol-heats-up-the-pricing-war/",
+      "summary": "Anthropic延长订阅用户的Fable 5免费使用额度，明确回应GPT-5.6 Sol带来的日益激烈的定价竞争压力。AI模型市场价格战持续升温。",
+      "source": "The Decoder",
+      "tags": ["anthropic", "pricing", "competition"]
+    },
+    {
+      "id": 9,
+      "category": "news",
+      "title": "腾讯混元Hy-MT2发布FP8和1.25Bit超低比特量化版，R3检索模型同步开源",
+      "url": "https://huggingface.co/tencent/Hy-MT2-30B-A3B-FP8",
+      "summary": "腾讯Hy3生态持续扩展：Hy-MT2-30B-A3B新增FP8量化版降低部署门槛，并发布1.8B-1.25Bit超低比特GGUF版本支持边缘设备。同时开源R3-embedding和R3-rerank检索模型（0.6B参数），完善RAG工具链。",
+      "source": "HuggingFace",
+      "tags": ["tencent", "hy3", "quantization"]
+    },
+    {
+      "id": 10,
+      "category": "paper",
+      "title": "ABot-AgentOS：具备终身多模态记忆的通用机器人代理操作系统",
+      "url": "https://huggingface.co/papers/2607.10350",
+      "summary": "提出ABot-AgentOS，面向通用机器人的代理操作系统，具备终身多模态记忆能力。为具身AI提供系统级的感知-记忆-决策-执行框架。",
+      "source": "HuggingFace Papers",
+      "tags": ["robotics", "agent", "memory"]
+    },
+    {
+      "id": 11,
+      "category": "paper",
+      "title": "LightMem-Ego：日常生活的AI记忆助手",
+      "url": "https://huggingface.co/papers/2607.11487",
+      "summary": "提出LightMem-Ego，面向日常生活的轻量级AI记忆系统。通过第一人称视角持续记录和索引生活经历，为可穿戴AI提供实用的个人记忆检索能力。",
+      "source": "HuggingFace Papers",
+      "tags": ["memory", "wearable", "personal-ai"]
+    },
+    {
+      "id": 12,
+      "category": "paper",
+      "title": "AdvancedMathBench：高等数学证明生成与验证基准套件",
+      "url": "https://huggingface.co/papers/2607.11849",
+      "summary": "提出面向高等数学的证明生成和验证基准套件。在GPT-5.6 Sol Ultra刚解决50年猜想的背景下，为评估AI数学推理提供系统化标准。",
+      "source": "HuggingFace Papers",
+      "tags": ["math", "reasoning", "benchmark"]
+    },
+    {
+      "id": 13,
+      "category": "paper",
+      "title": "LLM中的元认知：基础、进展与机遇",
+      "url": "https://huggingface.co/papers/2607.11881",
+      "summary": "系统综述LLM中的元认知能力：模型能否「知道自己不知道什么」。涵盖校准、不确定性估计、自我纠错等方面，为构建更可靠的AI系统提供理论框架。",
+      "source": "HuggingFace Papers",
+      "tags": ["metacognition", "reliability", "survey"]
+    },
+    {
+      "id": 14,
+      "category": "repo",
+      "title": "Graphify-Labs/graphify - 代码知识图谱AI技能",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "summary": "将代码、SQL、R脚本、文档、图片等转化为可查询知识图谱的AI编码助手技能。支持Claude Code、Codex、Cursor等多种代理，将应用代码+数据库+基础设施统一到一个图中。",
+      "source": "GitHub Trending",
+      "tags": ["knowledge-graph", "agent", "developer-tools"]
+    },
+    {
+      "id": 15,
+      "category": "repo",
+      "title": "OpenCut-app/OpenCut - 开源CapCut替代",
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "summary": "CapCut的开源替代方案，提供视频编辑功能。在AI视频生成工具（Sora关停、Seedance争议）的大背景下，开源视频编辑工具获得关注。",
+      "source": "GitHub Trending",
+      "tags": ["video-editing", "open-source", "creative"]
+    },
+    {
+      "id": 16,
+      "category": "repo",
+      "title": "github/spec-kit - GitHub官方Spec驱动开发工具包",
+      "url": "https://github.com/github/spec-kit",
+      "summary": "GitHub官方发布的Spec驱动开发工具包，帮助开发者以规范优先的方式构建项目。为AI代理编码时代提供结构化的需求-实现工作流。",
+      "source": "GitHub Trending",
+      "tags": ["github", "spec-driven", "methodology"]
+    }
+  ]
+}
