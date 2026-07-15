@@ -23,7 +23,8 @@
         'post-training': ['lora', 'qlora', 'sft', 'rlhf', 'dpo', 'ppo', 'grpo', 'fine-tuning', 'finetuning', 'post-training', 'alignment', 'reward-model', 'distillation'],
         'rag': ['rag', 'retrieval', 'embedding', 'reranking', 'rerank', 'chunking', 'vector-db', 'vector-database', 'hybrid-search', 'semantic-search', 'document-parsing'],
         'memory': ['memory', 'context-management', 'long-term-memory', 'context-compression', 'personalization', 'conversation-state', 'context-window', 'user-memory'],
-        'agent': ['agent', 'tool-use', 'function-calling', 'planning', 'multi-agent', 'agentic', 'coding-agent', 'computer-use', 'gui-agent']
+        'agent': ['agent', 'tool-use', 'function-calling', 'planning', 'multi-agent', 'agentic', 'coding-agent', 'computer-use', 'gui-agent'],
+        'model-fundamentals': ['transformer', 'architecture', 'attention', 'pretraining', 'pre-training', 'scaling-law', 'tokenizer', 'tokenization', 'moe', 'mixture-of-experts', 'llm-training', 'distributed-training', 'parallelism', 'deepspeed', 'megatron', 'inference', 'quantization', 'pruning', 'kv-cache', 'speculative-decoding', 'flash-attention', 'rope', 'positional-encoding', 'normalization', 'model-fundamentals', 'survey', 'tutorial', 'long-context']
     };
 
     const HIDDEN_KEY = 'ai-digest-hidden';
