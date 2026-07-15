@@ -147,110 +147,74 @@
     {
       "id": 17,
       "category": "paper",
-      "title": "【综述】A Survey of Large Language Models（大语言模型全面综述）",
-      "url": "https://arxiv.org/abs/2303.18223",
-      "summary": "Renmin大学赵鑫团队的经典LLM综述，系统梳理大模型的技术演进：从GPT系列到LLaMA，涵盖预训练、对齐、使用、评估四大环节。引用超万次的入门必读。",
-      "source": "arXiv Survey",
-      "tags": ["model-fundamentals", "survey", "pretraining", "architecture"]
-    },
-    {
-      "id": 18,
-      "category": "paper",
       "title": "【综述】Foundations of Large Language Models（LLM基础：从原理到实践）",
       "url": "https://arxiv.org/abs/2501.09223",
       "summary": "2025年最新LLM基础教材级综述，覆盖Transformer架构细节、Tokenization、预训练目标、Scaling Laws、对齐方法(RLHF/DPO)、高效推理等全栈知识。适合系统学习。",
       "source": "arXiv Survey",
-      "tags": ["model-fundamentals", "survey", "transformer", "scaling-law", "pretraining"]
+      "tags": ["model-fundamentals", "survey"]
     },
     {
-      "id": 19,
+      "id": 18,
       "category": "paper",
       "title": "【综述】Understanding LLMs: A Comprehensive Overview from Training to Inference",
       "url": "https://arxiv.org/abs/2401.02038",
       "summary": "从训练到推理的LLM全流程综述：数据处理、预训练策略、微调方法、推理优化（量化/剪枝/KV缓存/投机解码）。帮助理解模型从诞生到部署的完整生命周期。",
       "source": "arXiv Survey",
-      "tags": ["model-fundamentals", "survey", "llm-training", "inference", "quantization"]
+      "tags": ["model-fundamentals", "survey"]
     },
     {
-      "id": 20,
+      "id": 19,
       "category": "paper",
       "title": "【里程碑】Training Compute-Optimal Large Language Models（Chinchilla Scaling Laws）",
       "url": "https://arxiv.org/abs/2203.15556",
       "summary": "DeepMind提出计算最优训练法则（Chinchilla定律）：给定计算预算，模型大小和数据量应同步扩展。彻底改变了LLM训练范式，证明此前模型普遍过大而数据不足。",
       "source": "arXiv",
-      "tags": ["model-fundamentals", "scaling-law", "pretraining", "training"]
+      "tags": ["model-fundamentals", "scaling-law"]
     },
     {
-      "id": 21,
+      "id": 20,
       "category": "paper",
       "title": "【综述】A Survey on Efficient Inference for Large Language Models",
       "url": "https://arxiv.org/abs/2404.14294",
       "summary": "LLM高效推理综述：系统梳理模型压缩（量化/剪枝/蒸馏）、解码加速（投机解码/并行解码）、KV缓存优化、硬件感知部署等技术路线。部署LLM的必读参考。",
       "source": "arXiv Survey",
-      "tags": ["model-fundamentals", "survey", "inference", "quantization", "kv-cache", "speculative-decoding"]
+      "tags": ["model-fundamentals", "survey"]
     },
     {
-      "id": 22,
+      "id": 21,
       "category": "paper",
       "title": "【综述】A Survey on Model Compression for Large Language Models",
       "url": "https://arxiv.org/abs/2308.07633",
       "summary": "LLM模型压缩全景综述：量化（GPTQ/AWQ/GGML）、剪枝（结构化/非结构化）、知识蒸馏、低秩分解。从理论到实践讲解如何让大模型在有限硬件上高效运行。",
       "source": "arXiv Survey",
-      "tags": ["model-fundamentals", "survey", "quantization", "pruning", "inference"]
+      "tags": ["model-fundamentals", "survey"]
     },
     {
-      "id": 23,
+      "id": 22,
       "category": "paper",
       "title": "【经典】LoRA: Low-Rank Adaptation of Large Language Models",
       "url": "https://arxiv.org/abs/2106.09685",
       "summary": "微软提出的低秩自适应微调方法：冻结原始权重，仅训练低秩分解矩阵。训练参数量减少10000倍，GPU内存减少3倍，推理无额外延迟。已成为LLM微调事实标准。",
       "source": "arXiv",
-      "tags": ["model-fundamentals", "fine-tuning", "lora", "training"]
+      "tags": ["model-fundamentals", "lora"]
     },
     {
-      "id": 24,
+      "id": 23,
       "category": "paper",
       "title": "【综述】The Prompt Report: A Systematic Survey of Prompt Engineering Techniques",
       "url": "https://arxiv.org/abs/2406.06608",
       "summary": "Prompt工程技术系统综述：从Zero-shot到Chain-of-Thought，从Few-shot到Tree-of-Thought，系统分类58种提示技术并分析其适用场景。使用LLM的实践指南。",
       "source": "arXiv Survey",
-      "tags": ["model-fundamentals", "survey", "tutorial"]
+      "tags": ["model-fundamentals", "survey"]
     },
     {
-      "id": 25,
+      "id": 24,
       "category": "paper",
       "title": "【里程碑】LLaMA: Open and Efficient Foundation Language Models",
       "url": "https://arxiv.org/abs/2302.13971",
       "summary": "Meta发布的开源基础模型LLaMA（7B-65B），证明纯公开数据+充分训练可达闭源模型水平。开启LLM开源生态爆发，其架构设计（RMSNorm/RoPE/SwiGLU/GQA）成为后续模型标配。",
       "source": "arXiv",
-      "tags": ["model-fundamentals", "architecture", "pretraining", "rope", "normalization"]
-    },
-    {
-      "id": 26,
-      "category": "paper",
-      "title": "【综述】A Comprehensive Overview of Large Language Models",
-      "url": "https://arxiv.org/abs/2307.06435",
-      "summary": "LLM全景概览：模型架构演进（Encoder-only/Decoder-only/Encoder-Decoder）、训练方法论、涌现能力、对齐策略、应用场景。注重对比不同设计选择的trade-off。",
-      "source": "arXiv Survey",
-      "tags": ["model-fundamentals", "survey", "architecture", "attention"]
-    },
-    {
-      "id": 27,
-      "category": "paper",
-      "title": "【综述】Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond",
-      "url": "https://arxiv.org/abs/2304.13712",
-      "summary": "面向实践者的LLM使用综述：何时该用哪种模型、如何选择微调vs提示、数据标注策略、评估方法论。附带实用决策树帮助选择最优技术路线。",
-      "source": "arXiv Survey",
-      "tags": ["model-fundamentals", "survey", "tutorial"]
-    },
-    {
-      "id": 28,
-      "category": "paper",
-      "title": "【里程碑】BLOOM: A 176B-Parameter Open-Access Multilingual Language Model",
-      "url": "https://arxiv.org/abs/2211.05100",
-      "summary": "BigScience联盟训练的176B开源多语言模型，详细记录了大规模训练的工程实践：分布式训练架构(Megatron-DeepSpeed)、数据策划、多语言Tokenizer设计、训练稳定性技巧。",
-      "source": "arXiv",
-      "tags": ["model-fundamentals", "distributed-training", "tokenizer", "parallelism", "megatron", "deepspeed"]
+      "tags": ["model-fundamentals", "architecture"]
     }
   ]
 }
