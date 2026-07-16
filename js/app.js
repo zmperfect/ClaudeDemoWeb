@@ -24,7 +24,7 @@
         'rag': ['rag', 'retrieval', 'embedding', 'reranking', 'rerank', 'chunking', 'vector-db', 'vector-database', 'hybrid-search', 'semantic-search', 'document-parsing'],
         'memory': ['memory', 'context-management', 'long-term-memory', 'context-compression', 'personalization', 'conversation-state', 'context-window', 'user-memory'],
         'agent': ['agent', 'tool-use', 'function-calling', 'planning', 'multi-agent', 'agentic', 'coding-agent', 'computer-use', 'gui-agent'],
-        'model-fundamentals': ['model-fundamentals', 'scaling-law', 'lora']
+        'model-fundamentals': ['model-fundamentals', 'scaling-law']
     };
 
     const HIDDEN_KEY = 'ai-digest-hidden';
