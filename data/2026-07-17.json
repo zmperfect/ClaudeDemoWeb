@@ -122,19 +122,6 @@
     {
       "id": 10,
       "category": "paper",
-      "title": "SEED：面向代理强化学习的自演化策略蒸馏",
-      "url": "https://huggingface.co/papers/2607.14777",
-      "summary": "提出SEED自演化在策略蒸馏方法用于代理强化学习。通过自我演化不断改进策略，为构建更强大的自主代理提供新的训练范式。",
-      "source": "HuggingFace Papers",
-      "tags": [
-        "agent",
-        "reinforcement-learning",
-        "distillation"
-      ]
-    },
-    {
-      "id": 11,
-      "category": "paper",
       "title": "SearchOS-V1：面向鲁棒开放域信息搜索的代理协作系统",
       "url": "https://huggingface.co/papers/2607.15257",
       "summary": "提出SearchOS-V1，实现多代理协作的开放域信息搜索。代理间分工合作完成复杂搜索任务，对构建可靠的AI搜索引擎有直接指导意义。",
@@ -146,7 +133,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "paper",
       "title": "BadWAM：当世界-动作模型梦对了但行动错了",
       "url": "https://huggingface.co/papers/2607.15207",
@@ -159,7 +146,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "repo",
       "title": "openinterpreter/openinterpreter - 面向Kimi K3等开放模型的编码代理",
       "url": "https://github.com/openinterpreter/openinterpreter",
@@ -173,7 +160,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "repo",
       "title": "apache/ossie - Apache语义元数据互操作标准",
       "url": "https://github.com/apache/ossie",
