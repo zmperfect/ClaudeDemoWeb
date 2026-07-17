@@ -1,0 +1,148 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "Kimi K3发布：2.8万亿参数开源模型逼近GPT-5.6 Sol和Fable 5，中国AI廉价时代终结",
+      "url": "https://the-decoder.com/kimis-open-model-k3-nears-gpt-5-6-sol-and-fable-5-while-signaling-the-end-of-super-cheap-chinese-ai/",
+      "summary": "Moonshot AI发布Kimi K3：896专家MoE架构、2.8万亿参数、百万token上下文、原生多模态。自测接近Fable 5和GPT-5.6 Sol，大幅超越Opus 4.8和GLM-5.2。定价$3/$15（每百万token），接近西方中端水平。完整权重7月27日开放。",
+      "source": "The Decoder",
+      "tags": ["kimi", "k3", "open-source", "moe", "frontier"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "前OpenAI CTO Murati发布Inkling：975B参数开放权重模型领跑美国开源",
+      "url": "https://the-decoder.com/ex-openai-cto-muratis-thinking-machines-drops-inkling-a-975b-parameter-model-that-leads-us-labs-but-trails-china/",
+      "summary": "Thinking Machines Lab发布Inkling多模态开放权重模型（975B参数），在Artificial Analysis智能指数上领跑美国开源模型，但仍落后中国顶级开源。定位为微调基座而非最强通用模型，定价$1.87/百万输入token。",
+      "source": "The Decoder",
+      "tags": ["open-source", "frontier", "murati"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "GPT-5.6 Sol在90分钟内推翻30年统计学猜想",
+      "url": "https://the-decoder.com/gpt-5-6-sol-reportedly-disproves-a-30-year-old-statistics-conjecture-in-90-minutes-after-humans-couldnt-crack-it/",
+      "summary": "宾大统计学教授用GPT-5.6 Sol Pro在90分钟内推翻了Benjamini-Hochberg方法的核心猜想。前代GPT-5.5花20小时都未解出。答案以新方式组合已知方法，引发「AI能否产出真正新知识」的讨论。",
+      "source": "The Decoder",
+      "tags": ["openai", "math", "reasoning"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "OpenAI承认：提示词注入可能永远无法完全解决",
+      "url": "https://the-decoder.com/openai-admits-prompt-injection-may-never-be-fully-solved-casting-doubt-on-the-agentic-ai-vision/",
+      "summary": "OpenAI将提示词注入比作针对人类的网络欺诈——框架上淡化了这一技术缺陷。正用自动化红队测试对抗ChatGPT Atlas中的注入攻击。这一「可能永不可解」的承认对代理AI愿景构成根本质疑。",
+      "source": "The Decoder",
+      "tags": ["openai", "security", "agent"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "OpenAI用AI攻击自家AI：GPT-Red成功率84%，远超人类红队13%",
+      "url": "https://the-decoder.com/openai-is-now-using-ai-to-attack-its-own-ai-and-its-working-better-than-humans-ever-did/",
+      "summary": "OpenAI内部GPT-Red模型通过自博弈训练，在84%测试场景中找到成功攻击方法，人类红队仅13%。成果直接用于加固GPT-5.6 Sol等模型。AI安全的攻防已进入AI对AI阶段。",
+      "source": "The Decoder",
+      "tags": ["openai", "safety", "red-teaming"]
+    },
+    {
+      "id": 6,
+      "category": "news",
+      "title": "xAI在大规模数据泄露后开源Grok Build：84万行Rust代码",
+      "url": "https://the-decoder.com/xai-open-sources-grok-build-on-github-after-massive-data-breach/",
+      "summary": "xAI的Grok Build命令行工具被发现静默上传整个目录到Google Cloud服务器，包括SSH密钥和密码库。Musk承诺删除所有用户数据，xAI随后将84万行Rust代码完整开源（Apache 2.0）。",
+      "source": "The Decoder",
+      "tags": ["xai", "security", "open-source"]
+    },
+    {
+      "id": 7,
+      "category": "news",
+      "title": "Google发布Gemma 4：首次Apache 2.0授权，4个规模覆盖手机到工作站",
+      "url": "https://the-decoder.com/googles-gemma-4-is-now-available-with-apache-2-0-licensing-for-the-first-time/",
+      "summary": "Google发布Gemma 4系列：首次采用完全开放的Apache 2.0许可证。四个模型规模从手机到工作站全覆盖，为Google开源AI策略的重大转向。",
+      "source": "The Decoder",
+      "tags": ["google", "gemma", "open-source"]
+    },
+    {
+      "id": 8,
+      "category": "news",
+      "title": "Bonsai 27B：iPhone上运行的完整推理模型，保留90%性能",
+      "url": "https://the-decoder.com/bonsai-27b-is-a-full-open-reasoning-model-that-fits-on-an-iphone/",
+      "summary": "PrismML将27B参数推理模型压缩到4GB以下，可在iPhone上运行。自测保留90%原始性能，数学和编码得分几乎不受影响。Apple据报已在测试该压缩技术用于端侧AI。",
+      "source": "The Decoder",
+      "tags": ["edge-ai", "compression", "reasoning"]
+    },
+    {
+      "id": 9,
+      "category": "news",
+      "title": "OpenAI发布macOS Codex应用：并行管理多个AI代理",
+      "url": "https://the-decoder.com/openai-launches-codex-app-for-macos-to-manage-multiple-ai-agents/",
+      "summary": "OpenAI新macOS Codex应用支持开发者并行运行多个AI代理。免费用户也可体验。回应市场对代理系统在编码和知识工作中日益增长的需求。",
+      "source": "The Decoder",
+      "tags": ["openai", "codex", "agent"]
+    },
+    {
+      "id": 10,
+      "category": "news",
+      "title": "Codex加密代理间指令：开发者无法追踪AI内部任务委派",
+      "url": "https://the-decoder.com/openais-codex-now-encrypts-instructions-between-ai-agents-leaving-developers-blind-to-internal-delegation/",
+      "summary": "6月起Codex加密主代理传给子代理的指令，开发者无法追踪任务如何被内部委派。GPT-5.6 Sol和Terra变体的加密是强制性的。引发AI系统可解释性和开发者信任的争议。",
+      "source": "The Decoder",
+      "tags": ["openai", "agent", "transparency"]
+    },
+    {
+      "id": 11,
+      "category": "paper",
+      "title": "KV-Cache Grafting：冻结小模型变身验证知识飞轮",
+      "url": "https://huggingface.co/papers/2607.14431",
+      "summary": "提出字节精确的KV-Cache嫁接方法，让冻结的小模型成为验证知识的飞轮。在不修改模型参数的情况下实现更智能且更低成本的推理，兼顾效率和准确性。",
+      "source": "HuggingFace Papers",
+      "tags": ["kv-cache", "inference", "efficiency"]
+    },
+    {
+      "id": 12,
+      "category": "paper",
+      "title": "SEED：面向代理强化学习的自演化策略蒸馏",
+      "url": "https://huggingface.co/papers/2607.14777",
+      "summary": "提出SEED自演化在策略蒸馏方法用于代理强化学习。通过自我演化不断改进策略，为构建更强大的自主代理提供新的训练范式。",
+      "source": "HuggingFace Papers",
+      "tags": ["agent", "reinforcement-learning", "distillation"]
+    },
+    {
+      "id": 13,
+      "category": "paper",
+      "title": "SearchOS-V1：面向鲁棒开放域信息搜索的代理协作系统",
+      "url": "https://huggingface.co/papers/2607.15257",
+      "summary": "提出SearchOS-V1，实现多代理协作的开放域信息搜索。代理间分工合作完成复杂搜索任务，对构建可靠的AI搜索引擎有直接指导意义。",
+      "source": "HuggingFace Papers",
+      "tags": ["agent", "search", "multi-agent"]
+    },
+    {
+      "id": 14,
+      "category": "paper",
+      "title": "BadWAM：当世界-动作模型梦对了但行动错了",
+      "url": "https://huggingface.co/papers/2607.15207",
+      "summary": "揭示世界-动作模型的关键缺陷：模型能正确「想象」结果但执行时出错。在世界模型（Genie 3、GWM-1等）备受关注的当下，指出从理解到行动的鸿沟。",
+      "source": "HuggingFace Papers",
+      "tags": ["world-model", "robotics", "safety"]
+    },
+    {
+      "id": 15,
+      "category": "repo",
+      "title": "openinterpreter/openinterpreter - 面向Kimi K3等开放模型的编码代理",
+      "url": "https://github.com/openinterpreter/openinterpreter",
+      "summary": "Open Interpreter新版本，专为Kimi K3等开放权重模型优化的编码代理。让本地开源模型也能作为编码助手使用，无需依赖闭源API。",
+      "source": "GitHub Trending",
+      "tags": ["kimi", "k3", "coding-agent", "open-source"]
+    },
+    {
+      "id": 16,
+      "category": "repo",
+      "title": "apache/ossie - Apache语义元数据互操作标准",
+      "url": "https://github.com/apache/ossie",
+      "summary": "Apache基金会新项目Ossie：标准化分析、AI和BI平台间的语义元数据交换。为AI系统间的数据互操作提供厂商中立的单一真实来源。",
+      "source": "GitHub Trending",
+      "tags": ["apache", "data", "interoperability"]
+    }
+  ]
+}
