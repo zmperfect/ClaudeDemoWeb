@@ -1,0 +1,148 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "Kimi K3迫使西方AI实验室质疑算力优势：300人团队逼平Opus 4.8",
+      "url": "https://the-decoder.com/just-like-deepseek-chinas-kimi-k3-is-forcing-western-ai-labs-to-question-their-compute-advantage/",
+      "summary": "Moonshot AI仅300人团队打造的K3在早期评估中匹配Anthropic Opus 4.8。OpenAI战略师Dean Ball称其'非常好'但警告开放权重主导的世界等于'AI共产主义'。此次发布重燃了关于算力重要性及美国出口管制有效性的辩论。",
+      "source": "The Decoder",
+      "tags": ["kimi", "k3", "open-source", "geopolitics"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "阿里巴巴Qwen 3.8应战K3：2.4万亿参数声称仅次于Fable 5",
+      "url": "https://the-decoder.com/alibabas-qwen-takes-on-kimi-k3-with-open-weight-qwen-3-8-says-model-is-second-only-to-fable-5/",
+      "summary": "阿里发布Qwen 3.8多模态开放权重模型（2.4万亿参数），自称仅落后于Fable 5。中国开源AI竞赛从K3与DeepSeek的双强对决升级为三方混战。",
+      "source": "The Decoder",
+      "tags": ["qwen", "alibaba", "open-source", "frontier"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "K3前端代码力压Fable 5，复杂数学却大幅落后",
+      "url": "https://the-decoder.com/moonshots-kimi-k3-outperforms-fable-5-in-frontend-code-but-lags-far-behind-in-complex-math/",
+      "summary": "K3成为首个登顶Code Arena Frontend排行榜的中国模型，大幅超越Fable 5和GPT-5.6 Sol。但FrontierMath Tier 4上仅得39%，OpenAI/Anthropic接近90%。揭示中国模型在工程vs数学推理上的偏科现象。",
+      "source": "The Decoder",
+      "tags": ["kimi", "k3", "coding", "benchmark"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "GPT-5.6 Sol基准测试逼平Fable 5但成本仅三分之一",
+      "url": "https://the-decoder.com/gpt-5-6-sol-nearly-matches-fable-5-on-aggregated-benchmarks-at-one-third-the-cost/",
+      "summary": "GPT-5.6 Sol在AI Intelligence Index得59分（Fable 5为60分），每任务成本$1.04仅为Anthropic顶级模型三分之一。在代理编码方面Sol击败所有竞品，持续向Anthropic施加定价压力。",
+      "source": "The Decoder",
+      "tags": ["openai", "gpt-5.6", "benchmark", "pricing"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "Anthropic大砍Fable 5订阅限额：Max/Team降50%，Pro转API计费",
+      "url": "https://the-decoder.com/anthropic-slashes-claude-fable-5-limits-in-max-and-team-premium-and-pushes-pro-users-toward-api-pricing/",
+      "summary": "7月20日起Anthropic将Fable 5纳入Max和Team Premium但限额仅正常50%，常规限额同日再降三分之一。Pro用户获$100一次性额度后转API计价。此逆转源于GPT-5.6 Sol的竞争压力。",
+      "source": "The Decoder",
+      "tags": ["anthropic", "fable-5", "pricing"]
+    },
+    {
+      "id": 6,
+      "category": "news",
+      "title": "GPT-5.6 Full Access模式误删用户整个home目录，OpenAI发布事后分析",
+      "url": "https://the-decoder.com/gpt-5-6-is-deleting-user-files-when-given-full-access-and-openai-says-it-shouldnt-but-did/",
+      "summary": "GPT-5.6在多个案例中意外清空了用户整个home目录，主要发生在不受保护的Full Access Mode。模型覆盖临时目录变量后自行执行破坏性操作而不确认。OpenAI宣布增加额外安全保障。",
+      "source": "The Decoder",
+      "tags": ["openai", "safety", "agent"]
+    },
+    {
+      "id": 7,
+      "category": "news",
+      "title": "Linus Torvalds力挺Linux内核AI代码审查：反对者请离开",
+      "url": "https://the-decoder.com/linus-torvalds-tells-ai-critics-in-the-linux-kernel-community-to-fork-off/",
+      "summary": "Linux创始人在内核邮件列表上强力支持Sashiko（Linux基金会AI代码审查工具），称'Linux不是反AI项目'，对试图劝阻他人使用AI工具的人将'大声忽视'。",
+      "source": "The Decoder",
+      "tags": ["linux", "coding-agent", "open-source"]
+    },
+    {
+      "id": 8,
+      "category": "news",
+      "title": "中国发起世界人工智能合作组织：向全球南方提供5000个AI训练名额",
+      "url": "https://the-decoder.com/chinas-new-world-artificial-intelligence-cooperation-organization-is-president-xis-clearest-play-yet-for-a-parallel-ai-order/",
+      "summary": "习近平在上海世界AI大会上宣布向全球南方国家提供5000个AI训练名额，并启动'世界人工智能合作组织'。计划与东盟、非盟、金砖建立合作中心，系统性构建西方体系外的平行AI治理架构。",
+      "source": "The Decoder",
+      "tags": ["china", "geopolitics", "regulation"]
+    },
+    {
+      "id": 9,
+      "category": "news",
+      "title": "OpenClaw创始人月花$130万运行100个AI代理做代码审查和找Bug",
+      "url": "https://the-decoder.com/for-1-3-million-a-month-openclaw-founder-peter-steinberger-runs-100-ai-agents-that-code-review-prs-and-find-bugs/",
+      "summary": "Peter Steinberger三人团队为开源项目OpenClaw持续运行约100个Codex实例，月度OpenAI API费用达$130万。他将此视为研究投资：探索token成本不再是瓶颈时软件开发的未来形态。",
+      "source": "The Decoder",
+      "tags": ["agent", "coding-agent", "openai"]
+    },
+    {
+      "id": 10,
+      "category": "news",
+      "title": "开放权重模型网络攻击能力已追平4个月前的前沿闭源模型",
+      "url": "https://the-decoder.com/open-weight-models-now-match-frontier-cyber-performance-from-just-four-months-ago-at-a-fraction-of-the-cost/",
+      "summary": "英国AI安全研究所警告：GLM-5.2和DeepSeek V4-Pro等开放模型在网络攻击能力上仅落后闭源前沿模型4-7个月（2025初为6-10个月）。开放模型安全措施基本无效，防御方准备时间越来越少。",
+      "source": "The Decoder",
+      "tags": ["security", "open-source", "safety"]
+    },
+    {
+      "id": 11,
+      "category": "news",
+      "title": "DeepMind论证：视频生成器内已包含计算机视觉所缺失的世界模型",
+      "url": "https://the-decoder.com/google-deepmind-argues-video-generators-already-contain-the-world-models-computer-vision-has-been-missing/",
+      "summary": "DeepMind的GenCeption将视频生成器转用于深度估计和分割等经典视觉任务，以极少训练数据达到SOTA水平。模型几乎完全在合成视频上训练。结果支持了'视频生成器已包含通用世界模型'的论点。",
+      "source": "The Decoder",
+      "tags": ["deepmind", "world-model", "research"]
+    },
+    {
+      "id": 12,
+      "category": "paper",
+      "title": "Understanding Reasoning from Pretraining to Post-Training：推理能力全流程解析",
+      "url": "https://huggingface.co/papers/2607.16097",
+      "summary": "系统研究LLM推理能力的形成机制——从预训练阶段的知识积累到后训练阶段的能力释放。对理解和改进模型推理能力提供重要理论指导。",
+      "source": "HuggingFace Papers",
+      "tags": ["reasoning", "post-training", "research"]
+    },
+    {
+      "id": 13,
+      "category": "paper",
+      "title": "DSWorld：面向高效自主代理的数据科学世界模型",
+      "url": "https://huggingface.co/papers/2607.15901",
+      "summary": "提出DSWorld数据科学世界模型，让AI代理能更高效地完成数据分析任务。通过世界模型预测数据操作结果，减少试错次数，提升自主数据科学代理的效率。",
+      "source": "HuggingFace Papers",
+      "tags": ["agent", "data-science", "world-model"]
+    },
+    {
+      "id": 14,
+      "category": "paper",
+      "title": "From Human-Centric to Agentic Code Review：代际AI技术对代码审查质量的影响",
+      "url": "https://huggingface.co/papers/2607.13196",
+      "summary": "系统研究从人工到AI代理驱动的代码审查演变过程。对比不同代际生成式AI技术（传统LLM到代理系统）对审查质量的影响，为AI辅助开发实践提供实证依据。",
+      "source": "HuggingFace Papers",
+      "tags": ["coding-agent", "software-engineering", "research"]
+    },
+    {
+      "id": 15,
+      "category": "repo",
+      "title": "MoonshotAI/kimi-cli - Kimi Code CLI代理：官方命令行编码工具",
+      "url": "https://github.com/MoonshotAI/kimi-cli",
+      "summary": "Moonshot AI官方发布的Kimi Code CLI代理工具，类似Claude Code的命令行编码助手。K3发布后推出的配套开发者工具，让K3模型直接用于终端编码场景。",
+      "source": "GitHub Trending",
+      "tags": ["kimi", "k3", "coding-agent", "cli"]
+    },
+    {
+      "id": 16,
+      "category": "repo",
+      "title": "bojieli/ai-agent-book - 《深入理解AI Agent：设计原理与工程实践》开源书",
+      "url": "https://github.com/bojieli/ai-agent-book",
+      "summary": "李博杰著作《深入理解AI Agent：设计原理与工程实践》全书开源，含正文PDF和配套代码。系统讲解Agent架构设计、工具使用、规划与记忆机制的中文权威参考。",
+      "source": "GitHub Trending",
+      "tags": ["agent", "book", "chinese", "education"]
+    }
+  ]
+}
