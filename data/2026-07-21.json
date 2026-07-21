@@ -3,146 +3,202 @@
     {
       "id": 1,
       "category": "news",
-      "title": "Kimi K3暂停新订阅：GPU需求48小时内打满产能",
-      "url": "https://the-decoder.com/moonshot-pauses-new-kimi-k3-subscriptions-after-gpu-demand-maxes-out-in-48-hours/",
-      "summary": "Moonshot因K3需求在48小时内几乎耗尽GPU产能，临时暂停新订阅销售。公司计划拆分订阅模式以更均匀地分配算力。K3的爆发式需求验证了其市场影响力。",
-      "source": "The Decoder",
-      "tags": ["kimi", "k3", "infrastructure"]
-    },
-    {
-      "id": 2,
-      "category": "news",
       "title": "AMD与OpenAI签长期供货协议：多代Instinct芯片+6GW算力+10%股权认股权",
       "url": "https://the-decoder.com/amd-signs-a-long-term-deal-to-supply-openai-with-multiple-generations-of-instinct-gpus/",
       "summary": "AMD与OpenAI签订长期供应协议，涵盖多代Instinct芯片、高达6GW算力，并附带可让OpenAI持有AMD最高10%股权的认股权证。标志着AI芯片供应链格局的重大变化。",
       "source": "The Decoder",
-      "tags": ["amd", "openai", "infrastructure", "chips"]
+      "tags": [
+        "amd",
+        "openai",
+        "infrastructure",
+        "chips"
+      ]
     },
     {
-      "id": 3,
+      "id": 2,
       "category": "news",
       "title": "Nvidia AI芯片垄断松动：微软转向AMD，Anthropic或将跟进",
       "url": "https://the-decoder.com/nvidias-grip-on-ai-chips-weakens-as-microsoft-turns-to-amd-and-anthropic-may-follow/",
       "summary": "微软正用AMD新Helios平台扩展Azure AI基础设施（2026下半年挑战Nvidia GPU系统）。GitHub公开资料显示Anthropic也在测试AMD硬件，Nvidia定价权面临更大压力。",
       "source": "The Decoder",
-      "tags": ["nvidia", "amd", "microsoft", "infrastructure"]
+      "tags": [
+        "nvidia",
+        "amd",
+        "microsoft",
+        "infrastructure"
+      ]
     },
     {
-      "id": 4,
+      "id": 3,
       "category": "news",
       "title": "Google Frozen V2芯片：将Gemini架构直接固化到硅片，效率提升6-10倍",
       "url": "https://the-decoder.com/googles-frozen-v2-chip-reportedly-bakes-geminis-architecture-directly-into-silicon-for-efficiency-gains/",
       "summary": "Google正在开发Frozen V2服务器芯片，将Gemini架构直接烧入硬件。内部消息称效率可达当前TPU的6-10倍。计划2028年推出，将大幅降低推理成本，建立对OpenAI和Anthropic的价格优势。",
       "source": "The Decoder",
-      "tags": ["google", "chips", "inference", "efficiency"]
+      "tags": [
+        "google",
+        "chips",
+        "inference",
+        "efficiency"
+      ]
     },
     {
-      "id": 5,
+      "id": 4,
       "category": "news",
       "title": "Hugging Face遭AI代理攻击其基础设施，并用AI进行反击",
       "url": "https://the-decoder.com/hugging-face-says-an-ai-agent-hacked-its-infrastructure-and-it-used-ai-to-fight-back/",
       "summary": "Hugging Face报告其生产基础设施遭到自主AI代理系统攻击，攻击跨越数千个由代理框架控制的动作。取证分析中商业AI模型的安全护栏反而妨碍了防御方——无法区分漏洞数据和真实攻击。",
       "source": "The Decoder",
-      "tags": ["security", "agent", "huggingface"]
+      "tags": [
+        "security",
+        "agent",
+        "huggingface"
+      ]
     },
     {
-      "id": 6,
+      "id": 5,
       "category": "news",
       "title": "Trump政府通过制裁和软压力构建中国AI模型'慢动作禁令'",
       "url": "https://the-decoder.com/trump-administration-reportedly-builds-a-slow-motion-ban-on-chinese-ai-models-through-sanctions-and-soft-pressure/",
       "summary": "Trump政府正考虑针对中国AI模型的措施：将中国实验室列入制裁名单、追究美国公司安全失责责任。不直接禁止而是用软规则阻止采用，同时保护OpenAI、Google和Anthropic的市场地位。",
       "source": "The Decoder",
-      "tags": ["regulation", "geopolitics", "china"]
+      "tags": [
+        "regulation",
+        "geopolitics",
+        "china"
+      ]
     },
     {
-      "id": 7,
+      "id": 6,
       "category": "news",
       "title": "Meta One：Zuckerberg为AI支出终于定价，推出付费AI订阅",
       "url": "https://the-decoder.com/meta-one-zuckerberg-finally-puts-a-price-tag-on-all-that-ai-spending/",
       "summary": "Meta在全球范围内为Instagram、Facebook和WhatsApp推出付费增值服务，同时构建独立付费AI产品。AI巨额投入终于找到变现路径。",
       "source": "The Decoder",
-      "tags": ["meta", "subscription", "business-model"]
+      "tags": [
+        "meta",
+        "subscription",
+        "business-model"
+      ]
     },
     {
-      "id": 8,
+      "id": 7,
       "category": "news",
       "title": "Zuckerberg计划出售多余AI算力：Anthropic或成首个大客户",
       "url": "https://the-decoder.com/zuckerbergs-plan-to-sell-excess-ai-compute-could-finds-its-first-big-customer-in-anthropic/",
       "summary": "据报道Meta正与Anthropic洽谈出租其数据中心的多余算力。Meta从纯内部消费转向算力供应商角色，Anthropic则缓解基础设施压力。AI算力市场的新供需关系正在形成。",
       "source": "The Decoder",
-      "tags": ["meta", "anthropic", "infrastructure"]
+      "tags": [
+        "meta",
+        "anthropic",
+        "infrastructure"
+      ]
     },
     {
-      "id": 9,
+      "id": 8,
       "category": "news",
       "title": "OpenAI加强Sora 2安全护栏：Bryan Cranston肖像未经同意被生成",
       "url": "https://the-decoder.com/openai-tightens-sora-2-safeguards-after-bryan-cranstons-likeness-appears-without-consent/",
       "summary": "演员Bryan Cranston的声音和肖像在Sora 2生成的视频中未经同意出现，违反了OpenAI的选择加入政策。OpenAI已加强安全措施。AI视频生成的肖像权问题日益突出。",
       "source": "The Decoder",
-      "tags": ["openai", "video-generation", "safety", "ethics"]
+      "tags": [
+        "openai",
+        "video-generation",
+        "safety",
+        "ethics"
+      ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "news",
       "title": "AI文本检测器在模型模仿作者风格时严重失效：学术写作漏检率达48%",
       "url": "https://the-decoder.com/ai-text-detectors-struggle-when-language-models-mimic-an-authors-style/",
       "summary": "Epoch AI测试三大检测器（Pangram、GPTZero、Originality.ai），风格模仿文本中18%的AI生成段落未被识别。学术写作漏检率高达48%——恰恰是这些检测器使用最多的场景。",
       "source": "The Decoder",
-      "tags": ["research", "detection", "academic"]
+      "tags": [
+        "research",
+        "detection",
+        "academic"
+      ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "paper",
       "title": "Beyond Success Rate：攻防安全代理的成本感知评估",
       "url": "https://huggingface.co/papers/2607.15263",
       "summary": "提出超越成功率的安全代理评估框架，引入成本感知指标衡量攻击和防御代理的效率。在AI代理安全攻防（如Hugging Face遇到的AI代理攻击）日益重要的今天提供量化评估手段。",
       "source": "HuggingFace Papers",
-      "tags": ["agent", "security", "evaluation"]
+      "tags": [
+        "agent",
+        "security",
+        "evaluation"
+      ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "paper",
       "title": "When Does Muon Help Agentic Reinforcement Learning?",
       "url": "https://huggingface.co/papers/2607.16169",
       "summary": "研究Muon优化器在代理强化学习中的适用条件。分析何时Muon相比Adam等标准优化器能为代理RL带来实质收益，为训练更强代理提供优化器选择指导。",
       "source": "HuggingFace Papers",
-      "tags": ["agent", "reinforcement-learning", "optimization"]
+      "tags": [
+        "agent",
+        "reinforcement-learning",
+        "optimization"
+      ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "paper",
       "title": "On-Policy Delta Distillation：在线策略增量蒸馏",
       "url": "https://huggingface.co/papers/2607.15161",
       "summary": "提出在线策略增量蒸馏方法，只蒸馏教师模型相对于学生模型的'差异'部分而非完整知识。更高效的蒸馏策略，对模型压缩和部署具有实用价值。",
       "source": "HuggingFace Papers",
-      "tags": ["distillation", "efficiency", "post-training"]
+      "tags": [
+        "distillation",
+        "efficiency",
+        "post-training"
+      ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "paper",
       "title": "RAGU：基于紧凑领域适配LLM的多步GraphRAG引擎",
       "url": "https://huggingface.co/papers/2607.11683",
       "summary": "提出RAGU多步图RAG引擎，结合知识图谱和紧凑领域适配语言模型实现多跳推理检索。在RAG系统中引入图结构的多步推理能力，提升复杂问答准确性。",
       "source": "HuggingFace Papers",
-      "tags": ["rag", "knowledge-graph", "retrieval"]
+      "tags": [
+        "rag",
+        "knowledge-graph",
+        "retrieval"
+      ]
     },
     {
-      "id": 15,
+      "id": 14,
       "category": "repo",
       "title": "PrefectHQ/fastmcp - 快速Pythonic方式构建MCP服务器和客户端",
       "url": "https://github.com/PrefectHQ/fastmcp",
       "summary": "Prefect团队推出的FastMCP：用最Pythonic的方式快速构建MCP（Model Context Protocol）服务器和客户端。简化AI工具集成开发，降低Agent工具接入门槛。",
       "source": "GitHub Trending",
-      "tags": ["mcp", "agent", "tool-use", "python"]
+      "tags": [
+        "mcp",
+        "agent",
+        "tool-use",
+        "python"
+      ]
     },
     {
-      "id": 16,
+      "id": 15,
       "category": "repo",
       "title": "tirth8205/code-review-graph - 本地优先代码智能图：MCP和CLI",
       "url": "https://github.com/tirth8205/code-review-graph",
       "summary": "本地优先的代码智能图工具，为MCP和CLI构建持久化代码地图。让AI编码工具只读取相关代码，经验证可大幅减少代码审查和大仓库工作流中的上下文量。",
       "source": "GitHub Trending",
-      "tags": ["mcp", "coding-agent", "developer-tools"]
+      "tags": [
+        "mcp",
+        "coding-agent",
+        "developer-tools"
+      ]
     }
   ]
 }
