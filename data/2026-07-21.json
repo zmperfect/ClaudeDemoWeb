@@ -84,19 +84,6 @@
     {
       "id": 7,
       "category": "news",
-      "title": "Zuckerberg计划出售多余AI算力：Anthropic或成首个大客户",
-      "url": "https://the-decoder.com/zuckerbergs-plan-to-sell-excess-ai-compute-could-finds-its-first-big-customer-in-anthropic/",
-      "summary": "据报道Meta正与Anthropic洽谈出租其数据中心的多余算力。Meta从纯内部消费转向算力供应商角色，Anthropic则缓解基础设施压力。AI算力市场的新供需关系正在形成。",
-      "source": "The Decoder",
-      "tags": [
-        "meta",
-        "anthropic",
-        "infrastructure"
-      ]
-    },
-    {
-      "id": 8,
-      "category": "news",
       "title": "OpenAI加强Sora 2安全护栏：Bryan Cranston肖像未经同意被生成",
       "url": "https://the-decoder.com/openai-tightens-sora-2-safeguards-after-bryan-cranstons-likeness-appears-without-consent/",
       "summary": "演员Bryan Cranston的声音和肖像在Sora 2生成的视频中未经同意出现，违反了OpenAI的选择加入政策。OpenAI已加强安全措施。AI视频生成的肖像权问题日益突出。",
@@ -109,7 +96,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "category": "news",
       "title": "AI文本检测器在模型模仿作者风格时严重失效：学术写作漏检率达48%",
       "url": "https://the-decoder.com/ai-text-detectors-struggle-when-language-models-mimic-an-authors-style/",
@@ -122,7 +109,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "paper",
       "title": "Beyond Success Rate：攻防安全代理的成本感知评估",
       "url": "https://huggingface.co/papers/2607.15263",
@@ -135,7 +122,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "paper",
       "title": "When Does Muon Help Agentic Reinforcement Learning?",
       "url": "https://huggingface.co/papers/2607.16169",
@@ -148,7 +135,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "paper",
       "title": "On-Policy Delta Distillation：在线策略增量蒸馏",
       "url": "https://huggingface.co/papers/2607.15161",
@@ -161,7 +148,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "paper",
       "title": "RAGU：基于紧凑领域适配LLM的多步GraphRAG引擎",
       "url": "https://huggingface.co/papers/2607.11683",
@@ -174,7 +161,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "repo",
       "title": "PrefectHQ/fastmcp - 快速Pythonic方式构建MCP服务器和客户端",
       "url": "https://github.com/PrefectHQ/fastmcp",
@@ -188,7 +175,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 14,
       "category": "repo",
       "title": "tirth8205/code-review-graph - 本地优先代码智能图：MCP和CLI",
       "url": "https://github.com/tirth8205/code-review-graph",
