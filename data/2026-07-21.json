@@ -137,19 +137,6 @@
     {
       "id": 11,
       "category": "paper",
-      "title": "On-Policy Delta Distillation：在线策略增量蒸馏",
-      "url": "https://huggingface.co/papers/2607.15161",
-      "summary": "提出在线策略增量蒸馏方法，只蒸馏教师模型相对于学生模型的'差异'部分而非完整知识。更高效的蒸馏策略，对模型压缩和部署具有实用价值。",
-      "source": "HuggingFace Papers",
-      "tags": [
-        "distillation",
-        "efficiency",
-        "post-training"
-      ]
-    },
-    {
-      "id": 12,
-      "category": "paper",
       "title": "RAGU：基于紧凑领域适配LLM的多步GraphRAG引擎",
       "url": "https://huggingface.co/papers/2607.11683",
       "summary": "提出RAGU多步图RAG引擎，结合知识图谱和紧凑领域适配语言模型实现多跳推理检索。在RAG系统中引入图结构的多步推理能力，提升复杂问答准确性。",
@@ -161,7 +148,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "repo",
       "title": "PrefectHQ/fastmcp - 快速Pythonic方式构建MCP服务器和客户端",
       "url": "https://github.com/PrefectHQ/fastmcp",
@@ -175,7 +162,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "repo",
       "title": "tirth8205/code-review-graph - 本地优先代码智能图：MCP和CLI",
       "url": "https://github.com/tirth8205/code-review-graph",
