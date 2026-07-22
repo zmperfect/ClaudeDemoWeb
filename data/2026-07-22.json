@@ -122,19 +122,6 @@
     {
       "id": 10,
       "category": "paper",
-      "title": "DataFlow-Harness：构建可编辑LLM数据管道的代码代理平台",
-      "url": "https://huggingface.co/papers/2607.16617",
-      "summary": "提出DataFlow-Harness平台，让代码代理构建可编辑的LLM数据管道。将数据处理流程可视化为有向图，支持AI代理自动生成并由人工编辑调整。弥合AI自动化与人类控制的鸿沟。",
-      "source": "HuggingFace Papers",
-      "tags": [
-        "agent",
-        "data-pipeline",
-        "developer-tools"
-      ]
-    },
-    {
-      "id": 11,
-      "category": "paper",
       "title": "AlayaWorld：交互式长时间世界建模完整技术报告",
       "url": "https://huggingface.co/papers/2607.18367",
       "summary": "发布AlayaWorld完整技术报告：实现交互式长时间世界建模。在世界模型热潮（Genie 3、GWM-1）背景下，专注解决长期一致性问题，支持更长时间跨度的交互式世界模拟。",
@@ -146,7 +133,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "repo",
       "title": "langchain-ai/open_deep_research - LangChain开源深度研究代理",
       "url": "https://github.com/langchain-ai/open_deep_research",
@@ -160,7 +147,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "repo",
       "title": "earthtojake/text-to-cad - AI驱动的CAD/机器人/硬件设计代理技能集",
       "url": "https://github.com/earthtojake/text-to-cad",
