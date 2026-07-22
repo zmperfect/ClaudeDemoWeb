@@ -70,19 +70,6 @@
     {
       "id": 6,
       "category": "news",
-      "title": "AI系统帮巴基斯坦法官清积案：每投入$1获$38.5回报，但需培训",
-      "url": "https://the-decoder.com/an-ai-system-helped-pakistani-judges-clear-massive-backlogs-at-38-50-return-per-dollar-invested/",
-      "summary": "1559名巴基斯坦法官参与的田野实验：JudgeGPT辅助使案件解决率提升6.3%，投资回报达$38.5/美元。关键发现：只有接受过实操培训的法官看到收益，未培训组效果几乎消失。AI落地的人因瓶颈。",
-      "source": "The Decoder",
-      "tags": [
-        "applied-ai",
-        "legal",
-        "research"
-      ]
-    },
-    {
-      "id": 7,
-      "category": "news",
       "title": "小米Robotics-1证明：训练机器人运动，更多数据比更大模型有效",
       "url": "https://the-decoder.com/xiaomi-robotics-1-shows-that-more-data-beats-bigger-models-when-training-robots-to-move/",
       "summary": "小米用手持抓手采集超10万小时运动数据训练Robotics-1。核心发现：增加数据量的提升远大于增加模型规模。收益尚未饱和但绝对成功率仍偏低。数据为王在机器人领域再次验证。",
@@ -94,7 +81,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 7,
       "category": "news",
       "title": "Mistral融资30亿欧元：估值200亿欧元，推进欧洲AI独立",
       "url": "https://the-decoder.com/mistral-ai-seeks-3-billion-euros-to-fund-its-european-ai-push/",
@@ -107,7 +94,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "category": "news",
       "title": "District 9导演发布首部完全由AI视频生成的短片",
       "url": "https://the-decoder.com/district-9-director-neill-blomkamp-releases-first-short-film-made-entirely-with-ai-video-generation/",
@@ -120,7 +107,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "paper",
       "title": "AgentDebugX：LLM代理故障可观测性、归因与恢复的开源工具包",
       "url": "https://huggingface.co/papers/2607.18754",
@@ -133,7 +120,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "paper",
       "title": "ISO：面向RLVR的原生优化栈",
       "url": "https://huggingface.co/papers/2607.19331",
@@ -146,7 +133,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "paper",
       "title": "DataFlow-Harness：构建可编辑LLM数据管道的代码代理平台",
       "url": "https://huggingface.co/papers/2607.16617",
@@ -159,7 +146,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "paper",
       "title": "AlayaWorld：交互式长时间世界建模完整技术报告",
       "url": "https://huggingface.co/papers/2607.18367",
@@ -172,7 +159,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "repo",
       "title": "langchain-ai/open_deep_research - LangChain开源深度研究代理",
       "url": "https://github.com/langchain-ai/open_deep_research",
@@ -186,7 +173,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 14,
       "category": "repo",
       "title": "earthtojake/text-to-cad - AI驱动的CAD/机器人/硬件设计代理技能集",
       "url": "https://github.com/earthtojake/text-to-cad",
