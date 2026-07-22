@@ -83,19 +83,6 @@
     {
       "id": 7,
       "category": "news",
-      "title": "Mistral融资30亿欧元：估值200亿欧元，推进欧洲AI独立",
-      "url": "https://the-decoder.com/mistral-ai-seeks-3-billion-euros-to-fund-its-european-ai-push/",
-      "summary": "Mistral正在洽谈约30亿欧元新一轮融资，估值约200亿欧元。资金将用于支撑其欧洲AI基础设施建设和与美中实验室的竞争。从创立到今天不到三年估值增长百倍。",
-      "source": "The Decoder",
-      "tags": [
-        "mistral",
-        "funding",
-        "europe"
-      ]
-    },
-    {
-      "id": 8,
-      "category": "news",
       "title": "District 9导演发布首部完全由AI视频生成的短片",
       "url": "https://the-decoder.com/district-9-director-neill-blomkamp-releases-first-short-film-made-entirely-with-ai-video-generation/",
       "summary": "《District 9》导演Neill Blomkamp发布首部完全使用AI视频生成技术制作的短片。标志着好莱坞顶级导演从试探性使用AI视频工具转向以此为核心创作媒介的关键转折点。",
@@ -107,7 +94,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "category": "paper",
       "title": "AgentDebugX：LLM代理故障可观测性、归因与恢复的开源工具包",
       "url": "https://huggingface.co/papers/2607.18754",
@@ -120,7 +107,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "paper",
       "title": "ISO：面向RLVR的原生优化栈",
       "url": "https://huggingface.co/papers/2607.19331",
@@ -133,7 +120,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "paper",
       "title": "DataFlow-Harness：构建可编辑LLM数据管道的代码代理平台",
       "url": "https://huggingface.co/papers/2607.16617",
@@ -146,7 +133,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "paper",
       "title": "AlayaWorld：交互式长时间世界建模完整技术报告",
       "url": "https://huggingface.co/papers/2607.18367",
@@ -159,7 +146,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "repo",
       "title": "langchain-ai/open_deep_research - LangChain开源深度研究代理",
       "url": "https://github.com/langchain-ai/open_deep_research",
@@ -173,7 +160,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "repo",
       "title": "earthtojake/text-to-cad - AI驱动的CAD/机器人/硬件设计代理技能集",
       "url": "https://github.com/earthtojake/text-to-cad",
