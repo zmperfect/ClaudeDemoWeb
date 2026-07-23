@@ -83,20 +83,6 @@
     {
       "id": 7,
       "category": "news",
-      "title": "Samsung或投资10亿欧元入股Mistral：芯片巨头深化AI帝国",
-      "url": "https://the-decoder.com/samsung-deepens-its-ai-empire-with-a-potential-billion-euro-stake-in-europes-hottest-ai-startup/",
-      "summary": "三星正洽谈向Mistral投资最高10亿欧元，此举将推动Mistral估值达约200亿欧元。同时Anthropic也在与三星探讨定制AI芯片制造。三星从存储芯片供应商向AI生态核心玩家转型加速。",
-      "source": "The Decoder",
-      "tags": [
-        "samsung",
-        "mistral",
-        "chips",
-        "investment"
-      ]
-    },
-    {
-      "id": 8,
-      "category": "news",
       "title": "Cisco开源网络安全小模型：每美元检测漏洞数量是GPT-5.5的150倍",
       "url": "https://the-decoder.com/cisco-bets-its-small-open-cybersecurity-models-can-outperform-gpt-5-5-at-vulnerability-detection-for-a-fraction-of-the-cost/",
       "summary": "Cisco发布两个开源小型网络安全AI模型，自测每美元检测漏洞数量约为大型AI代理的150倍。证明在专业垂直领域，针对性小模型可能比通用大模型更具性价比。",
@@ -108,7 +94,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "category": "news",
       "title": "单次ChatGPT查询能耗=2009年一次Google搜索：0.34瓦时",
       "url": "https://the-decoder.com/a-single-chatgpt-query-uses-as-much-energy-as-a-google-search-did-in-2009/",
@@ -121,7 +107,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "paper",
       "title": "SLAI T-Rex：DeepSeek-V4系列在华为昇腾SuperPOD上的全参数后训练",
       "url": "https://huggingface.co/papers/2607.20145",
@@ -135,7 +121,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "paper",
       "title": "Scaling Laws for Hypernetwork-Based Knowledge Injection：超网络知识注入缩放定律",
       "url": "https://huggingface.co/papers/2607.19604",
@@ -148,7 +134,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "paper",
       "title": "DocOps：面向复杂文档操作的可验证自主代理基准",
       "url": "https://huggingface.co/papers/2607.19865",
@@ -161,7 +147,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "paper",
       "title": "SLPO：通过代理策略扩展潜在推理",
       "url": "https://huggingface.co/papers/2607.19691",
