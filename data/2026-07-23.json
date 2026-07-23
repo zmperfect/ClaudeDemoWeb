@@ -70,19 +70,6 @@
     {
       "id": 6,
       "category": "news",
-      "title": "美国11个州$980亿AI数据中心项目遭当地居民阻止",
-      "url": "https://the-decoder.com/local-resistance-blocks-98-billion-in-ai-data-center-projects-across-eleven-us-states/",
-      "summary": "据报道三分之二已规划的AI数据中心项目（价值$980亿）近期被阻止或延迟。当地社区正反击大科技扩张——他们认为这些项目消耗大量资源却几乎不创造就业。",
-      "source": "The Decoder",
-      "tags": [
-        "infrastructure",
-        "regulation",
-        "energy"
-      ]
-    },
-    {
-      "id": 7,
-      "category": "news",
       "title": "OpenAI Project Camellia在佐治亚州获3.2GW电力协议（至2032年）",
       "url": "https://the-decoder.com/openais-project-camellia-in-georgia-secures-a-massive-3-2-gigawatt-power-deal-through-2032/",
       "summary": "OpenAI计划在佐治亚州建设'Project Camellia'数据中心，获得3.2GW电力供应协议。承诺向当地社区投入$8000万+$7100万学生Codex额度，以应对越来越大的居民反对声浪。",
@@ -94,7 +81,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 7,
       "category": "news",
       "title": "Samsung或投资10亿欧元入股Mistral：芯片巨头深化AI帝国",
       "url": "https://the-decoder.com/samsung-deepens-its-ai-empire-with-a-potential-billion-euro-stake-in-europes-hottest-ai-startup/",
@@ -108,7 +95,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "category": "news",
       "title": "Cisco开源网络安全小模型：每美元检测漏洞数量是GPT-5.5的150倍",
       "url": "https://the-decoder.com/cisco-bets-its-small-open-cybersecurity-models-can-outperform-gpt-5-5-at-vulnerability-detection-for-a-fraction-of-the-cost/",
@@ -121,7 +108,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "news",
       "title": "单次ChatGPT查询能耗=2009年一次Google搜索：0.34瓦时",
       "url": "https://the-decoder.com/a-single-chatgpt-query-uses-as-much-energy-as-a-google-search-did-in-2009/",
@@ -134,7 +121,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "paper",
       "title": "SLAI T-Rex：DeepSeek-V4系列在华为昇腾SuperPOD上的全参数后训练",
       "url": "https://huggingface.co/papers/2607.20145",
@@ -148,7 +135,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "paper",
       "title": "Scaling Laws for Hypernetwork-Based Knowledge Injection：超网络知识注入缩放定律",
       "url": "https://huggingface.co/papers/2607.19604",
@@ -161,7 +148,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "paper",
       "title": "DocOps：面向复杂文档操作的可验证自主代理基准",
       "url": "https://huggingface.co/papers/2607.19865",
@@ -174,7 +161,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "paper",
       "title": "SLPO：通过代理策略扩展潜在推理",
       "url": "https://huggingface.co/papers/2607.19691",
