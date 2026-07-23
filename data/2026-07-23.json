@@ -44,19 +44,6 @@
     {
       "id": 4,
       "category": "news",
-      "title": "Anthropic版权和解$15亿创纪录：盗版付款反而成AI训练合法化最大胜利",
-      "url": "https://the-decoder.com/anthropics-1-5b-piracy-settlement-with-book-authors-is-a-record-loss-that-hands-ai-labs-their-biggest-legal-win/",
-      "summary": "Anthropic向图书作者支付$15亿和解金——集体诉讼史上最高。但赔偿是因从盗版数据库下载48.2万部作品，而非AI训练本身。法官此前已裁定合法获得的图书用于AI训练属于'变革性使用'符合合理使用。和解实际上是AI实验室的最大法律胜利。",
-      "source": "The Decoder",
-      "tags": [
-        "anthropic",
-        "copyright",
-        "legal"
-      ]
-    },
-    {
-      "id": 5,
-      "category": "news",
       "title": "法院新裁定：合法获取作品用于AI训练=合理使用，盗版获取=侵权",
       "url": "https://the-decoder.com/anthropic-won-a-fair-use-hearing-that-could-end-up-being-a-defeat/",
       "summary": "法院划定清晰界线：合法获得的版权作品用于AI训练属于变革性合理使用，但盗版获取的材料不受保护。这一裁定可能深刻影响所有AI公司的数据获取策略——必须确保训练数据来源合法。",
@@ -68,7 +55,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 5,
       "category": "news",
       "title": "研究者逐字提取AI模型中96%的哈利波特全文",
       "url": "https://the-decoder.com/researchers-extract-up-to-96-of-harry-potter-word-for-word-from-leading-ai-models/",
@@ -81,7 +68,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 6,
       "category": "news",
       "title": "美国11个州$980亿AI数据中心项目遭当地居民阻止",
       "url": "https://the-decoder.com/local-resistance-blocks-98-billion-in-ai-data-center-projects-across-eleven-us-states/",
@@ -94,7 +81,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 7,
       "category": "news",
       "title": "OpenAI Project Camellia在佐治亚州获3.2GW电力协议（至2032年）",
       "url": "https://the-decoder.com/openais-project-camellia-in-georgia-secures-a-massive-3-2-gigawatt-power-deal-through-2032/",
@@ -107,7 +94,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "category": "news",
       "title": "Samsung或投资10亿欧元入股Mistral：芯片巨头深化AI帝国",
       "url": "https://the-decoder.com/samsung-deepens-its-ai-empire-with-a-potential-billion-euro-stake-in-europes-hottest-ai-startup/",
@@ -121,7 +108,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "news",
       "title": "Cisco开源网络安全小模型：每美元检测漏洞数量是GPT-5.5的150倍",
       "url": "https://the-decoder.com/cisco-bets-its-small-open-cybersecurity-models-can-outperform-gpt-5-5-at-vulnerability-detection-for-a-fraction-of-the-cost/",
@@ -134,7 +121,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "news",
       "title": "单次ChatGPT查询能耗=2009年一次Google搜索：0.34瓦时",
       "url": "https://the-decoder.com/a-single-chatgpt-query-uses-as-much-energy-as-a-google-search-did-in-2009/",
@@ -147,7 +134,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "paper",
       "title": "SLAI T-Rex：DeepSeek-V4系列在华为昇腾SuperPOD上的全参数后训练",
       "url": "https://huggingface.co/papers/2607.20145",
@@ -161,7 +148,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "paper",
       "title": "Scaling Laws for Hypernetwork-Based Knowledge Injection：超网络知识注入缩放定律",
       "url": "https://huggingface.co/papers/2607.19604",
@@ -174,7 +161,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "paper",
       "title": "DocOps：面向复杂文档操作的可验证自主代理基准",
       "url": "https://huggingface.co/papers/2607.19865",
@@ -187,7 +174,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 14,
       "category": "paper",
       "title": "SLPO：通过代理策略扩展潜在推理",
       "url": "https://huggingface.co/papers/2607.19691",
