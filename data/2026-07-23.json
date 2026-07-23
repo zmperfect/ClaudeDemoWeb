@@ -123,19 +123,6 @@
     {
       "id": 10,
       "category": "paper",
-      "title": "Scaling Laws for Hypernetwork-Based Knowledge Injection：超网络知识注入缩放定律",
-      "url": "https://huggingface.co/papers/2607.19604",
-      "summary": "研究基于超网络的LLM知识注入的缩放定律。发现通过超网络注入新知识时的规模效应规律，为不重新训练模型即可更新知识提供理论指导。",
-      "source": "HuggingFace Papers",
-      "tags": [
-        "scaling-law",
-        "knowledge-injection",
-        "research"
-      ]
-    },
-    {
-      "id": 11,
-      "category": "paper",
       "title": "DocOps：面向复杂文档操作的可验证自主代理基准",
       "url": "https://huggingface.co/papers/2607.19865",
       "summary": "提出DocOps——评估自主代理在复杂文档操作（格式转换、信息提取、跨文档推理等）上能力的可验证基准。填补了代理在实际办公场景中的系统化评估空白。",
@@ -147,7 +134,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "paper",
       "title": "SLPO：通过代理策略扩展潜在推理",
       "url": "https://huggingface.co/papers/2607.19691",
