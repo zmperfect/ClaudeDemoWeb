@@ -3,146 +3,203 @@
     {
       "id": 1,
       "category": "news",
-      "title": "ChatGPT链接被篡改可生成流氓AI代理：每5分钟接收攻击者指令",
-      "url": "https://the-decoder.com/one-tampered-chatgpt-link-could-spawn-a-rogue-ai-agent-that-took-orders-from-an-attacker-every-five-minutes/",
-      "summary": "Zenity Labs发现'AgentForger'漏洞：一个被篡改的ChatGPT链接可在OpenAI Agent Builder中创建自主代理，继承受害者身份和访问权限，绕过审批流程，每5分钟从攻击者邮箱拉取新指令。代理安全的供应链风险。",
-      "source": "The Decoder",
-      "tags": ["security", "agent", "openai", "vulnerability"]
-    },
-    {
-      "id": 2,
-      "category": "news",
       "title": "Flux 3发布：首次生成带原生音频的20秒视频，Black Forest Labs向世界模型进军",
       "url": "https://the-decoder.com/flux-3-generates-videos-with-native-audio-up-to-20-seconds-long-a-first-for-black-forest-labs/",
       "summary": "Black Forest Labs发布Flux 3多模态基础模型，首次实现从图像、视频和音频联合学习并生成带原生音效的视频。自测略超市场领先者Seedance 2.0。公司最终目标是构建世界模型，已在机器人任务中测试Flux 3。",
       "source": "The Decoder",
-      "tags": ["video-generation", "multimodal", "world-model"]
+      "tags": [
+        "video-generation",
+        "multimodal",
+        "world-model"
+      ]
     },
     {
-      "id": 3,
+      "id": 2,
       "category": "news",
       "title": "Google CEO Pichai：Gemini下一跃靠'更大基础模型'，启动Gemini 4训练",
       "url": "https://the-decoder.com/google-ceo-pichai-says-geminis-next-leap-depends-on-building-much-larger-base-models/",
       "summary": "Alphabet将2026年投资预期上调至最高$2050亿。Google Cloud Q2增长82%。Pichai表示Gemini的下一次飞跃需要更大的基础模型，已启动雄心勃勃的Gemini 4训练。算力军备竞赛继续升级。",
       "source": "The Decoder",
-      "tags": ["google", "gemini", "scaling", "infrastructure"]
+      "tags": [
+        "google",
+        "gemini",
+        "scaling",
+        "infrastructure"
+      ]
     },
     {
-      "id": 4,
+      "id": 3,
       "category": "news",
       "title": "Poolside Laguna S 2.1：小型开放编码模型击败多个大型对手",
       "url": "https://the-decoder.com/poolsides-laguna-s-2-1-is-a-small-open-weight-coding-model-that-punches-well-above-its-size/",
       "summary": "Poolside发布Laguna S 2.1（3个月内第三个编码模型）。不靠规模取胜，而是训练模型反复检查、修正失败方案、不在长代理会话中过早放弃。紧凑模型基准超越多个更大对手。还以不到10美分解出了一个1975年以来的开放数学问题。",
       "source": "The Decoder",
-      "tags": ["coding-agent", "open-source", "reasoning"]
+      "tags": [
+        "coding-agent",
+        "open-source",
+        "reasoning"
+      ]
     },
     {
-      "id": 5,
+      "id": 4,
       "category": "news",
       "title": "ChatGPT健康功能上线美国：不付费则AI给更差的健康建议",
       "url": "https://the-decoder.com/chatgpt-will-give-you-worse-health-advice-if-you-dont-pay/",
       "summary": "OpenAI向美国用户推出'Health in ChatGPT'，连接Apple Health、医疗记录和健康应用。每周已有3亿+人向ChatGPT问健康问题。付费用户获得更强的GPT-5.6 Sol，免费用户只有较弱的GPT-5.5 Instant。医疗AI的付费墙争议。",
       "source": "The Decoder",
-      "tags": ["openai", "health", "ethics", "subscription"]
+      "tags": [
+        "openai",
+        "health",
+        "ethics",
+        "subscription"
+      ]
     },
     {
-      "id": 6,
+      "id": 5,
       "category": "news",
       "title": "Google淡化AI环境影响：称Gemini文本提示仅用0.24瓦时'不如看9秒电视'",
       "url": "https://the-decoder.com/google-downplays-ais-environmental-impact-in-new-study/",
       "summary": "Google最新报告声称Gemini单次文本提示仅用0.24瓦时，'不如看9秒电视'。但批评者指出这是选择性披露：仅算推理不算训练、不含数据中心冷却、忽略视频/图像生成的高能耗模态。AI能耗的话语权之争。",
       "source": "The Decoder",
-      "tags": ["google", "energy", "sustainability"]
+      "tags": [
+        "google",
+        "energy",
+        "sustainability"
+      ]
     },
     {
-      "id": 7,
+      "id": 6,
       "category": "news",
       "title": "Nvidia Vera Rubin承诺AI性能5倍提升+推理成本降10倍",
       "url": "https://the-decoder.com/ces-2026-nvidia-promises-five-times-the-ai-performance-and-ten-times-cheaper-inference-with-vera-rubin/",
       "summary": "Nvidia发布Vera Rubin AI超级计算机、开源自动驾驶软件和改进的图形升级技术。信息明确：Nvidia要主导整个AI价值链。在AMD连签三大客户的背景下，Nvidia用性能和成本优势回应。",
       "source": "The Decoder",
-      "tags": ["nvidia", "chips", "inference", "infrastructure"]
+      "tags": [
+        "nvidia",
+        "chips",
+        "inference",
+        "infrastructure"
+      ]
     },
     {
-      "id": 8,
+      "id": 7,
       "category": "news",
       "title": "AI聊天机器人读X光片'危险地自信'：错误诊断却满分确信",
       "url": "https://the-decoder.com/ai-chatbots-reading-x-rays-can-be-dangerously-confident-even-when-theyre-wrong/",
       "summary": "RadLE 2.0基准测试AI放射诊断能力——关键测试模型能否识别自己应该让人类来判断的情况。结果：多数模型以100%置信度给出错误诊断，人类放射科医生仍大幅领先。AI诊断独立化的前提是学会'何时不说话'。",
       "source": "The Decoder",
-      "tags": ["health", "safety", "evaluation"]
+      "tags": [
+        "health",
+        "safety",
+        "evaluation"
+      ]
     },
     {
-      "id": 9,
+      "id": 8,
       "category": "news",
       "title": "好莱坞想禁Seedance却私下在用：AI视频生成的'别问别说'时代",
       "url": "https://the-decoder.com/hollywood-wants-seedance-banned-and-reportedly-also-wants-to-keep-using-it/",
       "summary": "字节跳动Seedance生成的AI布拉德·皮特和汤姆·克鲁斯视频引发MPA首次对AI公司发出停止函。但辛普森动画制片人Joel Kuwahara透露，幕后工作室正在'别问别说'的基础上悄悄使用该工具。行业的矛盾心态暴露无遗。",
       "source": "The Decoder",
-      "tags": ["video-generation", "copyright", "hollywood"]
+      "tags": [
+        "video-generation",
+        "copyright",
+        "hollywood"
+      ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "news",
       "title": "Claude Cowork新功能：录屏+语音解说即可教会AI新技能并重复执行",
       "url": "https://the-decoder.com/claude-cowork-learns-new-skills-through-screen-recordings-and-voice-over-explanations/",
       "summary": "Anthropic为Claude Cowork桌面版新增'录制技能'功能：用户录制屏幕操作并用语音解说步骤，Claude自动将录像转化为可复用技能。下次相同任务直接调用已保存技能执行。OpenAI Codex也有类似功能。AI代理的'教一次就会'范式正在成型。",
       "source": "The Decoder",
-      "tags": ["anthropic", "agent", "productivity", "computer-use"]
+      "tags": [
+        "anthropic",
+        "agent",
+        "productivity",
+        "computer-use"
+      ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "paper",
       "title": "ICAE-Bench：评估编码代理作为交互式项目构建器的基准",
       "url": "https://huggingface.co/papers/2607.21217",
       "summary": "提出ICAE-Bench——将编码代理作为交互式项目构建器而非单点问题求解器来评估的基准。测试代理在多轮对话中理解需求变化、迭代构建完整项目的能力，更贴近真实开发场景。",
       "source": "HuggingFace Papers",
-      "tags": ["coding-agent", "benchmark", "evaluation"]
+      "tags": [
+        "coding-agent",
+        "benchmark",
+        "evaluation"
+      ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "paper",
       "title": "Streaming Multi-Agent Autoregressive Diffusion with World State Registers",
       "url": "https://huggingface.co/papers/2607.21594",
       "summary": "提出流式多代理自回归扩散模型，引入世界状态寄存器实现多代理间一致的实时内容生成。将扩散模型与多代理系统结合，为交互式世界模拟提供新架构。",
       "source": "HuggingFace Papers",
-      "tags": ["multi-agent", "diffusion", "world-model"]
+      "tags": [
+        "multi-agent",
+        "diffusion",
+        "world-model"
+      ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "paper",
       "title": "Beyond Euclidean Clipping：通过黎曼等距策略优化克服LLM RL的探索崩溃",
       "url": "https://huggingface.co/papers/2607.10169",
       "summary": "提出黎曼等距策略优化方法，解决LLM强化学习中的探索崩溃问题。通过非欧几里得空间中的策略约束替代传统裁剪，让模型在RL训练中维持更好的探索多样性。",
       "source": "HuggingFace Papers",
-      "tags": ["reinforcement-learning", "post-training", "optimization"]
+      "tags": [
+        "reinforcement-learning",
+        "post-training",
+        "optimization"
+      ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "repo",
       "title": "alibaba/open-code-review - 阿里开源代码审查工具：确定性流水线+LLM代理",
       "url": "https://github.com/alibaba/open-code-review",
       "summary": "阿里巴巴开源其经生产验证的代码审查工具：混合架构（确定性管道+LLM代理），提供精确行级评论，内置NPE/线程安全/XSS/SQL注入微调规则集，兼容OpenAI和Anthropic API。",
       "source": "GitHub Trending",
-      "tags": ["coding-agent", "code-review", "open-source", "alibaba"]
+      "tags": [
+        "coding-agent",
+        "code-review",
+        "open-source",
+        "alibaba"
+      ]
     },
     {
-      "id": 15,
+      "id": 14,
       "category": "repo",
       "title": "citrolabs/ego-lite - 人和AI代理并行工作的浏览器",
       "url": "https://github.com/citrolabs/ego-lite",
       "summary": "专为人类和AI代理并行工作设计的浏览器。让AI代理在独立标签页中执行网络任务，同时用户继续正常浏览。解决代理使用浏览器时占据用户界面的核心痛点。",
       "source": "GitHub Trending",
-      "tags": ["agent", "browser", "computer-use"]
+      "tags": [
+        "agent",
+        "browser",
+        "computer-use"
+      ]
     },
     {
-      "id": 16,
+      "id": 15,
       "category": "repo",
       "title": "earthtojake/text-to-cad - AI驱动的CAD/机器人/硬件设计代理技能集",
       "url": "https://github.com/earthtojake/text-to-cad",
       "summary": "面向CAD、机器人和硬件设计的AI代理技能集合。自然语言描述生成3D模型和工程设计，将AI编码代理范式延伸到物理世界工程设计。持续在GitHub Trending上热门。",
       "source": "GitHub Trending",
-      "tags": ["agent", "cad", "robotics", "design"]
+      "tags": [
+        "agent",
+        "cad",
+        "robotics",
+        "design"
+      ]
     }
   ]
 }
