@@ -186,6 +186,78 @@
         "robotics",
         "design"
       ]
+    },
+    {
+      "id": 17,
+      "category": "paper",
+      "title": "NVIDIA NOOA：Agent即Python对象——方法是动作、字段是状态、文档是提示",
+      "url": "https://arxiv.org/abs/2607.20709",
+      "summary": "NVIDIA提出NOOA框架：代理就是Python对象。方法=模型可执行的动作，字段=状态，docstring=提示，类型注解=约束。方法体为'...'的由LLM agent loop运行时补全，正常方法体保持确定性Python。首次在单一表面组合6个模型面向能力：typed I/O、引用传递、代码即动作、可编程循环工程、显式对象状态。SWE-bench和ARC-AGI-3验证有效。",
+      "source": "arXiv",
+      "tags": ["agent", "loop-engine", "framework", "nvidia"]
+    },
+    {
+      "id": 18,
+      "category": "paper",
+      "title": "自进化代理循环：Pairwise验证器替代标量奖励的Drop-in方案",
+      "url": "https://arxiv.org/abs/2607.14408",
+      "summary": "代理自进化循环(self-evolving agentic loop)的核心难题是设计accept/reject信号。本文用冻结LLM的pairwise比较（'哪个更好'）替代标量奖励作为门控。对比判断比绝对评分更稳定且无需训练。集成到GEPA/ADRS/ShinkaEvolve三个引擎，在prompt和code两种载体上匹配或超越full-reward基线，无需标注成本。",
+      "source": "arXiv",
+      "tags": ["agent", "loop-engine", "self-improvement", "evaluation"]
+    },
+    {
+      "id": 19,
+      "category": "paper",
+      "title": "Agent Compiler：LLM编译层将工程意图翻译为可执行系统配置+策略图",
+      "url": "https://arxiv.org/abs/2607.16269",
+      "summary": "提出Agent Compiler：LLM编译层将高层工程意图翻译为完整可执行配置。四阶段：意图解析→任务分解→策略图(Policy Graph)合成→基础设施映射。核心设计原则是严格时间尺度分离：LLM处理慢循环(slow-loop)战略决策，经过验证的算法保持快循环(fast-loop)实时控制。运行时引擎支持三级闭环适应。",
+      "source": "arXiv",
+      "tags": ["agent", "loop-engine", "graph-engine", "compilation"]
+    },
+    {
+      "id": 20,
+      "category": "paper",
+      "title": "反应式图引擎精确代价理论：激活修补和电路发现的最优计算分析",
+      "url": "https://arxiv.org/abs/2607.18323",
+      "summary": "对反应式图引擎(reactive graph engine)的失效传播给出完整代价核算。核心定理：穷举sweep的加速比并非常数2，而是随深度权重分布变化（Karamata指数q决定）。证明了持久突变序列的精确代价、批量应用的子可加性、以及反向传播下前向局部性崩塌到加速比=1。所有恒等式在Julia实现的NeuroDSL反应式图引擎上验证。",
+      "source": "arXiv",
+      "tags": ["graph-engine", "interpretability", "optimization", "theory"]
+    },
+    {
+      "id": 21,
+      "category": "paper",
+      "title": "知识图谱作为接地基底：图执行引擎让LLM从65%提升到99%准确率",
+      "url": "https://arxiv.org/abs/2605.26874",
+      "summary": "核心洞见：在结构化运维领域，数据层(而非LLM编排)才是主要杠杆。类型化知识图谱作为接地基底，LLM生成Cypher查询从65%提升到82-83%，原生图+优化原语(无LLM)在可图回答场景达99%。提出'反转LLM用法'：约束LLM仅做查询生成，让图引擎确定性执行。生成增强知识(GAK)解决缺失事实。",
+      "source": "arXiv",
+      "tags": ["graph-engine", "knowledge-graph", "rag", "enterprise"]
+    },
+    {
+      "id": 22,
+      "category": "paper",
+      "title": "Amortized Intelligence：法律文本→类型化图中间表示→确定性图执行",
+      "url": "https://arxiv.org/abs/2605.02472",
+      "summary": "提出'摊销智能'(Amortized Intelligence)范式：LLM仅使用一次将法律文本翻译为DACL(确定性自治合约语言)——一种类型化图中间表示。之后裁决完全依赖确定性图执行+可视审计追踪。对比GPT-5.2和Gemini 3 Pro运行时基线，实现近乎完美一致性，计算成本降低90%+。消除了概率模型的'推理悬崖'。",
+      "source": "arXiv",
+      "tags": ["graph-engine", "neuro-symbolic", "legal", "deterministic"]
+    },
+    {
+      "id": 23,
+      "category": "paper",
+      "title": "Auton Agentic AI框架：认知蓝图+运行时引擎分离，并行图执行降低延迟",
+      "url": "https://arxiv.org/abs/2602.23720",
+      "summary": "提出严格分离认知蓝图(Cognitive Blueprint，声明式规范)与运行时引擎(Runtime Engine，执行基底)的代理架构。形式化为增强POMDP，引入分层记忆整合、约束流形安全投影。运行时优化包括并行图执行(parallel graph execution)、推测推理和动态上下文剪枝，降低多步代理工作流端到端延迟。",
+      "source": "arXiv",
+      "tags": ["agent", "graph-engine", "loop-engine", "architecture"]
+    },
+    {
+      "id": 24,
+      "category": "paper",
+      "title": "VeriHarness：代码控制的代理循环——外部验证器控制接受、预算和追踪",
+      "url": "https://arxiv.org/abs/2607.14167",
+      "summary": "提出VeriHarness：代码控制的agent loop，模型生成候选而外部验证器控制acceptance/budget/trace。关键发现：包含失败位置+观察值+可接受替代方案的完整反馈将终端成功率从14/50提升到36/50(+44pp)。消融实验定位增益来源于'可接受替代方案'字段。JSON vs 散文格式无显著差异。",
+      "source": "arXiv",
+      "tags": ["agent", "loop-engine", "verification", "feedback"]
     }
   ]
 }
