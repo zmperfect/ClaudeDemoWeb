@@ -109,20 +109,6 @@
     },
     {
       "id": 9,
-      "category": "news",
-      "title": "Claude Cowork新功能：录屏+语音解说即可教会AI新技能并重复执行",
-      "url": "https://the-decoder.com/claude-cowork-learns-new-skills-through-screen-recordings-and-voice-over-explanations/",
-      "summary": "Anthropic为Claude Cowork桌面版新增'录制技能'功能：用户录制屏幕操作并用语音解说步骤，Claude自动将录像转化为可复用技能。下次相同任务直接调用已保存技能执行。OpenAI Codex也有类似功能。AI代理的'教一次就会'范式正在成型。",
-      "source": "The Decoder",
-      "tags": [
-        "anthropic",
-        "agent",
-        "productivity",
-        "computer-use"
-      ]
-    },
-    {
-      "id": 10,
       "category": "paper",
       "title": "ICAE-Bench：评估编码代理作为交互式项目构建器的基准",
       "url": "https://huggingface.co/papers/2607.21217",
@@ -135,7 +121,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "paper",
       "title": "Streaming Multi-Agent Autoregressive Diffusion with World State Registers",
       "url": "https://huggingface.co/papers/2607.21594",
@@ -148,7 +134,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "paper",
       "title": "Beyond Euclidean Clipping：通过黎曼等距策略优化克服LLM RL的探索崩溃",
       "url": "https://huggingface.co/papers/2607.10169",
@@ -161,7 +147,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "repo",
       "title": "alibaba/open-code-review - 阿里开源代码审查工具：确定性流水线+LLM代理",
       "url": "https://github.com/alibaba/open-code-review",
@@ -175,7 +161,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "repo",
       "title": "citrolabs/ego-lite - 人和AI代理并行工作的浏览器",
       "url": "https://github.com/citrolabs/ego-lite",
@@ -188,7 +174,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 14,
       "category": "repo",
       "title": "earthtojake/text-to-cad - AI驱动的CAD/机器人/硬件设计代理技能集",
       "url": "https://github.com/earthtojake/text-to-cad",
