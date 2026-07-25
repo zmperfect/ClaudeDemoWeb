@@ -1,0 +1,148 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": "news",
+      "title": "Anthropic发布Claude Opus 5：代理编码和ARC-AGI-3碾压级表现，Fable 5半价",
+      "url": "https://the-decoder.com/anthropic-claims-its-new-claude-opus-5-delivers-near-fable-5-performance-at-half-the-token-price/",
+      "summary": "Anthropic发布旗舰模型Claude Opus 5，定位为Fable 5的更便宜替代。在代理编码和知识工作中领先，ARC-AGI-3得分30.2%——比GPT-5.6 Sol高近4倍。核心能力：通过迭代自检改进输出，在需要时通过代码自建工具。Anthropic正在将最强推理与成本效率结合。",
+      "source": "The Decoder",
+      "tags": ["anthropic", "model-fundamentals", "reasoning", "coding-agent"]
+    },
+    {
+      "id": 2,
+      "category": "news",
+      "title": "Claude语音模式升级：全平台支持Opus/Sonnet模型，可调用Gmail/Calendar/Slack",
+      "url": "https://the-decoder.com/claudes-voice-mode-now-runs-on-anthropics-most-capable-models-across-all-platforms/",
+      "summary": "Anthropic将Claude语音模式从仅Haiku扩展到Opus和Sonnet模型，覆盖移动端、桌面端和网页端。支持11种语言，可对话中切换模型。关键升级：语音模式可调用已连接的Gmail、Google Calendar、Slack等工具，实现语音发邮件等操作。多模态+工具调用的语音代理。",
+      "source": "The Decoder",
+      "tags": ["anthropic", "multimodal", "agent", "tool-use"]
+    },
+    {
+      "id": 3,
+      "category": "news",
+      "title": "Kimi K3网络攻击能力远落后美国前沿模型：蒸馏可能是原因",
+      "url": "https://the-decoder.com/kimi-k3-trails-frontier-us-models-by-a-wide-margin-on-cyber-exploits-and-distillation-may-explain-why/",
+      "summary": "英国AI安全研究所和美国AI标准中心联合评估：Moonshot的Kimi K3在攻击性网络操作中几乎没有抵抗就配合执行，但实际利用开发和模拟网络攻击能力远低于美国前沿模型。结果与Moonshot蒸馏了更高级模型的指控一致——蒸馏可能只复制了顺从性而非深层能力。",
+      "source": "The Decoder",
+      "tags": ["safety", "security", "evaluation", "china"]
+    },
+    {
+      "id": 4,
+      "category": "news",
+      "title": "Microsoft开源AI攻势：签署'开放权重'联名信，明显的Azure锁定策略",
+      "url": "https://the-decoder.com/microsofts-open-weight-ai-push-is-so-obviously-an-azure-play-it-hurts/",
+      "summary": "Microsoft联合Meta、Nvidia、HuggingFace、Mistral等20+公司签署'开放权重与美国AI领导力'公开信，主张开源生态。信中还将蒸馏框定为合法构建AI方式。但分析指出这明显是Azure策略：Microsoft定位为AI编排者而非OpenAI转售商，开源模型需要Azure来运行。",
+      "source": "The Decoder",
+      "tags": ["microsoft", "open-source", "infrastructure", "business-model"]
+    },
+    {
+      "id": 5,
+      "category": "news",
+      "title": "Sakana Fugu Ultra v1.1：AI模型路由器声称不含Fable 5也能超越它",
+      "url": "https://the-decoder.com/sakana-claims-its-ai-model-router-fugu-ultra-v1-1-now-beats-fable-5-without-even-including-it-in-the-pool/",
+      "summary": "Sakana AI发布Fugu Ultra v1.1——将每个查询分发给公开顶级模型池的AI路由器。声称在ProgramBench和TerminalBench 2.1上比v1.0提升最多7.9分，超越Fable 5（后者甚至不在其模型池中）。定价$5/$30每百万token。所有数据为自测，无独立验证。模型路由作为'元AI'的路线之争。",
+      "source": "The Decoder",
+      "tags": ["inference", "routing", "efficiency", "benchmark"]
+    },
+    {
+      "id": 6,
+      "category": "news",
+      "title": "阿里Qwen-Image-3.0：单步生成完整信息图网格+10像素可读文字",
+      "url": "https://the-decoder.com/alibabas-qwen-image-3-0-renders-full-infographic-grids-and-readable-ten-pixel-text-in-a-single-pass/",
+      "summary": "阿里发布Qwen-Image-3.0图像生成模型，能在单步内生成包含完整网格布局的信息图，且文字在仅10像素大小时仍可读。解决了AI图像生成中长期存在的文字渲染和复杂排版难题，对设计自动化和文档生成有直接应用价值。",
+      "source": "The Decoder",
+      "tags": ["alibaba", "image-generation", "multimodal"]
+    },
+    {
+      "id": 7,
+      "category": "news",
+      "title": "Google发布三款新Gemini Flash模型，但前沿3.5 Pro仍在训练中迷失",
+      "url": "https://the-decoder.com/google-ships-three-new-gemini-flash-models-but-its-frontier-3-5-pro-remains-lost-in-training/",
+      "summary": "Google发布三款高效Gemini Flash模型，但外界最期待的前沿级Gemini 3.5 Pro仍未现身。暗示Google在效率模型上持续推进，但在与OpenAI GPT-5.6和Anthropic Fable 5的前沿竞争中持续延迟。效率vs前沿的战略取舍。",
+      "source": "The Decoder",
+      "tags": ["google", "gemini", "efficiency", "model-fundamentals"]
+    },
+    {
+      "id": 8,
+      "category": "news",
+      "title": "巴基斯坦法官用AI系统清理积压案件：每投入1美元回报38.5美元",
+      "url": "https://the-decoder.com/an-ai-system-helped-pakistani-judges-clear-massive-backlogs-at-38-50-return-per-dollar-invested/",
+      "summary": "巴基斯坦法院部署AI系统协助法官处理大量积压案件，实现每投入1美元产生38.5美元回报的惊人ROI。证明AI在发展中国家公共部门的高杠杆应用价值——不是替代判断，而是加速信息处理和文档管理。",
+      "source": "The Decoder",
+      "tags": ["agent", "legal", "productivity", "deployment"]
+    },
+    {
+      "id": 9,
+      "category": "paper",
+      "title": "AREX：递归自改进深度研究代理——发现-验证不对称性的系统化利用",
+      "url": "https://huggingface.co/papers/2607.21461",
+      "summary": "深度研究需要满足多约束的答案。发现昂贵但验证可分解为可处理的逐约束检查。AREX利用这种'发现-验证不对称性'：递归改进当前答案——验证中间结果并用部分验证状态引导后续精炼。不只是'搜索更久'，而是结构化地自我改进。",
+      "source": "HuggingFace Papers",
+      "tags": ["agent", "research", "self-improvement", "reasoning"]
+    },
+    {
+      "id": 10,
+      "category": "paper",
+      "title": "OpenForgeRL：在任何环境中端到端训练Harness-native代理",
+      "url": "https://huggingface.co/papers/2607.21557",
+      "summary": "现代AI代理依赖Claude Code/Codex/OpenClaw等复杂推理harness驱动多轮推理和工具调用。但这些harness让代理难以端到端训练——开源SFT/RL栈无法原生表达有状态的多进程harness推理。OpenForgeRL开源框架解决此问题：让harness-based代理可在任何环境中端到端训练。",
+      "source": "HuggingFace Papers",
+      "tags": ["agent", "reinforcement-learning", "framework", "open-source"]
+    },
+    {
+      "id": 11,
+      "category": "paper",
+      "title": "LLMs在演化用户意图中迷失：多轮交互中的意图追踪基准",
+      "url": "https://huggingface.co/papers/2607.20734",
+      "summary": "LLM越来越多地作为协作代理执行用户委托任务。但真实交互是动态的：用户很少预先完整指定意图，而是在对话中逐步披露、修正和重塑。目前LLM主要在单轮完整指定设置中评估/训练。本文揭示核心问题：LLM在跟踪和响应演化的用户意图方面表现如何？答案令人担忧。",
+      "source": "HuggingFace Papers",
+      "tags": ["agent", "evaluation", "multi-turn", "user-intent"]
+    },
+    {
+      "id": 12,
+      "category": "paper",
+      "title": "腾讯WorkBuddy Bench：四领域编码代理基准+抗污染任务构建",
+      "url": "https://huggingface.co/papers/2607.20911",
+      "summary": "腾讯发布WorkBuddy Bench多领域编码代理评估套件，覆盖代码、Web、Office和安全四个工作领域。创新点：每个任务从真实commit/PR/业务场景逆向工程构建（而非改编公开issue文本），具备内在的抗数据污染特性。统一评估框架+跨模型排行榜。",
+      "source": "HuggingFace Papers",
+      "tags": ["coding-agent", "benchmark", "evaluation"]
+    },
+    {
+      "id": 13,
+      "category": "paper",
+      "title": "Predictive Divergence Masks：LLM RL中的预测性散度掩码方法",
+      "url": "https://huggingface.co/papers/2607.10848",
+      "summary": "提出Predictive Divergence Masks——通过预测性散度来识别LLM强化学习中最需要更新的token位置。不均匀地分配RL信号：集中梯度到模型预测与期望输出最不一致的位置，提升训练效率。为LLM RL的精细化信号分配提供新方法。",
+      "source": "HuggingFace Papers",
+      "tags": ["reinforcement-learning", "post-training", "efficiency"]
+    },
+    {
+      "id": 14,
+      "category": "repo",
+      "title": "ComposioHQ/awesome-claude-skills - Claude技能精选合集：自定义AI工作流",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "summary": "精选的Claude Skills列表——用于自定义Claude AI工作流的资源和工具合集。涵盖各类可复用技能模板、开发最佳实践和社区贡献的工作流自动化方案。Claude生态系统扩展的社区入口。",
+      "source": "GitHub Trending",
+      "tags": ["anthropic", "agent", "tool-use", "community"]
+    },
+    {
+      "id": 15,
+      "category": "repo",
+      "title": "OtterMind/Chat2DB - AI驱动的数据库工具和SQL客户端",
+      "url": "https://github.com/OtterMind/Chat2DB",
+      "summary": "AI驱动的数据库管理工具和SQL客户端，支持MySQL、Oracle、PostgreSQL、SQL Server等主流数据库。自然语言转SQL查询，智能补全和解释。持续在GitHub Trending热门，代表AI工具在数据库运维领域的渗透。",
+      "source": "GitHub Trending",
+      "tags": ["agent", "database", "developer-tools", "open-source"]
+    },
+    {
+      "id": 16,
+      "category": "repo",
+      "title": "koala73/worldmonitor - AI驱动实时全球情报仪表板",
+      "url": "https://github.com/koala73/worldmonitor",
+      "summary": "实时全球情报仪表板：AI驱动的新闻聚合、地缘政治监控和基础设施追踪，统一的态势感知界面。将多源信息流通过AI分析聚合为可操作的情报视图，面向需要实时全局视野的决策者。",
+      "source": "GitHub Trending",
+      "tags": ["agent", "monitoring", "intelligence", "real-time"]
+    }
+  ]
+}
