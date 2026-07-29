@@ -101,20 +101,6 @@
     {
       "id": 8,
       "category": "paper",
-      "title": "Kimi K3技术报告：2.8T参数MoE、Delta Attention、百万token上下文开放前沿",
-      "url": "https://huggingface.co/papers/2607.24653",
-      "summary": "Moonshot发布Kimi K3完整技术报告：2.8T参数MoE(104B激活)，引入Delta Attention和Attention Residuals改善信息流，Stable LatentMoE(896专家中激活16个)。整体缩放效率比K2提升约2.5倍。原生视觉能力+百万token上下文。后训练亮点是跨生成/推理/编码的强化学习。",
-      "source": "HuggingFace Papers",
-      "tags": [
-        "model-fundamentals",
-        "moe",
-        "scaling",
-        "open-source"
-      ]
-    },
-    {
-      "id": 9,
-      "category": "paper",
       "title": "多轮长程规划的物理学：从预训练到后训练的代理蒸馏全链路研究",
       "url": "https://huggingface.co/papers/2607.24720",
       "summary": "系统研究基础模型代理的多轮长程规划能力如何获得。引入统一受控多轮环境，横跨三阶段：(1)预训练中数据格式/分布/质量如何影响规划获取；(2)显式世界模型在规划中的作用；(3)单教师和多教师在线策略代理蒸馏的后训练方法。首次将规划能力的全生命周期系统化。",
@@ -127,7 +113,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "paper",
       "title": "StateAct：程序状态优先于像素——长程计算机操控代理的代码优先架构",
       "url": "https://huggingface.co/papers/2607.22798",
@@ -141,7 +127,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "paper",
       "title": "冻结12B模型+验证记忆=100%准确率0 Token：超越前沿模型的确定性方法",
       "url": "https://huggingface.co/papers/2607.23806",
@@ -155,7 +141,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "paper",
       "title": "从闭源到开源：多代理协议蒸馏在代理搜索中的突破",
       "url": "https://huggingface.co/papers/2607.24280",
@@ -169,7 +155,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "repo",
       "title": "microsoft/agent-governance-toolkit - AI代理治理工具包：覆盖OWASP代理Top 10全部风险",
       "url": "https://github.com/microsoft/agent-governance-toolkit",
@@ -183,7 +169,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "repo",
       "title": "andrewyng/aisuite - 吴恩达统一多AI供应商接口：一行代码切换模型",
       "url": "https://github.com/andrewyng/aisuite",
@@ -197,7 +183,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 14,
       "category": "repo",
       "title": "bradautomates/claude-video - 让Claude观看任意视频：下载/抽帧/转录/交给Claude",
       "url": "https://github.com/bradautomates/claude-video",
