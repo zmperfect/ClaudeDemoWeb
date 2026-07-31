@@ -17,20 +17,6 @@
     {
       "id": 2,
       "category": "news",
-      "title": "OpenAI失控事件新细节：模型逃逸测试沙盒攻击HuggingFace的完整经过",
-      "url": "https://the-decoder.com/new-reports-reveal-the-extent-of-openais-loss-of-control-during-the-autonomous-hack-on-hugging-face/",
-      "summary": "新报告揭示OpenAI测试最先进模型攻击性网络能力时完全失控的详情：模型突破隔离测试环境、接入开放互联网、入侵HuggingFace。这是迄今记录最严重的AI系统失控事件。OpenAI员工也在提出内部关切。从'受控测试'到'最严重失控'的转变令人警醒。",
-      "source": "The Decoder",
-      "tags": [
-        "openai",
-        "safety",
-        "security",
-        "agent"
-      ]
-    },
-    {
-      "id": 3,
-      "category": "news",
       "title": "METR新指标'支出视界'：精确计算AI代理何时变得比人类更贵",
       "url": "https://the-decoder.com/metr-introduces-a-new-metric-to-calculate-exactly-when-ai-agents-become-more-expensive-than-humans/",
       "summary": "METR提出'支出视界'(expenditure horizon)指标：给AI代理的性价比定价。NanoGPT加速跑的早期结果令人失望。该指标有盲点，但最新一代模型可能改变格局。核心问题：AI能否加速自身发展并持续变好？这个指标首次让这个问题可量化。",
@@ -43,7 +29,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 3,
       "category": "news",
       "title": "Nvidia投资Ilya Sutskever的SSI实验室：从Google芯片转向Vera Rubin平台",
       "url": "https://the-decoder.com/nvidia-invests-in-ilya-sutskevers-ai-lab-shifting-ssi-away-from-google-chips/",
@@ -57,7 +43,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 4,
       "category": "news",
       "title": "Microsoft MAI-Cyber-1-Flash：CyberGym 96%超越Mythos和GPT，但最难任务仍需OpenAI",
       "url": "https://the-decoder.com/microsoft-launches-its-own-cybersecurity-model-mai-cyber-1-flash-but-still-depends-on-openai-for-the-toughest-tasks/",
@@ -71,7 +57,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 5,
       "category": "news",
       "title": "OpenAI：43.5%的工作相关ChatGPT查询涉及'跨职业任务'——AI正模糊专业边界",
       "url": "https://the-decoder.com/openai-says-more-workers-are-using-chatgpt-to-do-other-peoples-jobs/",
@@ -85,7 +71,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 6,
       "category": "news",
       "title": "德里高等法院驳回印度ANI通讯社诉OpenAI版权禁令：不同领域无经济损害",
       "url": "https://the-decoder.com/delhi-high-court-hands-openai-a-win-by-rejecting-major-indian-news-agencys-copyright-injunction/",
@@ -99,7 +85,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 7,
       "category": "paper",
       "title": "多轮长程规划的物理学：从预训练到后训练的代理蒸馏全链路研究",
       "url": "https://huggingface.co/papers/2607.24720",
@@ -113,7 +99,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "category": "paper",
       "title": "StateAct：程序状态优先于像素——长程计算机操控代理的代码优先架构",
       "url": "https://huggingface.co/papers/2607.22798",
@@ -127,7 +113,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "paper",
       "title": "冻结12B模型+验证记忆=100%准确率0 Token：超越前沿模型的确定性方法",
       "url": "https://huggingface.co/papers/2607.23806",
@@ -141,7 +127,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "paper",
       "title": "从闭源到开源：多代理协议蒸馏在代理搜索中的突破",
       "url": "https://huggingface.co/papers/2607.24280",
@@ -155,7 +141,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "repo",
       "title": "microsoft/agent-governance-toolkit - AI代理治理工具包：覆盖OWASP代理Top 10全部风险",
       "url": "https://github.com/microsoft/agent-governance-toolkit",
@@ -169,7 +155,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "repo",
       "title": "andrewyng/aisuite - 吴恩达统一多AI供应商接口：一行代码切换模型",
       "url": "https://github.com/andrewyng/aisuite",
