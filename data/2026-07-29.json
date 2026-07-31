@@ -181,20 +181,6 @@
         "multi-model",
         "open-source"
       ]
-    },
-    {
-      "id": 14,
-      "category": "repo",
-      "title": "bradautomates/claude-video - 让Claude观看任意视频：下载/抽帧/转录/交给Claude",
-      "url": "https://github.com/bradautomates/claude-video",
-      "summary": "给Claude增加视频理解能力的工具。/watch命令自动下载视频、提取关键帧、转录音频，然后将所有信息交给Claude分析。解决Claude原生不支持视频输入的限制，用工程方法将视频拆解为Claude可处理的多模态片段。",
-      "source": "GitHub Trending",
-      "tags": [
-        "anthropic",
-        "multimodal",
-        "tool-use",
-        "video"
-      ]
     }
   ]
 }
