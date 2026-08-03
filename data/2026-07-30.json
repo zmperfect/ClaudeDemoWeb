@@ -31,20 +31,6 @@
     {
       "id": 3,
       "category": "news",
-      "title": "Microsoft AI押注廉价专业模型：Suleyman宣言'不追前沿，拼性价比'",
-      "url": "https://the-decoder.com/microsoft-ai-bets-on-cheap-specialist-models-instead-of-chasing-the-frontier/",
-      "summary": "Microsoft AI CEO Mustafa Suleyman宣布战略转向：不追通用前沿模型，而是为单一领域训练紧凑专业模型。MAI-Cyber-1-Flash网络安全模型在CyberGym上以半价超越Anthropic Mythos 12个百分点；MAI-Image-2.5-Flash削减GPU用量。但硬任务仍路由到OpenAI推理模型。",
-      "source": "The Decoder",
-      "tags": [
-        "microsoft",
-        "efficiency",
-        "model-fundamentals",
-        "business-model"
-      ]
-    },
-    {
-      "id": 4,
-      "category": "news",
       "title": "OpenAI降价80%：GPT-5.6 Luna跌至$0.20/百万token，全面对标中国定价",
       "url": "https://the-decoder.com/openai-goes-full-china-pricing-mode-with-an-80-percent-cut-to-its-most-affordable-gpt-5-6-model/",
       "summary": "OpenAI将GPT-5.6 Luna降价80%至$0.20/$1.20每百万input/output token，Terra降价20%至$2/$12。Sol定价不变。声称Luna达到一年前领先模型性能，但同等任务成本仅6美分（原来1美元），速度快9倍。全面跟进DeepSeek/字节的低价策略——AI推理定价战进入白热化阶段。",
@@ -57,7 +43,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 4,
       "category": "news",
       "title": "DeepMind研究员：LLM不能引发科学革命，但世界模型可能可以",
       "url": "https://the-decoder.com/language-models-cant-spark-scientific-revolutions-but-world-models-might/",
@@ -71,7 +57,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 5,
       "category": "news",
       "title": "前OpenAI研究者：纯扩大规模不够，押注$1000亿将流向高质量训练数据",
       "url": "https://the-decoder.com/ex-openai-researcher-bets-100-billion-will-flow-into-training-data-because-scaling-alone-wont-cut-it/",
@@ -85,7 +71,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 6,
       "category": "news",
       "title": "PwC中东AI报告疑似大量AI生成：'Transforming Governance'报告84%概率全AI写成",
       "url": "https://the-decoder.com/pwc-has-allegedly-published-ai-generated-reports-containing-false-or-fabricated-sources/",
@@ -99,7 +85,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 7,
       "category": "paper",
       "title": "AI代理能否开展开放式AI研究？两个案例研究的早期证据",
       "url": "https://huggingface.co/papers/2607.27191",
@@ -113,7 +99,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "category": "paper",
       "title": "SkillRise：跨任务技能进化的统一代理强化学习框架",
       "url": "https://huggingface.co/papers/2607.26784",
@@ -127,7 +113,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "paper",
       "title": "GPT-Red：大规模自博弈自动红队——对抗训练GPT-5.6抵御提示注入",
       "url": "https://huggingface.co/papers/2607.26115",
@@ -141,7 +127,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "paper",
       "title": "LLM记忆综述：从瞬态注意力到外部存储的系统性架构分析",
       "url": "https://huggingface.co/papers/2607.25380",
@@ -155,7 +141,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "paper",
       "title": "CAST：用游戏求解器作逐步骤教师，训练LLM代理长程决策",
       "url": "https://huggingface.co/papers/2607.25308",
@@ -169,7 +155,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "repo",
       "title": "different-ai/openwork - Claude Cowork的开源替代品（基于opencode）",
       "url": "https://github.com/different-ai/openwork",
@@ -183,7 +169,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "repo",
       "title": "huggingface/speech-to-speech - 用开源模型构建本地语音代理",
       "url": "https://github.com/huggingface/speech-to-speech",
@@ -197,7 +183,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 14,
       "category": "repo",
       "title": "microsoft/AI-For-Beginners - 微软开源AI入门课程：24周全栈AI学习路径",
       "url": "https://github.com/microsoft/AI-For-Beginners",
