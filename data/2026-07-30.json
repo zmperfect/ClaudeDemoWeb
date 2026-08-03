@@ -101,20 +101,6 @@
     {
       "id": 8,
       "category": "paper",
-      "title": "LLM记忆综述：从瞬态注意力到外部存储的系统性架构分析",
-      "url": "https://huggingface.co/papers/2607.25380",
-      "summary": "记忆已从LLM计算的隐式副产品演变为核心架构维度。本综述系统梳理四类机制：瞬态注意力、循环状态动态、参数高效适应、可扩展查找存储。覆盖从Transformer注意力到外部向量数据库的完整谱系，为快速碎片化的记忆研究提供统一框架。",
-      "source": "HuggingFace Papers",
-      "tags": [
-        "memory",
-        "survey",
-        "model-fundamentals",
-        "context-management"
-      ]
-    },
-    {
-      "id": 9,
-      "category": "paper",
       "title": "CAST：用游戏求解器作逐步骤教师，训练LLM代理长程决策",
       "url": "https://huggingface.co/papers/2607.25308",
       "summary": "训练LLM玩长程游戏时，RLVR依赖稀疏最终奖励，缺少逐步信用分配。CAST利用游戏求解器的状态值变化作为逐turn的教学信号——求解器评估每个动作是否推进胜局。比现有稠密过程信号来源更便宜且更准确。用游戏AI的完美规划教LLM代理做决策。",
@@ -127,7 +113,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "repo",
       "title": "different-ai/openwork - Claude Cowork的开源替代品（基于opencode）",
       "url": "https://github.com/different-ai/openwork",
@@ -141,7 +127,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "repo",
       "title": "huggingface/speech-to-speech - 用开源模型构建本地语音代理",
       "url": "https://github.com/huggingface/speech-to-speech",
@@ -155,7 +141,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "repo",
       "title": "microsoft/AI-For-Beginners - 微软开源AI入门课程：24周全栈AI学习路径",
       "url": "https://github.com/microsoft/AI-For-Beginners",
