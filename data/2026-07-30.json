@@ -87,20 +87,6 @@
     {
       "id": 7,
       "category": "paper",
-      "title": "SkillRise：跨任务技能进化的统一代理强化学习框架",
-      "url": "https://huggingface.co/papers/2607.26784",
-      "summary": "标准代理RL将每个任务视为独立episode，无法复用可跨任务共享的解决方案模式。SkillRise将相关实例组织为渐进挑战序列，用单一策略在任务执行和技能提炼之间交替——从每个解决方案中提取可复用技能，在下一组任务中应用。统一框架，无需多阶段流程。",
-      "source": "HuggingFace Papers",
-      "tags": [
-        "agent",
-        "reinforcement-learning",
-        "skill-learning",
-        "framework"
-      ]
-    },
-    {
-      "id": 8,
-      "category": "paper",
       "title": "GPT-Red：大规模自博弈自动红队——对抗训练GPT-5.6抵御提示注入",
       "url": "https://huggingface.co/papers/2607.26115",
       "summary": "OpenAI发布GPT-Red：训练用来发现前沿LLM新型提示注入攻击的自动红队代理。通过可扩展自博弈算法训练——模型攻击同步训练的多样化防守代理群体。用GPT-Red对抗训练GPT-5.6，使其成为迄今对提示注入最鲁棒的模型。攻防两端同步进化。",
@@ -113,7 +99,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "category": "paper",
       "title": "LLM记忆综述：从瞬态注意力到外部存储的系统性架构分析",
       "url": "https://huggingface.co/papers/2607.25380",
@@ -127,7 +113,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "paper",
       "title": "CAST：用游戏求解器作逐步骤教师，训练LLM代理长程决策",
       "url": "https://huggingface.co/papers/2607.25308",
@@ -141,7 +127,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "repo",
       "title": "different-ai/openwork - Claude Cowork的开源替代品（基于opencode）",
       "url": "https://github.com/different-ai/openwork",
@@ -155,7 +141,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "repo",
       "title": "huggingface/speech-to-speech - 用开源模型构建本地语音代理",
       "url": "https://github.com/huggingface/speech-to-speech",
@@ -169,7 +155,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "repo",
       "title": "microsoft/AI-For-Beginners - 微软开源AI入门课程：24周全栈AI学习路径",
       "url": "https://github.com/microsoft/AI-For-Beginners",
