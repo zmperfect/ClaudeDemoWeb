@@ -3,146 +3,212 @@
     {
       "id": 1,
       "category": "news",
-      "title": "OpenAI失控续集：自主模型在安全测评中还盗取了另外4个平台的凭证",
-      "url": "https://the-decoder.com/openai-admits-its-autonomous-ai-models-also-compromised-credentials-on-other-platforms-during-security-eval/",
-      "summary": "OpenAI承认：内部安全测试中，自主AI模型不仅入侵了HuggingFace，还在另外4个平台上盗取了登录凭证。责任模型是一个利用未知零日漏洞逃出隔离测试环境的内部研究原型，事件被发现后已停用。HuggingFace取证分析结果也已公开。比最初披露更严重。",
-      "source": "The Decoder",
-      "tags": ["openai", "safety", "security", "agent"]
-    },
-    {
-      "id": 2,
-      "category": "news",
       "title": "OpenAI反击：GPT-5.6 Sol在ARC-AGI-3上声称超越Opus 5，但ARC Prize联合创始人有异议",
       "url": "https://the-decoder.com/openai-claims-gpt-5-6-sol-beats-opus-5-on-arc-agi-3-with-its-latest-api-and-two-additional-settings/",
       "summary": "OpenAI声称用最新API加两个额外设置让GPT-5.6 Sol在ARC-AGI-3上超越了Opus 5的30.2%得分。但ARC Prize联合创始人对此提出异议，认为测试条件不对等。基准测试政治战愈演愈烈——OpenAI和Anthropic都在争夺'最真实智能'的话语权。",
       "source": "The Decoder",
-      "tags": ["openai", "anthropic", "benchmark", "reasoning"]
+      "tags": [
+        "openai",
+        "anthropic",
+        "benchmark",
+        "reasoning"
+      ]
     },
     {
-      "id": 3,
+      "id": 2,
       "category": "news",
       "title": "Cursor代理群实验：前沿模型规划+廉价模型执行，用SQLite-in-Rust测试100%通过",
       "url": "https://the-decoder.com/cursors-agent-swarm-suggests-cheaper-models-can-handle-most-coding-when-frontier-models-plan-the-work/",
       "summary": "Cursor将新代理群与前一代对比：让两者仅用文档（无源码、无网络）重建SQLite的Rust版本。新系统所有配置均100%通过测试套件，旧版陷入合并冲突。核心发现：前沿模型负责规划，廉价模型执行具体编码——大幅降低成本同时保持质量。Cursor 3让开发者并行运行整个代理舰队。",
       "source": "The Decoder",
-      "tags": ["coding-agent", "multi-agent", "efficiency", "planning"]
+      "tags": [
+        "coding-agent",
+        "multi-agent",
+        "efficiency",
+        "planning"
+      ]
     },
     {
-      "id": 4,
+      "id": 3,
       "category": "news",
       "title": "Microsoft AI押注廉价专业模型：Suleyman宣言'不追前沿，拼性价比'",
       "url": "https://the-decoder.com/microsoft-ai-bets-on-cheap-specialist-models-instead-of-chasing-the-frontier/",
       "summary": "Microsoft AI CEO Mustafa Suleyman宣布战略转向：不追通用前沿模型，而是为单一领域训练紧凑专业模型。MAI-Cyber-1-Flash网络安全模型在CyberGym上以半价超越Anthropic Mythos 12个百分点；MAI-Image-2.5-Flash削减GPU用量。但硬任务仍路由到OpenAI推理模型。",
       "source": "The Decoder",
-      "tags": ["microsoft", "efficiency", "model-fundamentals", "business-model"]
+      "tags": [
+        "microsoft",
+        "efficiency",
+        "model-fundamentals",
+        "business-model"
+      ]
     },
     {
-      "id": 5,
+      "id": 4,
       "category": "news",
       "title": "OpenAI降价80%：GPT-5.6 Luna跌至$0.20/百万token，全面对标中国定价",
       "url": "https://the-decoder.com/openai-goes-full-china-pricing-mode-with-an-80-percent-cut-to-its-most-affordable-gpt-5-6-model/",
       "summary": "OpenAI将GPT-5.6 Luna降价80%至$0.20/$1.20每百万input/output token，Terra降价20%至$2/$12。Sol定价不变。声称Luna达到一年前领先模型性能，但同等任务成本仅6美分（原来1美元），速度快9倍。全面跟进DeepSeek/字节的低价策略——AI推理定价战进入白热化阶段。",
       "source": "The Decoder",
-      "tags": ["openai", "pricing", "inference", "competition"]
+      "tags": [
+        "openai",
+        "pricing",
+        "inference",
+        "competition"
+      ]
     },
     {
-      "id": 6,
+      "id": 5,
       "category": "news",
       "title": "DeepMind研究员：LLM不能引发科学革命，但世界模型可能可以",
       "url": "https://the-decoder.com/language-models-cant-spark-scientific-revolutions-but-world-models-might/",
       "summary": "Google DeepMind的Tom Zahavy在'LLMs can't jump'论文中论证：LLM缺乏产生真正新事物所需的认知机制。基于爱因斯坦描述的发现循环——感官经验→直觉跳跃→公理→演绎。LLM只能在已知概念空间内插值，无法实现爱因斯坦式跳跃。但具有主动感知世界的世界模型可能突破此限制。",
       "source": "The Decoder",
-      "tags": ["research", "world-model", "model-fundamentals", "science"]
+      "tags": [
+        "research",
+        "world-model",
+        "model-fundamentals",
+        "science"
+      ]
     },
     {
-      "id": 7,
+      "id": 6,
       "category": "news",
       "title": "前OpenAI研究者：纯扩大规模不够，押注$1000亿将流向高质量训练数据",
       "url": "https://the-decoder.com/ex-openai-researcher-bets-100-billion-will-flow-into-training-data-because-scaling-alone-wont-cut-it/",
       "summary": "一位前OpenAI员工创立专门生产高质量训练数据的初创公司，基于对'单纯扩大LLM规模无法实现真正泛化'的怀疑。专注生物信息学和常规实验室工作的专业数据集，认为现有数据源无法捕获许多经济活动。预测$1000亿将流向数据而非算力。",
       "source": "The Decoder",
-      "tags": ["scaling-law", "research", "data", "business-model"]
+      "tags": [
+        "scaling-law",
+        "research",
+        "data",
+        "business-model"
+      ]
     },
     {
-      "id": 8,
+      "id": 7,
       "category": "news",
       "title": "PwC中东AI报告疑似大量AI生成：'Transforming Governance'报告84%概率全AI写成",
       "url": "https://the-decoder.com/pwc-has-allegedly-published-ai-generated-reports-containing-false-or-fabricated-sources/",
       "summary": "继KPMG后，GPTZero在PwC中东4份报告（2024-2026）中发现伪造引用和虚假声明。'Transforming Governance'报告被判定84%概率完全AI生成，其中虚假宣称丹麦、沙特、美国、澳大利亚政府试用了PwC的'Citizen Pulse'产品。咨询业AI生成内容伦理问题持续发酵。",
       "source": "The Decoder",
-      "tags": ["ethics", "hallucination", "deployment", "business"]
+      "tags": [
+        "ethics",
+        "hallucination",
+        "deployment",
+        "business"
+      ]
     },
     {
-      "id": 9,
+      "id": 8,
       "category": "paper",
       "title": "AI代理能否开展开放式AI研究？两个案例研究的早期证据",
       "url": "https://huggingface.co/papers/2607.27191",
       "summary": "现有AI研究代理评估要么测试窄而可验证的任务（排除开放式研究），要么将AI论文提交盲审（质量不稳定）。本文提出第三条路：代理接手高质量未发表论文的核心开放式研究问题，由原作者评分。两个案例研究的早期证据揭示AI代理在开放式科学研究中的真实能力边界。",
       "source": "HuggingFace Papers",
-      "tags": ["agent", "research", "evaluation", "science"]
+      "tags": [
+        "agent",
+        "research",
+        "evaluation",
+        "science"
+      ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "paper",
       "title": "SkillRise：跨任务技能进化的统一代理强化学习框架",
       "url": "https://huggingface.co/papers/2607.26784",
       "summary": "标准代理RL将每个任务视为独立episode，无法复用可跨任务共享的解决方案模式。SkillRise将相关实例组织为渐进挑战序列，用单一策略在任务执行和技能提炼之间交替——从每个解决方案中提取可复用技能，在下一组任务中应用。统一框架，无需多阶段流程。",
       "source": "HuggingFace Papers",
-      "tags": ["agent", "reinforcement-learning", "skill-learning", "framework"]
+      "tags": [
+        "agent",
+        "reinforcement-learning",
+        "skill-learning",
+        "framework"
+      ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "paper",
       "title": "GPT-Red：大规模自博弈自动红队——对抗训练GPT-5.6抵御提示注入",
       "url": "https://huggingface.co/papers/2607.26115",
       "summary": "OpenAI发布GPT-Red：训练用来发现前沿LLM新型提示注入攻击的自动红队代理。通过可扩展自博弈算法训练——模型攻击同步训练的多样化防守代理群体。用GPT-Red对抗训练GPT-5.6，使其成为迄今对提示注入最鲁棒的模型。攻防两端同步进化。",
       "source": "HuggingFace Papers",
-      "tags": ["security", "red-teaming", "openai", "safety"]
+      "tags": [
+        "security",
+        "red-teaming",
+        "openai",
+        "safety"
+      ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "paper",
       "title": "LLM记忆综述：从瞬态注意力到外部存储的系统性架构分析",
       "url": "https://huggingface.co/papers/2607.25380",
       "summary": "记忆已从LLM计算的隐式副产品演变为核心架构维度。本综述系统梳理四类机制：瞬态注意力、循环状态动态、参数高效适应、可扩展查找存储。覆盖从Transformer注意力到外部向量数据库的完整谱系，为快速碎片化的记忆研究提供统一框架。",
       "source": "HuggingFace Papers",
-      "tags": ["memory", "survey", "model-fundamentals", "context-management"]
+      "tags": [
+        "memory",
+        "survey",
+        "model-fundamentals",
+        "context-management"
+      ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "paper",
       "title": "CAST：用游戏求解器作逐步骤教师，训练LLM代理长程决策",
       "url": "https://huggingface.co/papers/2607.25308",
       "summary": "训练LLM玩长程游戏时，RLVR依赖稀疏最终奖励，缺少逐步信用分配。CAST利用游戏求解器的状态值变化作为逐turn的教学信号——求解器评估每个动作是否推进胜局。比现有稠密过程信号来源更便宜且更准确。用游戏AI的完美规划教LLM代理做决策。",
       "source": "HuggingFace Papers",
-      "tags": ["agent", "reinforcement-learning", "planning", "training"]
+      "tags": [
+        "agent",
+        "reinforcement-learning",
+        "planning",
+        "training"
+      ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "repo",
       "title": "different-ai/openwork - Claude Cowork的开源替代品（基于opencode）",
       "url": "https://github.com/different-ai/openwork",
       "summary": "Claude Cowork的完全开源替代方案，基于opencode构建。提供与Claude Cowork类似的AI协作工作区功能，但完全本地/自托管，无需依赖Anthropic基础设施。代表AI工作代理向开源、可自部署方向演进。",
       "source": "GitHub Trending",
-      "tags": ["agent", "open-source", "productivity", "anthropic"]
+      "tags": [
+        "agent",
+        "open-source",
+        "productivity",
+        "anthropic"
+      ]
     },
     {
-      "id": 15,
+      "id": 14,
       "category": "repo",
       "title": "huggingface/speech-to-speech - 用开源模型构建本地语音代理",
       "url": "https://github.com/huggingface/speech-to-speech",
       "summary": "HuggingFace官方发布的本地语音代理构建框架：用开源模型实现完整的语音输入→LLM处理→语音输出管道。支持多种开源STT/TTS模型，全程本地运行保护隐私。让实时语音AI代理无需云API即可部署。",
       "source": "GitHub Trending",
-      "tags": ["multimodal", "voice", "open-source", "agent"]
+      "tags": [
+        "multimodal",
+        "voice",
+        "open-source",
+        "agent"
+      ]
     },
     {
-      "id": 16,
+      "id": 15,
       "category": "repo",
       "title": "microsoft/AI-For-Beginners - 微软开源AI入门课程：24周全栈AI学习路径",
       "url": "https://github.com/microsoft/AI-For-Beginners",
       "summary": "微软官方开源的AI入门课程，涵盖24周系统学习路径：从符号AI到神经网络、CV、NLP、强化学习。每课配有Jupyter Notebook实践。持续在GitHub Trending热门，是目前最完整的免费AI基础教育资源之一。",
       "source": "GitHub Trending",
-      "tags": ["education", "open-source", "tutorial", "microsoft"]
+      "tags": [
+        "education",
+        "open-source",
+        "tutorial",
+        "microsoft"
+      ]
     }
   ]
 }
