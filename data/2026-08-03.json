@@ -41,26 +41,6 @@
     {
       "id": 3,
       "category": "paper",
-      "title": "RLSVR：把开放式任务转化为具有自验证奖励的多Agent博弈",
-      "url": "https://arxiv.org/abs/2607.23802",
-      "summary": "RLSVR通过任务转换，为写作和摘要等缺少确定答案的任务构造可自动验证的奖励。其实例SpyRL让多个Agent在信息不对称环境中识别“卧底”，以预先确定的身份作为训练真值。",
-      "source": "HuggingFace Papers / arXiv",
-      "highlight": "它为摆脱昂贵的人类偏好和LLM裁判提供了新思路，并在摘要、创作和数学推理上取得一致提升。",
-      "stars": null,
-      "tags": [
-        "rlvr",
-        "self-play",
-        "multi-agent",
-        "reinforcement-learning"
-      ],
-      "topic": [
-        "post-training",
-        "agent"
-      ]
-    },
-    {
-      "id": 4,
-      "category": "paper",
       "title": "CriPO：用自蒸馏修复Rubric强化学习中的奖励信号丢失",
       "url": "https://arxiv.org/abs/2607.18082",
       "summary": "CriPO识别了Rubric强化学习中的两类问题：从未被探索的标准，以及虽已满足却被聚合奖励压制的标准。方法通过在策略自蒸馏和局部token优势翻转进行修正，约用一半优化步骤达到更强结果。",
@@ -78,7 +58,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 4,
       "category": "paper",
       "title": "AISPA：面向用户权益的系统提示词审计框架",
       "url": "https://arxiv.org/abs/2607.28617",
@@ -97,7 +77,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 5,
       "category": "paper",
       "title": "MemTrain：使用无标注语料和GRPO训练长程上下文记忆",
       "url": "https://huggingface.co/papers/2606.03197",
@@ -117,7 +97,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 6,
       "category": "repo",
       "title": "TencentDB-Agent-Memory：面向团队Agent的共享记忆中心",
       "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
@@ -138,7 +118,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 7,
       "category": "tool",
       "title": "Agent-Reach：让AI Agent统一搜索多个互联网平台",
       "url": "https://github.com/Panniantong/Agent-Reach",
@@ -158,7 +138,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "category": "repo",
       "title": "DeepSeek-Reasonix：针对前缀缓存优化的终端编程Agent",
       "url": "https://github.com/esengine/DeepSeek-Reasonix",
@@ -177,7 +157,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "repo",
       "title": "A-RAG：通过分层检索工具实现Agentic RAG",
       "url": "https://github.com/Ayanami0730/arag",
@@ -197,7 +177,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "repo",
       "title": "nanobot：轻量自托管个人AI Agent框架",
       "url": "https://github.com/HKUDS/nanobot",
@@ -217,7 +197,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "repo",
       "title": "T3MP3ST：多Agent自主安全红队平台",
       "url": "https://github.com/elder-plinius/T3MP3ST",
@@ -236,7 +216,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "tutorial",
       "title": "2026 AI Agent记忆实践报告：基准、混合检索与生产架构",
       "url": "https://mem0.ai/blog/state-of-ai-agent-memory-2026",
@@ -257,7 +237,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "repo",
       "title": "RLSVR开源实现：用SpyRL训练开放式任务模型",
       "url": "https://github.com/wangqinsi1/RLSVR",
@@ -277,7 +257,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 14,
       "category": "news",
       "title": "AnyMind 发布 AnyAI Agent，面向营销和电商自动化",
       "url": "https://anymindgroup.com/news/press-release/anyai-agent-launch-0826",
@@ -296,7 +276,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": 15,
       "category": "news",
       "title": "阿里云开放 Qwen3.8-Max 全球访问，主打百万上下文与长程 Agent 任务",
       "url": "https://www.scmp.com/tech/article/3362738/alibabas-ai-model-qwen38-max-made-widely-accessible-ahead-open-weights-release?module=latest&pgtype=homepage",
@@ -315,7 +295,7 @@
       ]
     },
     {
-      "id": 17,
+      "id": 16,
       "category": "repo",
       "title": "Mu：用单一MCP入口向Agent开放数十种互联网工具",
       "url": "https://github.com/micro/mu",
@@ -334,7 +314,7 @@
       ]
     },
     {
-      "id": 18,
+      "id": 17,
       "category": "news",
       "title": "Cato推出Agentic Threat Prevention，应对AI自动化网络攻击",
       "url": "https://support.catonetworks.com/hc/en-us/articles/38068781814685-Product-Updates-Aug-3-2026",
@@ -353,7 +333,7 @@
       ]
     },
     {
-      "id": 19,
+      "id": 18,
       "category": "news",
       "title": "OpenAI公布Astra生成的十项数学与理论计算机科学成果",
       "url": "https://openai.com/index/ten-advances-in-mathematics/",
@@ -372,7 +352,7 @@
       ]
     },
     {
-      "id": 20,
+      "id": 19,
       "category": "news",
       "title": "Microsoft Agent Framework Harness与Hosted Agents进入生产可用阶段",
       "url": "https://www.infoq.com/news/2026/08/agent-framework-harness-ga/",
@@ -392,7 +372,7 @@
       ]
     },
     {
-      "id": 21,
+      "id": 20,
       "category": "news",
       "title": "阿里巴巴推出QwenWork一体化办公Agent平台",
       "url": "https://www.alibabacloud.com/blog/alibaba-launches-qwenwork-an-all-in-one-workplace-ai-agent-platform_603419",
@@ -412,7 +392,7 @@
       ]
     },
     {
-      "id": 22,
+      "id": 21,
       "category": "tool",
       "title": "Milvus 3.0：面向RAG的湖原生向量检索引擎",
       "url": "https://milvus.io/blog/announcing-milvus-3-lake-native-vector-search-and-a-more-powerful-retrieval-engine.md",
@@ -431,7 +411,7 @@
       ]
     },
     {
-      "id": 23,
+      "id": 22,
       "category": "paper",
       "title": "MemChain：用可解释证据链压缩Agent长期记忆上下文",
       "url": "https://arxiv.org/abs/2607.24097",
@@ -453,7 +433,7 @@
       ]
     },
     {
-      "id": 24,
+      "id": 23,
       "category": "news",
       "title": "微软Project Perception多Agent安全防御系统进入预览",
       "url": "https://www.microsoft.com/en-us/security/business/ai-powered-cybersecurity/project-perception-agentic-system",
@@ -472,7 +452,7 @@
       ]
     },
     {
-      "id": 25,
+      "id": 24,
       "category": "tool",
       "title": "MCP 2026-07-28规范：无状态核心与长任务扩展正式发布",
       "url": "https://blog.modelcontextprotocol.io/posts/2026-07-28/",
