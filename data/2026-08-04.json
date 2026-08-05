@@ -408,25 +408,6 @@
       "topic": [
         "agent"
       ]
-    },
-    {
-      "id": 21,
-      "category": "tool",
-      "title": "Snyk Evo上线持续Agent红队与自主渗透测试",
-      "url": "https://snyk.io/news/snyk-launches-evo-continuous-offensive-security/",
-      "summary": "Snyk发布Evo Continuous Offensive Security正式版，持续对应用执行AI驱动渗透测试，并模拟提示注入、工具滥用及数据外泄等Agent攻击。配套AI-SPM可盘点模型、Agent、MCP服务器和技能的可达资源，修复Agent则进入公开预览。",
-      "source": "Snyk",
-      "highlight": "Agent安全评估开始从发布前的一次性测试转向随应用和工具权限变化持续运行的对抗验证。",
-      "stars": null,
-      "tags": [
-        "agent-security",
-        "red-teaming",
-        "mcp-security",
-        "autonomous-pentesting"
-      ],
-      "topic": [
-        "agent"
-      ]
     }
   ]
 }
