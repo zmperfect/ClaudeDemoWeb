@@ -61,26 +61,6 @@
     },
     {
       "id": 4,
-      "category": "tool",
-      "title": "Hermes Agent 0.20加入A2A协议、实时语音与上下文微压缩",
-      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.3",
-      "summary": "Hermes Agent新版本支持A2A 1.0多Agent互操作、可打断的流式语音、签名Webhook和带事实核验的引用研究。版本还加入逐轮微压缩、工具结果主动裁剪、最近用户消息保留及工具自动恢复机制。",
-      "source": "GitHub / Nous Research",
-      "highlight": "一次更新同时覆盖多Agent通信、上下文管理、工具可靠性和人机实时协作，适合持续运行的复杂Agent系统。",
-      "stars": null,
-      "tags": [
-        "a2a",
-        "voice-agent",
-        "context-compression",
-        "tool-recovery"
-      ],
-      "topic": [
-        "memory",
-        "agent"
-      ]
-    },
-    {
-      "id": 5,
       "category": "paper",
       "title": "Skill-α：通过强化学习渐进生成高质量Agent技能",
       "url": "https://huggingface.co/papers/2608.01678",
@@ -101,7 +81,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 5,
       "category": "paper",
       "title": "DAPD：缓解在线策略蒸馏中的特权信息幻觉",
       "url": "https://huggingface.co/papers/2608.01735",
@@ -120,7 +100,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 6,
       "category": "paper",
       "title": "SWE-Touch：评测用户同时修改代码时的编程Agent",
       "url": "https://huggingface.co/papers/2608.02499",
@@ -140,7 +120,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 7,
       "category": "paper",
       "title": "JAMEL：用新颖性信号联合训练Agent记忆与探索策略",
       "url": "https://huggingface.co/papers/2606.01528",
@@ -161,7 +141,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "category": "paper",
       "title": "Agent记忆诊断：检索质量比复杂写入策略更关键",
       "url": "https://huggingface.co/papers/2603.02473",
@@ -181,7 +161,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "paper",
       "title": "自主LLM Agent记忆综述：从上下文压缩到策略学习",
       "url": "https://huggingface.co/papers/2603.07670",
@@ -202,7 +182,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "repo",
       "title": "Webwright：把长程网页任务沉淀为零token可复用技能",
       "url": "https://github.com/microsoft/Webwright",
@@ -222,7 +202,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "repo",
       "title": "Uber ADR：面向企业AI Agent的检测与响应系统",
       "url": "https://github.com/uber/ADR",
@@ -241,7 +221,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "tool",
       "title": "PDF Inspector：为RAG文档管线智能识别扫描件与文本PDF",
       "url": "https://github.com/firecrawl/pdf-inspector",
@@ -260,7 +240,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "tutorial",
       "title": "Generative AI for Beginners：微软21课生成式AI实践课程",
       "url": "https://github.com/microsoft/generative-ai-for-beginners",
