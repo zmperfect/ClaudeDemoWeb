@@ -309,27 +309,6 @@
     },
     {
       "id": 16,
-      "category": "paper",
-      "title": "DeepVoyager-VL：让视觉证据参与长程多轮检索",
-      "url": "https://huggingface.co/papers/2608.01827",
-      "summary": "DeepVoyager-VL构建多模态事件图合成长推理链训练数据，并让Agent在搜索过程中主动获取和按需载入图像。模型经监督微调后可在中间推理阶段利用视觉证据继续发起文本与图像检索，在十项多模态搜索基准上取得改进。",
-      "source": "HuggingFace Papers",
-      "highlight": "视觉不再只是初始输入或最终回答的附件，而成为决定下一步检索动作的循环内证据。",
-      "stars": 6,
-      "tags": [
-        "multimodal-rag",
-        "visual-search",
-        "data-synthesis",
-        "long-horizon"
-      ],
-      "topic": [
-        "rag",
-        "post-training",
-        "agent"
-      ]
-    },
-    {
-      "id": 17,
       "category": "repo",
       "title": "TencentDB Agent Memory 2.0：团队级记忆、技能、Wiki与CodeGraph统一开源",
       "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory/releases/tag/v2.0.0",
@@ -350,7 +329,7 @@
       ]
     },
     {
-      "id": 18,
+      "id": 17,
       "category": "repo",
       "title": "Y Combinator开源QM：面向Slack与Web的多人Agent运行框架",
       "url": "https://github.com/yc-software/qm",
@@ -370,7 +349,7 @@
       ]
     },
     {
-      "id": 19,
+      "id": 18,
       "category": "tool",
       "title": "Claude Code 2.1.221加强凭据隔离、权限检查与无人值守会话",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.221",
