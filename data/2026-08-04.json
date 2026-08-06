@@ -23,27 +23,6 @@
     {
       "id": 2,
       "category": "paper",
-      "title": "GRASP：学习协调关键词、语义搜索与上下文粒度的Agentic RAG",
-      "url": "https://huggingface.co/papers/2607.10463",
-      "summary": "GRASP使用强化学习训练搜索Agent，在语义搜索、关键词搜索和段落阅读之间动态选择，并仅在必要时扩展上下文。联合奖励同时考虑答案准确性、证据落地、互补检索和交互效率，在多跳问答中改善召回率与最终表现。",
-      "source": "HuggingFace Papers",
-      "highlight": "该方法把检索方式和chunk粒度都纳入可学习策略，为减少无关上下文干扰提供了清晰路径。",
-      "stars": 1,
-      "tags": [
-        "agentic-rag",
-        "hybrid-search",
-        "context-granularity",
-        "reinforcement-learning"
-      ],
-      "topic": [
-        "rag",
-        "post-training",
-        "agent"
-      ]
-    },
-    {
-      "id": 3,
-      "category": "paper",
       "title": "EvalAct：把检索质量自评变成Agent可执行动作",
       "url": "https://huggingface.co/papers/2603.09203",
       "summary": "EvalAct要求每次搜索后立即执行结构化评估，将Agent对证据质量的判断显式写入轨迹。其PCAR方法在GRPO基础上按步骤可靠性调整优势，在七个开放域问答基准上提升了多跳推理准确率。",
@@ -63,7 +42,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 3,
       "category": "paper",
       "title": "Agentic-R：让检索器与搜索Agent双向迭代优化",
       "url": "https://arxiv.org/abs/2601.11888",
@@ -84,7 +63,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 4,
       "category": "paper",
       "title": "搜索Agent训练实证研究：语料覆盖比复杂奖励算法更重要",
       "url": "https://huggingface.co/papers/2605.27881",
@@ -105,7 +84,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 5,
       "category": "paper",
       "title": "GRPO、Dr. GRPO与DAPO可归结为同一个标准差操作",
       "url": "https://arxiv.org/abs/2607.00152",
@@ -124,7 +103,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 6,
       "category": "paper",
       "title": "GRPO中的LoRA自适应秩分配可能损害泛化",
       "url": "https://arxiv.org/html/2605.07366v1",
@@ -143,7 +122,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 7,
       "category": "paper",
       "title": "AgeMem：用强化学习统一管理Agent长短期记忆",
       "url": "https://aclanthology.org/2026.acl-long.981/",
@@ -164,7 +143,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "category": "repo",
       "title": "GenericAgent：从轻量内核持续生长技能树的自进化Agent",
       "url": "https://github.com/lsdefine/genericagent",
@@ -184,7 +163,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "repo",
       "title": "Atomic Agent：面向消费级硬件的本地优先AI Agent",
       "url": "https://github.com/AtomicBot-ai/atomic-agent",
@@ -204,7 +183,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "tool",
       "title": "PMB：为编程Agent提供本地持久记忆的MCP服务",
       "url": "https://github.com/oleksiijko/pmb",
@@ -225,7 +204,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "repo",
       "title": "MemGraphRAG：结合三层记忆与多Agent的图检索框架",
       "url": "https://github.com/XMUDeepLIT/MemGraphRAG",
@@ -246,7 +225,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "tool",
       "title": "mnemory：带事实抽取、去重和过期机制的自托管Agent记忆",
       "url": "https://github.com/fpytloun/mnemory/",
@@ -267,7 +246,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "tutorial",
       "title": "Agent记忆与RAG实践指南：从混合检索到跨会话状态",
       "url": "https://www.whatgenerativeai.com/docs/genai-playbook/agents-memory-rag/",
@@ -288,7 +267,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 14,
       "category": "news",
       "title": "阿里发布Qwen3.8-Max：2.4万亿参数模型面向长程Agent任务",
       "url": "https://www.alibabacloud.com/blog/qwen3-8-max-a-new-bar-for-coding-and-cowork_603421",
@@ -309,7 +288,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": 15,
       "category": "paper",
       "title": "LongHorizon-Harness：用独立状态和审计循环提升长程Agent可靠性",
       "url": "https://huggingface.co/papers/2608.01964",
@@ -329,7 +308,7 @@
       ]
     },
     {
-      "id": 17,
+      "id": 16,
       "category": "paper",
       "title": "DeepVoyager-VL：让视觉证据参与长程多轮检索",
       "url": "https://huggingface.co/papers/2608.01827",
@@ -350,7 +329,7 @@
       ]
     },
     {
-      "id": 18,
+      "id": 17,
       "category": "repo",
       "title": "TencentDB Agent Memory 2.0：团队级记忆、技能、Wiki与CodeGraph统一开源",
       "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory/releases/tag/v2.0.0",
@@ -371,7 +350,7 @@
       ]
     },
     {
-      "id": 19,
+      "id": 18,
       "category": "repo",
       "title": "Y Combinator开源QM：面向Slack与Web的多人Agent运行框架",
       "url": "https://github.com/yc-software/qm",
@@ -391,7 +370,7 @@
       ]
     },
     {
-      "id": 20,
+      "id": 19,
       "category": "tool",
       "title": "Claude Code 2.1.221加强凭据隔离、权限检查与无人值守会话",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.221",
