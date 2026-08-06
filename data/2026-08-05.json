@@ -143,26 +143,6 @@
     {
       "id": 8,
       "category": "paper",
-      "title": "Agent记忆诊断：检索质量比复杂写入策略更关键",
-      "url": "https://huggingface.co/papers/2603.02473",
-      "summary": "研究交叉比较原始chunk、事实抽取和摘要写入，以及余弦、BM25和混合重排检索方案。在LoCoMo上，不同检索方法带来20个百分点差异，而零LLM成本的原始chunk存储可匹配甚至超过复杂写入策略。",
-      "source": "Hugging Face Papers",
-      "highlight": "结果建议记忆系统先优化混合检索与reranking，再投入成本进行可能损失信息的写入摘要。",
-      "stars": null,
-      "tags": [
-        "hybrid-search",
-        "bm25",
-        "reranking",
-        "memory-retrieval"
-      ],
-      "topic": [
-        "rag",
-        "memory"
-      ]
-    },
-    {
-      "id": 9,
-      "category": "paper",
       "title": "自主LLM Agent记忆综述：从上下文压缩到策略学习",
       "url": "https://huggingface.co/papers/2603.07670",
       "summary": "该综述用“写入—管理—读取”循环统一描述Agent记忆，并从时间范围、表示载体和控制策略三个维度建立分类。文章覆盖上下文内压缩、检索存储、反思改进、分层虚拟上下文和策略学习记忆，同时讨论遗忘、隐私及多会话评测。",
@@ -182,7 +162,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "repo",
       "title": "Webwright：把长程网页任务沉淀为零token可复用技能",
       "url": "https://github.com/microsoft/Webwright",
@@ -202,7 +182,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "repo",
       "title": "Uber ADR：面向企业AI Agent的检测与响应系统",
       "url": "https://github.com/uber/ADR",
@@ -221,7 +201,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "tool",
       "title": "PDF Inspector：为RAG文档管线智能识别扫描件与文本PDF",
       "url": "https://github.com/firecrawl/pdf-inspector",
@@ -240,7 +220,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "tutorial",
       "title": "Generative AI for Beginners：微软21课生成式AI实践课程",
       "url": "https://github.com/microsoft/generative-ai-for-beginners",
