@@ -22,26 +22,6 @@
     {
       "id": 2,
       "category": "paper",
-      "title": "LLMZero：让LLM Agent自动搜索强化学习后训练策略",
-      "url": "https://huggingface.co/papers/2606.18388",
-      "summary": "LLMZero通过树搜索让Agent分析训练指标和检查点，再提出多阶段超参数调整及提前停止决策。在四项GRPO任务上，其策略相对基础模型提升9%至140%，相对网格搜索提升6%至15%。",
-      "source": "Hugging Face Papers",
-      "highlight": "该方法展示了后训练日程可以根据训练状态动态演化，而不必固定整条超参数轨迹。",
-      "stars": null,
-      "tags": [
-        "grpo",
-        "hyperparameter-search",
-        "tree-search",
-        "rl-training"
-      ],
-      "topic": [
-        "post-training",
-        "agent"
-      ]
-    },
-    {
-      "id": 3,
-      "category": "paper",
       "title": "GRASP：学习协调语义搜索、关键词搜索与上下文粒度",
       "url": "https://huggingface.co/papers/2607.10463",
       "summary": "GRASP通过强化学习训练RAG Agent决定何时使用语义搜索、关键词搜索或展开段落上下文。奖励同时考虑答案正确性、证据支撑、互补检索及交互效率，并在多跳问答中改善召回和答案质量。",
@@ -61,7 +41,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 3,
       "category": "paper",
       "title": "Critic-R：利用Agent自省反馈持续改进检索器",
       "url": "https://huggingface.co/papers/2606.00590",
@@ -82,7 +62,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 4,
       "category": "paper",
       "title": "HERA：共同演化多Agent RAG拓扑与角色提示词",
       "url": "https://huggingface.co/papers/2604.00901",
@@ -103,7 +83,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 5,
       "category": "paper",
       "title": "PPRO：用用户画像和GRPO优化长期记忆召回",
       "url": "https://arxiv.org/html/2607.00017",
@@ -125,7 +105,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 6,
       "category": "paper",
       "title": "结构化记忆蒸馏：以11倍压缩保留个性化检索能力",
       "url": "https://arxiv.org/abs/2603.13017v1",
@@ -146,7 +126,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 7,
       "category": "paper",
       "title": "生产RAG实证：零样本LLM重排可超过传统交叉编码器",
       "url": "https://aclanthology.org/2026.eacl-industry.13/",
@@ -165,7 +145,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "category": "repo",
       "title": "Caveman：通过精简Agent输出降低编码任务token消耗",
       "url": "https://github.com/JuliusBrussee/caveman",
@@ -184,7 +164,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "repo",
       "title": "nanobot：集成长期记忆与多Agent委派的轻量个人助手",
       "url": "https://github.com/HKUDS/nanobot",
@@ -204,7 +184,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "repo",
       "title": "Pydantic AI：以类型安全方式构建生产级Agent工作流",
       "url": "https://github.com/pydantic/pydantic-ai",
@@ -223,7 +203,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "tutorial",
       "title": "生产RAG教程：用混合搜索与重排构建两阶段检索",
       "url": "https://canonical.com/blog/hybrid-search-and-reranking-a-deeper-look-at-rag",
@@ -242,7 +222,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "paper",
       "title": "从第一性原理统一推导PPO、GRPO与Agentic RL",
       "url": "https://arxiv.org/html/2606.16733",
@@ -262,7 +242,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "tutorial",
       "title": "Context Compression与Agent Memory的生产架构取舍",
       "url": "https://mem0.ai/blog/context-compression-vs-memory-in-ai-agents",
@@ -283,7 +263,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 14,
       "category": "news",
       "title": "Meta发布Muse Code与Muse Spark 1.2编码模型",
       "url": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
@@ -302,7 +282,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": 15,
       "category": "repo",
       "title": "Prime Agent：可修改自身技能、记忆与子Agent的开源RLM框架",
       "url": "https://github.com/PrimeIntellect-ai/prime-agent",
@@ -322,7 +302,7 @@
       ]
     },
     {
-      "id": 17,
+      "id": 16,
       "category": "paper",
       "title": "MemoryCPT：联合训练长期记忆构建、混合检索与成本感知压缩",
       "url": "https://arxiv.org/abs/2608.04843",
@@ -345,7 +325,7 @@
       ]
     },
     {
-      "id": 18,
+      "id": 17,
       "category": "paper",
       "title": "SA-OPD：过滤不依赖输入的虚假教师信号",
       "url": "https://arxiv.org/abs/2608.03632",
@@ -364,7 +344,7 @@
       ]
     },
     {
-      "id": 19,
+      "id": 18,
       "category": "paper",
       "title": "Personalization Mirage：LLM会把无依据推断写成用户画像",
       "url": "https://arxiv.org/abs/2608.04570",
@@ -383,7 +363,7 @@
       ]
     },
     {
-      "id": 20,
+      "id": 19,
       "category": "paper",
       "title": "SKILL-KD：用师生轨迹差异蒸馏可复用Agent技能",
       "url": "https://arxiv.org/abs/2607.28048",
@@ -404,7 +384,7 @@
       ]
     },
     {
-      "id": 21,
+      "id": 20,
       "category": "paper",
       "title": "LongHorizon-Harness：以独立审计状态支撑长程Agent执行",
       "url": "https://arxiv.org/abs/2608.01964",
@@ -424,7 +404,7 @@
       ]
     },
     {
-      "id": 22,
+      "id": 21,
       "category": "paper",
       "title": "LiveMem：以固定容量循环状态维持长程Agent记忆连续性",
       "url": "https://arxiv.org/abs/2608.02515",
@@ -447,7 +427,7 @@
       ]
     },
     {
-      "id": 23,
+      "id": 22,
       "category": "paper",
       "title": "MemArena：大规模评测端侧个人Agent的记忆与权限控制",
       "url": "https://arxiv.org/abs/2608.02613",
@@ -469,7 +449,7 @@
       ]
     },
     {
-      "id": 24,
+      "id": 23,
       "category": "paper",
       "title": "HarnessCompass：约束式自动演化可迁移的Agent执行框架",
       "url": "https://arxiv.org/abs/2608.01918v1",
@@ -489,7 +469,7 @@
       ]
     },
     {
-      "id": 25,
+      "id": 24,
       "category": "repo",
       "title": "qm：面向团队共享上下文的多人Agent工作框架",
       "url": "https://github.com/yc-software/qm",
