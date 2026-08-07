@@ -83,25 +83,6 @@
     {
       "id": 5,
       "category": "paper",
-      "title": "DAPD：缓解在线策略蒸馏中的特权信息幻觉",
-      "url": "https://huggingface.co/papers/2608.01735",
-      "summary": "DAPD指出，教师在训练时拥有而学生在推理时无法获得的特权信息，会让学生学习不可复现的行为。其双路径和双来源锚定机制在信息条件匹配的路径间约束策略，在Qwen3不同规模模型上持续优于普通在线自蒸馏。",
-      "source": "Hugging Face Papers",
-      "highlight": "研究揭示了后训练中容易被验证成绩掩盖的信息不对称问题，对教师数据和推理轨迹设计很有参考价值。",
-      "stars": null,
-      "tags": [
-        "policy-distillation",
-        "on-policy",
-        "knowledge-distillation",
-        "alignment"
-      ],
-      "topic": [
-        "post-training"
-      ]
-    },
-    {
-      "id": 6,
-      "category": "paper",
       "title": "SWE-Touch：评测用户同时修改代码时的编程Agent",
       "url": "https://huggingface.co/papers/2608.02499",
       "summary": "SWE-Touch在Agent修复代码期间注入与任务冲突但合理的用户编辑，以测试共享工作区中的状态感知能力。九个模型的平均解决率下降7.7个百分点，失败常源于未重新检查仓库、保留冲突代码或缺乏针对性验证。",
@@ -120,7 +101,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 6,
       "category": "paper",
       "title": "JAMEL：用新颖性信号联合训练Agent记忆与探索策略",
       "url": "https://huggingface.co/papers/2606.01528",
@@ -141,7 +122,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 7,
       "category": "paper",
       "title": "自主LLM Agent记忆综述：从上下文压缩到策略学习",
       "url": "https://huggingface.co/papers/2603.07670",
@@ -162,7 +143,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 8,
       "category": "repo",
       "title": "Webwright：把长程网页任务沉淀为零token可复用技能",
       "url": "https://github.com/microsoft/Webwright",
@@ -182,7 +163,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "repo",
       "title": "Uber ADR：面向企业AI Agent的检测与响应系统",
       "url": "https://github.com/uber/ADR",
@@ -201,7 +182,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "tool",
       "title": "PDF Inspector：为RAG文档管线智能识别扫描件与文本PDF",
       "url": "https://github.com/firecrawl/pdf-inspector",
@@ -220,7 +201,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "tutorial",
       "title": "Generative AI for Beginners：微软21课生成式AI实践课程",
       "url": "https://github.com/microsoft/generative-ai-for-beginners",
