@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(data/**)",
+      "Read(scripts/prompts/**)",
+      "WebFetch(*)"
+    ],
+    "deny": [
+      "Read(.env*)",
+      "Read(**/.env*)",
+      "Read(**/*.key)",
+      "Read(**/*credential*)",
+      "Write(**)",
+      "Shell(*)",
+      "Mcp(*:*)"
+    ]
+  }
+}

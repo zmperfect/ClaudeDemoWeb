@@ -1,70 +1,112 @@
 @echo off
-setlocal enabledelayedexpansion
+setlocal EnableExtensions
 
 REM === AI Daily Digest Automation ===
 REM Usage: daily-digest.bat [morning|afternoon|evening]
 
-set PROJECT_DIR=G:\AITest\TomTest\ClaudeDemoWeb
-set CLAUDE_EXE=C:\Users\tomjrli\.local\bin\claude.exe
-set PERIOD=%~1
+set "PERIOD=%~1"
+set "SCRIPT_DIR=%~dp0"
+for %%I in ("%SCRIPT_DIR%..") do set "PROJECT_DIR=%%~fI"
 
 if "%PERIOD%"=="" (
-    echo Usage: daily-digest.bat [morning^|afternoon^|evening]
+    goto :usage
+)
+
+if /I "%PERIOD%"=="morning" goto :valid_period
+if /I "%PERIOD%"=="afternoon" goto :valid_period
+if /I "%PERIOD%"=="evening" goto :valid_period
+goto :usage
+
+:usage
+echo Usage: daily-digest.bat [morning^|afternoon^|evening]
+exit /b 1
+
+:valid_period
+cd /d "%PROJECT_DIR%"
+if errorlevel 1 (
+    echo [ERROR] Could not open project directory: "%PROJECT_DIR%"
     exit /b 1
 )
 
-REM Get today's date in YYYY-MM-DD format
-for /f "tokens=2 delims==" %%I in ('wmic os get localdatetime /value') do set datetime=%%I
-set TODAY=%datetime:~0,4%-%datetime:~4,2%-%datetime:~6,2%
-set TIMESTAMP=%datetime:~0,4%-%datetime:~4,2%-%datetime:~6,2% %datetime:~8,2%:%datetime:~10,2%:%datetime:~12,2%
+if not exist "scripts\logs" mkdir "scripts\logs"
 
-cd /d %PROJECT_DIR%
+for /f %%I in ('powershell.exe -NoProfile -Command "Get-Date -Format yyyy-MM-dd"') do set "TODAY=%%I"
+set "LOGFILE=%PROJECT_DIR%\scripts\logs\%TODAY%-%PERIOD%.log"
 
-REM Create log directory if not exists
-if not exist scripts\logs mkdir scripts\logs
-
-set LOGFILE=scripts\logs\%TODAY%-%PERIOD%.log
-
-echo [%TIMESTAMP%] Starting %PERIOD% digest collection... >> %LOGFILE%
-
-REM Read prompt from file
-set PROMPT_FILE=scripts\prompts\%PERIOD%.md
-if not exist %PROMPT_FILE% (
-    echo [ERROR] Prompt file not found: %PROMPT_FILE% >> %LOGFILE%
+if not exist "%SCRIPT_DIR%daily-digest.ps1" (
+    echo [ERROR] Cursor digest script not found: "%SCRIPT_DIR%daily-digest.ps1" >> "%LOGFILE%"
     exit /b 1
 )
 
-REM Set budget per period (evening needs more for stats updates)
-set BUDGET=2.00
-if "%PERIOD%"=="evening" set BUDGET=3.00
+REM Sync remote hide-item commits before the agent reads today's digest.
+git fetch origin >> "%LOGFILE%" 2>&1
+if errorlevel 1 (
+    echo [ERROR] Could not fetch origin before collection >> "%LOGFILE%"
+    exit /b 1
+)
 
-REM Run claude in print mode with allowed tools
-REM Use pipe instead of stdin redirect (stdin redirect fails under Task Scheduler)
-type %PROMPT_FILE% | "%CLAUDE_EXE%" -p ^
-    --model sonnet ^
-    --allowedTools "WebFetch WebSearch Read Write Edit Glob Grep Bash(python*)" ^
-    --max-budget-usd %BUDGET% ^
-    >> %LOGFILE% 2>&1
+git rebase origin/master >> "%LOGFILE%" 2>&1
+if errorlevel 1 (
+    echo [ERROR] Could not rebase onto origin/master before collection >> "%LOGFILE%"
+    exit /b 1
+)
 
-set CLAUDE_EXIT=%ERRORLEVEL%
-echo [%TIMESTAMP%] Claude exited with code %CLAUDE_EXIT% >> %LOGFILE%
+REM Cursor CLI receives the prompt as Unicode from PowerShell and returns JSON.
+REM The PowerShell wrapper validates and atomically writes data\YYYY-MM-DD.json.
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%SCRIPT_DIR%daily-digest.ps1" -Period "%PERIOD%" -LogFile "%LOGFILE%"
+set "CURSOR_EXIT=%ERRORLEVEL%"
+echo [%DATE% %TIME%] Cursor exited with code %CURSOR_EXIT% >> "%LOGFILE%"
 
-if %CLAUDE_EXIT% neq 0 (
-    echo [ERROR] Claude failed, skipping git operations >> %LOGFILE%
-    exit /b %CLAUDE_EXIT%
+if not "%CURSOR_EXIT%"=="0" (
+    echo [ERROR] Cursor failed, skipping git operations >> "%LOGFILE%"
+    exit /b %CURSOR_EXIT%
 )
 
 REM Auto commit and push
-git add data/
-git diff --cached --quiet
-if %ERRORLEVEL% neq 0 (
-    echo [%TIMESTAMP%] Committing changes... >> %LOGFILE%
-    git commit -m "Auto: %TODAY% %PERIOD% digest update" >> %LOGFILE% 2>&1
-    git push >> %LOGFILE% 2>&1
-    echo [%TIMESTAMP%] Push complete. >> %LOGFILE%
-) else (
-    echo [%TIMESTAMP%] No changes to commit. >> %LOGFILE%
+git add -- data/ >> "%LOGFILE%" 2>&1
+if errorlevel 1 (
+    echo [ERROR] Could not stage digest data >> "%LOGFILE%"
+    exit /b 1
 )
 
-echo [%TIMESTAMP%] Done. >> %LOGFILE%
+git diff --cached --quiet
+if errorlevel 2 (
+    echo [ERROR] Could not inspect staged changes >> "%LOGFILE%"
+    exit /b 1
+)
+
+if errorlevel 1 (
+    echo [%DATE% %TIME%] Committing changes... >> "%LOGFILE%"
+    git commit -m "Auto: %TODAY% %PERIOD% digest update" >> "%LOGFILE%" 2>&1
+    if errorlevel 1 (
+        echo [ERROR] Git commit failed >> "%LOGFILE%"
+        exit /b 1
+    )
+
+    REM A user can hide an item while collection runs. Rebase again so the
+    REM digest commit is replayed after any such remote update.
+    git fetch origin >> "%LOGFILE%" 2>&1
+    if errorlevel 1 (
+        echo [ERROR] Could not fetch origin before push >> "%LOGFILE%"
+        exit /b 1
+    )
+
+    git rebase origin/master >> "%LOGFILE%" 2>&1
+    if errorlevel 1 (
+        echo [ERROR] Could not rebase digest commit onto origin/master >> "%LOGFILE%"
+        exit /b 1
+    )
+
+    git push origin HEAD:master >> "%LOGFILE%" 2>&1
+    if errorlevel 1 (
+        echo [ERROR] Git push failed >> "%LOGFILE%"
+        exit /b 1
+    )
+
+    echo [%DATE% %TIME%] Push complete. >> "%LOGFILE%"
+) else (
+    echo [%DATE% %TIME%] No changes to commit. >> "%LOGFILE%"
+)
+
+echo [%DATE% %TIME%] Done. >> "%LOGFILE%"
 endlocal
