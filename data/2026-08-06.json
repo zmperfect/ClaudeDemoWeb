@@ -304,29 +304,6 @@
     {
       "id": 16,
       "category": "paper",
-      "title": "MemoryCPT：联合训练长期记忆构建、混合检索与成本感知压缩",
-      "url": "https://arxiv.org/abs/2608.04843",
-      "summary": "MemoryCPT先用LoRA SFT蒸馏分段、情景记忆合并和语义抽取能力，再通过BM25与稠密检索的RRF融合召回候选，并用GRPO训练查询感知摘要器，在奖励中同时优化答案F1和token成本。",
-      "source": "arXiv",
-      "highlight": "在LoCoMo和LongMemEval上，该方法以平均不到9个token的查询摘要改善质量成本比，展示了后训练、混合检索与上下文压缩的一体化方案。",
-      "stars": null,
-      "tags": [
-        "lora",
-        "sft",
-        "grpo",
-        "rrf",
-        "context-compression"
-      ],
-      "topic": [
-        "post-training",
-        "rag",
-        "memory",
-        "agent"
-      ]
-    },
-    {
-      "id": 17,
-      "category": "paper",
       "title": "SA-OPD：过滤不依赖输入的虚假教师信号",
       "url": "https://arxiv.org/abs/2608.03632",
       "summary": "SA-OPD比较保留原始任务输入和移除输入时的教师—学生token分布差异，识别同时具备低输入依赖性和高优化影响的监督信号并将其过滤，避免学生继承教师的语言先验、格式偏好和刻板推理模板。",
@@ -344,7 +321,7 @@
       ]
     },
     {
-      "id": 18,
+      "id": 17,
       "category": "paper",
       "title": "Personalization Mirage：LLM会把无依据推断写成用户画像",
       "url": "https://arxiv.org/abs/2608.04570",
@@ -363,7 +340,7 @@
       ]
     },
     {
-      "id": 19,
+      "id": 18,
       "category": "paper",
       "title": "SKILL-KD：用师生轨迹差异蒸馏可复用Agent技能",
       "url": "https://arxiv.org/abs/2607.28048",
@@ -384,7 +361,7 @@
       ]
     },
     {
-      "id": 20,
+      "id": 19,
       "category": "paper",
       "title": "LongHorizon-Harness：以独立审计状态支撑长程Agent执行",
       "url": "https://arxiv.org/abs/2608.01964",
@@ -404,7 +381,7 @@
       ]
     },
     {
-      "id": 21,
+      "id": 20,
       "category": "paper",
       "title": "LiveMem：以固定容量循环状态维持长程Agent记忆连续性",
       "url": "https://arxiv.org/abs/2608.02515",
@@ -427,7 +404,7 @@
       ]
     },
     {
-      "id": 22,
+      "id": 21,
       "category": "paper",
       "title": "MemArena：大规模评测端侧个人Agent的记忆与权限控制",
       "url": "https://arxiv.org/abs/2608.02613",
@@ -449,7 +426,7 @@
       ]
     },
     {
-      "id": 23,
+      "id": 22,
       "category": "paper",
       "title": "HarnessCompass：约束式自动演化可迁移的Agent执行框架",
       "url": "https://arxiv.org/abs/2608.01918v1",
@@ -469,7 +446,7 @@
       ]
     },
     {
-      "id": 24,
+      "id": 23,
       "category": "repo",
       "title": "qm：面向团队共享上下文的多人Agent工作框架",
       "url": "https://github.com/yc-software/qm",
