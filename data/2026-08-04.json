@@ -1,1 +1,371 @@
-{"items":[{"id":1,"category":"news","title":"白宫召集头部AI公司审议前沿模型网络安全测试框架","url":"https://www.cnbc.com/2026/08/03/white-house-ai-companies-voluntary-framework-meeting.html","summary":"白宫将与OpenAI、Anthropic、Google等公司讨论一套自愿性前沿模型网络安全测试框架，参与者可在模型发布前最多30天向政府开放测试。框架聚焦漏洞发现和自动化网络攻击能力，但明确不得演变为强制许可或预审批制度。","source":"CNBC","highlight":"在Agent越界事件频发后，前沿模型的发布前安全评测正从企业内部流程走向政府与产业联合机制。","stars":null,"tags":["frontier-models","cybersecurity","evaluation","governance"],"topic":["agent"]},{"id":2,"category":"tool","title":"Cloudflare Computer：为大规模Agent统一隔离执行环境","url":"https://blog.cloudflare.com/cloudflare-computer/","summary":"Cloudflare发布@cloudflare/computer早期预览，为Agent提供由SQLite支持的持久文件系统，以及isolate、容器和浏览器等可切换执行后端。Agent可通过统一工具读写文件、操作Git和执行代码，系统则负责权限控制、审计及跨后端同步。","source":"Cloudflare","highlight":"它将Agent运行时从单一容器升级为按任务成本动态选择执行后端的“虚拟电脑”，有助于扩大并发规模。","stars":null,"tags":["cloudflare","agent-runtime","sandbox","code-execution"],"topic":["agent","memory"]},{"id":3,"category":"paper","title":"GRASP：学习协调关键词、语义搜索与上下文粒度的Agentic RAG","url":"https://huggingface.co/papers/2607.10463","summary":"GRASP使用强化学习训练搜索Agent，在语义搜索、关键词搜索和段落阅读之间动态选择，并仅在必要时扩展上下文。联合奖励同时考虑答案准确性、证据落地、互补检索和交互效率，在多跳问答中改善召回率与最终表现。","source":"HuggingFace Papers","highlight":"该方法把检索方式和chunk粒度都纳入可学习策略，为减少无关上下文干扰提供了清晰路径。","stars":1,"tags":["agentic-rag","hybrid-search","context-granularity","reinforcement-learning"],"topic":["rag","post-training","agent"]},{"id":4,"category":"paper","title":"EvalAct：把检索质量自评变成Agent可执行动作","url":"https://huggingface.co/papers/2603.09203","summary":"EvalAct要求每次搜索后立即执行结构化评估，将Agent对证据质量的判断显式写入轨迹。其PCAR方法在GRPO基础上按步骤可靠性调整优势，在七个开放域问答基准上提升了多跳推理准确率。","source":"HuggingFace Papers","highlight":"无需人工过程奖励模型即可获得细粒度训练信号，有助于缓解长程搜索中的信用分配问题。","stars":null,"tags":["process-reward","grpo","self-evaluation","multi-hop"],"topic":["rag","post-training","agent"]},{"id":5,"category":"paper","title":"Agentic-R：让检索器与搜索Agent双向迭代优化","url":"https://arxiv.org/abs/2601.11888","summary":"Agentic-R使用局部查询相关性和最终答案正确性共同衡量段落价值，并在搜索Agent与检索器之间交替训练。它在七个单跳及多跳问答基准上优于通用检索器，并减少约10%至15%的搜索轮次。","source":"arXiv","highlight":"研究指出传统embedding相似度不等于对最终答案有用，并给出了检索器适配Agent查询分布的方法。","stars":null,"tags":["retriever-training","embedding","agentic-search","ppo"],"topic":["rag","post-training","agent"]},{"id":6,"category":"paper","title":"搜索Agent训练实证研究：语料覆盖比复杂奖励算法更重要","url":"https://huggingface.co/papers/2605.27881","summary":"研究在统一条件下比较检索语料、奖励设计和训练协议，发现修复Wikipedia语料覆盖问题带来的增益超过不同算法之间的差异。实验还显示简单结果奖励通常不逊于过程奖励，而不当的细粒度信用分配可能过度修正Agent行为。","source":"HuggingFace Papers","highlight":"它提醒开发者优先检查检索环境和数据覆盖，再投入成本设计更复杂的强化学习奖励。","stars":2,"tags":["search-agent","reward-design","data-quality","training-protocol"],"topic":["rag","post-training","agent"]},{"id":7,"category":"paper","title":"GRPO、Dr. GRPO与DAPO可归结为同一个标准差操作","url":"https://arxiv.org/abs/2607.00152","summary":"论文证明二元奖励下，单次GRPO更新等于组内奖励标准差乘以正确与错误轨迹的梯度差。GRPO、Dr. GRPO和DAPO分别对这一标准差执行归一化、移除归一化和丢弃零标准差组，并对应不同的难度权重。","source":"arXiv","highlight":"闭式公式可直接估算不同题目难度所需的采样组大小及无梯度组比例，对RLVR训练调参很实用。","stars":null,"tags":["grpo","dapo","rlvr","reward-normalization"],"topic":["post-training"]},{"id":8,"category":"paper","title":"GRPO中的LoRA自适应秩分配可能损害泛化","url":"https://arxiv.org/html/2605.07366v1","summary":"该研究发现，按梯度重要性分配LoRA秩在GRPO中比统一分配低4.5个准确率点，即使参数预算和训练奖励相同。作者将其归因于GRPO较平坦的层间梯度分布，以及高秩层吸收更多梯度的正反馈效应。","source":"arXiv","highlight":"结果表明SFT阶段有效的LoRA秩分配经验不能直接迁移到强化学习后训练，但目前结论仍需在更多模型和任务上复现。","stars":null,"tags":["lora","grpo","rank-allocation","fine-tuning"],"topic":["post-training"]},{"id":9,"category":"paper","title":"AgeMem：用强化学习统一管理Agent长短期记忆","url":"https://aclanthology.org/2026.acl-long.981/","summary":"AgeMem把存储、检索、更新、总结和丢弃记忆都定义为Agent可调用的工具动作，由同一策略协调长短期记忆。三阶段渐进式训练配合逐步GRPO，在五项长程基准上提高任务表现和上下文使用效率。","source":"ACL Anthology","highlight":"它不再依赖固定记忆规则或外部控制器，而是让Agent端到端学习何时以及如何操作记忆。","stars":null,"tags":["agent-memory","long-term-memory","context-management","grpo"],"topic":["memory","post-training","agent"]},{"id":10,"category":"repo","title":"GenericAgent：从轻量内核持续生长技能树的自进化Agent","url":"https://github.com/lsdefine/genericagent","summary":"GenericAgent以约3300行核心代码和九种原子工具控制浏览器、终端、文件系统及移动设备。系统会把成功任务的执行路径固化成可复用技能，并通过分层会话记忆降低长期运行的上下文消耗。","source":"GitHub","highlight":"简洁实现同时覆盖工具使用、技能沉淀和跨会话记忆，适合研究Agent能力如何随任务积累增长。","stars":13650,"tags":["self-evolving-agent","skill-tree","browser-automation","token-efficiency"],"topic":["memory","agent"]},{"id":11,"category":"repo","title":"Atomic Agent：面向消费级硬件的本地优先AI Agent","url":"https://github.com/AtomicBot-ai/atomic-agent","summary":"Atomic Agent将Agent循环、状态和记忆保留在本机，可通过本地或云端模型执行浏览器、文件及经批准的命令操作。项目采用优化后的llama.cpp后端，并支持长上下文、跨会话记忆、任务调度和MCP工具。","source":"GitHub","highlight":"为希望在普通设备上兼顾隐私、工具调用和持续记忆的开发者提供了完整本地方案。","stars":1180,"tags":["local-first","llama-cpp","mcp","browser-automation"],"topic":["memory","agent"]},{"id":12,"category":"tool","title":"PMB：为编程Agent提供本地持久记忆的MCP服务","url":"https://github.com/oleksiijko/pmb","summary":"PMB将项目决策、经验、事实和文档保存在本地SQLite文件中，并通过MCP供Cursor、Claude Code和Codex等Agent访问。它还可利用协议级钩子在推理前注入相关记忆，并记录关键工具操作用于后续回忆。","source":"GitHub","highlight":"重点解决了记忆系统常见的“存了却不调用”问题，同时保持离线、可迁移和用户可控。","stars":287,"tags":["persistent-memory","sqlite","mcp","coding-agent"],"topic":["memory","rag","agent"]},{"id":13,"category":"repo","title":"MemGraphRAG：结合三层记忆与多Agent的图检索框架","url":"https://github.com/XMUDeepLIT/MemGraphRAG","summary":"MemGraphRAG把原始段落、抽取事实和抽象schema连接成三层记忆，并通过冲突检测提高知识图谱可靠性。检索阶段结合embedding相似度和Personalized PageRank，支持多Agent协作完成图增强问答。","source":"GitHub / KDD 2026","highlight":"它保留从抽象关系回溯到原始证据的路径，适合需要结构化推理和来源追踪的RAG场景。","stars":152,"tags":["graph-rag","knowledge-graph","multi-agent","pagerank"],"topic":["memory","rag","agent"]},{"id":14,"category":"tool","title":"mnemory：带事实抽取、去重和过期机制的自托管Agent记忆","url":"https://github.com/fpytloun/mnemory/","summary":"mnemory通过MCP为AI助手提供自托管长期记忆，使用LLM统一执行事实抽取、去重、分类和矛盾处理。其双层架构分别保存可快速搜索的摘要与详细制品，并支持多查询语义检索和时间感知。","source":"GitHub","highlight":"从写入质量、冲突管理到自然过期均覆盖记忆生命周期，比单纯向量存储更贴近个性化Agent需求。","stars":198,"tags":["self-hosted","memory-lifecycle","deduplication","mcp"],"topic":["memory","rag","agent"]},{"id":15,"category":"tutorial","title":"Agent记忆与RAG实践指南：从混合检索到跨会话状态","url":"https://www.whatgenerativeai.com/docs/genai-playbook/agents-memory-rag/","summary":"教程系统梳理工作、短期、长期和情景记忆，并介绍多跳检索、自查询、混合搜索及reranking等Agent-native RAG模式。它还给出向量库、知识图谱、KV状态和运行日志组合而成的企业级记忆栈。","source":"GenAI Playbook","highlight":"适合作为设计Agent记忆系统的入门蓝图，也明确指出chunking、数据新鲜度和低相关结果是主要工程风险。","stars":null,"tags":["agent-memory","hybrid-search","reranking","knowledge-graph"],"topic":["memory","rag","agent"]},{"id":16,"category":"news","title":"阿里发布Qwen3.8-Max：2.4万亿参数模型面向长程Agent任务","url":"https://www.alibabacloud.com/blog/qwen3-8-max-a-new-bar-for-coding-and-cowork_603421","summary":"阿里发布2.4万亿参数、激活参数950亿的Qwen3.8-Max，并计划下周开放权重。模型通过扩展真实环境强化学习、统一奖励系统和在线数据平衡器提升Agent能力，支持百万上下文、并行工具调用及OpenAI和Anthropic兼容接口。","source":"Alibaba Cloud","highlight":"官方展示了持续十余天自主编程、330个子Agent并行研究以及数千轮长期决策案例，但相关能力与基准仍以厂商报告为主。","stars":null,"tags":["qwen","mixture-of-experts","long-horizon","tool-use","reinforcement-learning"],"topic":["post-training","agent"]},{"id":17,"category":"paper","title":"LongHorizon-Harness：用独立状态和审计循环提升长程Agent可靠性","url":"https://huggingface.co/papers/2608.01964","summary":"LongHorizon-Harness将长程执行拆分为Manage-Execute-Audit循环：管理器维护外部任务状态，执行器使用新鲜上下文完成子任务，只读审计器再根据环境证据确认结果。该方法在WeaveBench上将Qwen3.7-Plus成功率从51.8%提升至80.7%。","source":"HuggingFace Papers","highlight":"把任务状态从不断膨胀的对话上下文中剥离，并要求独立验证后才能更新，是降低长程Agent错误累积的实用架构。","stars":91,"tags":["long-horizon-agent","state-management","independent-audit","context-isolation"],"topic":["memory","agent"]},{"id":18,"category":"paper","title":"DeepVoyager-VL：让视觉证据参与长程多轮检索","url":"https://huggingface.co/papers/2608.01827","summary":"DeepVoyager-VL构建多模态事件图合成长推理链训练数据，并让Agent在搜索过程中主动获取和按需载入图像。模型经监督微调后可在中间推理阶段利用视觉证据继续发起文本与图像检索，在十项多模态搜索基准上取得改进。","source":"HuggingFace Papers","highlight":"视觉不再只是初始输入或最终回答的附件，而成为决定下一步检索动作的循环内证据。","stars":6,"tags":["multimodal-rag","visual-search","data-synthesis","long-horizon"],"topic":["rag","post-training","agent"]},{"id":19,"category":"repo","title":"TencentDB Agent Memory 2.0：团队级记忆、技能、Wiki与CodeGraph统一开源","url":"https://github.com/TencentCloud/TencentDB-Agent-Memory/releases/tag/v2.0.0","summary":"2.0正式版把Chat Memory、Skill、Wiki和CodeGraph四类资产纳入统一Memory Hub，支持分级可见性、Agent定向装配和跨框架复用。新版增加技能强制归档、CodeGraph定时同步、双协议Memory Proxy及Python和TypeScript SDK。","source":"GitHub","highlight":"它把个人Agent记忆扩展为可治理、可共享和可版本化的团队资产，并覆盖从对话经验到代码影响分析的完整上下文。","stars":12803,"tags":["team-memory","code-graph","skills","memory-proxy"],"topic":["memory","rag","agent"]},{"id":20,"category":"repo","title":"Y Combinator开源QM：面向Slack与Web的多人Agent运行框架","url":"https://github.com/yc-software/qm","summary":"QM是YC内部用于会计、法务、活动和工程工作的多人Agent框架，为个人、房间及项目提供隔离的持久工作区、记忆、文件和权限。它可在同一核心上切换Claude Code、Codex、Pi和OpenCode，并支持定时任务、Webhook及公司知识连接器。","source":"GitHub / Y Combinator","highlight":"QM把Agent部署单位从个人助手扩展到组织协作空间，同时通过作用域隔离减少共享记忆和凭据造成的权限混乱。","stars":10721,"tags":["multi-agent","slack","durable-sandbox","organization-agent"],"topic":["memory","agent"]},{"id":21,"category":"tool","title":"Claude Code 2.1.221加强凭据隔离、权限检查与无人值守会话","url":"https://github.com/anthropics/claude-code/releases/tag/v2.1.221","summary":"Claude Code新增Linux及WSL沙箱凭据文件mask模式、VS Code Focus视图和prompt审计命令，并修复zsh隐藏命令及Windows特殊路径的权限检查问题。后台会话现在会保存并推送工作，仅在任务要求时创建草稿PR，同时标明交互式或无人值守状态。","source":"GitHub / Anthropic","highlight":"此次更新直接强化Agent的秘密管理、工具授权和后台任务交付边界，对无人值守编程场景尤其重要。","stars":140188,"tags":["coding-agent","sandbox","credential-masking","unattended-agent"],"topic":["agent"]},{"id":22,"category":"tool","title":"Snyk Evo上线持续Agent红队与自主渗透测试","url":"https://snyk.io/news/snyk-launches-evo-continuous-offensive-security/","summary":"Snyk发布Evo Continuous Offensive Security正式版，持续对应用执行AI驱动渗透测试，并模拟提示注入、工具滥用及数据外泄等Agent攻击。配套AI-SPM可盘点模型、Agent、MCP服务器和技能的可达资源，修复Agent则进入公开预览。","source":"Snyk","highlight":"Agent安全评估开始从发布前的一次性测试转向随应用和工具权限变化持续运行的对抗验证。","stars":null,"tags":["agent-security","red-teaming","mcp-security","autonomous-pentesting"],"topic":["agent"]}]}
+{
+  "items": [
+    {
+      "id": 1,
+      "category": "tool",
+      "title": "Cloudflare Computer：为大规模Agent统一隔离执行环境",
+      "url": "https://blog.cloudflare.com/cloudflare-computer/",
+      "summary": "Cloudflare发布@cloudflare/computer早期预览，为Agent提供由SQLite支持的持久文件系统，以及isolate、容器和浏览器等可切换执行后端。Agent可通过统一工具读写文件、操作Git和执行代码，系统则负责权限控制、审计及跨后端同步。",
+      "source": "Cloudflare",
+      "highlight": "它将Agent运行时从单一容器升级为按任务成本动态选择执行后端的“虚拟电脑”，有助于扩大并发规模。",
+      "stars": null,
+      "tags": [
+        "cloudflare",
+        "agent-runtime",
+        "sandbox",
+        "code-execution"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ]
+    },
+    {
+      "id": 2,
+      "category": "paper",
+      "title": "EvalAct：把检索质量自评变成Agent可执行动作",
+      "url": "https://huggingface.co/papers/2603.09203",
+      "summary": "EvalAct要求每次搜索后立即执行结构化评估，将Agent对证据质量的判断显式写入轨迹。其PCAR方法在GRPO基础上按步骤可靠性调整优势，在七个开放域问答基准上提升了多跳推理准确率。",
+      "source": "HuggingFace Papers",
+      "highlight": "无需人工过程奖励模型即可获得细粒度训练信号，有助于缓解长程搜索中的信用分配问题。",
+      "stars": null,
+      "tags": [
+        "process-reward",
+        "grpo",
+        "self-evaluation",
+        "multi-hop"
+      ],
+      "topic": [
+        "rag",
+        "post-training",
+        "agent"
+      ]
+    },
+    {
+      "id": 3,
+      "category": "paper",
+      "title": "Agentic-R：让检索器与搜索Agent双向迭代优化",
+      "url": "https://arxiv.org/abs/2601.11888",
+      "summary": "Agentic-R使用局部查询相关性和最终答案正确性共同衡量段落价值，并在搜索Agent与检索器之间交替训练。它在七个单跳及多跳问答基准上优于通用检索器，并减少约10%至15%的搜索轮次。",
+      "source": "arXiv",
+      "highlight": "研究指出传统embedding相似度不等于对最终答案有用，并给出了检索器适配Agent查询分布的方法。",
+      "stars": null,
+      "tags": [
+        "retriever-training",
+        "embedding",
+        "agentic-search",
+        "ppo"
+      ],
+      "topic": [
+        "rag",
+        "post-training",
+        "agent"
+      ]
+    },
+    {
+      "id": 4,
+      "category": "paper",
+      "title": "搜索Agent训练实证研究：语料覆盖比复杂奖励算法更重要",
+      "url": "https://huggingface.co/papers/2605.27881",
+      "summary": "研究在统一条件下比较检索语料、奖励设计和训练协议，发现修复Wikipedia语料覆盖问题带来的增益超过不同算法之间的差异。实验还显示简单结果奖励通常不逊于过程奖励，而不当的细粒度信用分配可能过度修正Agent行为。",
+      "source": "HuggingFace Papers",
+      "highlight": "它提醒开发者优先检查检索环境和数据覆盖，再投入成本设计更复杂的强化学习奖励。",
+      "stars": 2,
+      "tags": [
+        "search-agent",
+        "reward-design",
+        "data-quality",
+        "training-protocol"
+      ],
+      "topic": [
+        "rag",
+        "post-training",
+        "agent"
+      ]
+    },
+    {
+      "id": 5,
+      "category": "paper",
+      "title": "GRPO、Dr. GRPO与DAPO可归结为同一个标准差操作",
+      "url": "https://arxiv.org/abs/2607.00152",
+      "summary": "论文证明二元奖励下，单次GRPO更新等于组内奖励标准差乘以正确与错误轨迹的梯度差。GRPO、Dr. GRPO和DAPO分别对这一标准差执行归一化、移除归一化和丢弃零标准差组，并对应不同的难度权重。",
+      "source": "arXiv",
+      "highlight": "闭式公式可直接估算不同题目难度所需的采样组大小及无梯度组比例，对RLVR训练调参很实用。",
+      "stars": null,
+      "tags": [
+        "grpo",
+        "dapo",
+        "rlvr",
+        "reward-normalization"
+      ],
+      "topic": [
+        "post-training"
+      ]
+    },
+    {
+      "id": 6,
+      "category": "paper",
+      "title": "GRPO中的LoRA自适应秩分配可能损害泛化",
+      "url": "https://arxiv.org/html/2605.07366v1",
+      "summary": "该研究发现，按梯度重要性分配LoRA秩在GRPO中比统一分配低4.5个准确率点，即使参数预算和训练奖励相同。作者将其归因于GRPO较平坦的层间梯度分布，以及高秩层吸收更多梯度的正反馈效应。",
+      "source": "arXiv",
+      "highlight": "结果表明SFT阶段有效的LoRA秩分配经验不能直接迁移到强化学习后训练，但目前结论仍需在更多模型和任务上复现。",
+      "stars": null,
+      "tags": [
+        "lora",
+        "grpo",
+        "rank-allocation",
+        "fine-tuning"
+      ],
+      "topic": [
+        "post-training"
+      ]
+    },
+    {
+      "id": 7,
+      "category": "paper",
+      "title": "AgeMem：用强化学习统一管理Agent长短期记忆",
+      "url": "https://aclanthology.org/2026.acl-long.981/",
+      "summary": "AgeMem把存储、检索、更新、总结和丢弃记忆都定义为Agent可调用的工具动作，由同一策略协调长短期记忆。三阶段渐进式训练配合逐步GRPO，在五项长程基准上提高任务表现和上下文使用效率。",
+      "source": "ACL Anthology",
+      "highlight": "它不再依赖固定记忆规则或外部控制器，而是让Agent端到端学习何时以及如何操作记忆。",
+      "stars": null,
+      "tags": [
+        "agent-memory",
+        "long-term-memory",
+        "context-management",
+        "grpo"
+      ],
+      "topic": [
+        "memory",
+        "post-training",
+        "agent"
+      ]
+    },
+    {
+      "id": 8,
+      "category": "repo",
+      "title": "GenericAgent：从轻量内核持续生长技能树的自进化Agent",
+      "url": "https://github.com/lsdefine/genericagent",
+      "summary": "GenericAgent以约3300行核心代码和九种原子工具控制浏览器、终端、文件系统及移动设备。系统会把成功任务的执行路径固化成可复用技能，并通过分层会话记忆降低长期运行的上下文消耗。",
+      "source": "GitHub",
+      "highlight": "简洁实现同时覆盖工具使用、技能沉淀和跨会话记忆，适合研究Agent能力如何随任务积累增长。",
+      "stars": 13650,
+      "tags": [
+        "self-evolving-agent",
+        "skill-tree",
+        "browser-automation",
+        "token-efficiency"
+      ],
+      "topic": [
+        "memory",
+        "agent"
+      ]
+    },
+    {
+      "id": 9,
+      "category": "repo",
+      "title": "Atomic Agent：面向消费级硬件的本地优先AI Agent",
+      "url": "https://github.com/AtomicBot-ai/atomic-agent",
+      "summary": "Atomic Agent将Agent循环、状态和记忆保留在本机，可通过本地或云端模型执行浏览器、文件及经批准的命令操作。项目采用优化后的llama.cpp后端，并支持长上下文、跨会话记忆、任务调度和MCP工具。",
+      "source": "GitHub",
+      "highlight": "为希望在普通设备上兼顾隐私、工具调用和持续记忆的开发者提供了完整本地方案。",
+      "stars": 1180,
+      "tags": [
+        "local-first",
+        "llama-cpp",
+        "mcp",
+        "browser-automation"
+      ],
+      "topic": [
+        "memory",
+        "agent"
+      ]
+    },
+    {
+      "id": 10,
+      "category": "tool",
+      "title": "PMB：为编程Agent提供本地持久记忆的MCP服务",
+      "url": "https://github.com/oleksiijko/pmb",
+      "summary": "PMB将项目决策、经验、事实和文档保存在本地SQLite文件中，并通过MCP供Cursor、Claude Code和Codex等Agent访问。它还可利用协议级钩子在推理前注入相关记忆，并记录关键工具操作用于后续回忆。",
+      "source": "GitHub",
+      "highlight": "重点解决了记忆系统常见的“存了却不调用”问题，同时保持离线、可迁移和用户可控。",
+      "stars": 287,
+      "tags": [
+        "persistent-memory",
+        "sqlite",
+        "mcp",
+        "coding-agent"
+      ],
+      "topic": [
+        "memory",
+        "rag",
+        "agent"
+      ]
+    },
+    {
+      "id": 11,
+      "category": "repo",
+      "title": "MemGraphRAG：结合三层记忆与多Agent的图检索框架",
+      "url": "https://github.com/XMUDeepLIT/MemGraphRAG",
+      "summary": "MemGraphRAG把原始段落、抽取事实和抽象schema连接成三层记忆，并通过冲突检测提高知识图谱可靠性。检索阶段结合embedding相似度和Personalized PageRank，支持多Agent协作完成图增强问答。",
+      "source": "GitHub / KDD 2026",
+      "highlight": "它保留从抽象关系回溯到原始证据的路径，适合需要结构化推理和来源追踪的RAG场景。",
+      "stars": 152,
+      "tags": [
+        "graph-rag",
+        "knowledge-graph",
+        "multi-agent",
+        "pagerank"
+      ],
+      "topic": [
+        "memory",
+        "rag",
+        "agent"
+      ]
+    },
+    {
+      "id": 12,
+      "category": "tool",
+      "title": "mnemory：带事实抽取、去重和过期机制的自托管Agent记忆",
+      "url": "https://github.com/fpytloun/mnemory/",
+      "summary": "mnemory通过MCP为AI助手提供自托管长期记忆，使用LLM统一执行事实抽取、去重、分类和矛盾处理。其双层架构分别保存可快速搜索的摘要与详细制品，并支持多查询语义检索和时间感知。",
+      "source": "GitHub",
+      "highlight": "从写入质量、冲突管理到自然过期均覆盖记忆生命周期，比单纯向量存储更贴近个性化Agent需求。",
+      "stars": 198,
+      "tags": [
+        "self-hosted",
+        "memory-lifecycle",
+        "deduplication",
+        "mcp"
+      ],
+      "topic": [
+        "memory",
+        "rag",
+        "agent"
+      ]
+    },
+    {
+      "id": 13,
+      "category": "tutorial",
+      "title": "Agent记忆与RAG实践指南：从混合检索到跨会话状态",
+      "url": "https://www.whatgenerativeai.com/docs/genai-playbook/agents-memory-rag/",
+      "summary": "教程系统梳理工作、短期、长期和情景记忆，并介绍多跳检索、自查询、混合搜索及reranking等Agent-native RAG模式。它还给出向量库、知识图谱、KV状态和运行日志组合而成的企业级记忆栈。",
+      "source": "GenAI Playbook",
+      "highlight": "适合作为设计Agent记忆系统的入门蓝图，也明确指出chunking、数据新鲜度和低相关结果是主要工程风险。",
+      "stars": null,
+      "tags": [
+        "agent-memory",
+        "hybrid-search",
+        "reranking",
+        "knowledge-graph"
+      ],
+      "topic": [
+        "memory",
+        "rag",
+        "agent"
+      ]
+    },
+    {
+      "id": 14,
+      "category": "news",
+      "title": "阿里发布Qwen3.8-Max：2.4万亿参数模型面向长程Agent任务",
+      "url": "https://www.alibabacloud.com/blog/qwen3-8-max-a-new-bar-for-coding-and-cowork_603421",
+      "summary": "阿里发布2.4万亿参数、激活参数950亿的Qwen3.8-Max，并计划下周开放权重。模型通过扩展真实环境强化学习、统一奖励系统和在线数据平衡器提升Agent能力，支持百万上下文、并行工具调用及OpenAI和Anthropic兼容接口。",
+      "source": "Alibaba Cloud",
+      "highlight": "官方展示了持续十余天自主编程、330个子Agent并行研究以及数千轮长期决策案例，但相关能力与基准仍以厂商报告为主。",
+      "stars": null,
+      "tags": [
+        "qwen",
+        "mixture-of-experts",
+        "long-horizon",
+        "tool-use",
+        "reinforcement-learning"
+      ],
+      "topic": [
+        "post-training",
+        "agent"
+      ]
+    },
+    {
+      "id": 15,
+      "category": "paper",
+      "title": "LongHorizon-Harness：用独立状态和审计循环提升长程Agent可靠性",
+      "url": "https://huggingface.co/papers/2608.01964",
+      "summary": "LongHorizon-Harness将长程执行拆分为Manage-Execute-Audit循环：管理器维护外部任务状态，执行器使用新鲜上下文完成子任务，只读审计器再根据环境证据确认结果。该方法在WeaveBench上将Qwen3.7-Plus成功率从51.8%提升至80.7%。",
+      "source": "HuggingFace Papers",
+      "highlight": "把任务状态从不断膨胀的对话上下文中剥离，并要求独立验证后才能更新，是降低长程Agent错误累积的实用架构。",
+      "stars": 91,
+      "tags": [
+        "long-horizon-agent",
+        "state-management",
+        "independent-audit",
+        "context-isolation"
+      ],
+      "topic": [
+        "memory",
+        "agent"
+      ]
+    },
+    {
+      "id": 16,
+      "category": "repo",
+      "title": "TencentDB Agent Memory 2.0：团队级记忆、技能、Wiki与CodeGraph统一开源",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory/releases/tag/v2.0.0",
+      "summary": "2.0正式版把Chat Memory、Skill、Wiki和CodeGraph四类资产纳入统一Memory Hub，支持分级可见性、Agent定向装配和跨框架复用。新版增加技能强制归档、CodeGraph定时同步、双协议Memory Proxy及Python和TypeScript SDK。",
+      "source": "GitHub",
+      "highlight": "它把个人Agent记忆扩展为可治理、可共享和可版本化的团队资产，并覆盖从对话经验到代码影响分析的完整上下文。",
+      "stars": 12803,
+      "tags": [
+        "team-memory",
+        "code-graph",
+        "skills",
+        "memory-proxy"
+      ],
+      "topic": [
+        "memory",
+        "rag",
+        "agent"
+      ]
+    },
+    {
+      "id": 17,
+      "category": "repo",
+      "title": "Y Combinator开源QM：面向Slack与Web的多人Agent运行框架",
+      "url": "https://github.com/yc-software/qm",
+      "summary": "QM是YC内部用于会计、法务、活动和工程工作的多人Agent框架，为个人、房间及项目提供隔离的持久工作区、记忆、文件和权限。它可在同一核心上切换Claude Code、Codex、Pi和OpenCode，并支持定时任务、Webhook及公司知识连接器。",
+      "source": "GitHub / Y Combinator",
+      "highlight": "QM把Agent部署单位从个人助手扩展到组织协作空间，同时通过作用域隔离减少共享记忆和凭据造成的权限混乱。",
+      "stars": 10721,
+      "tags": [
+        "multi-agent",
+        "slack",
+        "durable-sandbox",
+        "organization-agent"
+      ],
+      "topic": [
+        "memory",
+        "agent"
+      ]
+    },
+    {
+      "id": 18,
+      "category": "tool",
+      "title": "Claude Code 2.1.221加强凭据隔离、权限检查与无人值守会话",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.221",
+      "summary": "Claude Code新增Linux及WSL沙箱凭据文件mask模式、VS Code Focus视图和prompt审计命令，并修复zsh隐藏命令及Windows特殊路径的权限检查问题。后台会话现在会保存并推送工作，仅在任务要求时创建草稿PR，同时标明交互式或无人值守状态。",
+      "source": "GitHub / Anthropic",
+      "highlight": "此次更新直接强化Agent的秘密管理、工具授权和后台任务交付边界，对无人值守编程场景尤其重要。",
+      "stars": 140188,
+      "tags": [
+        "coding-agent",
+        "sandbox",
+        "credential-masking",
+        "unattended-agent"
+      ],
+      "topic": [
+        "agent"
+      ]
+    }
+  ]
+}
