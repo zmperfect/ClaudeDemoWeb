@@ -1,1 +1,296 @@
-{"items":[{"id":1,"category":"paper","title":"Resume Means Resume：为Agent工作流恢复语义建立可验证契约","url":"https://huggingface.co/papers/2608.03836","summary":"该研究为检查点、中断和恢复定义六项可机器验证的持久化属性，并使用TLA+分析740万种状态。测试显示LangGraph、CrewAI等五个框架在崩溃恢复、重复副作用和并发恢复方面存在不同语义。","source":"Hugging Face Papers","highlight":"长程Agent不能仅以“支持恢复”作为可靠性证明，该契约提供了评测恰好一次执行和确定性恢复的具体标准。","stars":null,"tags":["workflow-persistence","checkpointing","exactly-once","formal-verification"],"topic":["memory","agent"]},{"id":2,"category":"paper","title":"Attn-GS：利用注意力信号压缩个性化上下文","url":"https://aclanthology.org/2026.acl-long.1663/","summary":"Attn-GS先让标记模型根据注意力反馈识别用户资料中的关键句，再引导压缩模型生成任务相关的用户上下文。实验在多个个性化任务和token预算下接近完整上下文效果，同时将token用量缩减50倍。","source":"ACL Anthology","highlight":"它把模型内部的注意力模式转化为可训练的上下文筛选信号，比单纯保留最近记录或整体摘要更适合长期个性化。","stars":null,"tags":["attn-gs","context-compression","personalization","attention"],"topic":["memory"]},{"id":3,"category":"paper","title":"Memora：用遗忘感知指标评测长期个性化记忆","url":"https://aclanthology.org/2026.findings-acl.1337/","summary":"Memora模拟持续数周至数月的用户对话，覆盖记忆、推理和推荐三类任务。其FAMA指标会惩罚继续使用已过期或被否定的信息，评测发现现有六种记忆Agent仍频繁复用无效记忆。","source":"ACL Anthology","highlight":"长期记忆的核心不只是召回历史，还要正确遗忘和更新；该基准能揭示传统召回准确率掩盖的记忆污染。","stars":null,"tags":["memora","long-term-memory","forgetting","personalization","benchmark"],"topic":["memory","agent"]},{"id":4,"category":"tool","title":"Rankify：统一检索、重排、生成与RAG评测的Python工具箱","url":"https://aclanthology.org/2026.acl-demo.21/","summary":"Rankify集成42个数据集、15种稀疏或稠密检索器、24个重排模型及6类RAG策略，并支持Hugging Face、vLLM、LiteLLM和OpenAI后端。超过200种配置的实验显示，重排可令问答Exact Match提高5至15点。","source":"ACL Anthology","highlight":"统一接口和预构建索引降低了横向比较检索器与重排器的成本，也适合快速验证RAG流水线的真实收益。","stars":null,"tags":["rankify","retrieval","reranking","rag-evaluation","python"],"topic":["rag","agent"]},{"id":5,"category":"paper","title":"三阶段多轮RAG：LoRA查询改写、混合检索与交叉编码器重排","url":"https://aclanthology.org/2026.semeval-1.225/","summary":"该系统先用LoRA微调的Qwen2.5-7B将上下文相关追问改写为独立查询，再通过BM25与稠密检索的RRF结果交给BGE重排器。它在MTRAGEval四个领域取得0.531 nDCG@5，比主办方基线高10.7%。","source":"ACL Anthology / SemEval 2026","highlight":"实验表明简洁的三阶段漏斗优于复杂的多查询扩展，并给出了候选规模和领域解码温度的实证依据。","stars":null,"tags":["query-rewriting","lora","hybrid-search","rrf","cross-encoder"],"topic":["post-training","rag"]},{"id":6,"category":"repo","title":"AgentMaker：内置记忆、混合RAG与运行诊断的Python Agent框架","url":"https://github.com/xinhuangcs/agentmaker","summary":"AgentMaker提供异步类型化的工具调用、多Agent协作、权限、检查点、长期记忆和历史压缩。其本地混合检索融合向量与关键词结果，Trace Detective还能定位一次运行中最早出现的错误步骤。","source":"GitHub","highlight":"它将Agent常用的检索、记忆、可观测性和人工审批能力放入同一套轻量接口，适合快速构建可调试原型。","stars":123,"tags":["agentmaker","python","multi-agent","hybrid-retrieval","observability"],"topic":["rag","memory","agent"]},{"id":7,"category":"repo","title":"KOPENG：可自主整理的本地编码Agent记忆层","url":"https://github.com/djy89/kopeng","summary":"KOPENG通过MCP和REST向编码Agent提供持久记忆，并以本地ONNX模型完成语义检索、关键词检索、RRF融合与可选重排。夜间整理流程会合并重复项、衰减陈旧内容并将冲突交给人工复核，所有变更均可审计和回滚。","source":"GitHub","highlight":"相比只增不减的记忆库，它重点处理重复、过时和矛盾信息，但项目刚起步，采用前应评估成熟度与许可证。","stars":0,"tags":["kopeng","coding-agent","local-memory","mcp","hybrid-search"],"topic":["rag","memory","agent"]},{"id":8,"category":"news","title":"Sierra Voice Personas将Agent行为与品牌表达分离","url":"https://sierra.ai/blog/introducing-voice-personas","summary":"Voice Personas允许同一客服Agent在保持政策和行动逻辑不变的情况下切换声音、个性及语言相关行为。配套SDK可调整语速、处理中断并在通话中切换语言，部署前还能通过模拟交互和A/B测试评估效果。","source":"Sierra","highlight":"将业务决策与表达层解耦，使企业无需为每个品牌或市场复制完整Agent，同时保留可评测的生产配置。","stars":null,"tags":["voice-agent","personas","customer-service","multilingual","evaluation"],"topic":["agent"]},{"id":9,"category":"paper","title":"Stop Means Stop：Agent框架的暂停与取消并不真正阻止副作用","url":"https://arxiv.org/abs/2607.14166v2","summary":"研究发现六个主流Agent框架的审批门、取消或超时控制均存在屏障语义缺口，例如审批暂停期间并行分支仍可能执行外部操作。作者提出经形式化检查的外部Rust效果门SoundGate，在完整中介条件下阻断重复执行、取消孤儿和超时僵尸。","source":"arXiv","highlight":"人工审批只有在副作用边界真正实施阻断时才有效；论文为支付、邮件和部署类Agent提供了可复现的风险证据。","stars":null,"tags":["soundgate","human-in-the-loop","side-effects","agent-safety","formal-methods"],"topic":["agent"]},{"id":10,"category":"repo","title":"SkillHone：用持久决策历史持续演化Agent技能","url":"https://github.com/Tencent/SkillHone","summary":"SkillHone不仅保存最终技能，还记录诊断、修订、评测证据和结果，并通过角色分离的子Agent持续优化整个技能包。仓库将流程封装为标准Agent Skills，可运行于Claude Code、Codex、OpenClaw和Hermes等环境。","source":"GitHub / Tencent","highlight":"保留被拒方案与评测依据能减少跨会话重复试错，也让技能自改进过程比直接覆写提示更容易审计。","stars":117,"tags":["skillhone","agent-skills","continual-learning","decision-history","multi-agent"],"topic":["memory","agent"]},{"id":11,"category":"paper","title":"Context-to-Execution Integrity：在工具边界阻止权限洗白","url":"https://huggingface.co/papers/2607.06000","summary":"CXI要求受保护字段、具体副作用授权和调用权限同时绑定到同一个规范化行动清单，才允许Agent执行工具。其在720个AgentDojo任务和400个代码Agent任务中未观察到字段、效果或调用权限逃逸。","source":"Hugging Face Papers","highlight":"它将网页、邮件、RAG片段和记忆视为证据而非授权，从执行层阻止不可信上下文把自身升级为高权限指令。","stars":null,"tags":["context-integrity","authorization","prompt-injection","tool-execution","agent-security"],"topic":["rag","memory","agent"]},{"id":12,"category":"paper","title":"GDPevo：在真实企业流程中评测Agent自我演化","url":"https://huggingface.co/papers/2608.03764","summary":"GDPevo将CRM、ERP、金融、医疗和法律工作流分解成原子业务规则，再将训练阶段出现的规则重新组合为留出任务。实验中持久经验令准确率最多提高16.44个百分点，但最佳Agent仍显著低于91.6%的完整信息上限。","source":"Hugging Face Papers","highlight":"规则重组能区分真正的经验迁移与任务记忆，并可快速生成新版数据以降低基准污染风险。","stars":null,"tags":["gdpevo","self-evolution","enterprise-agents","benchmark","experience-reuse"],"topic":["memory","agent"]},{"id":13,"category":"repo","title":"Tree-GRPO：用树搜索降低Agent强化学习的Rollout预算","url":"https://github.com/AMAP-ML/Tree-GRPO","summary":"Tree-GRPO在语义明确的搜索树上生成并复用分支轨迹，以更少rollout探索多步检索策略。其Qwen2.5和Llama3.2实验在NQ、HotpotQA、2Wiki等单跳及多跳问答任务上普遍超过链式GRPO。","source":"GitHub / ICLR 2026","highlight":"树形采样可共享公共前缀并扩展关键分支，为高成本的检索Agent强化学习提供更高效的探索机制。","stars":393,"tags":["tree-grpo","agentic-rl","tree-search","multi-hop-qa","retrieval-agent"],"topic":["post-training","rag","agent"]},{"id":14,"category":"repo","title":"ReGRPO：让多模态工具Agent从执行失败中学习恢复","url":"https://github.com/showlab/ReGRPO","summary":"ReGRPO通过反思增强的组相对策略优化，训练视觉语言Agent定位工具调用失败并生成纠正轨迹，而非只模仿成功样本。项目报告在GTA与GAIA上的答案准确率分别达到67.66%和23.35%，但训练数据仍待完整发布。","source":"GitHub / ECCV 2026","highlight":"将失败轨迹转成在线纠错监督，直接针对多步工具Agent最常见的错误恢复问题；当前仓库尚处早期发布阶段。","stars":1,"tags":["regrpo","reflection","tool-use","vision-language-agent","error-recovery"],"topic":["post-training","agent"]},{"id":15,"category":"tutorial","title":"GRPO与LoRA工程手册：使用veRL稳定训练Qwen2.5","url":"https://huggingface.co/blog/Weyaxi/engineering-handbook-grpo-lora-with-verl","summary":"该教程给出多GPU环境下使用veRL、vLLM、FSDP和LoRA训练Qwen2.5-3B的完整配置，涵盖KL损失、rollout并行、梯度检查点及显存分配。文章重点排查环境冲突和隐蔽配置问题，目标是将收敛时间从数天压缩到数小时。","source":"Hugging Face Blog","highlight":"相比只解释GRPO原理，它提供可直接对照的分布式训练参数和故障处理经验，适合搭建可复现的后训练流水线。","stars":null,"tags":["grpo","lora","verl","vllm","distributed-training"],"topic":["post-training"]}]}
+{
+  "items": [
+    {
+      "id": 1,
+      "category": "paper",
+      "title": "Resume Means Resume：为Agent工作流恢复语义建立可验证契约",
+      "url": "https://huggingface.co/papers/2608.03836",
+      "summary": "该研究为检查点、中断和恢复定义六项可机器验证的持久化属性，并使用TLA+分析740万种状态。测试显示LangGraph、CrewAI等五个框架在崩溃恢复、重复副作用和并发恢复方面存在不同语义。",
+      "source": "Hugging Face Papers",
+      "highlight": "长程Agent不能仅以“支持恢复”作为可靠性证明，该契约提供了评测恰好一次执行和确定性恢复的具体标准。",
+      "stars": null,
+      "tags": [
+        "workflow-persistence",
+        "checkpointing",
+        "exactly-once",
+        "formal-verification"
+      ],
+      "topic": [
+        "memory",
+        "agent"
+      ]
+    },
+    {
+      "id": 2,
+      "category": "paper",
+      "title": "Attn-GS：利用注意力信号压缩个性化上下文",
+      "url": "https://aclanthology.org/2026.acl-long.1663/",
+      "summary": "Attn-GS先让标记模型根据注意力反馈识别用户资料中的关键句，再引导压缩模型生成任务相关的用户上下文。实验在多个个性化任务和token预算下接近完整上下文效果，同时将token用量缩减50倍。",
+      "source": "ACL Anthology",
+      "highlight": "它把模型内部的注意力模式转化为可训练的上下文筛选信号，比单纯保留最近记录或整体摘要更适合长期个性化。",
+      "stars": null,
+      "tags": [
+        "attn-gs",
+        "context-compression",
+        "personalization",
+        "attention"
+      ],
+      "topic": [
+        "memory"
+      ]
+    },
+    {
+      "id": 3,
+      "category": "paper",
+      "title": "Memora：用遗忘感知指标评测长期个性化记忆",
+      "url": "https://aclanthology.org/2026.findings-acl.1337/",
+      "summary": "Memora模拟持续数周至数月的用户对话，覆盖记忆、推理和推荐三类任务。其FAMA指标会惩罚继续使用已过期或被否定的信息，评测发现现有六种记忆Agent仍频繁复用无效记忆。",
+      "source": "ACL Anthology",
+      "highlight": "长期记忆的核心不只是召回历史，还要正确遗忘和更新；该基准能揭示传统召回准确率掩盖的记忆污染。",
+      "stars": null,
+      "tags": [
+        "memora",
+        "long-term-memory",
+        "forgetting",
+        "personalization",
+        "benchmark"
+      ],
+      "topic": [
+        "memory",
+        "agent"
+      ]
+    },
+    {
+      "id": 4,
+      "category": "paper",
+      "title": "三阶段多轮RAG：LoRA查询改写、混合检索与交叉编码器重排",
+      "url": "https://aclanthology.org/2026.semeval-1.225/",
+      "summary": "该系统先用LoRA微调的Qwen2.5-7B将上下文相关追问改写为独立查询，再通过BM25与稠密检索的RRF结果交给BGE重排器。它在MTRAGEval四个领域取得0.531 nDCG@5，比主办方基线高10.7%。",
+      "source": "ACL Anthology / SemEval 2026",
+      "highlight": "实验表明简洁的三阶段漏斗优于复杂的多查询扩展，并给出了候选规模和领域解码温度的实证依据。",
+      "stars": null,
+      "tags": [
+        "query-rewriting",
+        "lora",
+        "hybrid-search",
+        "rrf",
+        "cross-encoder"
+      ],
+      "topic": [
+        "post-training",
+        "rag"
+      ]
+    },
+    {
+      "id": 5,
+      "category": "repo",
+      "title": "AgentMaker：内置记忆、混合RAG与运行诊断的Python Agent框架",
+      "url": "https://github.com/xinhuangcs/agentmaker",
+      "summary": "AgentMaker提供异步类型化的工具调用、多Agent协作、权限、检查点、长期记忆和历史压缩。其本地混合检索融合向量与关键词结果，Trace Detective还能定位一次运行中最早出现的错误步骤。",
+      "source": "GitHub",
+      "highlight": "它将Agent常用的检索、记忆、可观测性和人工审批能力放入同一套轻量接口，适合快速构建可调试原型。",
+      "stars": 123,
+      "tags": [
+        "agentmaker",
+        "python",
+        "multi-agent",
+        "hybrid-retrieval",
+        "observability"
+      ],
+      "topic": [
+        "rag",
+        "memory",
+        "agent"
+      ]
+    },
+    {
+      "id": 6,
+      "category": "repo",
+      "title": "KOPENG：可自主整理的本地编码Agent记忆层",
+      "url": "https://github.com/djy89/kopeng",
+      "summary": "KOPENG通过MCP和REST向编码Agent提供持久记忆，并以本地ONNX模型完成语义检索、关键词检索、RRF融合与可选重排。夜间整理流程会合并重复项、衰减陈旧内容并将冲突交给人工复核，所有变更均可审计和回滚。",
+      "source": "GitHub",
+      "highlight": "相比只增不减的记忆库，它重点处理重复、过时和矛盾信息，但项目刚起步，采用前应评估成熟度与许可证。",
+      "stars": 0,
+      "tags": [
+        "kopeng",
+        "coding-agent",
+        "local-memory",
+        "mcp",
+        "hybrid-search"
+      ],
+      "topic": [
+        "rag",
+        "memory",
+        "agent"
+      ]
+    },
+    {
+      "id": 7,
+      "category": "news",
+      "title": "Sierra Voice Personas将Agent行为与品牌表达分离",
+      "url": "https://sierra.ai/blog/introducing-voice-personas",
+      "summary": "Voice Personas允许同一客服Agent在保持政策和行动逻辑不变的情况下切换声音、个性及语言相关行为。配套SDK可调整语速、处理中断并在通话中切换语言，部署前还能通过模拟交互和A/B测试评估效果。",
+      "source": "Sierra",
+      "highlight": "将业务决策与表达层解耦，使企业无需为每个品牌或市场复制完整Agent，同时保留可评测的生产配置。",
+      "stars": null,
+      "tags": [
+        "voice-agent",
+        "personas",
+        "customer-service",
+        "multilingual",
+        "evaluation"
+      ],
+      "topic": [
+        "agent"
+      ]
+    },
+    {
+      "id": 8,
+      "category": "paper",
+      "title": "Stop Means Stop：Agent框架的暂停与取消并不真正阻止副作用",
+      "url": "https://arxiv.org/abs/2607.14166v2",
+      "summary": "研究发现六个主流Agent框架的审批门、取消或超时控制均存在屏障语义缺口，例如审批暂停期间并行分支仍可能执行外部操作。作者提出经形式化检查的外部Rust效果门SoundGate，在完整中介条件下阻断重复执行、取消孤儿和超时僵尸。",
+      "source": "arXiv",
+      "highlight": "人工审批只有在副作用边界真正实施阻断时才有效；论文为支付、邮件和部署类Agent提供了可复现的风险证据。",
+      "stars": null,
+      "tags": [
+        "soundgate",
+        "human-in-the-loop",
+        "side-effects",
+        "agent-safety",
+        "formal-methods"
+      ],
+      "topic": [
+        "agent"
+      ]
+    },
+    {
+      "id": 9,
+      "category": "repo",
+      "title": "SkillHone：用持久决策历史持续演化Agent技能",
+      "url": "https://github.com/Tencent/SkillHone",
+      "summary": "SkillHone不仅保存最终技能，还记录诊断、修订、评测证据和结果，并通过角色分离的子Agent持续优化整个技能包。仓库将流程封装为标准Agent Skills，可运行于Claude Code、Codex、OpenClaw和Hermes等环境。",
+      "source": "GitHub / Tencent",
+      "highlight": "保留被拒方案与评测依据能减少跨会话重复试错，也让技能自改进过程比直接覆写提示更容易审计。",
+      "stars": 117,
+      "tags": [
+        "skillhone",
+        "agent-skills",
+        "continual-learning",
+        "decision-history",
+        "multi-agent"
+      ],
+      "topic": [
+        "memory",
+        "agent"
+      ]
+    },
+    {
+      "id": 10,
+      "category": "paper",
+      "title": "Context-to-Execution Integrity：在工具边界阻止权限洗白",
+      "url": "https://huggingface.co/papers/2607.06000",
+      "summary": "CXI要求受保护字段、具体副作用授权和调用权限同时绑定到同一个规范化行动清单，才允许Agent执行工具。其在720个AgentDojo任务和400个代码Agent任务中未观察到字段、效果或调用权限逃逸。",
+      "source": "Hugging Face Papers",
+      "highlight": "它将网页、邮件、RAG片段和记忆视为证据而非授权，从执行层阻止不可信上下文把自身升级为高权限指令。",
+      "stars": null,
+      "tags": [
+        "context-integrity",
+        "authorization",
+        "prompt-injection",
+        "tool-execution",
+        "agent-security"
+      ],
+      "topic": [
+        "rag",
+        "memory",
+        "agent"
+      ]
+    },
+    {
+      "id": 11,
+      "category": "paper",
+      "title": "GDPevo：在真实企业流程中评测Agent自我演化",
+      "url": "https://huggingface.co/papers/2608.03764",
+      "summary": "GDPevo将CRM、ERP、金融、医疗和法律工作流分解成原子业务规则，再将训练阶段出现的规则重新组合为留出任务。实验中持久经验令准确率最多提高16.44个百分点，但最佳Agent仍显著低于91.6%的完整信息上限。",
+      "source": "Hugging Face Papers",
+      "highlight": "规则重组能区分真正的经验迁移与任务记忆，并可快速生成新版数据以降低基准污染风险。",
+      "stars": null,
+      "tags": [
+        "gdpevo",
+        "self-evolution",
+        "enterprise-agents",
+        "benchmark",
+        "experience-reuse"
+      ],
+      "topic": [
+        "memory",
+        "agent"
+      ]
+    },
+    {
+      "id": 12,
+      "category": "repo",
+      "title": "Tree-GRPO：用树搜索降低Agent强化学习的Rollout预算",
+      "url": "https://github.com/AMAP-ML/Tree-GRPO",
+      "summary": "Tree-GRPO在语义明确的搜索树上生成并复用分支轨迹，以更少rollout探索多步检索策略。其Qwen2.5和Llama3.2实验在NQ、HotpotQA、2Wiki等单跳及多跳问答任务上普遍超过链式GRPO。",
+      "source": "GitHub / ICLR 2026",
+      "highlight": "树形采样可共享公共前缀并扩展关键分支，为高成本的检索Agent强化学习提供更高效的探索机制。",
+      "stars": 393,
+      "tags": [
+        "tree-grpo",
+        "agentic-rl",
+        "tree-search",
+        "multi-hop-qa",
+        "retrieval-agent"
+      ],
+      "topic": [
+        "post-training",
+        "rag",
+        "agent"
+      ]
+    },
+    {
+      "id": 13,
+      "category": "repo",
+      "title": "ReGRPO：让多模态工具Agent从执行失败中学习恢复",
+      "url": "https://github.com/showlab/ReGRPO",
+      "summary": "ReGRPO通过反思增强的组相对策略优化，训练视觉语言Agent定位工具调用失败并生成纠正轨迹，而非只模仿成功样本。项目报告在GTA与GAIA上的答案准确率分别达到67.66%和23.35%，但训练数据仍待完整发布。",
+      "source": "GitHub / ECCV 2026",
+      "highlight": "将失败轨迹转成在线纠错监督，直接针对多步工具Agent最常见的错误恢复问题；当前仓库尚处早期发布阶段。",
+      "stars": 1,
+      "tags": [
+        "regrpo",
+        "reflection",
+        "tool-use",
+        "vision-language-agent",
+        "error-recovery"
+      ],
+      "topic": [
+        "post-training",
+        "agent"
+      ]
+    },
+    {
+      "id": 14,
+      "category": "tutorial",
+      "title": "GRPO与LoRA工程手册：使用veRL稳定训练Qwen2.5",
+      "url": "https://huggingface.co/blog/Weyaxi/engineering-handbook-grpo-lora-with-verl",
+      "summary": "该教程给出多GPU环境下使用veRL、vLLM、FSDP和LoRA训练Qwen2.5-3B的完整配置，涵盖KL损失、rollout并行、梯度检查点及显存分配。文章重点排查环境冲突和隐蔽配置问题，目标是将收敛时间从数天压缩到数小时。",
+      "source": "Hugging Face Blog",
+      "highlight": "相比只解释GRPO原理，它提供可直接对照的分布式训练参数和故障处理经验，适合搭建可复现的后训练流水线。",
+      "stars": null,
+      "tags": [
+        "grpo",
+        "lora",
+        "verl",
+        "vllm",
+        "distributed-training"
+      ],
+      "topic": [
+        "post-training"
+      ]
+    }
+  ]
+}
