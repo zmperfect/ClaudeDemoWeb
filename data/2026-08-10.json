@@ -147,26 +147,6 @@
     },
     {
       "id": 8,
-      "category": "paper",
-      "title": "Stop Means Stop：Agent框架的暂停与取消并不真正阻止副作用",
-      "url": "https://arxiv.org/abs/2607.14166v2",
-      "summary": "研究发现六个主流Agent框架的审批门、取消或超时控制均存在屏障语义缺口，例如审批暂停期间并行分支仍可能执行外部操作。作者提出经形式化检查的外部Rust效果门SoundGate，在完整中介条件下阻断重复执行、取消孤儿和超时僵尸。",
-      "source": "arXiv",
-      "highlight": "人工审批只有在副作用边界真正实施阻断时才有效；论文为支付、邮件和部署类Agent提供了可复现的风险证据。",
-      "stars": null,
-      "tags": [
-        "soundgate",
-        "human-in-the-loop",
-        "side-effects",
-        "agent-safety",
-        "formal-methods"
-      ],
-      "topic": [
-        "agent"
-      ]
-    },
-    {
-      "id": 9,
       "category": "repo",
       "title": "SkillHone：用持久决策历史持续演化Agent技能",
       "url": "https://github.com/Tencent/SkillHone",
@@ -187,7 +167,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 9,
       "category": "paper",
       "title": "Context-to-Execution Integrity：在工具边界阻止权限洗白",
       "url": "https://huggingface.co/papers/2607.06000",
@@ -209,7 +189,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "category": "paper",
       "title": "GDPevo：在真实企业流程中评测Agent自我演化",
       "url": "https://huggingface.co/papers/2608.03764",
@@ -230,7 +210,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "category": "repo",
       "title": "Tree-GRPO：用树搜索降低Agent强化学习的Rollout预算",
       "url": "https://github.com/AMAP-ML/Tree-GRPO",
@@ -252,7 +232,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "category": "repo",
       "title": "ReGRPO：让多模态工具Agent从执行失败中学习恢复",
       "url": "https://github.com/showlab/ReGRPO",
@@ -273,7 +253,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 13,
       "category": "tutorial",
       "title": "GRPO与LoRA工程手册：使用veRL稳定训练Qwen2.5",
       "url": "https://huggingface.co/blog/Weyaxi/engineering-handbook-grpo-lora-with-verl",
