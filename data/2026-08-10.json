@@ -233,27 +233,6 @@
     },
     {
       "id": 12,
-      "category": "repo",
-      "title": "ReGRPO：让多模态工具Agent从执行失败中学习恢复",
-      "url": "https://github.com/showlab/ReGRPO",
-      "summary": "ReGRPO通过反思增强的组相对策略优化，训练视觉语言Agent定位工具调用失败并生成纠正轨迹，而非只模仿成功样本。项目报告在GTA与GAIA上的答案准确率分别达到67.66%和23.35%，但训练数据仍待完整发布。",
-      "source": "GitHub / ECCV 2026",
-      "highlight": "将失败轨迹转成在线纠错监督，直接针对多步工具Agent最常见的错误恢复问题；当前仓库尚处早期发布阶段。",
-      "stars": 1,
-      "tags": [
-        "regrpo",
-        "reflection",
-        "tool-use",
-        "vision-language-agent",
-        "error-recovery"
-      ],
-      "topic": [
-        "post-training",
-        "agent"
-      ]
-    },
-    {
-      "id": 13,
       "category": "tutorial",
       "title": "GRPO与LoRA工程手册：使用veRL稳定训练Qwen2.5",
       "url": "https://huggingface.co/blog/Weyaxi/engineering-handbook-grpo-lora-with-verl",
