@@ -1,1 +1,298 @@
-{"items":[{"id":1,"category":"news","title":"Meta发布Muse Glimmer：可在消费级硬件运行的30B Agent模型","url":"https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model","summary":"Meta以Apache 2.0许可证发布Muse Glimmer，面向本地Agent、函数调用、编码和多模态任务。其4位量化版本小于20GB，并通过DFlash推测解码提升生成速度。","source":"Meta AI Research","highlight":"模型兼顾长程规划、可靠工具调用和失败恢复，为24GB显存设备部署常驻本地Agent提供了新选择。","stars":null,"tags":["muse-glimmer","local-llm","function-calling","multimodal","open-weights"],"topic":["post-training","memory","agent"]},{"id":2,"category":"repo","title":"Semantica：面向可解释Agent的图原生上下文与责任层","url":"https://github.com/semantica-agi/semantica","summary":"Semantica通过上下文图、知识图谱、因果关系和W3C PROV-O来源记录保存Agent的知识与决策过程。其确定性推理、冲突检测和审计能力可与现有LLM、向量库及Agent框架组合。","source":"GitHub Trending","highlight":"它将Agent记忆从不可解释的向量匹配扩展为可追踪的结构化决策历史，适合有治理和审计要求的生产系统。","stars":4130,"tags":["semantica","knowledge-graph","provenance","graph-rag","governance"],"topic":["rag","memory","agent"]},{"id":3,"category":"repo","title":"Paperclip：为多Agent团队提供组织、预算和治理的控制平面","url":"https://github.com/paperclipai/paperclip","summary":"Paperclip是一个自托管的Node.js与React平台，可将Claude、Cursor、Codex和其他Agent组织成带汇报关系的团队。系统集中管理目标、任务、权限、心跳、预算和成本，并记录变更行为的执行主体。","source":"GitHub Trending","highlight":"相比单个Agent框架，它解决的是多Agent持续运营中的任务归属、成本约束和责任追踪问题。","stars":76516,"tags":["paperclip","multi-agent","orchestration","governance","self-hosted"],"topic":["agent"]},{"id":4,"category":"repo","title":"Agency Agents：覆盖工程、设计和运营角色的Agent技能集合","url":"https://github.com/msitarzewski/agency-agents","summary":"Agency Agents提供大量角色化Agent定义，覆盖前端开发、产品设计、市场运营、社区管理和质量检查等工作。每个角色包含明确的流程、交付标准和专业边界，可用于组装面向业务流程的Agent团队。","source":"GitHub Trending","highlight":"仓库适合作为角色提示和工作流设计参考，但生产使用前仍应根据实际权限、工具和验收标准进行裁剪。","stars":141852,"tags":["agency-agents","agent-prompts","multi-agent","workflows","roles"],"topic":["agent"]},{"id":5,"category":"repo","title":"Agent Skills：面向编码Agent的生产级工程技能库","url":"https://github.com/addyosmani/agent-skills","summary":"该仓库将常见的软件工程任务整理为可复用技能，为编码Agent提供结构化步骤、约束和验收方式。内容覆盖代码实现、调试、测试、审查和交付等场景，可作为技能化Agent脚手架。","source":"GitHub Trending","highlight":"把工程经验封装为独立技能有助于减少提示重复，并能让不同编码Agent共享相同的执行规范。","stars":85756,"tags":["agent-skills","coding-agent","software-engineering","prompts","automation"],"topic":["memory","agent"]},{"id":6,"category":"repo","title":"Prime Agent：可持续修改技能与记忆的自改进编码Agent","url":"https://github.com/PrimeIntellect-ai/prime-agent","summary":"Prime Agent面向长时间自主任务和编码工作流，可利用持久环境、子Agent以及可编辑的提示、技能和记忆进行迭代。它会从历史轨迹中识别重复失败并生成新的脚手架改进后续执行。","source":"GitHub Trending / Prime Intellect","highlight":"该项目展示了运行时自改进Agent的完整形态，但自动修改持久技能也要求更严格的评测、版本控制和安全审计。","stars":13100,"tags":["prime-agent","self-improvement","coding-agent","persistent-memory","rlm"],"topic":["memory","agent"]},{"id":7,"category":"paper","title":"AgentOPSD：用递归自蒸馏改善多轮Agent强化学习的信用分配","url":"https://huggingface.co/papers/2608.05987","summary":"AgentOPSD将教师与学生的token概率差聚合为轮级证据，并在对数几率空间递归更新贝叶斯信念。该方法无需额外critic或rollout，即可将稀疏结果奖励转化为关键轮次的训练权重。","source":"Hugging Face Daily Papers","highlight":"它在Qwen2.5-7B上将ALFWorld成功率提升至89.1%，为长轨迹Agent后训练提供了低额外成本的信用分配机制。","stars":null,"tags":["agentopsd","self-distillation","reinforcement-learning","credit-assignment","multi-turn"],"topic":["post-training","agent"]},{"id":8,"category":"paper","title":"OneDayAgent：面向全天候开放任务的长程Agent Harness","url":"https://arxiv.org/abs/2608.05013v1","summary":"OneDayAgent把开放式请求拆分为边界明确的子任务，在上下文压力下维护执行记忆，并对最终交付物进行验证和修复。其同一套Harness可运行于三个模型家族的五种后端，在AgentIF-OneDay上取得0.821分。","source":"arXiv / Hugging Face Daily Papers","highlight":"研究表明任务分解、执行记忆和交付验证可以作为独立于底层模型的系统能力复用。","stars":null,"tags":["onedayagent","long-horizon","agent-harness","context-management","verification"],"topic":["memory","agent"]},{"id":9,"category":"paper","title":"LongHorizon-Harness：以外部状态和独立审计稳定长程Agent","url":"https://huggingface.co/papers/2608.01964","summary":"该框架使用Manage-Execute-Audit循环，将任务状态保存在执行上下文之外，并只接纳经过环境独立验证的事实。执行器每轮使用新上下文，审计器则以只读方式确认环境变化后再更新状态。","source":"Hugging Face Daily Papers","highlight":"外置状态与独立审计显著降低了上下文膨胀和错误自评传播，在WeaveBench上将Qwen 3.7 Plus从51.8%提升至80.7%。","stars":null,"tags":["longhorizon-harness","state-management","auditing","computer-use","tool-use"],"topic":["memory","agent"]},{"id":10,"category":"paper","title":"ReASearch：让工具Agent自主优化提示、程序与机器学习流程","url":"https://huggingface.co/papers/2608.06714","summary":"ReASearch取消手工设计的外层搜索控制器，让单个工具Agent自主选择评测对象、诊断失败、修改候选方案并决定何时验证或重启。相同Agent循环可用于提示、代码和机器学习工作流优化，并通过持久记忆维持长程搜索。","source":"Hugging Face Daily Papers","highlight":"在14项任务上，它相对专用优化器取得2%至40%的提升，说明复杂搜索策略可以由Agent推理和工具使用自然形成。","stars":null,"tags":["reasearch","agentic-optimization","tool-use","program-search","persistent-memory"],"topic":["memory","agent"]},{"id":11,"category":"paper","title":"CoEvo-Mem：协同演化检索策略与Agent记忆库","url":"https://arxiv.org/abs/2608.01739","summary":"CoEvo-Mem使用冻结LLM生成稠密与稀疏查询改写，再由轻量残差路由器根据任务奖励调整检索权重。系统交替更新检索路由和带语义、词法、时间关系的记忆图，以减轻两个动态组件同时学习造成的不稳定。","source":"arXiv","highlight":"它在七类基准上相对最强基线最多提升7.5个百分点，证明长期Agent应联合优化记忆内容及其访问策略。","stars":null,"tags":["coevo-mem","hybrid-retrieval","memory-evolution","query-rewriting","rrf"],"topic":["rag","memory","agent"]},{"id":12,"category":"paper","title":"MemArbiter：在决策时动态仲裁Agent工作记忆","url":"https://arxiv.org/abs/2608.02113","summary":"MemArbiter将交互历史拆分为目标、任务状态、约束、情节和参考五类记忆，并为每项信息维护详细与压缩两种表示。时间呈现门会根据当前需求和相关性动态提升、降级或隐藏记忆。","source":"arXiv","highlight":"在统一750-token预算下，它将ALFWorld成功率提升至92.5%，说明检索到信息之后的组织方式和提示显著性同样关键。","stars":null,"tags":["memarbiter","working-memory","context-compression","memory-arbitration","alfworld"],"topic":["memory","agent"]},{"id":13,"category":"paper","title":"SkillJack：自演化Agent中的持久技能后门攻击","url":"https://huggingface.co/papers/2608.03509","summary":"SkillJack利用Agent从历史经验提炼可复用技能的过程，将恶意行为转化为持久技能，而非只污染一次运行的上下文。由于技能抽取会重新表述原始内容，即使删除污染记录，后门仍可能继续存在且更难检测。","source":"Hugging Face Daily Papers","highlight":"该研究揭示了自改进Agent的新供应链风险，防御范围需要从提示和记忆扩展到技能生成、评审、版本和调用全生命周期。","stars":null,"tags":["skilljack","agent-security","skill-backdoor","self-evolving-agent","persistence"],"topic":["memory","agent"]},{"id":14,"category":"paper","title":"DataSpace：跨异构工作区的可验证数据Agent基准","url":"https://huggingface.co/papers/2608.03451","summary":"DataSpace包含410个跨语言任务和7439个工件，覆盖CSV、JSON、SQLite、Markdown、PDF及视频。数据Agent仅接收问题和本地工作区，需发现跨模态证据并返回可由确定性评测器核验的完整表格。","source":"Hugging Face Daily Papers / KDD Cup 2026","highlight":"它把检索、工具使用、结构化分析和最终结果验证放入同一基准，更接近企业数据Agent面对的真实工作区。","stars":null,"tags":["dataspace","data-agent","benchmark","heterogeneous-data","verifiable-analytics"],"topic":["rag","agent"]},{"id":15,"category":"tutorial","title":"使用合成数据微调ModernBERT检索器与重排器","url":"https://huggingface.co/blog/sdiazlor/fine-tune-modernbert-for-rag-with-synthetic-data","summary":"教程从领域文档生成检索训练样本，使用三元组微调ModernBERT双编码器，并以带分数的文本对训练交叉编码器重排模型。最后通过Haystack组合检索、重排和生成组件，构建完整领域RAG流水线。","source":"Hugging Face Blog","highlight":"它覆盖数据清洗、合成样本、检索与重排训练及系统集成，适合真实标注稀缺时进行领域RAG适配。","stars":null,"tags":["modernbert","synthetic-data","embedding","reranker","sentence-transformers"],"topic":["post-training","rag"]}]}
+{
+  "items": [
+    {
+      "id": 1,
+      "category": "repo",
+      "title": "Semantica：面向可解释Agent的图原生上下文与责任层",
+      "url": "https://github.com/semantica-agi/semantica",
+      "summary": "Semantica通过上下文图、知识图谱、因果关系和W3C PROV-O来源记录保存Agent的知识与决策过程。其确定性推理、冲突检测和审计能力可与现有LLM、向量库及Agent框架组合。",
+      "source": "GitHub Trending",
+      "highlight": "它将Agent记忆从不可解释的向量匹配扩展为可追踪的结构化决策历史，适合有治理和审计要求的生产系统。",
+      "stars": 4130,
+      "tags": [
+        "semantica",
+        "knowledge-graph",
+        "provenance",
+        "graph-rag",
+        "governance"
+      ],
+      "topic": [
+        "rag",
+        "memory",
+        "agent"
+      ]
+    },
+    {
+      "id": 2,
+      "category": "repo",
+      "title": "Paperclip：为多Agent团队提供组织、预算和治理的控制平面",
+      "url": "https://github.com/paperclipai/paperclip",
+      "summary": "Paperclip是一个自托管的Node.js与React平台，可将Claude、Cursor、Codex和其他Agent组织成带汇报关系的团队。系统集中管理目标、任务、权限、心跳、预算和成本，并记录变更行为的执行主体。",
+      "source": "GitHub Trending",
+      "highlight": "相比单个Agent框架，它解决的是多Agent持续运营中的任务归属、成本约束和责任追踪问题。",
+      "stars": 76516,
+      "tags": [
+        "paperclip",
+        "multi-agent",
+        "orchestration",
+        "governance",
+        "self-hosted"
+      ],
+      "topic": [
+        "agent"
+      ]
+    },
+    {
+      "id": 3,
+      "category": "repo",
+      "title": "Agency Agents：覆盖工程、设计和运营角色的Agent技能集合",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "summary": "Agency Agents提供大量角色化Agent定义，覆盖前端开发、产品设计、市场运营、社区管理和质量检查等工作。每个角色包含明确的流程、交付标准和专业边界，可用于组装面向业务流程的Agent团队。",
+      "source": "GitHub Trending",
+      "highlight": "仓库适合作为角色提示和工作流设计参考，但生产使用前仍应根据实际权限、工具和验收标准进行裁剪。",
+      "stars": 141852,
+      "tags": [
+        "agency-agents",
+        "agent-prompts",
+        "multi-agent",
+        "workflows",
+        "roles"
+      ],
+      "topic": [
+        "agent"
+      ]
+    },
+    {
+      "id": 4,
+      "category": "repo",
+      "title": "Agent Skills：面向编码Agent的生产级工程技能库",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "summary": "该仓库将常见的软件工程任务整理为可复用技能，为编码Agent提供结构化步骤、约束和验收方式。内容覆盖代码实现、调试、测试、审查和交付等场景，可作为技能化Agent脚手架。",
+      "source": "GitHub Trending",
+      "highlight": "把工程经验封装为独立技能有助于减少提示重复，并能让不同编码Agent共享相同的执行规范。",
+      "stars": 85756,
+      "tags": [
+        "agent-skills",
+        "coding-agent",
+        "software-engineering",
+        "prompts",
+        "automation"
+      ],
+      "topic": [
+        "memory",
+        "agent"
+      ]
+    },
+    {
+      "id": 5,
+      "category": "repo",
+      "title": "Prime Agent：可持续修改技能与记忆的自改进编码Agent",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "summary": "Prime Agent面向长时间自主任务和编码工作流，可利用持久环境、子Agent以及可编辑的提示、技能和记忆进行迭代。它会从历史轨迹中识别重复失败并生成新的脚手架改进后续执行。",
+      "source": "GitHub Trending / Prime Intellect",
+      "highlight": "该项目展示了运行时自改进Agent的完整形态，但自动修改持久技能也要求更严格的评测、版本控制和安全审计。",
+      "stars": 13100,
+      "tags": [
+        "prime-agent",
+        "self-improvement",
+        "coding-agent",
+        "persistent-memory",
+        "rlm"
+      ],
+      "topic": [
+        "memory",
+        "agent"
+      ]
+    },
+    {
+      "id": 6,
+      "category": "paper",
+      "title": "AgentOPSD：用递归自蒸馏改善多轮Agent强化学习的信用分配",
+      "url": "https://huggingface.co/papers/2608.05987",
+      "summary": "AgentOPSD将教师与学生的token概率差聚合为轮级证据，并在对数几率空间递归更新贝叶斯信念。该方法无需额外critic或rollout，即可将稀疏结果奖励转化为关键轮次的训练权重。",
+      "source": "Hugging Face Daily Papers",
+      "highlight": "它在Qwen2.5-7B上将ALFWorld成功率提升至89.1%，为长轨迹Agent后训练提供了低额外成本的信用分配机制。",
+      "stars": null,
+      "tags": [
+        "agentopsd",
+        "self-distillation",
+        "reinforcement-learning",
+        "credit-assignment",
+        "multi-turn"
+      ],
+      "topic": [
+        "post-training",
+        "agent"
+      ]
+    },
+    {
+      "id": 7,
+      "category": "paper",
+      "title": "OneDayAgent：面向全天候开放任务的长程Agent Harness",
+      "url": "https://arxiv.org/abs/2608.05013v1",
+      "summary": "OneDayAgent把开放式请求拆分为边界明确的子任务，在上下文压力下维护执行记忆，并对最终交付物进行验证和修复。其同一套Harness可运行于三个模型家族的五种后端，在AgentIF-OneDay上取得0.821分。",
+      "source": "arXiv / Hugging Face Daily Papers",
+      "highlight": "研究表明任务分解、执行记忆和交付验证可以作为独立于底层模型的系统能力复用。",
+      "stars": null,
+      "tags": [
+        "onedayagent",
+        "long-horizon",
+        "agent-harness",
+        "context-management",
+        "verification"
+      ],
+      "topic": [
+        "memory",
+        "agent"
+      ]
+    },
+    {
+      "id": 8,
+      "category": "paper",
+      "title": "LongHorizon-Harness：以外部状态和独立审计稳定长程Agent",
+      "url": "https://huggingface.co/papers/2608.01964",
+      "summary": "该框架使用Manage-Execute-Audit循环，将任务状态保存在执行上下文之外，并只接纳经过环境独立验证的事实。执行器每轮使用新上下文，审计器则以只读方式确认环境变化后再更新状态。",
+      "source": "Hugging Face Daily Papers",
+      "highlight": "外置状态与独立审计显著降低了上下文膨胀和错误自评传播，在WeaveBench上将Qwen 3.7 Plus从51.8%提升至80.7%。",
+      "stars": null,
+      "tags": [
+        "longhorizon-harness",
+        "state-management",
+        "auditing",
+        "computer-use",
+        "tool-use"
+      ],
+      "topic": [
+        "memory",
+        "agent"
+      ]
+    },
+    {
+      "id": 9,
+      "category": "paper",
+      "title": "ReASearch：让工具Agent自主优化提示、程序与机器学习流程",
+      "url": "https://huggingface.co/papers/2608.06714",
+      "summary": "ReASearch取消手工设计的外层搜索控制器，让单个工具Agent自主选择评测对象、诊断失败、修改候选方案并决定何时验证或重启。相同Agent循环可用于提示、代码和机器学习工作流优化，并通过持久记忆维持长程搜索。",
+      "source": "Hugging Face Daily Papers",
+      "highlight": "在14项任务上，它相对专用优化器取得2%至40%的提升，说明复杂搜索策略可以由Agent推理和工具使用自然形成。",
+      "stars": null,
+      "tags": [
+        "reasearch",
+        "agentic-optimization",
+        "tool-use",
+        "program-search",
+        "persistent-memory"
+      ],
+      "topic": [
+        "memory",
+        "agent"
+      ]
+    },
+    {
+      "id": 10,
+      "category": "paper",
+      "title": "CoEvo-Mem：协同演化检索策略与Agent记忆库",
+      "url": "https://arxiv.org/abs/2608.01739",
+      "summary": "CoEvo-Mem使用冻结LLM生成稠密与稀疏查询改写，再由轻量残差路由器根据任务奖励调整检索权重。系统交替更新检索路由和带语义、词法、时间关系的记忆图，以减轻两个动态组件同时学习造成的不稳定。",
+      "source": "arXiv",
+      "highlight": "它在七类基准上相对最强基线最多提升7.5个百分点，证明长期Agent应联合优化记忆内容及其访问策略。",
+      "stars": null,
+      "tags": [
+        "coevo-mem",
+        "hybrid-retrieval",
+        "memory-evolution",
+        "query-rewriting",
+        "rrf"
+      ],
+      "topic": [
+        "rag",
+        "memory",
+        "agent"
+      ]
+    },
+    {
+      "id": 11,
+      "category": "paper",
+      "title": "MemArbiter：在决策时动态仲裁Agent工作记忆",
+      "url": "https://arxiv.org/abs/2608.02113",
+      "summary": "MemArbiter将交互历史拆分为目标、任务状态、约束、情节和参考五类记忆，并为每项信息维护详细与压缩两种表示。时间呈现门会根据当前需求和相关性动态提升、降级或隐藏记忆。",
+      "source": "arXiv",
+      "highlight": "在统一750-token预算下，它将ALFWorld成功率提升至92.5%，说明检索到信息之后的组织方式和提示显著性同样关键。",
+      "stars": null,
+      "tags": [
+        "memarbiter",
+        "working-memory",
+        "context-compression",
+        "memory-arbitration",
+        "alfworld"
+      ],
+      "topic": [
+        "memory",
+        "agent"
+      ]
+    },
+    {
+      "id": 12,
+      "category": "paper",
+      "title": "SkillJack：自演化Agent中的持久技能后门攻击",
+      "url": "https://huggingface.co/papers/2608.03509",
+      "summary": "SkillJack利用Agent从历史经验提炼可复用技能的过程，将恶意行为转化为持久技能，而非只污染一次运行的上下文。由于技能抽取会重新表述原始内容，即使删除污染记录，后门仍可能继续存在且更难检测。",
+      "source": "Hugging Face Daily Papers",
+      "highlight": "该研究揭示了自改进Agent的新供应链风险，防御范围需要从提示和记忆扩展到技能生成、评审、版本和调用全生命周期。",
+      "stars": null,
+      "tags": [
+        "skilljack",
+        "agent-security",
+        "skill-backdoor",
+        "self-evolving-agent",
+        "persistence"
+      ],
+      "topic": [
+        "memory",
+        "agent"
+      ]
+    },
+    {
+      "id": 13,
+      "category": "paper",
+      "title": "DataSpace：跨异构工作区的可验证数据Agent基准",
+      "url": "https://huggingface.co/papers/2608.03451",
+      "summary": "DataSpace包含410个跨语言任务和7439个工件，覆盖CSV、JSON、SQLite、Markdown、PDF及视频。数据Agent仅接收问题和本地工作区，需发现跨模态证据并返回可由确定性评测器核验的完整表格。",
+      "source": "Hugging Face Daily Papers / KDD Cup 2026",
+      "highlight": "它把检索、工具使用、结构化分析和最终结果验证放入同一基准，更接近企业数据Agent面对的真实工作区。",
+      "stars": null,
+      "tags": [
+        "dataspace",
+        "data-agent",
+        "benchmark",
+        "heterogeneous-data",
+        "verifiable-analytics"
+      ],
+      "topic": [
+        "rag",
+        "agent"
+      ]
+    },
+    {
+      "id": 14,
+      "category": "tutorial",
+      "title": "使用合成数据微调ModernBERT检索器与重排器",
+      "url": "https://huggingface.co/blog/sdiazlor/fine-tune-modernbert-for-rag-with-synthetic-data",
+      "summary": "教程从领域文档生成检索训练样本，使用三元组微调ModernBERT双编码器，并以带分数的文本对训练交叉编码器重排模型。最后通过Haystack组合检索、重排和生成组件，构建完整领域RAG流水线。",
+      "source": "Hugging Face Blog",
+      "highlight": "它覆盖数据清洗、合成样本、检索与重排训练及系统集成，适合真实标注稀缺时进行领域RAG适配。",
+      "stars": null,
+      "tags": [
+        "modernbert",
+        "synthetic-data",
+        "embedding",
+        "reranker",
+        "sentence-transformers"
+      ],
+      "topic": [
+        "post-training",
+        "rag"
+      ]
+    }
+  ]
+}
