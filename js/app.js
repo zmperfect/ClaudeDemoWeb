@@ -8,9 +8,9 @@
     const topicFilter = document.getElementById('topic-filter');
     const topicBackBtn = document.getElementById('topic-back');
 
-    // CONFIG: Replace with your GitHub PAT (Fine-grained, Actions: Read and write, single repo)
-    const GITHUB_TOKEN = ['github_pat_11AY','VPTBI0yNtBQ1rb9IXE_ndxazv93OV','VOQQ5kj4OkwKc466cXmpN3kteT1fUoMmD6ZXBMJZPrknGe2EH'].join('');
-    const GITHUB_REPO = 'zmperfect/ClaudeDemoWeb';
+    // CONFIG: Serverless 代理地址（Cloudflare Worker），部署后替换为你的 Worker 域名。
+    // 前端不再持有任何 GitHub Token —— 隐藏操作通过代理触发 workflow，实现跨设备同步。
+    const PROXY_URL = 'https://claudedemoweb-proxy.2286512681.workers.dev/hide';
 
     let allItems = [];
     let currentCategory = 'all';
@@ -160,16 +160,13 @@
         allItems = allItems.filter(i => !(i.id === itemId && (i._date || currentDateStr) === date));
         render();
 
-        if (!GITHUB_TOKEN) return;
+        // 通过 Serverless 代理触发跨设备同步（不再在前端暴露 token）
+        if (!PROXY_URL || PROXY_URL.includes('<your-subdomain>')) return;
         try {
-            await fetch(`https://api.github.com/repos/${GITHUB_REPO}/actions/workflows/hide-item.yml/dispatches`, {
+            await fetch(PROXY_URL, {
                 method: 'POST',
-                headers: {
-                    'Authorization': `token ${GITHUB_TOKEN}`,
-                    'Content-Type': 'application/json',
-                    'Accept': 'application/vnd.github.v3+json'
-                },
-                body: JSON.stringify({ ref: 'master', inputs: { date, item_id: String(itemId) } })
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ date, item_id: String(itemId) })
             });
         } catch {}
     }

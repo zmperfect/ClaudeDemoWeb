@@ -1,0 +1,13 @@
+name = "claudedemoweb-proxy"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+# 说明：
+# - GITHUB_TOKEN 请用 `wrangler secret put GITHUB_TOKEN` 设置，切勿写在这里。
+# - 下面的 vars 是非敏感变量，可以直接写。
+#   GITHUB_REPO：目标仓库
+#   ALLOW_ORIGIN：允许的前端来源（GitHub Pages 站点）
+
+[vars]
+GITHUB_REPO = "zmperfect/ClaudeDemoWeb"
+ALLOW_ORIGIN = "https://zmperfect.github.io"
