@@ -248,6 +248,78 @@
       "stars": null,
       "tags": ["lora", "qlora", "sft", "dpo", "post-training", "fine-tuning"],
       "topic": ["post-training"]
+    },
+    {
+      "id": 22,
+      "category": "paper",
+      "title": "大语言模型后训练：离策与在策学习的统一视角（综述）",
+      "url": "https://hub.baai.ac.cn/view/53945",
+      "summary": "南开大学与华为于 2026 年 4 月提出的后训练综述，主张把后训练理解为对模型行为的结构化干预，而非按目标函数家族碎片化分类。以轨迹来源划分离策/在策两种范式，并用支撑集扩张、策略重塑、行为巩固三种角色统一解读 SFT、DPO 等偏好方法、在策 RL 与蒸馏。",
+      "source": "arXiv / 智源社区",
+      "highlight": "为 SFT/DPO/RLHF/GRPO/蒸馏建立统一坐标系，帮助诊断后训练瓶颈并推导多阶段混合流水线的组合逻辑，是做后训练技术选型与路线规划的高质量地图。",
+      "stars": null,
+      "tags": ["post-training", "rlhf", "dpo", "sft", "survey"],
+      "topic": ["post-training"]
+    },
+    {
+      "id": 23,
+      "category": "paper",
+      "title": "Memory Decoder at Scale: A Pretrained, Parametric Long-Term Memory",
+      "url": "https://arxiv.org/abs/2607.27919",
+      "summary": "论文将参数化长期记忆模块扩展到 6.9B 参数、300B tokens 预训练规模，配套分布式 Faiss 索引与批次级稀疏 kNN 加载方案。发现把更多参数分配给\"记忆\"比单纯扩大基座更划算：6.9B 记忆 + Pythia-410M 在 17 项基准上均分从 29.86 升至 37.34，超越 Pythia-12B 且总参数减少 39%。",
+      "source": "arXiv",
+      "highlight": "把\"可插拔长期记忆芯片\"理念推向大规模，验证了记忆与推理参数解耦的参数效率优势，对做长期记忆与记忆增强 LLM 的研究者极具启发。",
+      "stars": null,
+      "tags": ["memory", "long-term-memory", "parametric-memory", "retrieval"],
+      "topic": ["memory"]
+    },
+    {
+      "id": 24,
+      "category": "tutorial",
+      "title": "主流开源 Rerank 重排序模型解析与选型指南（2026 版）",
+      "url": "https://tinyseeking.github.io/p/%E4%B8%BB%E6%B5%81%E5%BC%80%E6%BA%90-rerank-%E6%A8%A1%E5%9E%8B%E8%A7%A3%E6%9E%90%E4%B8%8E%E9%80%89%E5%9E%8B%E6%8C%87%E5%8D%972026-%E7%89%88/",
+      "summary": "深度对比 6 款主流开源 rerank 模型（Qwen3-Reranker-4B、mxbai-rerank-large-v2、bge-reranker-v2-m3、jina-reranker-v3、ms-marco-MiniLM、ColBERT v2），从精度、上下文长度、授权协议、部署成本给出选型矩阵，并附作者基于真实中文数据的实测结论与避坑提示。",
+      "source": "Tiny 的技术博客",
+      "highlight": "面向 RAG 精排环节的实战选型手册，中文场景、商用授权、边缘端等痛点都给了明确首选，配合 embedding 召回可快速搭好召回+重排两阶段管线。",
+      "stars": null,
+      "tags": ["rag", "reranking", "retrieval", "tutorial"],
+      "topic": ["rag"]
+    },
+    {
+      "id": 25,
+      "category": "repo",
+      "title": "Qwen3-VL-Embedding / Reranker：统一多模态检索模型系列",
+      "url": "https://github.com/QwenLM/Qwen3-VL-Embedding",
+      "summary": "Qwen 团队 2026 年 1 月开源、近日持续更新的多模态检索模型，基于 Qwen3-VL 把文本、图像、文档截图、视频映射到统一表示空间。提供 2B/8B 双塔 Embedding 与交叉编码 Reranker，支持 MRL 可变维度、int8 量化与 30+ 语言。8B 版在 MMEB-V2 上以 77.8 分排名第一。",
+      "source": "GitHub / Qwen",
+      "highlight": "把 embedding 召回与 reranking 精排一次性升级到多模态，视觉文档检索接近 ColPali 但成本更低，是做多模态 RAG 与跨模态检索的强力开源基座。",
+      "stars": null,
+      "tags": ["rag", "embedding", "reranking", "multimodal", "retrieval"],
+      "topic": ["rag"]
+    },
+    {
+      "id": 26,
+      "category": "tutorial",
+      "title": "2026 年 Agent 框架横评：LangGraph、CrewAI、OpenAI SDK、Google ADK 到底怎么选",
+      "url": "https://blog.csdn.net/m0_50709695/article/details/163670481",
+      "summary": "从状态持久化、多 Agent 协作、可观测性、供应商耦合、开发效率五个维度横评四大主流框架，并给出冷启动延迟、单步 token 开销、持久性语义、调试体验等硬指标对比与月成本账，最后附选型决策树与七大生产故障模式。",
+      "source": "CSDN",
+      "highlight": "结论直击要害——没有全能框架，只有最适合你工作负载的那个；对正在做 agent 框架选型、关心持久化与生产可靠性的团队非常实用。",
+      "stars": null,
+      "tags": ["agent", "multi-agent", "langgraph", "crewai", "framework"],
+      "topic": ["agent"]
+    },
+    {
+      "id": 27,
+      "category": "paper",
+      "title": "Mem-PAL：面向长期用户-智能体交互的记忆式个性化对话助手",
+      "url": "https://arxiv.org/abs/2511.13410",
+      "summary": "AAAI 2026 Oral 工作（阿里妈妈 × 人大）。提出首个同时包含行为日志与对话记录的用户-智能体评测基准 PAL-Bench，以及分层异构记忆框架 H²Memory（具体层：日志图谱/话题大纲；抽象层：背景画像/偏好准则），并设计需求重述、方案提议、多轮交互三项评测任务。",
+      "source": "arXiv / 智源社区",
+      "highlight": "把个性化从\"事实检索\"推进到\"主观偏好建模\"，用行为日志 + 对话双源历史刻画用户，是做长期记忆与个性化 agent 的重要基准与建模范式，配套开源代码可复现。",
+      "stars": null,
+      "tags": ["memory", "personalization", "agent", "benchmark"],
+      "topic": ["memory", "agent"]
     }
   ]
 }
