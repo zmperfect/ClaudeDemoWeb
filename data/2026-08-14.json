@@ -320,6 +320,41 @@
       "stars": null,
       "tags": ["memory", "personalization", "agent", "benchmark"],
       "topic": ["memory", "agent"]
+    },
+    {
+      "id": 28,
+      "category": "repo",
+      "title": "DeepSeek Harness（DSH）：一切皆插件的开源智能体运行框架",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "summary": "8 月 13 日 DeepSeek 以 MIT 协议开源的首款 Agent 运行框架（开发者预览版 v0.1），定位于大模型与执行环境之间的连接层，可接入文件系统、终端、网页、代码工具及其他 Agent，统一处理上下文管理、工具调用与任务执行。基于 Cordis 插件系统，模型、工具、技能、会话、沙箱、存储、Agent Loop、UI 等能力全部以插件组合、可自由替换，提供 Web UI / TUI / Headless 三种运行方式并支持多 Agent 协作。",
+      "source": "GitHub / DeepSeek",
+      "highlight": "发布约 1 小时破 2 万星、登顶 GitHub 涨星榜，被称为史上最快涨星项目；\"一切皆插件\"架构把 agent 运行时彻底模块化，是做 tool-use、multi-agent 编排与 coding agent 的重磅开源基座。",
+      "stars": 86600,
+      "tags": ["agent", "tool-use", "multi-agent", "plugin", "coding-agent"],
+      "topic": ["agent"]
+    },
+    {
+      "id": 29,
+      "category": "news",
+      "title": "智谱发布 GLM-5.3：基座不变，纯靠后训练 Scaling 硬拉 50% 性能",
+      "url": "https://www.aibase.com/zh/news/30353",
+      "summary": "8 月 14 日智谱正式发布 GLM-5.3，总参数约 7430 亿、与 GLM-5.2 同一套基座未变，但通过极致的后训练 Scaling（数十倍长程任务环境、更丰富的环境类型、超长后训练时间）将性能较上一代提升约 50%，在多项主流基准拿下开源模型最高排名，编程与智能体能力接近 Claude Fable 5，并涌现出网络安全漏洞发现等新能力。",
+      "source": "AIbase / 新京报贝壳财经",
+      "highlight": "一次\"基座不动、只做后训练\"就大幅拉升能力的典型案例，直接印证后训练 Scaling 对智能上界的决定性作用，是研究 SFT/RL 后训练路线与算力分配的绝佳现实样本。",
+      "stars": null,
+      "tags": ["glm", "zhipu", "post-training", "scaling", "coding"],
+      "topic": ["post-training"]
+    },
+    {
+      "id": 30,
+      "category": "news",
+      "title": "DeepSeek V4 Pro 正式版上线，重点升级 Agent 能力",
+      "url": "https://finance.sina.com.cn/tech/discovery/2026-08-13/doc-inineywf3219902.shtml",
+      "summary": "8 月 13 日 DeepSeek 密集放出多项更新：V4 Pro 正式版上线，网页、API、App 全面可用，主要升级智能体（Agent）能力；同时官宣 API 价格调整，并发布官方配套的 Agent 运行框架 DeepSeek Harness（DSH）。模型 + 运行框架同日亮相，被视为其从模型研发向 AI 工程化落地的战略转型。",
+      "source": "新浪科技 / 快科技",
+      "highlight": "模型（V4 Pro）与 agent 运行时（DSH）配套发布，反映头部厂商把\"能执行任务的 agent\"作为核心竞争点，是把握 2026 年大模型产品与竞争格局的重要信号。",
+      "stars": null,
+      "tags": ["deepseek", "v4-pro", "agent", "api", "product"]
     }
   ]
 }

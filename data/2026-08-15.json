@@ -235,6 +235,29 @@
       "stars": null,
       "tags": ["rag", "open-source", "vector-database", "embedding", "graph-rag"],
       "topic": ["rag"]
+    },
+    {
+      "id": 21,
+      "category": "news",
+      "title": "谷歌发布 Gemini 3.7 Flash：三周一迭代，主打编程与 Agent，价格腰斩",
+      "url": "https://www.ithome.com/0/989/497.htm",
+      "summary": "当地时间 8 月 13 日谷歌推出 Gemini 3.7 Flash，距上一代 3.6 Flash 仅约三周，官方称其为\"迄今用于编码和智能体领域最智能的 Flash 级主力模型\"，在软件工程、知识工作与网页开发工作流上大幅提升，并优化对 Google Workspace 工具的调用能力、新增 CBRN 与网络攻击安全防御。2026 年底前首发优惠价为每百万 token 输入 0.75 美元、输出 3.75 美元，仅为原 3.6 Flash 的一半。",
+      "source": "IT之家 / 36氪",
+      "highlight": "Flash 级模型三周一迭代且直接把编程/Agent 能力和价格作为竞争核心，反映头部厂商已把\"高性价比 agent 工作模型\"作为主战场；对开发者意味着可用更低成本跑长程 agent 与工具调用工作流。",
+      "stars": null,
+      "tags": ["gemini", "google", "agent", "coding", "pricing"],
+      "topic": ["agent"]
+    },
+    {
+      "id": 22,
+      "category": "news",
+      "title": "xAI 发布 Grok 4.6：综合分追平 GPT-5.6 Sol，长任务平均成本不到 1 美元",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-08-13/doc-inincnux3590616.shtml",
+      "summary": "当地时间 8 月 12 日，距上一代 Grok 4.5 仅一个多月，xAI 发布 Grok 4.6，通过监督微调与强化学习升级、依托 Colossus 算力基础，将大模型智能指数综合分追平 GPT-5.6 Sol（今年 5 月 Grok 4.3 尚排在第 17 位）。测评显示其在翻译、编程等中长任务上平均调用成本不到 1 美元，安全评估规模为历来最大。同日 DeepSeek、阿里千问也集中发布新模型。",
+      "source": "新浪财经 / 腾讯科技",
+      "highlight": "国产与海外头部模型能力与成本快速收敛的又一信号：从落后到追平仅用三个月，且把长任务成本压到 1 美元以内，直接改变 agent 场景下的模型选型与算力成本测算。",
+      "stars": null,
+      "tags": ["grok", "xai", "musk", "benchmark", "cost"]
     }
   ]
 }
