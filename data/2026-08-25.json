@@ -73,7 +73,7 @@
     {
       "id": 8,
       "title": "FCPRAG：融合控制器参数化RAG实现稳定多通道LoRA注入（EMNLP 2026）",
-      "url": "https://arxiv.org/abs/2608.21570",
+      "url": "https://arxiv.org/abs/2608.21750",
       "summary": "提出融合控制器参数化RAG框架（EMNLP 2026），通过轻量级控制器实现检索条件化、样本级LoRA适配器融合，包含混合门控和自适应温度机制。在HotpotQA、PopQA等数据集上F1提升达7.55%，将RAG从外部管道转变为参数化的模型内部能力。",
       "category": "paper",
       "date": "2026-08-25",
