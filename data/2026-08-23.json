@@ -1,0 +1,74 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "OpenAI GPT-5.6 Sol API降价正式生效：开发者成本降低27-33%",
+      "url": "https://news.qq.com/rain/a/20260822A04QZU00",
+      "summary": "IT之家报道，OpenAI GPT-5.6 Sol降价已通过API即时生效，未来3个月内陆续向ChatGPT Work与Codex credits方案推送。Pro/Plus/Business订阅价格不变。在Codex写代码等重输出场景，节省幅度可达33%以上。",
+      "category": "news",
+      "date": "2026-08-23",
+      "source": "腾讯新闻/IT之家",
+      "topic": ["agent"]
+    },
+    {
+      "id": 2,
+      "title": "8月AI模型效率里程碑：27B密集模型匹配6个月前70B MoE性能",
+      "url": "https://local-ai-zone.github.io/blog/ai-updates-august-2026.html",
+      "summary": "Local AI Zone总结8月效率趋势：Qwen3.8-27B和Muse Glimmer 30B证明27B密集模型已匹配6个月前70B MoE性能。100万token上下文成为多层级标准。8月单月多个模型成本降幅约50%。预测2026 Q4 7B模型将匹配当前27B能力。",
+      "category": "article",
+      "date": "2026-08-23",
+      "source": "Local AI Zone",
+      "topic": ["post-training"]
+    },
+    {
+      "id": 3,
+      "title": "Anthropic自托管运行环境Beta发布：代码资产留在企业自有网络",
+      "url": "https://happyrock.cloud/zh-cn/blog/2026-08-20_adeepdiveintoanthropiccommercialcomeback/",
+      "summary": "Anthropic于8月推出自托管运行环境Beta版，允许企业将Claude Code的代码执行环境部署在自有网络内，代码资产不出企业边界。配合Auto Mode（减少80%人工确认）和DLP数据丢失防护，满足金融、医疗等受监管行业需求。",
+      "category": "news",
+      "date": "2026-08-23",
+      "source": "HappyRock",
+      "topic": ["agent"]
+    },
+    {
+      "id": 4,
+      "title": "Agent时代核心变化：多Agent编排成为标准，简单提示时代结束",
+      "url": "https://local-ai-zone.github.io/blog/ai-updates-august-2026.html",
+      "summary": "8月Agent发展趋势总结：Meta Muse Code实现多Agent协调+持久子Agent；OX Alpha 69次工具调用仅1次错误；Gemini 3.7 Flash可调思考级别；Claude Opus 5支持5级努力切换。专用模型取代通用旗舰（Lightning=速度，Glimmer=本地，Turbo=高吞吐）。",
+      "category": "article",
+      "date": "2026-08-23",
+      "source": "Local AI Zone",
+      "topic": ["agent"]
+    },
+    {
+      "id": 5,
+      "title": "Anthropic推理效率革命：KV缓存命中率>90%，推测解码5步接受3.2步",
+      "url": "https://happyrock.cloud/zh-cn/blog/2026-08-20_adeepdiveintoanthropiccommercialcomeback/",
+      "summary": "Anthropic推理效率关键数据：KV缓存命中率从60%提升至>90%；推测解码5步平均接受3.2步；批量推理batch_size从32提升至64；推理毛利率从2025Q2的25%飙升至2026Q2的85%。正洽谈收购Decart AI（约60亿美元）进一步优化芯片效率。",
+      "category": "article",
+      "date": "2026-08-23",
+      "source": "HappyRock",
+      "topic": ["rag", "agent"]
+    },
+    {
+      "id": 6,
+      "title": "全球AI竞赛资本动态：英伟达单年投资超百亿美元布局AI生态",
+      "url": "https://www.sfccn.com/2026/8-21/wNMDE1MjBfMjIxNTcwNg.html",
+      "summary": "2026年英伟达AI投资版图：向CoreWeave、Nebius各投20亿美元（芯片大客户），向Mercor投资（估值200亿，数据标注），向Poolside支付60亿+投资10亿（编码模型）。投资逻辑从直接客户扩展到数据供应链和模型开发工具链。",
+      "category": "news",
+      "date": "2026-08-23",
+      "source": "证券财经",
+      "topic": ["post-training"]
+    },
+    {
+      "id": 7,
+      "title": "本地部署指南：24GB显存即可运行前沿编码Agent模型",
+      "url": "https://local-ai-zone.github.io/blog/ai-updates-august-2026.html",
+      "summary": "8月本地部署建议更新：24GB VRAM（RTX 4090/3090）可运行Qwen3.8-27B Q4_K_M或Muse Glimmer 30B Q5_K_M实现前沿编码性能；48GB工作站可运行DeepSeek V4-Flash Q5_K_M（284B MoE/13B活跃）；80GB+服务器可运行Qwen3.8-Max Q4_K_M。消费级硬件Agent能力大幅提升。",
+      "category": "article",
+      "date": "2026-08-23",
+      "source": "Local AI Zone",
+      "topic": ["agent"]
+    }
+  ]
+}

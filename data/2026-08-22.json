@@ -1,0 +1,74 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Anthropic加速冲击史上最大规模IPO：目标募资超750亿美元",
+      "url": "https://www.saasrise.com/news/anthropic-posts-115b-q2-revenue-beats-openai-and-hits-positive-operating-income-966715be-a1ad-49f3-851f-1aa9d6cf1cd3",
+      "summary": "Anthropic准备最快本月底公开提交IPO文件，目标募资规模对标甚至超过SpaceX约750亿美元纪录。年化营收运行率已达650亿美元，Q2营收115亿美元首次实现正运营利润。预计10月前后上市，早于OpenAI。",
+      "category": "news",
+      "date": "2026-08-22",
+      "source": "SaaSrise",
+      "topic": ["agent"]
+    },
+    {
+      "id": 2,
+      "title": "英伟达60亿美元许可+10亿投资锁定Poolside编码AI",
+      "url": "https://newstock.cfi.cn/p20260822000109.html",
+      "summary": "英伟达正式确认向Poolside支付60亿美元获取AI编码模型'Laguna'及'Model Factory'授权，额外投资10亿美元（投前估值120亿美元），并向109名核心研发员工发出聘用邀约。Poolside将继续独立运营，现有投资方获得相应回报。",
+      "category": "news",
+      "date": "2026-08-22",
+      "source": "中财网",
+      "topic": ["agent", "post-training"]
+    },
+    {
+      "id": 3,
+      "title": "Claude设计蛋白质结合剂：命中率达行业2倍，48小时354个成功设计",
+      "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+      "summary": "Anthropic研究详细数据公布：Claude在48小时内自主设计354个成功蛋白质结合剂，覆盖14/15靶标。Mythos Preview单靶标命中率35.1%，多靶标26.7%，均为行业平均(10-15%)的2-3倍。RBX1靶标命中率40%（竞赛参与者仅3.7%）。TNFα靶标实现跨物种交叉反应设计。",
+      "category": "paper",
+      "date": "2026-08-22",
+      "source": "Anthropic",
+      "topic": ["agent"]
+    },
+    {
+      "id": 4,
+      "title": "中诚华隆发布HL200推理芯片：能效比5.12 TOPS/W",
+      "url": "https://www.sohu.com/a/1062396656_122755661",
+      "summary": "中诚华隆发布HL200推理芯片及万卡集群方案，能效比达5.12 TOPS/W。配套万卡集群方案面向大模型推理场景，标志着国产AI推理芯片在能效比上取得突破，为国内大模型部署提供新选择。",
+      "category": "news",
+      "date": "2026-08-22",
+      "source": "搜狐",
+      "topic": ["agent"]
+    },
+    {
+      "id": 5,
+      "title": "宇树科技上市首日暴涨460%后回调，全球人形机器人估值竞赛加剧",
+      "url": "https://news.qq.com/rain/a/20260824A07FQ700",
+      "summary": "宇树科技上市后持续波动，Figure AI以约2691亿元人民币（390亿美元）估值反超宇树科技（2452亿元）。全球人形机器人估值排行榜显示竞争加剧，资本对AI硬件的热情从概念叙事转向财报验证阶段。",
+      "category": "news",
+      "date": "2026-08-22",
+      "source": "腾讯新闻",
+      "topic": ["agent"]
+    },
+    {
+      "id": 6,
+      "title": "Agentic RL中GRPO vs Imitation Learning：AI4AI-Bench深度分析",
+      "url": "https://baijiahao.baidu.com/s?id=1874218227509817451",
+      "summary": "AI4AI-Bench研究揭示：多轮Agentic RL中直接使用GRPO效果不如先生成监督信号再做imitation learning。最佳方案使用DAgger让当前policy自己探索再补正确答案。这对Agent训练范式有重要启示：纯RL不如RL+监督混合策略。",
+      "category": "paper",
+      "date": "2026-08-22",
+      "source": "百家号",
+      "topic": ["post-training", "agent"]
+    },
+    {
+      "id": 7,
+      "title": "GPT-5.6 Sol降价详细分析：输出token降33%，综合降幅27%",
+      "url": "https://www.aoyii.com/gpt-5-6-sol-price-cut-frontier-pricing-war",
+      "summary": "GPT-5.6 Sol降价细节：标准输出从$30降至$20/百万token（降33%），长上下文输出从$45降至$30（降33%），输入降20%。以月消耗1亿输入+2000万输出token计算，月费从$1100降至$800。这是OpenAI一月内第三次降价，前沿模型定价战正式开打。",
+      "category": "article",
+      "date": "2026-08-22",
+      "source": "Aoyii",
+      "topic": ["agent"]
+    }
+  ]
+}

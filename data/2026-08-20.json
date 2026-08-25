@@ -1,0 +1,74 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "OpenAI Codex CLI 0.149.0发布：Agent仪表板与会话队列",
+      "url": "https://hammerautomation.ai/en/forge/openai-codex-release-notes-2026-08-21",
+      "summary": "OpenAI发布Codex CLI 0.149.0，新增交互式Agent仪表板（codex agents命令），支持搜索、启动、重命名、停止任务和子代理状态监控。新增codex queue命令可向已有会话发送消息。还扩展了Vim编辑支持和网络诊断功能。",
+      "category": "tool",
+      "date": "2026-08-20",
+      "source": "Hammer Automation",
+      "topic": ["agent"]
+    },
+    {
+      "id": 2,
+      "title": "稀宇科技推出MiniMax Design：多模态AI创作全流程工具",
+      "url": "https://www.nbd.com.cn/articles/2026-08-20/4547365.html",
+      "summary": "稀宇科技MiniMax于8月20日正式发布MiniMax Design，基于原生多模态视频模型H3，能理解创作目标、拆解任务、调用模型完成创作全流程。支持视频编辑、参考控制等场景，将多模态模型能力转化为生产力工具。MiniMax港股两日累涨超11%。",
+      "category": "news",
+      "date": "2026-08-20",
+      "source": "每经网",
+      "topic": ["agent"]
+    },
+    {
+      "id": 3,
+      "title": "ChatGPT新增Apple Messages集成与Site协作编辑",
+      "url": "https://releasebot.io/updates/openai",
+      "summary": "OpenAI 8月20日更新：ChatGPT支持通过桌面应用读取/搜索/发送iMessage和SMS；ChatGPT Sites支持协作编辑和URL更改；Codex聊天支持只读快照分享；Enterprise新增工作区级Admin API。Computer History扩展至欧洲更多地区。",
+      "category": "news",
+      "date": "2026-08-20",
+      "source": "Releasebot",
+      "topic": ["agent"]
+    },
+    {
+      "id": 4,
+      "title": "OX Alpha匿名模型上线OpenRouter：DeepSWE 80%超越所有公开模型",
+      "url": "https://local-ai-zone.github.io/blog/ai-updates-august-2026.html",
+      "summary": "8月20日匿名前沿模型OX Alpha上线OpenRouter，DeepSWE Pass@1达80%，超越GPT-5.6 Sol(52%)和Claude Fable 5(65%)。支持100万token上下文、全多模态、函数调用。24小时内被Nous Research和Zed编辑器集成。99%确认为智谱AI未发布的GLM-5.x旗舰。",
+      "category": "news",
+      "date": "2026-08-20",
+      "source": "Local AI Zone",
+      "topic": ["agent"]
+    },
+    {
+      "id": 5,
+      "title": "Anthropic商业化深度解析：Claude Code四层架构与MCP协议",
+      "url": "https://happyrock.cloud/zh-cn/blog/2026-08-20_adeepdiveintoanthropiccommercialcomeback/",
+      "summary": "深度分析Anthropic商业化路径：Claude Code采用四层架构（基础设施→推理引擎→Agent编排→交互层），MCP协议实现上下文管理、工具调用标准化和状态同步。企业API占收入85%，月均单用户创收$211（消费者模式的8倍+）。推理毛利率从25%飙升至85%。",
+      "category": "article",
+      "date": "2026-08-20",
+      "source": "HappyRock",
+      "topic": ["agent", "memory"]
+    },
+    {
+      "id": 6,
+      "title": "2026年8月AI模型井喷：20天11+重大模型发布，每单位智能成本降50%",
+      "url": "https://local-ai-zone.github.io/blog/ai-updates-august-2026.html",
+      "summary": "Local AI Zone综述8月AI发展：Qwen3.8-Max(2.4T参数)、DeepSeek V4-Pro GA、Muse Glimmer 30B、Nemotron 3.5 Lightning、Gemini 3.7 Flash等11+模型密集发布。27B密集模型匹配6个月前70B MoE性能，100万token上下文成为基线，Agent从实验进入基础设施阶段。",
+      "category": "article",
+      "date": "2026-08-20",
+      "source": "Local AI Zone",
+      "topic": ["agent"]
+    },
+    {
+      "id": 7,
+      "title": "ChatGPT Enterprise/EDU更新：工作区Admin API与Personal Analytics",
+      "url": "https://releasebot.io/updates/openai",
+      "summary": "OpenAI为Enterprise/EDU用户新增工作区级别Admin API（邀请管理、成员管理）、Personal Analytics支持Work和Codex、ChatGPT Sites协作编辑、公共插件目录CSV导出等功能，强化企业级Agent管理能力。",
+      "category": "news",
+      "date": "2026-08-20",
+      "source": "Releasebot",
+      "topic": ["agent"]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "宇树科技登陆科创板，开盘暴涨629%市值冲上4449亿",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-17/10679306.shtml",
+      "summary": "宇树科技8月19日正式登陆上海证券交易所科创板，发行价150.80元，开盘价飙至1100元，高开629%，总市值冲上4449亿元，成为'人形机器人第一股'。公司2026年H1营收约10.52-11.28亿元，同比增长35-45%。",
+      "category": "news",
+      "date": "2026-08-19",
+      "source": "中国新闻网",
+      "topic": ["agent"]
+    },
+    {
+      "id": 2,
+      "title": "Anthropic Q2营收115亿美元首超OpenAI，即将IPO",
+      "url": "https://happyrock.cloud/zh-cn/blog/2026-08-20_adeepdiveintoanthropiccommercialcomeback/",
+      "summary": "Anthropic Q2 2026营收达115亿美元（同比增长14倍），首次超越OpenAI的67亿美元。运营利润率+5%实现首次盈利。Claude Code是核心增长引擎，6个月做到10亿美元ARR。推理毛利率从25%提升至85%。IPO预计2026年9-10月，目标估值2万亿美元。",
+      "category": "news",
+      "date": "2026-08-19",
+      "source": "HappyRock",
+      "topic": ["agent"]
+    },
+    {
+      "id": 3,
+      "title": "Anthropic发布Claude蛋白质设计研究：14/15靶标成功，命中率达行业2-3倍",
+      "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+      "summary": "Anthropic发布研究成果，Claude Opus 4.8和Mythos Preview在48小时内自主设计了354个成功蛋白质结合剂（1320个设计中），覆盖14/15个靶标。单靶标模式命中率35.1%，多靶标模式26.7%，均为行业平均水平(10-15%)的2-3倍。验证由独立湿实验室完成。",
+      "category": "paper",
+      "date": "2026-08-18",
+      "source": "Anthropic Research",
+      "topic": ["agent"]
+    },
+    {
+      "id": 4,
+      "title": "英伟达洽谈投资AI数据供应商Mercor，估值200亿美元",
+      "url": "https://aiproducthub.cn/newsflash/nvidia-mulls-200-billion-valuation-investment-mercor-data-labeling/",
+      "summary": "英伟达正探讨投资AI数据标注与人才匹配平台Mercor，本轮融资将使其估值达200亿美元。General Catalyst领投。Mercor主要客户包括OpenAI、Google、Anthropic等，为大模型训练提供高质量人类标注数据。",
+      "category": "news",
+      "date": "2026-08-19",
+      "source": "AI产品库",
+      "topic": ["post-training"]
+    },
+    {
+      "id": 5,
+      "title": "AI Agent安全框架进展：多家机构联合发布Agent安全白皮书",
+      "url": "https://aiagentsdirectory.com/news/ai-agents-directory-daily-brief-august-19-2026",
+      "summary": "8月19日AI Agent领域动态汇总：多家安全机构联合发布Agent安全框架白皮书，涵盖权限控制、工具调用审计、多Agent协作安全等方面。同时多家Agent初创公司获得新一轮融资。",
+      "category": "news",
+      "date": "2026-08-19",
+      "source": "AI Agents Directory",
+      "topic": ["agent"]
+    },
+    {
+      "id": 6,
+      "title": "Agent Memory Distillation: 利用分层教师记忆赋能小型LLM Agent",
+      "url": "https://arxiv.org/abs/2608.10001",
+      "summary": "提出Agent Memory Distillation方法，通过大模型教师的分层记忆（工作记忆、情景记忆、语义记忆）蒸馏到小型LLM Agent中，使7B模型在多轮对话和长期任务中保持接近大模型的记忆能力，同时大幅降低推理成本。",
+      "category": "paper",
+      "date": "2026-08-19",
+      "source": "arXiv",
+      "topic": ["memory", "agent"]
+    },
+    {
+      "id": 7,
+      "title": "DiDPO: 用于编码Agent训练的差分差分策略优化",
+      "url": "https://arxiv.org/abs/2608.10002",
+      "summary": "提出DiDPO（Diff-in-Diff Policy Optimization），将因果推断中的双重差分方法引入DPO训练框架，用于编码Agent的偏好对齐。通过消除代码质量评估中的混杂因素，显著提升Agent在复杂编码任务上的表现。",
+      "category": "paper",
+      "date": "2026-08-19",
+      "source": "arXiv",
+      "topic": ["post-training", "agent"]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "category": "paper",
+      "title": "Nexus：深度自适应 KV-Cache 拼接与检索解耦工具路由",
+      "url": "https://arxiv.org/abs/2608.20397",
+      "summary": "针对 MCP 协议下 Agentic LLM 每轮重新编码冗长工具 schema 导致 TTFT 暴增的问题，Nexus 提出两大机制：(1) 检索解耦工具路由——用 INT8 语义旁路缓冲区+交叉编码器门控选择工具，参数生成仅需中位 19 tokens 的压缩签名而非完整 KV 缓存，250 个工具时路由准确率约 89%，首参数 token 生成快 1.66 倍，主上下文 token 节省约 80%；(2) KV-Cache 拼接——将编译好的 schema KV 块直接移植到活跃上下文，通过深度自适应后缀重解码修复 RoPE 相位漂移。保证 never-regress 属性（top-1 一致性，D_KL≈0）。",
+      "source": "arXiv:2608.20397 (cs.AI)",
+      "highlight": "直接解决 Agent 工具调用的工程瓶颈——schema 重编码开销，对 MCP 生态和大规模工具注册场景有重要实用价值。",
+      "stars": null,
+      "tags": ["tool-use", "KV-cache", "MCP", "efficiency", "agentic-LLM"],
+      "topic": ["agent"]
+    },
+    {
+      "id": 2,
+      "category": "paper",
+      "title": "Weighted Memory Tree：长视野 LLM Agent 的层次化记忆保留",
+      "url": "https://arxiv.org/abs/2608.20631",
+      "summary": "针对 LLM Agent 执行历史不断增长导致推理成本上升和信息过时的问题，提出 Weighted Memory Tree (WMT)——将执行过程组织为任务→子任务→动作三层结构，为每条记忆分配动态保留分数，通过事件驱动更新和选择衰减机制决定哪些记忆保持活跃。在 GAIA-Text 基准上（Qwen3-8B/Gemma 4 E4B/Llama-3.1-8B），相比线性记忆准确率平均提升 9.97 个百分点，Prompt token 使用量减少 32.8%。记忆投毒实验验证了对错误信息的鲁棒性。",
+      "source": "arXiv:2608.20631 (cs.AI)",
+      "highlight": "核心洞察：有效的长期 Agent 记忆关键不在于存储更多信息，而在于决定哪些信息应保持活跃。对构建长期运行 Agent 的记忆系统有直接指导意义。",
+      "stars": null,
+      "tags": ["memory-management", "long-horizon", "agent", "hierarchical", "token-efficiency"],
+      "topic": ["memory", "agent"]
+    },
+    {
+      "id": 3,
+      "category": "paper",
+      "title": "CAS：保形化智能体搜索——自适应检索与策略加权",
+      "url": "https://arxiv.org/abs/2608.20771",
+      "summary": "搜索智能体在 RL 微调中面临可靠性危机：启发式 Top-K 检索导致关键证据丢失，渐进式 RL 引发过度自信和幻觉。CAS 引入保形预测(Conformal Prediction)框架：检索端用 APS 将统计覆盖率转化为动态文档截断，训练端用 ACI 量化答案置信度并在 GRPO 目标中惩罚低置信度轨迹。在单跳和多跳 QA 数据集上显著提升推理准确率，同时大幅减少冗余工具调用。",
+      "source": "arXiv:2608.20771 (cs.AI)",
+      "highlight": "将统计学保形预测引入 Agent 搜索的检索和训练两端，同时解决检索可靠性和 RL 训练过度自信问题，是 RAG+Agent+GRPO 的交叉创新。",
+      "stars": null,
+      "tags": ["conformal-prediction", "search-agent", "GRPO", "retrieval", "reliability"],
+      "topic": ["rag", "agent", "post-training"]
+    },
+    {
+      "id": 4,
+      "category": "paper",
+      "title": "结构性间接前置依赖驱逐：智能体记忆中的检索前失败模式",
+      "url": "https://arxiv.org/abs/2608.20400",
+      "summary": "挑战智能体记忆研究中「检索为中心」的隐含假设——必要证据能在驱逐过程中存活。论文隔离出一种检索前失败模式：在预算压力下，与查询弱对齐的上游信息块被丢弃（结构性间接前置依赖驱逐）。提出 Dependency-aware Semantic Garbage Collection (DSGC)——单跳图感知规则，将完整链保留率在词法编码器下从 0.03 提升至 0.90，在句子编码器下从 0.23 提升至 1.00。被 ICML 2026 Workshop on Failure Modes of Agentic AI 接收。",
+      "source": "arXiv:2608.20400 (cs.AI, cs.CL, cs.LG)",
+      "highlight": "揭示了 Agent 记忆系统中一个被忽视的失败边界——检索之前的保留阶段，对设计固定预算下的记忆管理策略有重要启示。ICML 2026 Workshop 收录。",
+      "stars": null,
+      "tags": ["agentic-memory", "retention", "eviction", "ICML2026", "failure-mode"],
+      "topic": ["memory", "agent"]
+    },
+    {
+      "id": 5,
+      "category": "paper",
+      "title": "SDAD：规格驱动的代理式开发——面向 AI 原生 SDLC",
+      "url": "https://arxiv.org/abs/2608.20341",
+      "summary": "将 Spec-Driven Agentic Development 形式化为融合严谨前期形式化与高速实现的方法论，包含意图捕获、机器可读规格说明、代理式合成、独立多代理验证+人类签核四个环节。对比 Human-Agile(~2020) 与 Agentic-SDAD(~2026) 在制品、节奏、问责和安全态势方面的差异。提出量化治理指标（模糊税 Ambiguity Tax、规格保真度 Spec Fidelity、SER）和务实采纳路径。核心论点：代理式速度并不消除工程纪律，它将纪律上移至规格精度、显式门控和可审计溯源。",
+      "source": "arXiv:2608.20341 (cs.AI, cs.SE)",
+      "highlight": "为 AI Coding Agent 的工程化落地提供了方法论框架，对团队引入 Agent 辅助开发的流程设计有参考价值。",
+      "stars": null,
+      "tags": ["coding-agent", "SDLC", "multi-agent-verification", "methodology", "software-engineering"],
+      "topic": ["agent"]
+    },
+    {
+      "id": 6,
+      "category": "news",
+      "title": "匿名模型 Ox Alpha 上线 OpenRouter，DeepSWE 跑分 80% 碾压 Claude/GPT",
+      "url": "https://www.donews.com/news/detail/8/6681235.html",
+      "summary": "8月20日，OpenRouter 上线匿名模型 Ox Alpha 并免费开放一周。该模型在 DeepSWE 基准达 80% 准确率（Claude Fable 5 为 65%，GPT-5.6-sol 为 52%），上下文窗口 104.9 万 token，支持文本/图像/视频多模态输入，单次响应最高输出 13.1 万 token。多项技术分析（分词器指纹、视频编码器行为、emoji 频率）指向智谱 AI GLM 系列架构，但尚未获官方确认。延续了此前 Pony Alpha(智谱)、Hunter Alpha(小米) 等匿名测试模式。",
+      "source": "DoNews 快讯",
+      "highlight": "匿名发布已成中国 AI 实验室常见模式，Ox Alpha 的 DeepSWE 80% 成绩远超当前公开模型，若确认为 GLM-5.x 旗舰将是重要里程碑。",
+      "stars": null,
+      "tags": ["Ox-Alpha", "OpenRouter", "anonymous-model", "DeepSWE", "multimodal"],
+      "topic": ["agent"]
+    },
+    {
+      "id": 7,
+      "category": "article",
+      "title": "Post-training 范式 2026：从 SFT/RLHF 到 GRPO/DPO/RLVR 的工程化大爆发",
+      "url": "https://blog.lonae.com/posts/post-training-2026-sftrlhf-grpodporlvr-0mGPH8",
+      "summary": "系统梳理 2025-2026 年后训练范式迁移：传统 RLHF 三段式的三堵墙（标注边际收益骤降、RM 不稳定、PPO 工程复杂度）→ GRPO 删除 Critic 网络用组内相对排名（显存降至 3×、速度提升 30-50%）→ DPO 删除 RM 纯监督学习（显存仅 SFT 的 1.5×）→ RLVR 用规则奖励替代人类打分。给出 2026 年生产栈四件套（SFT→DPO→GRPO→安全对齐）和工程师实操建议。",
+      "source": "blog.lonae.com",
+      "highlight": "面向工程师的 post-training 全景指南，涵盖 GRPO/DPO/RLVR/RLAIF 的选型决策树和框架生态（verl/TRL/OpenRLHF），实操性强。",
+      "stars": null,
+      "tags": ["GRPO", "DPO", "RLVR", "RLAIF", "post-training", "engineering-guide"],
+      "topic": ["post-training"]
+    },
+    {
+      "id": 8,
+      "category": "article",
+      "title": "2026 年面向 LLM 的 RL 方法总结：从 PPO 到 DPO 到 GRPO，再到多智能体 RL",
+      "url": "https://developer.aliyun.com/article/1735552",
+      "summary": "梳理 LLM 强化学习四代演进：PPO+RLHF（4模型显存开销大）→ DPO（删除 RM，纯监督，不探索）→ GRPO（删除 Critic，组内归一化，驱动 DeepSeek-R1/Qwen3）→ 多智能体 RL（SPIRAL 自我博弈、SAGE 协同进化、Agent Q-Mix 通信拓扑）。给出选择决策树：风格/语气→DPO，数学/代码→GRPO+结果奖励，端到端工具型 Agent→GRPO+Agent 框架+过程奖励，多角色→先单智能体饱和后上 MARL。核心论点：LLM 下一次飞跃来自更聪明的 RL 循环而非更大 Transformer。",
+      "source": "阿里云开发者社区",
+      "highlight": "从 PPO 到多智能体 RL 的完整演进图谱，特别是 MARL 方向（SPIRAL/SAGE/Agent Q-Mix）代表了 2026 年前沿，对 multi-agent 训练有参考价值。",
+      "stars": null,
+      "tags": ["PPO", "DPO", "GRPO", "MARL", "multi-agent-RL", "survey"],
+      "topic": ["post-training", "agent"]
+    }
+  ]
+}

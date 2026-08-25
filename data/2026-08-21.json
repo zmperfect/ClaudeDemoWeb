@@ -1,0 +1,74 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "DeepSeek-V4-Flash-Vision-Exp上线：首款原生视觉理解模型",
+      "url": "https://blog.csdn.net/weixin_45391527/article/details/163956030",
+      "summary": "DeepSeek于8月21日正式开放V4-Flash-Vision-Exp API，这是DeepSeek V4系列首款原生支持图片输入的视觉模型。纯文本能力与V4-Flash正式版持平（Terminal Bench 83.9、DeepSWE 59.3），多模态Agent能力接近Anthropic Opus 4.8。支持JPEG/PNG/GIF/WebP格式图片输入。",
+      "category": "news",
+      "date": "2026-08-21",
+      "source": "CSDN",
+      "topic": ["agent"]
+    },
+    {
+      "id": 2,
+      "title": "GPT-5.6 Sol API降价20%+：前沿模型价格战白热化",
+      "url": "https://aiproducthub.cn/newsflash/openai-cuts-gpt-5-6-sol-api-price-20-percent-august-2026/",
+      "summary": "OpenAI宣布GPT-5.6 Sol API降价超20%，持续3个月。标准输出价格从$30降至$20/百万token（降33%），长上下文输出从$45降至$30。这是OpenAI一个月内第三次降价，直接对标Anthropic Claude Fable 5定价区间，行业价格战进入白热化。",
+      "category": "news",
+      "date": "2026-08-21",
+      "source": "AI产品库",
+      "topic": ["agent"]
+    },
+    {
+      "id": 3,
+      "title": "ChatGPT 8月21日更新：时间感知回答与长对话加载优化",
+      "url": "https://releasebot.io/updates/openai",
+      "summary": "ChatGPT 8月21日更新：插件推荐优先展示持续使用的插件；ChatGPT能更好感知用户本地时间回答时间敏感问题；Web端长对话分段加载不再一次性检索全部内容；交互内容生成过程中即可开始显示（渐进式）。",
+      "category": "news",
+      "date": "2026-08-21",
+      "source": "Releasebot",
+      "topic": ["memory", "agent"]
+    },
+    {
+      "id": 4,
+      "title": "Einsia AI发布AI4AI-Bench：AI能否设计更好的AI？",
+      "url": "https://baijiahao.baidu.com/s?id=1874218227509817451",
+      "summary": "Einsia AI发布AI4AI-Bench基准测试，评估AI系统自我改进能力。研究发现多轮Agentic RL中，直接使用GRPO的方案不如先用求解器生成监督信号再做imitation learning的方案。最强AI改进自己仅得0.16分，揭示了当前AI自我优化的瓶颈。",
+      "category": "paper",
+      "date": "2026-08-21",
+      "source": "百家号",
+      "topic": ["post-training", "agent"]
+    },
+    {
+      "id": 5,
+      "title": "英伟达60亿美元许可Poolside AI模型，加速开源编码模型布局",
+      "url": "https://newstock.cfi.cn/p20260822000109.html",
+      "summary": "英伟达同意支付60亿美元获取AI初创企业Poolside的模型开发软件授权（Model Factory），额外投资10亿美元（投前估值120亿美元），并向109名员工发出聘用邀约。Poolside专注于编码AI模型'Laguna'的研发，英伟达此举加速其开源AI模型生态布局。",
+      "category": "news",
+      "date": "2026-08-21",
+      "source": "中财网",
+      "topic": ["agent"]
+    },
+    {
+      "id": 6,
+      "title": "OpenAI计划2027年前上市，面临证明8520亿估值压力",
+      "url": "https://caifuhao.eastmoney.com/news/20260821081842135814480",
+      "summary": "OpenAI CFO向员工表示公司将在2027年前上市。同时Anthropic IPO预计10月，披露ARR达650亿美元。两大AI巨头上市竞赛加速，OpenAI面临证明8520亿美元估值的压力，而Anthropic增速约为OpenAI的3-4倍。",
+      "category": "news",
+      "date": "2026-08-21",
+      "source": "东方财富",
+      "topic": ["agent"]
+    },
+    {
+      "id": 7,
+      "title": "vLLM v0.27.0发布：支持Kimi K3、PyTorch 2.13升级",
+      "url": "https://www.currentaffair.today/blog/technology-13/whats-new-in-vllm-august-2026-1059",
+      "summary": "vLLM推理引擎发布v0.27.0重大更新，新增Kimi K3模型支持、升级至PyTorch 2.13、优化推测解码性能。作为最流行的开源LLM推理框架，本次更新进一步降低大模型部署门槛，提升推理吞吐量。",
+      "category": "tool",
+      "date": "2026-08-21",
+      "source": "CurrentAffair",
+      "topic": ["agent"]
+    }
+  ]
+}
