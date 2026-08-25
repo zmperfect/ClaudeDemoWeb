@@ -1,0 +1,104 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "微软开源Agent Lightning v1.0：零代码改造的Agent强化学习训练框架",
+      "url": "https://github.com/microsoft/agent-lightning/releases/tag/v1.0.1",
+      "summary": "微软开源Agent Lightning（17.7K Star）发布v1.0正式版，核心能力是'用部署时的真实Agent Harness做强化学习训练'，无需修改任何代码。仅用6000条训练样本，端到端Qwen3.5-9B编程工作流将SWE-bench Verified从41.8%提升至56.4%。v1.0.1新增Agent Lightning Skill，让Claude Code/Codex等编程Agent能系统性优化其他AI Agent的提示词、工具与工作流。",
+      "category": "tool",
+      "date": "2026-08-25",
+      "source": "GitHub/Microsoft",
+      "topic": ["post-training", "agent"]
+    },
+    {
+      "id": 2,
+      "title": "Scroll：将上下文视为可编程环境的长时域Agent记忆管理器",
+      "url": "https://arxiv.org/abs/2608.21690",
+      "summary": "提出Scroll框架，将Agent会话视为可执行的Session Environment，由仅追加事件日志和沙箱化持久Python内核支撑。模型通过编写代码搜索和转换会话状态，只有显式print的投影进入工作视图。使用Qwen3.8-Max在BEAM_10M上达73.1%（超最佳已发表系统5.1分），LOCA_256K达86.7%（超最佳37.4分），LongMemEval_S达94.8%。",
+      "category": "paper",
+      "date": "2026-08-25",
+      "source": "arXiv",
+      "topic": ["memory", "agent"]
+    },
+    {
+      "id": 3,
+      "title": "SchemaRouter：字段感知工具路由实现高效异构Agentic RAG",
+      "url": "https://arxiv.org/abs/2608.21375",
+      "summary": "提出SchemaRouter轻量级路由层，将工具/端点/参数/响应字段表示为模式图。小型LLM提取意图后，字段选择通过图上确定性匹配完成。在材料科学基准上答案准确率0.71，检索上下文仅227 tokens（vs全量获取2066），延迟降低2.7倍，工具精确匹配率0.93。解决了异构RAG中过度获取和不足获取的双重问题。",
+      "category": "paper",
+      "date": "2026-08-25",
+      "source": "arXiv",
+      "topic": ["rag", "agent"]
+    },
+    {
+      "id": 4,
+      "title": "ECHO：认知启发的可审计长时域Agent记忆平面",
+      "url": "https://arxiv.org/abs/2608.21755",
+      "summary": "提出ECHO（Embodied Context and History Orchestration）可审计记忆架构，灵感来自情景编码、巩固、上下文恢复、再巩固和执行控制五个认知过程。在LongMemEval-S 500题上达97.60% Hit@10和88.84% turn Recall@5。事后审计发现查询扩展规则中的来源特定短语问题，体现了可审计性的价值。",
+      "category": "paper",
+      "date": "2026-08-25",
+      "source": "arXiv",
+      "topic": ["memory", "agent"]
+    },
+    {
+      "id": 5,
+      "title": "CompPO：架构感知信用传输改进LLM强化学习",
+      "url": "https://arxiv.org/abs/2608.21501",
+      "summary": "提出计算条件信用传输（CCT）框架，利用Transformer注意力集中度映射为逐token保留门，使RL信用分配跟随模型自身计算路径。CompPO在held-out准确率达61.4%（vs调优GRPO 53.8%），在Qwen3-4B和Llama-3.1-8B上greedy pass@1分别比GRPO提升4.3和3.9个点，训练稳定性从3/12提升至10/12。",
+      "category": "paper",
+      "date": "2026-08-25",
+      "source": "arXiv",
+      "topic": ["post-training"]
+    },
+    {
+      "id": 6,
+      "title": "RAG Collapse：LLM检索自生成内容时发生类模型崩溃现象",
+      "url": "https://arxiv.org/abs/2608.21942",
+      "summary": "发现当LLM检索到自己生成的内容时会发生类似模型崩溃的现象——79.6%的模拟以崩溃结束，即使单个自生成参考也可触发，因为LLM不成比例地引用自己的内容形成自我强化反馈循环。对RAG系统的长期运维和数据治理提出重要警示。",
+      "category": "paper",
+      "date": "2026-08-25",
+      "source": "arXiv",
+      "topic": ["rag"]
+    },
+    {
+      "id": 7,
+      "title": "DeepSeek Harness开源：全插件化Agent运行时，MIT协议",
+      "url": "https://caifuhao.eastmoney.com/news/20260821152027999642920",
+      "summary": "DeepSeek面向全球开发者开放Harness开发者预览版并基于MIT协议开源。采用全插件化架构，模型调用、工具适配、任务调度、沙箱运行、会话存储均可独立替换。开发者无需改动底层源码即可搭建定制化Agent应用，补齐国产AI从模型能力到落地执行的关键一环。",
+      "category": "tool",
+      "date": "2026-08-25",
+      "source": "东方财富",
+      "topic": ["agent"]
+    },
+    {
+      "id": 8,
+      "title": "FCPRAG：融合控制器参数化RAG实现稳定多通道LoRA注入（EMNLP 2026）",
+      "url": "https://arxiv.org/abs/2608.21570",
+      "summary": "提出融合控制器参数化RAG框架（EMNLP 2026），通过轻量级控制器实现检索条件化、样本级LoRA适配器融合，包含混合门控和自适应温度机制。在HotpotQA、PopQA等数据集上F1提升达7.55%，将RAG从外部管道转变为参数化的模型内部能力。",
+      "category": "paper",
+      "date": "2026-08-25",
+      "source": "arXiv",
+      "topic": ["rag", "post-training"]
+    },
+    {
+      "id": 9,
+      "title": "推理引擎安全新攻击面：恶意LLM可利用vLLM漏洞夺取宿主机控制权",
+      "url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
+      "summary": "安全研究揭示新攻击面：恶意模型输出特定token序列让推理引擎误当代码执行。vLLM在Qwen3 Coder的XML工具解析器中将参数传给eval()（CVE-2025-9141任意代码执行）。vLLM支持200+模型架构和35个Jinja模板，解析复杂度天然制造代码执行机会。模型可将攻击序列存储为持久化提示注入在Agent间传播。",
+      "category": "article",
+      "date": "2026-08-25",
+      "source": "Boyd Kane",
+      "topic": ["agent"]
+    },
+    {
+      "id": 10,
+      "title": "Google A2A协议加入Linux Foundation AAIF，与MCP统一治理",
+      "url": "https://aiagentstore.ai/ai-agent-news/this-week",
+      "summary": "Google的Agent-to-Agent(A2A)协议正式加入Linux Foundation旗下的Agentic AI Foundation(AAIF)，与Anthropic的MCP同属一个中立治理组织，成员超250家（含AWS、Google、Microsoft、OpenAI）。Agent标准化加速，A2A负责Agent间通信，MCP负责工具调用，两者互补形成完整的Agent互操作标准栈。",
+      "category": "news",
+      "date": "2026-08-25",
+      "source": "AI Agent Store",
+      "topic": ["agent"]
+    }
+  ]
+}
