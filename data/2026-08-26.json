@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "8月26日全球AI日报：Agent记忆、AI Native软件与机器人动态集中出现",
+      "url": "https://www.aitntnews.com/ainews/zh-CN",
+      "summary": "AITNT 8月26日全球AI新闻页汇总了当天多项动态：ROME探索让AI自行开发应用，Anthropic被报道发布AI Native软件开发方法论，DeepSeek Harness接入MemSearch以跨会话提炼Memory和Skill，另有机器人融资与具身智能开源项目DM0.5等。页面未提供每条新闻的原始链接，因此本条仅作为当天资讯索引，不将其中未独立核验的性能和融资数字作为确定事实。",
+      "category": "news",
+      "date": "2026-08-26",
+      "source": "AITNT",
+      "topic": ["agent", "memory"]
+    },
+    {
+      "id": 2,
+      "title": "LLM Agents Perform Controlled Experiments：让Agent结合仿真模型开展受控实验",
+      "url": "https://arxiv.org/abs/2608.23622",
+      "summary": "提出一个结合科学仿真模型的多智能体框架，用于药物生产工艺设计。Agent能够根据问题构建任务表示、设计实验、运行对比仿真、解释结果并给出基于证据的参数优化建议。研究强调通过‘干预—比较—观察’提升科学Agent输出的具体性和可行动性。",
+      "category": "paper",
+      "date": "2026-08-26",
+      "source": "arXiv",
+      "topic": ["agent"]
+    },
+    {
+      "id": 3,
+      "title": "AgentRoom：基于CRDT共享工作区的并发多Agent编程",
+      "url": "https://arxiv.org/abs/2608.23740",
+      "summary": "提出面向并发编码Agent的实时协作协议，通过MCP提供文件级任务认领、状态更新和消息广播，并用CRDT合并共享文件系统。实验显示，两个协作Agent相比单Agent可减少任务放弃并降低结果波动；性能提升主要来自协调机制，而不只是并行执行或CRDT合并。",
+      "category": "paper",
+      "date": "2026-08-26",
+      "source": "arXiv",
+      "topic": ["agent"]
+    },
+    {
+      "id": 4,
+      "title": "Beyond Confidence：检索支撑投票改进多轮搜索Agent测试时扩展",
+      "url": "https://arxiv.org/abs/2608.24024",
+      "summary": "研究发现，检索文档被加入上下文后，复制内容会产生‘copy inflation’，使基于token对数概率的置信度投票失效。论文提出Retrieval-Grounded Voting，根据答案与检索文档的词汇重叠进行rollout加权，不需额外LLM调用；在4个搜索Agent基准和5个模型上最高提升5.4%准确率，少数正确样本最高提升35%。",
+      "category": "paper",
+      "date": "2026-08-26",
+      "source": "arXiv / EMNLP 2026 Findings",
+      "topic": ["rag", "agent"]
+    },
+    {
+      "id": 5,
+      "title": "AHEAD：环境增强蒸馏提升Agentic RL的逐步信用分配",
+      "url": "https://arxiv.org/abs/2608.24114",
+      "summary": "AHEAD针对多轮Agent RL中轨迹级奖励平均分配的问题，让教师模型同时利用环境反馈和错误步骤的纠正提示，产生与步骤类型匹配的稠密监督信号。仅需对标准GRPO做少量修改；以7B模型为例，ALFWorld成功率提升13.3个百分点，WebShop提升11.0个百分点。",
+      "category": "paper",
+      "date": "2026-08-26",
+      "source": "arXiv",
+      "topic": ["post-training", "agent"]
+    },
+    {
+      "id": 6,
+      "title": "Giga-Embeddings：高吞吐文本Embedding的MoE编码器系列",
+      "url": "https://arxiv.org/abs/2608.23806",
+      "summary": "提出Giga-Embeddings模型系列，包括稀疏10B MoE编码器（每token约激活1.8B参数）、稠密3B编码器和蒸馏480M编码器。论文报告最大模型在vLLM、1024 token输入下吞吐达114.5k tokens/s，并声明发布三个模型检查点，面向多语言、代码检索和高吞吐部署场景。",
+      "category": "paper",
+      "date": "2026-08-26",
+      "source": "arXiv",
+      "topic": ["rag"]
+    },
+    {
+      "id": 7,
+      "title": "The RAT：统一的贝叶斯RAG评测模型",
+      "url": "https://arxiv.org/abs/2608.24753",
+      "summary": "提出统一贝叶斯模型评估RAG系统，将检索成功率、拒答行为和答案正确性联合建模，区分检索器、生成器及错误传播的影响，并支持融合人工标注与LLM-as-a-Judge结果。适合用于定位RAG系统究竟是‘没检索到’还是‘检索到了但生成错误’。",
+      "category": "paper",
+      "date": "2026-08-26",
+      "source": "arXiv",
+      "topic": ["rag"]
+    },
+    {
+      "id": 8,
+      "title": "FARCA：事实监督下可靠性感知的RL信用分配",
+      "url": "https://arxiv.org/abs/2608.24350",
+      "summary": "FARCA将事实监督细化为token级训练信号，并通过反事实证据归因评估监督可靠性，再用可靠性权重调节事实奖励和局部策略优势，以降低不可靠奖励带来的幻觉。论文属于事实性对齐和LLM强化学习方向，但未将方法限定为DPO或RLHF。",
+      "category": "paper",
+      "date": "2026-08-26",
+      "source": "arXiv",
+      "topic": ["post-training"]
+    },
+    {
+      "id": 9,
+      "title": "Memory Is Not Always Needed：科学推理中的条件性记忆",
+      "url": "https://arxiv.org/abs/2608.23982",
+      "summary": "研究外部或显式记忆并非总能带来收益：记忆可能弥补知识缺口，也可能引入干扰、捷径或破坏原本正确的推理。论文提出Knowledge Boundary-Aware Router，根据输入特征决定是否启用记忆、在哪些节点注入以及注入强度，探索个性化、条件化的记忆调用策略。",
+      "category": "paper",
+      "date": "2026-08-26",
+      "source": "arXiv",
+      "topic": ["memory", "agent"]
+    },
+    {
+      "id": 10,
+      "title": "BioCheck Agent：用EG-GRPO增强生物医学事实核查搜索",
+      "url": "https://arxiv.org/abs/2608.23811",
+      "summary": "提出BioCheck Agent，通过PubMed检索和检索—验证流程生成结构化生物医学事实核查报告，并提出证据约束的组相对策略优化EG-GRPO，奖励高质量搜索和证据，惩罚证据幻觉。在SciFact上，相比Qwen3.5-4B，论文报告标签准确率提升9.95%、证据质量提升3.7%、证据幻觉率降低19.63%。",
+      "category": "paper",
+      "date": "2026-08-26",
+      "source": "arXiv",
+      "topic": ["rag", "post-training", "agent"]
+    },
+    {
+      "id": 11,
+      "title": "From Preferences to Principles：基于Rubric的有依据知识回答对齐",
+      "url": "https://arxiv.org/abs/2608.23812",
+      "summary": "提出基于评分标准的奖励框架：根据检索证据生成与查询相关的多维rubric，为开放域知识问答后训练提供更细粒度监督。论文报告在组合性、依据性和指令遵循三个维度上，平均表现相比指令微调基线提升6.5%，相比扁平评分标准提升4%。",
+      "category": "paper",
+      "date": "2026-08-26",
+      "source": "arXiv",
+      "topic": ["rag", "post-training"]
+    },
+    {
+      "id": 12,
+      "title": "Crase：结构有界的学术图探索Agent用于证据支撑型DeepSearch",
+      "url": "https://arxiv.org/abs/2608.24809",
+      "summary": "Crase只进行一次搜索获取种子论文，随后扩展约1.5跳引用邻域，利用蕴含关系剪除缺乏证据的引用边，并通过带时效性的随机游走排序。方法预先明确候选集、保留原因和停止条件；论文报告在约50万篇arXiv语料库和LitSearch等基准上，Recall@50最高提升约3倍，成本约为专有深度研究Agent的三分之一。",
+      "category": "paper",
+      "date": "2026-08-26",
+      "source": "arXiv",
+      "topic": ["rag", "agent"]
+    }
+  ]
+}
