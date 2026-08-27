@@ -1,0 +1,154 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Qwen3.8-Flash-Next开放权重：125B参数、6B激活的多模态MoE",
+      "url": "https://github.com/QwenLM/Qwen3.8-Flash-Next/",
+      "summary": "Qwen Team在官方仓库开放Qwen3.8-Flash-Next模型权重。模型约125B参数、每token约6B激活参数，采用Gated DeltaNet与Qwen Sparse Attention混合注意力、Gated Residual、N-gram Embedding和Muon优化器。官方定位为多模态MoE及下一代架构的早期预览，支持Transformers、SGLang、vLLM等生态；仓库开放的是权重和使用说明，不等同于完整训练数据与训练代码开源。",
+      "category": "tool",
+      "date": "2026-08-27",
+      "source": "GitHub/Qwen Team",
+      "topic": ["post-training", "agent"]
+    },
+    {
+      "id": 2,
+      "title": "Zing-0.5开源：可实时交互的因果世界模型",
+      "url": "https://github.com/seedleap/zing-world-model/tree/main",
+      "summary": "Seedleap.ai团队开源Zing-0.5推理代码、配置、示例和Apache-2.0许可证。它不是一次性文生视频模型，而是支持文本/图像初始化、键盘动作控制、提示词切换和持续视觉rollout的实时交互式世界模型。官方仓库说明需要另行准备模型权重，支持单GPU推理；AITNT同日文章称其在WBench交互视频世界模型评测中排名第一，但该排名和24 FPS等数据应视为发布方/媒体声明。",
+      "category": "tool",
+      "date": "2026-08-27",
+      "source": "GitHub/Seedleap.ai；AITNT/新智元",
+      "topic": ["agent"]
+    },
+    {
+      "id": 3,
+      "title": "Espressif Engineering MCP Server上线：把芯片工程支持接入Agent",
+      "url": "https://mcp.espressif.com/",
+      "summary": "乐鑫官方MCP服务将结构化技术支持流程接入兼容MCP的AI助手，覆盖ESP问题识别、环境搭建、Wi-Fi故障排查、原理图和PCB审阅，并在需要时查阅乐鑫官方文档。官方页面给出远程HTTP MCP服务地址，可供Cursor、VS Code、Claude Code和Codex配置使用。",
+      "category": "tool",
+      "date": "2026-08-27",
+      "source": "Espressif Systems",
+      "topic": ["agent"]
+    },
+    {
+      "id": 4,
+      "title": "AsymSpec：用上下文非对称推测解码加速Agent推理",
+      "url": "https://arxiv.org/abs/2608.26004",
+      "summary": "AsymSpec让轻量draft模型读取完整上下文，而大型verifier模型只读取压缩上下文，再用delta-fusion logits和接受门控融合信息，针对Agent检索、工具调用和多轮交互中的长上下文成本问题。论文报告在4类Agent任务和2个端到端基准上保持约90%的完整上下文准确率，吞吐提升1.3–1.7倍，计算成本降至约0.2–0.3倍。",
+      "category": "paper",
+      "date": "2026-08-27",
+      "source": "arXiv",
+      "topic": ["agent", "memory"]
+    },
+    {
+      "id": 5,
+      "title": "Trace Integrity：数据Agent不能只看最终答案，还要审计可执行轨迹",
+      "url": "https://arxiv.org/abs/2608.26036",
+      "summary": "论文提出Trace Integrity和execution contracts，要求LLM数据Agent的推理轨迹明确、可执行、符合schema、可重放、与答案一致并可审计。在BIRD Mini-Dev上，Direct SQL、Operation Summary+SQL和Contract-First SQL的答案准确率分别为20%、22%和24%，但轨迹完整率仅39%、43%和40%，CAIT（正确答案但无效轨迹）仍为45.8%–59.1%，说明答案正确不等于计算可靠。",
+      "category": "paper",
+      "date": "2026-08-27",
+      "source": "arXiv",
+      "topic": ["agent"]
+    },
+    {
+      "id": 6,
+      "title": "SwarmWorld：无预设角色的语言模型Agent社会形成技术分工",
+      "url": "https://arxiv.org/abs/2608.26081",
+      "summary": "SwarmWorld让初始能力相同的语言模型Agent在共享环境中探索资源、建造持久化人工制品、编写控制器并由确定性模拟器验证结果，不预设角色、配方或集中式协调。论文报告共享社会形成了探索、建造、维护和协调等分工，技术通过可执行程序继承和Agent—人工制品网络积累；群体组合更有韧性，但单项最强成果仍可能来自独立搜索。",
+      "category": "paper",
+      "date": "2026-08-27",
+      "source": "arXiv",
+      "topic": ["agent"]
+    },
+    {
+      "id": 7,
+      "title": "HiPS：通用策略与个性化规则协同进化的Agent长期记忆",
+      "url": "https://arxiv.org/abs/2608.25329",
+      "summary": "HiPS将长期记忆管理拆分为跨用户共享的Universal Strategy和用户特定的Persona Delta，通过Cross-Level Rule Flow动态调整两者边界：被广泛验证的个人规则可以提升为通用规则，与结果冲突的全局规则则被降级或修正。它让Agent根据任务结果持续学习哪些信息该保留、压缩或丢弃，而不是使用固定记忆策略。",
+      "category": "paper",
+      "date": "2026-08-27",
+      "source": "arXiv / EMNLP 2026 Main",
+      "topic": ["memory", "agent"]
+    },
+    {
+      "id": 8,
+      "title": "CaSKG：用反事实因果技能图提升Agent技能检索",
+      "url": "https://arxiv.org/abs/2608.25500",
+      "summary": "CaSKG先综合语义、词法、输入输出和结构关系构建高召回技能图，再用移除、替换、重排等文本反事实探测校准技能间的程序依赖，并在离线阶段形成任务条件技能图供在线检索使用。摘要报告在ALFWorld和ScienceWorld的12种模型—基准组合中均取得最高任务得分，ScienceWorld宏平均从72.62提升到80.50，ALFWorld成功率从80.01%提升到86.79%。",
+      "category": "paper",
+      "date": "2026-08-27",
+      "source": "arXiv",
+      "topic": ["agent", "memory", "rag"]
+    },
+    {
+      "id": 9,
+      "title": "LivingRAG：为GraphRAG增加可写、可复用的经验存储",
+      "url": "https://arxiv.org/abs/2608.25960",
+      "summary": "LivingRAG保存经过验证的图信号和推理摘要，在后续相似问题中复用共享实体、图邻域和问题模板，帮助检索系统找到过去有用的实体与段落，并减少从零开始推理。论文报告多跳问答准确率优于强RAG基线并减少生成token，但摘要未提供具体百分点，因此仅保留定性结论。",
+      "category": "paper",
+      "date": "2026-08-27",
+      "source": "arXiv",
+      "topic": ["rag", "memory", "agent"]
+    },
+    {
+      "id": 10,
+      "title": "PACE：证据前置与压力自适应预算缓解RAG重排序瓶颈",
+      "url": "https://arxiv.org/abs/2608.25115",
+      "summary": "PACE是无需训练的RAG优化框架，先按边际证据覆盖率重排候选文档，优先选择相关、互补且能形成多跳证据链的内容，再根据reranker与LLM的相对压力动态调整重排序预算。论文将证据覆盖目标表述为单调次模目标，贪心选择具有1-1/e近似保证，并报告在三个多跳问答数据集和在线服务模拟中提高证据召回、降低高负载P95延迟。",
+      "category": "paper",
+      "date": "2026-08-27",
+      "source": "arXiv",
+      "topic": ["rag"]
+    },
+    {
+      "id": 11,
+      "title": "ReliableRAG：用可信度引导推理链抵御检索误导信息",
+      "url": "https://arxiv.org/abs/2608.25487",
+      "summary": "ReliableRAG将检索文档拆成结构化三元组，同时评估查询相关性与事实可信度，仅保留高可信、非冗余的Top-K三元组，再逐步构建推理链。论文针对多跳RAG中一段欺骗性错误信息即可污染后续推理的问题，在三个多跳问答数据集和误导信息注入环境下报告了事实可靠性、抗干扰性和证据忠实性提升，但摘要没有给出具体提升数值。",
+      "category": "paper",
+      "date": "2026-08-27",
+      "source": "arXiv",
+      "topic": ["rag"]
+    },
+    {
+      "id": 12,
+      "title": "QLoRA获取—保持前沿：学习新事实会如何损害原有能力",
+      "url": "https://arxiv.org/abs/2608.25677",
+      "summary": "论文在Qwen3-4B上比较全参数微调与rank 8/16/32/64的QLoRA，发现适配器容量形成明显的获取—保持权衡：低rank较好保留域外能力但学习新事实有限，高rank提升事实改写泛化却更容易损害无关任务。研究提示，QLoRA并不天然保证能力保持，rank选择应结合知识注入目标和遗忘风险。",
+      "category": "paper",
+      "date": "2026-08-27",
+      "source": "arXiv / EMNLP 2026 Findings",
+      "topic": ["post-training"]
+    },
+    {
+      "id": 13,
+      "title": "AFDBench：用GRPO训练7B模型生成专业气象预报讨论",
+      "url": "https://arxiv.org/abs/2608.24954",
+      "summary": "AFDBench包含7732篇美国国家气象局预报讨论及结构化天气输入，使用Met-Align、Style-Align和Input-Grounding评估专业内容、文风和输入忠实度。论文用温度准确性、天气系统正确性和格式遵循等领域奖励训练7B模型；GRPO后Style-Align从0.318升至0.619，Input-Grounding从0.881升至0.940。",
+      "category": "paper",
+      "date": "2026-08-27",
+      "source": "arXiv",
+      "topic": ["post-training"]
+    },
+    {
+      "id": 14,
+      "title": "BTS-GRPO：用贝叶斯真相血清缓解LLM迎合性",
+      "url": "https://arxiv.org/abs/2608.25267",
+      "summary": "论文将Bayesian Truth Serum作为GRPO奖励，让模型针对同一问题生成回答群体，奖励相对自身预测更意外但在群体中更常见的答案，从而不依赖人工偏好标签。摘要报告在用户施压下答案反转率由23%降至4%，准确率由80%升至93%；代价是需要更高训练计算量。",
+      "category": "paper",
+      "date": "2026-08-27",
+      "source": "arXiv",
+      "topic": ["post-training"]
+    },
+    {
+      "id": 15,
+      "title": "TOPAS：面向多Agent工作流的前缀KV状态调度",
+      "url": "https://arxiv.org/abs/2608.25523",
+      "summary": "TOPAS联合决定哪些Agent系统提示前缀保留在KV cache、哪些请求优先执行，在前缀复用收益、任务剩余路径、缓存迁移和抢占成本之间进行工作流级优化。论文在合成DAG和MetaGPT工作流上实现于SGLang，报告合成负载平均JCT最多降低39.8%、P99 JCT最多降低49.4%；MetaGPT工作流平均JCT最高降低22.0%。",
+      "category": "paper",
+      "date": "2026-08-27",
+      "source": "arXiv",
+      "topic": ["memory", "agent"]
+    }
+  ]
+}
