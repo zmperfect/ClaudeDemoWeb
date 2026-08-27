@@ -149,6 +149,16 @@
       "date": "2026-08-27",
       "source": "arXiv",
       "topic": ["memory", "agent"]
+    },
+    {
+      "id": 16,
+      "title": "智谱上线并开源GLM-5.3-Flash：320B总参数、18B激活的原生多模态模型",
+      "url": "https://docs.bigmodel.cn/cn/guide/models/vlm/glm-5.3-flash",
+      "summary": "智谱于8月26日晚宣布上线并开源GLM-5.3-Flash（320B-A18B），是GLM-5系列首个原生多模态模型，支持图片、视频和文件输入，官方文档标注支持1M上下文。该模型此前以Ox Alpha匿名身份在OpenCode和OpenRouter进行测试；正式名称与官方模型文档已确认。报道和智谱资料称其重点面向编程与Agent场景，采用线性注意力与稀疏注意力混合架构以降低长上下文成本。",
+      "category": "news",
+      "date": "2026-08-27",
+      "source": "智谱AI开放文档；新浪财经/网易科技报道",
+      "topic": ["agent", "post-training"]
     }
   ]
 }
