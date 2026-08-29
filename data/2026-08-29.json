@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Anthropic发布物理MCP（MHS）：让Claude安全操控真实硬件设备",
+      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+      "summary": "Anthropic与霍华德·休斯医学研究所Janelia研究园区合作推出Model Hardware Standard（MHS），被称为\"硬件版MCP\"，通过标准化驱动程序、自然语言设备描述和MCP/CLI/API三种控制机制，让AI智能体安全操控显微镜、机械臂、液体处理器、激光器等物理设备。目前面向科研实验室和先进制造商开放研究预览版，AWS、Doosan Robotics、Tecan、Hugging Face（LeRobot）、Raspberry Pi等已接入测试；标准尚未开源，且仍需专家监督处理复杂物理故障判断。",
+      "category": "news",
+      "date": "2026-08-29",
+      "source": "机器之心/Anthropic",
+      "topic": ["agent"]
+    },
+    {
+      "id": 2,
+      "title": "阿里发布Qwen3.8-Flash-Next：借鉴DeepSeek Engram，125B MoE单卡4090可跑",
+      "url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+      "summary": "阿里开放Qwen3.8-Flash-Next全部权重，定位为Qwen4新架构早期预览版：125B MoE总参数+51B N-gram Embedding附加参数（受DeepSeek Engram启发的条件记忆稀疏方式），原生26.2万token上下文（YaRN扩展至100万），训练时间降至1/9。24GB显存4090+128GB内存可无量化部署；新增Qwen Sparse Attention使百万token长上下文预填充/解码分别加速7.6倍/4.9倍；API定价约为旗舰版1/12。",
+      "category": "news",
+      "date": "2026-08-29",
+      "source": "量子位",
+      "topic": ["agent", "post-training", "memory"]
+    },
+    {
+      "id": 3,
+      "title": "斯坦福「LLM-as-a-Verifier」自验证框架：开源模型反超Claude Fable 5",
+      "url": "https://arxiv.org/pdf/2607.05391",
+      "summary": "斯坦福团队（Ion Stoica、Azalia Mirhoseini、Chelsea Finn等参与）提出LLM-as-a-Verifier自验证框架：DeepSeek V4 Flash生成5条候选轨迹后由同一模型基于评分token的完整logit分布进行连续评价排序（复杂度从O(N²)降至O(Nk)），在Terminal-Bench 2.1上成功率从79%提升至88%，超越Claude Fable 5，成本降低约11倍；作为轨迹级奖励模型在SWE-Bench Verified等基准也有效。项目已冲上GitHub Trending第2位。",
+      "category": "paper",
+      "date": "2026-08-29",
+      "source": "机器之心/arXiv",
+      "topic": ["agent", "post-training"]
+    },
+    {
+      "id": 4,
+      "title": "Anthropic上线Claude内置浏览器，付费用户可用Claude in Chrome",
+      "url": "https://www.aitntnews.com/newDetail.html?newId=28708",
+      "summary": "Anthropic于8月26日正式向付费用户开放Claude in Chrome浏览器操作功能，使Claude具备直接浏览、点击、填表等网页操作能力。报道将其与OpenAI已关闭的Atlas浏览器（运营292天后停止）进行对比，视为Agent厂商在浏览器自动化赛道的持续竞争。",
+      "category": "news",
+      "date": "2026-08-29",
+      "source": "AITNT",
+      "topic": ["agent"]
+    },
+    {
+      "id": 5,
+      "title": "SKILL.state：用可变执行状态替代追加式历史，降低长时程Agent的上下文污染",
+      "url": "https://arxiv.org/abs/2608.26263",
+      "summary": "SKILL.state提出运行时架构，用显式、可变的执行状态取代仅追加式对话历史：每步仅接收不变的技能规范、当前结构化执行状态和最新观察，中间推理在生成验证过的状态更新后立即丢弃，防止提示词随执行历史无限增长。在多数据集、模型和执行环境测试中同时提升任务准确率并大幅降低累积token消耗，属架构无关的可扩展长时程Agent技能抽象方法，已被EMNLP接收。",
+      "category": "paper",
+      "date": "2026-08-29",
+      "source": "arXiv",
+      "topic": ["memory", "agent"]
+    },
+    {
+      "id": 6,
+      "title": "MemToC：LLM工具结果与参数化记忆冲突仲裁能力基准",
+      "url": "https://arxiv.org/abs/2608.26295",
+      "summary": "MemToC构建6504个评估场景（基于542个受控事实问题），测量工具增强LLM在工具返回结果与自身参数化记忆冲突时的\"来源正确性\"仲裁能力，而非仅测量来源偏好。发现5个7-9B开源模型强烈偏向信任工具结果，仅6.5%-17.1%场景能在工具出错时坚持保留正确记忆答案；SFT与DPO均可改善该指标，但20个方法-模型组合中19个会降低模型在工具出错/问题不可答时的弃权率，说明改进需与工具遵循能力、弃权能力联合评估。",
+      "category": "paper",
+      "date": "2026-08-29",
+      "source": "arXiv",
+      "topic": ["memory", "rag", "agent"]
+    },
+    {
+      "id": 7,
+      "title": "工具调用Agent的\"逐次调用级\"可靠性研究：深度6时约70%能力因早期错误丧失",
+      "url": "https://arxiv.org/abs/2608.26189",
+      "summary": "论文量化工具调用型Agent的两类失败模式（选错工具、参数错误），发现随调用链深度增加错误快速累积——深度达到6时约70%的任务能力因早期错误而丧失，提出\"条件化状态评分\"方法改进错误传播模型的估计精度，为长链路工具调用Agent的可靠性评估提供更细粒度的度量工具。",
+      "category": "paper",
+      "date": "2026-08-29",
+      "source": "arXiv",
+      "topic": ["agent"]
+    },
+    {
+      "id": 8,
+      "title": "Agent Mesh：面向非幂等Agent委托的可靠性原语",
+      "url": "https://arxiv.org/abs/2608.26225",
+      "summary": "分析147个生产级Agent软件交付平台事件，发现身份识别不足与证据不充分是多Agent委托失败的核心成因；提出以\"委托\"（而非消息）作为执行单元的7项可靠性原语，用于提升非幂等多Agent协作系统的稳健性，针对当前Agent编排框架缺乏事务性保证的问题提供工程化解决思路。",
+      "category": "paper",
+      "date": "2026-08-29",
+      "source": "arXiv",
+      "topic": ["agent"]
+    },
+    {
+      "id": 9,
+      "title": "TelecomGPT-R1-9B：LoRA多教师SFT+GRPO打造的开源电信推理模型",
+      "url": "https://arxiv.org/abs/2608.26126",
+      "summary": "面向电信协议、知识、建模、故障四维推理构建67427条SFT语料，训练分两阶段：多教师LoRA-based SFT注入领域知识，随后用GRPO结合DAPO解耦裁剪与动态采样策略进行强化学习微调（四维对齐二元验证奖励）。TelecomGPT-R1-9B在七个公开电信基准中开源模型排名第一，七轴均值与闭源前沿模型相当。",
+      "category": "paper",
+      "date": "2026-08-29",
+      "source": "arXiv",
+      "topic": ["post-training"]
+    },
+    {
+      "id": 10,
+      "title": "土耳其语RAG系统的分块与Embedding策略对比研究",
+      "url": "https://arxiv.org/abs/2608.26192",
+      "summary": "针对形态丰富的土耳其语，系统比较固定长度、语义分块、Docling版面感知分块三种分块策略与五种embedding模型、两种生成LLM的组合，通过9000组问答McNemar检验发现：分块策略显著影响embedding模型选择的重要性（版面感知分块下不同embedding差距缩小）；主流embedding模型总体无显著差异；最优组合非简单叠加，最佳配置准确率达87.0%。",
+      "category": "paper",
+      "date": "2026-08-29",
+      "source": "arXiv",
+      "topic": ["rag"]
+    },
+    {
+      "id": 11,
+      "title": "STeReO：面向语音与文本混合模态检索的统一重排序器",
+      "url": "https://arxiv.org/abs/2608.26194",
+      "summary": "STeReO用于聚合语音和文本两种模态的检索证据，解决混合模态重排序缺乏专用训练数据的问题，构建了包含查询、混合模态证据及相关性排序的数据集进行训练。实验显示其在单模态和混合模态检索增强问答场景下均显著提升下游任务性能，为多模态RAG系统的证据编排提供统一方案。",
+      "category": "paper",
+      "date": "2026-08-29",
+      "source": "arXiv",
+      "topic": ["rag"]
+    },
+    {
+      "id": 12,
+      "title": "INLAY：知识编辑基准的范围分类缺陷与无梯度外部记忆编辑器",
+      "url": "https://arxiv.org/abs/2608.26292",
+      "summary": "研究SERAC系列基于记忆的知识编辑器面临的\"范围判断\"问题——给定查询判断已存储编辑是否适用；提出无梯度编辑器INLAY，将编辑存于外部可寻址记忆而非修改模型权重。核心负面发现：现有知识编辑基准无法真正衡量范围分类能力，oracle路由与静态策略表现无差异，弃权策略从未获胜，根源在于基准普遍缺乏负样本设计，为记忆编辑评测方法论提出警示。",
+      "category": "paper",
+      "date": "2026-08-29",
+      "source": "arXiv",
+      "topic": ["memory"]
+    }
+  ]
+}

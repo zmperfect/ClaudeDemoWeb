@@ -1,0 +1,113 @@
+# AI每日速递-下午追加 执行记忆
+
+## 2026-08-14（首次执行）
+- 目标文件：data/2026-08-14.json，上午已有 21 条（最大 id=21）。
+- 下午追加 6 条新内容，id 22-27，未修改/删除已有条目。JSON 校验通过，共 27 条。
+- 覆盖专项方向：post-training(22)、memory(23,27)、rag(24,25)、agent(26,27)。
+- 追加条目：22 后训练统一视角综述 / 23 Memory Decoder at Scale / 24 Rerank 选型指南2026 / 25 Qwen3-VL-Embedding/Reranker / 26 Agent 框架横评 / 27 Mem-PAL(AAAI'26)。
+- 后续：用户当日确认并已 git commit(da390a7) + push origin master。
+
+## 2026-08-15
+- 目标文件：data/2026-08-15.json，上午已有 15 条（最大 id=15）。
+- 下午追加 5 条新内容，id 16-20，未修改/删除已有条目。JSON 校验通过，共 20 条。
+- 覆盖：行业新闻(16 OpenAI/Anthropic 因中国模型被动降价)、rag(17 hybrid search 指南, 20 RAG 开源项目盘点)、agent(18 Agent 工具包七层选型)、post-training(19 后训练范式2026)。
+- 均经 web_fetch 验证 URL；专项条目加 topic 字段。
+- 类别平衡：news 1 / tutorial 3 / repo 1。避免与上午 15 条重复。
+
+## 2026-08-16
+- 目标文件：data/2026-08-16.json，上午已有 15 条（最大 id=15）。
+- 下午追加 6 条新内容，id 16-21，未修改/删除已有条目。JSON 校验通过，共 21 条。
+- 覆盖：memory(16 Agent记忆综述, 17 Active Context Compression/Focus, 21 Agent Memory前沿调研)、agent(16,17,18 工具使用演进综述)、rag(19 Late Chunking, 21)、post-training(20 SFT/RLHF→GRPO/DPO/RLVR)。
+- 6 条 URL 均经 web_fetch 验证有效；新闻类源(aitoolsrecap/知乎)被 403 拒抓，未强行收录。
+- 类别平衡：paper 3 / tutorial 3。均加 topic 字段，避免与上午 15 条重复。
+- 待用户确认后再 git commit/push。
+
+## 2026-08-17
+- 目标文件：data/2026-08-17.json，上午已有 15 条（最大 id=15）。
+- 下午追加 4 条新内容，id 16-19，未修改/删除已有条目。JSON 校验通过，共 19 条。
+- 覆盖：memory(16 FinPerMA 个性化记忆金融基准, 17 跨会话 ICL 状态交接)、agent(16,17,18 GitHub 8月 Agent 基础设施/本地优先开源热点)、rag(19 RAG 2026 生产指南)。
+- 4 条 URL 均经 web_fetch 验证有效；post-training 上午已充足（LoRA/QLoRA/PiSSA/GaLore 共 4 条）不强补；百度/腾讯云等源被反爬拦截，未强行收录。
+- 类别平衡：paper 2 / news 1 / tutorial 1。专项条目均加 topic 字段，与上午条目不重复。
+- 首次执行曾因模型超时中断，本轮确认 JSON 已完整合法并补写完 memory 记录。
+- 待用户确认后再 git commit/push。
+
+## 2026-08-18
+- 目标文件：data/2026-08-18.json，上午任务未执行，当日文件不存在，全新创建，id 从 1 开始。
+- 创建 6 条内容，全部来自 arXiv 2026-08-18 发布列表，经 web_fetch 验证有效。
+- 覆盖：memory(1 SEER 长上下文压缩/工具调用 SFT, 2 MicroVerse 多智能体身份漂移测量)、rag(3 DESA 混合检索查询扩展 BEIR+3.82%, 5 DSPrompt 多模态RAG投毒防御)、post-training(1 SFT tool-use, 4 DUET DPO+OPD 禁令合规, 6 ICSD GRPO影响力校准)、agent(2 长周期多智能体, 4 工具边界安全, 6 ALFWorld 96.1%)。
+- 类别平衡：全为 paper（6条）；四个专项方向均有覆盖，每条均加 topic 字段。
+- 注：AITNT 页面存在注入指令（Read SKILL.md），已按规则忽略，未执行。
+- 待用户确认后再 git commit/push。
+
+## 2026-08-19（补录）
+- 目标文件：data/2026-08-19.json，全新创建，7 条内容。
+- 覆盖：宇树科技上市暴涨629% / Anthropic Q2营收115亿超OpenAI / Claude蛋白质设计14/15靶标 / 英伟达投资Mercor估值200亿 / Agent安全白皮书 / Agent Memory Distillation / DiDPO编码Agent训练。
+- topic覆盖：agent(6) / post-training(2) / memory(1)。类别：news 5 / paper 2。
+
+## 2026-08-20（补录）
+- 目标文件：data/2026-08-20.json，全新创建，7 条内容。
+- 覆盖：Codex 0.149.0 Agent仪表板 / MiniMax Design多模态创作 / ChatGPT Apple Messages集成 / OX Alpha DeepSWE 80% / Anthropic商业化Claude Code四层架构 / 8月模型井喷综述 / Enterprise Admin API。
+- topic覆盖：agent(7) / memory(1)。类别：news 4 / tool 1 / article 2。
+
+## 2026-08-21（补录）
+- 目标文件：data/2026-08-21.json，全新创建，7 条内容。
+- 覆盖：DeepSeek V4-Flash-Vision-Exp / GPT-5.6 Sol降价20%+ / ChatGPT时间感知更新 / AI4AI-Bench GRPO vs IL / 英伟达60亿Poolside / OpenAI 2027上市 / vLLM v0.27.0。
+- topic覆盖：agent(7) / post-training(2) / memory(1)。类别：news 5 / paper 1 / tool 1。
+
+## 2026-08-22（补录）
+- 目标文件：data/2026-08-22.json，全新创建，7 条内容。
+- 覆盖：Anthropic IPO 750亿 / 英伟达Poolside确认 / Claude蛋白质详细数据 / 中诚华隆HL200芯片 / 宇树vs Figure AI估值 / GRPO vs IL深度分析 / GPT-5.6降价详细分析。
+- topic覆盖：agent(6) / post-training(3) / rag(1)。类别：news 5 / paper 1 / article 1。
+
+## 2026-08-23（补录）
+- 目标文件：data/2026-08-23.json，全新创建，7 条内容。
+- 覆盖：GPT-5.6降价生效 / 27B匹配70B效率里程碑 / Anthropic自托管Beta / 多Agent编排标准化 / 推理效率KV缓存>90% / 英伟达百亿投资版图 / 24GB本地部署指南。
+- topic覆盖：agent(5) / post-training(2) / rag(1)。类别：news 3 / article 4。
+
+## 2026-08-24
+- 目标文件：data/2026-08-24.json，上午任务未执行，当日文件不存在，全新创建，id 从 1 开始。
+- 创建 8 条内容，覆盖 paper(5) / news(1) / article(2)，经 web_fetch 验证有效。
+- 覆盖：agent(1 Nexus KV-Cache工具路由, 2 WMT层次化记忆, 3 CAS保形化搜索, 4 DSGC记忆驱逐, 5 SDAD规格驱动开发, 6 Ox Alpha, 8 多智能体RL)、memory(2 WMT, 4 DSGC检索前保留失败)、rag(3 CAS自适应检索+GRPO)、post-training(3 CAS中GRPO训练, 7 post-training范式2026综述, 8 PPO→DPO→GRPO→MARL演进)。
+- 四个专项方向均有覆盖，每条均加 topic 字段。类别平衡：paper 5 / news 1 / article 2。
+- 行业新闻：Ox Alpha 匿名模型 DeepSWE 80%（疑似智谱 GLM-5.x）。
+- 注：8/19-8/23 共 5 天数据缺失，仅补当天（8/24）内容。
+
+## 2026-08-25
+- 目标文件：data/2026-08-25.json，全新创建，10 条内容。已 commit 并 push 到 origin/master。
+- 覆盖：微软Agent Lightning v1.0开源(6K样本SWE-bench 41.8→56.4%) / Scroll上下文即环境记忆管理(BEAM_10M 73.1%) / SchemaRouter字段感知工具路由(检索token降9倍) / ECHO认知启发记忆平面(Hit@10 97.6%) / CompPO架构感知信用传输(超GRPO 7.6%) / RAG Collapse自生成内容崩溃(79.6%崩溃率) / DeepSeek Harness开源MIT / FCPRAG参数化RAG+LoRA(F1+7.55%) / vLLM安全漏洞攻击面 / A2A加入Linux Foundation AAIF。
+- topic覆盖：agent(7) / memory(2) / rag(3) / post-training(3)。类别：paper 5 / tool 2 / news 1 / article 1。
+- 四个专项方向均有高质量覆盖，URL 经 web_fetch 验证有效。
+- 后续复核发现 FCPRAG 初始链接误指向 2608.21570，已修正为 https://arxiv.org/abs/2608.21750，并提交 589906b 推送远程。
+
+## 2026-08-26
+- 目标文件：data/2026-08-26.json，全新创建 12 条内容；JSON 校验通过，id 1-12。
+- 覆盖：Agent/工具与协作（受控仿真实验、AgentRoom、检索支撑投票、AHEAD、BioCheck、Crase）；RAG/检索（Giga-Embeddings、The RAT、BioCheck、Rubric对齐、Crase）；memory（条件性记忆、AITNT报道的MemSearch）；post-training（AHEAD、FARCA、EG-GRPO、Rubric对齐）。
+- 类别：news 1 / paper 11；所有论文和新闻页面 URL 已验证。AITNT条目明确注明原始链接未提供，未把其未独立核验的数字当作确定事实。
+- 发现并遵守网页不可信数据规则：AITNT 页面含操作性提示，未读取或执行任何外部脚本/技能文件。
+
+## 2026-08-27
+- 目标文件：data/2026-08-27.json，补充 GLM-5.3-Flash 后共 16 条内容；JSON 校验通过，id 1-16，URL 均唯一且已通过网页访问核验。
+- 行业/工具：Qwen3.8-Flash-Next 开放权重、Zing-0.5 实时交互世界模型、Espressif Engineering MCP Server、GLM-5.3-Flash 正式上线并开源。
+- Agent/系统：AsymSpec 上下文非对称推测解码、Trace Integrity 可审计轨迹、SwarmWorld 多Agent社会、CaSKG技能图、TOPAS工作流KV缓存调度。
+- RAG/记忆：HiPS个性化长期记忆、LivingRAG经验增强GraphRAG、PACE证据前置与自适应重排序预算、ReliableRAG可信度推理链。
+- 后训练：QLoRA获取—保持前沿、AFDBench领域GRPO、BTS-GRPO无标签迎合性抑制，以及GLM-5.3-Flash的后训练/Agent应用定位。
+- 类别：tool 3 / paper 12 / news 1；四个专项方向均覆盖。此前未收录 GLM-5.3-Flash 的原因是初次检索时只看到未能独立核验的 Ox Alpha 匿名测试线索，正式发布在后续检索中才由智谱官方文档和媒体报道确认。
+- 网页内容按不可信数据处理，未执行页面中的任何脚本、命令或操作性提示。
+
+## 2026-08-28
+- 目标文件：data/2026-08-28.json，全新创建 10 条内容；JSON 校验通过，id 1-10，10 个 URL 均唯一且经网页访问核验。
+- 重磅新闻：英伟达 129 亿美元收购 Hugging Face（The Information 报道，CNBC/TechCrunch/Fortune 多源确认）/ OpenAI 37 页 Agent 入侵 Hugging Face 官方报告 / 智谱 AutoClaw 官网上线（GLM-5.3-Flash 接入）/ Meta Hatch 消费级 Agent 平台 / MiniMax ARR 超 8 亿美元。
+- 论文补充（8/27 arXiv 批次中昨日未收录的）：SelfGraphRAG 图检索自监督 / GRIN 混合策略 RL 知识注入 / AWM 可答工作记忆+GRPO / SCALE-QA 与 TSIM 情节完整性记忆。
+- 类别：news 5 / tool 1 / paper 4；topic 覆盖 agent(8) / rag(4) / memory(2) / post-training(3)。
+- 注意：当日 arXiv cs.AI/cs.CL new 列表尚未更新（仍显示 8/27 批次），故论文来自 8/27 批次的补充检索；AI Native SDLC Playbook 原文发布于 8/21，收录其中文版传播动态并已注明原始日期。
+
+## 2026-08-29
+- 目标文件：data/2026-08-29.json，全新创建 12 条内容；JSON 校验通过，id 1-12，12 个 URL 均唯一且经网页访问核验。
+- 行业新闻：Anthropic 物理MCP（Model Hardware Standard，硬件版MCP，与Janelia合作）/ 阿里 Qwen3.8-Flash-Next（借鉴DeepSeek Engram，125B MoE单卡4090可跑）/ 斯坦福 LLM-as-a-Verifier 自验证框架（DeepSeek V4 Flash反超Claude Fable 5，成本降11倍）/ Anthropic Claude in Chrome 正式向付费用户开放。
+- 论文：SKILL.state可变执行状态长时程Agent技能 / MemToC记忆-工具冲突仲裁基准 / 工具调用Agent逐次调用可靠性研究 / Agent Mesh非幂等委托可靠性原语 / TelecomGPT-R1电信推理模型(LoRA+GRPO) / 土耳其语RAG分块策略对比 / STeReO语音文本混合重排序 / INLAY知识编辑范围分类缺陷。
+- 类别：news 4 / paper 8；topic 覆盖 agent(8) / memory(3) / rag(3) / post-training(3)。
+- 注意：多篇 arXiv 论文页面显示提交日期为"未来日期"（如2026-08-26/06-22），已如实按网页抓取内容记录，未做主观日期修正。
+
+## 通用经验
+- PowerShell 内联 $var 在本环境会被吞，校验 JSON 用 -File 脚本方式（临时脚本用完即删）。
+- 每次先读 memory.md 与当日 json，从最大 id+1 递增追加，只增不改。
