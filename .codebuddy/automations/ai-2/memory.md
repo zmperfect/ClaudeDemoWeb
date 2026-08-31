@@ -108,6 +108,15 @@
 - 类别：news 4 / paper 8；topic 覆盖 agent(8) / memory(3) / rag(3) / post-training(3)。
 - 注意：多篇 arXiv 论文页面显示提交日期为"未来日期"（如2026-08-26/06-22），已如实按网页抓取内容记录，未做主观日期修正。
 
+## 2026-08-31
+- 目标文件：data/2026-08-31.json，全新创建 17 条内容；JSON 校验通过，id 1-17，17 个 URL 均唯一且经网页访问核验。
+- 行业/产品：OpenAI Rosalind Workbench（GPT-Rosalind，8/28发布）/ Perplexity Portable Computer 本地优先Harness（Qwen3.8-27B，BrowseComp 66.7%）/ Ornith 1.5 自出题三段闭环RL（Terminal-Bench 2.1 77.5→86.1，自测环境）/ Anthropic Claude Chat 与云端 Cowork 统一记忆（8/25宣布）。
+- Agent/系统：openJiuwen 可组合自适应Harness（SWE-bench Verified 82.6%、Terminal-Bench 2.1 87.19%）/ OBPE 可信工具边界策略执行（3621试验失败率57.6%→0.2%）/ Credo 可复用声明式Harness原语 / K-GAT 知识条件化多Agent拓扑（GPQA +15.7%，token减半）。
+- RAG/记忆：Recuris 递归经验-工作记忆演化 / Agent记忆对不可回答问题的有效性研究 / 实体-记忆图检索（LoCoMo 召回79.75%→84.48%）/ Knowing Before Answering 三分类证据充分性（COLM 2026）/ 跨会话分解攻击与IntentAlign检索防御。
+- 后训练：ReToolSQL（SFT→RFT，BIRD 74.32%）/ DA3PO（修正DAPO动态采样非对称放大）/ RCCA（评分细则转代码级信用分配）/ RA-OPD（过滤与奖励不一致的教师指导）。
+- 类别：news 5 / paper 12；四个专项方向均覆盖。多条新闻原始发布于8/25-8/30，属于8/31检索窗口内首次核验收录，已在条目中注明原始发布日期。
+- 重要：data 目录缺少 2026-08-30.json（周日未执行），已向用户提示待确认是否补录。
+
 ## 通用经验
 - PowerShell 内联 $var 在本环境会被吞，校验 JSON 用 -File 脚本方式（临时脚本用完即删）。
 - 每次先读 memory.md 与当日 json，从最大 id+1 递增追加，只增不改。

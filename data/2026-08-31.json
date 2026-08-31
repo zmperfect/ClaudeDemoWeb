@@ -1,0 +1,174 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "OpenAI发布Rosalind Workbench：把Codex变成生命科学家的co-scientist",
+      "url": "https://www.aitntnews.com/newDetail.html?newId=28755",
+      "summary": "OpenAI于8月28日发布面向生命科学研究的Rosalind Workbench，以专为生物与药物研发打造的垂直推理模型GPT-Rosalind为底座，内嵌于ChatGPT并以研究预览形式开放。产品整合分子结构查看器、生物序列与比对查看器、病理切片查看器三大可视化组件，并单独提供覆盖FASTQ质控、Bulk/单细胞RNA-seq、ATAC-seq、ChIP-seq等流程的NGS Analysis Workbench；结构预测等高度专业化任务接入Boltz、Tamarind Bio、Adaptyv等外部插件。官方称GPT-Rosalind在BixBench上取得已公开模型中的顶尖成绩，超越Grok4.2、GPT5.4等模型；Explore模式面向普通提问，Research模式需机构验证申请。",
+      "category": "news",
+      "date": "2026-08-31",
+      "source": "智药局/AITNT；OpenAI 8月28日发布",
+      "topic": ["agent"]
+    },
+    {
+      "id": 2,
+      "title": "Recuris：首个把递归自我改进用在记忆控制层的Agent架构",
+      "url": "https://arxiv.org/abs/2608.24876",
+      "summary": "新加坡国立大学、普林斯顿大学联合斯坦福、牛津等团队提出Recuris（Recursive Experiential–Working Memory Evolution），是首个将递归自我改进应用于记忆控制层的Agent架构。核心三项技术：经验记忆—工作记忆耦合（工作记忆持续追踪任务进展并据此从经验记忆中选取技能，检查器依据环境回执验证状态更新）、结构化轨迹实现组件级失败定位、有界验证门控的递归演化。论文称无需训练即从3B开源模型到Claude Opus 5、GPT-5.6-Sol全面提升，在τ²-Retail四个任务长度分位上领先基线+17.0至+44.7且不随任务变长衰减；失败定位准确率上，看最终成败为13.0%、看原始轨迹37.0%、看结构化轨迹达64.8%。代码开源于Gen-Verse/Recuris。",
+      "category": "paper",
+      "date": "2026-08-31",
+      "source": "arXiv；机器之心/AITNT",
+      "topic": ["memory", "agent"]
+    },
+    {
+      "id": 3,
+      "title": "Ornith 1.5：AI自出题、自搭脚手架、自解题的三段闭环强化学习",
+      "url": "https://ornith.ai/ornith_1_5.html",
+      "summary": "Ornith发布1.5版本，把训练数据生产环节整体搬进强化学习闭环：给定代码库和任务类型说明，模型先自生成比已解决任务更难一档的新题，再为每题生成或改进专属脚手架（指令、工具、拆解策略、编排逻辑），最后在任务与脚手架双重条件下跑解题轨迹，奖励回传三段统一用GRPO优化。出题质量由有效性、前沿难度、新颖性三者相乘打分（任一近零即归零），难度靶心设为经验成功率约0.2并随模型能力自动爬升。自测Terminal-Bench 2.1从1.0的77.5升至86.1（397B MoE），35B-A3B版本以约3B激活参数跑出67.8，9B Dense端侧版46.2。需注意该成绩为团队自测环境（4小时超时、32核CPU、48GB内存），与官方验证榜单不可直接比较。",
+      "category": "news",
+      "date": "2026-08-31",
+      "source": "新智元/AITNT；Ornith官方博客",
+      "topic": ["post-training", "agent"]
+    },
+    {
+      "id": 4,
+      "title": "Perplexity Portable Computer：为27B端侧模型量身定制的本地优先Harness",
+      "url": "https://www.perplexity.ai/hub/blog/a-local-first-agent-for-private-and-cost-effective-knowledge-work",
+      "summary": "Perplexity推出本地优先智能体Portable Computer，默认整套技术栈（模型、框架、对话、轨迹）运行在用户设备上，仅在网络搜索、连接器或顾问升级时跨出设备边界。框架围绕端侧模型能力定制：保持极简核心系统提示与工具集，其余能力模块化为按需技能；实测Qwen3.8-27B超过10万token后性能下降，因此配套上下文压缩；把常用MCP转为紧凑命令行工具以节省上下文；强制OS级沙箱执行。BrowseComp准确率66.7%（Pi 50.2%、Hermes 43.9%），ParseBench-100达65.1%（34.6%/13.9%）。顾问升级机制使Terminal-Bench 2.1从59.6%升至73.0%，成本约前沿方案的三分之二；经拒绝采样微调+强化学习后训练的PPLX 27B在本地知识工作台达85.4%。",
+      "category": "news",
+      "date": "2026-08-31",
+      "source": "机器之心/AITNT；Perplexity官方博客",
+      "topic": ["agent", "post-training"]
+    },
+    {
+      "id": 5,
+      "title": "Anthropic打通Claude Chat与云端Cowork记忆，并开放可编辑的Topics",
+      "url": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-",
+      "summary": "Anthropic于8月25日宣布Claude Chat与云端Claude Cowork共用同一套记忆系统：聊天中积累的项目背景、指标定义、人员偏好可直接供Cowork执行任务时调用，Cowork产生的新上下文也回流至Chat。记忆以按话题生成的Topics条目边聊边存，用户可在Settings > Memory中查看、修改、删除，并按项目独立隔离；敏感信息分三层处理——默认存储层、需用户主动开启的健康/宗教等类别、永不存储的证件号与金融账户等。官方说明共享记忆仅在Cowork运行于云端时生效，不包含本地会话，且组织所有者关闭记忆将永久删除全组织条目。",
+      "category": "news",
+      "date": "2026-08-31",
+      "source": "新智元/AITNT；Anthropic官方博客",
+      "topic": ["memory", "agent"]
+    },
+    {
+      "id": 6,
+      "title": "openJiuwen：面向长时程编码Agent的可组合、自适应开源Harness",
+      "url": "https://arxiv.org/abs/2608.27969",
+      "summary": "openJiuwen针对长时程编码Agent提出两大挑战——结构可组合性（Structural Composability）与运行时自适应（Runtime Adaptivity），提供共享执行基座与Rail式能力组合机制，覆盖单Agent、委派子Agent与Swarm Flow多种形态，使开发者在统一执行语义下搭建复杂harness；同时让语义诊断、执行结果、任务进展等持续产生的新证据动态影响上下文、反馈与任务控制。在SWE-bench Verified与Terminal-Bench 2.1上分别达到82.6%和87.19%，超过所选官方榜单最强点估计3.4和3.39个百分点。",
+      "category": "paper",
+      "date": "2026-08-31",
+      "source": "arXiv",
+      "topic": ["agent"]
+    },
+    {
+      "id": 7,
+      "title": "OBPE：在Agent推理之外建立可信工具边界的策略执行",
+      "url": "https://arxiv.org/abs/2608.27646",
+      "summary": "论文指出把人类凭据交给Agent会使其继承权限却不继承判断力，而提示词是脆弱的护栏。OBPE在Agent推理之外建立可信边界：授权类型化操作与资源、在后端调用前收窄查询、在响应中过滤记录与字段或对取值脱敏，并支持基于参数值或外部状态的语义门控；数据策略所有者设定最大授权，Agent策略只能收窄而不能放宽。论文证明策略计划与顺序无关且Agent策略无法抬高上限，并发布HTTP代理原型。在Jira与ServiceNow模拟环境、四个模型、含20个自适应红队任务的基准中，3621次试验的轨迹失败率从57.6%降至0.2%（聚类加权降低41.2点），任务完成率从79.1%降至60.9%，而配对的安全-有用完成率提升21.8点。",
+      "category": "paper",
+      "date": "2026-08-31",
+      "source": "arXiv",
+      "topic": ["agent"]
+    },
+    {
+      "id": 8,
+      "title": "Credo：从搜索出的Harness中恢复可复用的声明式原语",
+      "url": "https://arxiv.org/abs/2608.27790",
+      "summary": "编码Agent已能通过搜索发现优秀的harness，但产物是一段不透明的命令式代码，其逻辑步骤、运行时信号、物理执行决策与提示策略都隐式且任务专属，导致新任务只能从零重新搜索。Credo从已搜索出的harness中恢复结构化的声明式描述，为每个抽取出的原语打上元数据并连同来源（provenance）编目，编译器即可把存量的原语绑定生成新任务的harness，无需重跑搜索。论文给出初步结果，并提出面向数据库社区的研究议程：基于代价的声明式目录编译、模型与负载漂移下的目录维护。",
+      "category": "paper",
+      "date": "2026-08-31",
+      "source": "arXiv",
+      "topic": ["agent"]
+    },
+    {
+      "id": 9,
+      "title": "K-GAT：让外部检索证据直接决定多Agent协作拓扑",
+      "url": "https://arxiv.org/abs/2608.27984",
+      "summary": "现有多Agent拓扑生成主要依赖大模型的参数化知识，外部检索只被当作被动工具而非协作结构的显式决定因素，造成\"结构—知识错配\"（冗余交互或验证不足）。K-GAT把协作拓扑设计形式化为知识条件化的结构学习问题，将外部证据直接融入自回归图生成。在知识密集型基准上表现优异：专家级GPQA数据集上超过LLM-Debate基线15.7个百分点，同时消耗的计算token不到其一半。",
+      "category": "paper",
+      "date": "2026-08-31",
+      "source": "arXiv",
+      "topic": ["agent", "rag"]
+    },
+    {
+      "id": 10,
+      "title": "什么样的Agent记忆才真正有助于可靠处理不可回答问题？",
+      "url": "https://arxiv.org/abs/2608.27924",
+      "summary": "在统一的Agentic RAG框架下，系统评估了四种代表性记忆方法在三个不可回答问题（UAQ）数据集和两个基座模型上的作用。结论是：记忆确实能改善UAQ表现，但收益是选择性的而非普遍的，且在数据集偏移下依然脆弱；跨模型复用记忆通常比跨数据集迁移更可行，说明\"可答性模式\"的偏移比基座模型变化对记忆复用的挑战更大；UAQ增益更多通过决策引导而非轨迹塑形得以保持，表示形式对效果影响显著——程序化与规则化记忆往往提供最可靠支撑，且与互补的行为信号组合时最有效。可靠的UAQ记忆不在于存储更多经验，而在于保留可迁移的行为引导。",
+      "category": "paper",
+      "date": "2026-08-31",
+      "source": "arXiv",
+      "topic": ["memory", "rag", "agent"]
+    },
+    {
+      "id": 11,
+      "title": "实体-记忆图检索提升长对话问答的证据覆盖率",
+      "url": "https://arxiv.org/abs/2608.27925",
+      "summary": "该方法把对话轮次保留为逐字的Memory节点，通过共享Entity连接重复提及，并以有向时序边连接相邻Memory；查询时依次经过Entity门控、语义融合、一跳时序恢复与稠密回填，从而保留稠密余弦排序会遗漏的邻近Memory。在来自10个LoCoMo对话的1986个问题上，与共享向量、上下文预算、答案协议和评估器的稠密对照相比，图检索把top-k 25的官方证据召回率从79.75%提升至84.48%，该优势在top-k 5到50区间稳定存在；但未观察到最终答案F1的整体差异。",
+      "category": "paper",
+      "date": "2026-08-31",
+      "source": "arXiv",
+      "topic": ["memory", "rag"]
+    },
+    {
+      "id": 12,
+      "title": "Knowing Before Answering：解码模型内部信号判断RAG证据是否充分",
+      "url": "https://arxiv.org/abs/2608.27661",
+      "summary": "把RAG中检索证据的可答性判断形式化为三分类问题——充分、不充分、相互冲突，并构建含虚构信息的受控基准数据集，使用隐藏激活与注意力派生特征训练轻量线性分类器。跨16个不同架构和规模的模型，该基于特征的路由 consistently 优于基于提示的基线和专用RAG模型。信息动力学分析显示最具判别力的信号位于中间层，且隐藏激活状态比注意力值或MLP特征输出更有效，表明模型内部确实编码了\"检索证据是否足以支撑作答\"这一信号，可用于RAG分诊。（已收录于COLM 2026）",
+      "category": "paper",
+      "date": "2026-08-31",
+      "source": "arXiv",
+      "topic": ["rag"]
+    },
+    {
+      "id": 13,
+      "title": "跨会话分解攻击：规模化的组合式安全风险与意图对齐检索防御",
+      "url": "https://arxiv.org/abs/2608.27945",
+      "summary": "研究跨会话分解攻击——在多次独立交互中提出看似无害的子问题，之后再重组成被禁止的目标，将其形式化为组合式安全风险并给出条件风险迁移界：当参考环境已含有风险重组的分散证据时，部署风险与参考风险之差由模型在允许子问题上的超额损失控制。合成 withholding 实验显示更宽的transformer对从未逐字出现但可由注入支撑事实恢复的留出指令赋予更低损失；600个意图的预训练模型评估显示更大的Qwen3/Gemma3成员在同一分解-重组流程下可能产生更大的有害能力提升。防御方面，22M参数的意图对齐检索器IntentAlign-MiniLM在留出意图检索上超过远大于它的embedding模型，并取得所测护栏中最好的学习式检索器有害召回。",
+      "category": "paper",
+      "date": "2026-08-31",
+      "source": "arXiv",
+      "topic": ["rag", "agent"]
+    },
+    {
+      "id": 14,
+      "title": "ReToolSQL：SFT预热+Agentic强化微调，单模型登顶BIRD榜单",
+      "url": "https://arxiv.org/abs/2608.27796",
+      "summary": "针对多数text-to-SQL强化学习方法把生成当作单轮任务、无法从错误中迭代恢复的问题，ReToolSQL提出两阶段训练：先在拒绝采样的推理轨迹上做监督预热（SFT，扩展可解问题的pass@k覆盖），再在多轮工具使用轨迹上做智能体强化微调（RFT，教会模型何时验证、检索什么证据、如何依据执行反馈修复SQL）。应用于Gemma-4-31B指令微调版，仅RFT即在BIRD-SQL开发集取得73.66%执行准确率；SFT→RFT最佳模型达74.32%（自一致性74.77%），写作时在BIRD单模型开发集榜单排名第一，且无需除基准本身之外的人工标注。",
+      "category": "paper",
+      "date": "2026-08-31",
+      "source": "arXiv",
+      "topic": ["post-training", "agent"]
+    },
+    {
+      "id": 15,
+      "title": "DA3PO：修正DAPO动态采样在困难提示上的非对称优势放大",
+      "url": "https://arxiv.org/abs/2608.27982",
+      "summary": "理论分析指出，DAPO的动态采样通过过滤全部正确或全部错误的提示来消除零梯度、提升稳定性，但在困难提示上会非对称地放大优势：错误回答获得的放大强于正确回答，导致模型倾向于规避已观察到的错误回答，而不是利用那些难以采样到的正确回答，训练效率下降。为此提出Direct Advantage Amplification（DAA）放大困难提示上难以采样的正确回答的优势，与DAPO结合得到DA3PO，改动不足30行代码；实验显示DA3PO显著优于GRPO及其他经典GRPO变体。",
+      "category": "paper",
+      "date": "2026-08-31",
+      "source": "arXiv",
+      "topic": ["post-training"]
+    },
+    {
+      "id": 16,
+      "title": "RCCA：把功能评分细则转化为代码级的细粒度信用分配",
+      "url": "https://arxiv.org/abs/2608.27906",
+      "summary": "交互式Web应用生成的质量取决于多项面向用户的功能需求，每项往往对应局部代码区域（事件处理器、状态更新、DOM片段、CSS选择器），而标准GRPO把这些结构化结果压缩成单一序列级奖励并均匀施加到所有token，削弱了信用分配。RCCA把评分细则级的功能反馈转换为针对生成代码的局部优化信号：围绕显式功能评分项构建训练任务、用分层奖励区分格式/源码/运行时/功能四类失败，并把评估器生成的文本归因对齐到责任代码区间与token。所得Ling-RCCA-Flash在MiniAppBench上得41.25（较Ling-3.0-Flash提升32.20点，略超Claude Opus 4.5），ArtifactsBench达76.19（较SFT模型+4.48，超过GPT-5分3.64点）。",
+      "category": "paper",
+      "date": "2026-08-31",
+      "source": "arXiv",
+      "topic": ["post-training", "agent"]
+    },
+    {
+      "id": 17,
+      "title": "RA-OPD：过滤与结果奖励不一致的教师指导，稳定在线策略蒸馏",
+      "url": "https://arxiv.org/abs/2608.27960",
+      "summary": "在线策略蒸馏（OPD）中，教师对学生自生成前缀上的指导并不总是可靠——可能把学生推离正确轨迹或推向错误轨迹，与结果奖励不一致而误导优化。RA-OPD的做法是逐条检查采样轨迹的轨迹级蒸馏回报是否与结果奖励一致，过滤掉方向不一致的轨迹，只保留能推动学生走向正确轨迹或抑制错误轨迹的更新，无需额外计算开销。在Qwen3与DeepSeek-R1系列模型的七个数学基准和三个代码基准上，RA-OPD显著优于标准OPD及其他被测OPD变体。",
+      "category": "paper",
+      "date": "2026-08-31",
+      "source": "arXiv",
+      "topic": ["post-training"]
+    }
+  ]
+}
