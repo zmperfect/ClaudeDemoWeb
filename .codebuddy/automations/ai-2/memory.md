@@ -117,6 +117,18 @@
 - 类别：news 5 / paper 12；四个专项方向均覆盖。多条新闻原始发布于8/25-8/30，属于8/31检索窗口内首次核验收录，已在条目中注明原始发布日期。
 - 重要：data 目录缺少 2026-08-30.json（周日未执行），已向用户提示待确认是否补录。
 
+## 2026-09-01
+- 目标文件：data/2026-09-01.json，全新创建 15 条内容；JSON 校验通过，id 1-15，15 个 URL 均唯一且经网页访问核验。
+- 行业新闻（均为AITNT聚合转述，未见一手信源，条目内已注明）：SpaceX工程师20+GrokBot自动合并PR / 众擎机器人EngineAI Awaken五层架构60%资源投大脑 / DeepSeek Harness插件生态短板(1.1万仓库仅955个有用) / Google DeepMind与杜克大学Co-Scientist首次实验室造出半导体。
+- Agent论文：WM-R1世界模型替代真实环境训练GUI Agent / CURA只读遥测检测Agent自我报告失效 / RealSWE真实请求下编码Agent降6.4pp / OpenClaw vs NanoBot资源消耗差19倍完成率无显著差异。
+- RAG论文：Twin Worlds用等变性检验RAG答案是否基于证据(EMNLP26) / FinExam-10K万题金融基准+门控检索 / Stance-Aware Argument Retrieval嵌入模型主题偏见与过度纠正两难。
+- Memory论文：KV Cache淘汰的概率论新解(NP-hard证明+解码时校正)。
+- 后训练论文：INSPIRE两阶段偏好训练内化数学推理(EMNLP26) / Rubric-guided RL贝叶斯统一综述(EMNLP26 Findings) / 小模型KD双峰崩溃(单种子评估误导性)。
+- 类别：news 4 / paper 11；topic 覆盖 agent(8) / rag(3) / memory(1) / post-training(3)。
+- 注意：arXiv cs.AI/cs.CL new 列表在本次检索时仍为8/31批次，本日论文取自该批次中此前未收录的条目；FinExam-10K、KV Cache Eviction、Stance-Aware三篇因AI摘要工具截断/算错arXiv编号，已通过web_search二次核实纠正为正确ID。
+- 提醒：data/2026-08-30.json 仍缺失（用户未确认是否补录），本次未处理。
+
 ## 通用经验
 - PowerShell 内联 $var 在本环境会被吞，校验 JSON 用 -File 脚本方式（临时脚本用完即删）。
 - 每次先读 memory.md 与当日 json，从最大 id+1 递增追加，只增不改。
+- arXiv 网页摘要提取的编号存在被截断/算错风险，遇到可疑编号（如末位数字异常）应用 web_search 交叉核实标题匹配的真实 arXiv ID。
