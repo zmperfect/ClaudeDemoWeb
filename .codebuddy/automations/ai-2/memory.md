@@ -108,6 +108,13 @@
 - 类别：news 4 / paper 8；topic 覆盖 agent(8) / memory(3) / rag(3) / post-training(3)。
 - 注意：多篇 arXiv 论文页面显示提交日期为"未来日期"（如2026-08-26/06-22），已如实按网页抓取内容记录，未做主观日期修正。
 
+## 2026-08-30（补录，2026-09-01执行）
+- 目标文件：data/2026-08-30.json，全新创建 10 条内容；JSON 校验通过，id 1-10，10 个 URL 均唯一且经网页访问核验。
+- 行业新闻：Anthropic自动化研究者缓解对齐失败（10类安全差距关闭26%~96%，原始发布8/28）/ 斯坦福Terminal-Bench-Science 0.1（70任务，Claude Opus 5解决率30%，原始发布8/28）/ Okta Agent SSO正式GA（XAA协议纳入MCP企业授权扩展，原始发布8/24）。
+- 论文（均为8/27 arXiv批次中此前未收录条目）：WikiSkill经验编译持久化知识库(agent+memory) / CorporateBench 23万文档企业问答基准(memory+rag, EMNLP Findings) / SARA动作诱导-执行授权分离(ASR≤0.63%) / ACE Lens准确性-复杂度-多样性数据生成框架 / LLMs4OL检索增强+词汇约束过滤(rag) / GRAIN结构不变性奖励图推理RL / 契约中心Agentic Runtime架构提案(纯理论无实验)。
+- 类别：news 3 / paper 7；topic 覆盖 agent(7) / memory(2) / rag(2) / post-training(2)。
+- 说明：8/30为周日，已确认此前arXiv批次为工作日模式（周末无新增提交），故论文取自紧邻的8/27批次补充；此前该日数据缺失原因是自动化任务在周末未执行，本次按用户指示于9/1补录完成。
+
 ## 2026-08-31
 - 目标文件：data/2026-08-31.json，全新创建 17 条内容；JSON 校验通过，id 1-17，17 个 URL 均唯一且经网页访问核验。
 - 行业/产品：OpenAI Rosalind Workbench（GPT-Rosalind，8/28发布）/ Perplexity Portable Computer 本地优先Harness（Qwen3.8-27B，BrowseComp 66.7%）/ Ornith 1.5 自出题三段闭环RL（Terminal-Bench 2.1 77.5→86.1，自测环境）/ Anthropic Claude Chat 与云端 Cowork 统一记忆（8/25宣布）。
@@ -115,7 +122,7 @@
 - RAG/记忆：Recuris 递归经验-工作记忆演化 / Agent记忆对不可回答问题的有效性研究 / 实体-记忆图检索（LoCoMo 召回79.75%→84.48%）/ Knowing Before Answering 三分类证据充分性（COLM 2026）/ 跨会话分解攻击与IntentAlign检索防御。
 - 后训练：ReToolSQL（SFT→RFT，BIRD 74.32%）/ DA3PO（修正DAPO动态采样非对称放大）/ RCCA（评分细则转代码级信用分配）/ RA-OPD（过滤与奖励不一致的教师指导）。
 - 类别：news 5 / paper 12；四个专项方向均覆盖。多条新闻原始发布于8/25-8/30，属于8/31检索窗口内首次核验收录，已在条目中注明原始发布日期。
-- 重要：data 目录缺少 2026-08-30.json（周日未执行），已向用户提示待确认是否补录。
+- 重要：data 目录缺少 2026-08-30.json（周日未执行）；已于2026-09-01补录完成（见上文2026-08-30条目）。
 
 ## 2026-09-01
 - 目标文件：data/2026-09-01.json，全新创建 15 条内容；JSON 校验通过，id 1-15，15 个 URL 均唯一且经网页访问核验。
@@ -126,7 +133,7 @@
 - 后训练论文：INSPIRE两阶段偏好训练内化数学推理(EMNLP26) / Rubric-guided RL贝叶斯统一综述(EMNLP26 Findings) / 小模型KD双峰崩溃(单种子评估误导性)。
 - 类别：news 4 / paper 11；topic 覆盖 agent(8) / rag(3) / memory(1) / post-training(3)。
 - 注意：arXiv cs.AI/cs.CL new 列表在本次检索时仍为8/31批次，本日论文取自该批次中此前未收录的条目；FinExam-10K、KV Cache Eviction、Stance-Aware三篇因AI摘要工具截断/算错arXiv编号，已通过web_search二次核实纠正为正确ID。
-- 提醒：data/2026-08-30.json 仍缺失（用户未确认是否补录），本次未处理。
+- 提醒：data/2026-08-30.json 已于同日（2026-09-01）稍后补录完成。
 
 ## 通用经验
 - PowerShell 内联 $var 在本环境会被吞，校验 JSON 用 -File 脚本方式（临时脚本用完即删）。
