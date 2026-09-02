@@ -135,6 +135,16 @@
 - 注意：arXiv cs.AI/cs.CL new 列表在本次检索时仍为8/31批次，本日论文取自该批次中此前未收录的条目；FinExam-10K、KV Cache Eviction、Stance-Aware三篇因AI摘要工具截断/算错arXiv编号，已通过web_search二次核实纠正为正确ID。
 - 提醒：data/2026-08-30.json 已于同日（2026-09-01）稍后补录完成。
 
+## 2026-09-02
+- 目标文件：data/2026-09-02.json，全新创建 12 条内容；JSON 校验通过，id 1-12，12 个 URL 均唯一且经网页访问核验。
+- 行业新闻（AITNT聚合转述）：Anthropic发布Claude Fable/Mythos 5.1(科研编程翻倍、缓存成本降75%，多源交叉报道) / 百融智能Agent批量上岗RaaS模式(未核实官方财报) / DeepSeek V4多模态视觉链路拆解(32层ViT+3x3Aligner) / 上海交大AI Agent主导开发27B工业Coding模型iCoder。
+- Memory论文：Gated-Memory Routing门控记忆路由多智能体协同(EMNLP26, HumanEval成本降31.9%) / Invalidation Contracts跨会话记忆缓存失效契约(合规率模型差异大11%~100%) / HypReflect假设引导自蒸馏持续个性化用户记忆。
+- RAG论文：TRIS三层检索完整性筛网防御知识投毒(EMNLP26 Findings, 攻击成功率64-87%降至3-14%)。
+- 后训练论文：AMRP自适应多奖励投影缓解聚合诱导奖励劫持(GRPO/GDPO/PPO均适用)。
+- Agent论文：OpenAgentFlow异构Agent舰队系统级安全边界(94%准确率95.3%拦截率) / Belief-Based World Model信念型世界模型让Agent查询自身不确定性 / Irreversibility Budget不可逆性预算舰队级风险核算(透支最高达限额48倍, SOSP AgenticOS Workshop)。
+- 类别：news 4 / paper 8；topic 覆盖 agent(7) / memory(3) / rag(1) / post-training(1)。
+- 注意：本日arXiv批次为2609.000xx新批次（非此前8月批次），系统内部时钟对"未来日期"提示可忽略，均已按用户当前日期(2026-09-02)如实核验记录。
+
 ## 通用经验
 - PowerShell 内联 $var 在本环境会被吞，校验 JSON 用 -File 脚本方式（临时脚本用完即删）。
 - 每次先读 memory.md 与当日 json，从最大 id+1 递增追加，只增不改。
