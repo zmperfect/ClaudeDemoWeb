@@ -145,6 +145,15 @@
 - 类别：news 4 / paper 8；topic 覆盖 agent(7) / memory(3) / rag(1) / post-training(1)。
 - 注意：本日arXiv批次为2609.000xx新批次（非此前8月批次），系统内部时钟对"未来日期"提示可忽略，均已按用户当前日期(2026-09-02)如实核验记录。
 
+## 2026-09-03
+- 目标文件：data/2026-09-03.json，全新创建 12 条内容；JSON校验通过，id 1-12，12个URL均唯一且经网页访问核验。
+- 行业新闻（AITNT聚合转述）：Inherent获5000万美元种子融资并推出科研AI Faraday（融资、模型名称和测试数据未见公司/投资方公告独立核验） / LoD未知视觉越狱检测（EMNLP26，AUROC 0.9705-0.9838，检测0.25-0.62秒；训练未使用已知越狱样本但使用安全与普通有害样本） / 元点Zeroth Bridge“小桥”万元级人形机器人与OpenBridge生态（关键宣传数据未独立核验）。
+- Memory论文：Memory Trust Gap持久记忆对过时事实的能力依赖性过度信任 / Belief-Calibrated Optimization显式世界模型优化Agent脚手架 / CHIME规划与执行分离的信用感知分层记忆 / Trace as State将推理轨迹前置为长上下文条件状态（27组组合26组优于对照）。
+- Agent与后训练论文：PGPO潜势引导多轮Agent策略优化 / Monitoring Web Agents仅凭可观测轨迹提前预警 / PROCTOR确定性护栏约束LLM-as-a-Judge自我改进 / TaRA训练感知LoRA初始化。
+- RAG与后训练论文：PRO-Step步骤级过程奖励+DPO优化多跳RAG（EMNLP26）。
+- 类别：news 3 / paper 9；topic覆盖 agent(8) / memory(4) / rag(1) / post-training(3)。
+- 说明：所收论文主要来自9月1-2日arXiv新提交批次，在9月3日检索窗口核验收录；新闻条目均明确标注AITNT聚合来源及未独立核验事项。
+
 ## 通用经验
 - PowerShell 内联 $var 在本环境会被吞，校验 JSON 用 -File 脚本方式（临时脚本用完即删）。
 - 每次先读 memory.md 与当日 json，从最大 id+1 递增追加，只增不改。

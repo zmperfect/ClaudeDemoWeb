@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Inherent获5000万美元种子融资，推出科研AI系统Faraday",
+      "url": "https://www.aitntnews.com/newDetail.html?newId=28904",
+      "summary": "AITNT转述阿尔法公社报道：前DeepMind团队创立的Inherent获得5000万美元种子轮融资，由Index Ventures和Radical Ventures领投，并推出科研AI系统Faraday。报道将Faraday定位为位于Coding Agent之上的scientific intelligence，称其基于Qwen3.6-27B后训练、使用GPT-5.5 Codex执行代码与实验，在AI for Science留出测试集上平均得分0.791，高于文中对比的Claude Opus 4.8(0.748)和GPT-5.5 Codex(0.729)。融资和模型名称尚未通过公司公告或投资方公告独立核验，条目按报道口径记录。",
+      "category": "news",
+      "date": "2026-09-03",
+      "source": "AITNT聚合转述，原始来源为微信公众号“阿尔法公社”；未见融资公告原文",
+      "topic": ["agent"]
+    },
+    {
+      "id": 2,
+      "title": "LoD：无需已知越狱样本检测视觉语言模型的未知攻击(EMNLP 2026)",
+      "url": "https://www.aitntnews.com/newDetail.html?newId=28898",
+      "summary": "AITNT转述量子位报道中国人民大学与阿里巴巴团队的LoD方法。方法从视觉语言模型逐层内部激活中提取安全表征：MSCAV筛选安全相关层，SPAE仅用安全样本建模安全分布，再以重构误差识别偏离样本。页面称其训练阶段不使用FC-Attack、HADES等已知越狱攻击样本，在LLaVA-1.6-vicuna-7B、Qwen2.5-VL-7B-Instruct和CogVLM-chat-v1.1上的AUROC为0.9820、0.9838和0.9705，单次检测约0.25-0.62秒；论文被称为EMNLP 2026主会接收。注意“未看过任何越狱样本”不等于未使用有害样本，训练使用了安全输入与普通有害输入。",
+      "category": "news",
+      "date": "2026-09-03",
+      "source": "AITNT聚合转述，原始来源标注为量子位；论文链接为arXiv:2508.09201",
+      "topic": ["agent"]
+    },
+    {
+      "id": 3,
+      "title": "元点机器人发布Zeroth Bridge“小桥”：万元级人形机器人与OpenBridge生态",
+      "url": "https://www.aitntnews.com/newDetail.html?newId=28903",
+      "summary": "AITNT转述新智元报道：元点机器人于2026年9月2日发布Zeroth Bridge“小桥”人形机器人，极客版身高88厘米、重量13公斤，日常价12888元、首发价8888元，页面宣称支持行走、小跑、后空翻、全身遥操和二次开发，并推出名为OpenBridge的开放生态。文章还列出50N·m关节峰值扭矩等宣传参数，但未提供详细测试工况、第三方报告、代码仓库、硬件图纸或许可证。因此“全球首台”“高性能”“全开源”等表述仅按来源文章和厂商宣传口径记录。",
+      "category": "news",
+      "date": "2026-09-03",
+      "source": "AITNT聚合转述，原始来源为新智元；关键宣传数据未独立核验",
+      "topic": ["agent"]
+    },
+    {
+      "id": 4,
+      "title": "The Memory Trust Gap：持久记忆Agent对过时事实的能力依赖性过度信任",
+      "url": "https://arxiv.org/abs/2609.01852",
+      "summary": "研究持久化记忆中的过时事实如何在无提示时压过当前更权威的信息，以及风险如何随模型能力和规模变化。作者在Qwen3 0.6B、1.7B、4B和8B上构建Benefit与Safety两套测试：没有记忆时无法作答的场景中模型几乎始终使用存储事实，即使事实过时；安全场景中，较大模型在过时笔记看似最新时反而可能更明显地过度信任。展示记忆元数据可改善较强模型，小模型通常需要显式冲突消解。",
+      "category": "paper",
+      "date": "2026-09-03",
+      "source": "arXiv:2609.01852，v1提交于2026-09-01",
+      "topic": ["memory"]
+    },
+    {
+      "id": 5,
+      "title": "Belief-Calibrated Optimization：用显式世界模型迭代优化Agent脚手架",
+      "url": "https://arxiv.org/abs/2609.01861",
+      "summary": "提出BCO，将编码Agent在迭代优化智能体脚手架时形成的“环境如何响应修改”的判断写入持续更新的上下文文档，作为显式世界模型。论文称在记忆问答、工具使用、代码驱动应用Agent和终端Agent等五类基准上，训练集和留出测试划分均优于没有世界模型的匹配对照；目标模型替换后所选脚手架总体仍领先，消融实验支持收益来自世界模型文档的具体内容而非文档形式本身。",
+      "category": "paper",
+      "date": "2026-09-03",
+      "source": "arXiv:2609.01861，v1提交于2026-09-01",
+      "topic": ["agent", "memory"]
+    },
+    {
+      "id": 6,
+      "title": "CHIME：面向长时程Agent规划的信用感知分层记忆演化",
+      "url": "https://arxiv.org/abs/2609.02074",
+      "summary": "针对只按最终结果更新记忆会混淆规划质量、执行错误和环境因素的问题，CHIME将规划记忆库与执行记忆库分离，遵循“先归因、后记忆”：先判断失败源于规划、执行、两者共同作用或环境，再只更新对应记忆库。论文称其在四个长时程Agent基准上持续优于训练式和自演化记忆基线，以更少条目积累有效经验，且记忆可跨骨干模型迁移；摘要未给出具体提升数值。",
+      "category": "paper",
+      "date": "2026-09-03",
+      "source": "arXiv:2609.02074，v1提交于2026-09-02",
+      "topic": ["agent", "memory"]
+    },
+    {
+      "id": 7,
+      "title": "PGPO：潜势引导策略优化改善多轮Agent任务的步骤级信用分配",
+      "url": "https://arxiv.org/abs/2609.02236",
+      "summary": "针对多轮智能体任务稀疏终局奖励导致失败轨迹中有效动作与错误动作获得相同不利反馈的问题，PGPO在每个rollout group内用锚点状态组回报估计经验状态潜势，再通过相邻状态潜势差计算动作优势，把跨轨迹信息传播到中间动作。论文在ALFWorld和WebShop上验证，报告更有区分度的失败轨迹信用信号、较强整体性能和基本可忽略的训练开销；摘要未给出精确提升百分比。",
+      "category": "paper",
+      "date": "2026-09-03",
+      "source": "arXiv:2609.02236，v1提交于2026-09-02",
+      "topic": ["agent", "post-training"]
+    },
+    {
+      "id": 8,
+      "title": "Monitoring Web Agents Without Internal Signals：用可观测轨迹提前监控网页Agent风险",
+      "url": "https://arxiv.org/abs/2609.02057",
+      "summary": "研究在无法访问logits等模型内部信号时，根据网页Agent轨迹前缀预测执行是否走向失败。方法结合跨步骤行为反馈的宏观特征与通过重复黑盒查询衡量意图、动作和预期状态一致性的微观特征，并提出关键步骤边界标注，避免将失败结果标签错误传播到错误发生之前的有效前缀。论文在WebArena-Lite和Online Mind2Web上用五个开源及闭源模型评估，称仅依赖可观测轨迹的预测器可与内部信号方法竞争，并支持固定误切断预算下的早期干预和跨网站类别迁移。",
+      "category": "paper",
+      "date": "2026-09-03",
+      "source": "arXiv:2609.02057，v1提交于2026-09-02",
+      "topic": ["agent"]
+    },
+    {
+      "id": 9,
+      "title": "PROCTOR：为自我改进Agent加入不可绕过的确定性评估护栏",
+      "url": "https://arxiv.org/abs/2609.02246",
+      "summary": "论文指出LLM-as-a-Judge不应被视为绝对可靠的裁判：自我改进循环可能读取缓存答案、迎合错误标签、利用解析器静默回退或被奖励欺骗。提出PROCTOR教师—学生架构：有状态编排器统一工具权限，无状态子Agent只能诊断和起草修改，Teacher通过密闭沙箱、能力隔离、确定性验收、冻结保留集和金丝雀样例约束候选变更。作者根据生产环境观察归纳11类评估信号失效，强调LLM评判只能提供意见，最终决策应由确定性护栏承担。",
+      "category": "paper",
+      "date": "2026-09-03",
+      "source": "arXiv:2609.02246，v1提交于2026-09-02",
+      "topic": ["agent"]
+    },
+    {
+      "id": 10,
+      "title": "PRO-Step：面向RAG的步骤级过程奖励优化与DPO",
+      "url": "https://arxiv.org/abs/2609.01658",
+      "summary": "针对多跳RAG中早期检索错误传播以及最终答案正确却掩盖中间步骤缺陷的问题，PRO-Step训练生成式过程奖励模型，同时评估每一步的逻辑有效性和证据支撑，再用过程奖励引导价值树搜索构造正确/错误步骤偏好数据，最后以逐步DPO优化生成策略。论文在单跳和多跳问答五个基准上报告平均EM和F1最佳表现，页面注明已被EMNLP 2026接收。",
+      "category": "paper",
+      "date": "2026-09-03",
+      "source": "arXiv:2609.01658，v1提交于2026-08-31，EMNLP 2026接收",
+      "topic": ["rag", "post-training"]
+    },
+    {
+      "id": 11,
+      "title": "TaRA：训练感知的低秩适配初始化提升LoRA梯度保真度",
+      "url": "https://arxiv.org/abs/2609.02639",
+      "summary": "针对LoRA对初始化敏感的问题，TaRA从数学形式构造低秩因子，使其初始梯度尽可能逼近全参数权重矩阵的梯度，从而提高训练开始阶段的梯度保真度。论文称额外计算开销近乎可忽略，在多种具有挑战性的微调任务上持续优于既有初始化方法；页面注明已被EMNLP 2026主会接收，但摘要未列出具体数据集和提升百分比。",
+      "category": "paper",
+      "date": "2026-09-03",
+      "source": "arXiv:2609.02639，v1提交于2026-09-02，EMNLP 2026主会接收",
+      "topic": ["post-training"]
+    },
+    {
+      "id": 12,
+      "title": "Trace as State：将推理轨迹作为条件状态改善长上下文Transformer",
+      "url": "https://arxiv.org/abs/2609.02702",
+      "summary": "论文研究长上下文中任务状态出现位置对因果Transformer的影响，提出先收集此前推理轨迹，再将其放在长上下文之前，作为文本状态代理引导模型重新读取上下文；对照方法则把相同轨迹追加到上下文之后。在3个模型、3个长上下文数据集和多项指标的实验中，Trace as State在27组模型—任务—指标组合中的26组优于Trace Append；GraphWalks Parents上DeepSeek V4 Pro Preview exact match从43.0%升至81.8%，GLM-5.2从83.2%升至100.0%。",
+      "category": "paper",
+      "date": "2026-09-03",
+      "source": "arXiv:2609.02702，v1提交于2026-09-02",
+      "topic": ["memory"]
+    }
+  ]
+}
