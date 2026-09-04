@@ -154,7 +154,18 @@
 - 类别：news 3 / paper 9；topic覆盖 agent(8) / memory(4) / rag(1) / post-training(3)。
 - 说明：所收论文主要来自9月1-2日arXiv新提交批次，在9月3日检索窗口核验收录；新闻条目均明确标注AITNT聚合来源及未独立核验事项。
 
+## 2026-09-04
+- 目标文件：data/2026-09-04.json，全新创建 12 条内容；JSON校验通过，id 1-12，12个URL均唯一且经网页访问核验。
+- 行业新闻（AITNT聚合转述）：OpenAI发布GPT-6 Astra（1.05M上下文、ARC-AGI-3 99.9%、Critical网络安全等级，全部数据来自单一自媒体转述未见官方公告） / 沙特HUMAIN基于MiniMax M3开源底座推出首个阿拉伯语大模型HUMAIN M3（428B MoE激活23B，官方基准均分89.37%） / 李飞飞World Labs发布多模态世界模型Atlas，影溯InSpatio已开源半年且WorldArena 2.0登顶。
+- Agent论文：Speculative Macro Commit推测宏提交加速工具Agent(MLSP26, AppWorld墙钟降44.9%) / CONFLICTGUARD冲突感知终止缓解GUI Agent执行偏见 / NTEP工具-证据路径奖励训练智能体VLM。
+- Memory论文：MemoryLACE生命周期感知证据整合(BEAM运行时降66.6%) / LOCOMO-CONV对话式记忆检索基准(静默接地现象) / SGD-KV摘要引导KV压缩(NeurIPS26 Workshop, 内存降75%) / Random Attention随机KV驱逐挑战评分范式(vLLM吞吐+32-43%)。
+- RAG论文：R²Adapter混合RAG轻量路由改写适配器(图RAG用量降59%)。
+- 后训练论文：Jina-OCR-v1投机解码+稠密可验证奖励GRPO(OmniDocBench 91.14, 已开源)。
+- 类别：news 3 / paper 9；topic覆盖 agent(6) / memory(4) / rag(1) / post-training(2)。
+- 重要教训：本日再次遇到arXiv列表页摘要与实际abs页面不符的情况——列表页称2609.03402为PlanFence(实为教育个性化提示工程)、2609.02895为R²Adapter(实为BharatGather印度假新闻基准，正确ID是2609.02894)、2609.03460为NTEP工具奖励(正确ID是2609.03493，2609.03460实为溯源密度可视化)。凡列表页给出的条目必须经abs页核对后方可收录，本次已全部核对纠正；PlanFence因搜索无法核实真实ID而放弃收录。
+
 ## 通用经验
 - PowerShell 内联 $var 在本环境会被吞，校验 JSON 用 -File 脚本方式（临时脚本用完即删）。
 - 每次先读 memory.md 与当日 json，从最大 id+1 递增追加，只增不改。
 - arXiv 网页摘要提取的编号存在被截断/算错风险，遇到可疑编号（如末位数字异常）应用 web_search 交叉核实标题匹配的真实 arXiv ID。
+- arXiv list/new 列表页的标题-编号映射本身也可能错位：每篇收录前必须逐条访问abs页核对标题与摘要，不可直接采信列表页的编号。
