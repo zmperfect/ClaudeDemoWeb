@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Anthropic开源电商Agent全套工程实践Claude Commerce Agents",
+      "url": "https://www.aitntnews.com/newDetail.html?newId=29027",
+      "time": "2026-09-07",
+      "category": "news",
+      "topic": ["agent"],
+      "summary": "Anthropic开源Claude Commerce Agents项目(github.com/anthropics/commerce-agents)，主张单主模型+Agent技能挂载而非多子代理拆分，覆盖零售/旅游/电信/票务四大领域。文中称购物车容量提升35%、完成购买概率提升60%、提示词缓存命中率90-99%，但关键数据均来自自媒体转述，未见Anthropic官方博客或论文独立核验。",
+      "source": "AITNT聚合(AI寒武纪)"
+    },
+    {
+      "id": 2,
+      "title": "Claude证明超67%黎曼zeta零点在临界线上，人类数学家已验证",
+      "url": "https://www.aitntnews.com/newDetail.html?newId=29020",
+      "time": "2026-09-07",
+      "category": "news",
+      "topic": ["agent"],
+      "summary": "Anthropic团队使用Claude证明超过67.25%的zeta非平凡零点位于临界线上(此前37年人类仅从40.8%提升至41.6%)。数论学家Lamzouri用希尔伯特空间不等式给出简化重证(arXiv:2609.02882)，AxiomProver在论文发布数小时内完成Lean形式化验证(github.com/AxiomMath/ZetaZeros)。来源为新智元转述，Anthropic原始论文PDF链接已给出。",
+      "source": "AITNT聚合(新智元)"
+    },
+    {
+      "id": 3,
+      "title": "浙大港大开源LayerRecall轻量化视频记忆路由器",
+      "url": "https://www.aitntnews.com/newDetail.html?newId=29009",
+      "time": "2026-09-07",
+      "category": "news",
+      "topic": ["memory"],
+      "summary": "浙大与港大联合提出LayerRecall，仅用0.033%额外参数(约6.6MB权重)和3.5秒额外时延，让视频生成模型在合适的层想起合适的记忆。MemoBench 0.548、MovieBench 0.578均为第一；高频帧变化功率比从0.60降至0.38。论文arXiv:2608.28460，代码和权重已开源(GitHub/HuggingFace)。",
+      "source": "AITNT聚合(新智元)"
+    },
+    {
+      "id": 4,
+      "title": "PlanFence: 分布式LLM-Agent记忆中的依赖范围验证协议",
+      "url": "https://arxiv.org/abs/2609.03340",
+      "time": "2026-09-07",
+      "category": "paper",
+      "topic": ["agent", "memory"],
+      "summary": "识别分布式Agent团队中'状态新鲜但计划过时'(stale-plan execution)的安全隐患：执行器读到最新共享事实却仍执行基于旧需求的计划。提出PlanFence依赖范围限定动作验证协议，计划引用所依赖的确切公共记录，执行器仅验证相关记录。30个受控工作流中，仅依赖新鲜度的执行器每次都执行过时计划，PlanFence实现100%无效动作消除。"
+    },
+    {
+      "id": 5,
+      "title": "InertiaKV: 激进KV驱逐中时间聚合比评分函数更关键(EMNLP26)",
+      "url": "https://arxiv.org/abs/2609.03515",
+      "time": "2026-09-07",
+      "category": "paper",
+      "topic": ["memory"],
+      "summary": "EMNLP 2026主会议。发现在激进KV缓存压缩下，EMA时间聚合使近似保序的评分器修改在驱逐集层面几乎不可区分。提出InertiaKV(EMA驱逐)及InertiaKV-Lazy(周期刷新变体，解码吞吐1.34-1.46x)。Score-Free解码仅首步评分一次冻结排序，质量变化仅+0.03。在6个开源骨干+LongBench/RULER上验证。"
+    },
+    {
+      "id": 6,
+      "title": "GrowPage: 按需KV预算分配的LLM推理服务框架",
+      "url": "https://arxiv.org/abs/2609.03494",
+      "time": "2026-09-07",
+      "category": "paper",
+      "topic": ["memory"],
+      "summary": "将KV缓存容量从静态预设转为运行时按需分配资源。维护双时间尺度查询摘要(近期+长期注意力行为)，利用相对注意力工作集估计需求演变，在容量边界动态压缩或获取额外物理页。与PagedAttention集成保留连续批处理和前缀缓存。多模型推理基准上实现更优的性能-吞吐量权衡。"
+    },
+    {
+      "id": 7,
+      "title": "HARNESSEVO: Agent脚手架优化价值集中在反思/控制槽位",
+      "url": "https://arxiv.org/abs/2609.02889",
+      "time": "2026-09-07",
+      "category": "paper",
+      "topic": ["agent"],
+      "summary": "将LLM Agent的harness(角色/策略/格式/反思控制)分解为四个独立可进化槽位。发现几乎所有优化价值集中在reflection/control槽位(leave-one-in增益+0.119)，其余槽位单独贡献为零。均匀预算分配有害(64次rollout分4槽位导致每槽低于搜索下限)，集中预算到控制槽位以半数预算恢复增益达0.761。WebShop上所有方法持平，表明缺乏可语言化的控制失败。"
+    },
+    {
+      "id": 8,
+      "title": "RL-ADA: 世界反馈驱动的对抗共进化企业对话Agent",
+      "url": "https://arxiv.org/abs/2609.02902",
+      "time": "2026-09-07",
+      "category": "paper",
+      "topic": ["agent", "post-training"],
+      "summary": "提出RL-ADA共进化训练框架，客服代理(3B)与对抗性客户代理(7B)在对抗竞技场中共同进化，用世界反馈(基于结果的奖励信号)替代人工标注。银行客服PoC中经5轮共进化，工具路由错误被完全消除，端到端PASS率翻倍，全程无需人工标注。发现涌现策略'上下文伪装'(Contextual Camouflage)：CA学会将意图嵌入密集真实客户细节中。"
+    },
+    {
+      "id": 9,
+      "title": "选择性检索策略：RAG在心理健康QA中何时有帮助何时有害(KDD26)",
+      "url": "https://arxiv.org/abs/2609.03454",
+      "time": "2026-09-07",
+      "category": "paper",
+      "topic": ["rag"],
+      "summary": "KDD 2026 Undergraduate Consortium。研究RAG在单轮心理健康问答中的效果，发现'始终检索'虽提高具体性但降低整体质量并引入安全风险。提出基于三维度(心理教育需求/应对需求/回答具体性)+安全触发器的选择性检索策略，对低需求案例保留闭卷行为。核心观点：检索激活本身是安全敏感的控制决策。"
+    },
+    {
+      "id": 10,
+      "title": "Dude: 双检测多Agent系统检测论文-代码差异(EMNLP26)",
+      "url": "https://arxiv.org/abs/2609.03416",
+      "time": "2026-09-07",
+      "category": "paper",
+      "topic": ["agent"],
+      "summary": "EMNLP 2026主会议。首个双检测多Agent系统用于论文-代码差异检测。发现论文语言与代码语言的粒度不对称导致过度解读和误报。提出粒度对齐协商和两阶段显著性过滤机制，有效防止Agent误报差异。在真实论文-代码差异数据集上，召回率和精确率提升最高22.8%，F1提升最高18.7%。"
+    },
+    {
+      "id": 11,
+      "title": "KC-Bench: LLM Agent知识冲突的动态交互基准",
+      "url": "https://arxiv.org/abs/2609.03588",
+      "time": "2026-09-07",
+      "category": "paper",
+      "topic": ["agent", "memory"],
+      "summary": "受控多轮基准，测量LLM Agent在工具调用场景下调和用户指令、参数知识和动态环境观测的能力。238个任务(从1000+候选中人工筛选)，覆盖世界知识冲突、输入不一致和多源时间冲突。评估DeepSeek-V4-Flash/GLM-5.2/MiniMax-M3等9个模型，发现无模型能在所有设置下可靠处理事实纠正、身份一致性检查和时间冲突解决。"
+    },
+    {
+      "id": 12,
+      "title": "主动服务Agent: 统一决策框架、方法与评估综述",
+      "url": "https://arxiv.org/abs/2609.03727",
+      "time": "2026-09-07",
+      "category": "paper",
+      "topic": ["agent"],
+      "summary": "将主动服务Agent形式化为部分可观测序列决策过程(受授权和风险约束)。定义四种行动选择(沉默/询问/辅助/执行)，统一表示时机、内容和交付方式。沿状态估计→干预门控→动作构造→反馈适应的决策管线组织现有方法。跨流式对话/屏幕/视频/软件工程/人机协作场景标准化决策单元和三轴证据描述符。核心结论：离线分类性能不能预测部署收益，长期记忆不是主动性的定义条件。"
+    }
+  ]
+}

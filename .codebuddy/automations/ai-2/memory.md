@@ -164,6 +164,15 @@
 - 类别：news 3 / paper 9；topic覆盖 agent(6) / memory(4) / rag(1) / post-training(2)。
 - 重要教训：本日再次遇到arXiv列表页摘要与实际abs页面不符的情况——列表页称2609.03402为PlanFence(实为教育个性化提示工程)、2609.02895为R²Adapter(实为BharatGather印度假新闻基准，正确ID是2609.02894)、2609.03460为NTEP工具奖励(正确ID是2609.03493，2609.03460实为溯源密度可视化)。凡列表页给出的条目必须经abs页核对后方可收录，本次已全部核对纠正；PlanFence因搜索无法核实真实ID而放弃收录。
 
+## 2026-09-07
+- 目标文件：data/2026-09-07.json，全新创建 12 条内容；JSON校验通过，id 1-12，12个URL均唯一且经abs页逐条核验。
+- 注意：9月5日(周五)和9月6日(周六)未执行，本日为周一，arXiv显示的是9月4日(周四)新提交批次。
+- 行业新闻（AITNT聚合转述）：Anthropic开源Claude Commerce Agents电商Agent全套工程(单主模型+技能挂载，关键数据35%/60%/90-99%均来自自媒体转述未见官方核验) / Claude证明超67.25%黎曼zeta零点在临界线上(此前37年仅从40.8%到41.6%，Lamzouri简化重证arXiv:2609.02882，AxiomProver数小时Lean形式化) / 浙大港大LayerRecall视频记忆路由器(0.033%参数+3.5秒时延，MemoBench 0.548/MovieBench 0.578均第一)。
+- Agent论文：PlanFence依赖范围验证协议解决分布式Agent'状态新鲜计划过时'问题(30个工作流100%消除无效动作) / HARNESSEVO发现Agent脚手架优化价值集中在反思/控制槽位(leave-one-in +0.119，其余为零) / RL-ADA对抗共进化企业对话Agent(3B客服vs7B对抗客户，工具路由错误完全消除，涌现'上下文伪装') / Dude双检测多Agent论文-代码差异检测(EMNLP26，F1提升18.7%) / KC-Bench LLM Agent知识冲突动态交互基准(238任务9模型无一可靠) / 主动服务Agent综述(POMDP形式化，离线分类不能预测部署收益)。
+- Memory论文：InertiaKV激进KV驱逐中EMA时间聚合比评分函数更关键(EMNLP26，Score-Free质量变化仅+0.03) / GrowPage按需KV预算分配(双时间尺度查询摘要+PagedAttention集成)。
+- RAG论文：选择性检索心理健康QA(KDD26，始终检索降低质量并引入安全风险)。
+- 类别：news 3 / paper 9；topic覆盖 agent(7) / memory(4) / rag(1) / post-training(1)。
+
 ## 通用经验
 - PowerShell 内联 $var 在本环境会被吞，校验 JSON 用 -File 脚本方式（临时脚本用完即删）。
 - 每次先读 memory.md 与当日 json，从最大 id+1 递增追加，只增不改。
