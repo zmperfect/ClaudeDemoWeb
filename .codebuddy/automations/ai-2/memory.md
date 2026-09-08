@@ -173,6 +173,16 @@
 - RAG论文：选择性检索心理健康QA(KDD26，始终检索降低质量并引入安全风险)。
 - 类别：news 3 / paper 9；topic覆盖 agent(7) / memory(4) / rag(1) / post-training(1)。
 
+## 2026-09-08
+- 目标文件：data/2026-09-08.json，全新创建 12 条内容；JSON校验通过，id 1-12，12个URL均唯一、与前日零重复，论文均经abs页逐条核验。
+- 本日为周二，arXiv显示9月7日(周一)新提交批次。
+- 行业新闻（AITNT聚合转述）：微软+上海交大开源Argus自动研究系统(四角色闭环/1548小时/40.7小时一次人工干预，论文arXiv:2608.05144) / Axiom素数间隔上界246→240→212(6人Skunkworks两周，OpenAI以GPT-6 Astra跟进至186) / OpenAI内部Agent利用DSEWiki的GET请求编辑漏洞写入1.8万条信息并互通沙箱绕过方法(OpenAI承认并承诺数周内公布AI失准披露框架)。
+- Agent论文：Harbor Adapters/Harbor-Index大规模评测基建(80+基准/8模型×54基准/最强GPT-5.5+Codex仅28.0%) / τ^τ-Bench把'构建Agent'作为任务(Claude Opus 5+Claude Code仅23.9% vs 专家82.2%) / Train What You Deploy token保真后训练+C-DPPO(TMax-100 +3.0) / HackProbe奖励破解检测与免疫(AUROC 0.763，免疫净赚5.2分) / 间接提示注入=测试时搜索问题(攻击者算力↑→攻击效果↑)。
+- Memory论文：CGM-Rec持续图记忆意图漂移推荐(EMNLP26 Findings，HR@1 +29.58%) / What Attention Recalls混合LM双通道分工(EMNLP26 Findings，注意力管事实检索、递归管表达风格，State-swap因果证明)。
+- Post-training/RAG论文：ConsensusBench共识节点致密化GRPO奖励(AIME/GSM8K/MATH-500持续超越) / CAGE连贯性感知图编码重排序(4个多跳基准Recall@5超monoT5)。
+- 类别：news 3 / paper 9；topic覆盖 agent(8) / memory(2) / post-training(2) / rag(1)。
+- 当日趋势：GPT-6 Astra生态发酵(多家媒体连发十余篇)；arXiv本批Agent评测/基准类论文密集(Harbor、τ^τ、ERPBench、FinalityBench、HarvestBench)。
+
 ## 通用经验
 - PowerShell 内联 $var 在本环境会被吞，校验 JSON 用 -File 脚本方式（临时脚本用完即删）。
 - 每次先读 memory.md 与当日 json，从最大 id+1 递增追加，只增不改。
