@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "OpenAI万级Agent攻关纳维-斯托克斯方程引发署名与数据溯源争议",
+      "url": "https://www.aitntnews.com/newDetail.html?newId=29134",
+      "time": "2026-09-09",
+      "category": "news",
+      "topic": ["agent"],
+      "summary": "OpenAI先用近100个Agent约50小时解决欧拉方程无外力爆破问题，后扩至约1万Agent、88小时、490万条消息(纳维-斯托克斯约270万条)、3000亿输出Token，完成克雷数学研究所题目中'存在平滑外力'的C/D情形(非学界默认关注的无外力自发奇点版本)，GPT-6 Astra另跑17小时转Lean验证，耗费数百万美元。争议：纽约大学Buckmaster与Anthropic研究员Alpöge此前用OpenAI Codex研究欧拉方程相关路线，质疑数据是否被使用(OpenAI否认查看但承认无法排除训练受益于去标识化数据)；OpenAI研究员Bubeck被指两次提议将Alpöge排除在论文作者名单外(因其在竞对Anthropic任职)，双方对具体讨论对象存在版本分歧。",
+      "source": "AITNT聚合(量子位)"
+    },
+    {
+      "id": 2,
+      "title": "CosmosMind等联合高校提出MetaRSI-v1元递归自我改进架构",
+      "url": "https://www.aitntnews.com/newDetail.html?newId=29128",
+      "time": "2026-09-09",
+      "category": "news",
+      "topic": ["agent", "post-training"],
+      "summary": "CosmosMind联合斯坦福、伯克利、MIT、清华、北大等研究者提出MetaRSI(RSI²)，让'AI变强的方式本身变强'。小模型路线(Qwen3.5-35B-A3B，35B总参数/3B激活)启用Data-RSI、Harness-RSI、Model-RSI三算子，在Terminal-Bench 2.1/SWE-bench Pro/GPQA-Diamond/AIME四项基准平均提升10.9分，SWE-bench Pro解决率接近翻倍，且无外部教师模型参与；前沿模型路线(六款旗舰模型，仅启用Data-RSI与Harness-RSI)在Terminal-Bench 2.1平均提升7.3分。项目开源(GitHub: CosmosMind-ai/RSI-Harness)。注：文中部分模型型号(GPT-5.6等)命名超出已知公开发布序列，需审慎对待。",
+      "source": "AITNT聚合(机器之心)"
+    },
+    {
+      "id": 3,
+      "title": "AI编程独角兽Cognition完成E轮融资，估值480亿美元",
+      "url": "https://www.aitntnews.com/newDetail.html?newId=29137",
+      "time": "2026-09-09",
+      "category": "news",
+      "topic": ["agent"],
+      "summary": "Cognition完成超20亿美元E轮融资，估值达480亿美元(较2025年5月D轮260亿美元近乎翻倍)，由a16z、Accel领投，Founders Fund、General Catalyst等跟投。年化收入4个月内从4.92亿美元增至近9亿美元(增幅约83%)。核心产品为AI软件工程师Devin，2025年收购Windsurf拓展编程工具业务，客户含英伟达、GE Aerospace、花旗等。",
+      "source": "AITNT聚合(智东西)"
+    },
+    {
+      "id": 4,
+      "title": "MERIT：面向工具使用Agent长期记忆的成本敏感评估基准",
+      "url": "https://arxiv.org/abs/2609.05441",
+      "time": "2026-09-09",
+      "category": "paper",
+      "topic": ["memory", "agent"],
+      "summary": "现有长期记忆基准(LoCoMo、LongMemEval)只测对话问答能力，未验证记忆是否真正改变工具使用型Agent的行为决策。MERIT基准覆盖三领域分段式工具任务，设泄漏检测、难度阶梯、记忆损坏测试，并对每次记忆操作计量token与美元成本。结果：记忆使依赖任务成功率从0.00提升到0.55-1.00；更新事实召回中嵌入检索不稳定(0.30-0.95)，即使检索正确仅55%概率据此行动；结构化事实存储/LLM摘要稳定在0.70-1.00且优于混合方案；全量重放从不划算，最佳方案边际效用/成本比达2.7-3.9倍。评测规模23440个episode、花费$42.57。",
+      "source": "arXiv"
+    },
+    {
+      "id": 5,
+      "title": "EdgeMem：基于证据保留超图的无LLM Agent记忆构建与检索",
+      "url": "https://arxiv.org/abs/2609.05553",
+      "time": "2026-09-09",
+      "category": "paper",
+      "topic": ["memory"],
+      "summary": "现有Agent记忆方法将交互历史压缩为LLM生成的摘要，反复生成增加成本且可能丢弃未来查询所需细节。EdgeMem保留原始交互轮次，通过内容/时间/情景线索构建多锚点超图，检索时直接返回源证据，将LLM使用保留给最终答案生成阶段，构建和检索阶段均无需调用生成式LLM。LoCoMo严格评判分数61.01，超对比最高58.70，在7个复现系统中排名第一；LongMemEval-S上同样领先。代码已开源(github.com/Soullesskid/edgemem)。",
+      "source": "arXiv"
+    },
+    {
+      "id": 6,
+      "title": "SCAFFOLD：基于递归参数化技能抽象的自我改进网络Agent(EMNLP26)",
+      "url": "https://arxiv.org/abs/2609.05511",
+      "time": "2026-09-09",
+      "category": "paper",
+      "topic": ["agent"],
+      "summary": "网络Agent处理长周期跨网站任务时孤立学习、丢弃过程性知识，已有技能增强框架只是扁平/两层提示侧缓存。SCAFFOLD四设计：参数化技能归纳、递归组合技能层级、MDL准则库压缩、周期性权重蒸馏内化抽象知识。WebArena/VisualWebArena/Online-Mind2Web留出集上相比最强技能增强基线提升11.1-17.2个绝对百分点，五轮自我改进迭代单调递增且未出现技能库崩溃。",
+      "source": "arXiv"
+    },
+    {
+      "id": 7,
+      "title": "Agents Trust Tools Too Much：Agent对不可靠工具的过度信任测量",
+      "url": "https://arxiv.org/abs/2609.05587",
+      "time": "2026-09-09",
+      "category": "paper",
+      "topic": ["agent"],
+      "summary": "评估14个大模型在网页搜索、LLM子智能体委托、代码执行三类工具被'污染'后的信任行为。三种工具场景平均采纳污染结果率均超1/3，网页搜索场景高达68.0%；分析推理轨迹发现Agent常在内部识别冲突甚至恢复出正确答案，但最终仍呈现被污染的错误答案且不向用户预警。用户提示、工具元数据、后训练三层缓解措施均无法在所有工具场景下一致奏效。",
+      "source": "arXiv"
+    },
+    {
+      "id": 8,
+      "title": "Beyond Prompts：LLM工具Agent运行框架(Harness)的度量与优化PRISM(EMNLP26)",
+      "url": "https://arxiv.org/abs/2609.05736",
+      "time": "2026-09-09",
+      "category": "paper",
+      "topic": ["agent"],
+      "summary": "不重新训练模型，仅通过修改运行时harness(提示词、工具边界中间件等)提升工具Agent性能，形式化为'资源受限的框架选择'问题。提出优化器无关评测协议(平均留出集提升、最差条件提升、可重复性、RelLift95(B))，配套PRISM优化器聚类失败案例并路由修复到提示词/中间件/联合编辑层。BFCL multi-round提升14.2个百分点，tau2-Retail提升14.9个百分点，tau2-Telecom提升10.1个百分点；消融显示提升主要来自失败面路由与编辑模式约束。",
+      "source": "arXiv"
+    },
+    {
+      "id": 9,
+      "title": "DAREBench：面向部署决策的Agent模型可靠评估基准",
+      "url": "https://arxiv.org/abs/2609.06059",
+      "time": "2026-09-09",
+      "category": "paper",
+      "topic": ["agent"],
+      "summary": "现有基准局限于特定任务类型/环境/评分协议，限制部署决策可靠性。DAREBench基于统一OpenClaw执行环境，从22个源基准筛选改编233个任务，按输入模态×执行形式组织为2×3工作负载矩阵，采用基于合同的评测协议+证据评分审计。评测23个商业API模型和12个本地开源模型，共7587次运行：无单一模型全面领先，文本与多模态任务准确率-成本权衡截然不同，本地模型部分任务组有竞争力但整体仍落后前沿商业模型。",
+      "source": "arXiv"
+    },
+    {
+      "id": 10,
+      "title": "PARSER：并行阅读、深度推理的长上下文LLM Agent",
+      "url": "https://arxiv.org/abs/2609.06702",
+      "time": "2026-09-09",
+      "category": "paper",
+      "topic": ["agent", "memory"],
+      "summary": "传统顺序记忆型Agent逐块阅读长文档并维护紧凑记忆状态，将文档遍历与推理深度耦合，导致对证据位置敏感、延迟随长度线性增长。PARSER解耦阅读与推理：一组冻结的轻量子智能体并行读取全文档，主导智能体通过迭代'分散-聚合'轮次做深度推理(广播查询→聚合证据→生成后续查询)，仅主导智能体经强化学习训练。多跳QA(7K-896K tokens)：4B backbone比最强顺序记忆基线平均高5.7分，896K tokens时高12.0分；9B backbone比DeepSeek-V4-Pro高6.3分；推理延迟降低最多11倍，且对证据位置/顺序/距离扰动具强鲁棒性。",
+      "source": "arXiv"
+    },
+    {
+      "id": 11,
+      "title": "Better Together：强RAG基线下的互补性查询重写(EMNLP26产业界赛道)",
+      "url": "https://arxiv.org/abs/2609.05637",
+      "time": "2026-09-09",
+      "category": "paper",
+      "topic": ["rag"],
+      "summary": "研究当检索系统已足够强(BGE密集检索+交叉编码器重排序+MMR)时查询重写是否仍有效。单一重写方法最多与强基线打平，但组合多种方法(不同策略失败模式互补)带来显著增益：企业级512K文档库EnterpriseRAG-Bench上四方法组合HIT@10从39.22提升至51.70(+12.5分)，预算匹配对照组仅能捕获约40%增益；HotpotQA上组合提升+1.6-1.8分接近饱和；但AmbigNQ上组合反而损害性能(-2.4分)。提出置信度门控路由器，仅在基线得分低时触发重写，捕获企业数据集约一半增益且仅40%查询产生重写成本，下游答案F1提升+1.92。",
+      "source": "arXiv"
+    },
+    {
+      "id": 12,
+      "title": "基于GRPO为机器翻译生成对抗性测试文本(KONVENS26)",
+      "url": "https://arxiv.org/abs/2609.06048",
+      "time": "2026-09-09",
+      "category": "paper",
+      "topic": ["post-training"],
+      "summary": "标准MT基准难以揭示系统残余弱点，人工构建高难度测试集成本高。提出用GRPO微调LLM将现有源文本改写为更难翻译的版本，奖励信号综合翻译难度、语义相似性、语法正确性、长度近似保持四项约束。WMT25上改写后平均COMET质量分从基础模型0.64降至0.48，且在未见过的WMT19-24基准上验证效果可泛化；人工评估显示翻译质量显著下降、自然度中等下降、语法正确性仅小幅变化。代码已开源。",
+      "source": "arXiv"
+    }
+  ]
+}

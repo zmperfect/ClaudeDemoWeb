@@ -183,6 +183,16 @@
 - 类别：news 3 / paper 9；topic覆盖 agent(8) / memory(2) / post-training(2) / rag(1)。
 - 当日趋势：GPT-6 Astra生态发酵(多家媒体连发十余篇)；arXiv本批Agent评测/基准类论文密集(Harbor、τ^τ、ERPBench、FinalityBench、HarvestBench)。
 
+## 2026-09-09
+- 目标文件：data/2026-09-09.json，全新创建 12 条内容；JSON校验通过，id 1-12，12个URL均唯一、与前两日零重复，论文均经abs页逐条核验。
+- 本日为周三，arXiv显示9月4-6日新提交批次（编号跨度较大，非单一周一批次）。
+- 行业新闻（AITNT聚合转述）：OpenAI万级Agent(约1万，88小时，3000亿Token)攻关纳维-斯托克斯方程，仅完成'存在平滑外力'的C/D情形(非无外力自发奇点版本)，且陷入与Buckmaster/Alpöge的数据溯源+论文署名双重争议(已如实记录双方分歧版本，未偏向单方结论) / CosmosMind联合十余高校MetaRSI-v1元递归自我改进架构(小模型路线Terminal-Bench等四项平均+10.9分，SWE-bench Pro解决率近翻倍；注：部分模型型号命名超出已知发布序列，已在摘要中标注需审慎) / Cognition完成E轮融资20亿美元、估值480亿美元(4个月营收4.92亿→9亿美元)。
+- Agent论文：MERIT成本敏感记忆评估基准(依赖任务成功率0→0.55-1.00，检索正确仅55%概率据此行动) / EdgeMem无LLM超图记忆(LoCoMo严格评判61.01排名第一) / SCAFFOLD递归参数化技能抽象自我改进网络Agent(EMNLP26，+11.1-17.2pp) / Agents Trust Tools Too Much工具过度信任(网页搜索污染采纳率68.0%) / Beyond Prompts PRISM harness优化器(EMNLP26，BFCL+14.2pp) / DAREBench部署感知评估基准(23商业+12本地模型，7587次运行，无单一模型全面领先) / PARSER长上下文并行阅读深度推理Agent(896K tokens时+12.0分，延迟降11倍)。
+- RAG论文：Better Together互补性查询重写(EMNLP26产业界赛道，企业数据集HIT@10 +12.5分，但AmbigNQ上组合反而-2.4分，需成本感知路由)。
+- Post-training论文：GRPO生成对抗性机翻测试文本(KONVENS26，COMET从0.64降至0.48)。
+- 类别：news 3 / paper 9；topic覆盖 agent(8) / memory(3) / rag(1) / post-training(2)。
+- 当日趋势：数学证明Agent集群(OpenAI万级)持续成为焦点但伴随署名伦理争议；Agent记忆评估类论文(MERIT/EdgeMem/PARSER)集中出现，强调'记忆改变行为'而非仅问答能力；harness/框架优化(PRISM)与部署感知评测(DAREBench)体现评测基建的工程化趋势。
+
 ## 通用经验
 - PowerShell 内联 $var 在本环境会被吞，校验 JSON 用 -File 脚本方式（临时脚本用完即删）。
 - 每次先读 memory.md 与当日 json，从最大 id+1 递增追加，只增不改。
