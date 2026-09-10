@@ -193,6 +193,16 @@
 - 类别：news 3 / paper 9；topic覆盖 agent(8) / memory(3) / rag(1) / post-training(2)。
 - 当日趋势：数学证明Agent集群(OpenAI万级)持续成为焦点但伴随署名伦理争议；Agent记忆评估类论文(MERIT/EdgeMem/PARSER)集中出现，强调'记忆改变行为'而非仅问答能力；harness/框架优化(PRISM)与部署感知评测(DAREBench)体现评测基建的工程化趋势。
 
+## 2026-09-10
+- 目标文件：data/2026-09-10.json，全新创建 12 条内容；JSON校验通过，id 1-12，12个URL均唯一、与前两日零重复，论文均经abs页逐条核验。
+- 本日为周四，arXiv显示9月8-9日新提交批次。
+- 行业新闻（AITNT聚合转述）：OpenAI+MIT让GPT-5.6 Sol/Codex自主完成全新6量子比特芯片校准(40项测量仅4次人工干预) / 蚂蚁百灵开源Ling-3.0-flash-VL多模态(1240亿总参/256K上下文，注：原文激活参数5.5亿/55亿表述自相矛盾已标注) / 脸谱心智LoopWM循环世界模型称PushT成功率17%→70%、领先OpenAI Astra三个月(单一信源软文性质明显，论文arXiv编号2606.18208格式异常对应未来日期，已在摘要标注谨慎对待)。
+- Agent论文：State-Path工具菜单(EMNLP26，ToolBench在线成功率0.737→0.898且工具数32<128) / RobustSGPO框架演化搜索空间控制(AgentX完成率60%→80%) / SAGE-RT黑盒红队框架(CrewAI/AutoGen平均治理风险56.25%，隐私风险65%)。
+- Memory论文密集(5篇)：PRAGMA个性化指导评估基准(EMNLP26，现有系统难召回也难据证据行动) / Procedural Memory Under Change程序记忆干扰的'无干扰'区域发现(明确非普遍安全性证明) / RD-Forget分离存储与使用(率失真公式指导有限预算视图构建) / ROAM原子记忆语义关系组织(答案准确率+29.8pp) / 内核管理共享记忆(AIOS上个性化评分+2.4-4.0分，延迟降15-61%)。
+- Post-training论文：金融推理数据中心式后训练(普通SFT反降3.2-4.0分，模型合并+GRPO组合避免能力遗忘) + RobustSGPO兼具post-training属性。
+- 类别：news 3 / paper 9；topic覆盖 agent(6) / memory(6) / post-training(2)。
+- 当日趋势：Agent记忆评估与架构类论文占比显著提升(5/9篇paper聚焦memory)，主题从'如何存储'转向'如何决定存储什么/使用什么/忘记什么'；行业新闻出现多篇需谨慎核验的软文/矛盾数据案例，已如实标注不确定性而非直接采信。
+
 ## 通用经验
 - PowerShell 内联 $var 在本环境会被吞，校验 JSON 用 -File 脚本方式（临时脚本用完即删）。
 - 每次先读 memory.md 与当日 json，从最大 id+1 递增追加，只增不改。

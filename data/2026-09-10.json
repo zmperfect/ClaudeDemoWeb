@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "OpenAI联合MIT官宣：AI自主完成超导量子比特校准实验",
+      "url": "https://www.aitntnews.com/newDetail.html?newId=29183",
+      "time": "2026-09-10",
+      "category": "news",
+      "topic": ["agent"],
+      "summary": "OpenAI与MIT量子工程系统组(EQuS)联合发布《超导量子比特的智能体校准》案例研究：GPT-5.6 Sol搭载于Codex智能体框架，在一块从未被测量过、参数完全未知的6量子比特芯片(4固定频率+2可调频率)上，自主完成微波脉冲参数推断、硬件调用、信号处理与自适应决策全流程，针对固定频率量子比特完成40项目标测量，仅4次人工干预(高信噪比场景自主运行，低信噪比/物理反常场景仍需专家介入)。",
+      "source": "AITNT聚合(新智元)"
+    },
+    {
+      "id": 2,
+      "title": "蚂蚁百灵开源Ling-3.0-flash-VL多模态模型",
+      "url": "https://www.aitntnews.com/newDetail.html?newId=29182",
+      "time": "2026-09-10",
+      "category": "news",
+      "topic": ["agent"],
+      "summary": "蚂蚁百灵开源MoE多模态模型Ling-3.0-flash-VL，总参数1240亿，语言主干42层KDA与Gated MLA以5:1交替，256K上下文，已开放BF16/FP8权重。Image-to-WebDev Arena 1441分(第34名)略超GPT-5.4的1440分，WebVoyager网页操作90.83分，OmniDocBench1.5文档理解91.35分；Artificial Analysis Intelligence Index仅42分，落后Claude Fable 5.1(66分)。注：原文对激活参数表述存在5.5亿/55亿矛盾，已在摘要中标注需以官方模型卡为准。",
+      "source": "AITNT聚合(智东西)"
+    },
+    {
+      "id": 3,
+      "title": "脸谱心智发布LoopWM循环世界模型，称领先OpenAI Astra架构三个月",
+      "url": "https://www.aitntnews.com/newDetail.html?newId=29175",
+      "time": "2026-09-10",
+      "category": "news",
+      "topic": ["agent", "memory"],
+      "summary": "中国公司脸谱心智发布LoopWM论文，宣称在参数量相当情况下将PushT推砖块任务成功率从LeCun团队世界模型的17%提升至约70%，参数效率提升约100倍，单步推理算力节省约25倍。已完成Pre-A轮融资，新一轮融资尚未confirmed(仅披露有多方机构接触，含Standard VC建立联系、Manus Chief of Staff主动接触)。注：本文为单一信源软文性质报道，数据均引自团队宣传口径未见第三方复现，文中论文arXiv编号2606.18208格式异常(对应尚未到达的2026年6月)，已在摘要中标注需谨慎对待。",
+      "source": "AITNT聚合(量子位)"
+    },
+    {
+      "id": 4,
+      "title": "The Menu Is an Execution Prior：面向在线Agent的状态路径工具菜单(EMNLP26)",
+      "url": "https://arxiv.org/abs/2609.09395",
+      "time": "2026-09-10",
+      "category": "paper",
+      "topic": ["agent"],
+      "summary": "工具库可能含数千接口，现有按'请求相关性'排序的工具菜单方法易遗漏不明显的'输入生产者'工具。提出State-Path工具菜单：编码器表示工具可执行性与输出满足关系，检索器覆盖可执行入口/缺失输入生产者/最终动作，重排序器将生产者工具排在消费者工具之前。ToolBench上在线成功率从0.737提升至0.898，且仅用32个工具覆盖比官方128个工具列表更完整的工具链，跨模型容量泛化一致。",
+      "source": "arXiv"
+    },
+    {
+      "id": 5,
+      "title": "RobustSGPO：面向Agent框架演化的搜索空间控制",
+      "url": "https://arxiv.org/abs/2609.09646",
+      "time": "2026-09-10",
+      "category": "paper",
+      "topic": ["agent", "post-training"],
+      "summary": "语义梯度提示优化(SGPO)利用执行反馈改进Agent框架，但局部更新规则未解决'编辑范围'与'编辑操作'选择问题。RobustSGPO明确指定编辑内容、构建并检验补丁、支持从当前最优解或历史快照继续搜索。AgentX头脑风暴工作流(120任务/95次运行/7350次候选)：30个留出任务完成率从60.0%提升至80.0%，测试质量评分3.77→4.14；周期性权限调度比固定最大权限再提升0.28分，但保留机制带来可衡量的开销。",
+      "source": "arXiv"
+    },
+    {
+      "id": 6,
+      "title": "Agentic AI黑盒红队测试：分类体系驱动的自动化风险发现框架SAGE-RT",
+      "url": "https://arxiv.org/abs/2609.09647",
+      "time": "2026-09-10",
+      "category": "paper",
+      "topic": ["agent"],
+      "summary": "现有安全评估停留在单轮对话层面，无法捕捉多步骤Agent漏洞。提出七维风险分类体系+SAGE-RT自动化红队框架(每风险域自动生成120个对抗场景)+人工验证的LLM评判机制，仅需基础系统描述即可运行、无需特权访问。在CrewAI与AutoGen两种架构、四种基础模型上测试：平均治理风险56.25%，多智能体配置下隐私风险65%，Agent行为漏洞最高达85%。",
+      "source": "arXiv"
+    },
+    {
+      "id": 7,
+      "title": "PRAGMA：终身对话中记忆对齐的个性化指导评估基准(EMNLP26)",
+      "url": "https://arxiv.org/abs/2609.09664",
+      "time": "2026-09-10",
+      "category": "paper",
+      "topic": ["memory"],
+      "summary": "现有记忆系统评测聚焦检索和事实性回忆，但真实场景常需要推荐、规划、决策支持等个性化指导，要求跨多轮历史整合信息并推理用户演变偏好。PRAGMA基准含纵向对话历史、证据标注、基于用户情境演变/错误假设构建的指导场景。在检索系统、记忆系统、长上下文模型三类系统上测试：均难以召回恰当对话证据，即使召回正确也难以据此有效给出个性化指导，表明需要支持稳健检索与记忆基础推理的新架构。",
+      "source": "arXiv"
+    },
+    {
+      "id": 8,
+      "title": "Procedural Memory Under Change：受控网页任务中程序性记忆的复用与干扰",
+      "url": "https://arxiv.org/abs/2609.09774",
+      "time": "2026-09-10",
+      "category": "paper",
+      "topic": ["memory"],
+      "summary": "研究程序性记忆在环境变化、适用性前提被打破时的行为表现。结合BrowserGym TimeWarp回顾性案例(WebShop V1-V6，界面代码调整但高层流程未变)与合成购物决策任务冻结记忆对比实验(本地qwen3:8b，温度0，32个正式实验单元覆盖数量变化/证据呈现方式/局部-全局优化冲突/分布式促销证据四类不匹配)。结果：在证据明确充分时，预设的诊断性干扰特征均未出现，划定出一个'无干扰'测试区域；但明确声明该结果不构成普遍安全性证明，未揭示内在机制。",
+      "source": "arXiv"
+    },
+    {
+      "id": 9,
+      "title": "What Should an Agent Forget？分离'存储的内容'与'使用的内容'(RD-Forget)",
+      "url": "https://arxiv.org/abs/2609.10263",
+      "time": "2026-09-10",
+      "category": "paper",
+      "topic": ["memory"],
+      "summary": "持久化Agent需保留历史经验，但已过时事实可能误导'当前状态'类问题、对历史类查询却仍关键。提出免训练框架RD-Forget：完整保留源档案，用冻结LM作策展人将证据归类到语义槽位并保留多跳关系结构，构建查询条件化的记忆视图；同槽位替换链抑制过时数值干扰当前状态回答，意图感知检索使早期证据在历史类查询时仍可用，率失真公式指导有限预算下的视图构建。覆盖对话记忆/知识更新/事实整合/长上下文推理/个性化五场景，消融显示遗忘机制与查询条件化贡献最大。",
+      "source": "arXiv"
+    },
+    {
+      "id": 10,
+      "title": "ROAM：通过语义关系实现Agent原子记忆的鲁棒组织",
+      "url": "https://arxiv.org/abs/2609.09778",
+      "time": "2026-09-10",
+      "category": "paper",
+      "topic": ["memory"],
+      "summary": "细粒度原子记忆有利于精确检索，但会不可避免产生冗余、重叠或冲突；传统LLM管理器直接增删改写记忆容易出错。ROAM将新观测与已存记忆的配对关系分类为独立/等价/方向性包含/冲突四型，据此组织为Primary(主)与Evidence(支持性证据)角色，通过融合机制整合互补细节与时序变化，检索阶段仅用Primary视图。答案准确率最高提升29.8个百分点，关键证据召回率+15.6pp，混淆词占比-11.5pp，在不同管理器规模下保持鲁棒。",
+      "source": "arXiv"
+    },
+    {
+      "id": 11,
+      "title": "内核管理共享记忆：面向系统级个性化",
+      "url": "https://arxiv.org/abs/2609.10144",
+      "time": "2026-09-10",
+      "category": "paper",
+      "topic": ["memory"],
+      "summary": "多智能体系统中一个Agent学到的上下文常无法被其他Agent获取。提出由Agent系统内核(而非各Agent自身)统一管理记忆检索、隐私保护与提示注入防护的架构，各专用Agent仅负责写入结构化带标签记忆。在AIOS上对GPT-4o/Llama-3.1:8B/Qwen-2.5:7B共1800次试验：相比无管理的Mem0，个性化评分(5分制)提升2.4-4.0分(GPT-4o从1.05→4.69，p<10⁻¹⁸)；相比完整无过滤上下文拼接，两个模型上效果统计持平但端到端延迟降低15%-61%。",
+      "source": "arXiv"
+    },
+    {
+      "id": 12,
+      "title": "面向金融推理的数据中心式后训练：挖掘、蒸馏与可验证学习",
+      "url": "https://arxiv.org/abs/2609.10113",
+      "time": "2026-09-10",
+      "category": "paper",
+      "topic": ["post-training"],
+      "summary": "金融领域真正适合推理导向后训练的数据稀缺：现有QA对缺乏显式推理过程，教科书需先转化为合成样本。构建挖掘开源推理轨迹+蒸馏金融指令数据+知识图谱生成QA对的互补语料库，配三个轻量分类器筛选金融相关/剔除信息不足/识别可验证RL任务。FINESSE-Bench上：普通SFT反而下降3.2-4.0分；自蒸馏SFT提升1.0-2.8分；等权重模型合并比SFT父模型恢复+3.0分；GRPO在困难任务上再追加+0.4至+3.0分。核心结论：具备能力保留意识的适配方法可避免SFT常见的能力遗忘。",
+      "source": "arXiv"
+    }
+  ]
+}
