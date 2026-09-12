@@ -59,3 +59,10 @@
 - URL 均经 web_fetch 逐条抓取验证可访问。注意：`github.com/minghaoguo20/Mr-LHDR-eval` 会重定向到 `Mr-LHDR`，故该条目改用 arXiv 摘要页作 url；`WJ-janken/ai-agents-from-zero-to-one` 是 1 star 的 fork，已改用上游原仓库 `didilili/ai-agents-from-zero`（4.6k）。
 - 已规避与 09-11 文件重复：未复用 OpenAI Agents API、DeepSeek-V4.1-Flash、SoL-Pi、陶哲轩长文、NeoHorse-1、OPRD、RAGMark、记忆可移植性、执行态遗忘、Omni Interaction Agent、superpowers、archify、ponytail、OpenMAIC、all-in-rag、UltraData-RL-2609。
 - 晚间补充采集时新 id 从 17 起，避免与以上条目重复。
+
+## 2026-09-11（补充收录）
+- 用户反馈「Kimi 2.8 也存在更新但未上推荐页」，核实为 **Kimi K2.8 Preview**（月之暗面，2026-09-11 16:00 全量上线 Kimi Code / Kimi Work）。漏采原因：当日早间采集在 08:00 前完成，而该新闻 16:00 才发布。
+- 已补入 `data/2026-09-11.json` 作为 id 17（category=news，topic=[agent, memory]），url 用 IT之家 https://www.ithome.com/1/001/319.htm（经抓取验证）。补后校验：OK count=17，id 连续 1-17，顶层单一 items 数组，字段完整性通过，url 17/17。
+- 要点：Model ID 仍为 kimi-for-coding（免改配置灰度切换）、1M 上下文下放至全部会员档位（K3 需 Allegretto 及以上）、thinking effort 三档 low/high/max 且默认 max（K3 默认 high）、编码与 Agent 能力提升、官方未公布 benchmark、切换模型会导致旧上下文缓存失效从而额度消耗上升。
+- git：已提交 `1273eac data: add Kimi K2.8 Preview to 2026-09-11 digest` 并推送至 origin/master。
+- 教训：**后续每日采集需检查「采集时间之后发布的当日新闻」**，尤其是模型发布类（通常在国内下午/晚间发布），必要时在次日补充到对应日期文件。
