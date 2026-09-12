@@ -206,6 +206,19 @@
       "highlight": "RLVR 训练最缺的就是「奖励信号可靠、难度梯度匹配」的数据，这份按四大推理场景分层且代码带测试用例，可直接用于 GRPO 类后训练实验。",
       "stars": null,
       "tags": ["post-training", "rlvr", "grpo", "dataset", "reinforcement-learning", "reward-model"]
+    },
+    {
+      "id": 17,
+      "title": "月之暗面 Kimi K2.8 Preview 全量上线：1M 上下文下放全部会员档位",
+      "url": "https://www.ithome.com/1/001/319.htm",
+      "time": "2026-09-11",
+      "category": "news",
+      "topic": ["agent", "memory"],
+      "summary": "月之暗面于 9 月 11 日将 Kimi K2.8 Preview 全量上线 Kimi Code（及 Kimi Work），Model ID 保持 kimi-for-coding 不变，客户端与第三方工具无需改配置即可自动切到新模型。官方称综合性能接近旗舰 K3，编码与智能体能力全面提升，思考（thinking）效率较 K2.7 Code 显著改善；最实质的变化是 1M 上下文窗口向全部会员档位开放（此前 K3 的百万上下文需 Allegretto 及以上档位）。思考档位与 K3 一致为 low/high/max 三档，但默认档位不同——K3 默认 high，K2.8 Preview 默认 max，因此思考 token 与等待时间可能更高；关闭 thinking 后，K3 系列与 K2.8 Preview 的请求均路由到 K2.8 Preview 的无思考版本。官方同时提示：切换模型后旧模型建立的上下文缓存无法继续命中，刚切换时额度消耗会偏高，建议新开会话使用，并避免在长会话中反复切换思考档位。官方未公布任何 benchmark 数据。",
+      "source": "IT之家",
+      "highlight": "编码 Agent 的性价比选择被重新定义：把旗舰级 1M 上下文下放到全档位、默认思考强度拉到 max，且 Model ID 不变意味着可以零改动灰度切换；但缓存失效带来的额度上升与「版本号倒退」的命名逻辑值得注意。",
+      "stars": null,
+      "tags": ["agent", "coding-agent", "context-window", "context-management", "thinking-effort", "model-release"]
     }
   ]
 }
