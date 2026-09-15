@@ -66,3 +66,14 @@
 - 要点：Model ID 仍为 kimi-for-coding（免改配置灰度切换）、1M 上下文下放至全部会员档位（K3 需 Allegretto 及以上）、thinking effort 三档 low/high/max 且默认 max（K3 默认 high）、编码与 Agent 能力提升、官方未公布 benchmark、切换模型会导致旧上下文缓存失效从而额度消耗上升。
 - git：已提交 `1273eac data: add Kimi K2.8 Preview to 2026-09-11 digest` 并推送至 origin/master。
 - 教训：**后续每日采集需检查「采集时间之后发布的当日新闻」**，尤其是模型发布类（通常在国内下午/晚间发布），必要时在次日补充到对应日期文件。
+
+## 2026-09-15（首次采集）
+- 说明：09-13、09-14 为周末，data/ 无对应文件，未回补。今天文件此前不存在，新建 `data/2026-09-15.json`，id 从 1 递增。共 16 条，node 校验通过（items 单一顶层数组，count=16，id 连续 1-16）。
+- 类别分布：paper x9、news x4、repo x2、tool x1。
+- 专项覆盖：agent x13、post-training x6、memory x4、rag x2（topic 按需叠加）。
+- 条目清单（供后续去重）：news — Claude Opus 5.2 疑似灰度上线与 Anthropic 三层 RSI 布局（含内部 Model 2 / CoBench v2 62.8）、Claude Mods（Function Hooks TypeScript 插件化）、英伟达/Palantir/Booz Allen 限制 Claude 与 Enterprise Frontier Safeguards、Theseus Labs RSI 全景图（五级自主权 + HCI 指数）；paper — 2609.11873 The Last AI Built by Humans（RSI 路线图原文）、2609.12742 Skill Issue（仓库 SKILL 文档优化实证）、2609.12808 K-Bench（智能体遗忘认证失效）、2609.12394 BlueLM-GUI（真机中心飞轮，35B-A3B）、2609.12459 EvoRS（Reward-DAG 自演化奖励）、2609.12436 LifeFuse-Mem（生命周期感知记忆）、2609.12686 残差向量重构长上下文召回（200 万 token）、2609.13134 次二次注意力异构解耦、ECA 证据证书式 GUI Agent 防护（深大+港科大，走 AITNT 报道页）；repo — zgcagi/ZGCM-1（中关村学院 7.39B 全链路开源）、tech-leads-club/agent-skills（6.1k，安全 Skill 注册表 + MCP）；tool — Panniantong/Agent-Reach（81.4k，Agent 联网能力层，首选/备选后端路由）。
+- 主要来源：AITNT 新闻详情页（newId 29338/29341/29349/29350/29354/29355）、arXiv cs.AI recent（Mon, 14 Sep 2026 批次）、GitHub 仓库页。
+- URL 均经 web_fetch 逐条抓取验证可访问。
+- 已规避与 09-11、09-12 重复：未复用 OpenAI Agents API、DeepSeek-V4.1-Flash、SoL-Pi、NeoHorse-1、OPRD、RAGMark、OpenViking、llm_wiki、MAPLE、COBRA-Skills、AgentZip、Mr.LHDR、Q2D-Web、CAGE 等条目。
+- 注意：id 1 的 Opus 5.2 为开发者爆料/传闻（Anthropic 未官方确认），summary 与 highlight 中已显式标注不确定性。另本轮曾在若干聚合站（aitop.news、aoyii.com）见到 GPT-5.6 / DeepSeek V4 等未经证实条目，已全部剔除未收录。
+- 晚间补充采集时新 id 从 17 起，避免与以上条目重复。
