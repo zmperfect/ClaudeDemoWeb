@@ -203,6 +203,18 @@
 - 类别：news 3 / paper 9；topic覆盖 agent(6) / memory(6) / post-training(2)。
 - 当日趋势：Agent记忆评估与架构类论文占比显著提升(5/9篇paper聚焦memory)，主题从'如何存储'转向'如何决定存储什么/使用什么/忘记什么'；行业新闻出现多篇需谨慎核验的软文/矛盾数据案例，已如实标注不确定性而非直接采信。
 
+## 2026-09-23
+- 目标文件：data/2026-09-23.json，全新创建 12 条内容；JSON校验通过，id 1-12，12个URL均唯一、与09-21零重复，论文均经abs页逐条核验。
+- 上下文：09-11~09-21 由 ai 实例（.codebuddy/automations/ai/memory.md）负责采集；本实例上次执行为 09-10，09-13 / 09-14 / 09-22 三天空缺（已向用户报告）。
+- 格式升级：近日文件（09-21起）字段扩展为 id/title/url/time/category/topic/summary/source/highlight/stars/tags，js/app.js 已支持 highlight/stars/tags 渲染与检索；本日文件采用该完整格式，与近期保持一致（此前 09-07~09-10 仅有 summary/source）。
+- 行业新闻（AITNT转述）：OpenAI GPT-6 Sol+Luna 与 Anthropic Claude Opus 5.5 同日发布，竞争焦点转向单位任务成本（Sol 价格腰斩50%，AutomationBench 每任务成本仅 Opus 5 的9%；Opus 5.5 成本降40%/速度+30%，Cache Read降60%。注意 Anthropic自曝 FrontierCode 上 medium→max 成本涨7.7倍而分数反降 54.6%→54.4%）/ OpenAI官宣24天攻克100+数学难题并成立9人独立数学顾问组(Gowers/Hairer/Witten/De Lellis，有发言权无刹车权)，背景是27位菲尔兹奖得主联名公开信 / TypeSafe AI 发布 Jev 决策模型(分类式、70-500ms、输入$0.042/百万token、输出免费，面向Agent高频路由与工具选择；作者诚实声明未完成与GPT对比实测)。
+- Agent论文：Skills Should Form Habits(42任务×3次，38-74%不一致，95.3-97.2%生成用于重算已知计划；habit-formed 456次分派全复现，token-14~56%，但确定性错误会精确重复) / How Strongly Should Task State Influence an LLM Agent(状态四档：transcript/checklist/directives/enforcement；τ²-bench航空政策门使235B pass^1 0.39→0.54，但PM-Bench上强制反而有害) / ToolCompass(按功能vMF分布组织工具调用，AppWorld OOD +10.71pp，无推理开销) / FrontierMath Erdős(68道开放Erdős猜想需Lean证明，$300/题预算，仅GPT-6 Astra 3%其余0%)。
+- Memory论文：MoM/P-Mem(active frontier+保留被取代值，4倍更少读取token达同等准确率，陈旧答案率19.4%→10.9%) / Impact Is Not Invalidation(同样diff只改提问「行为是否保持」→「这条声明是否仍成立」，精确率0.29→0.70-0.97) / MemoryAthena(生成式记忆E/GE/GH三通路+因果路由头，冻结主干只训路由)。
+- RAG论文：CoVeR(冻结句嵌入coverage margin阈值门控验证器，砍62-68%调用、饱和93%，可蒸馏为921k参数头使路由环无LLM)。
+- Post-training论文：NB-LoRA(推理激活占低维子空间，LoRA更新限制在近似零空间内，适配性能与标准LoRA相当而保留RL推理能力)。
+- 类别：news 3 / paper 9；topic覆盖 agent(6) / memory(3) / post-training(2) / rag(1)。
+- 当日趋势：模型发布进入「单位任务成本」竞争阶段；Agent记忆研究从「如何存」深入到「提交/溯源/失效判定/生成式记忆」；数学AI突破与系统性基准(FrontierMath Erdős 3%)形成强烈张力，引用时应同时呈现两侧。
+
 ## 通用经验
 - PowerShell 内联 $var 在本环境会被吞，校验 JSON 用 -File 脚本方式（临时脚本用完即删）。
 - 每次先读 memory.md 与当日 json，从最大 id+1 递增追加，只增不改。
