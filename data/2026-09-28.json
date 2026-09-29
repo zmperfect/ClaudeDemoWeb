@@ -1,0 +1,131 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "SiMa.ai 完成 1.5 亿美元 C 轮融资，估值 14.5 亿美元，扩展 Physical AI 芯片平台",
+      "url": "https://www.sima.ai/press-release/sima-ai-reaches-1-45b-valuation-with-500-million-in-total-funding-to-scale-physical-ai-in-humanoids-automotive-and-drones/",
+      "time": "2026-09-28",
+      "category": "news",
+      "summary": "边缘 AI 芯片与软件公司 SiMa.ai 宣布完成 1.5 亿美元 C 轮融资，由 Fidelity Management & Research Company 与 Amplify 共同领投，公司估值达 14.5 亿美元、累计融资 5 亿美元。资金将用于扩大 Palette Neat Physical AI 软件环境、研发目标算力 1,000 dense TOPS 的下一代硬件，并拓展人形机器人、汽车、ADAS 与无人机市场；公司称下一代硬件预计 2028 年上半年推出。",
+      "source": "SiMa.ai 官方新闻稿（09-28）；Business Wire 同步发布",
+      "highlight": "Physical AI 的边缘侧竞争不只是 TOPS，更是能否把模型、工具链和开发环境一起交付。下一代硬件要到 2028 年上半年才推出，因此本轮融资代表扩张承诺而非近期供货；投资者与客户应把时间表和实际客户部署分开看。",
+      "stars": null,
+      "tags": ["sima-ai", "edge-ai", "physical-ai", "funding", "robotics"]
+    },
+    {
+      "id": 2,
+      "title": "Cognizant 将 Agentic Workflow Processing 与 100+ MCP 工具引入 TriZetto 理赔运营",
+      "url": "https://news.cognizant.com/2026-09-28-Cognizant-Brings-Agentic-AI-and-MCP-tool-library-to-Core-Claims-Operations-with-Workflow-Agentic-Processing-for-TriZetto",
+      "time": "2026-09-28",
+      "category": "news",
+      "topic": ["agent"],
+      "summary": "Cognizant 宣布 Workflow Agentic Processing 面向 TriZetto Facets 与 QNXT 平台提供一般可用能力，并发布 100 多个企业 MCP 工具。Agent 可依照健康计划 SOP 处理符合条件的常规暂挂理赔，把拒赔、异常及复杂个案转交人工审核；客户可查看工作队列、Agent 操作和结果。公司称早期客户正在试点，实际绩效数据将在后续公布。",
+      "source": "Cognizant 官方公告（09-28）",
+      "highlight": "比「全自动理赔」更务实的边界是让 Agent 处理规则清晰的常规件、把异常保留给人工，并把操作留痕放在原有工作流里。100+ MCP 工具降低数据接入门槛，但公告尚无自动处理率、节省金额或处理时间数据，GA 不等于已证明业务收益。",
+      "stars": null,
+      "tags": ["enterprise-agent", "mcp", "healthcare", "claims-processing", "workflow"]
+    },
+    {
+      "id": 3,
+      "title": "Trintech 发布三款财务 Agent：数据访问、应计智能与异常管理",
+      "url": "https://www.trintech.com/news/trintech-launches-three-new-ai-agents-to-advance-governed-autonomous-finance/",
+      "time": "2026-09-28",
+      "category": "news",
+      "topic": ["agent"],
+      "summary": "Trintech 在 Trintech Connect 2026 发布三款面向财务关账的 Agent：Data Access Agent 连接并治理多源财务数据；Accruals Intelligence Agent 根据历史活动提出应计估算、标记偏离项并保留证据与审批轨迹；Exception Management Agent 分类、排序和调查异常，给出可能根因及支持证据。官方公告未公布量化效率收益，现有客户可联系客户经理了解可用性。",
+      "source": "Trintech 官方公告（09-28）",
+      "highlight": "财务 Agent 的价值不只在自动执行，还在每项建议能否回溯到数据、方法、审批和审计记录。三款产品把「治理」放在产品定位中心，适合高合规流程；但真正的落地指标仍应看关账周期、误报率和人工复核负担。",
+      "stars": null,
+      "tags": ["finance-agent", "financial-close", "audit-trail", "exception-management", "enterprise-ai"]
+    },
+    {
+      "id": 4,
+      "title": "ControlScope：为 LLM Agent 工作流选择修订幅度，避免每次出错都推倒重来",
+      "url": "https://arxiv.org/abs/2609.34313",
+      "time": "2026-09-28",
+      "category": "paper",
+      "topic": ["agent"],
+      "summary": "ControlScope 研究 Agent 执行工作流时何时、以多大范围修订计划：继续现有代码、只改下一次工具调用的参数，或替换整个未完成工作流。论文在文件系统任务、ALFWorld 与 AppWorld 上比较 KEEP、ARG、FULL 三种策略；完整替换在部分文件系统场景更好，但其他评测差距不稳定，ALFWorld 和 AppWorld 的整体差异较小。作者还报告推理型复审会增加成本，五次调用保护机制节省部分输出但少完成一次任务。",
+      "source": "arXiv:2609.34313 (cs.AI)，v1 提交 2026-09-28",
+      "highlight": "Agent 失败后的恢复策略存在「修得太少」与「重来太贵」的权衡。论文没有给出一种始终最优的修订粒度，反而强调决策依赖任务与成本；这比简单宣称自我修复有效更有工程价值。",
+      "stars": null,
+      "tags": ["agent", "workflow-revision", "reliability", "tool-use", "cost-control"]
+    },
+    {
+      "id": 5,
+      "title": "Self-Evolving Coding Agents：把执行轨迹编码成可迭代的物理任务策略",
+      "url": "https://arxiv.org/abs/2609.35432",
+      "time": "2026-09-28",
+      "category": "paper",
+      "topic": ["agent"],
+      "summary": "论文提出 Physical Coding 思路，把任务状态、执行过程和策略显式表示为代码：Code as World 记录物体、关系、约束与进度，Code as Policy 组织规划、验证、恢复和执行；系统 HexaAnything 调用感知、规划与控制工具，并根据外部反馈调整。作者报告其在 RoboCasa365 部分划分优于 XR-1 VLA，训练所得 HexaModel 在各划分优于基线，并在 PhyBench 与双臂 AgileX 机器人上完成实验；摘要未给出详细量化指标。",
+      "source": "arXiv:2609.35432 (cs.RO)，v1 提交 2026-09-28；技术报告",
+      "highlight": "把物理任务的状态与策略放进可编辑代码，便于检查、回滚和复用，类似把软件 Agent 的 harness 扩展到机器人执行环。论文摘要同时包含数字仿真与真实机器人测试，但没有给出可独立比较的数值，现阶段应视作有方向性的技术报告。",
+      "stars": null,
+      "tags": ["coding-agent", "embodied-ai", "robotics", "self-evolution", "physical-world"]
+    },
+    {
+      "id": 6,
+      "title": "δ-Vision：用轻量 MLP 重建多模态模型视觉状态，不必剪掉视觉 token",
+      "url": "https://arxiv.org/abs/2609.34972",
+      "time": "2026-09-28",
+      "category": "paper",
+      "summary": "Just MLPs 提出 δ-Vision，以轻量低秩适配器逐层构造视觉记忆，在保留全部视觉 token 的同时重建多模态语言模型的视觉状态，而非通过剪枝丢弃 token。作者报告阻断视觉到文本的信息流后，恢复少数方向即可挽回大部分准确率；在图像和视频基准上，方法相较视觉 token 剪枝基线取得更高准确率、相当或更低计算量，摘要未提供具体数字。",
+      "source": "arXiv:2609.34972 (cs.CV)，v1 提交 2026-09-28；Hugging Face Daily Papers 09-28 收录",
+      "highlight": "视觉 token 压缩常以丢信息换算力；这项工作尝试学习如何恢复被跨模态处理压低的视觉状态，路线与直接剪 token 不同。关键主张还需看各任务上的延迟、显存和准确率折中表，尤其是长视频场景。",
+      "stars": null,
+      "tags": ["multimodal", "visual-token", "mlp", "efficient-inference", "video-understanding"]
+    },
+    {
+      "id": 7,
+      "title": "InternW0-Δ：以 2 万小时开放数据连接世界动力学预测与机器人动作",
+      "url": "https://arxiv.org/abs/2609.31394",
+      "time": "2026-09-28",
+      "category": "paper",
+      "topic": ["agent"],
+      "summary": "InternW0-Δ 是面向机器人操作的世界动作模型，以 Mixture-of-Transformers 结合视觉动态、场景语义、4D 几何与运动先验，并生成动作。论文称训练语料超过 20,000 小时，包含机器人示范、UMI、人类第一视角示范及 Ego2Robot 数据；Causal Imprint 利用训练阶段的未来监督辅助动作专家，推理时无需生成未来视频。作者称其在仿真和真实机器人平台表现强，但摘要未给出具体分项分数。",
+      "source": "arXiv:2609.31394 (cs.RO/cs.CV)，v1 提交 2026-09-25；Hugging Face Daily Papers 09-28 收录",
+      "highlight": "世界模型和动作策略的接口是机器人基础模型的核心难题之一；把预测动力学转成动作条件而不在推理时生成未来视频，是计算效率上的关键设计。超过两万小时的数据规模很突出，但数据构成与真实平台泛化仍需看论文细节。",
+      "stars": null,
+      "tags": ["world-action-model", "robotics", "embodied-ai", "open-data", "multimodal"]
+    },
+    {
+      "id": 8,
+      "title": "YuE2：以符号乐谱规划统一音乐生成，在 15 项 MERT2 评测中的 14 项超越既有最佳",
+      "url": "https://arxiv.org/abs/2609.33757",
+      "time": "2026-09-28",
+      "category": "paper",
+      "summary": "YuE2 用单一 AR-NAR Mixture-of-Transformers 流程统一符号音乐与音频生成：先生成可读乐谱（旋律与和声），再扩展为语义音乐 token，最后生成完整歌曲音频；配套 MERT2 和 SheetSage2，从无乐谱对齐录音中提供语义与符号监督。作者报告专家比较中加入符号规划后偏好率 49.3%，无规划为 34.6%；WildSongBench 的 SongBench Global Avg 为 6.73，best-of-8 为 6.96；MERT2 在 15 项 MARBLE 指标的 14 项超过此前最佳。以上是论文摘要自报结果，摘要未披露机构与模型参数规模。",
+      "source": "arXiv:2609.33757 (eess.AS)，v1 提交 2026-09-27；Hugging Face Daily Papers 09-28 收录",
+      "highlight": "把符号乐谱作为中间规划层，意味着音乐生成不再只是声学 token 的续写，而能显式控制旋律与和声结构。多项结果由作者报告，尚需关注听评协议、best-of-8 的选择成本，以及与闭源商业系统的可重复对照。",
+      "stars": null,
+      "tags": ["music-generation", "symbolic-music", "audio", "multimodal", "transformer"]
+    },
+    {
+      "id": 9,
+      "title": "RoboFoundry：把具身 Agent 的记忆、技能与失败恢复整体演化为「系统策略」",
+      "url": "https://arxiv.org/abs/2609.32862",
+      "time": "2026-09-28",
+      "category": "paper",
+      "topic": ["agent", "memory"],
+      "summary": "RoboFoundry 将具身智能体支持系统作为可演化的整体策略：从执行轨迹诊断决策与记忆缺口，把验证过的任务级更新写入当前上下文和持久文件记忆，再将有效改进推广到通用系统；层级技能系统包含原子技能、技能组合与失败恢复，并以共享语义接口区分平台无关决策和平台特定执行。作者摘要报告在 EmbodiedBench 比 GPT-5.5 高 27.8%，长期记忆基准 RoboMemArena 优于各基线至少 39%，LIBERO-PRO 对 Cap-Agent0 的优势为 243.8%–679.7%；这些为作者报告的结果，非独立复现。",
+      "source": "arXiv:2609.32862 (cs.AI)，v1 提交 2026-09-26；Hugging Face Daily Papers 09-28 收录",
+      "highlight": "它把 Agent 的能力演化从「改模型」扩展为「改系统」：记忆、技能、失败恢复和平台接口都进入可迭代策略。若结果可复现，这种 system-as-policy 思路适合机器人任务中模型冻结、环境持续变化的场景；极高相对增幅也需要结合基线绝对分数和评测难度审慎解读。",
+      "stars": null,
+      "tags": ["embodied-agent", "memory", "skills", "self-evolution", "robotics"]
+    },
+    {
+      "id": 10,
+      "title": "EmbodiedMemory-Bench：长时程具身任务记忆评测含 2,554 个交互回合",
+      "url": "https://arxiv.org/abs/2609.28236",
+      "time": "2026-09-28",
+      "category": "paper",
+      "topic": ["memory", "agent"],
+      "summary": "EMem-Bench 针对长时程具身交互的四类记忆挑战建立评测，共 2,554 个交互回合，考查细粒度视觉记忆、动态状态追踪、从交互结果记录世界状态和跨经验泛化。配套系统 Embodied-Memorizer 将具身经验组织为空间、事件和场景记忆，并训练 8B 策略模型 EMem-8B；作者报告当前多模态模型在这些挑战上表现较弱且不均衡，EMem 在同骨干对比中整体领先。",
+      "source": "arXiv:2609.28236 (cs.CV)，v1 提交 2026-09-23；Hugging Face Daily Papers 09-28 收录",
+      "highlight": "具身记忆不只是把视觉历史存下来，还要追踪环境变化、记录行动带来的状态更新，并把经验迁移到新任务。2,554 个真实交互回合为这类能力提供了更具体的测试面；摘要没有公开逐项分数，比较系统时仍需查完整实验设置。",
+      "stars": null,
+      "tags": ["embodied-memory", "long-horizon", "benchmark", "multimodal-agent", "memory"]
+    }
+  ]
+}
