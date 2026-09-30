@@ -1,0 +1,17 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "OpenAI DevDay 2026：Dots 常驻智能体与托管 Agents API 推进多智能体执行",
+      "url": "https://openai.com/index/devday-2026-recap/",
+      "time": "2026-09-30",
+      "category": "news",
+      "topic": ["agent"],
+      "summary": "OpenAI 官方 DevDay 2026 回顾列出 20 多项更新。Agent 方向包括 dots：由 GPT-6 Astra 驱动、具备独立云端计算机的常驻智能体，可在用户授权连接的应用中持续推进任务；以及 Agents API 计算机使用能力，将 Codex 执行框架作为托管能力交给开发者，并支持多智能体、工具搜索与调用、上下文压缩和计算机使用。回顾还提到 Codex CLI 的 /agents 视图，可分派并跟踪多个智能体任务。该页面未给出回顾本身的发布日期，也未明确各项功能的普遍可用状态；具体可用性应以各产品页面为准。",
+      "source": "OpenAI 官方《DevDay 2026 回顾》；CNBC 现场报道交叉核对",
+      "highlight": "发布重点从单次模型问答延伸到持续运行的云端任务、应用授权、工具执行和多 Agent 编排。对工程团队而言，真正需要评估的不只是任务成功率，也包括授权范围、执行可见性、上下文压缩后的信息保真，以及多 Agent 运行时的权限与成本治理。",
+      "stars": null,
+      "tags": ["openai", "devday", "dots", "agents-api", "multi-agent", "tool-use", "context-compression"]
+    }
+  ]
+}
