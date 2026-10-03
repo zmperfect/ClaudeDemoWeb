@@ -1,0 +1,82 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Cloudflare 开源 Clef 决策模型并推出 RL 微调服务",
+      "url": "https://blog.cloudflare.com/clef-decision-models/",
+      "time": "2026-10-02",
+      "category": "news",
+      "topic": ["agent", "post-training"],
+      "summary": "Cloudflare 官方介绍 Clef 与轻量版 Clef-flash 两款开放权重决策模型，面向按 schema 输出结构化选项及概率的分类、路由和 Agent 决策任务；公告称模型支持视觉输入、最长 64K 上下文，并可经 Workers AI 使用或从 Hugging Face 下载，采用 Apache 2.0。公告同时介绍 RL 微调：当前以 Cloudflare 工程团队协助客户的服务形式提供，自助式平台仍属后续计划。官方页面抓取内容未显示发布日期，本条按 10 月 2 日 AI 新闻日报/HN 汇总收录日期登记，不把它表述为官方标注的发布日期。",
+      "source": "Cloudflare 官方博客；2026-10-02 Verstin AI 日报及 HN 条目列出该公告",
+      "highlight": "把低延迟、受约束的决策从通用聊天模型中拆出，可用于 Agent 的意图分类、策略选择与下一步路由；须区分当前人工协助式微调与尚未全面开放的自助平台。性能对比属厂商报告。",
+      "stars": null,
+      "tags": ["cloudflare", "clef", "decision-model", "workers-ai", "RL-finetuning", "agent"]
+    },
+    {
+      "id": 2,
+      "title": "AutoCompact：训练长程编码 Agent 学会何时压缩上下文",
+      "url": "https://arxiv.org/abs/2610.02163",
+      "time": "2026-10-02",
+      "category": "paper",
+      "topic": ["agent", "memory", "post-training"],
+      "summary": "AutoCompact 让编码 Agent 学习何时压缩上下文、保留哪些工作状态以及如何从压缩后继续执行；训练先用评审器校正压缩决策和摘要轨迹，再结合监督微调与任务成功奖励强化学习。arXiv 记录为 2026-10-01 17:54:34 UTC（北京时间 10 月 2 日 01:54）；摘要报告在 SWE-bench Verified 和 SWE-PolyBench Verified 上相对基础模型分别提高 9.2、5.0 个百分点。结果为论文自报。",
+      "source": "arXiv:2610.02163 (cs.CL)，v1 提交 2026-10-01 17:54 UTC",
+      "highlight": "上下文压缩从固定启发式转为可训练决策，直接优化长程代码任务中的信息保留与恢复。需要检查摘要是否保留约束、错误恢复信息和可执行状态，以及不同任务长度下的成本收益。",
+      "stars": null,
+      "tags": ["context-compression", "coding-agent", "long-horizon", "SFT", "RL"]
+    },
+    {
+      "id": 3,
+      "title": "Argo-Bench：用可执行业务后果评估企业数据 Agent",
+      "url": "https://arxiv.org/abs/2610.02122",
+      "time": "2026-10-02",
+      "category": "paper",
+      "topic": ["agent"],
+      "summary": "Argo-Bench 包含 210 项数据科学和分析任务，构建模拟企业数据仓库（235 张表、75 亿行），要求 Agent 从跨表信息中重建事实并执行业务操作，按操作后果而不只是 SQL 正确性评分。论文页面记录 v1 于 2026-10-01 17:35:44 UTC 提交（北京时间 10 月 2 日 01:35）；摘要报告 14 个模型中最佳者仅有 34.8% 任务达到 95 分，平均 59.5 分。数字来自论文摘要。",
+      "source": "arXiv:2610.02122 (cs.CL/cs.AI/cs.DB)，v1 提交 2026-10-01 17:35 UTC",
+      "highlight": "把工具调用的业务结果纳入评分，可暴露 SQL 看似正确但操作状态错误的端到端失败；基准是模拟场景，仍需真实企业数据工作流验证。",
+      "stars": null,
+      "tags": ["enterprise-agent", "data-agent", "benchmark", "tool-use", "workflow"]
+    },
+    {
+      "id": 4,
+      "title": "InterEvolve：让人形机器人在测试时演化奖励程序完成移动操作",
+      "url": "https://arxiv.org/abs/2610.02196",
+      "time": "2026-10-02",
+      "category": "paper",
+      "topic": ["agent", "post-training"],
+      "summary": "InterEvolve 通过已有行为基础模型完成训练中未见过的人形机器人移动操作，不更新控制器权重：LLM Agent 根据执行反馈和已验证技能库修改分阶段奖励程序结构，数值优化器调参，再通过并行仿真验证候选方案。arXiv v1 记录于 2026-10-01 17:59:40 UTC（北京时间 10 月 2 日 01:59）；论文称演化技能可在 Unitree G1 实机上以机载第一人称感知运行。",
+      "source": "arXiv:2610.02196 (cs.RO)，v1 提交 2026-10-01 17:59 UTC",
+      "highlight": "把 Agent 用于改写可验证奖励程序，而不是直接任意改控制代码，为测试时技能组合提供可审查接口；实机能力与安全边界仍需查阅完整实验。",
+      "stars": null,
+      "tags": ["embodied-agent", "humanoid-robot", "test-time-optimization", "reward-program"]
+    },
+    {
+      "id": 5,
+      "title": "RPG：通过仿真实践和失败诊断改进具身 Agent 执行能力",
+      "url": "https://arxiv.org/abs/2610.02204",
+      "time": "2026-10-02",
+      "category": "paper",
+      "topic": ["agent"],
+      "summary": "Reconstruct, Practice, Go Real (RPG) 在不更新模型权重的情况下，让具身 Agent 从离线数据识别技能、构造仿真练习，并依据执行反馈与失败诊断修改可复用符号技能及系统提示；候选变更通过跨任务测试和合并版本评估。arXiv v1 记录于 2026-10-01 17:59:50 UTC（北京时间 10 月 2 日 01:59）；论文报告 22 项留出操作任务在 15 轮练习后仿真成功率从 28.6% 升至 95.0%，并报告经校准适配后的 30 次实机试验全部成功。",
+      "source": "arXiv:2610.02204 (cs.RO)，v1 提交 2026-10-01 17:59 UTC",
+      "highlight": "将“失败—仿真练习—技能更新—跨任务验证”组成闭环，可避免只凭语言反思宣称 Agent 变强。仿真到实机的校准条件及有限实机样本量是解读关键。",
+      "stars": null,
+      "tags": ["embodied-agent", "robotics", "self-improvement", "simulation", "skill-library"]
+    },
+    {
+      "id": 6,
+      "title": "DeepSeek Harness 桌面端：官方公开预览支持本地工作区与插件工作流",
+      "url": "https://www.deepseek.com/en/harness/",
+      "time": "2026-10-02",
+      "category": "news",
+      "topic": ["agent"],
+      "summary": "DeepSeek 官方 Harness 页面称桌面产品已进入全球公开预览并开源，提供桌面应用入口，也可通过 Node.js 启动 Web UI；页面介绍本地文件工作区、文档与代码处理、插件、自定义 Agent 工作流及后台任务。官方页面未标明桌面端正式发布日期，也没有列明 Windows/macOS 的具体版本要求；10 月 2 日日期来自当天 AI 新闻/HN 汇总和爱范儿实测报道，后者列出 Windows 与 macOS 下载。页面标为实验性的能力不视作稳定功能。",
+      "source": "DeepSeek 官方 Harness 页面；爱范儿实测及 2026-10-02 AI 日报交叉参考",
+      "highlight": "桌面 Harness 将 Agent 带入本地文件和工作流，带来更直接的权限与数据边界问题。部署前应确认文件访问授权、插件来源、自动任务行为及具体操作系统支持；官方页面不提供确切发布日期。",
+      "stars": null,
+      "tags": ["deepseek", "harness", "desktop-agent", "local-workspace", "plugins"]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Google 推出 Gemini 4 Argon：先向受信任网络防御者开放的前沿模型",
+      "url": "https://blog.google/intl/en-in/products/gemini-4-argon-our-next-era-of-frontier-intelligence",
+      "time": "2026-10-01",
+      "category": "news",
+      "summary": "Google 官方公告介绍 Gemini 4 Argon，定位于复杂长流程软件工程、企业知识工作及网络安全防御，称模型可协助发现、验证和修补漏洞，并先通过 Fairwind Program 向受信任的网络防御者分阶段开放。官方页面正文未显示发布日期或具体发布时间；10 月 1 日日期依据当日 AI Weekly 新闻版所列发布日，需注意这一日期证据来自日期化二手汇总，而非官方页面元数据。能力和基准数字均为 Google 自述。",
+      "source": "Google 官方 The Keyword 产品公告；AI Weekly 2026-10-01 日期版",
+      "highlight": "模型发布强调高风险网络安全用途并采用受控访问，而不是立即普遍开放。评估时应关注防御用途的访问门槛、能力边界及误报风险；官方正文没有提供可独立验证的发布时间戳。",
+      "stars": null,
+      "tags": ["google", "gemini-4-argon", "cybersecurity", "model-release", "controlled-access"]
+    },
+    {
+      "id": 2,
+      "title": "GAD-RL：通过门控与衰减的在线策略蒸馏提升 OCR 忠实度",
+      "url": "https://arxiv.org/abs/2609.38282",
+      "time": "2026-10-01",
+      "category": "paper",
+      "topic": ["post-training"],
+      "summary": "针对视觉语言模型把图中文字改写为更通顺表达、损害 OCR 忠实度的问题，GAD-RL 根据学生当前输出的任务奖励自适应减弱教师蒸馏：响应组奖励达到阈值时关闭蒸馏，并按奖励上升逐步衰减；另按学生对教师 Top-1 token 的支持度加权前向 KL。arXiv 摘要报告 Qwen3.5-2B 在 CHAOS-Bench 达 59.92% Micro Recall，较 GRPO 高 8.45 个百分点；在 OmniDocBench v1.6 Overall 为 91.18。论文于 2026-09-29 提交；此处按 10 月 1 日日报纳入日期记录，不表示当天提交。",
+      "source": "arXiv:2609.38282 (cs.AI)，v1 提交 2026-09-29；Verstin 2026-10-01 AI 日报列为当日新论文",
+      "highlight": "在线蒸馏强度随学生能力变化，可减少固定教师监督在学生已掌握样本上的过度约束。应用范围是 OCR/VLM 后训练；报告分数来自论文摘要，需结合评测设置与复现解读。",
+      "stars": null,
+      "tags": ["OCR", "on-policy-distillation", "GRPO", "VLM", "post-training"]
+    },
+    {
+      "id": 3,
+      "title": "AREX-2：以长程反思任务训练可自我改进的 Agent",
+      "url": "https://arxiv.org/abs/2609.38288",
+      "time": "2026-10-01",
+      "category": "paper",
+      "topic": ["agent", "post-training"],
+      "summary": "AREX-2 将 Agent 自我改进拆为产生优于当前方案的反思能力，以及持续多轮迭代的长程执行能力；作者用机器学习和算法编程任务合成带可验证反馈的长程改进轨迹训练 Qwen3.8-27B，并测试向深度研究任务迁移。摘要报告 MLE-bench Lite 81.8、Frontier-CS 70.7，以及 BrowseComp、HLE、GAIA、DeepSearchQA 上的成绩提升。论文于 2026-09-29 提交，列于 10 月 1 日日报；基准结果为作者报告。",
+      "source": "arXiv:2609.38288 (cs.AI)，v1 提交 2026-09-29；论文页提供 VectorSpaceLab/AREX-2 代码仓库与模型集合",
+      "highlight": "把反思质量与长程持续执行分别训练，并尝试从可验证编程任务迁移到研究任务，是 Agent post-training 的重要方向。需进一步检查多轮预算、工具使用和基准评测是否可比。",
+      "stars": null,
+      "tags": ["self-improving-agent", "long-horizon", "reflection", "post-training", "benchmark"]
+    },
+    {
+      "id": 4,
+      "title": "MoFlow：一次搜索生成可按偏好选择的多目标 Agent 工作流",
+      "url": "https://arxiv.org/abs/2609.38294",
+      "time": "2026-10-01",
+      "category": "paper",
+      "topic": ["agent"],
+      "summary": "MoFlow 将 Agent 工作流生成建模为多目标决策过程，使用凸包蒙特卡洛树搜索和乐观集合值备份，在搜索节点保存准确率、成本、延迟、鲁棒性和一致性等目标的可达权衡，从而近似覆盖帕累托前沿；之后按用户偏好选工作流，无需因偏好变化重新训练。论文摘要报告在数学、代码和问答共 6 个基准、与 6 个基线比较时获得最高平均超体积，但未给具体数值。论文于 2026-09-29 提交，列于 10 月 1 日日报。",
+      "source": "arXiv:2609.38294 (cs.AI)，v1 提交 2026-09-29",
+      "highlight": "把工作流生成从单一准确率扩展到质量、成本和延迟之间的偏好权衡，对生产 Agent 路由与编排有参考价值；效果还需查看完整实验和实现细节。",
+      "stars": null,
+      "tags": ["agent-workflow", "multi-objective-optimization", "MCTS", "pareto-frontier"]
+    },
+    {
+      "id": 5,
+      "title": "Self-Evolving Harness：让 Agent 修改自己的运行框架以提升任务表现",
+      "url": "https://arxiv.org/abs/2609.38372",
+      "time": "2026-10-01",
+      "category": "paper",
+      "topic": ["agent"],
+      "summary": "该研究让同一个冻结模型既执行任务，也读取运行记录并修改 harness（提示、工具调用、上下文与执行控制代码），在多个基准及留出任务上进行框架层自我改进。摘要报告第一阶段在分布内基准平均提升 4.48 分、分布外提升 12.64 分；第二阶段在 Claw-Eval 上由 66.17 提至 68.06。论文明确优化的是运行框架，不是模型权重；arXiv v1 于 2026-09-29 提交，列于 10 月 1 日日报。",
+      "source": "arXiv:2609.38372 (cs.AI/cs.LG)，v1 提交 2026-09-29",
+      "highlight": "Harness 的自我演化可能在不重新训练基础模型的情况下改进工具与上下文编排，但必须严格隔离变更、测试回归并控制代理修改执行代码所带来的安全风险。",
+      "stars": null,
+      "tags": ["agent-harness", "self-evolution", "workflow-optimization", "generalization"]
+    },
+    {
+      "id": 6,
+      "title": "对齐数据也可能因上下文混淆导致失配迁移",
+      "url": "https://arxiv.org/abs/2609.38379",
+      "time": "2026-10-01",
+      "category": "paper",
+      "topic": ["post-training"],
+      "summary": "论文提出 context confusion：在原情境中适当的对齐样本，微调后可能把行为迁移到不同情境并造成局部失配；作者在性别平等、隐私和人身安全领域报告该现象。摘要称，通用对齐数据未有效缓解，而针对失配领域加入对齐数据或在推理时给出情境示例可缓解。论文将其界定为狭窄情境失配，而非涌现失配；于 2026-09-29 提交，列于 10 月 1 日日报。",
+      "source": "arXiv:2609.38379 (cs.AI/cs.LG)，v1 提交 2026-09-29",
+      "highlight": "训练数据的表面标签并不能保证行为在新上下文中仍合适，更新后评测应覆盖情境迁移和隐私边界；结论目前来自预印本摘要与作者实验。",
+      "stars": null,
+      "tags": ["alignment", "context-confusion", "safety", "generalization", "post-training"]
+    }
+  ]
+}
