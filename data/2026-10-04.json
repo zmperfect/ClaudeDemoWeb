@@ -1,0 +1,133 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "RRPO：用 LLM 反馈优化 RAG 重排器与生成上下文效用",
+      "url": "https://aclanthology.org/2026.acl-long.1406/",
+      "time": "2026-10-04",
+      "category": "paper",
+      "topic": ["rag", "post-training"],
+      "summary": "ACL 2026 长文提出 ReRanking Preference Optimization（RRPO），将 RAG 文档重排视作序列决策过程，使用 LLM 反馈优化重排后上下文对答案生成的效用，并通过参考锚定的确定性基线稳定训练；目标是减少仅依赖静态人工相关性标签造成的重排—生成目标错位。论文集页面列出作者 Yuhang Wu 等、页码 30474–30490，发表月份为 2026 年 7 月。作者报告其在知识密集型基准上优于强基线 RankZephyr，并可结合查询扩展；摘要未列具体分数。此条是补漏收录，不是 10 月 4 日新发表。",
+      "source": "ACL Anthology 2026 ACL Long Papers，DOI: 10.18653/v1/2026.acl-long.1406",
+      "highlight": "把 reranking 的目标从匹配人工相关性标签转向下游回答的上下文效用，减少检索与生成各自优化造成的错位。适合关注 RAG 检索与重排优化的团队；完整奖励设计和效应量需看论文全文。",
+      "stars": null,
+      "tags": ["RAG", "reranking", "LLM-feedback", "reinforcement-learning", "retrieval"]
+    },
+    {
+      "id": 2,
+      "title": "MemFit：以原始对话追加存储和多路重排实现高效长期 Agent 记忆",
+      "url": "https://arxiv.org/abs/2610.00872",
+      "time": "2026-10-04",
+      "category": "paper",
+      "topic": ["memory", "agent", "rag"],
+      "summary": "MemFit 针对长期 Agent 记忆写入成本与摘要信息损失，采用逐轮追加保存原始对话，不依赖 LLM 重写记忆；分段摘要只用于索引，检索结合词汇与语义信号并用 cross-encoder 重排，也支持带字幕的多模态情节记忆。arXiv 页面记录 v1 于 2026-10-01 00:44:33 UTC 提交（北京时间 10 月 1 日 08:44），作者 Mitchell Piehl、Muchao Ye。摘要称其在 LoCoMo、MemGallery、LongMemEval-S 上达到领先表现并显著降低构建时间与成本，但未给具体数字；此条为 10 月 4 日补录，不表示当日发表。",
+      "source": "arXiv:2610.00872 (cs.AI)，v1 提交 2026-10-01 UTC",
+      "highlight": "保留原始交互、将摘要降为索引层，可以降低写入时压缩失真；混合检索与精排则针对回忆质量。生产评估应重点检查隐私、冗余增长、过期事实处理及长期存储成本。",
+      "stars": null,
+      "tags": ["agent-memory", "long-term-memory", "hybrid-retrieval", "reranking", "multimodal"]
+    },
+    {
+      "id": 3,
+      "title": "有界记忆 Agent 评测应分开衡量信息保留与查询时检索",
+      "url": "https://arxiv.org/abs/2610.00366",
+      "time": "2026-10-04",
+      "category": "paper",
+      "topic": ["memory", "agent"],
+      "summary": "《What Should an Agent Remember?》指出，若比较系统时同时改变 Agent 可访问的信息范围和查询时选择规则，就会把记忆保留能力与检索能力混为一谈。论文建议固定访问条件并分别报告 retention 与 retrieval；摘要报告在固定访问条件下，查询感知选择使所需事实召回率提高 15.5 个百分点，而另一组混合比较中的 68.7 个百分点优势有 53.2 个百分点来自访问范围不同。arXiv 页面提交记录为 2026-09-30 06:38:14 UTC，作者栏写 Juli Huang、历史记录写 Julia Huang，姓名差异尚待核实。",
+      "source": "arXiv:2610.00366 (cs.AI)，v1 提交 2026-09-30 06:38 UTC",
+      "highlight": "长期记忆评测若不固定信息可访问范围，容易把更大记忆库误判为更聪明的检索器；设计 benchmark 时应拆分写入/保留、候选访问和查询选择三阶段。",
+      "stars": null,
+      "tags": ["memory-evaluation", "retention", "retrieval", "benchmark", "agent"]
+    },
+    {
+      "id": 4,
+      "title": "PG-SFT：按轨迹信息增益平衡 Agent 新能力获取与旧能力保留",
+      "url": "https://arxiv.org/abs/2610.00949",
+      "time": "2026-10-04",
+      "category": "paper",
+      "topic": ["post-training", "agent"],
+      "summary": "Privilege-Guided SFT（PG-SFT）研究离线 Agent 轨迹 SFT 中目标任务能力提升与其他能力退化的权衡。该方法按轨迹每轮的信息增益调节监督强度；摘要称标准 SFT 会导致非目标基准退化，单纯 KL 惩罚或限制更新也未消除问题。PG-SFT 报告较少分布漂移和广泛能力退化，但目标任务分数略降。arXiv v1 于 2026-10-01 02:32:20 UTC 提交，作者 Ronghua Li 等；实验数值未在摘要中详列。",
+      "source": "arXiv:2610.00949 (cs.AI)，v1 提交 2026-10-01 02:32 UTC",
+      "highlight": "后训练不应只看新任务收益，还应监控基础能力保持；按轨迹信息价值分配监督力度提供了一种细粒度的 SFT 控制思路。",
+      "stars": null,
+      "tags": ["SFT", "capability-retention", "offline-trajectories", "post-training", "agent"]
+    },
+    {
+      "id": 5,
+      "title": "AgSpec：利用会话、工作区和全局检索加速编码 Agent 推理",
+      "url": "https://arxiv.org/abs/2610.01108",
+      "time": "2026-10-04",
+      "category": "paper",
+      "topic": ["agent", "rag"],
+      "summary": "AgSpec 扩展 coding Agent 的 retrieval-based speculative decoding，从会话轨迹扩展到工作区和全局语料，并将 Agent 实际输出格式的打开文件加入索引；通过离线 profiling 设定草拟长度上限，再根据在线验证反馈自适应调整。arXiv v1 于 2026-10-01 05:48:29 UTC 提交。摘要报告在两个仓库级多智能体编码基准的大多数设置中优于五种检索草拟方法和 EAGLE-3，相比自回归解码吞吐量最高提升 4.37×（batch 1）和 4.76×（batch 16）；属于论文摘要自报结果。",
+      "source": "arXiv:2610.01108 (cs.CL)，v1 提交 2026-10-01 05:48 UTC",
+      "highlight": "将 Agent 自身会话和工作区数据作为推测解码候选，利用项目上下文减少解码延迟；部署需评估草拟 token 的验证拒绝率、索引更新成本及代码隐私边界。",
+      "stars": null,
+      "tags": ["coding-agent", "retrieval", "speculative-decoding", "multi-agent", "inference-efficiency"]
+    },
+    {
+      "id": 6,
+      "title": "RPTune：学习整理商品目录上下文，提升 LLM 目录检索",
+      "url": "https://arxiv.org/abs/2610.00964",
+      "time": "2026-10-04",
+      "category": "paper",
+      "topic": ["rag", "post-training"],
+      "summary": "RPTune 面向可放入长上下文模型的小型商家目录检索，训练 encoder-reorganizer curator 根据下游 LLM 反馈对商品排序与剪枝，再用目录依据的自动监督信号和相对上下文奖励进行后训练。论文摘要报告在 7 家真实零售商、每家 100 条复杂对话查询上，专有及开放权重模型的搜索准确率均有提升，目录整理最多增加 31.4 个百分点，后训练平均再提高 10.3 个百分点。arXiv v1 于 2026-10-01 02:52:24 UTC 提交；此为目录内检索研究，不是通用知识库 RAG 的直接基准。",
+      "source": "arXiv:2610.00964 (cs.IR/cs.CL/cs.LG)，v1 提交 2026-10-01 02:52 UTC",
+      "highlight": "当商品目录能整体放入上下文时，学习如何排序与删减上下文可能比扩大检索系统更有效；该方法把 context curation 和下游模型后训练联合起来，结论目前限于零售目录检索场景。",
+      "stars": null,
+      "tags": ["catalog-search", "context-curation", "retrieval", "LLM-finetuning", "RAG"]
+    },
+    {
+      "id": 7,
+      "title": "多用户多 Agent 团队可能不如单一协调 Agent：Worse Together 评测",
+      "url": "https://arxiv.org/abs/2610.00583",
+      "time": "2026-10-04",
+      "category": "paper",
+      "topic": ["agent"],
+      "summary": "该研究在 5 个前沿模型、77 个场景、4 种环境中比较单一协调 Agent 与每位用户各有 Agent 的团队方案，并考察 Agent 间通信。论文摘要报告团队在四种环境中的群体结果都低于单一协调 Agent；无通信时两种环境完全失效，有通信仍有差距，个人助理场景中协调 Agent 满足目标用户请求的频率约为团队两倍。作者记录的失败包括停滞、互相覆盖操作和虚构说法；研究为预印本，提出的缓解策略依环境而异。提交时间 2026-09-30 18:49:25 UTC。",
+      "source": "arXiv:2610.00583 (cs.AI)，v1 提交 2026-09-30 18:49 UTC",
+      "highlight": "增加 Agent 数量并不自动带来协作增益；团队共享状态、操作冲突与用户目标协调都需单独设计。摘要结果来自受控环境，不能直接外推到所有多 Agent 系统。",
+      "stars": null,
+      "tags": ["multi-agent", "multi-user", "coordination", "benchmark", "agent-evaluation"]
+    },
+    {
+      "id": 8,
+      "title": "ActiveSaddler：自适应课程学习优化 Agent Harness",
+      "url": "https://arxiv.org/abs/2610.00906",
+      "time": "2026-10-04",
+      "category": "paper",
+      "topic": ["agent"],
+      "summary": "ActiveSaddler 将 Agent harness 优化中的场景选择建模为非平稳多臂老虎机，把反复出现的失败模式作为优化目标，动态平衡重测已知弱点与探索新失败，并随优化结果更新课程。论文摘要报告在 GAIA2 与 Terminal-Bench 2.0 上，较使用固定场景顺序的同一优化器 Pass@1 分别提高 4.4 和 7.5 个百分点。arXiv v1 于 2026-10-01 01:36:03 UTC 提交；性能数值为作者摘要报告，泛化范围需全文核实。",
+      "source": "arXiv:2610.00906 (cs.AI)，v1 提交 2026-10-01 01:36 UTC",
+      "highlight": "Agent harness 的训练课程也应自适应：反复重测已知失败与探索新失败之间存在权衡。该工作提供了自动选择优化场景的框架，但需比较其额外评估预算与收益。",
+      "stars": null,
+      "tags": ["agent-harness", "curriculum-learning", "optimization", "GAIA2", "Terminal-Bench"]
+    },
+    {
+      "id": 9,
+      "title": "Rules to Tools：将科学计算中的文本规范变成 Agent 可调用检查",
+      "url": "https://arxiv.org/abs/2610.00313",
+      "time": "2026-10-04",
+      "category": "paper",
+      "topic": ["agent"],
+      "summary": "Rules to Tools（R2T）为公开科学计算规范提供可执行检查，让 LLM Agent 检查修改后的程序是否满足方程、边界条件和输出要求；对照组仅获得文字说明。arXiv 页面记录 v1 于 2026-09-29 00:36:16 UTC 提交。摘要报告的效应因任务而异：部分队列检查工具组修复数更高，较大共享定义队列两组打平，匹配 PDE 任务中检查组 24/24、文字组 23/24，同时模型输出量低 31.2%；也有 CPU 使用增加或文字组更好的场景。论文结论不支持“可执行检查总是更优”的泛化说法。",
+      "source": "arXiv:2610.00313 (cs.AI/cs.SE)，v1 提交 2026-09-29 00:36 UTC",
+      "highlight": "把规则说明转成工具化测试能帮助部分科学代码任务，但效果依赖任务和检查覆盖范围；Agent 的验证工具应被视为可测量的证据来源，而不是自动保证正确。",
+      "stars": null,
+      "tags": ["scientific-computing", "tool-use", "executable-checks", "agent-evaluation"]
+    },
+    {
+      "id": 10,
+      "title": "OpenAI 与 Synopsys 宣布 GPT-Synopsys：面向芯片设计的专用模型合作",
+      "url": "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design",
+      "time": "2026-10-04",
+      "category": "news",
+      "summary": "Synopsys 9 月 30 日新闻稿宣布与 OpenAI 达成多年合作，共同开发面向芯片设计的 GPT-Synopsys，将 OpenAI 模型与 Synopsys EDA 工具和芯片设计知识结合，目标是协助设计工具操作、结果解读及功耗/性能/面积优化和验证收敛。双方计划开展研发、产品集成和市场推广，早期技术合作据称已与部分半导体客户展开。性能、商业效益和部署时间属于公司前瞻性陈述，尚无独立验证。",
+      "source": "Synopsys 官方新闻稿，PRNewswire 联合发布，2026-09-30",
+      "highlight": "这是把通用模型接入 EDA 专业工具链、面向芯片工程师工作流的垂直 Agent/模型合作；需要关注其工具权限、设计数据隔离和真实 PPA 改善，而不仅是演示能力。",
+      "stars": null,
+      "tags": ["openai", "synopsys", "chip-design", "EDA", "AI-for-engineering"]
+    }
+  ]
+}
