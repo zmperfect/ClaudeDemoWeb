@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Anthropic 发布 Claude Haiku 5.5：面向高频任务的小型快速模型",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "time": "2026-10-07",
+      "category": "news",
+      "summary": "Anthropic 于 2026-10-07 发布 Claude Haiku 5.5，官方定位为其最快、最便宜且能力最强的小型模型，面向摘要、分类、数据库查询、上下文压缩和作为主 Agent 子代理等高频任务。模型 ID 为 claude-haiku-5-5，公告称已在 Claude Platform、AWS、Google Cloud 和 Microsoft Azure 提供。官方称相较 Haiku 4.5 平均运行成本约下降 75%；其≤100k 输入/输出价格分别为每百万 token 0.10/0.50 美元，超过 100k 时为 0.50/2.50 美元。基准分数和“最快/最强”属于 Anthropic 自述。",
+      "source": "Anthropic 官方公告《Introducing Claude Haiku 5.5》；Claude Help Center Release Notes（2026-10-07）",
+      "highlight": "较低成本的小模型更适合 Agent 架构中的高频分类、摘要和子任务调用；选型时应看每个成功任务的总成本、重试率、上下文分段定价，而不只看 token 单价。",
+      "stars": null,
+      "tags": ["anthropic", "claude-haiku-5.5", "model-release", "agent-subagent", "inference-cost"]
+    },
+    {
+      "id": 2,
+      "title": "Perplexity Decider V1.1 27B 上线 OpenRouter：结构化决策而非通用文本生成",
+      "url": "https://openrouter.ai/perplexity/pplx-decider-v1.1-27b",
+      "time": "2026-10-07",
+      "category": "repo",
+      "topic": ["agent"],
+      "summary": "OpenRouter 模型页将 pplx-decider-v1.1-27b 列为 Perplexity 决策模型的新 checkpoint，接续 Decider V1 27B 并保持同一 API 契约。页面提供 262,144-token 上下文，输入价格每百万 token 0.02 美元、输出标价为 0；模型输出结构化决策，需使用 OpenRouter Decisions API，不能按普通 OpenAI 兼容 Chat Completions 接口调用。页面标注发布日期为 2026-10-07；可用性和延迟统计是页面抓取时动态数据。",
+      "source": "OpenRouter 官方模型页面，发布日期标注 2026-10-07",
+      "highlight": "专用决策模型把分类、路由和有限选项判断从通用聊天生成中分离，适合 Agent 的工具选择和流程分支；集成前需核对 Decisions API 协议及输出 schema，而非误按 chat completion 使用。",
+      "stars": null,
+      "tags": ["perplexity", "decider", "decision-model", "agent-routing", "structured-output", "API"]
+    }
+  ]
+}

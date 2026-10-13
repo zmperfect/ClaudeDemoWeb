@@ -1,0 +1,303 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "TerminalHorizon：扩展长程终端任务的可验证训练数据",
+      "url": "https://huggingface.co/papers/2610.13166",
+      "time": "2026-10-13",
+      "category": "paper",
+      "summary": "通过独立执行发现合成环境提前完成或省略的关键工作，再据证据重建环境。数据引擎逐步扩展同一目标下的任务，构建 1500 个环境，并用轨迹监督微调终端模型，评估长期探索、验证与交付。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.13166，平台标注发表/更新 2026-10-09）；2026-10-13 核验，2026-10-13 收录；实验结论为作者报告",
+      "highlight": "关注训练数据是否保留真正的探索和实施工作，而非把任务简化成短命令序列。",
+      "stars": null,
+      "tags": [
+        "agent",
+        "post-training",
+        "terminal-agent",
+        "long-horizon",
+        "SFT"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "GroundingPI：以点和框作为物理智能的视觉基础",
+      "url": "https://github.com/groundingpi/GroundingPI",
+      "time": "2026-10-13",
+      "category": "repo",
+      "summary": "4B 模型在共享词表中输出量化坐标，训练结合空间预训练、SFT 和 GRPO。作者评估多种视觉定位能力，并将其作为机器人操作与自动驾驶的感知骨干，分析数据配方和规模的作用。",
+      "source": "作者论文摘要（Hugging Face Papers 2609.39601，平台标注发表/更新 2026-09-30）；2026-10-13 核验，2026-10-13 收录；实验结论为作者报告；项目链接由论文页面提供",
+      "highlight": "今天收录的近期成果：精确定位与闭环延迟应和一般视觉问答能力分开评估。",
+      "stars": null,
+      "tags": [
+        "agent",
+        "post-training",
+        "visual-grounding",
+        "physical-intelligence",
+        "GRPO"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "MSAR：用多流深度注意力改进残差连接",
+      "url": "https://huggingface.co/papers/2610.13630",
+      "time": "2026-10-13",
+      "category": "paper",
+      "summary": "把单流 Attention Residuals 扩展为多头深度注意力，以多尺度因果卷积提供不同上下文视角。按需扩展历史表示并通过轻量混合生成层输入，避免持久保存多流状态，作者在 MoE 规模上评估。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.13630，平台标注发表/更新 2026-10-09）；2026-10-13 核验，2026-10-13 收录；实验结论为作者报告",
+      "highlight": "为预训练架构提供新方向，需检查质量收益是否覆盖额外计算与通信开销。",
+      "stars": null,
+      "tags": [
+        "residual-architecture",
+        "depth-attention",
+        "MoE"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "AgentSWE：编码 Agent 能否交付真正符合要求的 Agent",
+      "url": "https://huggingface.co/papers/2610.13361",
+      "time": "2026-10-13",
+      "category": "paper",
+      "summary": "基准覆盖 Agent 创建、生产代码修改和可测目标优化，共 25 个任务。开发阶段仅提供示例，验收使用冻结提交和隐藏案例，研究识别示例过拟合、空壳运行时及缺乏依据的完成声明。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.13361，平台标注发表/更新 2026-10-09）；2026-10-13 核验，2026-10-13 收录；实验结论为作者报告",
+      "highlight": "直接对应 Agent 工程交付：可运行示例与完整需求验收需要分别验证。",
+      "stars": null,
+      "tags": [
+        "agent",
+        "agent-engineering",
+        "acceptance-testing",
+        "coding-agent"
+      ],
+      "topic": [
+        "agent"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "GroundAnything：用并行扩散解码加速视觉定位",
+      "url": "https://github.com/groundingpi/GroundAnything",
+      "time": "2026-10-13",
+      "category": "repo",
+      "summary": "4B 视觉定位模型采用分块去噪，将自回归到扩散转换、空间预训练、SFT 与 GRPO 后训练结合。作者比较熵引导及可选自推测解码下的定位精度、延迟和基础设施优化。",
+      "source": "作者论文摘要（Hugging Face Papers 2609.39600，平台标注发表/更新 2026-09-30）；2026-10-13 核验，2026-10-13 收录；实验结论为作者报告；项目链接由论文页面提供",
+      "highlight": "今天收录的近期成果：视觉定位没有天然的从左到右顺序，并行生成需同时保证坐标精度。",
+      "stars": null,
+      "tags": [
+        "post-training",
+        "visual-grounding",
+        "diffusion-decoding",
+        "low-latency"
+      ],
+      "topic": [
+        "post-training"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "SpatialASM：通过训练期空间模拟内化主动视角推理",
+      "url": "https://huggingface.co/papers/2610.13832",
+      "time": "2026-10-13",
+      "category": "paper",
+      "summary": "使用新视角生成器把假设观察方向关联到视觉证据，合成主动视角规划轨迹和换位理解任务。作者在多个模型与七类空间基准中评估推理收益，同时检查一般视觉能力保留。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.13832，平台标注发表/更新 2026-10-09）；2026-10-13 核验，2026-10-13 收录；实验结论为作者报告",
+      "highlight": "训练数据应教会模型何时改变视角以及如何验证想象，减少仅凭语言推断空间关系。",
+      "stars": null,
+      "tags": [
+        "post-training",
+        "spatial-reasoning",
+        "viewpoint-planning",
+        "synthetic-supervision"
+      ],
+      "topic": [
+        "post-training"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "MAVLN 与 TRISS：考虑依赖和资源约束的多机器人导航",
+      "url": "https://github.com/xyz9911/MA-VLN",
+      "time": "2026-10-13",
+      "category": "repo",
+      "summary": "把多 Agent 导航形式化为带子任务依赖与资源限制的协调问题，构建大规模场景任务。TRISS 结合语言模型调度、共享拓扑记忆和冲突感知执行，把各机器人探索转为团队知识。",
+      "source": "作者论文摘要（Hugging Face Papers 2609.35965，平台标注发表/更新 2026-10-07）；2026-10-13 核验，2026-10-13 收录；实验结论为作者报告；项目链接由论文页面提供",
+      "highlight": "今天收录的近期成果：团队导航需把规划意图落实为无冲突路径，并验证约束而非只测到达率。",
+      "stars": null,
+      "tags": [
+        "agent",
+        "memory",
+        "multi-robot",
+        "navigation",
+        "shared-memory"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Thinking Inertia：关闭思考模式不保证停止显式推理",
+      "url": "https://huggingface.co/papers/2610.11765",
+      "time": "2026-10-13",
+      "category": "paper",
+      "summary": "论文把回答分成作答前轨迹与最终答案，分别衡量仅答案服从、问题相关性和显式推断。比较不同提示干预、模型与答案空间，发现开放式问题中指令服从和任务准确度存在权衡。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.11765，平台标注发表/更新 2026-10-08）；2026-10-13 核验，2026-10-13 收录；实验结论为作者报告",
+      "highlight": "为低延迟与严格格式任务提供评测视角，模型开关不能替代输出行为验证。",
+      "stars": null,
+      "tags": [
+        "no-thinking",
+        "instruction-following",
+        "reasoning-evaluation"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "T3lescope：用同一生成器从物体到城市重建高精度表面",
+      "url": "https://github.com/pfnet-research/t3lescope",
+      "time": "2026-10-13",
+      "category": "repo",
+      "summary": "对不同场景尺度进行从粗到细的推理级联，在逐级细化单元内继承、扰动并去噪几何。模型权重跨层共享，层数及位置由推理时选择，作者评估稀疏观测、透明和反光表面。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.03308，平台标注发表/更新 2026-10-02）；2026-10-13 核验，2026-10-13 收录；实验结论为作者报告；项目链接由论文页面提供",
+      "highlight": "今天收录的近期成果：跨尺度共享模型可改善整体一致性，仍需关注输入视角和算力预算。",
+      "stars": null,
+      "tags": [
+        "3D-reconstruction",
+        "generative-geometry",
+        "multi-view"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "ExpActivator：相关历史不一定适用于当前 GUI 状态",
+      "url": "https://huggingface.co/papers/2609.33304",
+      "time": "2026-10-13",
+      "category": "paper",
+      "summary": "研究指出历史检索的收益常集中于第一步，后续决策仍需判断经验的当前适用性。框架在冻结骨干的潜在空间匹配当前屏幕与历史状态，激活对应动作；主动建议还要求时间和场景支持。",
+      "source": "作者论文摘要（Hugging Face Papers 2609.33304，平台标注发表/更新 2026-09-27）；2026-10-13 核验，2026-10-13 收录；实验结论为作者报告",
+      "highlight": "今天收录的近期成果：个性化记忆应在具体决策状态上激活，避免把相关但过时的历史全部塞进上下文。",
+      "stars": null,
+      "tags": [
+        "agent",
+        "memory",
+        "personalization",
+        "experience-activation",
+        "GUI-memory"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "ARCS：用结构化消歧提升 Text-to-SQL 的意图准确性",
+      "url": "https://huggingface.co/papers/2610.09396",
+      "time": "2026-10-13",
+      "category": "paper",
+      "summary": "把含糊问题的解释选项转为明确受限的交互，替代低效的自由对话澄清。基准覆盖真实数据库的自然歧义、全部有效解释及对应 SQL，作者发现歧义仍显著限制端到端执行正确率。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.09396，平台标注发表/更新 2026-10-07）；2026-10-13 核验，2026-10-13 收录；实验结论为作者报告",
+      "highlight": "今天收录的近期成果：语法正确的 SQL 也可能回答错问题，评测要同时覆盖意图与执行。",
+      "stars": null,
+      "tags": [
+        "agent",
+        "text-to-SQL",
+        "disambiguation",
+        "structured-interaction"
+      ],
+      "topic": [
+        "agent"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "不确定性引导的渐进收缩：把推理监督集中到高价值轨迹",
+      "url": "https://github.com/Jackbrocp/Learning-More-by-Training-Less",
+      "time": "2026-10-13",
+      "category": "repo",
+      "summary": "通过中间推理状态上的蒙特卡洛树构建过程不确定性，先收缩教师监督语料。再按学生学习状态在线路由 SFT 优化，作者在多家族和不同教师设置中评估预算与推理质量。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.12933，平台标注发表/更新 2026-10-09）；2026-10-13 核验，2026-10-13 收录；实验结论为作者报告；项目链接由论文页面提供",
+      "highlight": "压缩训练预算时需区分数据量、优化曝光量和最终能力，论文中的极低预算结果应按具体设置复现。",
+      "stars": null,
+      "tags": [
+        "post-training",
+        "efficient-SFT",
+        "uncertainty",
+        "data-selection"
+      ],
+      "topic": [
+        "post-training"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "SPLATIFY：把 3DGS 论文转成可训练代码并组合方法",
+      "url": "https://github.com/seemandhar/splatify",
+      "time": "2026-10-13",
+      "category": "repo",
+      "summary": "通过语法约束、组件级代码检索、依赖顺序合成以及视觉和数值反馈生成 gsplat 实现。框架还使用经过验证的实现作为 RAG 示例，并在三十篇论文基准上评估复现与组合发现。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.09116，平台标注发表/更新 2026-10-06）；2026-10-13 核验，2026-10-13 收录；实验结论为作者报告；项目链接由论文页面提供",
+      "highlight": "今天收录的近期成果：论文转代码需要领域架构约束和实测反馈，通用代码生成不足以保证研究复现。",
+      "stars": null,
+      "tags": [
+        "agent",
+        "rag",
+        "paper-to-code",
+        "3DGS",
+        "research-agent"
+      ],
+      "topic": [
+        "agent",
+        "rag"
+      ]
+    },
+    {
+      "id": 14,
+      "time": "2026-10-13",
+      "stars": null,
+      "category": "repo",
+      "topic": [
+        "memory"
+      ],
+      "title": "KV Cache Weigh Station：保留尾延迟准入策略的负结果和复现协议",
+      "url": "https://github.com/MrBeeboh/kv-cache-weigh-station",
+      "summary": "作者于 10 月 12 日公开讨论 KV 卸载模拟实验：尾部分位准入门控没有明显优于带预取的 LRU+TTL，报告 goodput 变化约为零及置信区间。仓库提供协议、模拟器和停止条件；目前是模拟结果，不能等同于真实 GPU 上并发 DMA 对 decode 的影响。",
+      "source": "作者 GitHub 仓库及 Hugging Face 2026-10-12 实验帖；2026-10-13 核验",
+      "highlight": "负结果与预先声明的停止条件有助于避免无效复杂化，下一步硬件实验应与模拟结论分开。",
+      "tags": [
+        "KV-cache",
+        "offloading",
+        "negative-result",
+        "reproducibility"
+      ]
+    },
+    {
+      "id": 15,
+      "time": "2026-10-13",
+      "stars": null,
+      "category": "tutorial",
+      "topic": [
+        "memory",
+        "agent"
+      ],
+      "title": "LangGraph Memory：区分会话状态与跨会话长期记忆",
+      "url": "https://docs.langchain.com/oss/python/concepts/memory",
+      "summary": "官方概念文档区分 thread 范围的短期记忆与以 namespace 组织的跨会话长期记忆，并讨论事实、经验和程序性记忆。还比较执行路径中更新和后台更新的时机；本条为截至今天的文档知识补充，页面没有可确认的独立发布日。",
+      "source": "LangChain 官方 Memory overview；2026-10-13 核验，无独立发布日期",
+      "highlight": "把用户隔离、记忆更新和召回时机设计清楚，再结合真实任务检验记忆是否适用。",
+      "tags": [
+        "langgraph",
+        "long-term-memory",
+        "conversation-state",
+        "personalization"
+      ]
+    }
+  ]
+}

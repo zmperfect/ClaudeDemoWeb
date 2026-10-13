@@ -1,0 +1,67 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Anthropic 发布 Claude Haiku 5.5：官方公告日为 10 月 7 日，适用于高频 Agent 子任务",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "time": "2026-10-08",
+      "category": "news",
+      "summary": "Anthropic 官方公告及 Release Notes 标明 Claude Haiku 5.5 于 2026-10-07 发布。模型面向摘要、上下文压缩、分类、数据库查询及作为 Opus/Sonnet 编码任务子代理等高频工作；模型 ID 为 claude-haiku-5-5，官方称已在主要云平台和 Claude Platform 提供。≤100k 输入/输出价格为每百万 token 0.10/0.50 美元，>100k 时为 0.50/2.50 美元；平均运行成本下降 75% 是 Anthropic 的自述估算。本条作为 10 月 8 日新闻回顾收录，不重复声称当天发布。",
+      "source": "Anthropic 官方公告（2026-10-07）；Claude Help Center Release Notes",
+      "highlight": "小模型适合 Agent 高调用量子流程和压缩/分类工作，但要按实际成功率、调用次数和长上下文价阶比较端到端成本。",
+      "stars": null,
+      "tags": ["anthropic", "haiku-5.5", "agent", "subagent", "context-compression", "inference-cost"]
+    },
+    {
+      "id": 2,
+      "title": "Google EmbeddingGemma 2：统一文本、代码、图像、视频和音频的本地嵌入模型",
+      "url": "https://huggingface.co/google/embeddinggemma-2",
+      "time": "2026-10-08",
+      "category": "repo",
+      "topic": ["rag"],
+      "summary": "Google DeepMind 的 EmbeddingGemma 2 模型卡列出约 740M 参数、Apache-2.0 许可，将文本/代码、图像、视频和音频映射到统一 768 维向量空间，支持 8192-token 上下文及 512/256/128 维截断。Google AI Developers 页面称其适用于多模态 RAG、语义搜索和本地离线运行，文档最近更新标记为 2026-10-06 UTC。模型卡正文没有明确单独发布日期，故此条属于截至 10 月 8 日的近期模型/文档更新，不声称于 10 月 8 日发布。",
+      "source": "Google DeepMind 官方 Hugging Face 模型卡；Google AI for Developers 文档（Last updated 2026-10-06 UTC）",
+      "highlight": "一个端侧多模态 embedding 模型可统一跨媒体检索表示，并支持以向量截断换存储空间；生产 RAG 应在自有数据集评估各维度的召回、排序质量和设备延迟。",
+      "stars": null,
+      "tags": ["embedding", "multimodal-RAG", "on-device", "semantic-search", "Google-DeepMind", "Apache-2.0"]
+    },
+    {
+      "id": 3,
+      "title": "Perplexity Decider V1.1 27B 上线 OpenRouter：结构化决策而非通用文本生成",
+      "url": "https://openrouter.ai/perplexity/pplx-decider-v1.1-27b",
+      "time": "2026-10-08",
+      "category": "repo",
+      "topic": ["agent"],
+      "summary": "OpenRouter 模型页将 pplx-decider-v1.1-27b 列为 Perplexity 决策模型的新 checkpoint，接续 Decider V1 27B 并保持同一 API 契约。页面提供 262,144-token 上下文，输入价格每百万 token 0.02 美元、输出标价为 0；模型输出结构化决策，需使用 OpenRouter Decisions API，不能按普通 OpenAI 兼容 Chat Completions 接口调用。页面标注发布日期为 2026-10-07；可用性和延迟统计是页面抓取时动态数据。",
+      "source": "OpenRouter 官方模型页面，发布日期标注 2026-10-07",
+      "highlight": "专用决策模型把分类、路由和有限选项判断从通用聊天生成中分离，适合 Agent 的工具选择和流程分支；集成前需核对 Decisions API 协议及输出 schema，而非误按 chat completion 使用。",
+      "stars": null,
+      "tags": ["perplexity", "decider", "decision-model", "agent-routing", "structured-output", "API"]
+    },
+    {
+      "id": 4,
+      "title": "OpenAI 公开 722 份数学手稿及 Lean 形式化材料，验证状态并不相同",
+      "url": "https://github.com/openai/math",
+      "time": "2026-10-08",
+      "category": "repo",
+      "summary": "OpenAI 于 2026-10-06 发布数学研究进展文章并公开 openai/math（Apache-2.0）仓库，目录包含 722 份手稿，组织为 372 个结果家族。仓库同时提供部分 Lean 形式化证明；README 明确不是所有结果都已形式化，且不同结果处于不同验证阶段，未形式化的主张可能有误。OpenAI 官网文章抓取返回 403，本条核对依据为其公开 GitHub 仓库和多家同期报道，故只确认仓库收录情况与 README 的限定，不把全部数学手稿说成已验证定理。",
+      "source": "OpenAI 官方 GitHub 仓库 openai/math（Apache-2.0）；官方文章标题《Sharing AI progress in mathematics》（2026-10-06，页面抓取受限）",
+      "highlight": "AI 生成的数学成果须按证明状态分层：Lean 检查通过的形式化结果与未形式化手稿不是同一证据等级。公开仓库能促进审查，但不能把数量直接等同于已确认的数学发现。",
+      "stars": null,
+      "tags": ["openai", "AI-for-math", "Lean", "formal-verification", "open-source", "research"]
+    },
+    {
+      "id": 5,
+      "title": "Microsoft Research 发布 Agent Lightning v1.0：在真实 Harness 中训练 Agentic RL",
+      "url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses/",
+      "time": "2026-10-08",
+      "category": "repo",
+      "topic": ["agent", "post-training"],
+      "summary": "Microsoft Research 于 2026-10-07 发布 Agent Lightning v1.0，采用 Harnessed Agentic RL：通过 API Gateway 记录现有 Agent harness 的调用和 rollout，由 Rollout Controller 管理执行，再由基于 verl 的 trainer 组装训练样本，减少为 RL 重写部署 Agent 的需要。框架约 3,500 行，支持 Kubernetes Job 和自管理基础设施；文章还介绍 rollout 与权重更新共用 GPU 的 Collocated Async RL。仓库 README 标 MIT License、v1.0，并显示约 18.6k stars（动态值）。微软文章报告 Qwen3.5-9B mini-SWE-agent 在约 6,000 条样本后 SWE-bench Verified Pass@1 从 41.8% 升到 56.4%；为厂商展示结果，尚非独立复现。本条按 10 月 8 日补齐日报列出，实际公告日为 10 月 7 日。",
+      "source": "Microsoft Research 官方博客（2026-10-07）；github.com/microsoft/agent-lightning",
+      "highlight": "把强化学习训练接到真实部署 Harness，减少训练/部署执行栈不一致，并将 Agentic RL 降低到可复用的轻量框架。集成时仍需确认工具副作用隔离、rollout 数据脱敏和训练期间策略安全。",
+      "stars": 18600,
+      "tags": ["microsoft", "agent-lightning", "agentic-RL", "harness", "reinforcement-learning", "open-source"]
+    }
+  ]
+}

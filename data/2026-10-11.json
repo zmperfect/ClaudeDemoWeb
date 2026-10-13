@@ -1,0 +1,294 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "SoftwareGym：自动合成可执行的软件环境训练电脑操作 Agent",
+      "url": "https://github.com/MrKiing-Jin/SoftwareGym",
+      "time": "2026-10-11",
+      "category": "repo",
+      "summary": "周末补档，回顾近期成果：生成多样 GUI 应用，再通过界面评测与迭代修复检查功能可靠性。作者构建 182 个应用和 120 个基准任务，并以采集轨迹训练电脑操作模型，考察向 OSWorld 的域外迁移。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.12611，平台标注发表/更新 2026-10-08）；2026-10-13 核验，2026-10-11 收录；实验结论为作者报告；项目链接由论文页面提供",
+      "highlight": "近期项目回顾：训练环境的真实性与可验证性是电脑操作 Agent 泛化的重要前提。",
+      "stars": null,
+      "tags": [
+        "agent",
+        "post-training",
+        "computer-use",
+        "synthetic-environments",
+        "GUI"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "VisionWeave：让多模态模型学习分配视觉表示粒度",
+      "url": "https://huggingface.co/papers/2610.07987",
+      "time": "2026-10-11",
+      "category": "paper",
+      "summary": "周末补档，回顾近期成果：空间池化器产生粗细两种表示，粒度路由器按内容分配视觉 token，利用自蒸馏学习弹性表示。论文在多任务、分辨率与视频帧设置中评估质量，并报告接入 SGLang 后的吞吐和延迟变化。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.07987，平台标注发表/更新 2026-10-06）；2026-10-13 核验，2026-10-11 收录；实验结论为作者报告",
+      "highlight": "近期研究回顾：自适应视觉预算有助于保留重要细节，部署收益需与额外训练成本合并衡量。",
+      "stars": null,
+      "tags": [
+        "post-training",
+        "visual-tokenization",
+        "self-distillation",
+        "multimodal-efficiency"
+      ],
+      "topic": [
+        "post-training"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "StereoBind：让立体声位置随视频中的音源运动",
+      "url": "https://huggingface.co/papers/2609.38748",
+      "time": "2026-10-11",
+      "category": "paper",
+      "summary": "周末补档，回顾近期成果：以运动轨迹连接视觉源与立体声生成，结合视觉运动绑定、空间轨迹编码和相对运动表示。作者提供 StereoWorld-29K 数据集及空间一致性基准，评估视频与声音位置的动态对应。",
+      "source": "作者论文摘要（Hugging Face Papers 2609.38748，平台标注发表/更新 2026-10-08）；2026-10-13 核验，2026-10-11 收录；实验结论为作者报告",
+      "highlight": "近期研究回顾：AR、VR 与游戏不仅要求音画同步，还要求声源空间位置一致。",
+      "stars": null,
+      "tags": [
+        "stereo-audio",
+        "audio-video",
+        "spatial-correspondence"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "SepGen：在同一模型中生成视频、混音与独立音轨",
+      "url": "https://github.com/AviadDahan/SepGen",
+      "time": "2026-10-11",
+      "category": "repo",
+      "summary": "周末补档，回顾近期成果：扩展音视频生成模型，在同一次联合采样中输出视频、混合音频以及每个描述音源的独立波形。模型支持按文字描述生成分轨或分离已有混音，作者在语音、音乐和音效设置中评估。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.11361，平台标注发表/更新 2026-10-08）；2026-10-13 核验，2026-10-11 收录；实验结论为作者报告；项目链接由论文页面提供",
+      "highlight": "近期项目回顾：独立音轨让后期编辑与新视角空间声音渲染更可操作。",
+      "stars": null,
+      "tags": [
+        "audio-separation",
+        "multi-stem",
+        "video-generation"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "SoloQ：无需校准数据的扩散语言模型低比特量化",
+      "url": "https://huggingface.co/papers/2610.07121",
+      "time": "2026-10-11",
+      "category": "paper",
+      "summary": "周末补档，回顾近期成果：将权重与激活变换到归一化旋转基底，以可预测的边缘分布支持数据无关量化。框架结合缩放修正、NVFP4 和提交时 KV 量化，针对不同扩散语言模型评估内存、速度与质量。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.07121，平台标注发表/更新 2026-10-05）；2026-10-13 核验，2026-10-11 收录；实验结论为作者报告",
+      "highlight": "近期研究回顾：去噪状态不断变化时，静态校准数据未必可靠，量化应覆盖真实生成流程。",
+      "stars": null,
+      "tags": [
+        "quantization",
+        "diffusion-LLM",
+        "NVFP4"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "PolyOCR-Venus：统一识别、定位、解析与文字视觉推理",
+      "url": "https://github.com/inclusionAI/PolyOCR-Venus",
+      "time": "2026-10-11",
+      "category": "repo",
+      "summary": "周末补档，回顾近期成果：通过共享指令框架及质量验证的数据引擎整合 OCR 监督。能力引导策略优化按教师可靠性与师生能力差距，在可验证 GRPO 和在策略蒸馏之间路由，并修订 OCRBench 注释与评分。",
+      "source": "作者论文摘要（Hugging Face Papers 2609.37712，平台标注发表/更新 2026-09-29）；2026-10-13 核验，2026-10-11 收录；实验结论为作者报告；项目链接由论文页面提供",
+      "highlight": "近期项目回顾：文档理解需要同时核验识别和结构推理，指标变化还应注意基准修订。",
+      "stars": null,
+      "tags": [
+        "post-training",
+        "OCR",
+        "document-understanding",
+        "GRPO"
+      ],
+      "topic": [
+        "post-training"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "DCOCO：并行草稿的上下文修正提升推测解码",
+      "url": "https://github.com/two-delta/DCOCO",
+      "time": "2026-10-11",
+      "category": "repo",
+      "summary": "周末补档，回顾近期成果：扩散草稿并行预测多个位置时，缺少前序草稿 token 的实际信息。DCOCO 保留候选并并行评价相邻位置的上下文相容性，修复块内依赖，作者也在并发服务场景中评估。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.12570，平台标注发表/更新 2026-10-08）；2026-10-13 核验，2026-10-11 收录；实验结论为作者报告；项目链接由论文页面提供",
+      "highlight": "近期项目回顾：推测解码需比较真实并发负载，单请求速度优势可能无法迁移到服务环境。",
+      "stars": null,
+      "tags": [
+        "speculative-decoding",
+        "parallel-drafting",
+        "serving"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "SWE-Duel：让编码 Agent 相互构造与修复缺陷",
+      "url": "https://huggingface.co/papers/2610.12569",
+      "time": "2026-10-11",
+      "category": "paper",
+      "summary": "周末补档，回顾近期成果：红方在真实仓库新增功能并植入细微缺陷，用封存测试与盲修复校验任务有效性。蓝方在不知道存在缺陷的情况下审查修改，双方交换角色，使题目在评测时产生并随参与者能力变化。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.12569，平台标注发表/更新 2026-10-08）；2026-10-13 核验，2026-10-11 收录；实验结论为作者报告",
+      "highlight": "近期研究回顾：动态出题降低静态基准泄漏与饱和风险，但仍要审查测试预言机质量。",
+      "stars": null,
+      "tags": [
+        "agent",
+        "coding-arena",
+        "dynamic-benchmark",
+        "code-review"
+      ],
+      "topic": [
+        "agent"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Stateless Language Agents：把长期研究状态交给 harness",
+      "url": "https://github.com/Alex-q-z/stateless-language-agents",
+      "time": "2026-10-11",
+      "category": "repo",
+      "summary": "周末补档，回顾近期成果：候选方案和实测结果保存在 harness，每次调用为无状态 Agent 重建角色相关上下文。Advisor 根据汇总证据分配具体实验，Workers 执行，作者在长预算软件、内核与算法研究任务上评估。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.07625，平台标注发表/更新 2026-10-06）；2026-10-13 核验，2026-10-11 收录；实验结论为作者报告；项目链接由论文页面提供",
+      "highlight": "近期项目回顾：持久状态与临时对话分离，可减少历史反复回放和研究重复劳动。",
+      "stars": null,
+      "tags": [
+        "agent",
+        "memory",
+        "automated-research",
+        "stateless-agent",
+        "durable-state"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "ReHarness：用当前任务反馈反向修订历史反思",
+      "url": "https://huggingface.co/papers/2610.12668",
+      "time": "2026-10-11",
+      "category": "paper",
+      "summary": "周末补档，回顾近期成果：在严格在线流式协议下，除向前读取和写入之外，加入对本次检索反思的反向修订。新轨迹反馈纠正过度概括或过时经验，作者在持续学习基准中比较记忆、反思与提示优化方法。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.12668，平台标注发表/更新 2026-10-08）；2026-10-13 核验，2026-10-11 收录；实验结论为作者报告",
+      "highlight": "近期研究回顾：长期记忆需要失效与修订机制，持续追加总结可能固化错误经验。",
+      "stars": null,
+      "tags": [
+        "agent",
+        "memory",
+        "continual-learning",
+        "reflection",
+        "memory-revision"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "TIPS：仅凭结果标签学习逐步骤过程监督",
+      "url": "https://huggingface.co/papers/2609.36641",
+      "time": "2026-10-11",
+      "category": "paper",
+      "summary": "周末补档，回顾近期成果：模型生成思维链、步骤标签与结果标签，但奖励只依据最终结果预测是否正确。组相对优势用于优化整段输出，尝试让有助于结果判断的步骤检查能力自然形成，作者公开代码与数据。",
+      "source": "作者论文摘要（Hugging Face Papers 2609.36641，平台标注发表/更新 2026-09-29）；2026-10-13 核验，2026-10-11 收录；实验结论为作者报告",
+      "highlight": "近期研究回顾：可降低人工步骤标注需求，但结果奖励诱导出的过程判断仍需独立验证。",
+      "stars": null,
+      "tags": [
+        "post-training",
+        "process-reward-model",
+        "outcome-reward",
+        "RL"
+      ],
+      "topic": [
+        "post-training"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Semi-OPD：离线学生轨迹蒸馏有时优于持续在策略采样",
+      "url": "https://huggingface.co/papers/2610.11291",
+      "time": "2026-10-11",
+      "category": "paper",
+      "summary": "周末补档，回顾近期成果：使用初始学生生成的离线 rollout 蒸馏，作者在 17 组师生配对中发现其多数情况下更有效率或准确。分析指出师生输出分布的初始对齐程度影响 OPD 收益，较长学生上下文可能削弱教师监督信号。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.11291，平台标注发表/更新 2026-10-08）；2026-10-13 核验，2026-10-11 收录；实验结论为作者报告",
+      "highlight": "近期研究回顾：蒸馏方法应按师生对齐程度选择，不能假定更高的在策略程度始终更好。",
+      "stars": null,
+      "tags": [
+        "post-training",
+        "distillation",
+        "offline-rollouts",
+        "teacher-student"
+      ],
+      "topic": [
+        "post-training"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "LatentGRM：在潜在空间压缩生成式奖励评估",
+      "url": "https://github.com/EADMO/LatentGRM",
+      "time": "2026-10-11",
+      "category": "repo",
+      "summary": "周末补档，回顾近期成果：按量表评估结构进行语义分块、压缩与重建，在紧凑连续轨迹上完成成对偏好判断。独立解释器可离线重建评价文本，作者比较压缩率、判断精度和总推理时间。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.09788，平台标注发表/更新 2026-10-08）；2026-10-13 核验，2026-10-11 收录；实验结论为作者报告；项目链接由论文页面提供",
+      "highlight": "近期项目回顾：奖励模型的计算成本也会限制后训练规模，压缩后需检查评价标准是否保留。",
+      "stars": null,
+      "tags": [
+        "post-training",
+        "reward-model",
+        "latent-reasoning",
+        "semantic-compression"
+      ],
+      "topic": [
+        "post-training"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "SWE-TaskFlow：编码 Agent 基准应匹配真实用户任务流",
+      "url": "https://huggingface.co/papers/2610.09633",
+      "time": "2026-10-11",
+      "category": "paper",
+      "summary": "周末补档，回顾近期成果：研究 4782 个真实 IDE Agent 会话，发现长会话包含询问、规划、审查、重构及执行之间的频繁切换。SWE-TaskFlow 保留既有问题与验证测试，通过提示拆分和仓库问答使交互匹配目标任务流。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.09633，平台标注发表/更新 2026-10-07）；2026-10-13 核验，2026-10-11 收录；实验结论为作者报告",
+      "highlight": "近期研究回顾：交互协议会改变成本，单次修复成功率不足以代表实际多轮体验。",
+      "stars": null,
+      "tags": [
+        "agent",
+        "coding-evaluation",
+        "task-flow",
+        "IDE"
+      ],
+      "topic": [
+        "agent"
+      ]
+    },
+    {
+      "id": 15,
+      "time": "2026-10-11",
+      "stars": null,
+      "category": "tutorial",
+      "topic": [
+        "post-training"
+      ],
+      "title": "PEFT LoRA 官方指南：目标层、初始化与 QLoRA 配置",
+      "url": "https://huggingface.co/docs/peft/v0.21.0/package_reference/lora",
+      "summary": "周末知识回顾：官方文档解释低秩更新、目标模块、rank 与 alpha，并覆盖不同初始化方法及 QLoRA 风格的 all-linear 配置。还说明 MoE 参数直接适配和权重合并等注意事项，适合建立可复现的小规模微调基线；本条为现有文档收录，不声称当天发布。",
+      "source": "Hugging Face PEFT v0.21.0 官方文档；2026-10-13 核验，无独立发布日期",
+      "highlight": "从实际目标层和参数预算入手，结合显存、吞吐与验证集结果选择 LoRA 配置。",
+      "tags": [
+        "LoRA",
+        "QLoRA",
+        "PEFT",
+        "fine-tuning"
+      ]
+    }
+  ]
+}

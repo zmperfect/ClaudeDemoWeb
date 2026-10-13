@@ -1,0 +1,17 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Realtor.com 推出 RealAssist AI：房产 Agent 助手中的操作需经经纪人批准",
+      "url": "https://www.prnewswire.com/news-releases/realtorcom-unveils-realassist-ai-for-agents-to-power-a-more-intelligent-workspace-302899179.html",
+      "time": "2026-10-05",
+      "category": "news",
+      "topic": ["agent"],
+      "summary": "Realtor.com 于 10 月 6 日宣布在 Realtor.com+ 推出 RealAssist AI，为房产经纪人提供客户资料与 MLS 搜索设置、客户活动摘要和后续行动建议。产品可协助调整搜索条件、起草客户消息；新闻稿明确每项 Agentic Action 均需经纪人审查和批准。产品更新页标为 Fall Release 2026，公告未明确全面开放日期、适用市场或资格。新闻稿于 2026-10-06 06:00 ET 发布。本条放入 10 月 5 日补齐文件是依据当时一则 10 月 5 日汇总线索，但经核验实际公告晚于 10 月 5 日一天，故特意在正文标明真实日期。",
+      "source": "Realtor.com 新闻稿（PR Newswire，2026-10-06 06:00 ET）；Realtor.com+ Fall Release 2026 产品页",
+      "highlight": "面向房产工作流的 Agent 具备实际改搜索、发消息等副作用，因此人类逐项批准是重要控制点。发布日期晚于本文件日期，不能当作 10 月 5 日当天已发生的产品发布。",
+      "stars": null,
+      "tags": ["realtor.com", "realassist", "real-estate-agent", "human-approval", "workflow"]
+    }
+  ]
+}

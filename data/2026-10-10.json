@@ -1,0 +1,316 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "SparseDecoding：针对实际生成激活分布设计剪枝",
+      "url": "https://huggingface.co/papers/2610.12327",
+      "time": "2026-10-10",
+      "category": "paper",
+      "summary": "周末补档，回顾近期成果：从稠密模型自回归生成阶段收集逐层激活来校准剪枝，降低自然文本校准与模型生成之间的分布偏移。配套 N:M 稀疏矩阵向量内核针对 decode 阶段优化，作者在 A100 上报告端到端加速。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.12327，平台标注发表/更新 2026-10-08）；2026-10-13 核验，2026-10-10 收录；实验结论为作者报告",
+      "highlight": "近期研究回顾：剪枝质量与硬件实际支持需一起评估，不能只看非零参数减少量。",
+      "stars": null,
+      "tags": [
+        "pruning",
+        "sparse-kernel",
+        "decoding"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "文生图后训练：组合偏好奖励与规则量表奖励",
+      "url": "https://huggingface.co/papers/2610.02967",
+      "time": "2026-10-10",
+      "category": "paper",
+      "summary": "周末补档，回顾近期成果：以人类偏好奖励评估审美和感知质量，量表奖励约束提示词忠实度及其他属性。论文认为直接加权平均不足以平衡异构信号，提出奖励组合策略，并提供小规模训练子集支持复现。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.02967，平台标注发表/更新 2026-10-02）；2026-10-13 核验，2026-10-10 收录；实验结论为作者报告",
+      "highlight": "近期研究回顾：有助于理解多目标奖励设计，论文排名依据其声明的历史排行榜快照。",
+      "stars": null,
+      "tags": [
+        "post-training",
+        "text-to-image",
+        "preference-optimization",
+        "rubric-reward"
+      ],
+      "topic": [
+        "post-training"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "OneSearch-VL：用视觉证据图统一图像与视频深度研究",
+      "url": "https://github.com/appletea233/OneSearch-VL",
+      "time": "2026-10-10",
+      "category": "repo",
+      "summary": "周末补档，回顾近期成果：视觉证据图关联局部视觉锚点、实体关系、外部检索事实和回答操作。作者构建 SFT 与 RL 数据，并用证据可追踪和视觉定位量表提供奖励，同时发布多图与视频研究基准。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.12419，平台标注发表/更新 2026-10-08）；2026-10-13 核验，2026-10-10 收录；实验结论为作者报告；项目链接由论文页面提供",
+      "highlight": "近期项目回顾：多模态研究 Agent 的关键是证据依赖与来源追踪，而不只是增加搜索次数。",
+      "stars": null,
+      "tags": [
+        "agent",
+        "rag",
+        "post-training",
+        "multimodal-research",
+        "evidence-graph",
+        "visual-grounding"
+      ],
+      "topic": [
+        "agent",
+        "rag",
+        "post-training"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "AgentMonBench 与 EBG：监督长任务 Agent 实际做了什么",
+      "url": "https://huggingface.co/papers/2610.06406",
+      "time": "2026-10-10",
+      "category": "paper",
+      "summary": "周末补档，回顾近期成果：基准评估需求与行为的一致性，以及哪些自主决策值得用户核验。无需训练的证据行为图把带来源的记录组织为行为及其关系，为监督模型定位重要决定和支持证据提供视图。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.06406，平台标注发表/更新 2026-10-05）；2026-10-13 核验，2026-10-10 收录；实验结论为作者报告",
+      "highlight": "近期研究回顾：把过程日志转成可核验行为，有助于发现遗漏验收和隐蔽副作用。",
+      "stars": null,
+      "tags": [
+        "agent",
+        "agent-oversight",
+        "evidence",
+        "behavior-graph"
+      ],
+      "topic": [
+        "agent"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "SparseEngine：统一稀疏注意力与 KV 状态生命周期",
+      "url": "https://github.com/CURRENTF/SparseEngine",
+      "time": "2026-10-10",
+      "category": "repo",
+      "summary": "周末补档，回顾近期成果：让各稀疏方法控制自己的 KV 表示和计算，同时与公共服务基础设施协调状态转移。Chain Cache 支持从保留历史恢复 KV 淘汰方法，前缀缓存修剪支持选择性清理历史区域。",
+      "source": "作者论文摘要（Hugging Face Papers 2609.39068，平台标注发表/更新 2026-09-30）；2026-10-13 核验，2026-10-10 收录；实验结论为作者报告；项目链接由论文页面提供",
+      "highlight": "近期项目回顾：对长会话 Agent，缓存恢复和前缀匹配语义与单步推理速度同样重要。",
+      "stars": null,
+      "tags": [
+        "memory",
+        "agent",
+        "sparse-attention",
+        "KV-cache",
+        "inference-engine"
+      ],
+      "topic": [
+        "memory",
+        "agent"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Opera：持续跟踪编码 Agent 的纠错建议是否解决问题",
+      "url": "https://github.com/dongyuanjushi/Opera",
+      "time": "2026-10-10",
+      "category": "repo",
+      "summary": "周末补档，回顾近期成果：以定期和事件触发方式审查任务，用类型化操作诊断问题，并在发送建议前对照可见证据。每次纠错保留为持续记录，跟踪后续行为，区分表面服从与实际解决，纠错轨迹也可用于微调。",
+      "source": "作者论文摘要（Hugging Face Papers 2609.33987，平台标注发表/更新 2026-10-08）；2026-10-13 核验，2026-10-10 收录；实验结论为作者报告；项目链接由论文页面提供",
+      "highlight": "近期项目回顾：适合学习闭环监督，避免评论很多却无人验证缺陷是否消失。",
+      "stars": null,
+      "tags": [
+        "agent",
+        "post-training",
+        "verbal-critic",
+        "coding-agent",
+        "feedback-tracking"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "ViSkill：把视觉技能库与策略强化学习形成闭环",
+      "url": "https://huggingface.co/papers/2610.12403",
+      "time": "2026-10-10",
+      "category": "paper",
+      "summary": "周末补档，回顾近期成果：将成功交互提炼为保留空间结构的视觉技能卡，检索结果同时指导推理与奖励塑形。新成功轨迹再写回技能库，让技能积累与策略优化相互促进，并提供可选冷启动。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.12403，平台标注发表/更新 2026-10-08）；2026-10-13 核验，2026-10-10 收录；实验结论为作者报告",
+      "highlight": "近期研究回顾：视觉任务的技能记忆需要保持几何关系，纯文本线性化可能损失关键状态。",
+      "stars": null,
+      "tags": [
+        "agent",
+        "memory",
+        "post-training",
+        "visual-skills",
+        "skill-library",
+        "PPO"
+      ],
+      "topic": [
+        "agent",
+        "memory",
+        "post-training"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "ReSPO：缓解离策略 RLVR 的梯度饥饿",
+      "url": "https://huggingface.co/papers/2609.35433",
+      "time": "2026-10-10",
+      "category": "paper",
+      "summary": "周末补档，回顾近期成果：复用 rollout 会加剧当前策略与生成策略的偏移，裁剪可能压制低权重正例却放任高权重负例。ReSPO 使用平滑的双分支序列核保留正例梯度、抑制过度生成的负例，并在 Qwen 模型上评估。",
+      "source": "作者论文摘要（Hugging Face Papers 2609.35433，平台标注发表/更新 2026-09-28）；2026-10-13 核验，2026-10-10 收录；实验结论为作者报告",
+      "highlight": "近期研究回顾：为多次复用轨迹的后训练提供替代目标，尤其关注重要性权重尾部。",
+      "stars": null,
+      "tags": [
+        "post-training",
+        "RLVR",
+        "off-policy",
+        "policy-optimization"
+      ],
+      "topic": [
+        "post-training"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "RCDL：以检索为中心构建随数据增长的神经网络",
+      "url": "https://huggingface.co/papers/2610.03858",
+      "time": "2026-10-10",
+      "category": "paper",
+      "summary": "周末补档，回顾近期成果：训练时为数据点保存键值表示，推理时通过注意力检索与重组，而不是把任意规模数据压入固定权重矩阵。论文推导核化注意力层的函数梯度学习规则，并在图像分类和合成任务上实验。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.03858，平台标注发表/更新 2026-10-02）；2026-10-13 核验，2026-10-10 收录；实验结论为作者报告",
+      "highlight": "近期研究回顾：这是非参数神经层的研究方向，需区分于直接检索文档的应用层 RAG。",
+      "stars": null,
+      "tags": [
+        "rag",
+        "memory",
+        "nonparametric",
+        "retrieval-centric",
+        "kernel-attention"
+      ],
+      "topic": [
+        "rag",
+        "memory"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Chaos in the Text：多模态检索器可能偏爱无关文本",
+      "url": "https://huggingface.co/papers/2610.11816",
+      "time": "2026-10-10",
+      "category": "paper",
+      "summary": "周末补档，回顾近期成果：研究发现文本、图像和混合文档共存时，检索质量对语料模态组成敏感，无关文本可能压过相关图像。Trident 把文本、图像和融合视图作为同等正例，联合优化相关性与正例视图平衡。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.11816，平台标注发表/更新 2026-10-08）；2026-10-13 核验，2026-10-10 收录；实验结论为作者报告",
+      "highlight": "近期研究回顾：多模态 RAG 应测试混合语料和干扰文本，不能只分别测文本与图像检索。",
+      "stars": null,
+      "tags": [
+        "rag",
+        "multimodal-retrieval",
+        "modality-bias",
+        "contrastive-learning"
+      ],
+      "topic": [
+        "rag"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "SanSi：不生成思维文本的循环式结构化决策模型",
+      "url": "https://github.com/minnesotanlp/Sansi",
+      "time": "2026-10-10",
+      "category": "repo",
+      "summary": "周末补档，回顾近期成果：多次递归应用同一组层，在每轮之后读取声明选项的概率，让一个模型支持不同循环预算。每轮都用合适评分规则训练，作者评估其决策能力，并探索作为强化学习评分器的用途。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.07730，平台标注发表/更新 2026-10-06）；2026-10-13 核验，2026-10-10 收录；实验结论为作者报告；项目链接由论文页面提供",
+      "highlight": "近期项目回顾：为有限选项路由提供介于单次判断与文本推理之间的计算方案。",
+      "stars": null,
+      "tags": [
+        "agent",
+        "post-training",
+        "typed-decision",
+        "latent-reasoning",
+        "agent-routing"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "WorldGuide：把视频生成组织为目标驱动的闭环执行",
+      "url": "https://huggingface.co/papers/2610.12459",
+      "time": "2026-10-10",
+      "category": "paper",
+      "summary": "周末补档，回顾近期成果：规划器根据当前视觉进度选择原子动作，执行器生成对应视频，再依据新状态继续或结束。层次视觉记忆以有界历史成本保持状态，作者同时构建逐步标注的程序性视频任务基准。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.12459，平台标注发表/更新 2026-10-08）；2026-10-13 核验，2026-10-10 收录；实验结论为作者报告",
+      "highlight": "近期研究回顾：闭环世界模型需要验证动作结果与任务完成，单次生成合理轨迹还不够。",
+      "stars": null,
+      "tags": [
+        "agent",
+        "memory",
+        "video-world-model",
+        "planning",
+        "closed-loop"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "SpatialOPSD：从已验证编码轨迹蒸馏空间推理",
+      "url": "https://huggingface.co/papers/2610.11366",
+      "time": "2026-10-10",
+      "category": "paper",
+      "summary": "周末补档，回顾近期成果：把空间编码 Agent 的执行轨迹作为特权信息，用在策略自蒸馏将工具能力内化到独立多模态模型。重复感知蒸馏通过重复掩码与 unlikelihood 正则降低特权信息泄漏。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.11366，平台标注发表/更新 2026-10-08）；2026-10-13 核验，2026-10-10 收录；实验结论为作者报告",
+      "highlight": "近期研究回顾：为减少推理时工具依赖提供方向，应分别验证空间泛化与一般能力保留。",
+      "stars": null,
+      "tags": [
+        "post-training",
+        "agent",
+        "on-policy-distillation",
+        "spatial-reasoning",
+        "privileged-information"
+      ],
+      "topic": [
+        "post-training",
+        "agent"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "V-CoLA：为线性注意力设计视觉 token 压缩",
+      "url": "https://huggingface.co/papers/2610.11251",
+      "time": "2026-10-10",
+      "category": "paper",
+      "summary": "周末补档，回顾近期成果：用独特性相关的重要度识别关键视觉 token，再自适应合并，避免直接套用 softmax 注意力方法。实现兼容线性注意力的分块并行，作者报告质量与 prefill 加速的权衡。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.11251，平台标注发表/更新 2026-10-08）；2026-10-13 核验，2026-10-10 收录；实验结论为作者报告",
+      "highlight": "近期研究回顾：视觉压缩算法需适配模型注意力架构，并同时量测任务质量和真实延迟。",
+      "stars": null,
+      "tags": [
+        "visual-token-compression",
+        "linear-attention",
+        "prefill"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "SimpleICL：明确机器人从视觉示范中学习什么",
+      "url": "https://github.com/simpleicl/simple-icl",
+      "time": "2026-10-10",
+      "category": "repo",
+      "summary": "周末补档，回顾近期成果：先定义机器人上下文学习的目标，拆分示范中的动作、语义、可供性、空间关系和任务意图。再提供视觉提示编码器与低成本采集流程，在模拟和真实环境中分析不同信息的辨别能力。",
+      "source": "作者论文摘要（Hugging Face Papers 2609.38173，平台标注发表/更新 2026-09-29）；2026-10-13 核验，2026-10-10 收录；实验结论为作者报告；项目链接由论文页面提供",
+      "highlight": "近期项目回顾：为机器人示范学习提供可复现框架，避免含糊示范导致评测目标混淆。",
+      "stars": null,
+      "tags": [
+        "agent",
+        "robot-ICL",
+        "demonstration-learning",
+        "manipulation"
+      ],
+      "topic": [
+        "agent"
+      ]
+    }
+  ]
+}

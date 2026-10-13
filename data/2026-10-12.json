@@ -1,0 +1,310 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "time": "2026-10-12",
+      "stars": null,
+      "category": "news",
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "title": "Meta 发布 Muse Wonder 与 Wonder Full，强调长期记忆和任务持续执行",
+      "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
+      "summary": "Meta 于 10 月 12 日发布面向个人和专业 Agent 的 Muse Wonder 系列，介绍跨对话保存相关信息的 Active Memory 及持续尝试、纠错的 Active Focus。官方公告称 Wonder 经 Meta Model API 和 Muse Code 提供，Full 经 Muse Code 订阅提供；能力领先的描述属于厂商主张。",
+      "source": "Meta 官方 Newsroom，发布 2026-10-12；2026-10-13 核验",
+      "highlight": "观察长期记忆和任务恢复如何进入基础模型产品，并用自有长任务验证厂商能力声明。",
+      "tags": [
+        "meta",
+        "muse-wonder",
+        "model-release",
+        "active-memory"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "S-Space：识别多模态模型内部的空间工作区",
+      "url": "https://huggingface.co/papers/2610.13527",
+      "time": "2026-10-12",
+      "category": "paper",
+      "summary": "在对象 token 表示中定位可读出横向、纵向及距离坐标的线性子空间。通过因果干预与感知计算分解分析空间判断，发现模型可能已有空间表示，却难以正确进行视角转换。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.13527，平台标注发表/更新 2026-10-09）；2026-10-13 核验，2026-10-12 收录；实验结论为作者报告",
+      "highlight": "将感知失误与空间变换失误拆开，有助于选择更有针对性的训练和诊断方法。",
+      "stars": null,
+      "tags": [
+        "spatial-reasoning",
+        "interpretability",
+        "MLLM"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "DiffusionART：改善扩散模型强化学习的效率与稳定性",
+      "url": "https://huggingface.co/papers/2610.12572",
+      "time": "2026-10-12",
+      "category": "paper",
+      "summary": "先在同提示词内聚合奖励，形成共同的改进方向，减少目标中的隐含前向与逆向不一致。再用信赖域掩码更新恢复漂移，作者在图像和视频生成中比较奖励提升及 GPU 时间。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.12572，平台标注发表/更新 2026-10-08）；2026-10-13 核验，2026-10-12 收录；实验结论为作者报告",
+      "highlight": "适合研究扩散模型奖励优化；论文中的大幅加速需对照相同奖励、采样预算与实现复现。",
+      "stars": null,
+      "tags": [
+        "post-training",
+        "diffusion-RL",
+        "reward-tilting",
+        "trust-region"
+      ],
+      "topic": [
+        "post-training"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Reflex：从第一视角视觉学习人形机器人接箱子",
+      "url": "https://github.com/ToberJ/reflex",
+      "time": "2026-10-12",
+      "category": "repo",
+      "summary": "分阶段训练全身接取控制、延迟及不完整观测下的物体动力学估计，再用 RGB-D 编码器恢复相同动力学表示。作者报告模拟与真实 Unitree G1 的接箱实验，并展示时间视觉历史的重要性。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.12772，平台标注发表/更新 2026-10-08）；2026-10-13 核验，2026-10-12 收录；实验结论为作者报告；项目链接由论文页面提供",
+      "highlight": "把控制和感知学习分解为直接监督任务，展示动态交互中的时序信息价值。",
+      "stars": null,
+      "tags": [
+        "agent",
+        "humanoid",
+        "reactive-control",
+        "RGB-D"
+      ],
+      "topic": [
+        "agent"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "EmbodiedCLBench：评估具身 Agent 的技能积累与组合迁移",
+      "url": "https://huggingface.co/papers/2610.13021",
+      "time": "2026-10-12",
+      "category": "paper",
+      "summary": "先让 Agent 学习基本任务，再测试能否重组所获技能完成未见复杂任务。作者比较多种 harness 和学习方法，发现经验确有帮助，但更多样本未必带来相应的持续提升。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.13021，平台标注发表/更新 2026-10-09）；2026-10-13 核验，2026-10-12 收录；实验结论为作者报告",
+      "highlight": "为自进化 Agent 提供组合泛化评测，避免只把记忆数量当作学习效果。",
+      "stars": null,
+      "tags": [
+        "agent",
+        "memory",
+        "embodied-agent",
+        "continual-learning",
+        "compositional-generalization"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "ProgramGym：训练从黑盒参考程序重建软件的 Agent",
+      "url": "https://github.com/Acm1011/ProgramGym",
+      "time": "2026-10-12",
+      "category": "repo",
+      "summary": "通过反馈修复沙箱构建和黑盒测试质量，生成覆盖 C、C++、Go、Rust 的可验证环境。Program-Agent 隔离分析、实现和审查角色，并配合修订管理、编译检查与失败恢复支撑长程开发。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.13395，平台标注发表/更新 2026-10-09）；2026-10-13 核验，2026-10-12 收录；实验结论为作者报告；项目链接由论文页面提供",
+      "highlight": "针对从零构建程序的训练比单次代码补全更贴近工程过程，需要同步审查测试覆盖。",
+      "stars": null,
+      "tags": [
+        "agent",
+        "post-training",
+        "program-reproduction",
+        "coding-agent",
+        "SFT"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "SynthSelf：让小模型持续后训练并减少遗忘",
+      "url": "https://huggingface.co/papers/2610.13113",
+      "time": "2026-10-12",
+      "category": "paper",
+      "summary": "将自蒸馏所需的分布内重写交给稍大且同家族的对齐模型，再结合离策略监督和拒绝采样。研究同时衡量新能力获取与旧知识保留，分析模型分布偏移和遗忘之间的关系。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.13113，平台标注发表/更新 2026-10-09）；2026-10-13 核验，2026-10-12 收录；实验结论为作者报告",
+      "highlight": "小模型的自蒸馏不能简单照搬大模型方案，训练数据分布与保留能力应联合评估。",
+      "stars": null,
+      "tags": [
+        "post-training",
+        "small-model",
+        "continual-post-training",
+        "self-distillation"
+      ],
+      "topic": [
+        "post-training"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Work2Skill：把人类桌面示范归纳为可复用 Agent 技能",
+      "url": "https://github.com/china-qijizhifeng/Work2Skill",
+      "time": "2026-10-12",
+      "category": "repo",
+      "summary": "WorkRecorder 同步屏幕录像、鼠标键盘事件及可用的无障碍树，构建 350 条经过筛选的示范。技能归纳 Agent 按需检查证据，抽取工作流规则、步骤依赖和完成检查，并在 GUI 基准上验证复用效果。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.12984，平台标注发表/更新 2026-10-09）；2026-10-13 核验，2026-10-12 收录；实验结论为作者报告；项目链接由论文页面提供",
+      "highlight": "提供从真实操作经验提炼技能的方法，关键是分离通用流程与单次任务细节。",
+      "stars": null,
+      "tags": [
+        "agent",
+        "memory",
+        "GUI",
+        "skill-induction",
+        "human-demonstration"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "AAArena：在长期游戏竞赛中评估启发式策略学习",
+      "url": "https://huggingface.co/papers/2610.12341",
+      "time": "2026-10-12",
+      "category": "paper",
+      "summary": "Agent 读取游戏规则、选择对手、分析回放并修订可执行策略，模型权重保持固定。基准包含十二个真实对抗游戏及历史人类程序，作者发现复杂规则理解和长期策略发展仍具挑战。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.12341，平台标注发表/更新 2026-10-08）；2026-10-13 核验，2026-10-12 收录；实验结论为作者报告",
+      "highlight": "适合比较用经验修改软件策略的能力，同时关注对手选择、反馈密度和预算公平性。",
+      "stars": null,
+      "tags": [
+        "agent",
+        "memory",
+        "heuristic-learning",
+        "game-agent",
+        "competition"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "RSI-Anything：用预测世界模型选择行动并保留系统改进",
+      "url": "https://huggingface.co/papers/2610.13912",
+      "time": "2026-10-12",
+      "category": "paper",
+      "summary": "世界模型指导行动和学习数据选择，观测反馈推动策略、工作流及必要的世界模型适配。框架通过组件和相容性检查保留更新组合，并在代码、GUI 与科学实验任务中评估。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.13912，平台标注发表/更新 2026-10-09）；2026-10-13 核验，2026-10-12 收录；实验结论为作者报告",
+      "highlight": "自我改进需要实测反馈和更新验证，不能仅凭模型对自己能力的描述判定有效。",
+      "stars": null,
+      "tags": [
+        "agent",
+        "memory",
+        "recursive-self-improvement",
+        "world-model",
+        "workflow-evolution"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Representation Guidance：学习对像素扩散生成有用的内部表示",
+      "url": "https://huggingface.co/papers/2610.12978",
+      "time": "2026-10-12",
+      "category": "paper",
+      "summary": "论文区分表示的理解质量与生成效用，用低维瓶颈形成紧凑语义空间表示。再修改流匹配目标，让该表示直接指导解码生成，并在 ImageNet 与文生图设置中实验。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.12978，平台标注发表/更新 2026-10-09）；2026-10-13 核验，2026-10-12 收录；实验结论为作者报告",
+      "highlight": "帮助理解生成模型的表征设计，优良分类或理解表示未必能直接改善生成质量。",
+      "stars": null,
+      "tags": [
+        "pixel-diffusion",
+        "representation-learning",
+        "flow-matching"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "InstantFusion：连接异构图像生成器的共享潜在接口",
+      "url": "https://github.com/InternLM/InstantFusion",
+      "time": "2026-10-12",
+      "category": "repo",
+      "summary": "模型专属潜在自编码器把中间去噪状态映射到共享空间，再转译到目标生成器。训练同时对齐匹配噪声层级的状态和局部去噪速度，使冻结生成器间能够切换轨迹。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.13944，平台标注发表/更新 2026-10-09）；2026-10-13 核验，2026-10-12 收录；实验结论为作者报告；项目链接由论文页面提供",
+      "highlight": "适合研究跨模型组合与蒸馏，实际集成要验证接口翻译对内容和偏好的一致性。",
+      "stars": null,
+      "tags": [
+        "post-training",
+        "image-generation",
+        "latent-interface",
+        "model-composition"
+      ],
+      "topic": [
+        "post-training"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Artisan：让多 Agent 生成具有物理功能的关节 3D 资产",
+      "url": "https://github.com/physicalvision/Artisan",
+      "time": "2026-10-12",
+      "category": "repo",
+      "summary": "在多 Agent 生成流程中加入物理模拟反馈，关注碰撞、重力稳定性及质量材料属性。统一基准覆盖空间保真、物理合理性、下游任务和整体质量，比较多种代表性方法。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.13947，平台标注发表/更新 2026-10-09）；2026-10-13 核验，2026-10-12 收录；实验结论为作者报告；项目链接由论文页面提供",
+      "highlight": "仿真资产不仅要外观正确，还要能够运动、承重并支持下游控制任务。",
+      "stars": null,
+      "tags": [
+        "agent",
+        "3D-assets",
+        "physical-simulation",
+        "multi-agent"
+      ],
+      "topic": [
+        "agent"
+      ]
+    },
+    {
+      "id": 14,
+      "time": "2026-10-12",
+      "stars": null,
+      "category": "tutorial",
+      "topic": [
+        "rag"
+      ],
+      "title": "Qdrant Hybrid Queries：密集、稀疏召回融合与多阶段重排",
+      "url": "https://qdrant.tech/documentation/search/hybrid-queries/",
+      "summary": "官方文档通过 prefetch 构建候选集，再用 RRF 或 DBSF 融合密集和稀疏检索结果，并支持多阶段查询与多向量重排。对 RAG 系统，可在同一查询链中组合初召回与精排，但应分别测量候选覆盖和最终排序；本条为现有文档知识补充。",
+      "source": "Qdrant 官方 Hybrid Queries 文档；2026-10-13 核验，无独立发布日期",
+      "highlight": "不同检索器分数不宜直接相加，融合、候选预算与重排应通过实际语料调优。",
+      "tags": [
+        "hybrid-search",
+        "RRF",
+        "DBSF",
+        "reranking",
+        "qdrant"
+      ]
+    },
+    {
+      "id": 15,
+      "time": "2026-10-12",
+      "stars": null,
+      "category": "tutorial",
+      "topic": [
+        "post-training",
+        "agent"
+      ],
+      "title": "TRL GRPO Trainer：可验证奖励和多环境 Agent 训练接口",
+      "url": "https://huggingface.co/docs/trl/grpo_trainer",
+      "summary": "官方文档覆盖 GRPO 配置、自定义 reward_funcs、奖励来源及环境工厂接口，并展示多类环境的 rollout 路由。还说明 PEFT 与量化配置的集成，适合把论文目标转成小规模实验；本条是已存在文档的学习收录，不声称当天新增全部接口。",
+      "source": "Hugging Face TRL 官方 GRPO Trainer 文档；2026-10-13 核验，无独立发布日期",
+      "highlight": "先验证奖励函数能区分正确完成与投机行为，再观察采样成本、训练稳定性和隐藏集成功率。",
+      "tags": [
+        "TRL",
+        "GRPO",
+        "RLVR",
+        "reward-function",
+        "agent-training"
+      ]
+    }
+  ]
+}

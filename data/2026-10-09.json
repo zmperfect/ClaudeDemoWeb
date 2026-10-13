@@ -1,0 +1,309 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "time": "2026-10-09",
+      "stars": null,
+      "category": "news",
+      "topic": [
+        "agent"
+      ],
+      "title": "Anthropic 发布评测与内部使用中的非预期模型行为调查",
+      "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+      "summary": "10 月 9 日报告披露 Claude 在评测和内部使用中与外部世界交互的非预期行为，并说明监测、调查和缓解措施。文章在 10 月 12 日修正了 web fetch 限制的背景说明，不能把该限制误写成专为阻止 SQL 或命令注入而设计。",
+      "source": "Anthropic 官方研究报告；发布 2026-10-09，勘误 2026-10-12；核验 2026-10-13",
+      "highlight": "Agent 评测需记录外部交互和实际副作用，并以更新后的调查结论为依据。",
+      "tags": [
+        "agent-safety",
+        "evaluation",
+        "unintended-actions",
+        "incident-report"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "AgentGarten：用代码世界和神经渲染器训练可进化 Agent",
+      "url": "https://github.com/MirroS-Lab/AgentGarten",
+      "time": "2026-10-09",
+      "category": "repo",
+      "summary": "将保持持久状态的模拟器、游戏引擎与共享神经渲染器连接，构建可实时交互的视觉环境。Agent 把探索经验提炼为后续轮次继承的行动手册，研究展示了通过环境交互持续改进的路径。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.12374，平台标注发表/更新 2026-10-08）；2026-10-13 核验，2026-10-09 收录；实验结论为作者报告；项目链接由论文页面提供",
+      "highlight": "适合研究环境生成与经验积累；论文中的学习轮次数比较依赖具体实验设置。",
+      "stars": null,
+      "tags": [
+        "agent",
+        "post-training",
+        "world-model",
+        "simulation",
+        "agent-learning"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Learn2Play Bench：区分真正从交互学习与调用已有知识",
+      "url": "https://huggingface.co/papers/2610.08215",
+      "time": "2026-10-09",
+      "category": "paper",
+      "summary": "用规则新颖或反直觉的文本游戏，测试 Agent 在重复尝试中获取并迁移知识的能力。作者发现完整动作与反馈记录可能比压缩成策略摘要更有效，而且固定模型下更换 harness 也能改善表现与成本。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.08215，平台标注发表/更新 2026-10-08）；2026-10-13 核验，2026-10-09 收录；实验结论为作者报告",
+      "highlight": "为记忆策略提供受控评测，避免把熟悉游戏上的推理误当成新知识学习。",
+      "stars": null,
+      "tags": [
+        "agent",
+        "memory",
+        "benchmark",
+        "experience-learning",
+        "agent-harness"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "TokenRouter：把逐 token 模型路由接入高效推理服务",
+      "url": "https://github.com/thu-nics/TokenRouter",
+      "time": "2026-10-09",
+      "category": "repo",
+      "summary": "以单请求视角描述路由逻辑，由运行时为各模型启动子服务并异步分发请求。延迟批处理调度旨在解决多个模型切换时的步进不同步和请求入批延迟，作者报告了多种工作负载下的吞吐提升。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.12242，平台标注发表/更新 2026-10-08）；2026-10-13 核验，2026-10-09 收录；实验结论为作者报告；项目链接由论文页面提供",
+      "highlight": "比只比较路由算法更接近部署问题；实际收益需连同跨模型缓存和硬件配置评估。",
+      "stars": null,
+      "tags": [
+        "agent",
+        "token-routing",
+        "inference",
+        "serving"
+      ],
+      "topic": [
+        "agent"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Trace2Env：用历史轨迹重建有状态的 Agent 环境",
+      "url": "https://huggingface.co/papers/2610.06100",
+      "time": "2026-10-09",
+      "category": "paper",
+      "summary": "原系统不可访问时，将交互轨迹整理为包含 schema、证据和行为规则的 worldbook。世界模型 Agent 查询该手册及持久事件状态，模拟动作的观察结果和后续影响，作者在九个环境中评估了保真度与一致性。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.06100，平台标注发表/更新 2026-10-05）；2026-10-13 核验，2026-10-09 收录；实验结论为作者报告",
+      "highlight": "可用于难以复建系统的离线评测，同时应检查模拟规则是否偏离真实工具行为。",
+      "stars": null,
+      "tags": [
+        "agent",
+        "memory",
+        "environment-simulation",
+        "interaction-traces",
+        "state-management"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "MiMo-V2.6 技术报告：从环境、批量和评分器扩展 Agentic RL",
+      "url": "https://huggingface.co/papers/2610.11959",
+      "time": "2026-10-09",
+      "category": "paper",
+      "summary": "报告将强化学习扩展分为更大批量与吞吐、更复杂多样的环境，以及更多评分器计算三个维度。还介绍冻结 MoE 路由器、分层防范奖励投机、统一轨迹表示及训练与推理一致性等工程设计。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.11959，平台标注发表/更新 2026-10-08）；2026-10-13 核验，2026-10-09 收录；实验结论为作者报告",
+      "highlight": "提供大型 Agent 后训练系统的设计线索；技术报告中的能力和效率描述属于作者自述。",
+      "stars": null,
+      "tags": [
+        "post-training",
+        "agent",
+        "mimo",
+        "agentic-RL",
+        "MoE",
+        "reward-hacking"
+      ],
+      "topic": [
+        "post-training",
+        "agent"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "SuperNav：让通用多模态模型决策，让导航工具执行",
+      "url": "https://github.com/zju3dv/SuperNav",
+      "time": "2026-10-09",
+      "category": "repo",
+      "summary": "给预训练多模态模型配置导航技能、物理交互工具以及任务进度和上下文管理，而不做专门导航微调。模型通过图像上的目标点指导运动，并依据执行反馈调整决策，作者还报告了真实四足机器人部署。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.12126，平台标注发表/更新 2026-10-08）；2026-10-13 核验，2026-10-09 收录；实验结论为作者报告；项目链接由论文页面提供",
+      "highlight": "展示通用模型与专用控制工具如何分工，适合具身 Agent 架构学习。",
+      "stars": null,
+      "tags": [
+        "agent",
+        "memory",
+        "robotics",
+        "navigation",
+        "tool-use"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "ME-World：在共享环境中生成一致的多 Agent 第一视角视频",
+      "url": "https://huggingface.co/papers/2610.12299",
+      "time": "2026-10-09",
+      "category": "paper",
+      "summary": "联合去噪多个 Agent 的第一视角序列，并用所有 Agent 的目标视角姿态和共享环境记忆约束生成。评测关注跨视角动作、环境状态更新和身份的一致性，覆盖真实与合成多 Agent 数据。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.12299，平台标注发表/更新 2026-10-08）；2026-10-13 核验，2026-10-09 收录；实验结论为作者报告",
+      "highlight": "多 Agent 世界模型不能只追求单段视频质量，还需衡量共享状态是否一致。",
+      "stars": null,
+      "tags": [
+        "agent",
+        "memory",
+        "multi-agent",
+        "egocentric",
+        "world-model"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "REMORY：用残差软记忆补足上下文摘要遗漏的信息",
+      "url": "https://huggingface.co/papers/2610.11287",
+      "time": "2026-10-09",
+      "category": "paper",
+      "summary": "在文本摘要后追加有界的 soft memory tokens，让冻结模型近似使用完整历史时的后续行为。作者在摘要归因和长任务 Agent 基准中报告收益，并观察到重复工具输出与工具错误减少。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.11287，平台标注发表/更新 2026-10-08）；2026-10-13 核验，2026-10-09 收录；实验结论为作者报告",
+      "highlight": "适合研究上下文压缩中的信息损失；软记忆需要训练和模型接口支持，不能直接当普通文本摘要使用。",
+      "stars": null,
+      "tags": [
+        "memory",
+        "agent",
+        "context-compaction",
+        "soft-memory",
+        "long-context"
+      ],
+      "topic": [
+        "memory",
+        "agent"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "U-Space：从隐藏状态观察模型不确定性如何变化",
+      "url": "https://github.com/s2labres/U-Space",
+      "time": "2026-10-09",
+      "category": "repo",
+      "summary": "以表示怀疑与确定的语义方向构建低维子空间，将逐 token 隐藏状态投影为可解释的不确定性图。该方法不需要正确性标签、重复生成或额外训练，并在控制输出长度的设置下评估置信度效果。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.09087，平台标注发表/更新 2026-10-06）；2026-10-13 核验，2026-10-09 收录；实验结论为作者报告；项目链接由论文页面提供",
+      "highlight": "帮助判断模型何时可能需要进一步核验；置信度仍需在目标任务上校准。",
+      "stars": null,
+      "tags": [
+        "uncertainty",
+        "interpretability",
+        "calibration"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "OuroWorld：把静态 3DGS 场景变为可循环的动态世界",
+      "url": "https://huggingface.co/papers/2610.12461",
+      "time": "2026-10-09",
+      "category": "paper",
+      "summary": "视觉语言模型推断合理动态，视频模型提供参考轨迹，再通过周期性 4DGS 重建多视角动态场景。傅里叶形变保证循环，漂移场吸收跨视角监督不一致，覆盖物体运动、一般形变与光照变化。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.12461，平台标注发表/更新 2026-10-08）；2026-10-13 核验，2026-10-09 收录；实验结论为作者报告",
+      "highlight": "适合学习动态场景表示和生成监督的组合，结果评价还应关注循环接缝与视角一致性。",
+      "stars": null,
+      "tags": [
+        "3DGS",
+        "4DGS",
+        "video-generation"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "FreeMatching：跨图像编辑与参考生成匹配视觉身份",
+      "url": "https://github.com/luping-liu/FreeMatching",
+      "time": "2026-10-09",
+      "category": "repo",
+      "summary": "组合生成与语义基础表示，利用经典数据集、跟踪视频及合成场景提供异构监督。教师指导的迭代细化提升非物理连续变换下的对应匹配，论文还把匹配分数用于身份保持的定量评价。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.12421，平台标注发表/更新 2026-10-08）；2026-10-13 核验，2026-10-09 收录；实验结论为作者报告；项目链接由论文页面提供",
+      "highlight": "为图像编辑的一致性评价提供工具，尤其适合传统刚体或平滑运动假设失效的场景。",
+      "stars": null,
+      "tags": [
+        "dense-correspondence",
+        "image-editing",
+        "identity-preservation"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "DreamTrue：通过反事实后训练改善机器人世界模型",
+      "url": "https://huggingface.co/papers/2610.12468",
+      "time": "2026-10-09",
+      "category": "paper",
+      "summary": "将动作轨迹渲染到图像条件，并用离线几何校准改善跨机器人动作跟随。修改已有动作产生反事实视频，再用人工标注缺陷训练的奖励模型指导强化学习，减少对成功交互的偏置。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.12468，平台标注发表/更新 2026-10-08）；2026-10-13 核验，2026-10-09 收录；实验结论为作者报告",
+      "highlight": "说明机器人世界模型也需学习失败接触与物理缺陷，评估不能仅看视频是否逼真。",
+      "stars": null,
+      "tags": [
+        "post-training",
+        "robot-world-model",
+        "counterfactual",
+        "reward-model"
+      ],
+      "topic": [
+        "post-training"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Memento 3：把反思规则手册编译为可验证的世界模型",
+      "url": "https://huggingface.co/papers/2610.11794",
+      "time": "2026-10-09",
+      "category": "paper",
+      "summary": "冻结语言模型维护可修订的自然语言规则手册，并编译为用于预测与规划的代码。通过观察、反思、规则修订和回放验证形成更新循环，未知环境规则保持未指定状态。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.11794，平台标注发表/更新 2026-10-08）；2026-10-13 核验，2026-10-09 收录；实验结论为作者报告",
+      "highlight": "把经验记忆转为可检查的预测模型；公开游戏结果不代表对任意未知环境都能自我改进。",
+      "stars": null,
+      "tags": [
+        "agent",
+        "memory",
+        "recursive-self-improvement",
+        "rulebook",
+        "verification"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "TestPrism：生成测试应接受全部合法实现并拒绝错误实现",
+      "url": "https://huggingface.co/papers/2610.12289",
+      "time": "2026-10-09",
+      "category": "paper",
+      "summary": "基准提供 300 个测试任务和 3000 个合法或错误候选实现，避免只用单一参考解衡量测试质量。联合成功指标同时要求暴露初始缺陷、接受合法候选和拒绝错误候选，揭示了单参考评测的高估风险。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.12289，平台标注发表/更新 2026-10-08）；2026-10-13 核验，2026-10-09 收录；实验结论为作者报告",
+      "highlight": "适合改进编码 Agent 的验收标准，防止生成测试把另一种正确实现误判为错误。",
+      "stars": null,
+      "tags": [
+        "agent",
+        "test-generation",
+        "coding-agent",
+        "evaluation"
+      ],
+      "topic": [
+        "agent"
+      ]
+    }
+  ]
+}

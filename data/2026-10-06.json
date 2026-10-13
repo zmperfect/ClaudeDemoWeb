@@ -1,0 +1,30 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "OpenAI 分享 AI 数学研究进展：公开 722 份手稿及 Lean 形式化材料",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "time": "2026-10-06",
+      "category": "news",
+      "topic": ["agent"],
+      "summary": "OpenAI 于 10 月 6 日发布数学研究进展说明，并公开 GitHub 仓库 openai/math，收录 722 份内部模型生成的数学手稿，按 372 个结果家族组织。仓库采用 Apache-2.0，提供手稿和 Lean 形式化材料，但并非全部结果都已形式化；仓库说明提醒，不同结果处于不同验证阶段，尚未形式化的主张也可能有问题。应区分可由 Lean 检查器验证的形式化证明，与尚未完成形式化或独立审查的数学主张。",
+      "source": "OpenAI 官方文章《Sharing AI progress in mathematics》；OpenAI GitHub: openai/math",
+      "highlight": "AI 用于开放数学问题的研究成果开始以手稿与形式化证明同时公开，Lean 可验证部分提供了更强的局部检查路径，但仓库规模和模型产出本身不等于所有结论已被数学界确认。",
+      "stars": null,
+      "tags": ["openai", "mathematics", "Lean", "formal-verification", "AI-for-science", "open-source"]
+    },
+    {
+      "id": 2,
+      "title": "Google EmbeddingGemma 2：740M 参数的开放多模态嵌入模型",
+      "url": "https://huggingface.co/google/embeddinggemma-2",
+      "time": "2026-10-06",
+      "category": "repo",
+      "topic": ["rag"],
+      "summary": "Google DeepMind 的 EmbeddingGemma 2 将文本（含代码）、图像、视频和音频映射到统一 768 维向量空间，面向本地跨模态检索、语义搜索和 RAG。模型卡列出约 740M 总参数、Apache-2.0 许可、8192-token 上下文，支持将向量截断到 512、256 或 128 维；Google 文档称模型可在本地 CPU 或消费级 GPU 使用。模型卡/开发者文档已核验，但页面未提供独立发布日时间戳；日期依据 10 月 6 日更新的 Google AI 开发文档及同期公告线索。官方性能描述未独立验证。",
+      "source": "Google DeepMind 官方模型卡（Hugging Face: google/embeddinggemma-2）；Google AI for Developers 文档（页面 Last updated 2026-10-06 UTC）",
+      "highlight": "统一多模态向量空间可减少文本、图像、音频和视频分别部署检索模型的复杂度；本地开源部署对隐私优先 RAG 有价值。高维与低维截断的质量/存储权衡应在实际语料和目标硬件上评测。",
+      "stars": null,
+      "tags": ["google", "embedding", "multimodal", "RAG", "semantic-search", "on-device", "Apache-2.0"]
+    }
+  ]
+}
