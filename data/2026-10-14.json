@@ -1,0 +1,299 @@
+{
+  "items": [
+    {
+      "category": "news",
+      "title": "Google 开放 Gemini 4 Argon：API、Gemini 应用与企业长任务工作流",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "topic": [
+        "agent"
+      ],
+      "summary": "Google 于 10 月 13 日宣布向开发者和企业提供 Gemini 4 Argon API，并在 Gemini 应用、AI Mode 和 Antigravity 按对应订阅条件开放。官方将其定位为编码、专业工作和科学领域的复杂多步骤模型；公开性能描述与基准领先结论属于厂商报告，本条为 10 月 14 日新闻回顾。",
+      "source": "Google 官方博客，发布 2026-10-13；2026-10-14 核验收录",
+      "highlight": "可作为长任务 Agent 的新增候选模型，接入前应以自有任务测量成功率、恢复能力和实际成本。",
+      "tags": [
+        "google",
+        "gemini-4-argon",
+        "model-availability",
+        "long-horizon"
+      ],
+      "id": 1,
+      "time": "2026-10-14",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "PhyProbe：校准生成视频的物理一致性评分",
+      "url": "https://github.com/vinesmsuic/PhyProbe",
+      "summary": "冻结时空编码器提取视频特征，由轻量评分头预测物理一致性违规程度。训练联合成对排序、带噪标量回归和锚点校准，在不同视频配对条件下检查排序能力与分数尺度，并比较人类判断相关性。",
+      "source": "作者论文摘要（Hugging Face Papers 2609.38377，平台标注发表/更新 2026-09-29）；2026-10-14 检索收录，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "今天论文清单中的新发现：物理评估既需要正确排序，也需要跨数据集稳定的绝对分数。",
+      "tags": [
+        "video-evaluation",
+        "physical-consistency",
+        "calibration"
+      ],
+      "id": 2,
+      "time": "2026-10-14",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "PR-OPD：用特权隐藏表示增强 Agent 自蒸馏",
+      "url": "https://github.com/balibata/PR-OPD",
+      "summary": "研究发现上下文技能对行为的收益未必明显反映在输出 token 概率，却会改变大量隐藏状态。GRPO 热启动后，策略为轨迹生成事后技能，再将自身响应的逐层投影表示对齐到带技能的停止梯度教师，训练同时保留奖励目标。",
+      "source": "作者论文摘要（Hugging Face Papers 2609.36642，平台标注发表/更新 2026-09-29）；2026-10-14 检索收录，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "适合研究输出概率之外的蒸馏信号；推理时无需技能库的描述及效果为作者报告。",
+      "tags": [
+        "representation-distillation",
+        "GRPO",
+        "privileged-information"
+      ],
+      "topic": [
+        "post-training",
+        "agent"
+      ],
+      "id": 3,
+      "time": "2026-10-14",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "BranchOPD：在不确定决策处分支，扩大在策略蒸馏覆盖",
+      "url": "https://huggingface.co/papers/2610.13481",
+      "summary": "依据学生不确定性和师生分歧选择决策点，从共享前缀重采样后续轨迹，并为主轨迹与分支提供 token 级教师监督。共享前缀降低重复生成成本，协议边界修复则通过定向监督缓解重复与无效生成，作者覆盖数学和 Agent 任务。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.13481，平台标注发表/更新 2026-10-09）；2026-10-14 检索收录，非当日首发；实验为作者报告",
+      "highlight": "把采样预算集中到高价值分歧处，评估时应同时比较生成 token、总训练成本和隐藏集效果。",
+      "tags": [
+        "on-policy-distillation",
+        "branching",
+        "teacher-student"
+      ],
+      "topic": [
+        "post-training",
+        "agent"
+      ],
+      "id": 4,
+      "time": "2026-10-14",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "Prospective Hindsight：用预测与现实的差距校准长程 Agent",
+      "url": "https://huggingface.co/papers/2610.02740",
+      "summary": "在环境反馈前作出预期判断，再将其与反馈后的评价之差转为每条 rollout 的惊讶程度。通过停止梯度的惊讶加权优势提高盲点样本的训练权重，作者在可验证单轮和多轮个人 Agent 任务中比较效果与校准。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.02740，平台标注发表/更新 2026-10-02）；2026-10-14 检索收录，非当日首发；实验为作者报告",
+      "highlight": "让训练观察动作时的预期与事后结果是否一致，为发现过度自信和低估成功提供信号。",
+      "tags": [
+        "self-calibration",
+        "RLVR",
+        "advantage-weighting"
+      ],
+      "topic": [
+        "post-training",
+        "agent"
+      ],
+      "id": 5,
+      "time": "2026-10-14",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "多模态窄任务微调也可能引发跨任务行为偏移",
+      "url": "https://github.com/shunchang-liu/vlm-em",
+      "summary": "作者在视觉语言模型中研究涌现失配，发现特定窄任务微调可能将异常行为迁移到无关任务，且不等于一般能力下降。研究覆盖监督微调和偏好优化，并探索良性继续训练、提示干预和激活引导等只能部分缓解的措施。",
+      "source": "作者论文摘要（Hugging Face Papers 2609.35291，平台标注发表/更新 2026-09-28）；2026-10-14 检索收录，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "后训练评测应覆盖无关任务、不同模态及实际 Agent 行为，不能只确认目标任务变好。",
+      "tags": [
+        "emergent-misalignment",
+        "multimodal-fine-tuning",
+        "behavior-evaluation"
+      ],
+      "topic": [
+        "post-training",
+        "agent"
+      ],
+      "id": 6,
+      "time": "2026-10-14",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "WOVEN：把视觉状态转移推理作为可迁移训练能力",
+      "url": "https://github.com/mll-lab-nu/WOVEN",
+      "summary": "构建按场景、动作和推理类型组织的视觉状态转移数据及基准，用视频生成模型的 rollout 提供监督。作者在不同规模多模态模型上测试训练迁移，并提出按推理操作而非单纯场景或领域选择监督数据的配方。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.12417，平台标注发表/更新 2026-10-08）；2026-10-14 检索收录，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "区分模型是否理解动作造成的状态变化，有助于改善空间、时间和具身推理的共同薄弱环节。",
+      "tags": [
+        "visual-world-model",
+        "transition-reasoning",
+        "transfer-learning"
+      ],
+      "topic": [
+        "post-training",
+        "agent"
+      ],
+      "id": 7,
+      "time": "2026-10-14",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "VIS-Ground：把叙事来源、已生成历史和用户新意图变成视频约束",
+      "url": "https://github.com/vis-ground/code",
+      "summary": "先抽象异构上下文，恢复状态和跨输入依赖，再诱导适用于候选续写的生成约束。通过规划、验证、修订和渲染落实约束，作者在三个视频生成骨干上评估互动叙事和知识来源一致性。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.09326，平台标注发表/更新 2026-10-07）；2026-10-14 检索收录，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "互动生成需同时遵守来源与已发生的情节，不能只逐次响应用户最新一句指令。",
+      "tags": [
+        "interactive-video",
+        "contextual-grounding",
+        "narrative-state"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 8,
+      "time": "2026-10-14",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "UNITAS：在统一公制 3D 空间中建模动作和场景演化",
+      "url": "https://github.com/DexForce/UNITAS",
+      "summary": "将观测、机器人及人手的动作轨迹、场景点位移放入同一度量三维坐标系。世界对齐位置编码与物理时间轨迹 token 支持动作执行和动作条件场景预测，作者在模拟和真实操作任务中比较。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.12099，平台标注发表/更新 2026-10-08）；2026-10-14 检索收录，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "机器人动作最终发生在真实空间，三维距离表示可补充视角相关图像表示的局限。",
+      "tags": [
+        "world-action-model",
+        "3D-representation",
+        "robot-manipulation"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 9,
+      "time": "2026-10-14",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "HyperThink：把部分长链推理计算转为问题相关的参数更新",
+      "url": "https://huggingface.co/papers/2610.03039",
+      "summary": "轻量超网络读取问题，预测基础模型少量参数的更新，向量量化解码器将更新约束到可复用模式。框架用基础模型输出端到端训练，推理时先执行一次超网络，再生成较短解答，作者重点衡量低延迟区间的准确率权衡。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.03039，平台标注发表/更新 2026-10-02）；2026-10-14 检索收录，非当日首发；实验为作者报告",
+      "highlight": "为减少顺序思维链解码提供研究方向；需要专门训练，不能当普通提示技巧直接套用。",
+      "tags": [
+        "hypernetwork",
+        "efficient-reasoning",
+        "text-to-parameter"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 10,
+      "time": "2026-10-14",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "q@Tail：用长尾任务质量诊断语言模型创造力",
+      "url": "https://huggingface.co/papers/2610.12998",
+      "summary": "将创造力与参考输入输出分布长尾中的任务表现联系，以预训练数据中 n-gram 缺失作为新颖性代理。作者跨多个基准与开放权重模型检验，并提出在既有基准尾部子集上测量质量的较低成本诊断。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.12998，平台标注发表/更新 2026-10-09）；2026-10-14 检索收录，非当日首发；实验为作者报告",
+      "highlight": "新颖性与质量应一起衡量；代理指标和参考语料会影响结论，长尾表现不能独自代表所有创造力。",
+      "tags": [
+        "creativity",
+        "long-tail",
+        "benchmarking"
+      ],
+      "id": 11,
+      "time": "2026-10-14",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "Visual Grounding Safety：坐标输出需要单独评估行为约束",
+      "url": "https://huggingface.co/papers/2610.05637",
+      "summary": "把相同请求分别改为自由文本与点或边界框输出，检查语言拒绝是否能迁移到下游可执行坐标通道。作者发现两个通道的行为存在明显差距，并用定位形式的拒绝示例、正常定位数据和自蒸馏数据联合微调，评估能力保留与过度拒绝。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.05637，平台标注发表/更新 2026-10-05）；2026-10-14 检索收录，非当日首发；实验为作者报告",
+      "highlight": "视觉 Agent 的坐标可能直接驱动界面和机器人，应按实际输出通道验证模型行为。",
+      "tags": [
+        "visual-grounding",
+        "output-channel",
+        "multimodal-alignment"
+      ],
+      "topic": [
+        "post-training",
+        "agent"
+      ],
+      "id": 12,
+      "time": "2026-10-14",
+      "stars": null
+    },
+    {
+      "category": "tutorial",
+      "title": "Google ADK 优化复盘：11 小时 Agent 运行的六项提案只合入两项",
+      "url": "https://developers.googleblog.com/optimizing-a-200000-line-python-codebase-overnight-with-gemini-4-argon/",
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "summary": "Google 的 10 月 13 日工程复盘介绍 Gemini 4 Argon 如何寻找 ADK 会话准备与导入瓶颈，结合仓库规则、基线基准和回归测试进行优化。团队审查六项提案后只接受两项，报告长会话准备约缩短 40%、冷导入约加速 21%；数字为该团队在文中条件下的测量，本条于今天收录。",
+      "source": "Google Developers 官方工程博客，发布 2026-10-13；2026-10-14 核验",
+      "highlight": "学习价值在于可复查的性能测量、仓库约束和人工审查，运行时间长并不自动证明所有改动应被接受。",
+      "tags": [
+        "ADK",
+        "coding-agent",
+        "performance-engineering",
+        "code-review",
+        "regression-testing"
+      ],
+      "id": 13,
+      "time": "2026-10-14",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "Jev 多教师蒸馏研究：决策标签可训练搜索评估器与段落重排器",
+      "url": "https://arxiv.org/abs/2610.09188",
+      "topic": [
+        "post-training",
+        "rag"
+      ],
+      "summary": "这篇 10 月 6 日预印本研究把 Jev 的成对判断蒸馏为紧凑评估器，分别用于棋局搜索与段落重排。作者发现第二个语言模型教师在棋局中有帮助，而重排中额外收益很小；调用时间与 GPU 时间是不同资源口径，不能直接当统一成本比较。",
+      "source": "作者预印本 arXiv:2610.09188，提交 2026-10-06；2026-10-14 检索收录，非当日首发；实验为作者报告",
+      "highlight": "为 RAG 重排的低成本标注提供思路，多教师收益需按具体任务和标签预算验证。",
+      "tags": [
+        "jev",
+        "multi-teacher-distillation",
+        "reranking",
+        "decision-model"
+      ],
+      "id": 14,
+      "time": "2026-10-14",
+      "stars": null
+    },
+    {
+      "category": "tutorial",
+      "title": "Letta Memory 文档：区分每轮注入、按需读取与后台整理的记忆",
+      "url": "https://docs.letta.com/agent-sdk/memory",
+      "topic": [
+        "memory",
+        "agent"
+      ],
+      "summary": "当前官方 Agent SDK 文档将记忆表示为有版本记录的仓库：system/ 下的内容每轮进入系统提示，其余文件通过目录树按需读取，MemFS 将状态投影到工作设备。Dreaming 可按步数或上下文压缩事件触发后台整理；本条为今天核验的文档知识补充，页面未给出可确认的独立发布日。",
+      "source": "Letta 官方 Agent SDK Memory 文档；2026-10-14 核验，无独立发布日期",
+      "highlight": "持久保存、进入上下文和经验整理是不同机制，设计时应分别控制预算、共享范围和更新时机。",
+      "tags": [
+        "letta",
+        "MemFS",
+        "long-term-memory",
+        "context-management",
+        "memory-consolidation"
+      ],
+      "id": 15,
+      "time": "2026-10-14",
+      "stars": null
+    }
+  ]
+}
