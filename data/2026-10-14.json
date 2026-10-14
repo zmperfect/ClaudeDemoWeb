@@ -294,6 +294,307 @@
       "id": 15,
       "time": "2026-10-14",
       "stars": null
+    },
+    {
+      "category": "news",
+      "title": "Liquid AI 发布 LFM2.5-24B-A2B：面向本地 Agent 的开放权重推理模型",
+      "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "summary": "Liquid AI 于 10 月 13 日发布总参数 24B、每 token 活跃参数约 2B 的 LFM2.5-24B-A2B，扩展到 131072-token 上下文并采用显式推理。官方介绍 SFT、教师专门化、多域在策略蒸馏与真实 harness 中 Agentic RL 的训练流程，提供开放权重及本地推理支持；速度与基准成绩为厂商测量，本条按 10 月 14 日新增发现收录。",
+      "source": "Liquid AI 官方发布博客（2026-10-13）；2026-10-14 核验收录",
+      "highlight": "为本地工具调用 Agent 增加候选；活跃参数不等于总内存需求，部署仍需按量化、上下文和具体任务测量。",
+      "tags": [
+        "Liquid-AI",
+        "LFM2.5",
+        "on-device",
+        "MoE",
+        "open-weights"
+      ],
+      "id": 16,
+      "time": "2026-10-14",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "Vela：把长期用户行为转为模型训练监督",
+      "url": "https://huggingface.co/papers/2610.14709",
+      "summary": "从匿名用户行为记录构造任务和轨迹，经难度筛选与轨迹验收后训练模型。作者在用户偏好、意图和未来行为相关任务，以及一般基准上评估 SFT 与后续 RL，探索真实行为数据作为监督来源的价值。",
+      "source": "作者论文摘要（Hugging Face 2026-10-14 日报，2610.14709，平台标注发表/更新 2026-10-10）；2026-10-14 检索收录，非当日首发；实验为作者报告",
+      "highlight": "用户理解需要时间维度的行为监督；匿名化说明和实验收益均来自作者，部署还需验证数据代表性。",
+      "tags": [
+        "user-behavior",
+        "personalization",
+        "SFT"
+      ],
+      "topic": [
+        "post-training",
+        "memory",
+        "agent"
+      ],
+      "id": 17,
+      "time": "2026-10-14",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Jeva：为结构化决策原生设计缺失答案和候选缓存",
+      "url": "https://github.com/LiQiiiii/Jeva",
+      "summary": "独立编码请求与各选项，用紧凑决策栈对不可变的选项记忆进行判断。架构分别处理答案缺失、选项竞争、候选顺序不变性和跨请求缓存，使可变大小候选集支持 Choice、Noul 与 Score 输出。",
+      "source": "作者论文摘要（Hugging Face 2026-10-14 日报，2610.18773，平台标注发表/更新 2026-10-13）；2026-10-14 检索收录，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "有限选项决策应区分没有正确答案和对候选不确定，尤其适用于分类、路由与检索选择。",
+      "tags": [
+        "typed-decision",
+        "null-detection",
+        "option-caching"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 18,
+      "time": "2026-10-14",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Harness²：通过两层递归改进 Agent 执行框架",
+      "url": "https://github.com/google-research/harness2",
+      "summary": "任务层用 Propose-Probe-Compose 对比过程指导当前 harness 修改，尝试在没有真实答案验证器时提升执行能力。另一层从修改经验中更新持续改进 harness，让经验服务于后续新任务，作者在专业任务基准上评估。",
+      "source": "作者论文摘要（Hugging Face 2026-10-14 日报，2610.14224，平台标注发表/更新 2026-10-09）；2026-10-14 检索收录，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "将当前任务适配与跨任务经验分开；无标准答案的在线修改仍需检查评估信号是否可靠。",
+      "tags": [
+        "recursive-harness",
+        "self-improvement",
+        "open-world"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 19,
+      "time": "2026-10-14",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "TPPO：让价值模型跟踪推理前缀的逐步变化",
+      "url": "https://github.com/LINs-lab/TPPO",
+      "summary": "分析连续前缀价值在 log-odds 空间的加性结构，将位置级标量累加为价值 logits。通过最终结果监督重建价值，改善稀疏终局奖励下的优势估计，作者在多种数学与科学编码任务上比较 PPO。",
+      "source": "作者论文摘要（Hugging Face 2026-10-14 日报，2610.16794，平台标注发表/更新 2026-10-12）；2026-10-14 检索收录，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "关注奖励分配之前的价值估计质量，为长推理轨迹的 token 级信用分配提供改进方案。",
+      "tags": [
+        "PPO",
+        "value-model",
+        "credit-assignment"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 20,
+      "time": "2026-10-14",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "ProRubric：改变奖励聚合，避免评分上升而答案变差",
+      "url": "https://huggingface.co/papers/2609.38847",
+      "summary": "论文发现量表奖励直接求和时，不同条件可互相补偿，让模型用无关建议抵消关键决策失败。协议级量表把条件分组，只有组内全部成立且失败条款不触发才计分，作者比较适当性与覆盖率。",
+      "source": "作者论文摘要（Hugging Face 2026-10-14 日报，2609.38847，平台标注发表/更新 2026-09-30）；2026-10-14 检索收录，非当日首发；实验为作者报告",
+      "highlight": "奖励有效性取决于条件如何组合，而不只是量表列了哪些标准；属于模型训练研究结果。",
+      "tags": [
+        "rubric-RL",
+        "reward-hacking",
+        "reward-aggregation"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 21,
+      "time": "2026-10-14",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "SwitchMem：GUI Agent 每一步动态选择文字或视觉记忆",
+      "url": "https://github.com/dmis-lab/SwitchMem",
+      "summary": "系统比较不同交互步骤的记忆表示偏好，发现固定模态并不始终最优。路由框架在每一步选择文本或视觉形式的历史经验，作者在三个 GUI 基准中与静态记忆表示方法比较。",
+      "source": "作者论文摘要（Hugging Face 2026-10-14 日报，2610.17928，平台标注发表/更新 2026-10-13）；2026-10-14 检索收录，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "记忆召回后还需要决定如何呈现，当前屏幕与动作类型会影响文字摘要和视觉记录的价值。",
+      "tags": [
+        "GUI-memory",
+        "modality-routing",
+        "experience-reuse"
+      ],
+      "topic": [
+        "memory",
+        "agent"
+      ],
+      "id": 22,
+      "time": "2026-10-14",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "DeltaTTG：用剩余 token 预测建立多轮 Agent 进度计",
+      "url": "https://huggingface.co/papers/2610.17666",
+      "summary": "从不同策略的轨迹学习完成任务还需生成多少 token，将其作为剩余完成努力的可观测代理。冻结进度计的估计变化用于在步骤间重新分配结果优势，并保留轨迹优势符号与平均尺度，作者比较 GRPO。",
+      "source": "作者论文摘要（Hugging Face 2026-10-14 日报，2610.17666，平台标注发表/更新 2026-10-13）；2026-10-14 检索收录，非当日首发；实验为作者报告",
+      "highlight": "为稀疏终局奖励提供可复用进度信号，需确认剩余文本长度没有被误当成真正任务进展。",
+      "tags": [
+        "token-to-go",
+        "progress-meter",
+        "RLVR"
+      ],
+      "topic": [
+        "post-training",
+        "agent"
+      ],
+      "id": 23,
+      "time": "2026-10-14",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "ReTerm：从自身失败状态训练终端 Agent 的恢复能力",
+      "url": "https://github.com/twothsnd/ReTerm",
+      "summary": "构建恢复示范数据用于监督冷启动，随后从 Agent 自己的失败状态分叉出多个独立恢复尝试。ReTerm-GRPO 按最终能否完成任务训练，作者在终端基准和多种错误类别上评估恢复率。",
+      "source": "作者论文摘要（Hugging Face 2026-10-14 日报，2610.18484，平台标注发表/更新 2026-10-13）；2026-10-14 检索收录，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "长任务不能只学习成功轨迹，错误命令、错误实现后的恢复过程本身也是训练目标。",
+      "tags": [
+        "terminal-agent",
+        "recovery-training",
+        "GRPO"
+      ],
+      "topic": [
+        "post-training",
+        "agent"
+      ],
+      "id": 24,
+      "time": "2026-10-14",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "VEDJE：用可复用的小缓存支持视频与文本联合检索",
+      "url": "https://github.com/GabrieleSerussi/vedje",
+      "summary": "在采样帧内压缩视觉特征，同时保留逐帧表示形成可复用缓存。特征变化预测作为辅助训练信号改善检索，不增加查询时工作量，作者在多个视频检索数据集上比较召回与缓存大小。",
+      "source": "作者论文摘要（Hugging Face 2026-10-14 日报，2610.11850，平台标注发表/更新 2026-10-12）；2026-10-14 检索收录，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "视频 RAG 可先编码一次再服务多次查询，评估压缩时要同时检查事件区分能力与双向召回。",
+      "tags": [
+        "video-text-retrieval",
+        "feature-cache",
+        "efficient-search"
+      ],
+      "topic": [
+        "rag"
+      ],
+      "id": 25,
+      "time": "2026-10-14",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "PANINI-DR：以共享语义工作区保存研究状态并逐项核验证据",
+      "url": "https://huggingface.co/papers/2610.15208",
+      "summary": "多 Agent harness 将总体协调与子问题研究、核验分开，共享工作区记录依赖、发现及支持证据。独立验证反馈推动继续调查，作者在相同骨干与冻结语料条件下比较深度研究方法，并评价答案能否从留存证据恢复。",
+      "source": "作者论文摘要（Hugging Face 2026-10-14 日报，2610.15208，平台标注发表/更新 2026-10-10）；2026-10-14 检索收录，非当日首发；实验为作者报告",
+      "highlight": "深度研究需检查结论是否得到所存证据支持，答对不代表研究过程已经可追踪。",
+      "tags": [
+        "deep-research",
+        "semantic-workspace",
+        "evidence-verification"
+      ],
+      "topic": [
+        "agent",
+        "memory",
+        "rag"
+      ],
+      "id": 26,
+      "time": "2026-10-14",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "AutoEnvScaling：让终端 Agent 自动构建可验证训练环境",
+      "url": "https://huggingface.co/papers/2610.14163",
+      "summary": "提案 Agent 根据求解策略的 rollout 生成新 RL 环境，求解器的新轨迹再指导下一轮环境设计。作者把环境生成也定义为终端任务，评估有效环境率、单位成本和训练效果，并探索同一模型兼任两个角色。",
+      "source": "作者论文摘要（Hugging Face 2026-10-14 日报，2610.14163，平台标注发表/更新 2026-10-09）；2026-10-14 检索收录，非当日首发；实验为作者报告",
+      "highlight": "训练数据飞轮要核验环境确实可运行和奖励可信，否则自生成环境可能放大评测漏洞。",
+      "tags": [
+        "environment-generation",
+        "data-flywheel",
+        "agentic-RL"
+      ],
+      "topic": [
+        "post-training",
+        "agent"
+      ],
+      "id": 27,
+      "time": "2026-10-14",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "RSIPO：让技能生成和策略模型在 RL 中共同进化",
+      "url": "https://huggingface.co/papers/2610.15772",
+      "summary": "策略从完成轨迹中提取技能，再通过轨迹回放显式优化技能生成能力。经验贝叶斯收缩动态校准学生对带技能教师评分的信任，处理特权上下文指导并非总可靠的问题，作者在具身与搜索任务中评估。",
+      "source": "作者论文摘要（Hugging Face 2026-10-14 日报，2610.15772，平台标注发表/更新 2026-10-11）；2026-10-14 检索收录，非当日首发；实验为作者报告",
+      "highlight": "技能库需要随着策略改变而更新，同时应衡量教师监督可靠性，不能把每条事后总结视为正确技能。",
+      "tags": [
+        "skill-policy-coevolution",
+        "self-distillation",
+        "empirical-Bayes"
+      ],
+      "topic": [
+        "post-training",
+        "agent",
+        "memory"
+      ],
+      "id": 28,
+      "time": "2026-10-14",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "SWE-MISBEHAVIOR：分别评估代码、文件和系统交互中的越界行为",
+      "url": "https://huggingface.co/papers/2610.18206",
+      "summary": "基准用人类参与合成样本覆盖代码生成、文件管理和系统交互三层动作空间，分类诊断十一种行为问题。配套 CODE-KIT 结合行为规则和工具，作者比较越界行为减少与任务完成效果。",
+      "source": "作者论文摘要（Hugging Face 2026-10-14 日报，2610.18206，平台标注发表/更新 2026-10-13）；2026-10-14 检索收录，非当日首发；实验为作者报告",
+      "highlight": "编码任务成功率之外，还应检查用户输入是否被意外修改、文件操作是否正确以及环境完整性。",
+      "tags": [
+        "coding-agent",
+        "boundary-violations",
+        "agent-evaluation"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 29,
+      "time": "2026-10-14",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "ANTE：先预测再执行，用真实结果验证编码 Agent 的动作预期",
+      "url": "https://arxiv.org/abs/2610.15368",
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "summary": "Agent 在动作前声明内部预期，由真实工具执行结算预测，再用 Belief-Anchored Policy Optimization 将结果转为逐步优势。推理时 ANTE-TTO 利用训练得到的预测在候选动作间选择，作者在 SWE-bench Verified 上报告收益并比较匹配的 GRPO 基线；本条为今天核实的近期预印本。",
+      "source": "作者预印本 arXiv:2610.15368，提交 2026-10-11；2026-10-14 检索收录，非当日首发；实验为作者报告",
+      "highlight": "把动作后果的预测能力与策略学习连接，便于理解错误归因和执行前候选筛选。",
+      "tags": [
+        "ANTE",
+        "code-world-model",
+        "verified-beliefs",
+        "agentic-RL"
+      ],
+      "id": 30,
+      "time": "2026-10-14",
+      "stars": null
     }
   ]
 }
