@@ -1,0 +1,305 @@
+{
+  "items": [
+    {
+      "category": "news",
+      "title": "NVIDIA 扩展 Nemotron 3.5：Super VL 与 Bolt 74B 已开放，E4B 尚待发布",
+      "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+      "topic": [
+        "agent"
+      ],
+      "summary": "NVIDIA 于 10 月 15 日宣布 120B 参数的 Nemotron 3.5 Super VL，以及面向本地 Agent 的 Bolt 74B-A9B 24GB。官方称两者已开放，Bolt E4B 4GB 计划 10 月 23 日推出，不能视为已可下载；速度、任务能力和内存适配描述为厂商在指定配置下的结果，本条为 10 月 16 日新闻回顾。",
+      "source": "NVIDIA 官方博客，发布 2026-10-15；2026-10-16 核验收录",
+      "highlight": "模型发布需区分服务器多模态模型与本地量化版本，并检查上下文、并发和缓存对总内存的影响。",
+      "tags": [
+        "nvidia",
+        "nemotron-3.5",
+        "Super-VL",
+        "Bolt",
+        "local-agent",
+        "quantization"
+      ],
+      "id": 1,
+      "time": "2026-10-16",
+      "stars": null
+    },
+    {
+      "category": "news",
+      "title": "Glean 10 月更新：Skill reflection 将对话纠正转成待确认的技能改进",
+      "url": "https://docs.glean.com/release-notes/releases/2026-10-15-october-release",
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "summary": "Glean 10 月 15 日发布的版本 563 介绍 Skill reflection：从聊天反馈提出技能更新，由用户审查后应用，也可主动调用反思。更新还包含模型自动路由策略及 MCP 模板；Auto mode policies 于 10 月 15 日开始分阶段开放，文档标注 10 月 29 日全面可用，本条按 10 月 16 日补充收录。",
+      "source": "Glean 官方 2026-10-15 发布说明（版本 563），正文 HTTP 200 读取核验于 2026-10-16",
+      "highlight": "把可复用经验从临时对话沉淀到技能，同时保留查看依据和确认更新的环节，有助于减少一次性纠正被永久固化。",
+      "tags": [
+        "glean",
+        "skill-reflection",
+        "feedback-learning",
+        "model-routing",
+        "MCP"
+      ],
+      "id": 2,
+      "time": "2026-10-16",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "OmniCompass：同时诊断视频的时间、空间定位和问答",
+      "url": "https://huggingface.co/papers/2610.18829",
+      "summary": "分别设置视觉语言与联合音视频两条评测轨道，每条都覆盖目标何时出现、位于何处和发生什么。配对的文字及图文目标说明用于检查预测一致性，作者对五十个模型进行评估，指出精确定位和音视频理解仍有缺口。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.18829，平台标注发表/更新 2026-10-13）；2026-10-16 日报收录，2026-10-16 核验，非当日首发；实验为作者报告",
+      "highlight": "视频问答总分可能掩盖定位失败，适合将证据在哪一帧、哪个区域作为独立验收项。",
+      "tags": [
+        "video-grounding",
+        "audio-visual",
+        "benchmark"
+      ],
+      "id": 3,
+      "time": "2026-10-16",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "Waypoint-OPD：用教师中间检查点筛选可迁移的策略变化",
+      "url": "https://huggingface.co/papers/2610.21601",
+      "summary": "比较教师 RL 早期与后期对相对动作偏好的变化方向，在方向冲突时抑制最终策略差监督。方法在学生访问的前缀上加门控，相对仅比较起终点多一次冻结教师评分，作者在数学和代码推理中评估。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.21601，平台标注发表/更新 2026-10-15）；2026-10-16 日报收录，2026-10-16 核验，非当日首发；实验为作者报告",
+      "highlight": "终点改进可能掩盖训练中相互抵消的局部变化，蒸馏值得考虑策略演化路径。",
+      "tags": [
+        "policy-shift",
+        "checkpoint",
+        "OPD"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 4,
+      "time": "2026-10-16",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "Mosaic：让 Agent 强化学习支持压缩和子任务分叉产生的多会话轨迹",
+      "url": "https://huggingface.co/papers/2610.22174",
+      "summary": "把单条任务轨迹推广到任意多个会话，解决训练假设与上下文压缩、子 Agent 分叉执行之间的失配。无 critic 的层次优化在轨迹层考虑会话使用，在会话层依据边际贡献塑造优势，作者比较成功率与平均会话数。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.22174，平台标注发表/更新 2026-10-15）；2026-10-16 日报收录，2026-10-16 核验，非当日首发；实验为作者报告",
+      "highlight": "学习会话如何分配与何时结束，应比把同一个任务奖励广播给所有会话更有针对性。",
+      "tags": [
+        "multi-session",
+        "agentic-RL",
+        "context-compaction"
+      ],
+      "topic": [
+        "agent",
+        "memory",
+        "post-training"
+      ],
+      "id": 5,
+      "time": "2026-10-16",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "OpenGCUA：开放视觉与程序接口协同的通用电脑操作栈",
+      "url": "https://github.com/Tongyi-MAI/OpenGCUA",
+      "summary": "让模型选择如何观察、行动和组织工作，结合 GUI 操作与代码执行，并将部分固定 harness 决策移交模型。作者公开实现、提示及多模型评测轨迹，还提供初步真实设备 harness 和跨电脑、手机、浏览器的 SDK。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.22200，平台标注发表/更新 2026-10-15）；2026-10-16 日报收录，2026-10-16 核验，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "电脑操作不能只数 GUI 步骤，需比较任务得分、推理消耗及程序接口对真实工作流的帮助。",
+      "tags": [
+        "computer-use",
+        "programmatic-interface",
+        "open-stack"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 6,
+      "time": "2026-10-16",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "AutoSFT：自动研究训练数据的比例、修复、替换与合成",
+      "url": "https://github.com/Thinking-Space/AutoSFT",
+      "summary": "为 SFT 数据工程定义多种操作，而非仅从固定池选样本。多 Agent 系统分离执行与分析，引入独立角度的建议和合成子任务，在各轮从相同基础模型重训的条件下分析组件贡献。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.22194，平台标注发表/更新 2026-10-15）；2026-10-16 日报收录，2026-10-16 核验，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "自动后训练需要覆盖多样数据操作，并固定训练器和预算才能判断数据策略真正的价值。",
+      "tags": [
+        "SFT",
+        "data-engineering",
+        "multi-agent"
+      ],
+      "topic": [
+        "post-training",
+        "agent"
+      ],
+      "id": 7,
+      "time": "2026-10-16",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "MAI-Gym：统一移动端、电脑和网页 GUI 的评测与 RL",
+      "url": "https://github.com/Tongyi-MAI/MAI-Gym",
+      "summary": "以共享 rollout 管线连接评测、数据收集和在线训练，减少训练与评测行为差异。框架支持多类基准及可重置模拟应用，作者公开任务、模型和环境，并报告模拟售票任务向实体手机迁移的实验。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.20939，平台标注发表/更新 2026-10-14）；2026-10-16 日报收录，2026-10-16 核验，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "GUI Agent 训练的可扩展性依赖可靠重置和可验证任务，模拟迁移结果也需在真实应用复查。",
+      "tags": [
+        "GUI-agent",
+        "environment-platform",
+        "online-RL"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 8,
+      "time": "2026-10-16",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "DeltaStreamer：用变化记忆与定向回放补足流式视频证据",
+      "url": "https://github.com/BBBBchan/DeltaStreamer",
+      "summary": "持续观察阶段显式记录视觉变化，保留事件如何演化，而非只写当前有什么。问题到来后规划所需证据，检索结构记忆并定向重看历史帧，补回初始压缩时遗漏的细节，作者在流式视频基准中评估。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.19849，平台标注发表/更新 2026-10-14）；2026-10-16 日报收录，2026-10-16 核验，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "流式视频系统需要为未知未来问题留证据，记忆摘要之外还应保留可恢复原始观察的路径。",
+      "tags": [
+        "streaming-video",
+        "evidence-retrieval",
+        "targeted-replay"
+      ],
+      "topic": [
+        "agent",
+        "memory",
+        "rag"
+      ],
+      "id": 9,
+      "time": "2026-10-16",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "EdgeWise：由本地小模型择机委派云端长任务步骤",
+      "url": "https://huggingface.co/papers/2610.17560",
+      "summary": "本地小模型担任主求解器，只把关键步骤交给云端强模型。逐步 RL 同时优化任务解决和委派决定，研究何时委派、共享多少上下文及调用频率，并在编码与终端任务中比较成本和结果。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.17560，平台标注发表/更新 2026-10-13）；2026-10-16 日报收录，2026-10-16 核验，非当日首发；实验为作者报告",
+      "highlight": "端云协作应按成功任务总成本评估，减少大模型调用次数不代表一定保住完成质量。",
+      "tags": [
+        "edge-cloud",
+        "selective-delegation",
+        "cost-aware-agent"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 10,
+      "time": "2026-10-16",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Data World：先定义数据背后的机制，再合成分析环境",
+      "url": "https://github.com/Zhanli-Li/Data-World",
+      "summary": "多 Agent 引擎从显式生成机制创建异构文件、任务和量表，以独立审查检查目标是否能由观察文件恢复。作者构建留出世界的评测集和不相交训练环境，研究数据处理能力与真正发现洞见之间的差距。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.21656，平台标注发表/更新 2026-10-15）；2026-10-16 日报收录，2026-10-16 核验，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "数据 Agent 的训练环境需有可追溯生成真相，避免开放式结论无法可靠评分。",
+      "tags": [
+        "data-agent",
+        "synthetic-environments",
+        "verifiable-analysis"
+      ],
+      "topic": [
+        "post-training",
+        "agent"
+      ],
+      "id": 11,
+      "time": "2026-10-16",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "MRTPO：把每种奖励的优势分配给相关 token",
+      "url": "https://huggingface.co/papers/2610.21439",
+      "summary": "多奖励分别归一化后仍可能把各项优势均匀摊到整段回答。方法利用验证器信息对同一响应做有无条件回放，以逐 token 分布差异估计相关性，再重新分配各奖励优势，无需额外模型或 token 标注。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.21439，平台标注发表/更新 2026-10-15）；2026-10-16 日报收录，2026-10-16 核验，非当日首发；实验为作者报告",
+      "highlight": "格式、正确性和约束通常检查不同位置，奖励信用分配应反映验证器实际检查什么。",
+      "tags": [
+        "multi-reward",
+        "token-credit-assignment",
+        "policy-optimization"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 12,
+      "time": "2026-10-16",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "CarryOn：在冻结 VLA 外加入个性化规划与执行恢复双循环",
+      "url": "https://github.com/JIA-Lab-research/CarryOn",
+      "summary": "规划循环持续维护用户偏好和场景上下文，并随观察与交互修订任务分解。执行循环检查预测危险接触，失败后调用可复用控制恢复技能，作者在模拟和真实机器人中比较偏好一致性、违规与恢复。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.21453，平台标注发表/更新 2026-10-15）；2026-10-16 日报收录，2026-10-16 核验，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "机器人个性化需与现场执行状态共同约束，记住偏好之外还要确认当前动作能可靠完成。",
+      "tags": [
+        "robot-assistance",
+        "personalization",
+        "recovery-skills"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 13,
+      "time": "2026-10-16",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "MaLoW：把流式视频的长期历史增量写入 LoRA 权重",
+      "url": "https://github.com/dragonlzm/MaLoW",
+      "summary": "循环超网络将新观察整合为固定大小的轻量参数更新，历史信息由权重承载，当前画面继续作为输入。作者提供流式视频指令数据，并评估多种视频理解基准及向视觉动作模型的迁移。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.22070，平台标注发表/更新 2026-10-15）；2026-10-16 日报收录，2026-10-16 核验，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "为避免历史和当前观察争夺上下文提供方向，固定大小记忆仍需测量长期遗忘与延迟。",
+      "tags": [
+        "parametric-memory",
+        "streaming-video",
+        "LoRA",
+        "hypernetwork"
+      ],
+      "topic": [
+        "memory",
+        "post-training"
+      ],
+      "id": 14,
+      "time": "2026-10-16",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "MMSearch-OPD：可控扩展难题并联合 RL 与蒸馏训练多模态搜索",
+      "url": "https://huggingface.co/papers/2610.22240",
+      "summary": "将简单图像问题的推理链定向扩展，通过参数控制搜索深度和跨模态证据要求。训练结合答案奖励、轻量行为惩罚和按奖励差调制的教师监督，并逐步降低蒸馏系数，减少后期教师依赖。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.22240，平台标注发表/更新 2026-10-15）；2026-10-16 日报收录，2026-10-16 核验，非当日首发；实验为作者报告",
+      "highlight": "深度搜索训练需要同时控制题目难度和过程反馈，不能仅把更多工具调用当成更强研究能力。",
+      "tags": [
+        "multimodal-search",
+        "on-policy-distillation",
+        "data-refinement"
+      ],
+      "topic": [
+        "agent",
+        "rag",
+        "post-training"
+      ],
+      "id": 15,
+      "time": "2026-10-16",
+      "stars": null
+    }
+  ]
+}

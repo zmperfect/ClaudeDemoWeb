@@ -1,0 +1,302 @@
+{
+  "items": [
+    {
+      "category": "news",
+      "title": "Meta 发布 Muse Spark Open：816B 总参数、1M 上下文的开放权重多模态模型",
+      "url": "https://research.meta.ai/blog/muse-spark-open",
+      "topic": [
+        "agent"
+      ],
+      "summary": "Meta 于 10 月 15 日开放 Muse Spark Open 权重，官方列出 816B 总参数、42B 活跃参数和 1M-token 上下文，面向多模态、编码与长程 Agent 工作。采用带有限商业条款的 Muse Model License，并提供多家托管推理入口；桌面运行和效率结果为官方在指定软硬件条件下的展示。",
+      "source": "Meta AI Research 官方公告，发布 2026-10-15；2026-10-16 核验补录",
+      "highlight": "开放权重为定制与部署增加选择，但活跃参数不代表权重存储需求，许可也需与标准宽松开源许可区分。",
+      "tags": [
+        "meta",
+        "muse-spark-open",
+        "open-weights",
+        "multimodal",
+        "long-context"
+      ],
+      "id": 1,
+      "time": "2026-10-15",
+      "stars": null
+    },
+    {
+      "category": "news",
+      "title": "Mistral 发布 Timestral：5M 至 209M 参数的时间序列基础模型",
+      "url": "https://mistral.ai/news/timestral/",
+      "summary": "Timestral 于 10 月 15 日发布，提供 5M、28M、123M 和 209M 四种规模，支持多变量概率预测、历史与已知未来协变量，并能在 CPU 推理。官方介绍合成数据优先预训练及长上下文后训练，页面列出 Modified MIT 许可；公开基准领先与延迟数值是厂商报告，本条不把预测模型描述为通用聊天模型。",
+      "source": "Mistral 官方公告《Introducing Timestral》，发布 2026-10-15；2026-10-16 核验补录",
+      "highlight": "时间序列基础模型可作为监控与分析 Agent 的数值工具，实际应用需用严格时间切分检查泄漏和域外误差。",
+      "tags": [
+        "mistral",
+        "timestral",
+        "time-series",
+        "probabilistic-forecasting",
+        "CPU-inference"
+      ],
+      "id": 2,
+      "time": "2026-10-15",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "ATAS：用世界状态组织长视频生成与跨镜头记忆",
+      "url": "https://github.com/ziplab/ATAS",
+      "summary": "把镜头放到共享世界坐标系，分别维护静态场景几何与按事件、时间索引的动态观察。生成后重建并配准片段，只有审查和状态检查通过的观察才写入记忆，视频交付与记忆准入分开。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.20571，平台标注发表/更新 2026-10-14）；2026-10-15 日报收录，2026-10-16 核验，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "适合学习生成式 Agent 的长期状态管理，避免最近几帧或文字提示无法支持场景重访。",
+      "tags": [
+        "agentic-video",
+        "world-state",
+        "scene-memory"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 3,
+      "time": "2026-10-15",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Player-1：通过合成体验训练游戏电脑操作 Agent",
+      "url": "https://github.com/TencentARC/Player-1",
+      "summary": "扩展电脑操作动作空间以支持相对鼠标移动、持续输入与复合操作，先用筛选的游戏轨迹进行监督初始化。再在十六个合成环境中以可验证奖励进行 PPO，作者比较向未参与 RL 训练的游戏任务迁移。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.20584，平台标注发表/更新 2026-10-14）；2026-10-15 日报收录，2026-10-16 核验，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "合成环境的控制需求覆盖比单纯增加演示量更值得研究，游戏效果仍需按环境和预算比较。",
+      "tags": [
+        "game-agent",
+        "synthetic-experience",
+        "PPO"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 4,
+      "time": "2026-10-15",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "Road MOPD：用跨教师守护缓解多教师蒸馏冲突",
+      "url": "https://huggingface.co/papers/2610.13521",
+      "summary": "领域路由后各教师仍更新共享参数，因此单独有效的监督可能在联合训练中产生梯度冲突。框架让非路由教师参与同轨迹评价，以教师一致性调整 token 信用，并通过自适应梯度投影保留目标领域学习信号。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.13521，平台标注发表/更新 2026-10-09）；2026-10-15 日报收录，2026-10-16 核验，非当日首发；实验为作者报告",
+      "highlight": "多教师训练需要同时测量被牺牲领域与总体能力，不能只检查路由是否正确。",
+      "tags": [
+        "multi-teacher",
+        "OPD",
+        "gradient-conflict"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 5,
+      "time": "2026-10-15",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "Doc2Harness：直接评测编码 Agent 执行框架的工程交付",
+      "url": "https://huggingface.co/papers/2610.20344",
+      "summary": "构建模型根据接口骨架和开发文档，在隔离容器中生成候选 harness。冻结后由脚本化模拟模型驱动独立测试，以模型请求、文件、退出码和命令输出四个可观察渠道验收，避免只测下游任务成功率。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.20344，平台标注发表/更新 2026-10-14）；2026-10-15 日报收录，2026-10-16 核验，非当日首发；实验为作者报告",
+      "highlight": "将执行框架本身变成可确定验证的交付物，适合检查跨模块功能和生命周期边界。",
+      "tags": [
+        "harness-engineering",
+        "deterministic-evaluation",
+        "coding-agent"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 6,
+      "time": "2026-10-15",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Agent 自蒸馏统一比较：额外复杂度未必带来稳定收益",
+      "url": "https://github.com/aim-uofa/Self-Distillation-AgentRL",
+      "summary": "研究在共同条件下比较十种自蒸馏方法与 GRPO，覆盖四类 Agent 任务及三种模型规模。除最终成绩外，同时记录训练进展、稳定性和实际 GPU 时间，发现没有一种方法跨设置持续优于 GRPO，更多成本也不总对应更好表现。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.19789，平台标注发表/更新 2026-10-14）；2026-10-15 日报收录，2026-10-16 核验，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "为方法选型提供控制变量更清楚的比较，避免拼接不同论文基线后误判算法收益。",
+      "tags": [
+        "self-distillation",
+        "GRPO",
+        "training-cost",
+        "reproducibility"
+      ],
+      "topic": [
+        "post-training",
+        "agent"
+      ],
+      "id": 7,
+      "time": "2026-10-15",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "CriticOPD：先指出学生错误，再恢复可用的教师监督",
+      "url": "https://huggingface.co/papers/2610.20572",
+      "summary": "论文发现教师虽能识别学生错误，却可能沿错误前缀继续生成，破坏 OPD 所需的可恢复性。教师先评价错误轨迹，让学生据此重写，再用带评价的特权上下文评分、用不含评价的修订响应训练。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.20572，平台标注发表/更新 2026-10-14）；2026-10-15 日报收录，2026-10-16 核验，非当日首发；实验为作者报告",
+      "highlight": "蒸馏依赖教师在学生访问状态上的可靠性，错误前缀下的监督质量需要单独检查。",
+      "tags": [
+        "on-policy-distillation",
+        "critique",
+        "teacher-recoverability"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 8,
+      "time": "2026-10-15",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "Cortex：把上下文收益固化为可合并的参数记忆",
+      "url": "https://huggingface.co/papers/2610.20399",
+      "summary": "生成预期使用上下文的查询，把带上下文输出蒸馏为低秩或结构化前馈网络更新。测试覆盖事实编辑、技能和行为等任务族，以及单次、批量和顺序更新，同时衡量目标收益保留与非目标能力保持。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.20399，平台标注发表/更新 2026-10-14）；2026-10-15 日报收录，2026-10-16 核验，非当日首发；实验为作者报告",
+      "highlight": "参数记忆需要联合评估学会新内容和保留旧能力，不能仅以移除上下文后的目标分数衡量。",
+      "tags": [
+        "memory-consolidation",
+        "parametric-memory",
+        "LoRA"
+      ],
+      "topic": [
+        "memory",
+        "post-training"
+      ],
+      "id": 9,
+      "time": "2026-10-15",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "ActionOPD：以语义动作而非 token 概率蒸馏 Agent 决策",
+      "url": "https://github.com/thu-nics/ActionOPD",
+      "summary": "在学生实际访问的状态分别采样学生与黑盒教师动作，按语义一致性为学生动作提供奖励。通过策略优化对齐行为，无需教师 token 概率或相同分词器，也无需复现教师思维文本，作者在工具使用任务上评估。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.19820，平台标注发表/更新 2026-10-14）；2026-10-15 日报收录，2026-10-16 核验，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "有助于连接不同模型家族和黑盒 API，但语义动作一致性的判定本身也应验证。",
+      "tags": [
+        "action-distillation",
+        "black-box-teacher",
+        "tool-use"
+      ],
+      "topic": [
+        "post-training",
+        "agent"
+      ],
+      "id": 10,
+      "time": "2026-10-15",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "多模态 Agent 记忆综述：区分表示形式与管理策略演化",
+      "url": "https://huggingface.co/papers/2610.19366",
+      "summary": "以两条轴整理研究：信息如何形成和表示，以及记忆管理如何随经验适应。管理轴区分静态记忆、固定策略下动态更新，以及管理策略本身演化，进一步讨论时间有效性、来源和可恢复证据。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.19366，平台标注发表/更新 2026-10-14）；2026-10-15 日报收录，2026-10-16 核验，非当日首发；实验为作者报告",
+      "highlight": "帮助比较文字、视觉、潜在和参数记忆，避免把动态写入简单等同于系统自我学习。",
+      "tags": [
+        "multimodal-memory",
+        "survey",
+        "provenance"
+      ],
+      "topic": [
+        "memory",
+        "agent"
+      ],
+      "id": 11,
+      "time": "2026-10-15",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "KV4-RL：用混合精度 KV 缓存加速异步 RL rollout",
+      "url": "https://huggingface.co/papers/2610.14448",
+      "summary": "分析异步并发下每步 KV 工作量集中，提出免校准 INT4 KV 量化，并对注意力汇点和最近上下文保留 INT8。保护有限位置以减小采样分布失配，作者同时比较 rollout 速度、完整训练迭代速度和统一 BF16 评估质量。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.14448，平台标注发表/更新 2026-10-10）；2026-10-15 日报收录，2026-10-16 核验，非当日首发；实验为作者报告",
+      "highlight": "量化 rollout 需要确认学习是否退化，推理加速不能直接等同于端到端训练加速。",
+      "tags": [
+        "KV-cache",
+        "INT4",
+        "asynchronous-rollout",
+        "RLVR"
+      ],
+      "topic": [
+        "post-training",
+        "memory"
+      ],
+      "id": 12,
+      "time": "2026-10-15",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "HybridAgent：在潜在推理与文字工具交互之间切换",
+      "url": "https://github.com/togethercomputer/HybridAgent",
+      "summary": "轻量 HybridLink 连接潜在和文本模式，连续工作记忆保持多轮混合上下文。专门的 HybridSFT 与 HybridRL 训练模型何时在潜在空间思考、何时通过文本行动，作者报告多规模多基准下的质量与效率权衡。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.18861，平台标注发表/更新 2026-10-13）；2026-10-15 日报收录，2026-10-16 核验，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "将内部推理计算与外部工具协议连接需要架构和训练支持，不能当作通用提示模板。",
+      "tags": [
+        "latent-reasoning",
+        "hybrid-context",
+        "tool-integration"
+      ],
+      "topic": [
+        "agent",
+        "memory",
+        "post-training"
+      ],
+      "id": 13,
+      "time": "2026-10-15",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "SYNC：用共享词索引连接不同语言模型的事实通信",
+      "url": "https://github.com/LiXin97/SYNC",
+      "summary": "发送方从共享词表选择索引描述事实，接收方利用自身表示方向将事实写入隐藏状态，无需共同微调或学习翻译器。实验通过属性交换检验改变与未改变事实的选择性使用，并比较不同接收层和模型家族。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.19696，平台标注发表/更新 2026-10-14）；2026-10-15 日报收录，2026-10-16 核验，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "跨模型通信不一定共享原始向量，但该方法仍需要接收方内部状态访问，不能直接用于普通聊天 API。",
+      "tags": [
+        "inter-model-communication",
+        "shared-symbols",
+        "hidden-state"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 14,
+      "time": "2026-10-15",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "JSSA：结合低维打分与免 gather 内核的长上下文稀疏注意力",
+      "url": "https://github.com/jiwonsong-dev/JSSA",
+      "summary": "学习共享的低维 query-key 子空间以保留 token 排序，再以索引注意力内核减少离散 token 搬移开销。作者在多种注意力架构中比较准确率、生成长度和吞吐，检验稀疏选择的质量与执行效率。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.19026，平台标注发表/更新 2026-10-13）；2026-10-15 日报收录，2026-10-16 核验，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "长上下文优化必须同时解决选哪些 token 和如何高效读取，不能只报告稀疏率。",
+      "tags": [
+        "sparse-attention",
+        "long-context",
+        "indexed-attention"
+      ],
+      "topic": [
+        "memory"
+      ],
+      "id": 15,
+      "time": "2026-10-15",
+      "stars": null
+    }
+  ]
+}
