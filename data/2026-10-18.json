@@ -1,0 +1,297 @@
+{
+  "items": [
+    {
+      "category": "tool",
+      "title": "DeepSeek Search 与 Fetch：为 Agent 和 RAG 提供结构化搜索及网页 Markdown",
+      "url": "https://api-docs.deepseek.com/guides/search",
+      "topic": [
+        "agent",
+        "rag"
+      ],
+      "summary": "10 月 17 日开放的 Search 与 Fetch 使用同一 API 密钥，分别返回结构化搜索结果和单页 Markdown，支持站点、语言及日期等搜索条件。当前官方指南列出按成功请求计费、空搜索和失败不计费；通过指定 Agent 工具接入的服务端调用暂免费，计划于北京时间 11 月 1 日零点开始计次，本条为周末实用资源补充。",
+      "source": "DeepSeek 官方 Search & Fetch 指南及 2026-10-17 变更日志；正文 HTTP 200，2026-10-19 核验补录",
+      "highlight": "检索发现与页面证据获取是两个步骤，调用成本、空结果和来源证据应一起记录。",
+      "tags": [
+        "search-API",
+        "web-fetch",
+        "Markdown",
+        "retrieval",
+        "deepseek"
+      ],
+      "id": 1,
+      "time": "2026-10-18",
+      "stars": null
+    },
+    {
+      "category": "tutorial",
+      "title": "Claude API OpenTelemetry 文档：关联模型、工具与多线程会话追踪",
+      "url": "https://platform.claude.com/docs/en/manage-claude/opentelemetry",
+      "topic": [
+        "agent"
+      ],
+      "summary": "官方 Beta 文档说明如何用 SDK 与 API spans 跟踪 Messages 请求、工具调用和 Managed Agents 会话，并按会话及线程标识关联。默认 metadata_only 与包含提示和响应的 content 模式分开；token 统计还要避免 SDK 与 API 层级重复计数，本条为 10 月 19 日核验的周末文档补充，不宣称于 18 日发布。",
+      "source": "Anthropic 官方 OpenTelemetry for the Claude API 文档（Beta）；无独立发布日期，2026-10-19 核验补录",
+      "highlight": "统一追踪有助于定位慢请求和工具失败，统计时应固定 span 来源并按 trace/span 标识去重。",
+      "tags": [
+        "OpenTelemetry",
+        "OTLP",
+        "observability",
+        "token-accounting",
+        "agent-debugging"
+      ],
+      "id": 2,
+      "time": "2026-10-18",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "OneWM：检验世界预测与动作生成能否在统一因果训练中互相促进",
+      "url": "https://huggingface.co/papers/2610.21095",
+      "summary": "周末近期研究回顾：同一视频动作架构把动作既作为未来世界预测的条件，也作为策略学习目标。作者在模拟和真实机器人中分别考察动作条件视觉预测对策略泛化的帮助，以及动作学习对多视图预测保真度的影响。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.21095，平台标注发表/更新 2026-10-15）；2026-10-19 核验，2026-10-18 日报收录，非当日首发；实验为作者报告",
+      "highlight": "联合训练应对两个方向分别做消融，而非只凭一个总分断言世界模型帮助控制。",
+      "tags": [
+        "world-action-model",
+        "causal-training",
+        "robotics"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 3,
+      "time": "2026-10-18",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Orbia：通过探索与重访评测生成世界的三维一致性",
+      "url": "https://github.com/worldbench/orbia",
+      "summary": "周末近期研究回顾：把评测分成输入保持、生成内容持久性和三维自一致性，用 RGB-D 锚点、跨视角对应及留出渲染检查同一场景。分钟级探索和回访进一步检测长期保持，避免只凭单帧视觉质量判断世界是否一致。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.20693，平台标注发表/更新 2026-10-14）；2026-10-19 核验，2026-10-18 日报收录，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "生成世界需记住已创造的区域，几何、外观和回访稳定性值得单独量测。",
+      "tags": [
+        "world-model",
+        "3D-consistency",
+        "revisit-benchmark"
+      ],
+      "topic": [
+        "memory"
+      ],
+      "id": 4,
+      "time": "2026-10-18",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "WorldCast：评测多模态上下文下的连续世界状态预测",
+      "url": "https://huggingface.co/papers/2610.20731",
+      "summary": "周末近期研究回顾：基准要求模型结合不同观察与参考，把连续动作、物理变化或抽象视觉推理转成后续画面。作者设计多类人工案例并比较代表性模型，分析理解和生成能力是否真正结合到多步预测中。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.20731，平台标注发表/更新 2026-10-14）；2026-10-19 核验，2026-10-18 日报收录，非当日首发；实验为作者报告",
+      "highlight": "单张图画得合理并不代表能保持多步因果状态，评测应覆盖复杂参考与连续变化。",
+      "tags": [
+        "visual-state-prediction",
+        "multimodal-reasoning",
+        "benchmark"
+      ],
+      "id": 5,
+      "time": "2026-10-18",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "InfoVis：以幻灯片原生数据训练统一图像生成与编辑",
+      "url": "https://github.com/VectorSpaceLab/InfoVis",
+      "summary": "周末近期研究回顾：围绕幻灯片文本、设计、指令和局部编辑构建四类任务、大规模训练数据及多维诊断基准。作者训练统一 9B 模型，分别比较内容忠实度、视觉审美和编辑精度，并探索文档到幻灯片工作流。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.16784，平台标注发表/更新 2026-10-12）；2026-10-19 核验，2026-10-18 日报收录，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "这是幻灯片图像生成研究，仍应区分视觉成品与具有可编辑对象的演示文档。",
+      "tags": [
+        "slide-image-generation",
+        "image-editing",
+        "visual-design"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 6,
+      "time": "2026-10-18",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "Terminal-RSI：交替改写已验证轨迹与继承 critic 的策略改进",
+      "url": "https://huggingface.co/papers/2610.22192",
+      "summary": "周末近期研究回顾：通过递归轨迹改写和策略细化循环训练终端模型，跨交互轮次计算优势。奖励设计区分语义进度和严格完成，并以阶段化学习率与 critic 交接协调更新，作者比较多个终端基准。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.22192，平台标注发表/更新 2026-10-15）；2026-10-19 核验，2026-10-18 日报收录，非当日首发；实验为作者报告",
+      "highlight": "部分进展奖励不能替代最终严格验收，训练应检查模型是否从局部修复走到完整任务完成。",
+      "tags": [
+        "terminal-agent",
+        "recursive-training",
+        "strict-verification"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 7,
+      "time": "2026-10-18",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "MLExpert：用实验结果窗口训练自主机器学习工程 Agent",
+      "url": "https://github.com/InternScience/MLExpert",
+      "summary": "周末近期研究回顾：先构建可执行机器学习任务和允许模型自主组织实验的 harness，再以分层 SFT 和窗口交互 RL 学习。两次实验结果之间的多轮决定共享结果奖励，异步采集与策略修正支持长轨迹结束前更新。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.22344，平台标注发表/更新 2026-10-15）；2026-10-19 核验，2026-10-18 日报收录，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "自主实验应以可复现结果作为反馈，并检查数据隔离、计算预算和跨任务迁移。",
+      "tags": [
+        "autonomous-MLE",
+        "windowed-RL",
+        "experiment-feedback"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 8,
+      "time": "2026-10-18",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Intern-Decision：一次因果前向输出多个结构化决策字段",
+      "url": "https://github.com/InternLM/Intern-Decision",
+      "summary": "周末近期研究回顾：在完整 JSON 骨架的每个字段放置决策占位符，使用原生语言模型头评估选项及概率。模型支持文字与可选图像，作者同时报告分类质量、固定请求下延迟、温度校准和置信度升级实验。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.22131，平台标注发表/更新 2026-10-15）；2026-10-19 核验，2026-10-18 日报收录，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "直接输出决策应评估校准与转交强模型的阈值，单次分类准确率不足以代表运行中 Agent 效果。",
+      "tags": [
+        "typed-decision",
+        "multimodal",
+        "calibration"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 9,
+      "time": "2026-10-18",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "OmniVerifier-C1：把复杂视觉要求分解为可评分的细项",
+      "url": "https://huggingface.co/papers/2610.22355",
+      "summary": "周末近期研究回顾：验证器先拆解提示或环境规则，再输出细粒度判断与连续评分。解耦 RL 联合优化局部二元判断和整体对齐，在有真实目标图像时还比较成对与单点验证，作者覆盖生成图像及规则世界任务。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.22355，平台标注发表/更新 2026-10-15）；2026-10-19 核验，2026-10-18 日报收录，非当日首发；实验为作者报告",
+      "highlight": "生成式世界模型需要准确的验证器，评分更细并不自动保证有效，仍应对照真实证据。",
+      "tags": [
+        "visual-verifier",
+        "graded-reward",
+        "world-model"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 10,
+      "time": "2026-10-18",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "RPO：在注意力路由中探索而保持视觉生成器原有采样器",
+      "url": "https://huggingface.co/papers/2610.22282",
+      "summary": "周末近期研究回顾：在少量去噪层把采样注意力块作为探索动作，以共享提示和初始潜变量的两次 rollout 奖励差估计优势。训练更新作用于稠密速度预测，推理时移除路由并恢复原来的确定性采样，作者比较文生图和视频训练效率。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.22282，平台标注发表/更新 2026-10-15）；2026-10-19 核验，2026-10-18 日报收录，非当日首发；实验为作者报告",
+      "highlight": "探索随机性可放在生成器内部，比较时需统一 rollout 成本和最终推理设置。",
+      "tags": [
+        "diffusion-RL",
+        "attention-routing",
+        "score-function"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 11,
+      "time": "2026-10-18",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "SpecAgent：让强模型批量审查小模型已观察过的工具轨迹",
+      "url": "https://github.com/LARK-AI-Lab/SpecAgent",
+      "summary": "周末近期研究回顾：小模型边调用只读工具边起草步骤，并在首次会修改环境的动作前停下。强模型用一次 prefill 验证轨迹段、接受最长语义有效前缀并修复首个失败步骤，作者比较成功率、时延和内存流量。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.21463，平台标注发表/更新 2026-10-15）；2026-10-19 核验，2026-10-18 日报收录，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "强模型可以从逐步作者转为审查者，但环境修改必须在验证后才能提交执行。",
+      "tags": [
+        "trajectory-speculation",
+        "semantic-verification",
+        "weak-strong"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 12,
+      "time": "2026-10-18",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "Velox：用空间对应关系选择视频世界模型的历史上下文",
+      "url": "https://huggingface.co/papers/2610.22311",
+      "summary": "周末近期研究回顾：把历史块表示为带深度区间的相机视锥片，利用覆盖关系调节模型自身的块重要度。未覆盖区域保留原路由，固定 token 块兼容分块注意力执行，作者比较长序列中的去噪速度与导航生成质量。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.22311，平台标注发表/更新 2026-10-15）；2026-10-19 核验，2026-10-18 日报收录，非当日首发；实验为作者报告",
+      "highlight": "空间记忆不只是保存更多帧，也可帮助选择真正相关的历史区域以降低 KV 读取。",
+      "tags": [
+        "spatial-memory",
+        "context-routing",
+        "video-world-model"
+      ],
+      "topic": [
+        "memory"
+      ],
+      "id": 13,
+      "time": "2026-10-18",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "JevAgentHarness：在真实轨迹上校准决策模型的工具选择阈值",
+      "url": "https://github.com/JevAgentHarness/JevAgentHarness",
+      "summary": "周末近期研究回顾：从独立问题到运行中 Agent 逐级评估决策模型，发现未拟合的置信度阈值可能显著损害任务成功。框架按 Agent 自身轨迹设置每类选择阈值，并在低置信度时退回语言模型，还研究从错误状态训练小决策模型。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.21412，平台标注发表/更新 2026-10-15）；2026-10-19 核验，2026-10-18 日报收录，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "把有限选项交给快模型之前，应校准真实执行状态上的升级机制，而非沿用离线分类阈值。",
+      "tags": [
+        "decision-model",
+        "agent-routing",
+        "confidence-threshold"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 14,
+      "time": "2026-10-18",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "SWE-at-Scale：从真实历史修复反向构造可验证缺陷任务",
+      "url": "https://github.com/cslsolow/SWE-at-scale",
+      "summary": "周末近期研究回顾：历史修复包含缺陷如何形成的机制，框架将其反向转为缺陷诱导监督。再把模式迁移到新代码上下文，重复采样不同缺陷类型生成可执行软件工程任务，作者比较真实性、多样性与难度。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.21359，平台标注发表/更新 2026-10-15）；2026-10-19 核验，2026-10-18 日报收录，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "编码训练数据可从真实修复机制扩展，但生成问题仍需独立测试确认存在且可修复。",
+      "tags": [
+        "issue-synthesis",
+        "bug-induction",
+        "SWE-benchmark"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 15,
+      "time": "2026-10-18",
+      "stars": null
+    }
+  ]
+}

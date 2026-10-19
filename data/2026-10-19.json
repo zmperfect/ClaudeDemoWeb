@@ -1,0 +1,292 @@
+{
+  "items": [
+    {
+      "category": "paper",
+      "title": "CarryOn 上下文运行时：围绕可复用任务对象延续长任务",
+      "url": "https://huggingface.co/papers/2610.18784",
+      "summary": "用任务载体、互补执行上下文和最近交互构建新的上下文视图，而非反复处理历史叙述。折叠历史时只按绑定证据和环境检查修订受影响记录，其他载体保持，作者在电脑操作和研究任务上比较质量与 token 消耗。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.18784，平台标注发表/更新 2026-10-13）；2026-10-19 核验，2026-10-19 日报收录，非当日首发；实验为作者报告",
+      "highlight": "这是面向上下文管理的 CarryOn 论文，重点是让可复用进展在移除历史后仍保持有效。",
+      "tags": [
+        "object-oriented-context",
+        "continuation-carrier",
+        "context-folding"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 1,
+      "time": "2026-10-19",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "DiscoveryRSI：把有价值假设发展为可执行调查并递归学习",
+      "url": "https://github.com/Gen-Verse/DiscoveryRSI",
+      "summary": "将假设定义为有证据边界、可行调查、明确决策标准及替代解释的研究主张。通过多 Agent 搜索、执行任务编译、贡献归因和 harness 回放积累研究经验，作者结合自动评分与初步专家审查评估。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.23839，平台标注发表/更新 2026-10-16）；2026-10-19 核验，2026-10-19 日报收录，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "研究 Agent 的收益应包含可证伪性和证据可解决性，生成看似新颖的说法不等于完成发现。",
+      "tags": [
+        "scientific-discovery",
+        "hypothesis-tree",
+        "research-agent"
+      ],
+      "topic": [
+        "agent",
+        "post-training",
+        "memory"
+      ],
+      "id": 2,
+      "time": "2026-10-19",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "TreeOPSD：把共享前缀分支的终局奖励转为有界蒸馏目标",
+      "url": "https://huggingface.co/papers/2610.23181",
+      "summary": "把交互轮次视为树节点，从共享前缀分支并递归回传奖励，得到隐式逐轮信用。再构造相对冻结行为策略的有界教师分布，为顺序小批次更新提供有限目标，作者与 GRPO 等方法比较。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.23181，平台标注发表/更新 2026-10-16）；2026-10-19 核验，2026-10-19 日报收录，非当日首发；实验为作者报告",
+      "highlight": "长程训练既需更密集归因，也需控制固定 rollout 批次上连续更新的过冲。",
+      "tags": [
+        "posterior-distillation",
+        "tree-credit",
+        "policy-staleness"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 3,
+      "time": "2026-10-19",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "PRISM：用同题成功兄弟图提供多 Agent 拓扑设计监督",
+      "url": "https://huggingface.co/papers/2610.20628",
+      "summary": "执行成功图语料没有自动给出同一任务的拓扑偏好，普通 SFT 可能偏向最常见结构。方法让教师经低秩分支看到另一张成功图，在学生自己的轨迹上提供逐决策目标，部署时不需要兄弟图。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.20628，平台标注发表/更新 2026-09-29）；2026-10-19 核验，2026-10-19 日报收录，非当日首发；实验为作者报告",
+      "highlight": "拓扑学习应按查询比较协作结构，数据出现频率不一定代表该任务的更优组织方式。",
+      "tags": [
+        "multi-agent-topology",
+        "privileged-information",
+        "self-distillation"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 4,
+      "time": "2026-10-19",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "ViRA：视觉表示对齐是否真正改善端到端驾驶规划",
+      "url": "https://github.com/OpenDriveLab/ViRA",
+      "summary": "在不改规划器结构和推理成本的框架中对齐不同视觉基础模型，比较规划效果。作者进一步分析辅助感知监督如何降低对目标表示选择的敏感性，并在开放和闭环设置中评估。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.09695，平台标注发表/更新 2026-10-07）；2026-10-19 核验，2026-10-19 日报收录，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "更强视觉表征不能仅以感知分数判断，表示目标和规划监督方式应联合验证。",
+      "tags": [
+        "visual-representation",
+        "autonomous-driving",
+        "alignment"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 5,
+      "time": "2026-10-19",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "SimVTA：用模拟器为替代驾驶轨迹提供匹配视觉监督",
+      "url": "https://huggingface.co/papers/2610.13781",
+      "summary": "策略探索的新轨迹没有对应真实未来录像，框架在重建场景中渲染高奖励候选以补充监督。有限预算优先选择预测误差较高的未来，联合 GRPO 轨迹优化和视频流匹配损失，推理时不需要模拟器。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.13781，平台标注发表/更新 2026-10-09）；2026-10-19 核验，2026-10-19 日报收录，非当日首发；实验为作者报告",
+      "highlight": "世界动作模型的替代轨迹监督应独立于模型自身预测，避免用自己的错误视频训练自己。",
+      "tags": [
+        "driving-WAM",
+        "simulation-supervision",
+        "GRPO"
+      ],
+      "topic": [
+        "post-training",
+        "agent"
+      ],
+      "id": 6,
+      "time": "2026-10-19",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "MFVSR：细分字幕移除的局部修复、背景保持和时间一致性",
+      "url": "https://github.com/hxyiiii/MFVSR",
+      "summary": "基准覆盖多来源成对视频、多语言及字幕布局、时间和风格因素。评估区分盲移除和带掩码移除，分别测量修复区域、外部区域、时间稳定性、覆盖及失败，揭示整帧指标会掩盖的问题。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.18461，平台标注发表/更新 2026-10-13）；2026-10-19 核验，2026-10-19 日报收录，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "视频编辑验收应确认目标被移除且其他内容保留，不能只看平均整帧相似度。",
+      "tags": [
+        "video-restoration",
+        "subtitle-removal",
+        "reliability-benchmark"
+      ],
+      "id": 7,
+      "time": "2026-10-19",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "Athanor：在真实 GPU 和冻结评测下研究自主后训练",
+      "url": "https://huggingface.co/papers/2610.21055",
+      "summary": "系统提供去污染数据、管理作业、持久研究记录和隐藏评测，Agent 在沙箱内自行选择公开数据、修改训练算法并分析结果。作者记录长时间多 Agent 实验，报告小基础模型的跨域改善，并指出主要由已知训练方法重新组合实现。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.21055，平台标注发表/更新 2026-10-15）；2026-10-19 核验，2026-10-19 日报收录，非当日首发；实验为作者报告",
+      "highlight": "自主训练研究需要冻结留出集和完整实验记录，达到指定基准不代表任意科研任务都可自动化。",
+      "tags": [
+        "AutoPostTrain",
+        "autonomous-research",
+        "held-out-evaluation"
+      ],
+      "topic": [
+        "post-training",
+        "agent",
+        "memory"
+      ],
+      "id": 8,
+      "time": "2026-10-19",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Virtual Head Attention：在缓存、计算和质量之间重排注意力头",
+      "url": "https://github.com/PaddlePaddle/VHA",
+      "summary": "用线性 Q Premix 和低秩输出 Postmix 恢复较少物理头下的表示多样性。两步均可折入推理投影，使模型复用标准 GQA 优化，作者在多个规模比较 KV 缓存、训练计算和模型质量。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.17959，平台标注发表/更新 2026-10-13）；2026-10-19 核验，2026-10-19 日报收录，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "注意力架构优化应报告缓存、prefill 计算与质量三者，而不只比较解码速度。",
+      "tags": [
+        "attention-architecture",
+        "GQA",
+        "KV-cache"
+      ],
+      "topic": [
+        "memory"
+      ],
+      "id": 9,
+      "time": "2026-10-19",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "MPT：在去中心化 Agent 群中联合学习行动和参与竞价",
+      "url": "https://github.com/Embodied-Minds-Lab/MPT",
+      "summary": "各 Agent 以竞价表达参与意愿，由市场机制决定谁行动并分配局部训练信用。行动策略与竞价一同训练，作者在具身协作、导航和深度研究中分析扩展规模、相关任务迁移及掉线鲁棒性。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.22322，平台标注发表/更新 2026-10-15）；2026-10-19 核验，2026-10-19 日报收录，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "协作结构也可以是学习目标，但更大群体的收益需在相同成本及失效条件下检验。",
+      "tags": [
+        "decentralized-swarm",
+        "self-orchestration",
+        "market-based-training"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 10,
+      "time": "2026-10-19",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "FlashMask-3：面向结构掩码与上下文并行优化分布式注意力",
+      "url": "https://github.com/PaddlePaddle/FlashMask",
+      "summary": "以边界向量表达结构掩码，结合 Hopper 内核、无需掩码通信的局部化及稀疏感知负载均衡。作者分别比较单卡注意力、分布式通信重叠和完整长上下文训练吞吐，说明内核收益与训练收益的区别。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.17901，平台标注发表/更新 2026-10-13）；2026-10-19 核验，2026-10-19 日报收录，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "长上下文瓶颈可能来自掩码及跨节点分配，应同时测量算子与端到端训练。",
+      "tags": [
+        "distributed-attention",
+        "Hopper",
+        "context-parallel"
+      ],
+      "id": 11,
+      "time": "2026-10-19",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "CoDA：用共享失败记忆共同演化机器人数据引擎与动作策略",
+      "url": "https://huggingface.co/papers/2610.22362",
+      "summary": "共享记忆记录环境构建、策略失败和学习进展，把经过验证的视觉评价转成重建难点与训练的程序。Text2potential 将诊断转为阶段性势函数监督，学习进展继续指导后续环境生成。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.22362，平台标注发表/更新 2026-10-15）；2026-10-19 核验，2026-10-19 日报收录，非当日首发；实验为作者报告",
+      "highlight": "物理上有效的合成环境未必适合学习，数据引擎应针对实际失败并验证训练是否进步。",
+      "tags": [
+        "data-policy-coevolution",
+        "simulation-memory",
+        "reward-shaping"
+      ],
+      "topic": [
+        "agent",
+        "memory",
+        "post-training"
+      ],
+      "id": 12,
+      "time": "2026-10-19",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "LEASH：用弱模型隐含不确定性升级并监督强电脑操作模型",
+      "url": "https://huggingface.co/papers/2610.22280",
+      "summary": "利用弱模型当前隐藏状态与历史成功、失败轨迹的相似性，分别进行初始路由和执行中升级。强黑盒模型接手后仍由影子观察者监督，方法免额外监控训练，作者比较匹配升级率下的成功与成本。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.22280，平台标注发表/更新 2026-10-15）；2026-10-19 核验，2026-10-19 日报收录，非当日首发；实验为作者报告",
+      "highlight": "调用强模型并不意味着风险或错误已消失，升级机制和交接后的监督需要一起设计。",
+      "tags": [
+        "weak-to-strong",
+        "latent-uncertainty",
+        "computer-use"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 13,
+      "time": "2026-10-19",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "EDEN：在相同 rollout 预算中用锚定嵌入噪声扩展探索",
+      "url": "https://huggingface.co/papers/2610.16105",
+      "summary": "把少量普通样本替换为附加扰动嵌入位置后的同策略生成，以噪声提供差异、共享锚点维持组内方向。选择的扰动轨迹以降低权重的优势参与 GRPO，测试时不改模型或解码，作者分析奖励变化和解题覆盖。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.16105，平台标注发表/更新 2026-10-12）；2026-10-19 核验，2026-10-19 日报收录，非当日首发；实验为作者报告",
+      "highlight": "探索不一定只靠提高温度或样本量，也可改变生成条件；需验证扰动分布是否带来可迁移学习。",
+      "tags": [
+        "embedding-exploration",
+        "RLVR",
+        "GRPO"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 14,
+      "time": "2026-10-19",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "SUPRA-Tex：保留可见材质证据并补全三维未观察表面",
+      "url": "https://github.com/Supra-3D/SUPRA-Tex",
+      "summary": "先预测参考视图中去光照的 PBR 材质图，再投影到可见表面形成与生成目标同空间的观察潜变量。生成器把这些证据作为只读锚点，交替更新未知区域和全表面，作者比较参考对齐与完整材质质量。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.22352，平台标注发表/更新 2026-10-15）；2026-10-19 核验，2026-10-19 日报收录，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "三维纹理生成应区分估计已见材质和推断未见部分，避免补全过程覆盖可靠观察。",
+      "tags": [
+        "3D-texturing",
+        "PBR",
+        "observation-anchors"
+      ],
+      "id": 15,
+      "time": "2026-10-19",
+      "stars": null
+    }
+  ]
+}

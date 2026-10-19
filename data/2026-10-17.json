@@ -1,0 +1,282 @@
+{
+  "items": [
+    {
+      "category": "news",
+      "title": "DeepSeek 更新 V4.1-Flash-1017：强化完整项目开发与 Agent 框架适配",
+      "url": "https://api-docs.deepseek.com/news/news261017/",
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "summary": "DeepSeek 10 月 17 日公告更新 V4.1 Flash，网页、应用和 API 同步切换，官方称以自反馈强化学习改善从零开发游戏和三维项目。新版本针对多个 Agent harness 优化，性能、运行时间与输出长度改善为厂商报告；官方变更日志说明仍通过 deepseek-flash 调用。",
+      "source": "DeepSeek 官方 2026-10-17 公告及变更日志；2026-10-19 回溯核验补录",
+      "highlight": "模型名稳定不代表后端权重不变，长期 Agent 评测应记录模型版本、harness 和实际任务成本。",
+      "tags": [
+        "deepseek",
+        "V4.1-Flash-1017",
+        "agentic-coding",
+        "model-update"
+      ],
+      "id": 1,
+      "time": "2026-10-17",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Beam 官方模型卡：501B MoE、1M 上下文与 Apache-2.0 权重资源",
+      "url": "https://huggingface.co/reflection/Beam-1.0-501B-A23B",
+      "topic": [
+        "agent"
+      ],
+      "summary": "周末模型资源回顾：截至 10 月 19 日，Reflection 官方模型页已提供文本输入输出的 Beam 指令模型，列出约 501B 总参数、23B 活跃参数、1M 上下文及 BF16、FP8、NVFP4 格式，许可为 Apache-2.0。10 月 5 日介绍文章仍包含早期准入表述，因此本条以当前模型卡确认权重状态，不把介绍公告或周末收录日期说成权重首次开放日。",
+      "source": "Reflection 官方 Hugging Face 模型卡；官方介绍文章日期 2026-10-05；2026-10-19 核验，按 10 月 17 日补档",
+      "highlight": "部署前应分别确认权重格式、总内存和实际任务质量，模型卡性能描述属于作者报告。",
+      "tags": [
+        "reflection",
+        "Beam",
+        "MoE",
+        "open-weights",
+        "Apache-2.0"
+      ],
+      "id": 2,
+      "time": "2026-10-17",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "MJev-Spatial：以原生注意力匹配直接完成空间决策",
+      "url": "https://github.com/Fr0zenCrane/MJev-Spatial",
+      "summary": "周末近期研究回顾：把选项、数值区间和逐层细分图像区域统一为候选类别，复用模型的 query 与 key 投影打分。单次分类前向不生成答案 token，并以联合教师强制和负载均衡训练不同空间任务，作者比较精度与延迟。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.22276，平台标注发表/更新 2026-10-15）；2026-10-19 核验，2026-10-17 日报收录，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "空间决策可用受限输出减少解码和解析成本，但应分别验证定位精度与概率可靠性。",
+      "tags": [
+        "spatial-decision",
+        "attention-matching",
+        "low-latency"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 3,
+      "time": "2026-10-17",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "FDE-Gym：从明确题目走向含糊客户需求的真实交付评测",
+      "url": "https://github.com/deeplethe/fde-gym",
+      "summary": "周末近期研究回顾：用脚本化相关方和可修改客户系统模拟端到端交付，让 Agent 主动澄清未说明的约束。分数依据客户指标改善并计入交互代价，作者发现获得关键事实也不保证交付有效方案。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.22350，平台标注发表/更新 2026-10-15）；2026-10-19 核验，2026-10-17 日报收录，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "评估编码 Agent 不能只给完整规格，还应检查需求发现、落地效果和交互成本。",
+      "tags": [
+        "customer-delivery",
+        "requirements",
+        "agent-evaluation"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 4,
+      "time": "2026-10-17",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "RoTA-Bench：通过交互旋转测试二维观察能否支持三维控制",
+      "url": "https://huggingface.co/papers/2610.17665",
+      "summary": "周末近期研究回顾：给定目标轮廓，让模型选择连续旋转使物体投影对齐，并用可逆初始化保证任务可解。研究区分图像重叠改善与三维姿态真正接近，分析交互历史对精细动作的影响。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.17665，平台标注发表/更新 2026-10-14）；2026-10-19 核验，2026-10-17 日报收录，非当日首发；实验为作者报告",
+      "highlight": "图像看起来更像目标不一定代表几何状态正确，空间 Agent 需要过程指标。",
+      "tags": [
+        "3D-reasoning",
+        "projection-alignment",
+        "interactive-benchmark"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 5,
+      "time": "2026-10-17",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Harness-RSI：区分执行框架自演化的修改目标与准入机制",
+      "url": "https://github.com/zgcagi/Harness-RSI",
+      "summary": "周末近期研究回顾：在冻结模型权重下，研究提示、记忆、工作流、代码和插件的持续修改。框架区分提出更新与接受更新，并在明确假设下讨论泛化、历史能力保持及独立验证的准入规则。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.18813，平台标注发表/更新 2026-10-13）；2026-10-19 核验，2026-10-17 日报收录，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "理论界限依赖假设，持久化框架修改仍应通过新验证数据和历史回归检验。",
+      "tags": [
+        "harness-RSI",
+        "continual-validation",
+        "self-evolution"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 6,
+      "time": "2026-10-17",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Dynamic Band Splitting：按音频内容动态分配频带分辨率",
+      "url": "https://github.com/JusperLee/Dynamic-Band-Splitting",
+      "summary": "周末近期研究回顾：在固定频带 token 预算下预测边界，用 Top-K 选择划分并做内容相关池化。分离后把紧凑频带展开回时频网格，作者在音乐、对白和混合声音数据上与静态频带方法比较。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.14993，平台标注发表/更新 2026-10-10）；2026-10-19 核验，2026-10-17 日报收录，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "音频效率优化不必对每段声音使用相同划分，应检验细谱结构和实际分离质量。",
+      "tags": [
+        "audio-separation",
+        "dynamic-bands",
+        "token-budget"
+      ],
+      "id": 7,
+      "time": "2026-10-17",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "InfiniSplat v2：分离几何与属性学习改善跨视角三维重建",
+      "url": "https://huggingface.co/papers/2610.20341",
+      "summary": "周末近期研究回顾：冻结几何分支，将几何预测和高斯属性预测解耦，训练中使用真实相机姿态对齐高斯。结合大角度目标视图监督，作者在有姿态与无姿态设置下比较新视图渲染质量。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.20341，平台标注发表/更新 2026-10-14）；2026-10-19 核验，2026-10-17 日报收录，非当日首发；实验为作者报告",
+      "highlight": "三维重建应单独诊断几何与外观属性问题，并在大视角变化下检验。",
+      "tags": [
+        "3DGS",
+        "novel-view",
+        "feed-forward-reconstruction"
+      ],
+      "id": 8,
+      "time": "2026-10-17",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "3DCodeVerse：让编码 Agent 创建可执行、可编辑的三维世界",
+      "url": "https://github.com/gaoypeng/3dcodeverse",
+      "summary": "周末近期研究回顾：提供带资源和验证记录的可执行三维代码语料，并以多 Agent DAG 组织内容生成和修订。Harness 使用运行检查、空间测量和视觉反馈进行自动评价，作者比较微调与框架各组件的作用。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.22341，平台标注发表/更新 2026-10-15）；2026-10-19 核验，2026-10-17 日报收录，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "三维生成代码的交付需要运行、几何和视觉三类证据，不能只确认脚本能解析。",
+      "tags": [
+        "3D-code",
+        "coding-harness",
+        "executable-data"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 9,
+      "time": "2026-10-17",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "SAE 行为组合性：单个稀疏特征的效果未必可以线性相加",
+      "url": "https://huggingface.co/papers/2610.21261",
+      "summary": "周末近期研究回顾：提出 SAE Additivity Residuals，衡量低阶近似无法解释的行为变化。作者比较学习坐标与保留同一子空间的随机旋转，发现二阶交互有助于解释联合干预及排序。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.21261，平台标注发表/更新 2026-10-15）；2026-10-19 核验，2026-10-17 日报收录，非当日首发；实验为作者报告",
+      "highlight": "解释模型时应测试特征之间的相互作用，稀疏表示本身不保证行为独立。",
+      "tags": [
+        "SAE",
+        "interpretability",
+        "feature-interactions"
+      ],
+      "id": 10,
+      "time": "2026-10-17",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "SCOPE：按语义片段为文生图提示改写分配训练信用",
+      "url": "https://huggingface.co/papers/2610.22264",
+      "summary": "周末近期研究回顾：提示改写器同时生成增强提示与语义划分，把物体、数量、属性和关系作为连贯片段。方法在片段内汇聚策略对数概率变化形成共同更新系数，不增加独立片段奖励或图像渲染，作者与普通 GRPO 比较。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.22264，平台标注发表/更新 2026-10-15）；2026-10-19 核验，2026-10-17 日报收录，非当日首发；实验为作者报告",
+      "highlight": "图像结果奖励作用于语言时，语义跨度可能比碎片化子词更适合作为优化单位。",
+      "tags": [
+        "prompt-rewriting",
+        "GRPO",
+        "text-to-image"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 11,
+      "time": "2026-10-17",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Speculative Forcing：按需提前接受视频生成中的去噪 token",
+      "url": "https://github.com/naver-ai/speculative-forcing",
+      "summary": "周末近期研究回顾：将中间干净估计当作草稿，由免训练或学习到的验证器判断哪些 token 可提前冻结。已接受 token 不再去噪，但缓存仍供其他 token 使用，作者在短视频、长视频和世界生成中比较质量与速度。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.22347，平台标注发表/更新 2026-10-15）；2026-10-19 核验，2026-10-17 日报收录，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "视频推测计算需用整段质量和实际帧率检验，提前接受策略不能只看单步相似度。",
+      "tags": [
+        "video-generation",
+        "early-acceptance",
+        "adaptive-compute"
+      ],
+      "id": 12,
+      "time": "2026-10-17",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "VLA-Δ：显式学习当前动作将带来的物理状态变化",
+      "url": "https://huggingface.co/papers/2610.21306",
+      "summary": "周末近期研究回顾：从预训练数据构建语义与视觉运动的状态转移标注，使动作学习获得中间物理变化监督。推理时仍直接由观察输出动作，不再额外调用未来预测模块，作者在模拟和真实机器人实验中评估。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.21306，平台标注发表/更新 2026-10-15）；2026-10-19 核验，2026-10-17 日报收录，非当日首发；实验为作者报告",
+      "highlight": "动作监督之外的状态变化可减少表面观察到动作的过拟合，需要通过场景变化验证泛化。",
+      "tags": [
+        "VLA",
+        "physical-state-transition",
+        "robot-learning"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 13,
+      "time": "2026-10-17",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "CommerceGen-Studio：把商品信息、布局和主体保真连接为主图生成流程",
+      "url": "https://huggingface.co/papers/2610.20603",
+      "summary": "周末近期研究回顾：系统先从商品元数据提炼卖点，再优化语义改写和布局，生成器联合接收商品图、商标裁剪和结构布局。作者以闭环量表及渐进训练优化主体、商标和文字准确性，提供来自真实流量的困难案例基准。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.20603，平台标注发表/更新 2026-10-14）；2026-10-19 核验，2026-10-17 日报收录，非当日首发；实验为作者报告",
+      "highlight": "电商生成需要分开检验商品一致性、文字准确度和背景编辑，生产规模声明属于作者报告。",
+      "tags": [
+        "e-commerce",
+        "image-generation",
+        "product-fidelity"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 14,
+      "time": "2026-10-17",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Intern Lumina U2：以多码本离散表示统一视觉理解与生成",
+      "url": "https://github.com/InternLM/InternLumina-U2",
+      "summary": "周末近期研究回顾：每个视觉位置使用多个互补码本，输入拼接嵌入，输出由轻量自回归头预测该位置各码，而扩散骨干并行处理位置。作者覆盖图像、视频及三维输入，并评估稳定性感知采样和缓存刷新带来的效率变化。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.20818，平台标注发表/更新 2026-10-14）；2026-10-19 核验，2026-10-17 日报收录，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "统一离散空间的表示容量与优化冲突需要一起衡量，不能只比较码本数量。",
+      "tags": [
+        "diffusion-LLM",
+        "multi-codebook",
+        "unified-multimodal"
+      ],
+      "id": 15,
+      "time": "2026-10-17",
+      "stars": null
+    }
+  ]
+}
