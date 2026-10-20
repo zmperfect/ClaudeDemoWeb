@@ -1,0 +1,296 @@
+{
+  "items": [
+    {
+      "category": "news",
+      "title": "MiniMax M3.1 Flash 正式推出：面向编码与长程工具执行",
+      "url": "https://www.minimax.io/blog/minimax-m31f",
+      "summary": "官方于 10 月 19 日宣布正式推出，覆盖编码、电脑操作和复杂工作流，通过 MiniMax API、M Plan 与 MiniMax Code 提供。公告称采用更激进的稀疏化提升推理效率，并说明模型权重将稍后发布。",
+      "source": "MiniMax 官方发布公告（2026-10-19）；2026-10-20 核验与收录，非当日首发；性能与效率结论为厂商报告",
+      "highlight": "可作为低成本 Agent 模型的评估候选；当前公告中的 API 可用性与未来权重发布需分别理解。",
+      "tags": [
+        "minimax-m3.1-flash",
+        "coding",
+        "computer-use"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 1,
+      "time": "2026-10-20",
+      "stars": null
+    },
+    {
+      "category": "news",
+      "title": "Mercury 3：扩散语言模型扩展至百万 token 上下文",
+      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+      "summary": "Inception 于 10 月 19 日发布 Mercury 3，公布 1M token 上下文与超过千 token 每秒的生成速度。模型已通过自有 API 和部分推理平台提供，面向实时搜索、浏览器 Agent、交互教育与客服等低延迟场景。",
+      "source": "Inception 官方博客（2026-10-19）；2026-10-20 核验与收录，非当日首发；速度与能力比较为厂商及合作伙伴报告",
+      "highlight": "值得测试扩散生成在多轮工具循环中的延迟收益，端到端耗时仍受检索、工具和服务条件影响。",
+      "tags": [
+        "diffusion-llm",
+        "mercury-3",
+        "low-latency"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 2,
+      "time": "2026-10-20",
+      "stars": null
+    },
+    {
+      "category": "news",
+      "title": "GitHub Copilot 退役一批旧模型并列出迁移替代项",
+      "url": "https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026/",
+      "summary": "GitHub 宣布自 10 月 19 日起在大多数 Copilot 体验中退役 Gemini 3.7 Flash、GPT-5.5、GPT-5.4、GPT-5.4 mini、GPT-5 mini 与 Grok 4.5。公告逐项给出替代模型，并提示企业管理员检查替代模型的访问策略。",
+      "source": "GitHub 官方 Changelog（2026-10-19）；2026-10-20 核验与收录，非当日首发；退役范围以 Copilot 公告为准",
+      "highlight": "使用固定模型配置的团队应检查工作流与企业策略；该公告描述的是 Copilot 内的模型可用性。",
+      "tags": [
+        "github-copilot",
+        "model-migration",
+        "enterprise-policy"
+      ],
+      "id": 3,
+      "time": "2026-10-20",
+      "stars": null
+    },
+    {
+      "category": "tool",
+      "title": "SlideOn 与 mSlideOn：把既有检索器转换为稀疏倒排检索模型",
+      "url": "https://huggingface.co/blog/lightonai/slideon-mslideon",
+      "summary": "LightOn 通过稀疏自编码器预训练和检索监督微调，分别从 DenseOn、mLateOn 构建英文与多语言稀疏检索器。模型输出支持倒排索引的表示，并借助类似 Matryoshka 的训练在不同剪枝强度下调整检索质量、存储和延迟。",
+      "source": "LightOn 作者发布文章（Hugging Face Blog，2026-10-19）；2026-10-20 核验与收录，非当日首发；检索效果为作者评测",
+      "highlight": "为 RAG 的检索层提供复用既有 dense 或 late-interaction 知识、同时控制索引开销的路线。",
+      "tags": [
+        "sparse-retrieval",
+        "inverted-index",
+        "multilingual-embedding"
+      ],
+      "topic": [
+        "rag",
+        "post-training"
+      ],
+      "id": 4,
+      "time": "2026-10-20",
+      "stars": null
+    },
+    {
+      "category": "tutorial",
+      "title": "Bedrock Claude 结构化输出：Schema 与严格工具参数的使用边界",
+      "url": "https://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock/",
+      "summary": "AWS 介绍在 bedrock-runtime 与 bedrock-mantle 使用约束解码、JSON Schema 输出及 strict 工具参数的方法。示例展示 output_config.format 和结束原因检查，也说明数值范围、字符串长度等被 API 接受的约束并不在生成时强制执行。",
+      "source": "AWS 官方 Machine Learning Blog（2026-10-19）；2026-10-20 核验与收录，非当日首发；支持范围以文中端点和 Schema 子集为准",
+      "highlight": "可减少格式错误，但应用仍需校验未受支持的约束、业务语义和截断结果。",
+      "tags": [
+        "amazon-bedrock",
+        "structured-output",
+        "json-schema"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 5,
+      "time": "2026-10-20",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "OpenVLHarness：把视觉工具结果存成可寻址的多模态证据",
+      "url": "https://github.com/uclanlp/OpenVLHarness",
+      "summary": "通过能力层统一异构工具接口，并把输出转换为模型可读的观察。持久多模态记忆保留图像、结构化数据和网页引用，代码接口可跨工具计算，作者在 22 个基准上评估。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.26860，平台标注发表/更新 2026-10-19）；2026-10-20 核验与收录，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "适合研究视觉 Agent 怎样获取、检查和组合外部证据；持续增加内部推理预算并不能替代工具取证。",
+      "tags": [
+        "multimodal-memory",
+        "visual-agent",
+        "evidence-rendering"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 6,
+      "time": "2026-10-20",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Self-HPO：交替优化编码 Agent 的执行框架与策略模型",
+      "url": "https://github.com/MSR-Orchard/Self-HPO",
+      "summary": "每轮先让当前策略分析失败并提出执行框架候选，再在选定框架中进行强化学习。训练遇到的难题进入下一轮框架搜索，作者在三个编码基准比较联合优化与单独优化。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.22791，平台标注发表/更新 2026-10-16）；2026-10-20 核验与收录，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "执行框架会改变训练轨迹，模型更新也会改变失败模式；两者可形成持续反馈。",
+      "tags": [
+        "harness-optimization",
+        "reinforcement-learning",
+        "coding-agent"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 7,
+      "time": "2026-10-20",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "CoworkEnv：合成长程办公 Agent 的可执行训练环境",
+      "url": "https://github.com/HKUST-KnowComp/CoworkEnv",
+      "summary": "根据工作流能力要求合成请求、服务记录、工具和评分检查，再以程序验证与反馈修复保持一致性。教师执行提供 SFT 示范，学生交互提供 RL 轨迹与奖励，论文同时讨论奖励处理和信用分配。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.24960，平台标注发表/更新 2026-10-18）；2026-10-20 核验与收录，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "适合参考办公 Agent 的环境与训练数据建设；训练奖励上升仍需结合独立任务评测。",
+      "tags": [
+        "synthetic-environments",
+        "sft",
+        "cowork-agent"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 8,
+      "time": "2026-10-20",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "MemPilot：按问题和预算策划多模态记忆",
+      "url": "https://github.com/ViktorAxelsen/MemPilot",
+      "summary": "强化学习策略可在既有记忆检索与原始多模态历史的按需整理之间多步选择。策略同时控制证据量、整理指令、模型选择和视觉访问，并分别估计性能、成本与延迟目标的优势。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.06830，平台标注发表/更新 2026-10-05）；2026-10-20 核验与收录，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "为记忆系统提供运行时资源分配思路，适合比较预处理与临时重读历史的代价。",
+      "tags": [
+        "memory-curation",
+        "multimodal-history",
+        "multi-objective-rl"
+      ],
+      "topic": [
+        "agent",
+        "memory",
+        "post-training"
+      ],
+      "id": 9,
+      "time": "2026-10-20",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "HarnessPro：按性能与成本偏好递归改进 Agent 执行框架",
+      "url": "https://huggingface.co/papers/2610.26770",
+      "summary": "在候选评估阶段使用 LLM 生成的测试，不访问标准答案或官方测试。多个专门 Agent 诊断轨迹并实现候选更新，通过 Pareto 取舍形成轻量、均衡和性能优先的框架，再利用执行反馈迭代。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.26770，平台标注发表/更新 2026-10-19）；2026-10-20 核验与收录，非当日首发；实验为作者报告",
+      "highlight": "作者报告多种编码基准上的性能与成本改进；自生成测试的选择效果仍需独立评测验证。",
+      "tags": [
+        "recursive-self-improvement",
+        "pareto-optimization",
+        "harness"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 10,
+      "time": "2026-10-20",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "State World Models：执行持久规则，再生成交互画面",
+      "url": "https://github.com/Zhangyr2022/StateWorldModel",
+      "summary": "Stateful Harness 将世界状态演化与视频渲染分开，按规则解析动作，再让冻结视频模型渲染事件并用生成片段更新后续状态。WorldState-Bench 以相同画面和动作、不同隐藏状态的反事实配对测试规则遵守。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.26811，平台标注发表/更新 2026-10-19）；2026-10-20 核验与收录，非当日首发；实验为作者报告；项目链接由论文页面提供",
+      "highlight": "世界交互的可用性还取决于隐藏状态与规则是否持续生效，画面连贯度不足以衡量这一点。",
+      "tags": [
+        "world-model",
+        "stateful-harness",
+        "rule-compliance"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 11,
+      "time": "2026-10-20",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "KronLSTM：以 Kronecker Delta Rule 减少长上下文记忆干扰",
+      "url": "https://huggingface.co/papers/2610.26834",
+      "summary": "提出关联矩阵记忆更新规则，以矩阵空间中的单一方向修订目标关联，减少对其他已存信息的干扰。论文分析其稳态与期望范数有界性质，并在长上下文语言建模中与多种线性注意力结构比较。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.26834，平台标注发表/更新 2026-10-19）；2026-10-20 核验与收录，非当日首发；实验为作者报告",
+      "highlight": "提供具有可分析稳定性的循环记忆设计；这里的记忆是网络内部状态，不是用户档案数据库。",
+      "tags": [
+        "linear-attention",
+        "associative-memory",
+        "kronlstm"
+      ],
+      "topic": [
+        "memory"
+      ],
+      "id": 12,
+      "time": "2026-10-20",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "Sauron：先独立核验证据，再为长程任务打分",
+      "url": "https://huggingface.co/papers/2610.17724",
+      "summary": "验证器同时调查环境状态和执行轨迹，独立回查来源后才采信任务完成主张，并为裁决附带可审计证据。通过有界查询和合并相关准则降低重复调查，作者在人工标注准则与故障注入任务上评估。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.17724，平台标注发表/更新 2026-10-13）；2026-10-20 核验与收录，非当日首发；实验为作者报告",
+      "highlight": "当评分会成为 RL 奖励时，过程证据和可追溯裁决有助于识别虚报成功与奖励投机。",
+      "tags": [
+        "agent-verification",
+        "evidence-receipts",
+        "reward-model"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 13,
+      "time": "2026-10-20",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "CoPE：让 Agent 行动策略与未来动作预测共同学习",
+      "url": "https://huggingface.co/papers/2610.20597",
+      "summary": "在成功的在策略轨迹上，训练同一策略骨干预测各历史之后的多步动作序列，以复用中间步骤监督。推理时仍逐步行动，作者在五个环境与应用基准上比较样本效率和任务表现。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.20597，平台标注发表/更新 2026-10-15）；2026-10-20 核验与收录，非当日首发；实验为作者报告",
+      "highlight": "可参考如何从昂贵的长程 rollout 提取更多监督，同时避免增加部署时的预测模型调用。",
+      "tags": [
+        "agentic-rl",
+        "action-forecasting",
+        "sample-efficiency"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 14,
+      "time": "2026-10-20",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "TokenWorth：在有限预算下学习哪些经验值得保留",
+      "url": "https://huggingface.co/papers/2610.26453",
+      "summary": "用稀疏执行反馈在线学习与查询相关的记忆价值，同时用于检索和有界记忆管理。作者在三类 LifelongAgentBench 环境与本地、API 部署中比较任务成功率和输出 token 消耗。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.26453，平台标注发表/更新 2026-10-19）；2026-10-20 核验与收录，非当日首发；实验为作者报告",
+      "highlight": "相关性并不等于执行价值；记忆选择也应计入占用上下文后对后续任务的净收益。",
+      "tags": [
+        "lifelong-agent",
+        "memory-worth",
+        "resource-budget"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 15,
+      "time": "2026-10-20",
+      "stars": null
+    }
+  ]
+}
