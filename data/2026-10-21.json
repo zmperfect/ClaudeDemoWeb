@@ -1,0 +1,288 @@
+{
+  "items": [
+    {
+      "category": "news",
+      "title": "FastH3 Omni 发布：面向参考引导的同步音视频少步生成",
+      "url": "https://haoailab.com/blogs/fastvideo-omniref-update/",
+      "summary": "FastVideo 发布从 MiniMax H3 蒸馏的 FastH3 Omni，支持图像、视频与声音参考，使用八次 Transformer 计算生成同步音视频。作者在八块 GB200 的匹配工作负载上报告端到端延迟下降，并提供权重与部署入口；文章另预告本地 AI 发布计划。",
+      "source": "Hao AI Lab / FastVideo 官方发布文章（2026-10-20）；2026-10-21 核验与收录，非当日首发；性能比较为作者报告，本地发布计划与本次开放发布分别说明",
+      "highlight": "适合比较完整生成配方的速度与质量；文中加速包含服务实现差异，不能直接视为所有设备上的模型加速。",
+      "tags": [
+        "fasth3-omni",
+        "audio-video-generation",
+        "few-step-distillation"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 1,
+      "time": "2026-10-21",
+      "stars": null
+    },
+    {
+      "category": "news",
+      "title": "微软扩展 Agent 风险防护：以外部身份与控制约束执行",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/",
+      "summary": "微软介绍将 Project Perception 扩展到企业 Agent 防护，通过统一注册、独立身份、权限边界与动态风险信号持续监督执行。文章强调将访问和执行控制放在模型之外，并结合运行时、数据、终端和网络信号调整权限。",
+      "source": "Microsoft Security 官方博客（2026-10-19）；2026-10-21 核验与补充收录，非当日首发；功能覆盖与状态以官方文章为准",
+      "highlight": "可参考企业 Agent 的身份归属、可观测性和权限设计，模型自报的状态应与外部执行证据共同检查。",
+      "tags": [
+        "agent-security",
+        "agent-identity",
+        "dynamic-risk"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 2,
+      "time": "2026-10-21",
+      "stars": null
+    },
+    {
+      "category": "tool",
+      "title": "ALTK-Evolve：把客服任务的成败提炼为可复用行为指南",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+      "summary": "IBM Research 从训练任务尝试中提炼短行为规则，作为 playbook 加入 ReAct Agent 的系统提示，无需更新模型权重。作者在零售与航空客服任务上报告准确率和多次执行可靠性改善，也展示指南数量带来的输入成本变化。",
+      "source": "IBM Research 作者发布文章（Hugging Face Blog，2026-10-20）；2026-10-21 核验与收录，非当日首发；效果为作者评测，榜单比较使用文中指定快照",
+      "highlight": "适合参考提示层经验学习；保留更多指南的收益和成本依领域而变，应采用独立测试集评估。",
+      "tags": [
+        "learned-memory",
+        "behavioral-guidelines",
+        "customer-service-agent"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 3,
+      "time": "2026-10-21",
+      "stars": null
+    },
+    {
+      "category": "tutorial",
+      "title": "TorchTPU 接入 Hugging Face：以原生 PyTorch 设备运行 TPU",
+      "url": "https://huggingface.co/blog/hf-torchtpu",
+      "summary": "Hugging Face 介绍 TorchTPU 原生后端及 Transformers、Diffusers 的设备迁移用法，包含 eager、torch.compile 和多芯片配置。文章还展示 Pallas 与 Kernels Hub 接入方式，并说明 TPU 测试仍存在需要修复的失败项。",
+      "source": "Hugging Face 官方技术文章（2026-10-20）；2026-10-21 核验与收录，非当日首发；兼容性和性能以支持配置及文中测试为准",
+      "highlight": "为 PyTorch 项目评估 TPU 提供具体起点；部署前仍需检查所用模型、算子和分布式配置。",
+      "tags": [
+        "torchtpu",
+        "pytorch",
+        "tpu-inference"
+      ],
+      "id": 4,
+      "time": "2026-10-21",
+      "stars": null
+    },
+    {
+      "category": "tool",
+      "title": "AnyLanguageModel 1.0：统一 Swift 本地与托管模型接口",
+      "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
+      "summary": "以兼容 Apple Foundation Models 的会话接口连接系统模型、llama.cpp、MLX、Core ML 和多种托管服务。1.0 文章介绍跨提供商工具调用、引导生成及图像输入，并配套 Swift Hub 下载组件更新。",
+      "source": "Hugging Face / 项目作者发布文章（2026-10-20）；2026-10-21 核验与收录，非当日首发；部分协议和图像语法依赖指定 Apple 系统版本",
+      "highlight": "适合需要在 Apple 应用中切换本地与云端模型的开发者，具体能力仍需结合后端和系统版本检查。",
+      "tags": [
+        "swift",
+        "local-inference",
+        "provider-abstraction"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 5,
+      "time": "2026-10-21",
+      "stars": null
+    },
+    {
+      "category": "tutorial",
+      "title": "PyTorch 2.15 MPS 更新预览：FP8、MoE 解码与视频内存优化",
+      "url": "https://huggingface.co/blog/mps-pytorch-2-15",
+      "summary": "Hugging Face 的 PyTorch 贡献者介绍 2.15 的 MPS FP8、分组矩阵乘法、解码路径和视频 VAE 内存优化，并给出候选版试用方法。文章列出 macOS 15 与 Python 3.11 起的要求，同时将 2.16 规划单独标为前瞻。",
+      "source": "Hugging Face PyTorch 团队技术文章（2026-10-20）；2026-10-21 核验与收录，非当日首发；安装示例针对候选版，性能为文中指定设备与配置的测试",
+      "highlight": "适合在 Mac 上测试 LLM 与生成式工作流的升级收益，需区分 2.15 已介绍能力和 2.16 预览。",
+      "tags": [
+        "pytorch-mps",
+        "fp8",
+        "apple-silicon"
+      ],
+      "id": 6,
+      "time": "2026-10-21",
+      "stars": null
+    },
+    {
+      "category": "tool",
+      "title": "FairStress：测试模型决策在对称说服下是否同样稳健",
+      "url": "https://huggingface.co/blog/allenai/fairstress",
+      "summary": "Ai2 提出评测集，在匹配的人口属性条件下加入成对说服前缀，观察模型是否同样坚持证据支持的选择。工具覆盖多种决策场景，并提供较小的 FairStress-Core 子集，帮助识别单看最终选择时可能隐藏的不对称。",
+      "source": "Ai2 作者发布文章（Hugging Face Blog，2026-10-20）；2026-10-21 核验与收录，非当日首发；采用文中定义的对称公平性，结果为作者评测",
+      "highlight": "可为模型评估增加决策稳定性维度；这种公平性定义并不涵盖所有公平观念。",
+      "tags": [
+        "fairness-evaluation",
+        "adversarial-prefix",
+        "decision-robustness"
+      ],
+      "id": 7,
+      "time": "2026-10-21",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "FocusGUI：按当前动作动态聚焦多模态界面证据",
+      "url": "https://github.com/fyzhang1/FocusGUI",
+      "summary": "用轻量适配器根据每一步决策需求选择截图、音频、视频、历史和设备状态中的相关证据，再将紧凑表示注入冻结解码器的嵌入。训练仅使用动作监督，不要求模态相关性标签或主干微调，作者在四种全模态主干上比较效果。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.26203，平台标注发表/更新 2026-10-19）；2026-10-21 核验与收录，非当日首发；实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "适合研究 GUI Agent 的逐步感知与输入压缩，避免过时证据在后续动作中持续干扰。",
+      "tags": [
+        "gui-agent",
+        "focused-perception",
+        "multimodal-adapter"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 8,
+      "time": "2026-10-21",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "Sage-A1.5：用能力组合连接长程执行与科学探索",
+      "url": "https://huggingface.co/papers/2610.28578",
+      "summary": "技术报告介绍一个 35B MoE Agent 模型，强调任务委派、隔离上下文协作，以及执行中的进度检查和证据核验。作者通过复杂任务和多学科应用展示策略修订与可检查研究产物，探索从任务完成走向开放研究的路径。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.28578，平台标注发表/更新 2026-10-20）；2026-10-21 核验与收录，非当日首发；实验及能力结论为作者报告",
+      "highlight": "可参考编排、核验与探索的协同设计；应用展示需要结合具体任务和独立评测理解。",
+      "tags": [
+        "sage-a1.5",
+        "capability-composition",
+        "scientific-agent"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 9,
+      "time": "2026-10-21",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "SolarRenderer：以轻量 LoRA 将结构视频转为少步真实渲染",
+      "url": "https://huggingface.co/papers/2610.28630",
+      "summary": "在冻结的 MiniMax-H3 33B 主干上使用两个轻量 LoRA，让结构条件通过原生参考路径进入模型。结合结构引导的分布匹配实现四步渲染，并探索块因果流式版本，作者测试了不同结构表示及未见表示的泛化。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.28630，平台标注发表/更新 2026-10-20）；2026-10-21 核验与收录，非当日首发；实验及能力结论为作者报告",
+      "highlight": "为游戏引擎或编码 Agent 产生的粗布局补全真实外观提供训练路线，速度结论依赖论文设定。",
+      "tags": [
+        "lora",
+        "reference-rendering",
+        "distribution-matching"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 10,
+      "time": "2026-10-21",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "MMEnterprise-Bench：评测不断修订的多模态企业记录",
+      "url": "https://github.com/mlvlab/MMEnterprise-Bench",
+      "summary": "以模拟协作项目中的文档、聊天和图表构建 1,613 个问题，覆盖证据推理、冲突消解和无法回答。作者评测十种多模态模型，发现增加检索预算虽提高证据召回，却不总能提升答案准确率。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.27911，平台标注发表/更新 2026-10-20）；2026-10-21 核验与收录，非当日首发；实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "企业 RAG 还需识别时间版本、跨源冲突与证据不足，单独优化召回率并不能覆盖这些能力。",
+      "tags": [
+        "enterprise-agent",
+        "temporal-conflicts",
+        "multimodal-rag"
+      ],
+      "topic": [
+        "agent",
+        "rag",
+        "memory"
+      ],
+      "id": 11,
+      "time": "2026-10-21",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "MemT-1.0：把持续记忆更新纳入模型计算",
+      "url": "https://github.com/MemTensor/MemT-1.0",
+      "summary": "基于 Gated DeltaNet-2 实现轮次内稳定的 token 级记忆更新，并以 Mixture-of-Storage 扩展原生记忆容量。通过继续预训练和后训练构建 Nano、Flash 模型家族，作者比较记忆能力、通用能力及与完整上下文 KV 缓存的资源差异。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.26825，平台标注发表/更新 2026-10-19）；2026-10-21 核验与收录，非当日首发；实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "适合比较模型内部记忆、外部检索和 KV 缓存三种路线；压缩与速度收益以具体历史长度和配置为准。",
+      "tags": [
+        "memory-native",
+        "mixture-of-storage",
+        "gated-deltanet"
+      ],
+      "topic": [
+        "memory",
+        "post-training",
+        "agent"
+      ],
+      "id": 12,
+      "time": "2026-10-21",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "SpecMRL：在参数谱空间组织可裁剪的嵌入表示",
+      "url": "https://huggingface.co/papers/2610.26824",
+      "summary": "在标准 Matryoshka 表示学习基础上，引入按特征重要性组织的参数导出谱基，并在该空间读取嵌套前缀。作者在 MTEB 比较不同压缩维度，报告在更激进的降维设置下取得更明显收益。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.26824，平台标注发表/更新 2026-10-19）；2026-10-21 核验与收录，非当日首发；实验及能力结论为作者报告",
+      "highlight": "为向量检索中按存储和延迟预算裁剪 embedding 维度提供可评测的方法。",
+      "tags": [
+        "matryoshka-representation",
+        "embedding-compression",
+        "spectral-basis"
+      ],
+      "topic": [
+        "rag",
+        "post-training"
+      ],
+      "id": 13,
+      "time": "2026-10-21",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "StopLoss：用小型外部监控器识别注定失败的编码执行",
+      "url": "https://github.com/TIGER-AI-Lab/StopLoss",
+      "summary": "从已完成轨迹和验证器结果学习失败识别，把最终成败标签分配给较早的局部工具窗口。监控器单次前向计算近期步骤的失败分数，再用成功轨迹校准阈值，决定提前终止而无需修改执行器。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.25525，平台标注发表/更新 2026-10-18）；2026-10-21 核验与收录，非当日首发；实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "提前停止应同时衡量节约成本与误杀成功任务的代价；跨模型和基准的阈值需要重新验证。",
+      "tags": [
+        "early-stopping",
+        "failure-prediction",
+        "coding-agent"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 14,
+      "time": "2026-10-21",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "MT Forcing：减少多轮图像编辑中的质量与内容漂移",
+      "url": "https://huggingface.co/papers/2610.25404",
+      "summary": "Single-Turn DMD 用教师对源图执行累计编辑的结果监督学生自 rollout，减少递归误差积累。Teacher-Forcing Guidance 在预热与蒸馏阶段约束参考轨迹上的历史相关转移，作者比较图像质量和跨轮内容一致性。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.25404，平台标注发表/更新 2026-10-18）；2026-10-21 核验与收录，非当日首发；实验及能力结论为作者报告",
+      "highlight": "多轮编辑既要保持每轮画质，也要保留先前修改；两种监督分别针对这些问题。",
+      "tags": [
+        "multi-turn-editing",
+        "distillation",
+        "autoregressive-diffusion"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 15,
+      "time": "2026-10-21",
+      "stars": null
+    }
+  ]
+}
