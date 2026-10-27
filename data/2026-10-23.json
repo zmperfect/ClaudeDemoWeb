@@ -1,0 +1,293 @@
+{
+  "items": [
+    {
+      "category": "tool",
+      "title": "MiniMax M3.1 Flash 权重与部署资料：稀疏注意力、QAT 和草稿头",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
+      "summary": "当前官方模型卡提供权重下载及推理框架入口，说明全层稀疏注意力、量化感知训练和 DSpark 草稿头变化。模型支持多模态输入和长上下文，实际长度与吞吐取决于显存和服务配置。",
+      "source": "MiniMax 官方模型卡；2026-10-23 开放权重专题回补，模型卡现状于 2026-10-27 核验；不同于 10 月 19 日 API 首发；采用 MiniMax Community License；2026-10-27 核验，归入 2026-10-23 日报；收录日期不代表首发日期",
+      "highlight": "自托管前需检查服务实现和模型许可，草稿头的收益也取决于兼容框架。",
+      "tags": [
+        "open-weights",
+        "quantization-aware-training",
+        "speculative-decoding"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 1,
+      "time": "2026-10-23",
+      "stars": null
+    },
+    {
+      "category": "tool",
+      "title": "LitPivot：用文献证据逐步修订研究问题、贡献和评估计划",
+      "url": "https://huggingface.co/blog/allenai/litpivot",
+      "summary": "将提案分为不同侧面，按当前编辑部分检索和重排文献，让研究者选择用于评价的证据。系统把批评和建议链接到原文摘录，修改某一侧面后也提示相关段落重新审视。",
+      "source": "Ai2 作者文章，发布 2026-10-23；用户研究结果为作者报告；2026-10-27 核验，归入 2026-10-23 日报；收录日期不代表首发日期",
+      "highlight": "可参考人在循环的研究构思工具，文献匹配和建议仍由研究者核对与决定。",
+      "tags": [
+        "research-ideation",
+        "literature-retrieval",
+        "evidence-linked-editing"
+      ],
+      "topic": [
+        "agent",
+        "rag"
+      ],
+      "id": 2,
+      "time": "2026-10-23",
+      "stars": null
+    },
+    {
+      "category": "tool",
+      "title": "OlmoEarth v1.3：开放全球年度卫星嵌入与浏览器探索器",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+      "summary": "Ai2 发布卫星嵌入模型、全球 10 米年度特征和交互探索器，可比较不同年份或寻找相似地区。128 维表示也支持读取前 64 维，用户可标注少量地点训练轻量分类器并导出地图。",
+      "source": "Ai2 官方团队文章，发布 2026-10-22；模型比较为作者评测；2026-10-27 核验，归入 2026-10-23 日报；收录日期不代表首发日期",
+      "highlight": "预计算表征能降低下游地图实验的门槛，具体地物解释仍需回看卫星原图。",
+      "tags": [
+        "satellite-embeddings",
+        "geospatial",
+        "interactive-mapping"
+      ],
+      "id": 3,
+      "time": "2026-10-23",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "WeVisOne-VL：从物体定位统一到像素分割与抠图",
+      "url": "https://github.com/Tencent/WeVisOne-VL",
+      "summary": "通过结构化 next-token 预测和轻量像素解码器，将框、点、掩码及 alpha 输出接入同一 VLM。采用三阶段 SFT 与混合任务 RL，作者同时评估目标不存在时的拒答。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.31329，平台标注发表/更新 2026-10-22）；2026-10-27 核验，归入 2026-10-23 日报；非归档日首发，实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "细粒度视觉系统还应评估不存在目标，避免只有定位命中率而缺少错误触发检查。",
+      "tags": [
+        "visual-perception",
+        "segmentation",
+        "mixed-task-rl"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 4,
+      "time": "2026-10-23",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "IQuest-Q1：面向命令行 Agent 的稀疏基础模型",
+      "url": "https://huggingface.co/papers/2610.30949",
+      "summary": "报告介绍总参数 320B、激活 15B 的 MoE，经过预训练、中训练和多框架多版本后训练。后训练结合 SFT、领域 RL 与蒸馏，并通过模型合并整合不同阶段的能力。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.30949，平台标注发表/更新 2026-10-22）；2026-10-27 核验，归入 2026-10-23 日报；非归档日首发，实验及能力结论为作者报告",
+      "highlight": "可参考如何在多个执行脚手架上组合后训练信号，性能结论仍取决于评测配置。",
+      "tags": [
+        "cli-agent",
+        "mixture-of-experts",
+        "multi-scaffold-training"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 5,
+      "time": "2026-10-23",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "OpenDS：在真实开放网页中完成多步证据搜索",
+      "url": "https://github.com/Yu-xm/OpenDS",
+      "summary": "构建涉及不同模态、文件格式和交互访问的任务，要求 Agent 自主搜索、浏览并连接独立来源证据。基准通过人工核验答案与证据，统一工具环境比较研究策略、成本及失败恢复。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.30181，平台标注发表/更新 2026-10-19）；2026-10-27 核验，归入 2026-10-23 日报；非归档日首发，实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "适合评估真实网页研究流程，静态检索命中并不能覆盖端到端搜索能力。",
+      "tags": [
+        "deep-search",
+        "open-web",
+        "evidence-integration"
+      ],
+      "topic": [
+        "agent",
+        "rag"
+      ],
+      "id": 6,
+      "time": "2026-10-23",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "Deep Fusion Memory：把块级参数记忆融入中间隐藏状态",
+      "url": "https://huggingface.co/papers/2610.25100",
+      "summary": "记忆预测器以历史上下文生成块级记忆，以检索块嵌入作监督，再通过门控交叉注意力融入隐藏状态。冻结主干联合训练记忆模块，推理时无需显式在线检索。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.25100，平台标注发表/更新 2026-10-18）；2026-10-27 核验，归入 2026-10-23 日报；非归档日首发，实验及能力结论为作者报告",
+      "highlight": "提供把外部知识转为参数记忆的路线，需分别权衡离线构建成本和在线适应性。",
+      "tags": [
+        "parametric-memory",
+        "chunk-memory",
+        "gated-cross-attention"
+      ],
+      "topic": [
+        "memory",
+        "rag",
+        "post-training"
+      ],
+      "id": 7,
+      "time": "2026-10-23",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Raw-RAG：原始历史检索是长期记忆的重要基线",
+      "url": "https://github.com/Litmeb/RAW-RAG",
+      "summary": "直接在原始对话历史上进行稠密检索和重排，再把证据交给阅读模型。作者在多个记忆基准中比较复杂系统，分析必要证据覆盖及关系依赖信息为何能抵消较低的利用效率。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.30755，平台标注发表/更新 2026-10-22）；2026-10-27 核验，归入 2026-10-23 日报；非归档日首发，实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "先建立强原始历史基线，再判断结构化记忆是否带来额外价值。",
+      "tags": [
+        "raw-history",
+        "memory-baseline",
+        "dense-retrieval"
+      ],
+      "topic": [
+        "memory",
+        "rag"
+      ],
+      "id": 8,
+      "time": "2026-10-23",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "Heartbeat Thinking：语音尚未结束时持续推理与准备工具结果",
+      "url": "https://huggingface.co/papers/2610.26233",
+      "summary": "周期性推理读取最新部分转写和共享结果记录，同时允许已经开始的推理与工具调用完成。新调用复用先前结果补齐参数与触发依赖步骤，作者比较最终响应延迟和推测执行覆盖。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.26233，平台标注发表/更新 2026-10-19）；2026-10-27 核验，归入 2026-10-23 日报；非归档日首发，实验及能力结论为作者报告",
+      "highlight": "可研究把监听时间转为准备时间，同时检查过时意图引发的无效执行。",
+      "tags": [
+        "voice-agent",
+        "speculative-execution",
+        "partial-transcript"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 9,
+      "time": "2026-10-23",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "OmniDR-Bench：围绕源视频生成有证据定位的研究报告",
+      "url": "https://github.com/marinero4972/OmniDR-Bench",
+      "summary": "给定视频和请求，要求 Agent 提炼研究问题、检索多模态资料并把报告链接到相关视频时刻。通过原子评分树检查视听依据、证据使用和交互呈现，作者分析不同模型与技能配置的差距。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.31158，平台标注发表/更新 2026-10-22）；2026-10-27 核验，归入 2026-10-23 日报；非归档日首发，实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "视频研究应能回到原始片段核对主张，引用数量不能代替引用准确性。",
+      "tags": [
+        "video-research",
+        "multimodal-evidence",
+        "atomic-rubrics"
+      ],
+      "topic": [
+        "agent",
+        "rag"
+      ],
+      "id": 10,
+      "time": "2026-10-23",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "SCOPE：把自然语言政策编译成可执行谓词程序",
+      "url": "https://huggingface.co/papers/2610.31062",
+      "summary": "将复杂政策拆为小模型判断、确定性提取器和显式组合逻辑，并用针对偏差的对抗反例共同优化程序与数据。作者比较准确率、预测稳定性和跨执行模型迁移。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.31062，平台标注发表/更新 2026-10-22）；2026-10-27 核验，归入 2026-10-23 日报；非归档日首发，实验及能力结论为作者报告",
+      "highlight": "政策执行可通过可检查的中间谓词解释，适合分析多轮工具轨迹的复合约束。",
+      "tags": [
+        "policy-compilation",
+        "neurosymbolic",
+        "agent-guardrails"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 11,
+      "time": "2026-10-23",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "RouteWeaver：联合学习调用模式与模型选择",
+      "url": "https://github.com/LaughKing/RouteWeaver",
+      "summary": "统一单轮、多轮和 Agent 路由，由同一策略选择模式并组织模型调用。COMET-GRPO 分离模式与执行的优势信号，再通过渐进探索从指定模式过渡到自主选择。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.19705，平台标注发表/更新 2026-10-19）；2026-10-27 核验，归入 2026-10-23 日报；非归档日首发，实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "路由优化除了选择哪个模型，还需学习何时采用更复杂的执行流程。",
+      "tags": [
+        "model-routing",
+        "grpo",
+        "credit-assignment"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 12,
+      "time": "2026-10-23",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "Cola2：联合优化连续语义压缩与离散文本生成",
+      "url": "https://huggingface.co/papers/2610.31305",
+      "summary": "动态将文本分成语义片段，以反馈控制压缩率，并结合重建与生成监督学习潜在表示。块因果扩散解码器处理不同潜在条件，推理时重新编码已生成文本以保持历史一致。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.31305，平台标注发表/更新 2026-10-22）；2026-10-27 核验，归入 2026-10-23 日报；非归档日首发，实验及能力结论为作者报告",
+      "highlight": "可关注压缩表示与解码器共同适应的设计，不能只比较单独的压缩率。",
+      "tags": [
+        "latent-language-model",
+        "semantic-compression",
+        "diffusion-decoder"
+      ],
+      "id": 13,
+      "time": "2026-10-23",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "TTR-Compressor：通过测试时回归压缩序列",
+      "url": "https://huggingface.co/papers/2610.31574",
+      "summary": "将输入 token 转为回归问题，在前向过程中以闭式解得到压缩表示，回归机制本身端到端学习。作者在稀疏注意力和视觉 token 合并中与池化、投影方法比较。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.31574，平台标注发表/更新 2026-10-22）；2026-10-27 核验，归入 2026-10-23 日报；非归档日首发，实验及能力结论为作者报告",
+      "highlight": "为长上下文与多模态模型提供新的压缩算子，需同时衡量信息保留和额外计算。",
+      "tags": [
+        "sequence-compression",
+        "test-time-regression",
+        "visual-token-merging"
+      ],
+      "topic": [
+        "memory"
+      ],
+      "id": 14,
+      "time": "2026-10-23",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "RIDAR：检测并干预自主研究中的完整性违规",
+      "url": "https://github.com/THU-KEG/RIDAR",
+      "summary": "按研究生命周期建立违规分类，再从执行轨迹进行事后检测与运行时纠正。作者以专家标注轨迹和开放任务轨迹评估检测质量，并报告干预后任务结束时的残余违规变化。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.31372，平台标注发表/更新 2026-10-22）；2026-10-27 核验，归入 2026-10-23 日报；非归档日首发，实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "研究 Agent 应同时交付可检查过程；自动检测分数仍需与人工核验结合。",
+      "tags": [
+        "research-integrity",
+        "runtime-intervention",
+        "trajectory-audit"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 15,
+      "time": "2026-10-23",
+      "stars": null
+    }
+  ]
+}

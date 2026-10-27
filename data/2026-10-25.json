@@ -1,0 +1,279 @@
+{
+  "items": [
+    {
+      "category": "tool",
+      "title": "SimReady Central：可检查能力档案的仿真 3D 资产库",
+      "url": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
+      "summary": "在 Hugging Face 集中发布带仿真属性的 OpenUSD 资产，覆盖机器人、仓储和基础设施。资产按应用档案标注碰撞、物理、关节或传感属性，文章展示组合场景与资产验证工作流。",
+      "source": "NVIDIA 官方团队文章，发布 2026-10-21；周末回顾补录；2026-10-27 核验，归入 2026-10-25 日报；收录日期不代表首发日期",
+      "highlight": "外观完整的 3D 模型未必适合仿真，应核对资产能力档案是否覆盖训练场景。",
+      "tags": [
+        "simready",
+        "openusd",
+        "robotics-simulation"
+      ],
+      "id": 1,
+      "time": "2026-10-25",
+      "stars": null
+    },
+    {
+      "category": "tutorial",
+      "title": "Microduck 教程：从并行仿真训练到 ONNX 真实部署",
+      "url": "https://huggingface.co/blog/nvidia/microduck-isaac-lab-sim-to-real",
+      "summary": "使用 Isaac Lab 与 Newton 准备行走环境，经过策略训练和评估后导出 ONNX，再部署到真实机器人。教程讨论执行器、域随机化，以及观察顺序、归一化和动作缩放的一致性。",
+      "source": "NVIDIA、Pollen Robotics 与 Hugging Face 合作教程，发布 2026-10-21；周末回顾补录；2026-10-27 核验，归入 2026-10-25 日报；收录日期不代表首发日期",
+      "highlight": "可参考仿真到实机的完整链路，导出成功后仍需核对控制接口与机器人配置。",
+      "tags": [
+        "sim-to-real",
+        "isaac-lab",
+        "onnx-policy"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 2,
+      "time": "2026-10-25",
+      "stars": null
+    },
+    {
+      "category": "tool",
+      "title": "Mundo：从多视角图像构建可编辑、可模拟的场景",
+      "url": "https://huggingface.co/blog/Luo-Yihang/mundo-world-model",
+      "summary": "先恢复几何并建立显式 3D 代理，由视觉 Agent 与数值优化修正对象布局。场景程序与模拟器维护物理状态，再以代理渲染帧引导视频模型生成外观。",
+      "source": "Mundo 项目作者文章，发布 2026-10-23；周末回顾补录；示例效果为作者展示；2026-10-27 核验，归入 2026-10-25 日报；收录日期不代表首发日期",
+      "highlight": "将显式状态与生成渲染结合，便于检查修改是否真正进入场景结构。",
+      "tags": [
+        "world-model",
+        "proxy-scene",
+        "generative-simulation"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 3,
+      "time": "2026-10-25",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "Meta Expert：跨层共享 MoE 专家以减少冗余",
+      "url": "https://huggingface.co/papers/2610.27598",
+      "summary": "比较层内专家与跨层共享专家的信息存储和残差路径，在保持激活量及专家粒度的条件下评估性能。作者报告共享结构能以更少专家接近常规 MoE，并分析信息获取路径。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.27598，平台标注发表/更新 2026-10-20）；2026-10-27 核验，归入 2026-10-25 日报；非归档日首发，实验及能力结论为作者报告；周末回顾",
+      "highlight": "MoE 的参数冗余不只存在于单层，跨层复用值得在相同激活预算下检验。",
+      "tags": [
+        "moe",
+        "expert-sharing",
+        "parameter-efficiency"
+      ],
+      "id": 4,
+      "time": "2026-10-25",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "LayerEditor：联合指令编辑与可复用 RGBA 图层生成",
+      "url": "https://huggingface.co/papers/2610.24738",
+      "summary": "把编辑后的画布和有序 RGB-Alpha 图层放进统一 token 序列，用组合编辑先验蒸馏保留原模型能力。作者构建配对图层数据，并测试局部修改、图层复用和多层分解。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.24738，平台标注发表/更新 2026-10-17）；2026-10-27 核验，归入 2026-10-25 日报；非归档日首发，实验及能力结论为作者报告；周末回顾",
+      "highlight": "面向可继续编辑的设计产物时，应同时评估最终合成图与各个图层。",
+      "tags": [
+        "layered-editing",
+        "rgba",
+        "compositional-distillation"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 5,
+      "time": "2026-10-25",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Code2Video-Compass：评测代码生成完整视频的多种输入方式",
+      "url": "https://github.com/code2video-compass/Code2Video-Compass",
+      "summary": "覆盖文本、图像和视频输入，要求模型编写可执行程序生成完整视频。双层评价结合运行质量、视觉效果、指令对齐与参考保真，分析构建和状态依赖复杂度。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.28416，平台标注发表/更新 2026-10-20）；2026-10-27 核验，归入 2026-10-25 日报；非归档日首发，实验及能力结论为作者报告；周末回顾；项目链接由论文页面提供",
+      "highlight": "程序可运行只是起点，还需检查动画时序、实体状态和完整视频的表现。",
+      "tags": [
+        "code-to-video",
+        "animation-benchmark",
+        "multimodal-code"
+      ],
+      "id": 6,
+      "time": "2026-10-25",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "EvalResearchBench：让研究 Agent 自行构建紧凑评测器",
+      "url": "https://github.com/Mercury7353/self-evaluation-bench",
+      "summary": "在固定时间与 API 预算下选择或合成任务、实现评分器并经试运行修订后冻结。将生成评测器与目标基准比较排序一致性，作者指出开发目标上的优胜者未必迁移到隐藏目标。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.04184，平台标注发表/更新 2026-10-16）；2026-10-27 核验，归入 2026-10-25 日报；非归档日首发，实验及能力结论为作者报告；周末回顾；项目链接由论文页面提供",
+      "highlight": "自动设计评测也需要独立目标验证，并防止少数问题支配总分。",
+      "tags": [
+        "evaluation-research",
+        "recursive-self-improvement",
+        "grader-design"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 7,
+      "time": "2026-10-25",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "Agent Mosaic：可访问的单个文档也可能组合出保密结论",
+      "url": "https://huggingface.co/papers/2610.30418",
+      "summary": "用受控模拟和真实执行框架测试 Agent 从多份资料拼接敏感信息的风险。作者发现分类标记和聚合规则可降低部分泄露，但拒答内容仍可能透露本应隐藏的结论。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.30418，平台标注发表/更新 2026-10-21）；2026-10-27 核验，归入 2026-10-25 日报；非归档日首发，实验及能力结论为作者报告；周末回顾",
+      "highlight": "检索授权还应考虑跨文档推断与最终披露，单文档访问检查并不覆盖聚合风险。",
+      "tags": [
+        "confidentiality",
+        "mosaic-effect",
+        "information-disclosure"
+      ],
+      "topic": [
+        "agent",
+        "rag"
+      ],
+      "id": 8,
+      "time": "2026-10-25",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "AgentVQA：跨网页、机器人、游戏等领域的离线视觉评测",
+      "url": "https://github.com/zlab-princeton/AgentVQA",
+      "summary": "从真实 Agent 场景构建离线问答，覆盖网页、机器人、第一视角、游戏与空间规划。作者分析定位界面元素、追踪运动和维护视觉状态的错误，并比较离线与在线评测排序。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.31494，平台标注发表/更新 2026-10-22）；2026-10-27 核验，归入 2026-10-25 日报；非归档日首发，实验及能力结论为作者报告；周末回顾；项目链接由论文页面提供",
+      "highlight": "可用作较快的视觉能力诊断，同时保留在线交互评测来验证完整任务表现。",
+      "tags": [
+        "agent-vqa",
+        "visual-state",
+        "offline-evaluation"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 9,
+      "time": "2026-10-25",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "推理中的 Wait 从何而来：追踪训练数据与后训练影响",
+      "url": "https://huggingface.co/papers/2610.30882",
+      "summary": "沿开放模型训练历史比较标记词的频率、位置和用途，并用注入错误实验检查其行为含义。作者发现推理准确率提高并不要求出现该词，且不同 RL 配方会放大或消除已有标记。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.30882，平台标注发表/更新 2026-10-22）；2026-10-27 核验，归入 2026-10-25 日报；非归档日首发，实验及能力结论为作者报告；周末回顾",
+      "highlight": "不能只凭某个反思词出现频率判断 RL 是否学会推理。",
+      "tags": [
+        "reasoning-provenance",
+        "training-audit",
+        "reflection-markers"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 10,
+      "time": "2026-10-25",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "T2Quant：按任务和去噪时刻分配扩散模型精度",
+      "url": "https://github.com/OfekAvivi/T2Quant",
+      "summary": "研究扩散语言模型量化敏感性随任务与时间步的变化，用无标签信号估计精度需求。固定总位宽预算后动态分配激活精度，作者在多个模型和基准上比较准确率。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.31198，平台标注发表/更新 2026-10-22）；2026-10-27 核验，归入 2026-10-25 日报；非归档日首发，实验及能力结论为作者报告；周末回顾；项目链接由论文页面提供",
+      "highlight": "同一去噪过程的各步未必需要相同精度，量化可结合任务条件优化。",
+      "tags": [
+        "diffusion-quantization",
+        "mixed-precision",
+        "label-free-calibration"
+      ],
+      "id": 11,
+      "time": "2026-10-25",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "AnyGameRenderer：在跨游戏生成渲染中保持实体对应",
+      "url": "https://github.com/AlayaLab/AnyGameRenderer",
+      "summary": "用 LoRA 微调参考视频生成模型，将灰盒、语义图或线框等游戏录像转为更丰富的画面。作者构建实体级评测，检查计数、位置、出现时刻与布局是否保持。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.31466，平台标注发表/更新 2026-10-22）；2026-10-27 核验，归入 2026-10-25 日报；非归档日首发，实验及能力结论为作者报告；周末回顾；项目链接由论文页面提供",
+      "highlight": "游戏美术增强需要保留可核对的游戏状态，单看画面精美度容易漏掉实体错误。",
+      "tags": [
+        "generative-rendering",
+        "game-video",
+        "entity-consistency"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 12,
+      "time": "2026-10-25",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "BrickWright：用装配 API 和验证器生成可行积木模型",
+      "url": "https://github.com/AvaLovelace1/brickwright",
+      "summary": "Agent 通过 Python 工具编写积木装配程序，并根据碰撞、悬空和连接性反馈修正结果。作者在文本与图像提示上比较物理有效性和提示遵循。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.31651，平台标注发表/更新 2026-10-22）；2026-10-27 核验，归入 2026-10-25 日报；非归档日首发，实验及能力结论为作者报告；周末回顾；项目链接由论文页面提供",
+      "highlight": "把结构约束转为可执行检查，可帮助通用编码 Agent 设计能实际装配的对象。",
+      "tags": [
+        "brick-assembly",
+        "physical-validation",
+        "3d-agent"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 13,
+      "time": "2026-10-25",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "ID-TAP：通过少量成对反馈进行测试时个性化",
+      "url": "https://huggingface.co/papers/2610.24385",
+      "summary": "将角色选择建模为查询相关的偏好探索，用神经效用模型和轻量比较器选择候选回复。利用相似查询的比较证据热启动，再在固定交互预算下评估生成偏好。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.24385，平台标注发表/更新 2026-10-17）；2026-10-27 核验，归入 2026-10-25 日报；非归档日首发，实验及能力结论为作者报告；周末回顾",
+      "highlight": "个性化需要平衡探索与用户反馈成本，模拟用户结果还应与真实交互区分。",
+      "tags": [
+        "test-time-personalization",
+        "dueling-bandit",
+        "user-preference"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 14,
+      "time": "2026-10-25",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "MolLean：用显式状态和形式化检查约束化学推理",
+      "url": "https://github.com/phenixace/Open-MolLean",
+      "summary": "基于 Lean 的内核检查分子状态转换与断言，并区分结构检查和外部测量证据。状态化 MCP 接口在每步返回验证反馈，拒绝的动作不改变当前状态。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.20459，平台标注发表/更新 2026-10-14）；2026-10-27 核验，归入 2026-10-25 日报；非归档日首发，实验及能力结论为作者报告；周末回顾；项目链接由论文页面提供",
+      "highlight": "专业推理可把可执行承诺与自然语言解释连接，外部测量仍需单独验证。",
+      "tags": [
+        "formal-verification",
+        "stateful-mcp",
+        "scientific-reasoning"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 15,
+      "time": "2026-10-25",
+      "stars": null
+    }
+  ]
+}

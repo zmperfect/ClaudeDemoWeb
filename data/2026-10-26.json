@@ -1,0 +1,283 @@
+{
+  "items": [
+    {
+      "category": "news",
+      "title": "GPT-6.1 Terra 发布：面向视觉推理、电脑操作和写作",
+      "url": "https://developers.openai.com/api/docs/models/gpt-6.1-terra",
+      "summary": "OpenAI 更新记录列出 10 月 26 日发布 GPT-6.1 Terra，官方模型文档定位为快速高效的视觉与操作模型。文档提供多档推理强度，并明确工具调用需要 Responses API。",
+      "source": "OpenAI 官方模型文档与 Changelog（2026-10-26 发布）；2026-10-27 核验；2026-10-27 核验，归入 2026-10-26 日报；收录日期不代表首发日期",
+      "highlight": "集成时除比较能力与成本，也需检查目标端点是否支持所需工具调用。",
+      "tags": [
+        "gpt-6.1-terra",
+        "visual-reasoning",
+        "computer-use"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 1,
+      "time": "2026-10-26",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "VKORE-325M-NPU：在推理 NPU 上从零训练字节语言模型的复现实验",
+      "url": "https://huggingface.co/blog/FINAL-Bench/pretraining-a-325m-language-model-from-zero-on-an",
+      "summary": "作者报告在商用推理 NPU 上完成反向传播预训练，并以相同初始化、数据和优化日程训练 GPU 对照。公开两组权重与评估脚本，在未见文本窗口上比较损失。",
+      "source": "FINAL-Bench 项目作者文章，发布 2026-10-26；硬件可训练性与效果均为作者实验报告；2026-10-27 核验，归入 2026-10-26 日报；收录日期不代表首发日期",
+      "highlight": "这是短上下文的字节级模型实验，不能直接外推为大模型训练吞吐或经济性结论。",
+      "tags": [
+        "npu-training",
+        "byte-language-model",
+        "reproducibility"
+      ],
+      "id": 2,
+      "time": "2026-10-26",
+      "stars": null
+    },
+    {
+      "category": "tool",
+      "title": "Trainium 模型支持查询：查看版本、运行脚本与测试边界",
+      "url": "https://huggingface.co/blog/torch-neuronx-model-support",
+      "summary": "Hugging Face 提供按模型和软件栈查询的测试结果，包含分片数、编译在内的耗时、峰值显存及复现脚本。文章说明通过测试仅覆盖短生成检查，不代表长生成质量或高吞吐。",
+      "source": "Hugging Face 官方技术文章，发布 2026-10-23；2026-10-26 日报补充收录；2026-10-27 核验，归入 2026-10-26 日报；收录日期不代表首发日期",
+      "highlight": "硬件兼容表应与测试范围一起读，短样例通过不能代替实际工作负载测试。",
+      "tags": [
+        "trainium",
+        "model-compatibility",
+        "reproducible-inference"
+      ],
+      "id": 3,
+      "time": "2026-10-26",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "RSIHub：复用执行、评估与版本谱系的 Agent 演化框架",
+      "url": "https://github.com/simple-agent-lab/RSIHub",
+      "summary": "把演化方法组织为可组合操作和可变资源，由共享基础设施提供执行、恢复、评估与历史追踪。评估放在可变表面之外，作者在固定配置下比较多种方法及其保留任务迁移。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.32253，平台标注发表/更新 2026-10-23）；2026-10-27 核验，归入 2026-10-26 日报；非归档日首发，实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "有助于把优化策略差异与实验基础设施差异分开，避免只报告训练集内的演化收益。",
+      "tags": [
+        "agent-evolution",
+        "experiment-lineage",
+        "composable-framework"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 4,
+      "time": "2026-10-26",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "UserArena：以真实购物轨迹评估长程用户模拟",
+      "url": "https://github.com/RecGPT-Team/UserArena",
+      "summary": "提供细粒度会话轨迹和交互环境，从局部决策到个性化与结果开展多层评估，并与受控线上 A/B 结果比较。轨迹蒸馏方法在学生 rollout 上提供意图相关的稠密教师监督。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.30932，平台标注发表/更新 2026-10-22）；2026-10-27 核验，归入 2026-10-26 日报；非归档日首发，实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "推荐 Agent 的模拟器需要检验长程行为与策略效果，不能只检查回复看起来是否合理。",
+      "tags": [
+        "user-simulation",
+        "shopping-agent",
+        "trajectory-distillation"
+      ],
+      "topic": [
+        "agent",
+        "memory",
+        "post-training"
+      ],
+      "id": 5,
+      "time": "2026-10-26",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Omni-Woodpecker：在隐藏表示中重平衡证据与先验",
+      "url": "https://github.com/ZiiJianLiu/Omni-Woodpecker",
+      "summary": "从不同模态视图检测音视频冲突，通过正交分解区分落地证据和竞争先验。解码前抑制误导先验并恢复被忽略证据，作者测试免训练修正的跨架构表现。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.27103，平台标注发表/更新 2026-10-19）；2026-10-27 核验，归入 2026-10-26 日报；非归档日首发，实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "可关注多模态幻觉在融合表示中的来源，仍需检查一般任务能力是否保持。",
+      "tags": [
+        "omni-llm",
+        "hallucination-correction",
+        "evidence-rebalancing"
+      ],
+      "id": 6,
+      "time": "2026-10-26",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "在策略自训练：从高层主题合成问题与推理监督",
+      "url": "https://huggingface.co/papers/2610.32770",
+      "summary": "模型根据粗粒度主题自行构建问题课程和带特权信息的推理示范，再进行在策略自蒸馏。作者在文本与多模态任务上测试改善及未训练领域能力保留。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.32770，平台标注发表/更新 2026-10-23）；2026-10-27 核验，归入 2026-10-26 日报；非归档日首发，实验及能力结论为作者报告",
+      "highlight": "无外部题目监督不代表无需评估，合成课程的覆盖与独立测试仍是关键。",
+      "tags": [
+        "on-policy-distillation",
+        "self-training",
+        "synthetic-curriculum"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 7,
+      "time": "2026-10-26",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "FSPO：以历史输出分布稳定策略自蒸馏",
+      "url": "https://huggingface.co/papers/2610.19687",
+      "summary": "保存稀疏历史 next-token 分布作为固定时间目标，与当前特权适应结合，避免维护持续教师副本。再引入分歧修正、可靠性自适应参考监督与质量感知记忆，作者比较训练成本和任务效果。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.19687，平台标注发表/更新 2026-10-14）；2026-10-27 核验，归入 2026-10-26 日报；非归档日首发，实验及能力结论为作者报告",
+      "highlight": "自教师随学生变化时，可用函数空间中的历史目标提供时间分离。",
+      "tags": [
+        "policy-optimization",
+        "temporal-distillation",
+        "distribution-memory"
+      ],
+      "topic": [
+        "post-training",
+        "memory"
+      ],
+      "id": 8,
+      "time": "2026-10-26",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "MultiAgent-OPD：联合训练领导、搜索和回答角色",
+      "url": "https://huggingface.co/papers/2610.23234",
+      "summary": "先训练搜索与回答教师，再用冻结教师为学生搜索和摘要 token 提供局部过程监督。共享参数团队中，领导者从团队成功学习，回答者从候选正确性学习。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.23234，平台标注发表/更新 2026-10-20）；2026-10-27 核验，归入 2026-10-26 日报；非归档日首发，实验及能力结论为作者报告",
+      "highlight": "多 Agent 端到端训练可针对角色提供不同反馈，减少最终答案对中间贡献的模糊归因。",
+      "tags": [
+        "multi-agent-training",
+        "on-policy-distillation",
+        "process-supervision"
+      ],
+      "topic": [
+        "agent",
+        "post-training",
+        "rag"
+      ],
+      "id": 9,
+      "time": "2026-10-26",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "CycleGRPO：用区域描述与反向定位形成可验证循环",
+      "url": "https://github.com/devinxzhang/CycleGRPO",
+      "summary": "先为图像或视频区域生成描述，再从描述定位原区域，以重建重叠构造奖励。统一空间、时间与时空区域表示，并引入测试重复事件区分能力的评测。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.29552，平台标注发表/更新 2026-10-21）；2026-10-27 核验，归入 2026-10-26 日报；非归档日首发，实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "可把正向理解与逆向定位结合为自评价信号，同时检查描述是否足够独特。",
+      "tags": [
+        "cycle-consistency",
+        "grpo",
+        "visual-grounding"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 10,
+      "time": "2026-10-26",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Kolab：评测专业人员如何采纳和修订 Agent 贡献",
+      "url": "https://github.com/minnesotanlp/kolab",
+      "summary": "收集不同职业的长程协作屏幕记录与主观质量判断，构建贡献使用预测和协作质量判断任务。作者发现自动化能力并不直接代表有效协作，更多历史也未必改善判断。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.21109，平台标注发表/更新 2026-10-15）；2026-10-27 核验，归入 2026-10-26 日报；非归档日首发，实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "协作系统需要理解用户会采纳、修改还是拒绝产物，完成一次任务并非唯一指标。",
+      "tags": [
+        "human-agent-collaboration",
+        "professional-workflows",
+        "adoption-prediction"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 11,
+      "time": "2026-10-26",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "PaperFormalizer：由作者决定修订的 Lean 论文形式化",
+      "url": "https://huggingface.co/papers/2610.31810",
+      "summary": "从 LaTeX 建立论断依赖图，先审核忠实性、歧义与正确性，再对声明进行形式化和证明。涉及不同解释或可能改变结论时，流程向作者提出可接受、拒绝或重定向的修订。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.31810，平台标注发表/更新 2026-10-22）；2026-10-27 核验，归入 2026-10-26 日报；非归档日首发，实验及能力结论为作者报告",
+      "highlight": "形式化应保留作者对论断语义的决定权，并将证明代码链接回原始声明。",
+      "tags": [
+        "lean",
+        "autoformalization",
+        "author-in-the-loop"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 12,
+      "time": "2026-10-26",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "DetectorScope：用可解释稀疏特征构建文本检测器",
+      "url": "https://github.com/google-deepmind/detectorscope",
+      "summary": "在检测器的残差流训练稀疏自编码器，为特征生成解释并筛掉未达忠实度门槛的特征。再用保留概念训练轻量分类器，作者比较分布外文本上的表现。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.30006，平台标注发表/更新 2026-10-21）；2026-10-27 核验，归入 2026-10-26 日报；非归档日首发，实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "可解释特征有助于审计检测依据，检测器分数不应直接当作作者身份的证明。",
+      "tags": [
+        "sparse-autoencoder",
+        "text-detection",
+        "interpretable-features"
+      ],
+      "id": 13,
+      "time": "2026-10-26",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "FLORA：面向机器人数据引擎的奖励与字幕模型套件",
+      "url": "https://github.com/NVIDIA/Flora",
+      "summary": "为部署监控提供结果奖励标签，为 RL 提供过程奖励标签，并为预训练数据提供时间戳字幕。作者比较公开及内部机器人基准，并介绍大规模数据标注使用情况。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.31779，平台标注发表/更新 2026-10-22）；2026-10-27 核验，归入 2026-10-26 日报；非归档日首发，实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "机器人训练的数据质量可分阶段检查，厂商内部成本和吞吐结论需按其部署配置理解。",
+      "tags": [
+        "robotics-data-engine",
+        "reward-labeling",
+        "video-captioning"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 14,
+      "time": "2026-10-26",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "RynnUnify：融合具身理解、视觉规划与机器人控制",
+      "url": "https://huggingface.co/papers/2610.32965",
+      "summary": "16B 模型通过交错视频语言推理连接空间理解与长期预测，并以强化学习扩展选择性视频预测工具使用。作者另构建世界动作扩展，分别评估规划、预期推理和机器人任务。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.32965，平台标注发表/更新 2026-10-23）；2026-10-27 核验，归入 2026-10-26 日报；非归档日首发，实验及能力结论为作者报告",
+      "highlight": "同一模型的理解、预测与控制能力需要分开评测，避免用单项成绩代表完整具身能力。",
+      "tags": [
+        "embodied-model",
+        "visual-planning",
+        "world-action-model"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 15,
+      "time": "2026-10-26",
+      "stars": null
+    }
+  ]
+}

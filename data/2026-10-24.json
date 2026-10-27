@@ -1,0 +1,293 @@
+{
+  "items": [
+    {
+      "category": "news",
+      "title": "Kimi K3.1 Pro：扩展后训练与长程 Agent 能力，完整权重仍待发布",
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "summary": "官方技术博客介绍 K3.1 Pro 与 Highspeed 版本，强调编码、3D 创建和长程任务能力，并说明面向多个领域扩展联合 RL。模型已列入 Kimi 产品和 API，公告承诺完整权重将于 11 月 4 日前发布。",
+      "source": "Moonshot 官方技术博客；按 2026-10-24 更新线索回补，页面未显示首发日期；2026-10-27 核验；权重日期属于发布计划，能力为厂商报告；2026-10-27 核验，归入 2026-10-24 日报；收录日期不代表首发日期",
+      "highlight": "应区分产品与 API 可用和完整权重发布，未来计划不等于已经可以下载。",
+      "tags": [
+        "kimi-k3.1-pro",
+        "joint-rl",
+        "agentic-model"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 1,
+      "time": "2026-10-24",
+      "stars": null
+    },
+    {
+      "category": "news",
+      "title": "Claude 的 Anthropic 托管版 Google Cloud 服务正式可用",
+      "url": "https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed",
+      "summary": "使用 Google Cloud IAM、账单和消费承诺访问完整 Claude Platform，官方说明新特性与 beta 随原生平台同步提供。文章同时区分 Anthropic 托管和 Google 托管两条路线的数据处理责任与集成需求。",
+      "source": "Anthropic 官方公告，发布 2026-10-22；2026-10-24 日报回顾补录，2026-10-27 核验；2026-10-27 核验，归入 2026-10-24 日报；收录日期不代表首发日期",
+      "highlight": "接入时需按数据处理方、区域要求和功能覆盖选择服务路线。",
+      "tags": [
+        "claude-platform",
+        "google-cloud",
+        "managed-api"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 2,
+      "time": "2026-10-24",
+      "stars": null
+    },
+    {
+      "category": "tool",
+      "title": "Nemotron 3.5 Retriever：联合更新 Embed、Rerank 与 Parse",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-retriever-world-class-agentic-retrieval",
+      "summary": "NVIDIA 扩展嵌入、重排和文档提取模型，覆盖多模态检索与低精度部署。作者在固定 Agent、工具和执行策略的条件下改变检索配置，同时比较任务结果与总推理 token。",
+      "source": "NVIDIA 官方团队文章，发布 2026-10-21；周末回顾补录；性能为厂商评测；2026-10-27 核验，归入 2026-10-24 日报；收录日期不代表首发日期",
+      "highlight": "检索层升级应同时衡量证据质量和端到端 Agent 成本，不能只比较独立向量分数。",
+      "tags": [
+        "nemotron-retriever",
+        "reranking",
+        "document-parsing"
+      ],
+      "topic": [
+        "rag",
+        "agent"
+      ],
+      "id": 3,
+      "time": "2026-10-24",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Socratic Skill Learning：交替教学与实践以学习可迁移技能",
+      "url": "https://github.com/NJU-LINK/Socratic-Skill-Learning",
+      "summary": "教师引导调查，学生始终负责操作环境和编写技能，并能测试或修订建议。研究用新会话中的保留任务检查技能迁移，再以未解决问题选择后续教学重点。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.17860，平台标注发表/更新 2026-10-13）；2026-10-27 核验，归入 2026-10-24 日报；非归档日首发，实验及能力结论为作者报告；周末回顾；项目链接由论文页面提供",
+      "highlight": "技能文档应包含适用条件的验证，单次任务成功未必足以支持迁移。",
+      "tags": [
+        "skill-learning",
+        "teaching-and-practice",
+        "skill-transfer"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 4,
+      "time": "2026-10-24",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "AgenticRoboRL：把编码 Agent 的后训练方法迁移到机器人规划",
+      "url": "https://huggingface.co/papers/2610.28589",
+      "summary": "通过框架专用适配器，将 VLA 技能调用或控制代码生成记录与任务结果连接到统一训练流程。配方结合 SFT 和多轮 RL，保持底层执行组件固定并测试规划器提升。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.28589，平台标注发表/更新 2026-10-20）；2026-10-27 核验，归入 2026-10-24 日报；非归档日首发，实验及能力结论为作者报告；周末回顾",
+      "highlight": "机器人系统除改进外部执行框架，也可直接训练上层规划策略。",
+      "tags": [
+        "robot-planner",
+        "sft",
+        "multi-turn-rl"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 5,
+      "time": "2026-10-24",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Agent4Sci：区分科学模型改进与研究层面的新见解",
+      "url": "https://github.com/maszhongming/agent4sci",
+      "summary": "以多个科学领域的真实 ML 基准测试长程研究 Agent，分析改进来自领域洞见还是工程调参。作者发现局部工程搜索等限制，并比较加入研究构思、实验管理和检查技能后的效果。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.28763，平台标注发表/更新 2026-10-20）；2026-10-27 核验，归入 2026-10-24 日报；非归档日首发，实验及能力结论为作者报告；周末回顾；项目链接由论文页面提供",
+      "highlight": "科学基准提升需要说明干预类型，不能直接等同于自主科学发现。",
+      "tags": [
+        "scientific-ml",
+        "research-agent",
+        "experiment-management"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 6,
+      "time": "2026-10-24",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "WorldStream：通过分层计划和持久状态扩展交互 3D 世界",
+      "url": "https://github.com/krennic999/WorldStream",
+      "summary": "宏观与微观计划约束地形、交通和实体，再由确定性代码编译成可游玩的区域。持久记录保存对象身份、随机种子、邻接约定和编辑，访问旧区域时据此重建。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.28827，平台标注发表/更新 2026-10-20）；2026-10-27 核验，归入 2026-10-24 日报；非归档日首发，实验及能力结论为作者报告；周末回顾；项目链接由论文页面提供",
+      "highlight": "适合研究在有限渲染预算下维持开放世界的结构与用户修改。",
+      "tags": [
+        "persistent-world",
+        "hierarchical-planning",
+        "procedural-generation"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 7,
+      "time": "2026-10-24",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "GRSE：通过多次执行对比给团队技能分配责任",
+      "url": "https://huggingface.co/papers/2610.27227",
+      "summary": "在相同技能库下重复执行问题，对比轨迹为 Agent 与技能组合分配相对信用。方法结合结构化失败诊断，并以植入有害技能的实验检查归因与修复能力。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.27227，平台标注发表/更新 2026-10-19）；2026-10-27 核验，归入 2026-10-24 日报；非归档日首发，实验及能力结论为作者报告；周末回顾",
+      "highlight": "某技能出现在成功轨迹中并不代表它有贡献，需要比较证据支持技能更新。",
+      "tags": [
+        "skill-evolution",
+        "group-relative-credit",
+        "multi-agent"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 8,
+      "time": "2026-10-24",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "DeLoop：用重复动作构造 Agent 自监督偏好数据",
+      "url": "https://github.com/cskyl/deloop",
+      "summary": "将产生相同观察的重复动作视为负例，把同轨迹中随后首个非循环动作视为正例，再通过 DPO 学习。作者测试历史压缩下的循环率、执行步数与成功率，无需任务奖励或外部裁判。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.19376，平台标注发表/更新 2026-10-14）；2026-10-27 核验，归入 2026-10-24 日报；非归档日首发，实验及能力结论为作者报告；周末回顾；项目链接由论文页面提供",
+      "highlight": "可参考如何从长程执行自身提取训练信号，尤其适用于压缩后重复查询的问题。",
+      "tags": [
+        "dpo",
+        "loop-reduction",
+        "self-supervised-agent"
+      ],
+      "topic": [
+        "agent",
+        "post-training",
+        "memory"
+      ],
+      "id": 9,
+      "time": "2026-10-24",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "PACE：按周期与通道量化线性注意力的循环状态",
+      "url": "https://huggingface.co/papers/2610.29545",
+      "summary": "隔若干生成 token 才量化状态，在小缓冲区暂存中间更新，以降低反复舍入误差。按列共享尺度，并为误差保留较久的头使用更高精度，作者比较不同模型的内存和质量。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.29545，平台标注发表/更新 2026-10-21）；2026-10-27 核验，归入 2026-10-24 日报；非归档日首发，实验及能力结论为作者报告；周末回顾",
+      "highlight": "循环状态量化还需考虑更新频率及误差传播，不能只比较位宽。",
+      "tags": [
+        "recurrent-state",
+        "4bit-quantization",
+        "linear-attention"
+      ],
+      "topic": [
+        "memory"
+      ],
+      "id": 10,
+      "time": "2026-10-24",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "ToM2Vec：以连续潜在 token 表达对协作伙伴的推测",
+      "url": "https://huggingface.co/papers/2610.29934",
+      "summary": "训练时利用伙伴实际思考提供抽象监督，测试时由 Agent 自行生成固定预算的潜在 token 以调节行动。作者在合作、竞争和混合动机场景中比较表现与未见伙伴泛化。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.29934，平台标注发表/更新 2026-10-21）；2026-10-27 核验，归入 2026-10-24 日报；非归档日首发，实验及能力结论为作者报告；周末回顾",
+      "highlight": "潜在伙伴模型需要检验能否预测信念和下一步行为，而不仅是提高任务分数。",
+      "tags": [
+        "theory-of-mind",
+        "latent-reasoning",
+        "multi-agent-coordination"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 11,
+      "time": "2026-10-24",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "RubatoCodec：在固定事件预算下自适应分配语音 token",
+      "url": "https://github.com/third-intelligence/RubatoCodec",
+      "summary": "根据编码特征与频谱变化，把语音分成可变时长事件，每个事件以离散编码和显式时长表示。研究比较低码率重建、可懂度与流式 TTS，测试预算化表示的效果。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.29434，平台标注发表/更新 2026-10-21）；2026-10-27 核验，归入 2026-10-24 日报；非归档日首发，实验及能力结论为作者报告；周末回顾；项目链接由论文页面提供",
+      "highlight": "语音压缩可同时控制整句 token 数量与局部内容分配。",
+      "tags": [
+        "speech-codec",
+        "adaptive-tokenization",
+        "streaming-tts"
+      ],
+      "id": 12,
+      "time": "2026-10-24",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "CAP：校准模型对用户语言变体的适应",
+      "url": "https://huggingface.co/papers/2610.28474",
+      "summary": "追踪 SFT、DPO 和 RL 各阶段对匹配用户拼写或方言的影响，以内容匹配回复对分析更新偏好。提出校准偏好数据，奖励适度匹配用户表达密度并测试未训练特征。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.28474，平台标注发表/更新 2026-10-20）；2026-10-27 核验，归入 2026-10-24 日报；非归档日首发，实验及能力结论为作者报告；周末回顾",
+      "highlight": "语言个性化应避免一味强化某种方言，也需检查对标准语言用户的影响。",
+      "tags": [
+        "preference-data",
+        "dialect-accommodation",
+        "post-training-audit"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 13,
+      "time": "2026-10-24",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "DiffResearch：以扩散模型执行规划、检索与报告撰写",
+      "url": "https://github.com/alanrbtx/DiffResearch",
+      "summary": "固定 Agent 框架、检索代码和提示后替换语言模型骨干，比较端到端耗时与研究报告质量。另通过中间去噪状态提前提取子查询，测试尚未完成生成时的任务分解。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.28909，平台标注发表/更新 2026-10-20）；2026-10-27 核验，归入 2026-10-24 日报；非归档日首发，实验及能力结论为作者报告；周末回顾；项目链接由论文页面提供",
+      "highlight": "扩散推理的局部速度优势应落实为完整研究流程中的延迟与证据质量比较。",
+      "tags": [
+        "diffusion-agent",
+        "deep-research",
+        "speculative-decomposition"
+      ],
+      "topic": [
+        "agent",
+        "rag"
+      ],
+      "id": 14,
+      "time": "2026-10-24",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "Looped UDLM：在均匀扩散语言模型中复用早期层",
+      "url": "https://huggingface.co/papers/2610.30066",
+      "summary": "保持训练目标和采样器不变，在每次去噪时循环调用部分 Transformer 层。作者比较等计算预算的训练损失、生成困惑度和不同循环次数分布。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.30066，平台标注发表/更新 2026-10-21）；2026-10-27 核验，归入 2026-10-24 日报；非归档日首发，实验及能力结论为作者报告；周末回顾",
+      "highlight": "循环深度可作为扩散语言模型的效率维度，训练收益与推理开销应分别报告。",
+      "tags": [
+        "uniform-diffusion",
+        "looped-transformer",
+        "compute-efficiency"
+      ],
+      "id": 15,
+      "time": "2026-10-24",
+      "stars": null
+    }
+  ]
+}

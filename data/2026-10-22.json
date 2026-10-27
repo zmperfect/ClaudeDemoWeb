@@ -1,0 +1,289 @@
+{
+  "items": [
+    {
+      "category": "tutorial",
+      "title": "ThinkingBox-Training：把数据库终态检查转为 GRPO 奖励",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "summary": "沿用可执行数据库结果检查，在基准之外构建训练任务并按基础策略的离线成功概率选择难度。作者报告重复成功任务增加，同时至少成功一次的任务覆盖略降，并提供训练与独立评测流程。",
+      "source": "Microsoft 与 Hugging Face 作者文章，发布 2026-10-22；实验为作者报告；2026-10-27 核验，归入 2026-10-22 日报；收录日期不代表首发日期",
+      "highlight": "奖励可直接检查实际业务记录，也应同时监控稳定成功率和任务覆盖的取舍。",
+      "tags": [
+        "grpo",
+        "database-reward",
+        "agent-training"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 1,
+      "time": "2026-10-22",
+      "stars": null
+    },
+    {
+      "category": "news",
+      "title": "Granite Speech 更新：覆盖转写、翻译和多说话人归属",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
+      "summary": "IBM 介绍新的 5.0 2B 语音语言模型，以及 Turbo CTC 和 4.1 2B Plus 的更新。三条路线分别面向准确转写翻译、高吞吐识别和带时间戳的说话人归属，并说明语言支持差异。",
+      "source": "IBM Granite 官方团队文章，发布 2026-10-21；性能为厂商测试；2026-10-27 核验，归入 2026-10-22 日报；收录日期不代表首发日期",
+      "highlight": "语音模型选型应同时检查语言、延迟、关键词偏置和说话人标注需求。",
+      "tags": [
+        "granite-speech",
+        "asr",
+        "speaker-attribution"
+      ],
+      "id": 2,
+      "time": "2026-10-22",
+      "stars": null
+    },
+    {
+      "category": "news",
+      "title": "OpenAI Decisions API 正式可用：单请求支持最多 400 个问题",
+      "url": "https://developers.openai.com/api/docs/guides/decisions",
+      "summary": "官方更新记录于 10 月 22 日宣布 Decisions API 与 gpt-6-luna 正式可用，增加共享输入缓存、逐问题图像和 input_json。文档区分可放入同一请求的独立问题与需要分开调用的依赖决策。",
+      "source": "OpenAI 官方 Decisions 文档与 Changelog（2026-10-22 更新）；功能按 2026-10-27 文档核验；2026-10-27 核验，归入 2026-10-22 日报；收录日期不代表首发日期",
+      "highlight": "适合共享证据上的批量分类和判断，问题之间存在依赖时仍需组织顺序。",
+      "tags": [
+        "decisions-api",
+        "structured-input",
+        "batch-classification"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 3,
+      "time": "2026-10-22",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "StreamEval：同时评测流式视频的执行、状态与视听协调",
+      "url": "https://github.com/StreamEval/StreamEval",
+      "summary": "围绕五类交互视频任务构建持续 15–300 秒的脚本测试，增量发送多模态请求并检查状态变化与内容保留。作者比较 37 种模型，发现视觉质量和身份保持并不必然带来可靠的请求执行。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.28402，平台标注发表/更新 2026-10-20）；2026-10-27 核验，归入 2026-10-22 日报；非归档日首发，实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "适合为实时视频产品补上时序执行和持续状态评测。",
+      "tags": [
+        "streaming-video",
+        "interactive-evaluation",
+        "state-consistency"
+      ],
+      "id": 4,
+      "time": "2026-10-22",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "LGWM：验证界面跳转是否符合刚才执行的动作",
+      "url": "https://huggingface.co/papers/2610.11942",
+      "summary": "直接预测下一屏的表示向量，再与实际观察比较，省去生成屏幕后再次调用模型判分。配对诊断让同一凭据页面分别出现在正常与被劫持跳转中，测试监控器能否识别动作语义。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.11942，平台标注发表/更新 2026-10-08）；2026-10-27 核验，归入 2026-10-22 日报；非归档日首发，实验及能力结论为作者报告",
+      "highlight": "GUI 安全应检查动作到状态的转移关系，同一个页面可能对应不同风险。",
+      "tags": [
+        "gui-verification",
+        "world-model",
+        "representation-prediction"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 5,
+      "time": "2026-10-22",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "SpatialScout：主动探索场景并建立度量化物体地图",
+      "url": "https://github.com/JesseZZZZZ/SpatialScout",
+      "summary": "给定物体清单、相机标定和位姿，让 VLM Agent 在预算内选择视角并估计共同坐标系中的物体位置。基准同时衡量定位精度和覆盖率，作者指出粗略布局恢复与完整精确建图仍有差距。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.26659，平台标注发表/更新 2026-10-19）；2026-10-27 核验，归入 2026-10-22 日报；非归档日首发，实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "适合区分空间问答能力与主动建图能力。",
+      "tags": [
+        "active-perception",
+        "3d-mapping",
+        "spatial-benchmark"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 6,
+      "time": "2026-10-22",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "AKV：让 Agent 直接管理活动 KV 缓存",
+      "url": "https://github.com/thu-nics/AKV",
+      "summary": "提出 drop 与 repos 等缓存操作，在不改写轨迹前缀的情况下调整后续注意力使用的历史。配套服务引擎管理状态化缓存复用、驱逐和恢复，并处理相同 token 前缀对应不同缓存状态的问题。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.28577，平台标注发表/更新 2026-10-20）；2026-10-27 核验，归入 2026-10-22 日报；非归档日首发，实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "上下文压缩之外，还可研究直接控制缓存的成本与正确性边界。",
+      "tags": [
+        "kv-cache",
+        "cache-engineering",
+        "agent-serving"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 7,
+      "time": "2026-10-22",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "WildAWM：合成同时支持 GUI、MCP 与命令行的训练环境",
+      "url": "https://github.com/MSR-Orchard/WildAWM",
+      "summary": "用开放模型生成可执行电脑操作环境与任务，让 Agent 混合视觉交互、工具调用和代码执行。通过执行质量门、交叉评审和反事实探测检查可解性、难度与验证器，再评估合成环境训练的迁移效果。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.26828，平台标注发表/更新 2026-10-19）；2026-10-27 核验，归入 2026-10-22 日报；非归档日首发，实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "环境生成需要同时解决能否完成、是否足够难以及如何可靠评分。",
+      "tags": [
+        "synthetic-environment",
+        "computer-use",
+        "agentic-rl"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 8,
+      "time": "2026-10-22",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "PrismaCoder：以分解评分准则训练多模态代码生成",
+      "url": "https://huggingface.co/papers/2610.20538",
+      "summary": "PrismaForge 将程序正确性、构建质量与渲染效果拆成可检查标准，同一套准则用于数据筛选和强化学习奖励。作者据此构建多模态代码数据集并训练两种规模模型，覆盖图表、网页和动画等产物。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.20538，平台标注发表/更新 2026-10-14）；2026-10-27 核验，归入 2026-10-22 日报；非归档日首发，实验及能力结论为作者报告",
+      "highlight": "可参考如何把视觉产物要求转化为训练信号，单看代码能否执行并不充分。",
+      "tags": [
+        "multimodal-coding",
+        "rubric-synthesis",
+        "reinforcement-learning"
+      ],
+      "topic": [
+        "post-training",
+        "agent"
+      ],
+      "id": 9,
+      "time": "2026-10-22",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "LASAGNA：检索组件的单独增益并不保证组合有效",
+      "url": "https://github.com/dolev31/lasagna",
+      "summary": "在八个基准和不同规模语料上比较 450 种 RAG 配置，覆盖分块、检索、重排与上下文处理。研究发现组件组合可能相互抵消，检索表现与答案忠实度的最优配置也会随语料规模变化。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.29722，平台标注发表/更新 2026-10-21）；2026-10-27 核验，归入 2026-10-22 日报；非归档日首发，实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "RAG 优化应在完整流水线中做消融，不能直接相加各组件的独立收益。",
+      "tags": [
+        "rag-composition",
+        "retrieval-evaluation",
+        "pipeline-ablation"
+      ],
+      "topic": [
+        "rag"
+      ],
+      "id": 10,
+      "time": "2026-10-22",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "TraceForge：从答案生成适合学生模型风格的训练推理轨迹",
+      "url": "https://huggingface.co/papers/2610.29680",
+      "summary": "以问题上下文和教师答案为输入，由生成器重建学生模型家族风格的推理，再用判别器进行对抗训练与候选筛选。作者在固定问题和答案的条件下比较训练效果，并明确轨迹真实性评分不等于正确率。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.29680，平台标注发表/更新 2026-10-21）；2026-10-27 核验，归入 2026-10-22 日报；非归档日首发，实验及能力结论为作者报告",
+      "highlight": "合成推理的可学习性与事实正确性需要分别验证。",
+      "tags": [
+        "reasoning-distillation",
+        "synthetic-traces",
+        "student-style"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 11,
+      "time": "2026-10-22",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "MCCL：以未来行动改善评估 Agent 的持续记忆",
+      "url": "https://huggingface.co/papers/2610.29357",
+      "summary": "提出按存储载体、记忆资产和管理策略组织的分类体系，以及记忆更新与策略改进的双循环。评测协议同时考虑干扰下保留、变化适应和任务迁移，并讨论经验、容量与计算预算的关系。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.29357，平台标注发表/更新 2026-10-21）；2026-10-27 核验，归入 2026-10-22 日报；非归档日首发，实验及能力结论为作者报告",
+      "highlight": "记忆效果应看后续行为是否改善，单独的事实召回率难以衡量持续学习。",
+      "tags": [
+        "continual-learning",
+        "memory-policy",
+        "experience-scaling"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 12,
+      "time": "2026-10-22",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "VerifierBench：生成的验证器会不会拒绝所有有效解",
+      "url": "https://github.com/DwanZhang-AI/verifier-suite",
+      "summary": "以多类 Agent 任务和隐藏测试检查自动生成的可执行验证器，测试集包含替代有效解与攻击样例。作者发现部分验证器因格式或工具使用假设过严而拒绝正确解，且自测可能复用相同错误假设。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.28679，平台标注发表/更新 2026-10-19）；2026-10-27 核验，归入 2026-10-22 日报；非归档日首发，实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "验证器既要拒绝错误解，也要证明自己能接受任务允许的不同正确解。",
+      "tags": [
+        "verifier-generation",
+        "false-rejection",
+        "executable-tests"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 13,
+      "time": "2026-10-22",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "Harness Scaling：在多种执行框架配置中训练 Agent",
+      "url": "https://huggingface.co/papers/2610.29458",
+      "summary": "构建可因子化的执行配置空间，以平衡覆盖的子集进行跨框架强化学习。作者比较未见白盒配置和外部黑盒框架上的迁移，强调训练多样性的组织方式。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.29458，平台标注发表/更新 2026-10-21）；2026-10-27 核验，归入 2026-10-22 日报；非归档日首发，实验及能力结论为作者报告",
+      "highlight": "固定框架训练可能造成专门化，工具和上下文管理配置也可成为训练维度。",
+      "tags": [
+        "harness-diversity",
+        "agentic-rl",
+        "generalization"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 14,
+      "time": "2026-10-22",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "StyleStream 2.0：流式变声与文本控制声音风格",
+      "url": "https://github.com/Berkeley-Speech-Group/StyleStream2.0",
+      "summary": "以少步 MeanFlow 和自回归反馈微调降低流式转换延迟，并用紧凑风格嵌入承载目标音色。另训练文本条件模型，支持从描述设计声音或修改指定风格属性。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.28940，平台标注发表/更新 2026-10-20）；2026-10-27 核验，归入 2026-10-22 日报；非归档日首发，实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "适合比较流式语音中的延迟、内容保持和未编辑属性保留。",
+      "tags": [
+        "voice-conversion",
+        "streaming-speech",
+        "style-editing"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 15,
+      "time": "2026-10-22",
+      "stars": null
+    }
+  ]
+}

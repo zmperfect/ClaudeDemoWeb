@@ -1,0 +1,290 @@
+{
+  "items": [
+    {
+      "category": "tool",
+      "title": "HF CLI 与 Hub 库更新：共享缓存、Job 重试和云端隔离执行",
+      "url": "https://huggingface.co/blog/huggingface/whats-new-in-the-hf-cli-and-huggingface-hub-librar",
+      "summary": "官方团队汇总跨仓库共享文件缓存、单文件清理、Jobs 重试重跑、Storage Buckets 和 Sandboxes 更新。也说明事件驱动 Job、脚本配置和命令行日志行为的改进。",
+      "source": "Hugging Face 官方团队文章，发布 2026-10-26；按 2026-10-27 状态核验；2026-10-27 核验，归入 2026-10-27 日报；收录日期不代表首发日期",
+      "highlight": "适合检查模型与数据流水线中的重复下载和失败恢复，自动化配置需按所用版本验证。",
+      "tags": [
+        "huggingface-hub",
+        "hf-cli",
+        "ml-workflow"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 1,
+      "time": "2026-10-27",
+      "stars": null
+    },
+    {
+      "category": "tutorial",
+      "title": "Polar Peaks：以互动任务学习数据清理、模型测试与人工监督",
+      "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+      "summary": "Google Research 和 Stanford Accelerator for Learning 发布 AI Quests 第三个任务，让学生在脑科学场景中练习 AI 素养。文章提供教师培训入口，并说明第三个任务的教师模块将在下月跟进。",
+      "source": "Google 官方教育公告，发布 2026-10-26；2026-10-27 核验；2026-10-27 核验，归入 2026-10-27 日报；收录日期不代表首发日期",
+      "highlight": "适合用于介绍模型如何依赖数据和人工检查，任务内容与配套教师模块的可用时间需区分。",
+      "tags": [
+        "ai-literacy",
+        "data-cleaning",
+        "model-testing"
+      ],
+      "id": 2,
+      "time": "2026-10-27",
+      "stars": null
+    },
+    {
+      "category": "tool",
+      "title": "bekko-static-embedding：无需 Transformer 的多语言检索表示",
+      "url": "https://huggingface.co/blog/hotchpotch/bekko-static-embedding",
+      "summary": "以固定 token 向量平均形成句向量，并用多语言对比训练优化检索。作者比较 CPU 效率、静态与上下文模型、Matryoshka 裁剪和 INT8 权重配置。",
+      "source": "模型作者技术文章，发布 2026-10-21；2026-10-27 补充收录；速度与检索效果为作者测试；2026-10-27 核验，归入 2026-10-27 日报；收录日期不代表首发日期",
+      "highlight": "可作为资源受限检索的基线，平均表示的上下文表达限制仍需在目标语料验证。",
+      "tags": [
+        "static-embedding",
+        "multilingual-retrieval",
+        "cpu-inference"
+      ],
+      "topic": [
+        "rag"
+      ],
+      "id": 3,
+      "time": "2026-10-27",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Trajectory2Gym：构建在决策时有证据支撑的工具训练轨迹",
+      "url": "https://github.com/yihaohu0118/Trajectory2Gym",
+      "summary": "围绕薄弱组合依赖合成可执行交互，仅从学生当时可见历史支持的决策提取监督。通过结构覆盖分配经验，再以父交互归一化 SFT 保持语义交互的训练权重。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.33568，平台标注发表/更新 2026-10-24）；2026-10-27 核验，归入 2026-10-27 日报；非归档日首发，实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "成功轨迹未必是可学习监督，需检查每一步是否使用了当时尚不可见的信息。",
+      "tags": [
+        "tool-use-training",
+        "trajectory-synthesis",
+        "decision-grounding"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 4,
+      "time": "2026-10-27",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "StreamVibe：追踪持续变化的显式与隐式视频用户意图",
+      "url": "https://huggingface.co/papers/2610.34662",
+      "summary": "提出覆盖动态意图的流式评测与模型，并用分层记忆维护意图生命周期和环境状态。作者比较何时响应、回答质量以及持续交互的一致性。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.34662，平台标注发表/更新 2026-10-26）；2026-10-27 核验，归入 2026-10-27 日报；非归档日首发，实验及能力结论为作者报告",
+      "highlight": "主动视频助手既需识别用户可能想做什么，也需及时淘汰已过时的意图。",
+      "tags": [
+        "proactive-video",
+        "intent-lifecycle",
+        "hierarchical-memory"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 5,
+      "time": "2026-10-27",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "TraceTrial-Bench：把任务成功与执行框架可靠性分开计分",
+      "url": "https://github.com/TraceLite-AI/TraceTrial-Bench",
+      "summary": "围绕上下文、执行、治理、生命周期、观察、工具与验证设计机制任务。通过轨迹记录和多来源证据归因，作者展示部分成功任务仍违反至少一项框架标准。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.32285，平台标注发表/更新 2026-10-23）；2026-10-27 核验，归入 2026-10-27 日报；非归档日首发，实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "能交付结果不代表整个执行过程可靠，框架评测需要独立机制指标。",
+      "tags": [
+        "harness-reliability",
+        "failure-attribution",
+        "trace-evaluation"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 6,
+      "time": "2026-10-27",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "InteractiveWorld：评测助手指导人类完成物理任务的闭环",
+      "url": "https://github.com/facebookresearch/InteractiveWorld",
+      "summary": "在环境中让模拟人类独立理解和执行指令，助手根据更新后的观察继续指导。基准覆盖多轮任务并使用状态奖励，作者比较不同多模态模型的规划和指导表现。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.33966，平台标注发表/更新 2026-10-25）；2026-10-27 核验，归入 2026-10-27 日报；非归档日首发，实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "助手对人的沟通与对机器人的控制并不相同，需用闭环交互检验指导效果。",
+      "tags": [
+        "interactive-assistant",
+        "human-centric-simulation",
+        "egocentric-agent"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 7,
+      "time": "2026-10-27",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "WorldCast：大角度运镜下保持角色几何与身份",
+      "url": "https://huggingface.co/papers/2610.33135",
+      "summary": "将初始帧反投影为点云并与目标相机轨迹对齐，得到几何引导和覆盖掩码。几何对齐记忆注意力从多视角角色锚点获取相关特征，作者评测轨迹遵循与外观保持。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.33135，平台标注发表/更新 2026-10-23）；2026-10-27 核验，归入 2026-10-27 日报；非归档日首发，实验及能力结论为作者报告",
+      "highlight": "跨大视角生成应同时核对相机运动、角色结构和未见区域的一致性。",
+      "tags": [
+        "camera-control",
+        "character-consistency",
+        "multiview-memory"
+      ],
+      "id": 8,
+      "time": "2026-10-27",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "AMBIT：结合可执行场景计划与空间音频生成编辑",
+      "url": "https://github.com/WJM-George/AMBIT",
+      "summary": "共享 Transfusion 骨干将源内容、活动与三维轨迹计划连接到声音渲染，参考潜在表示用于保留未编辑细节。专用 FOA 编码器与在策略自蒸馏共同训练，作者比较内容、空间质量和编辑保真。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.34415，平台标注发表/更新 2026-10-25）；2026-10-27 核验，归入 2026-10-27 日报；非归档日首发，实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "空间音频编辑需检查声源轨迹和声道结构，也需确认保留声源未被改动。",
+      "tags": [
+        "spatial-audio",
+        "transfusion",
+        "on-policy-self-distillation"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 9,
+      "time": "2026-10-27",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "FORK：在评分准则覆盖之外奖励必要且正确的内容",
+      "url": "https://huggingface.co/papers/2610.33512",
+      "summary": "研究仅优化准则覆盖时产生冗长或错误补充的奖励投机现象。FORK 将召回与精确性结合，为回复单元分配必要性和事实正确性反馈，再比较覆盖、长度与偏好。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.33512，平台标注发表/更新 2026-10-24）；2026-10-27 核验，归入 2026-10-27 日报；非归档日首发，实验及能力结论为作者报告",
+      "highlight": "奖励设计应检查多写内容是否真的有用，覆盖率提高可能掩盖质量下降。",
+      "tags": [
+        "rubric-rl",
+        "reward-hacking",
+        "precision-objective"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 10,
+      "time": "2026-10-27",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Δτ-Bench：在持续变化的工具生态中维护技能",
+      "url": "https://github.com/zjunlp/delta-tau-bench",
+      "summary": "工具服务在多轮生态状态中消失、替换或增加更高效路径，任务要求 Agent 主动发现并调整操作知识。作者比较技能学习方法，并提出联合维护工具与过程知识的 Steward。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.34238，平台标注发表/更新 2026-10-25）；2026-10-27 核验，归入 2026-10-27 日报；非归档日首发，实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "技能是否有效取决于工具环境，部署后应评估失效恢复与新路径采用。",
+      "tags": [
+        "evolving-tools",
+        "skill-maintenance",
+        "ecosystem-adaptation"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 11,
+      "time": "2026-10-27",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Continual Learning Exam：以逐级解锁任务评测经验积累",
+      "url": "https://github.com/haoyu-zhao/Continual-Learning-Exam",
+      "summary": "专家设计职业任务的五级阶梯，后续层级建立在先前经验之上。作者比较一次提交与失败后诊断修订的完成率，检查是否能持续保留并运用经验。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.33956，平台标注发表/更新 2026-10-25）；2026-10-27 核验，归入 2026-10-27 日报；非归档日首发，实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "单次纠错收益与跨层级持续学习是不同指标，应分别跟踪。",
+      "tags": [
+        "continual-learning",
+        "experiential-learning",
+        "professional-benchmark"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 12,
+      "time": "2026-10-27",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "ProAS：按进展修整多轮 Agent 的优势分配",
+      "url": "https://huggingface.co/papers/2610.18683",
+      "summary": "使用动态 Agentic Reference Graph 标记不合理激励并重新分配惩罚，改善把整条轨迹优势均匀广播给所有动作的问题。作者在不同规模模型与环境中比较成功率、收敛和参考图误差鲁棒性。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.18683，平台标注发表/更新 2026-10-25）；2026-10-27 核验，归入 2026-10-27 日报；非归档日首发，实验及能力结论为作者报告",
+      "highlight": "无需独立 critic 也可研究更细的信用分配，但参考图本身的质量仍需检查。",
+      "tags": [
+        "advantage-shaping",
+        "multi-turn-rl",
+        "credit-assignment"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 13,
+      "time": "2026-10-27",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "PatEx-Gym：将现有技术搜索与证据化新颖性评估联测",
+      "url": "https://github.com/AIforIP/PatEx-Gym",
+      "summary": "把迭代检索、文档访问、推理和审查意见生成放进统一任务环境，并合成有证据锚点的搜索轨迹。作者训练紧凑 SFT 基线，指出最终决策正确率不能完全体现搜索与评估质量。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.33503，平台标注发表/更新 2026-10-24）；2026-10-27 核验，归入 2026-10-27 日报；非归档日首发，实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "可作为技术证据检索研究平台，基准结果不能代替实际专利审查结论。",
+      "tags": [
+        "prior-art-search",
+        "agentic-retrieval",
+        "trajectory-supervision"
+      ],
+      "topic": [
+        "agent",
+        "rag",
+        "post-training"
+      ],
+      "id": 14,
+      "time": "2026-10-27",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "AgentProofBench：把可复用验收规则与后续执行结果连接",
+      "url": "https://huggingface.co/papers/2610.34634",
+      "summary": "冻结验收程序后，用配对需求测试和相同保存起点评估复用，再检查部署状态中的错误如何影响交付。资源连接指令、状态、程序、参考规则与轨迹，便于追溯失败后果。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.34634，平台标注发表/更新 2026-10-25）；2026-10-27 核验，归入 2026-10-27 日报；非归档日首发，实验及能力结论为作者报告",
+      "highlight": "验收规则的测试正确性和接入后实际执行效果都需要验证。",
+      "tags": [
+        "reusable-verifier",
+        "web-agent",
+        "acceptance-rule"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 15,
+      "time": "2026-10-27",
+      "stars": null
+    }
+  ]
+}
