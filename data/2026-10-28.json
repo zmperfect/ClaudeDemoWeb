@@ -1,0 +1,293 @@
+{
+  "items": [
+    {
+      "category": "news",
+      "title": "Genie 4 研究预览：实时世界模拟加入原生声音与交互对话",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "summary": "Google DeepMind 宣布新一代实时世界模型，可用文本修改场景并生成环境声、音乐与交互对话，结合 Gemini 模型维护模拟连贯性。当前面向可信测试者开放研究预览，消费者和开发者渠道仍属于后续推出计划。",
+      "source": "Google DeepMind 官方公告，页面发布元数据为 2026-10-27 16:13 UTC（上海时间 2026-10-28）；2026-10-28 核验；能力为厂商展示",
+      "highlight": "值得观察世界状态、人物行为与音画交互的一致性，研究预览不代表面向所有用户开放。",
+      "tags": [
+        "genie-4",
+        "world-simulation",
+        "native-audio"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 1,
+      "time": "2026-10-28",
+      "stars": null
+    },
+    {
+      "category": "news",
+      "title": "LFM3：以共享混合骨干构建小型多模态模型家族",
+      "url": "https://www.liquid.ai/blog/lfm3",
+      "summary": "Liquid AI 发布 2B 级 LFM3 家族，覆盖文本、视觉、音频、全模态与决策模型，并提供基础与后训练权重。新骨干组合门控短卷积、滑动窗口和全局注意力，官方说明本地运行及单 GPU 专门化训练路径。",
+      "source": "Liquid AI 官方发布文章（2026-10-27）；2026-10-28 核验与收录，非当日首发；性能与设备适配结论为厂商报告",
+      "highlight": "可按具体模态和硬件评估端侧专门化方案，模型家族共享骨干不表示各版本能力和上下文相同。",
+      "tags": [
+        "lfm3",
+        "edge-multimodal",
+        "hybrid-architecture"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 2,
+      "time": "2026-10-28",
+      "stars": null
+    },
+    {
+      "category": "tool",
+      "title": "DecisionFormer：将模型微调为一次前向输出选项概率的决策器",
+      "url": "https://huggingface.co/blog/FrontiersMind/decisionformer",
+      "summary": "项目以统一配置组织骨干、注意力模式、决策头及全量、LoRA 或 QLoRA 微调，输出类型化问题的选项概率。文章介绍保留集温度校准、评测与服务接口，并区分最高选项概率和基于分布的 confidence。",
+      "source": "FrontiersMind 项目作者技术文章（2026-10-26）；2026-10-28 核验与补充收录，非当日首发；功能按作者文档描述",
+      "highlight": "适合结构化路由或评分的训练实验，校准概率和置信度都需要在目标分布上检验。",
+      "tags": [
+        "decision-model",
+        "lora",
+        "probability-calibration"
+      ],
+      "topic": [
+        "post-training",
+        "agent"
+      ],
+      "id": 3,
+      "time": "2026-10-28",
+      "stars": null
+    },
+    {
+      "category": "tutorial",
+      "title": "Hugging Face Agent 后训练课程：从 SFT 到真实执行框架中的 RL",
+      "url": "https://huggingface.co/blog/huggingface/train-agents",
+      "summary": "课程把 Agent 后训练分为 SFT、蒸馏、奖励学习、交互环境和执行框架扩展，逐步链接示例、直播与 TRL 文档。说明各阶段所需数据与反馈差异，并介绍长程 rollout 下生成和训练分离的工作流。",
+      "source": "Hugging Face 官方团队课程索引（2026-10-20）；2026-10-28 核验与补充收录，非当日首发",
+      "highlight": "适合按已有轨迹、教师模型、奖励和环境资源选择学习起点，训练配置仍以对应版本文档为准。",
+      "tags": [
+        "agent-training",
+        "trl",
+        "grpo"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 4,
+      "time": "2026-10-28",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "ChronoReplay：用按时间排列的异构监督改善流式空间能力",
+      "url": "https://github.com/yihaohu0118/ChronoReplay",
+      "summary": "保留不同空间任务的原生目标，把分类关系和度量信息组织成时间顺序片段，并平衡各类监督。作者在相同观察条件下比较多个空间基准，再单独测试自适应选帧的推理收益。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.34283，平台标注发表/更新 2026-10-25）；2026-10-28 核验与收录，非当日首发；实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "单一回答形式的进步未必迁移到其他空间判断，应检查监督保留了哪些区别。",
+      "tags": [
+        "streaming-spatial",
+        "chronological-replay",
+        "balanced-sft"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 5,
+      "time": "2026-10-28",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "HABIT-Bench：从长期弱证据推断用户习惯",
+      "url": "https://github.com/LUMIA-Group/habit-bench",
+      "summary": "以跨多次会话的合成历史测试习惯归纳，包含临时例外、习惯变化和用户未接受的建议。作者比较多种记忆方法，并发现直接提供标注证据后仍存在推断与应用困难。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.24520，平台标注发表/更新 2026-10-20）；2026-10-28 核验与收录，非当日首发；实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "记住发生过什么与正确推断长期习惯是不同能力，个性化应避免把单次选择固化。",
+      "tags": [
+        "habit-induction",
+        "longitudinal-memory",
+        "personalization"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 6,
+      "time": "2026-10-28",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "Memory Tax：分解记忆系统相对原始历史检索的净收益",
+      "url": "https://huggingface.co/papers/2610.34073",
+      "summary": "以直接 RAG 为参照，把专门记忆系统的收益与损失分开分析。研究指出重组事实或提炼偏好既可能帮助任务，也可能遮蔽证据，并讨论系统与评测层面的记忆代价。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.34073，平台标注发表/更新 2026-10-25）；2026-10-28 核验与收录，非当日首发；实验及能力结论为作者报告",
+      "highlight": "记忆系统应与强原始历史检索基线比较，不能仅看独立任务分数。",
+      "tags": [
+        "memory-tax",
+        "raw-history-baseline",
+        "evidence-loss"
+      ],
+      "topic": [
+        "agent",
+        "memory",
+        "rag"
+      ],
+      "id": 7,
+      "time": "2026-10-28",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "TTME：用外部记忆演化进行科学发现的测试时适应",
+      "url": "https://github.com/yepengliu/TTME",
+      "summary": "不断提炼发现过程中的经验并更新外部记忆，以指导后续尝试，而不在线更新模型权重。作者在同一发现框架内替换适应方式，比较五类数学任务的结果与计算成本。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.32046，平台标注发表/更新 2026-10-23）；2026-10-28 核验与收录，非当日首发；实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "可参考记忆适应和测试时训练的受控比较，结论适用于文中评测设置。",
+      "tags": [
+        "test-time-adaptation",
+        "scientific-discovery",
+        "memory-evolution"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 8,
+      "time": "2026-10-28",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Hy-Nomas：支持自由文本与连续运镜的多轮世界生成",
+      "url": "https://github.com/Tencent-Hunyuan/Hy-Nomas",
+      "summary": "用 8B 扩散骨干根据当前输入和缓存历史生成可变长度片段，因果注意力把动作限定在其对应时间窗口。视觉语言提示增强器整理交互历史，再通过分阶段课程与蒸馏训练。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.36729，平台标注发表/更新 2026-10-27）；2026-10-28 核验与收录，非当日首发；实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "多轮生成需要区分长期场景描述和短期动作指令，避免旧动作持续影响后续片段。",
+      "tags": [
+        "interactive-world",
+        "causal-attention",
+        "diffusion-distillation"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 9,
+      "time": "2026-10-28",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "免校准 MoE 通道选择：固定读取预算与解码效率联测",
+      "url": "https://huggingface.co/papers/2610.37386",
+      "summary": "研究比较阈值选择与逐 token top-k，指出经校准的阈值仍无法固定实际读取通道数。作者另提出基于模型权重的通道读取器，并比较相同预算下的生成质量与内核性能。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.37386，平台标注发表/更新 2026-10-27）；2026-10-28 核验与收录，非当日首发；实验及能力结论为作者报告",
+      "highlight": "MoE 稀疏读取应报告真实读取量、质量和批量条件，而不只给出预设阈值。",
+      "tags": [
+        "moe-decoding",
+        "channel-selection",
+        "calibration-free"
+      ],
+      "id": 10,
+      "time": "2026-10-28",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "推理强度怎么选：通过反事实执行评估额外计算价值",
+      "url": "https://huggingface.co/papers/2610.34491",
+      "summary": "在单次推理和长程 Agent 任务上比较不同 effort，发现更高强度并不总保留低强度已经解决的任务。作者分析验证、搜索和轨迹变化，并测试从低强度开始、经验证失败后再升级的策略。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.34491，平台标注发表/更新 2026-10-25）；2026-10-28 核验与收录，非当日首发；实验及能力结论为作者报告",
+      "highlight": "需要按任务测量推理强度的边际收益，最高档不能保证单个任务的最佳结果。",
+      "tags": [
+        "reasoning-effort",
+        "adaptive-compute",
+        "agent-cost"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 11,
+      "time": "2026-10-28",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "OvisOCR3：以多教师蒸馏整合文档解析与跨页表格能力",
+      "url": "https://huggingface.co/papers/2610.33066",
+      "summary": "0.8B 模型统一解析、OCR、关键信息提取、图注及跨页表格重建，用领域平衡中训练控制不同任务的监督比例。五个领域教师进行在策略蒸馏后，再结合各任务奖励实施混合 RL。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.33066，平台标注发表/更新 2026-10-20）；2026-10-28 核验与收录，非当日首发；实验及能力结论为作者报告",
+      "highlight": "小型文档模型应按任务分别核验，综合分数不能代替跨页结构和信息提取准确性。",
+      "tags": [
+        "document-parsing",
+        "multi-teacher-distillation",
+        "ocr"
+      ],
+      "topic": [
+        "post-training",
+        "rag"
+      ],
+      "id": 12,
+      "time": "2026-10-28",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Nemotron-Labs-Diffusion-Uni：跨范式蒸馏统一视觉理解与生成",
+      "url": "https://github.com/NVlabs/Nemotron-Labs-Diffusion-Uni",
+      "summary": "将自回归视觉模型的理解能力和连续流模型的生成能力，通过在策略蒸馏迁移到统一离散扩散模型。渐进腐蚀训练使推理过程能先提交中间 token，再逐步自修正。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.36466，平台标注发表/更新 2026-10-27）；2026-10-28 核验与收录，非当日首发；实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "可研究理解与生成监督如何进入同一扩散框架，跨任务效果需分别比较。",
+      "tags": [
+        "unified-diffusion",
+        "cross-paradigm-distillation",
+        "visual-generation"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 13,
+      "time": "2026-10-28",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "SearchHorizonBench：评估下一次搜索是否值得成本",
+      "url": "https://github.com/EthanNing/SearchHorizonBench",
+      "summary": "以配对续跑和重复执行区分搜索的期望增益与生成噪声，连接预测质量和实际决策效用。作者发现历史校准更多解释成功概率，而对额外搜索增益的预测仍然困难。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.34714，平台标注发表/更新 2026-10-26）；2026-10-28 核验与收录，非当日首发；实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "判断问题难度不等于判断继续检索的价值，搜索停止策略应有专门评测。",
+      "tags": [
+        "search-value",
+        "paired-continuation",
+        "retrieval-stopping"
+      ],
+      "topic": [
+        "agent",
+        "rag"
+      ],
+      "id": 14,
+      "time": "2026-10-28",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "MatAnyone-E：对不确定区域做稀疏高分辨率视频抠像",
+      "url": "https://github.com/Shuyun-Wang/MatAnyone-E",
+      "summary": "先以低分辨率传播定位需要细查的区域及相关记忆，再只在这些位置进行高分辨率匹配。轻量解码器通过表示蒸馏降低输出开销，作者在指定 GPU 和分辨率下比较质量、速度与峰值显存。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.35724，平台标注发表/更新 2026-10-26）；2026-10-28 核验与收录，非当日首发；实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "视频中的稀疏记忆匹配可减少重复计算，速度不能脱离硬件、编译和分辨率条件理解。",
+      "tags": [
+        "video-matting",
+        "sparse-memory",
+        "high-resolution"
+      ],
+      "id": 15,
+      "time": "2026-10-28",
+      "stars": null
+    }
+  ]
+}
