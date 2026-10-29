@@ -1,0 +1,283 @@
+{
+  "items": [
+    {
+      "category": "news",
+      "title": "Gemini 4 Carbon 公布：面向长程工程与网络防御的分阶段开放",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "summary": "Google 宣布 Carbon，强调长程编码、工程任务与网络防御能力，并报告对齐和提示注入评测变化。初期向部分网络防御者及 Fairwind 可信伙伴逐步提供，面向普通开发者、企业和消费者仍属后续计划。",
+      "source": "Google 官方公告（2026-10-28）；2026-10-29 核验与收录，非当日首发；能力与安全比较为厂商报告",
+      "highlight": "应区分模型公告、受限访问和普遍可用，公告中的测试结果不代表所有实际任务表现。",
+      "tags": [
+        "gemini-4-carbon",
+        "long-horizon-agent",
+        "staged-rollout"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 1,
+      "time": "2026-10-29",
+      "stars": null
+    },
+    {
+      "category": "news",
+      "title": "微软发布多模型 Copilot 执行框架，并通过 Foundry 提供托管入口",
+      "url": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/",
+      "summary": "微软介绍由 GitHub 团队构建的统一执行框架，组织上下文、工具、运行环境和控制，支持 MCP、技能及插件。开发者可通过 SDK 或 Foundry 托管服务构建长程 Agent，模型选择与执行框架相互解耦。",
+      "source": "Microsoft 官方博客（2026-10-28）；2026-10-29 核验与收录，非当日首发；性能与覆盖范围按厂商公告",
+      "highlight": "多模型系统仍需统一上下文、权限和执行生命周期，切换模型只是其中一部分。",
+      "tags": [
+        "copilot-harness",
+        "multi-model-agent",
+        "microsoft-foundry"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 2,
+      "time": "2026-10-29",
+      "stars": null
+    },
+    {
+      "category": "news",
+      "title": "Nemotron 3.5 Transcribe 与 Granary v2：可提示控制的多语言转写",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "summary": "NVIDIA 在同一权重中整合录音转写、说话人归属、翻译和音频问答，并提供自然语言输出控制。Granary v2 同步发布数据与可复用清洗流程，配合微调工具支持领域适配；量化及部分本地部署方案仍为后续计划。",
+      "source": "NVIDIA 官方团队文章（2026-10-28）；2026-10-29 核验与收录，非当日首发；性能为厂商评测",
+      "highlight": "模型针对录制音频，各任务支持的语言不同；不能把高并发离线吞吐视为实时流式能力。",
+      "tags": [
+        "nemotron-transcribe",
+        "granary-v2",
+        "speech-adaptation"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 3,
+      "time": "2026-10-29",
+      "stars": null
+    },
+    {
+      "category": "tool",
+      "title": "Ai2 新颖性评测工具：检验 LLM 研究裁判对提示与检索的敏感性",
+      "url": "https://huggingface.co/blog/allenai/novelty-bench",
+      "summary": "基于同行评审中的新颖性信号构建人类研究想法对比，再加入简单生成器的想法测试裁判稳定性。作者改变提示、推理预算、检索和呈现方式，发现更多搜索或计算未必改善判断。",
+      "source": "Ai2 官方团队文章（2026-10-27），关联论文 2610.02022；2026-10-29 核验与补充收录，非当日首发；生成想法比较含弱标签假设，结果为作者评测",
+      "highlight": "新颖性评分应进行敏感性检查并核对文献证据，不能直接作为研究价值的最终判定。",
+      "tags": [
+        "novelty-evaluation",
+        "llm-judge",
+        "research-benchmark"
+      ],
+      "topic": [
+        "agent",
+        "rag"
+      ],
+      "id": 4,
+      "time": "2026-10-29",
+      "stars": null
+    },
+    {
+      "category": "tutorial",
+      "title": "TorchNeuron 性能分析入门：从算子耗时追到 Trainium 系统轨迹",
+      "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+      "summary": "教程用相同输入和分析日程比较朴素 RMSNorm、内置融合算子与 torch.compile 路径。通过 torch.profiler 和 Neuron Explorer 对齐 CPU、运行时与设备时间，并说明预热与同步对有效轨迹的影响。",
+      "source": "AWS 作者技术教程（Hugging Face Blog，2026-10-21）；2026-10-29 核验与补充收录，非当日首发",
+      "highlight": "适合学习如何定位推理瓶颈，测量时应避免把首次编译和异步导出误差混入执行时间。",
+      "tags": [
+        "torchneuron",
+        "trainium",
+        "performance-profiling"
+      ],
+      "id": 5,
+      "time": "2026-10-29",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "DTCA：为扩散语言模型的去噪 token 分配强化学习信用",
+      "url": "https://github.com/ZJU-OmniAI/DTCA",
+      "summary": "通过提交 token 后剩余掩码位置的预测置信度变化估计贡献，并按词性组织信号。方法据此选择信息量较高的去噪步，再用策略更新引起的 token 熵变化校准学习信号。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.35201，平台标注发表/更新 2026-10-26）；2026-10-29 核验与收录，非当日首发；实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "扩散生成中的决策发生在多个去噪时刻，最终结果奖励需要更细粒度的归因。",
+      "tags": [
+        "diffusion-rl",
+        "token-credit-assignment",
+        "denoising"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 6,
+      "time": "2026-10-29",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Falcon 与 RealSSA：在真实声学干扰中评测流式目标说话人提取",
+      "url": "https://github.com/JusperLee/Falcon",
+      "summary": "RealSSA 覆盖动态近场及远场干扰、混响和真实录音，弥补固定双说话人场景的局限。Falcon 以单次编解码过程完成多尺度时频分离，并在训练时用说话人对比损失抑制泄漏。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.32749，平台标注发表/更新 2026-10-23）；2026-10-29 核验与收录，非当日首发；实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "实时语音系统应同时检查提取质量、干扰覆盖和端侧计算成本。",
+      "tags": [
+        "target-speaker-extraction",
+        "streaming-audio",
+        "audio-visual"
+      ],
+      "id": 7,
+      "time": "2026-10-29",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "OmniShowcase：用多视角几何约束保持视频主体一致性",
+      "url": "https://github.com/justin4ai/OmniShowcase",
+      "summary": "自动合成包含不同相机轨迹的视频，并从参考视图恢复表面法线转台作为几何条件。作者构建带源网格和相机参数的保留评测集，比较主体身份、三维一致性和运动质量。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.35684，平台标注发表/更新 2026-10-26）；2026-10-29 核验与收录，非当日首发；实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "当镜头展示参考图未覆盖的表面时，需要核对几何对应，而不只是首帧相似度。",
+      "tags": [
+        "subject-to-video",
+        "multiview-geometry",
+        "normal-map-conditioning"
+      ],
+      "id": 8,
+      "time": "2026-10-29",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "TAO：把工具返回就绪度纳入 Agent 服务联合调度",
+      "url": "https://huggingface.co/papers/2610.37230",
+      "summary": "价值接口结合近期工具就绪度、带时间衰减的节点缓存收益和 token 占用。动态规划联合选择等待会话及其 GPU 放置，作者在多种模型、负载和并发配置下比较延迟与吞吐。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.37230，平台标注发表/更新 2026-10-27）；2026-10-29 核验与收录，非当日首发；实验及能力结论为作者报告",
+      "highlight": "交互式服务的瓶颈可能在工具与模型交接处，调度应关注完整会话的资源状态。",
+      "tags": [
+        "agent-serving",
+        "tool-aware-scheduling",
+        "cache-aware-placement"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 9,
+      "time": "2026-10-29",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Sensorimotor Alignment：用表示与运动几何对齐筛选具身模型",
+      "url": "https://github.com/yunfeixie233/sensorimotor-alignment",
+      "summary": "提出免训练离线指标，测量感知表示是否与物理运动轨迹的几何结构一致。作者报告其与机器人任务成功率的相关性，并测试能否在昂贵 VLA 微调前筛选主干。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.31670，平台标注发表/更新 2026-10-23）；2026-10-29 核验与收录，非当日首发；实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "离线代理有助于缩小模型候选范围，相关性不能替代闭环机器人评测。",
+      "tags": [
+        "sensorimotor-alignment",
+        "embodied-evaluation",
+        "offline-proxy"
+      ],
+      "id": 10,
+      "time": "2026-10-29",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "The Trinity：围绕能力树联动模拟环境与执行框架演化",
+      "url": "https://huggingface.co/papers/2610.36077",
+      "summary": "Creator、Explorer 和 Evolver 根据验证轨迹，把不同表面任务重组为共享能力要求，再生成可验证模拟世界。可复用模块在固定拓扑中选择性继承，路由器根据公开任务信息选择适配配置，并以原任务检验迁移。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.36077，平台标注发表/更新 2026-10-26）；2026-10-29 核验与收录，非当日首发；实验及能力结论为作者报告",
+      "highlight": "递归改进仍发生在既定拓扑与验证机制中，模拟任务提升需要用外部分布测试确认。",
+      "tags": [
+        "recursive-self-improvement",
+        "capability-tree",
+        "harness-evolution"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 11,
+      "time": "2026-10-29",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "Rollback：在世界模型中回到关键决策点比较反事实动作",
+      "url": "https://huggingface.co/papers/2610.36068",
+      "summary": "回退到过去的状态并分支尝试替代动作，把结果差异转为动作级监督。系统联合分布式想象搜索与异步实机执行，再用真实转移通过轻量 LoRA 校正世界模型。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.36068，平台标注发表/更新 2026-10-26）；2026-10-29 核验与收录，非当日首发；实验及能力结论为作者报告",
+      "highlight": "可研究想象数据与真实反馈的闭环，反事实监督的价值取决于模拟动力学是否可靠。",
+      "tags": [
+        "world-model",
+        "policy-improvement",
+        "counterfactual-search"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 12,
+      "time": "2026-10-29",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "ThinkWorld：以世界想象强化动作的动态链推理",
+      "url": "https://huggingface.co/papers/2610.37666",
+      "summary": "用离散运动 token 表示当前状态与未来状态之间的中间动力学，先从带动作示范初始化。再预测各动态链引起的未来，并用观察到的结果强化匹配预测，使无动作标注视频也能提供监督。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.37666，平台标注发表/更新 2026-10-27）；2026-10-29 核验与收录，非当日首发；实验及能力结论为作者报告",
+      "highlight": "人类与机器人视频可以共享动态表示，但跨具身迁移仍需真实任务验证。",
+      "tags": [
+        "chain-of-dynamics",
+        "world-imagination",
+        "human-to-robot"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 13,
+      "time": "2026-10-29",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "CrossProfile：相关或稀有的信息也可能误导群体决策",
+      "url": "https://huggingface.co/papers/2610.37624",
+      "summary": "保持事实文本不变并交叉分配其持有者，诊断按相关性或稀有度压缩讨论的记忆策略。作者发现诱饵事实可能同样相关，持有该事实的 Agent 数量也会对最终决策产生额外影响。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.37624，平台标注发表/更新 2026-10-27）；2026-10-29 核验与收录，非当日首发；实验及能力结论为作者报告",
+      "highlight": "讨论摘要应保留证据结构，相关性、稀有度和群体支持度都不能单独代表事实价值。",
+      "tags": [
+        "group-decision",
+        "memory-selection",
+        "social-proof"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 14,
+      "time": "2026-10-29",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "MLE-World：预测机器学习实验输出以筛选候选程序",
+      "url": "https://huggingface.co/papers/2610.37175",
+      "summary": "根据代码和数据描述预测错误、日志及验证分数，同时估计预测正确性的置信度。研究以多种候选搜索策略使用该模型，在低置信度时实际执行程序，并与真实训练运行比较。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.37175，平台标注发表/更新 2026-10-27）；2026-10-29 核验与收录，非当日首发；实验及能力结论为作者报告",
+      "highlight": "可用预测减少部分实验开销，关键候选和最终结论仍应依靠真实执行验证。",
+      "tags": [
+        "experiment-world-model",
+        "research-agent",
+        "confidence-guided-search"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 15,
+      "time": "2026-10-29",
+      "stars": null
+    }
+  ]
+}
