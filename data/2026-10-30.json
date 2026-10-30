@@ -1,0 +1,294 @@
+{
+  "items": [
+    {
+      "category": "news",
+      "title": "Mistral Large 4 权重与部署指南：FP8、NVFP4 和社区 GGUF",
+      "url": "https://huggingface.co/blog/mistral-large4",
+      "summary": "Hugging Face 介绍 Mistral Large 4 的多模态 MoE 结构、百万 token 上下文及两种官方权重格式，并链接社区 GGUF。文章给出推理和微调入口，区分专家稀疏激活与注意力位置选择两种机制。",
+      "source": "Hugging Face 官方团队集成文章（2026-10-29）；2026-10-30 核验与收录；本条为权重与部署更新，不代表模型最初公布日期",
+      "highlight": "自托管需要同时核对权重格式、运行框架和模型许可，不能仅凭总参数估计实际运行开销。",
+      "tags": [
+        "mistral-large-4",
+        "open-weights",
+        "model-deployment"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 1,
+      "time": "2026-10-30",
+      "stars": null
+    },
+    {
+      "category": "news",
+      "title": "Project ProtoStar：推动科研数据、模型和代码以可复用格式开放",
+      "url": "https://huggingface.co/blog/announcing-project-protostar",
+      "summary": "Hugging Face 与高校及开放科学伙伴发起计划，改善公共资助研究产物的可发现性、元数据和机器可用格式。首个气候风险挑战计划于 11 月 2 日开放，公告同时说明合作与参与路径。",
+      "source": "Hugging Face 与 Project ProtoStar 合作方公告（2026-10-29）；2026-10-30 核验与收录，非当日首发；挑战开放时间为计划",
+      "highlight": "科研材料公开下载不等于可直接供 AI 复用，文档、元数据和来源信息同样影响价值。",
+      "tags": [
+        "open-science",
+        "ai-ready-data",
+        "scientific-artifacts"
+      ],
+      "id": 2,
+      "time": "2026-10-30",
+      "stars": null
+    },
+    {
+      "category": "tool",
+      "title": "Granite Switch 4.1.1：以适配器补丁更新语音与决策能力",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "summary": "IBM 在不重算基础模型的情况下更新 ASR 和 Decision 适配器，语音组件增加多语言转写及原生标点大小写。厂商将本次定位为兼容 4.1 的补丁，并说明面向第三方开发者的 Adapter SDK 仍在准备。",
+      "source": "IBM Granite 官方团队文章（2026-10-29）；2026-10-30 核验与收录，非当日首发；兼容性与评测结论为厂商报告",
+      "highlight": "模块化升级可缩小更新范围，但仍应验证实际任务回归；已发布补丁与后续 SDK 计划需区分。",
+      "tags": [
+        "granite-switch",
+        "adapter-update",
+        "speech-to-decisions"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 3,
+      "time": "2026-10-30",
+      "stars": null
+    },
+    {
+      "category": "tutorial",
+      "title": "Swift 本地语音与决策接口：AnySpeechRecognizer 和 AnyDecisionModel",
+      "url": "https://huggingface.co/blog/anydecisionmodel",
+      "summary": "文章展示如何保留熟悉的 Swift API 切换开放语音识别引擎，以及按选项概率返回结构化决策。配套说明 Core ML、MLX 等后端，并列出实时结果、时间戳和置信度随引擎不同的支持差异。",
+      "source": "Hugging Face / 项目作者发布教程（2026-10-29）；2026-10-30 核验与收录，非当日首发",
+      "highlight": "接口统一不意味着底层能力完全一致，应按语言覆盖和文件或实时输入需求选择引擎。",
+      "tags": [
+        "swift",
+        "local-speech",
+        "decision-model"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 4,
+      "time": "2026-10-30",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "VibeGame：以结构化引擎和对抗评审团队生成完整 2D 游戏",
+      "url": "https://github.com/tettethu/VibeGame",
+      "summary": "引擎将项目状态表示为经 Schema 验证的文本，并提供逐帧同步控制，让 Agent 检查场景和交互行为。专门团队在实现与评审之间反复修正，再把通过验收的项目提炼为可复用模块和协作约定。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.33106，平台标注发表/更新 2026-10-22）；2026-10-30 核验与收录，非当日首发；实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "游戏生成应验证代码、场景、资源和运行行为的整合，单看截图不足以确认可玩性。",
+      "tags": [
+        "prompt-to-game",
+        "adversarial-review",
+        "reusable-modules"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 5,
+      "time": "2026-10-30",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "IntReal：联合图文交错生成数据与细粒度评测",
+      "url": "https://github.com/yushaohan/IntReal",
+      "summary": "提供真实来源的交错图文样本及七个互补评测维度，以专家模型进行由粗到细的诊断。作者比较不同统一多模态模型，并用后训练实验分析单模态优化对交错生成的迁移。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.38425，平台标注发表/更新 2026-10-28）；2026-10-30 核验与收录，非当日首发；实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "图文生成需要同时核对各模态质量和跨段关系，统一总分可能掩盖不同能力短板。",
+      "tags": [
+        "interleaved-generation",
+        "multimodal-dataset",
+        "expert-evaluation"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 6,
+      "time": "2026-10-30",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "WebAnything：从真实网站重建可复位的 Agent 环境",
+      "url": "https://github.com/china-qijizhifeng/Web-Anything",
+      "summary": "自动采集浏览器可见结构、资源和交互结果，构建可复用网站环境，再由独立验证器检查冻结候选。局部修复或定向重新采集用于改善保真度，作者评估环境质量与轨迹微调后的迁移。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.37786，平台标注发表/更新 2026-10-27）；2026-10-30 核验与收录，非当日首发；实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "网站镜像既需可执行和可复位，也要保持源站行为，环境验收应独立于构建过程。",
+      "tags": [
+        "web-environments",
+        "source-grounded-reconstruction",
+        "agent-training"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 7,
+      "time": "2026-10-30",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "WorkFactory：以信息支持图构建可执行职业任务",
+      "url": "https://github.com/IQuestLab/WorkFactory",
+      "summary": "从职业意图规划产物所需信息的依赖和位置，再通过探测执行发现支持缺口并修复。收集教师轨迹训练不同规模模型，作者比较任务规划、修复和数据扩展的下游效果。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.37161，平台标注发表/更新 2026-10-27）；2026-10-30 核验与收录，非当日首发；实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "任务文本看似完整不代表教师能执行，训练数据应检查环境是否提供了必要信息。",
+      "tags": [
+        "professional-tasks",
+        "information-support-graph",
+        "supervised-agent-training"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 8,
+      "time": "2026-10-30",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "WeVisCut：把完整视频反演为可执行剪辑监督",
+      "url": "https://github.com/Tencent/WeVisCut",
+      "summary": "执行框架保存共享制作状态，用工具反馈指导后续镜头决策和失败修复。数据流水线结合剪辑意图恢复与验证回放，训练紧凑策略，并同时评测编辑质量和交付可靠性。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.38352，平台标注发表/更新 2026-10-28）；2026-10-30 核验与收录，非当日首发；实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "从成片构造训练轨迹需要验证可回放性，质量与成功交付成本也应共同衡量。",
+      "tags": [
+        "long-form-video",
+        "editing-agent",
+        "verified-replay"
+      ],
+      "topic": [
+        "agent",
+        "post-training",
+        "memory"
+      ],
+      "id": 9,
+      "time": "2026-10-30",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "RealCLI：将命令行任务执行与人机协作配对评测",
+      "url": "https://huggingface.co/papers/2610.22507",
+      "summary": "完整规格模式一次提供需求，协作模式则逐步加入新信息、纠正、约束变化与授权决定。作者通过多维框架比较任务效果和运行中协作，发现二者的表现存在明显差异。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.22507，平台标注发表/更新 2026-10-15）；2026-10-30 核验与收录，非当日首发；实验及能力结论为作者报告",
+      "highlight": "CLI Agent 的能力还包括接受用户修订和校准信任，固定题目成功率无法覆盖这些需求。",
+      "tags": [
+        "cli-agent",
+        "human-agent-collaboration",
+        "runtime-steering"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 10,
+      "time": "2026-10-30",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "PersonaCUABench：同一电脑任务换一种用户表达会怎样",
+      "url": "https://github.com/MatrAIx-ai/PersonaCUABench",
+      "summary": "保持原始任务不变，由不同用户角色改写需求并回答 Agent 提问，执行者只看到对话。作者区分实际执行错误与用户要求停止却被检查器计为失败的情形，同时比较满意度。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.22990，平台标注发表/更新 2026-10-16）；2026-10-30 核验与收录，非当日首发；实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "个性化评测应检查用户约束与评分器是否一致，完成原始指令未必满足当前用户。",
+      "tags": [
+        "computer-use",
+        "persona-benchmark",
+        "user-satisfaction"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 11,
+      "time": "2026-10-30",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "学习顺序实验设计：用信息增益奖励训练提问策略",
+      "url": "https://huggingface.co/papers/2610.20832",
+      "summary": "独立于模型自身信念指定实验生成模型，再用期望信息增益训练指导动作选择的推理。作者比较不同假设空间、奖励估计及多步目标，在问答式信息收集任务中测试泛化和计算成本。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.20832，平台标注发表/更新 2026-10-14）；2026-10-30 核验与收录，非当日首发；实验及能力结论为作者报告",
+      "highlight": "主动获取信息可作为可训练技能，评估时应明确奖励依赖的生成模型假设。",
+      "tags": [
+        "experimental-design",
+        "information-gain",
+        "active-reasoning"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 12,
+      "time": "2026-10-30",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "LongZero：先合成紧凑证据，再扩展长上下文训练任务",
+      "url": "https://github.com/zhennan1/LongZero",
+      "summary": "模型自行生成问题、答案和结构化支持证据，再将证据展开为多文档上下文。结合自写的多跳推理和多轮检索任务进行 GRPO，作者测试对真实长上下文基准的迁移。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.30132，平台标注发表/更新 2026-10-21）；2026-10-30 核验与收录，非当日首发；实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "零外部数据仍需独立验证题目可解性与真实任务泛化，不能只看合成训练奖励。",
+      "tags": [
+        "long-context",
+        "zero-data-rl",
+        "grpo"
+      ],
+      "topic": [
+        "post-training",
+        "memory",
+        "rag"
+      ],
+      "id": 13,
+      "time": "2026-10-30",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Instruction Capacity：在可计算规则负载下测量指令退化",
+      "url": "https://github.com/kutomanovhennadii/instruction-capacity",
+      "summary": "以相互独立的单 token 替换规则构造原子任务，控制文本长度、位置、密度和规则数量。统计模型在指定正确率下估计规则容量及不确定性，并开放测量数据和复算代码。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.36095，平台标注发表/更新 2026-10-26）；2026-10-30 核验与收录，非当日首发；实验及能力结论为作者报告；项目链接由论文页面提供",
+      "highlight": "这是受控替换任务的测量仪器，规则数量不能直接外推为所有真实提示的容量上限。",
+      "tags": [
+        "instruction-following",
+        "controlled-load",
+        "capacity-measurement"
+      ],
+      "id": 14,
+      "time": "2026-10-30",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "CoRE：共同学习查询规则路由与受约束知识检索",
+      "url": "https://huggingface.co/papers/2610.14465",
+      "summary": "路由 Agent 为查询选择推理规则，相应检索器沿知识库寻找并排序满足约束的证据。通过路由强化学习与检索器对比学习交替更新，无需预定义查询到规则的标注对。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.14465，平台标注发表/更新 2026-10-17）；2026-10-30 核验与收录，非当日首发；实验及能力结论为作者报告",
+      "highlight": "结构化检索的规则选择与证据排序相互依赖，适合用联合消融检查各组件贡献。",
+      "tags": [
+        "structured-retrieval",
+        "rule-routing",
+        "contrastive-learning"
+      ],
+      "topic": [
+        "rag",
+        "agent",
+        "post-training"
+      ],
+      "id": 15,
+      "time": "2026-10-30",
+      "stars": null
+    }
+  ]
+}
