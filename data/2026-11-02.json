@@ -1,0 +1,283 @@
+{
+  "items": [
+    {
+      "category": "news",
+      "title": "GPT-6 Rosalind：生命科学推理模型更新，继续采用机构可信访问",
+      "url": "https://developers.openai.com/api/docs/pricing#life-sciences-models",
+      "summary": "OpenAI 在 10 月 30 日更新日志中发布 GPT-6 Rosalind，将生物学推理与科研工具使用结合。官方文档列明其访问仍面向可信访问计划批准的机构与授权内部研究用户，并列出对应模型的计费档位。",
+      "source": "OpenAI API 官方更新日志（https://developers.openai.com/api/docs/changelog，2026-10-30）及官方生命科学模型价格与访问说明；仅批准机构的内部研究用途；2026-11-02 核验，补录至 2026-11-02 日报；日报日期为归档日期，原文日期见前述说明",
+      "highlight": "本次是 GPT-6 Rosalind 更新，需要与此前的 GPT-Rosalind 系列区分；接入资格应先于集成计划核实。",
+      "tags": [
+        "gpt-6-rosalind",
+        "life-sciences",
+        "scientific-tools",
+        "trusted-access"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 1,
+      "time": "2026-11-02",
+      "stars": null
+    },
+    {
+      "category": "tool",
+      "title": "Claude Usage and Cost Analytics API：统一组织用量与费用查询",
+      "url": "https://platform.claude.com/docs/en/manage-claude/usage-cost-analytics-api",
+      "summary": "Anthropic 在 10 月 29 日推出新的用量与费用分析 API 测试版，可按模型、工作区、密钥和调用身份等维度分组。文档说明新旧接口的迁移差异、分页和数据刷新时间，旧接口目前继续受支持。",
+      "source": "Anthropic 官方 API 文档及 2026-10-29 发布记录；当前为 beta，数据存在刷新与后续修订延迟；2026-11-02 核验，补录至 2026-11-02 日报；日报日期为归档日期，原文日期见前述说明",
+      "highlight": "适合归因 Agent 运行成本；对账应检查数据刷新时间和费用单位，不能把延迟数据当作实时余额。",
+      "tags": [
+        "usage-analytics",
+        "cost-attribution",
+        "api-observability"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 2,
+      "time": "2026-11-02",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "JEPA 表征对齐研究：正样本视图质量比单纯扩大规模更关键",
+      "url": "https://github.com/galilai-group/prh-proof",
+      "summary": "论文在特定正样本与场景假设下推导跨模态表示对齐结论，并用文本和图像编码器实验检验。作者比较不同训练目标，说明共享场景的良好视图可提高对齐的样本效率。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.39302，平台标注发表/更新 2026-10-29）；2026-11-02 核验，补录至 2026-11-02 日报，非该日报日期首发；实验及能力结论为作者报告；项目链接由论文页面提供，不代表全部代码与权重均已发布",
+      "highlight": "理论结论依赖假设，不能扩展为所有大模型都会收敛到同一世界表示。",
+      "tags": [
+        "jepa",
+        "representation-learning",
+        "multimodal-alignment"
+      ],
+      "id": 3,
+      "time": "2026-11-02",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "BenchFill：从难度分布检查榜单覆盖盲区",
+      "url": "https://github.com/ASTRAL-Group/benchmark-difficulty-measure",
+      "summary": "研究把基准视为难度轴上的经验分布，分析难度分布不匹配与局部覆盖空缺两种问题。作者检查多个领域的常见基准，并用定向改写题目缓解局部难度覆盖不足。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.29927，平台标注发表/更新 2026-10-21）；2026-11-02 核验，补录至 2026-11-02 日报，非该日报日期首发；实验及能力结论为作者报告；项目链接由论文页面提供，不代表全部代码与权重均已发布",
+      "highlight": "评估模型进步时，平均分之外还应检查测试究竟覆盖了哪些难度区间。",
+      "tags": [
+        "benchmark-design",
+        "item-difficulty",
+        "evaluation"
+      ],
+      "id": 4,
+      "time": "2026-11-02",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Holo4D：用重建的三维轨迹控制视频重新拍摄",
+      "url": "https://github.com/NIRVANALAN/Holo4D",
+      "summary": "框架从源视频获得四维几何支架，将轨迹投影到目标相机视角后引导预训练视频扩散模型。已观察结构由重建约束，新出现区域则由生成先验补全，并可替换上游重建器。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.25276，平台标注发表/更新 2026-10-18）；2026-11-02 核验，补录至 2026-11-02 日报，非该日报日期首发；实验及能力结论为作者报告；项目链接由论文页面提供，不代表全部代码与权重均已发布",
+      "highlight": "帮助区分有观测支持的几何重现和未见区域的生成补全。",
+      "tags": [
+        "video-generation",
+        "4d-reconstruction",
+        "camera-control"
+      ],
+      "id": 5,
+      "time": "2026-11-02",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "SO-101 Bench：在低成本机械臂上评测语言与空间操作",
+      "url": "https://github.com/5hadytru/so101_bench",
+      "summary": "基准基于实体机械臂的模拟孪生，包含未见物体、遮挡记忆与旋转放置等划分，并让学习策略在相同预算下微调。作者发现部分策略排名可迁移到实机，但模拟成功率依然偏高。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.36420，平台标注发表/更新 2026-10-27）；2026-11-02 核验，补录至 2026-11-02 日报，非该日报日期首发；实验及能力结论为作者报告；项目链接由论文页面提供，不代表全部代码与权重均已发布",
+      "highlight": "入门机器人平台也需要系统化的泛化测试，并明确模拟与现实的差距。",
+      "tags": [
+        "robotics",
+        "spatial-manipulation",
+        "sim-to-real"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 6,
+      "time": "2026-11-02",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "ABF-Bench：要求链上追踪 Agent 为每条资金流提供已检索证据",
+      "url": "https://huggingface.co/papers/2610.23656",
+      "summary": "基准将真实链上活动转换为可验证的交互任务，在公开记录不能确定后续路径时保守停止追踪。研究比较带工作记忆的专用框架与通用 Agent，发现过早停止和引用未检索记录仍是主要问题。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.23656，平台标注发表/更新 2026-10-16）；2026-11-02 核验，补录至 2026-11-02 日报，非该日报日期首发；实验及能力结论为作者报告",
+      "highlight": "适合研究证据约束型 Agent，推断看似合理也不能替代实际取得的记录。",
+      "tags": [
+        "evidence-grounding",
+        "blockchain-forensics",
+        "agent-memory"
+      ],
+      "topic": [
+        "agent",
+        "rag",
+        "memory"
+      ],
+      "id": 7,
+      "time": "2026-11-02",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "EPSBench：同时检查 Agent 预测误差和区间置信度",
+      "url": "https://github.com/JadeXu16/epsbench",
+      "summary": "基准让模型基于固定财报、电话会与新闻证据估算利润表驱动因素，再由统一会计计算器形成每股收益预测。作者发现不同模型的点预测与分析师共识差异不一，而多数预测区间覆盖率不足。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.38293，平台标注发表/更新 2026-10-28）；2026-11-02 核验，补录至 2026-11-02 日报，非该日报日期首发；实验及能力结论为作者报告；项目链接由论文页面提供，不代表全部代码与权重均已发布",
+      "highlight": "展示如何把模型假设追溯到可检查的中间量，研究结果不构成收益保证。",
+      "tags": [
+        "agent-evaluation",
+        "forecast-calibration",
+        "financial-evidence"
+      ],
+      "topic": [
+        "agent",
+        "rag"
+      ],
+      "id": 8,
+      "time": "2026-11-02",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "WISD：用量化或剪枝构造较弱模型，形成在线自蒸馏信号",
+      "url": "https://github.com/jet-ai-projects/WISD",
+      "summary": "方法不依赖外部教师或额外特权信息，而是通过原模型与其弱化版本的差异引导训练。作者在不同架构和规模的数学、代码任务上比较量化与剪枝两种弱化策略。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.38681，平台标注发表/更新 2026-10-28）；2026-11-02 核验，补录至 2026-11-02 日报，非该日报日期首发；实验及能力结论为作者报告；项目链接由论文页面提供，不代表全部代码与权重均已发布",
+      "highlight": "提供仅有未标注提示时的后训练方向，仍需检查弱化策略和任务分布的敏感性。",
+      "tags": [
+        "self-distillation",
+        "on-policy",
+        "quantization",
+        "pruning"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 9,
+      "time": "2026-11-02",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "为已有自回归图像模型解锁任意顺序生成",
+      "url": "https://github.com/Ordered-AR/unlockedadaptation",
+      "summary": "研究用可感知目标位置的嵌入与渐进顺序课程，把固定扫描顺序的预训练模型适配为可补图、扩图和编辑的生成器。方法保留常规自回归推理栈，但在增加灵活性的同时存在条件生成质量权衡。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.39293，平台标注发表/更新 2026-10-29）；2026-11-02 核验，补录至 2026-11-02 日报，非该日报日期首发；实验及能力结论为作者报告；项目链接由论文页面提供，不代表全部代码与权重均已发布",
+      "highlight": "相比从零训练，复用既有预训练能力可能降低扩展编辑功能的训练成本。",
+      "tags": [
+        "autoregressive-images",
+        "inpainting",
+        "model-adaptation"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 10,
+      "time": "2026-11-02",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "FDSML：从合成图像生成参数中学习连续相似关系",
+      "url": "https://github.com/ShineiArakawa/fdsml",
+      "summary": "方法使用分形生成数据，并依据底层参数距离构造三元组损失，避免只用离散类别标签监督。作者在图像检索、分类和扰动鲁棒性实验中分析合成预训练的迁移效果。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.39423，平台标注发表/更新 2026-10-29）；2026-11-02 核验，补录至 2026-11-02 日报，非该日报日期首发；实验及能力结论为作者报告；项目链接由论文页面提供，不代表全部代码与权重均已发布",
+      "highlight": "无真实图像的训练也需要合适监督，连续参数关系可提供类别以外的信息。",
+      "tags": [
+        "synthetic-pretraining",
+        "metric-learning",
+        "image-retrieval"
+      ],
+      "id": 11,
+      "time": "2026-11-02",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "DeepSeek V4.1 Flash-1017 独立安全评估：应观察完整执行过程",
+      "url": "https://huggingface.co/papers/2610.35671",
+      "summary": "第三方研究在多个评测套件中检查模型的评估完整性、失控和有害操纵风险，并比较不同版本。作者建议小版本升级也持续评估，并结合动作日志与过程观测，而非只检查最终回答。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.35671，平台标注发表/更新 2026-10-26）；2026-11-02 核验，补录至 2026-11-02 日报，非该日报日期首发；实验及能力结论为作者报告",
+      "highlight": "结论属于该评估设置，公共基准污染和模型识别测试环境都会影响解释。",
+      "tags": [
+        "model-evaluation",
+        "agent-observability",
+        "safety-research"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 12,
+      "time": "2026-11-02",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "PreView：用局部视图与候选提示改进 GUI 点击定位",
+      "url": "https://huggingface.co/papers/2610.33645",
+      "summary": "轻量预处理模型先定位和细化候选中心，生成放大裁剪、视觉标记与文字提示，再交给冻结的定位模型。作者在多个 GUI 基准中比较不同视图和提示的贡献，主定位模型无需再次训练。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.33645，平台标注发表/更新 2026-10-24）；2026-11-02 核验，补录至 2026-11-02 日报，非该日报日期首发；实验及能力结论为作者报告",
+      "highlight": "小控件定位不一定要扩大主模型，输入准备质量也是可优化环节。",
+      "tags": [
+        "gui-grounding",
+        "cropping",
+        "visual-cues"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 13,
+      "time": "2026-11-02",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "Know, then Draw：先用自回归学习语义，再用扩散学习绘制",
+      "url": "https://huggingface.co/papers/2610.37626",
+      "summary": "研究将视觉知识获取与细节渲染分给两个阶段，使用语言监督的语义 tokenizer 而不依赖图像重建目标。作者通过受控比较与规模规律分析预训练目标，并指出单独的自回归画图质量未必预测最终效果。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.37626，平台标注发表/更新 2026-10-27）；2026-11-02 核验，补录至 2026-11-02 日报，非该日报日期首发；实验及能力结论为作者报告",
+      "highlight": "把语义知识和像素生成拆开，有助于设计更有效的视觉后训练路径。",
+      "tags": [
+        "visual-generation",
+        "semantic-tokenizer",
+        "diffusion-post-training"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 14,
+      "time": "2026-11-02",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "IDM：为少步图像蒸馏增加生成器自身特征的矩约束",
+      "url": "https://github.com/inclusionAI/IDM",
+      "summary": "方法在分布匹配蒸馏中增加特征均值与逐维标准差约束，使用生成器的 EMA 副本而非外部特征编码器。作者在全参数与 LoRA 适配实验中比较文字渲染及其他质量指标。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.39633，平台标注发表/更新 2026-10-29）；2026-11-02 核验，补录至 2026-11-02 日报，非该日报日期首发；实验及能力结论为作者报告；项目链接由论文页面提供，不代表全部代码与权重均已发布",
+      "highlight": "适合关注少步生成的训练信号设计，需区分单项文字渲染提升与总体图像质量。",
+      "tags": [
+        "distribution-matching",
+        "lora",
+        "few-step-generation"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 15,
+      "time": "2026-11-02",
+      "stars": null
+    }
+  ]
+}

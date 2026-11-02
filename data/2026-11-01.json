@@ -1,0 +1,291 @@
+{
+  "items": [
+    {
+      "category": "tool",
+      "title": "Lumma-Fev-v2：用一次前向计算返回类型化问题的选项概率",
+      "url": "https://huggingface.co/blog/FrontiersMind/lumma-fev-27b-v2",
+      "summary": "FrontiersMind 介绍已发布的 4B 和 27B 决策模型，直接输出选项概率而无需解析生成文本。27B 版本调整全注意力层为双向读取，需要 lumma-fev 0.3 以上；文章同时指出 score 类型尚未验证。",
+      "source": "FrontiersMind 团队文章（2026-10-29）；能力及校准结果为团队报告，文内小尺寸型号状态存在前后差异，本条仅确认 4B 与 27B 发布说明；2026-11-02 核验，补录至 2026-11-01 日报；日报日期为归档日期，原文日期见前述说明",
+      "highlight": "适合分类和路由任务的候选方案，概率校准与动作阈值仍需在自己的数据上验证。",
+      "tags": [
+        "decision-models",
+        "classification",
+        "probability-calibration"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 1,
+      "time": "2026-11-01",
+      "stars": null
+    },
+    {
+      "category": "tool",
+      "title": "ViKernel 演示：结构化策略、停机状态与哈希审计的交互原型",
+      "url": "https://huggingface.co/blog/FINAL-Bench/vikernel-why-the-kill-switch-must-live-inside-the",
+      "summary": "作者介绍将规则判定、停止与恢复、完整性检查和审计链组合的 Agent 控制方案，并提供桌面式演示。文章明确公开演示回放预录系统响应、使用虚构文件和密钥，因此不能据此确认真实部署的隔离或防篡改保证。",
+      "source": "FINAL-Bench / VIDRAFT 作者演示说明（2026-11-01）；原型 v0.1，预录响应与虚构数据；安全保证为作者主张，未经独立验证；2026-11-02 核验，补录至 2026-11-01 日报；日报日期为归档日期，原文日期见前述说明",
+      "highlight": "适合比较控制面应包含哪些功能；权重内不可绕过等强主张仍需要独立实现审查与验证。",
+      "tags": [
+        "agent-controls",
+        "policy-engine",
+        "audit-chain",
+        "prototype"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 2,
+      "time": "2026-11-01",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "多模态检索头：跨文字、图像与音视频定位证据的共同机制",
+      "url": "https://huggingface.co/papers/2610.32411",
+      "summary": "研究固定证据内容，比较答案通过声音或画面呈现时的注意力头作用，发现关键检索头在不同模态间大量共享。作者进一步用排序目标训练这些头，提升文档页面检索与理解表现。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.32411，平台标注发表/更新 2026-10-23）；2026-11-02 核验，补录至 2026-11-01 日报，非该日报日期首发；实验及能力结论为作者报告",
+      "highlight": "把注意力机制分析转化为检索优化目标，为多模态 RAG 提供思路。",
+      "tags": [
+        "retrieval-heads",
+        "multimodal",
+        "attention-analysis"
+      ],
+      "topic": [
+        "rag",
+        "post-training"
+      ],
+      "id": 3,
+      "time": "2026-11-01",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "Youtu-Parsing-Omni：以统一编码器和结构描述解析多模态证据",
+      "url": "https://huggingface.co/papers/2610.39301",
+      "summary": "模型将文档、图像、音频与视频转换为带空间和时间定位的结构记录，用统一 schema 支撑多种解析任务。后训练采用与 token 角色相关的在线自蒸馏，使模型生成的监督随训练迭代更新。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.39301，平台标注发表/更新 2026-10-29）；2026-11-02 核验，补录至 2026-11-01 日报，非该日报日期首发；实验及能力结论为作者报告",
+      "highlight": "适合需要跨模态引用和定位证据的 Agent 感知层，具体能力仍需按任务验证。",
+      "tags": [
+        "document-parsing",
+        "omni-modal",
+        "self-distillation"
+      ],
+      "topic": [
+        "rag",
+        "agent",
+        "post-training"
+      ],
+      "id": 4,
+      "time": "2026-11-01",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Unified Training：把预训练、监督微调和强化学习放进同一训练器",
+      "url": "https://github.com/yudasong/unified-training",
+      "summary": "作者将适当的强化学习目标写成对模型生成目标分布的最大似然拟合，统一描述多个训练阶段。实现把静态数据与在线生成混合训练，并分析计算效率、任务覆盖与持续学习。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.40564，平台标注发表/更新 2026-10-29）；2026-11-02 核验，补录至 2026-11-01 日报，非该日报日期首发；实验及能力结论为作者报告；项目链接由论文页面提供，不代表全部代码与权重均已发布",
+      "highlight": "统一算法不意味着数据配比自动解决，训练课程和采样时机仍是核心变量。",
+      "tags": [
+        "unified-training",
+        "sft",
+        "reinforcement-learning"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 5,
+      "time": "2026-11-01",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "AskStream：视频 Agent 应在等待与回答之外学会追问",
+      "url": "https://github.com/wanglu-cs/AskStream",
+      "summary": "基准为流式视频理解加入主动询问动作，区分视频信息缺失和用户意图不明确两类不确定性。数据标注等待、询问与回答的时间窗口，用于评估模型何时问以及问什么。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.38678，平台标注发表/更新 2026-10-28）；2026-11-02 核验，补录至 2026-11-01 日报，非该日报日期首发；实验及能力结论为作者报告；项目链接由论文页面提供，不代表全部代码与权重均已发布",
+      "highlight": "对实时助手有直接启发，无法确定时主动获取信息比无限等待或猜测更可控。",
+      "tags": [
+        "streaming-video",
+        "proactive-agents",
+        "clarification"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 6,
+      "time": "2026-11-01",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "EditAgent：扩展图像编辑动作空间与验证证据",
+      "url": "https://huggingface.co/papers/2610.39664",
+      "summary": "框架按编辑类型调用通用与专用方法，并为候选附上验证记录，再由视觉语言模型统一比较。作者比较并行候选与串行修订，发现增加可见证据和工具选择有助于改善复杂编辑结果。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.39664，平台标注发表/更新 2026-10-29）；2026-11-02 核验，补录至 2026-11-01 日报，非该日报日期首发；实验及能力结论为作者报告",
+      "highlight": "图像编辑 Agent 的瓶颈既可能在工具，也可能在评判者看不到关键事实。",
+      "tags": [
+        "image-editing",
+        "verification",
+        "tool-routing"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 7,
+      "time": "2026-11-01",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "在真实 iOS 应用中使用密集反馈训练导航 Agent",
+      "url": "https://huggingface.co/papers/2610.39264",
+      "summary": "方法分离规划与界面定位，并将步骤级进展与最终完成情况一起用于 PPO 训练。它通过相似界面状态的奖励信息稳定价值估计，配套并发虚拟设备基础设施开展在线交互。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.39264，平台标注发表/更新 2026-10-29）；2026-11-02 核验，补录至 2026-11-01 日报，非该日报日期首发；实验及能力结论为作者报告",
+      "highlight": "适合研究 GUI Agent 的错误恢复，评估时应区分同环境成功率与跨平台泛化。",
+      "tags": [
+        "gui-agents",
+        "ppo",
+        "dense-rewards",
+        "ios"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 8,
+      "time": "2026-11-01",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "PhysInsert：同时调整插入物体及周围场景的物理外观",
+      "url": "https://huggingface.co/papers/2610.40453",
+      "summary": "研究利用 Blender 渲染的严格配对数据，学习不同视角和光照下的参考物体插入。方法结合几何特征与二维空间监督，约束位置、姿态、光照以及物体对环境的影响。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.40453，平台标注发表/更新 2026-10-29）；2026-11-02 核验，补录至 2026-11-01 日报，非该日报日期首发；实验及能力结论为作者报告",
+      "highlight": "把插入任务从外观复制扩展到物体与场景的双向适配。",
+      "tags": [
+        "image-editing",
+        "geometry",
+        "synthetic-data"
+      ],
+      "id": 9,
+      "time": "2026-11-01",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "AIR：围绕有效学习率重新设计训练调度",
+      "url": "https://huggingface.co/papers/2610.40362",
+      "summary": "研究比较权重归一化与传统权重衰减训练，发现许多差异可由有效学习率轨迹解释。作者据此提出带仿射调整的逆平方根衰减调度，并在 MoE 预训练中比较训练损失与下游表现。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.40362，平台标注发表/更新 2026-10-29）；2026-11-02 核验，补录至 2026-11-01 日报，非该日报日期首发；实验及能力结论为作者报告",
+      "highlight": "调参时需要关注实际更新尺度，而不只比较配置中的名义学习率。",
+      "tags": [
+        "optimization",
+        "learning-rate",
+        "moe-pretraining"
+      ],
+      "id": 10,
+      "time": "2026-11-01",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "EasyProver 与 Aegis：把 Lean 证明推进到真实代码验证",
+      "url": "https://huggingface.co/papers/2610.38174",
+      "summary": "证明系统结合隔离上下文的递归 Agent、异步搜索与并行策略尝试，使用现有模型而无需额外训练。Aegis 将 Rust 实现转换为 Lean 验证任务，加入溢出、显式失败和循环等实现层义务。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.38174，平台标注发表/更新 2026-10-28）；2026-11-02 核验，补录至 2026-11-01 日报，非该日报日期首发；实验及能力结论为作者报告",
+      "highlight": "比接近饱和的数学题榜单更贴近软件验证，证明与反例都需要内核检查。",
+      "tags": [
+        "lean",
+        "formal-verification",
+        "proof-agents"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 11,
+      "time": "2026-11-01",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "OpenFlyV2：在机载资源限制下统一视觉语言理解与飞行控制",
+      "url": "https://github.com/Ideal-ljl/AeroBrain",
+      "summary": "架构共享视觉语言表示，并用紧凑动作专家生成短程航点，结合运动感知记忆降低闭环计算成本。作者展示模拟训练到真实四旋翼的迁移实验，但实机导航仍有明显失败空间。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.39287，平台标注发表/更新 2026-10-29）；2026-11-02 核验，补录至 2026-11-01 日报，非该日报日期首发；实验及能力结论为作者报告；项目链接由论文页面提供，不代表全部代码与权重均已发布",
+      "highlight": "观察重点是机载运行、闭环频率与迁移条件，不能仅由单项演示推断可靠自主飞行。",
+      "tags": [
+        "aerial-robotics",
+        "vla",
+        "onboard-inference"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 12,
+      "time": "2026-11-01",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "AB-Attention：用加权采样改善视频扩散稀疏注意力",
+      "url": "https://github.com/InfRec-Cardinal/AB-Attention",
+      "summary": "方法在块内聚类估计重要性，并按抽样概率进行逆概率加权，缓解直接裁剪注意力块造成的偏差。作者同时设计更细粒度的数据收集内核，在视频扩散模型上比较速度和重建质量。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.39663，平台标注发表/更新 2026-10-29）；2026-11-02 核验，补录至 2026-11-01 日报，非该日报日期首发；实验及能力结论为作者报告；项目链接由论文页面提供，不代表全部代码与权重均已发布",
+      "highlight": "适合研究无额外训练的推理加速，并需同时检查端到端速度与视频质量。",
+      "tags": [
+        "video-diffusion",
+        "sparse-attention",
+        "kernels"
+      ],
+      "id": 13,
+      "time": "2026-11-01",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "TauIndianBankBench：除了最终记录，还要检查每个必需操作步骤",
+      "url": "https://github.com/npci/TauIndianBankBench",
+      "summary": "基准包含模拟银行客户与助手交互，既检查最终状态，也检查流程步骤和未被请求的更改。作者指出，仅用最终记录判分会把一些跳过程序的会话误判为成功。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.30161，平台标注发表/更新 2026-09-30）；2026-11-02 核验，补录至 2026-11-01 日报，非该日报日期首发；实验及能力结论为作者报告；项目链接由论文页面提供，不代表全部代码与权重均已发布",
+      "highlight": "适合构建业务 Agent 评测，流程合规与结果正确应分别验证。",
+      "tags": [
+        "tool-use",
+        "procedure-evaluation",
+        "conversational-agents"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 14,
+      "time": "2026-11-01",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "CausGround：把交互经验整理成可复用的动作前提与效果",
+      "url": "https://github.com/Intelligent-Interaction/CausGround",
+      "summary": "框架从经验中提取物体属性、关系与动作因果知识，并在当前观察下进行前向和逆向规划。方法不更新模型参数，作者在模拟规划、交互推理和真实机器人任务中评估适应能力。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.29702，平台标注发表/更新 2026-10-21）；2026-11-02 核验，补录至 2026-11-01 日报，非该日报日期首发；实验及能力结论为作者报告；项目链接由论文页面提供，不代表全部代码与权重均已发布",
+      "highlight": "适合关注经验记忆的 Agent，把零散轨迹转成可检查的动作依赖有助于复用。",
+      "tags": [
+        "embodied-planning",
+        "causal-knowledge",
+        "experience-memory"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 15,
+      "time": "2026-11-01",
+      "stars": null
+    }
+  ]
+}

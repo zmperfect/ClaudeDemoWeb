@@ -1,0 +1,288 @@
+{
+  "items": [
+    {
+      "category": "news",
+      "title": "Clover-35B-A3B-Preview：面向 Agent 的 MoE 扩散语言模型",
+      "url": "https://huggingface.co/blog/Diffuspace/clover-35b-a3b-preview",
+      "summary": "DiffuSpace 发布总参数 35B、激活参数 3B 的扩散语言模型预览版，支持思考模式并开放权重与相关代码。其结构结合压缩历史状态与块内双向交互，团队报告编码、工具使用和生成速度测试。",
+      "source": "DiffuSpace 团队发布文章（2026-10-30）；速度、基准及许可说明为团队报告；预览版状态；2026-11-02 核验，补录至 2026-10-31 日报；日报日期为归档日期，原文日期见前述说明",
+      "highlight": "速度数字依赖硬件、精度与负载，部署前应使用自己的工具调用任务复测。",
+      "tags": [
+        "diffusion-llm",
+        "moe",
+        "open-weights",
+        "agentic-coding"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 1,
+      "time": "2026-10-31",
+      "stars": null
+    },
+    {
+      "category": "tutorial",
+      "title": "MonsterHouse 实践：把本地语音、LoRA 人设与动画串成互动角色",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "summary": "NVIDIA 工程师展示由语音识别、Bolt E4B 对话、语音合成与 Audio2Face 组成的本地交互系统。文章讨论应用层会话状态、回复和音频缓存及 LoRA 人设训练，并说明完整项目尚未打包发布。",
+      "source": "NVIDIA 工程师实践文章（2026-10-30）；完整 MonsterHouse 项目未打包发布，组件可用性以各自入口为准；2026-11-02 核验，补录至 2026-10-31 日报；日报日期为归档日期，原文日期见前述说明",
+      "highlight": "可借鉴的是流水线和延迟管理；示例中的合成场景与实地验证范围需分别理解。",
+      "tags": [
+        "voice-agents",
+        "lora",
+        "local-inference",
+        "animation"
+      ],
+      "topic": [
+        "agent",
+        "post-training",
+        "memory"
+      ],
+      "id": 2,
+      "time": "2026-10-31",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "MICA：能力相同的 MCP 与 CLI 接口仍会改变 Agent 行为",
+      "url": "https://github.com/ModalityDance/MICA",
+      "summary": "研究用同一语义动作契约和执行环境生成 MCP、CLI 两套接口，比较六个模型在三类交互环境中的表现。作者发现接口表达会影响动作选择、失败恢复和交互成本，并提出分离语义决策与接口修复的 DART 方法。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.34298，平台标注发表/更新 2026-10-25）；2026-11-02 核验，补录至 2026-10-31 日报，非该日报日期首发；实验及能力结论为作者报告；项目链接由论文页面提供，不代表全部代码与权重均已发布",
+      "highlight": "工具能力相同并不保证行为相同，接入方式也应纳入 Agent 回归评测。",
+      "tags": [
+        "mcp",
+        "cli",
+        "tool-interface",
+        "agent-evaluation"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 3,
+      "time": "2026-10-31",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Co-Design Bench：从真实多模态需求评估代码 Agent 完整交付",
+      "url": "https://github.com/Wiselnn570/Co-Design-Bench",
+      "summary": "基准从真实编码会话中整理 273 个任务，覆盖局部修改与跨文件仓库修订，并用隐藏验收条件评估结果。它结合源码、浏览器证据与独立反驳检查，揭示部分条件通过与整项任务完成之间的差距。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.35138，平台标注发表/更新 2026-10-26）；2026-11-02 核验，补录至 2026-10-31 日报，非该日报日期首发；实验及能力结论为作者报告；项目链接由论文页面提供，不代表全部代码与权重均已发布",
+      "highlight": "适合研究如何验证真实用户需求，而不只统计代码是否能运行。",
+      "tags": [
+        "coding-agents",
+        "multimodal",
+        "acceptance-criteria"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 4,
+      "time": "2026-10-31",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "A-RSI：根据学习信号衰减自适应刷新多模态训练任务",
+      "url": "https://huggingface.co/papers/2610.38568",
+      "summary": "方法监控训练日志中的奖励变化与准确率，在当前任务池学习信号减弱时生成新经验。模型编写的程序负责产生问题与可检查答案，刷新策略不依赖验证集或测试集分数。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.38568，平台标注发表/更新 2026-10-28）；2026-11-02 核验，补录至 2026-10-31 日报，非该日报日期首发；实验及能力结论为作者报告",
+      "highlight": "把何时更新课程和如何验证答案分开，有助于分析自我改进训练的可靠性。",
+      "tags": [
+        "self-improvement",
+        "curriculum",
+        "verifiable-rewards"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 5,
+      "time": "2026-10-31",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "Glance：让生成模型共享预填充缓存完成文档重排",
+      "url": "https://huggingface.co/papers/2610.40454",
+      "summary": "方法给生成模型增加轻量决策适配器和指针头，利用一次共享预填充为多个候选段落评分。作者在检索与问答实验中比较独立交叉编码器，并说明当前验证仍局限于少量数据集和一个骨干家族。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.40454，平台标注发表/更新 2026-10-29）；2026-11-02 核验，补录至 2026-10-31 日报，非该日报日期首发；实验及能力结论为作者报告",
+      "highlight": "为减少 RAG 中多个常驻模型的显存与重复计算提供可复现实验方向。",
+      "tags": [
+        "rag",
+        "reranking",
+        "shared-prefill",
+        "adapters"
+      ],
+      "topic": [
+        "rag",
+        "post-training"
+      ],
+      "id": 6,
+      "time": "2026-10-31",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "LOWN：只在必要的去噪步骤重新读取图像",
+      "url": "https://github.com/hyeon9698/LOWN",
+      "summary": "该解码方法比较无图像预测与先前的图像条件预测，仅在二者不一致时重新计算视觉输入。它无需额外训练或阈值调参，作者报告在多项测试中保留接近原有得分并减少解码计算。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.36671，平台标注发表/更新 2026-10-27）；2026-11-02 核验，补录至 2026-10-31 日报，非该日报日期首发；实验及能力结论为作者报告；项目链接由论文页面提供，不代表全部代码与权重均已发布",
+      "highlight": "视觉 token 裁剪之外，还可从时间维度减少反复读取同一图像的成本。",
+      "tags": [
+        "diffusion-vlm",
+        "visual-routing",
+        "inference-efficiency"
+      ],
+      "id": 7,
+      "time": "2026-10-31",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "L3G-World：用潜空间三维高斯记忆维持世界生成的一致性",
+      "url": "https://github.com/cvlab-kaist/L3G-World",
+      "summary": "系统交替更新三维高斯场景记忆并生成视频，将 VAE 潜特征存入高斯以减少重复编码。记忆随已探索空间而非视频时长增长，作者展示长程空间一致性与实时生成实验。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.40614，平台标注发表/更新 2026-10-29）；2026-11-02 核验，补录至 2026-10-31 日报，非该日报日期首发；实验及能力结论为作者报告；项目链接由论文页面提供，不代表全部代码与权重均已发布",
+      "highlight": "适合关注交互世界模型的研究者，空间记忆与对话长期记忆需要区分。",
+      "tags": [
+        "world-models",
+        "3d-gaussians",
+        "spatial-memory"
+      ],
+      "topic": [
+        "memory"
+      ],
+      "id": 8,
+      "time": "2026-10-31",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Soft-MTP：从多 token 预测梯度中恢复自蒸馏信号",
+      "url": "https://github.com/JaydenTeoh/Soft-MTP",
+      "summary": "研究把多 token 预测梯度分解为 KL 自蒸馏项与噪声残差，并提出兼容融合交叉熵的梯度路由技巧。作者在多个模型规模上比较困惑度、推测解码效率及后续微调表现。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.38331，平台标注发表/更新 2026-10-28）；2026-11-02 核验，补录至 2026-10-31 日报，非该日报日期首发；实验及能力结论为作者报告；项目链接由论文页面提供，不代表全部代码与权重均已发布",
+      "highlight": "优化训练信号的组成，可能比直接增加预测头更值得优先排查。",
+      "tags": [
+        "multi-token-prediction",
+        "self-distillation",
+        "speculative-decoding"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 9,
+      "time": "2026-10-31",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "CoSTA：压缩生成端语音 token，同时保留原有合成解码器",
+      "url": "https://github.com/yingzhuodeng/CoSTA",
+      "summary": "框架将语音生成与合成使用的 token 空间解耦，通过词表扩展和适配学习较短的生成表示。推理时再确定性展开回原有语音 token，使原 tokenizer 与解码器保持兼容。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.21143，平台标注发表/更新 2026-10-15）；2026-11-02 核验，补录至 2026-10-31 日报，非该日报日期首发；实验及能力结论为作者报告；项目链接由论文页面提供，不代表全部代码与权重均已发布",
+      "highlight": "为已有语音对话模型提速提供后续适配路径，并明确压缩率与音质的权衡。",
+      "tags": [
+        "speech-dialogue",
+        "token-compression",
+        "model-adaptation"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 10,
+      "time": "2026-10-31",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "quantcheck：量化文件可复现，不代表模型功能仍然正常",
+      "url": "https://github.com/aditi-p31/quantcheck",
+      "summary": "作者审计公开 GGUF 制品，用小型代码测试筛查后再以完整任务集复测，发现部分低比特小模型几乎失去代码能力。对可重建样本的比较表明文件并未损坏，而校准的重要性矩阵可改善部分失败案例。",
+      "source": "作者论文摘要（Hugging Face Papers 2609.05881，平台标注发表/更新 2026-10-25）；2026-11-02 核验，补录至 2026-10-31 日报，非该日报日期首发；实验及能力结论为作者报告；项目链接由论文页面提供，不代表全部代码与权重均已发布",
+      "highlight": "下载量和文件校验不能替代功能测试，适合加入量化模型发布流程。",
+      "tags": [
+        "quantization",
+        "gguf",
+        "functional-testing"
+      ],
+      "id": 11,
+      "time": "2026-10-31",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Investor's Last Exam：以决策时点冻结证据评估研究 Agent",
+      "url": "https://github.com/Prophetlab/Investor-Last-Exam",
+      "summary": "基准使用带版本与时间戳的金融文档、结构化数据和专业任务，检查证据、假设、计算与判断之间的依赖。作者同时评估研究质量和后续结果，发现整体分析得分并不直接转化为预测能力。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.38342，平台标注发表/更新 2026-10-28）；2026-11-02 核验，补录至 2026-10-31 日报，非该日报日期首发；实验及能力结论为作者报告；项目链接由论文页面提供，不代表全部代码与权重均已发布",
+      "highlight": "重点是防止未来信息泄漏和保持证据可追溯，不能把榜单当作投资建议。",
+      "tags": [
+        "agent-benchmark",
+        "temporal-leakage",
+        "evidence-tracing"
+      ],
+      "topic": [
+        "agent",
+        "rag"
+      ],
+      "id": 12,
+      "time": "2026-10-31",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "SpecSlot：将全局结构与局部细节分配给不同频段 token",
+      "url": "https://github.com/JiongfanYang/SpecSlot",
+      "summary": "模型把空间锚点拆成对应不同 DCT 频段的多个槽位，仅让低频槽位参与全局注意力。高频细节通过局部交互建模，作者在像素空间图像生成中比较质量与计算开销。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.40647，平台标注发表/更新 2026-10-29）；2026-11-02 核验，补录至 2026-10-31 日报，非该日报日期首发；实验及能力结论为作者报告；项目链接由论文页面提供，不代表全部代码与权重均已发布",
+      "highlight": "展示提高输出细节时不必同步增加全局注意力序列长度的设计思路。",
+      "tags": [
+        "image-generation",
+        "pixel-space",
+        "efficient-attention"
+      ],
+      "id": 13,
+      "time": "2026-10-31",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "HairDeck：从单张图像生成可动画化的风格化发片",
+      "url": "https://github.com/hyz317/HairDeck",
+      "summary": "方法把发型表示为无序发片集合，通过集合扩散模型同时生成几何和驱动用的弹簧骨骼链。作者在风格化头发测试集上比较几何误差、方向误差与生成效率，并支持下游资产导出。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.40599，平台标注发表/更新 2026-10-29）；2026-11-02 核验，补录至 2026-10-31 日报，非该日报日期首发；实验及能力结论为作者报告；项目链接由论文页面提供，不代表全部代码与权重均已发布",
+      "highlight": "面向游戏与虚拟角色制作，价值在于可继续编辑和动画化的资产结构。",
+      "tags": [
+        "3d-assets",
+        "hair-cards",
+        "animation",
+        "diffusion"
+      ],
+      "id": 14,
+      "time": "2026-10-31",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "HuGe：用第一视角人类经验训练人形通用 VLA",
+      "url": "https://github.com/yliu-cs/HuGe",
+      "summary": "研究结合人类第一视角与机器人数据预训练，再进行人形适配和任务微调，输出全身控制器使用的运动表示与手部信号。它利用模拟回放补充本体状态，并重渲染手臂外观以缓解不同身体形态之间的差异。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.34186，平台标注发表/更新 2026-10-25）；2026-11-02 核验，补录至 2026-10-31 日报，非该日报日期首发；实验及能力结论为作者报告；项目链接由论文页面提供，不代表全部代码与权重均已发布",
+      "highlight": "说明人类视频数据迁移到机器人时，视觉外观和缺失本体信息都需要处理。",
+      "tags": [
+        "humanoid",
+        "vla",
+        "egocentric-learning"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 15,
+      "time": "2026-10-31",
+      "stars": null
+    }
+  ]
+}
