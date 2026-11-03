@@ -1,0 +1,301 @@
+{
+  "items": [
+    {
+      "category": "news",
+      "title": "Google 推出 Skilling Africa 学习入口，强调低带宽与离线可用",
+      "url": "https://blog.google/intl/en-africa/unlocking-africas-ai-potential-introducing-skilling-africa-with-google/",
+      "summary": "Google 宣布把多项数字与 AI 技能项目汇入学习平台，提供短模块、移动端适配和离线学习能力。平台配套 SCOUT 学习助手，用于回答问题、建议学习步骤与调整计划；2030 年覆盖目标属于未来计划。",
+      "source": "Google 官方非洲地区公告（2026-11-02）；平台功能与培训覆盖目标为官方说明；2026-11-03 核验，收录至 2026-11-03 日报；日报日期为归档日期，原文日期见前述说明",
+      "highlight": "AI 教育产品能否落地还取决于连接条件和设备限制，学习入口的可访问性同样重要。",
+      "tags": [
+        "ai-education",
+        "offline-learning",
+        "digital-skills"
+      ],
+      "id": 1,
+      "time": "2026-11-03",
+      "stars": null
+    },
+    {
+      "category": "tutorial",
+      "title": "DiffusionGemma CPU 推理实践：合并结构化读取的执行步骤",
+      "url": "https://huggingface.co/blog/LeagueLabs/optimizing-diffgemma-decision-model-vllm-cpu-i",
+      "summary": "League 团队分析决策请求的预填充与答案槽位计算，提出将满足条件的读取合并到同一执行步骤。文章比较 Intel CPU 配置下的延迟、吞吐和成本，并指出批形状或硬件变化可能改变个别决策；基础兼容修复已合入，优化本身仍在审查。",
+      "source": "LeagueLabs 作者工程实践（2026-10-29）；测试基于指定 vLLM 构建与 CPU 工作负载；性能结论为团队报告；2026-11-03 核验，收录至 2026-11-03 日报；日报日期为归档日期，原文日期见前述说明",
+      "highlight": "优化执行路径后还需做决策一致性检查，不能仅依据平均准确率和耗时判断等价。",
+      "tags": [
+        "diffusiongemma",
+        "vllm",
+        "cpu-inference",
+        "structured-decisions"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 2,
+      "time": "2026-11-03",
+      "stars": null
+    },
+    {
+      "category": "tool",
+      "title": "CyberArena：在隔离服务中同时评估安全 Agent 的修复与可用性",
+      "url": "https://huggingface.co/blog/2077AIDataFoundation/cyberarena",
+      "summary": "基准让两个 Agent 在相同的服务副本上进行受控攻防，由独立设施验证目标结果与服务健康状态。作者公布比赛轨迹、引擎和任务入口，强调未验证修复、局部修补以及破坏功能的过度封堵等失误。",
+      "source": "2077AI / UC Berkeley RDI 作者技术文章（2026-11-03）；关联论文 2610.19005，当前文章为评测快照说明；数据和结论为作者报告；2026-11-03 核验，收录至 2026-11-03 日报；日报日期为归档日期，原文日期见前述说明",
+      "highlight": "评估安全修复不能只看漏洞路径是否关闭，还要确认服务可用；榜单反映固定模型与执行框架组合。",
+      "tags": [
+        "security-agents",
+        "benchmarking",
+        "repair-verification",
+        "sandbox"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 3,
+      "time": "2026-11-03",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "DeFT-RAG：把多跳问题拆成自足子问题，并复用已验证的答案",
+      "url": "https://github.com/Dingyi-Kang/DeFT-RAG",
+      "summary": "框架每次只生成一个明确包含相关实体的子问题，由规则维护已知问答表，并让轻量决策模型处理部分判断。它缓存语义相同的问答对以减少重复调用，作者在多个多跳问答基准中比较准确率与输入开销。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.37826，平台标注发表/更新 2026-10-30）；2026-11-03 核验，收录至 2026-11-03 日报，非该日报日期首发；实验及能力结论为作者报告；项目链接由论文页面提供，不代表全部代码与权重均已发布",
+      "highlight": "复用中间答案能降低成本，但实际知识库还需要为缓存配置来源、版本和失效规则。",
+      "tags": [
+        "multi-hop-rag",
+        "qa-cache",
+        "question-decomposition"
+      ],
+      "topic": [
+        "rag",
+        "memory",
+        "post-training"
+      ],
+      "id": 4,
+      "time": "2026-11-03",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "DecisionRank：用在线蒸馏把生成式排序知识迁移到打分模型",
+      "url": "https://huggingface.co/papers/2610.42128",
+      "summary": "方法先把学生模型的文档分数排序成列表，再让生成式教师根据该列表提供条件反馈，直接监督学生分数。研究结合离线排序监督，在常规与推理密集型检索基准上比较不同训练目标及推理效率。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.42128，平台标注发表/更新 2026-10-30）；2026-11-03 核验，收录至 2026-11-03 日报，非该日报日期首发；实验及能力结论为作者报告",
+      "highlight": "适合关注低延迟 reranker 的团队，速度结论应结合模型规模、列表长度和硬件理解。",
+      "tags": [
+        "reranking",
+        "on-policy-distillation",
+        "decision-models"
+      ],
+      "topic": [
+        "rag",
+        "post-training"
+      ],
+      "id": 5,
+      "time": "2026-11-03",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "MemSteer：从未标注用户历史生成记忆系统优化监督",
+      "url": "https://huggingface.co/papers/2610.39276",
+      "summary": "方法先建立带来源证据的答案计划，再据此生成问答，并用来源审计与盲答恢复检查标注。配套优化器诊断失败后调整记忆存储、检索和上下文组装，不更新基础模型参数。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.39276，平台标注发表/更新 2026-10-29）；2026-11-03 核验，收录至 2026-11-03 日报，非该日报日期首发；实验及能力结论为作者报告",
+      "highlight": "用户记忆优化需要检查跨记录证据链，自动生成问答也应经过可追溯验证。",
+      "tags": [
+        "agent-memory",
+        "user-history",
+        "synthetic-supervision"
+      ],
+      "topic": [
+        "memory",
+        "rag",
+        "agent"
+      ],
+      "id": 6,
+      "time": "2026-11-03",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "RoboArchitect：通过执行反馈自动改进机器人控制框架",
+      "url": "https://github.com/roboarchitect-ai/RoboArchitect",
+      "summary": "编码模型观察机器人轨迹并诊断失败，反复修订冻结策略外围的控制代码，而非微调策略权重。系统同时演进持久记忆，把抓取深度等经验带入后续决策，并在保留场景和任务上评估泛化。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.42141，平台标注发表/更新 2026-10-30）；2026-11-03 核验，收录至 2026-11-03 日报，非该日报日期首发；实验及能力结论为作者报告；项目链接由论文页面提供，不代表全部代码与权重均已发布",
+      "highlight": "机器人性能还有一部分来自策略周围的编排和经验管理，优化集与评估集应明确分离。",
+      "tags": [
+        "robotics",
+        "agent-harness",
+        "persistent-memory"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 7,
+      "time": "2026-11-03",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "CaPtain：用 SFT 与多轮强化学习训练代码即策略机器人",
+      "url": "https://github.com/waltstephen/CaPtain",
+      "summary": "流水线让小型开放视觉语言模型通过感知、几何和受保护运动 API 编写代码控制机器人。训练先使用合成轨迹监督微调，再由仅在训练时读取模拟器特权状态的物理 critic 改善跨轮信用分配。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.40799，平台标注发表/更新 2026-10-29）；2026-11-03 核验，收录至 2026-11-03 日报，非该日报日期首发；实验及能力结论为作者报告；项目链接由论文页面提供，不代表全部代码与权重均已发布",
+      "highlight": "训练时辅助信息与部署时可见信息需要区分，不能把模拟器状态泄漏进执行策略。",
+      "tags": [
+        "code-as-policy",
+        "sft",
+        "multi-turn-rl",
+        "robotics"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 8,
+      "time": "2026-11-03",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "DLC：分别修正强化学习中的推理数值差异与采样权重滞后",
+      "url": "https://github.com/Skylanding/Training-Inference-Mismatch",
+      "summary": "论文把训练器与采样器之间的误差拆成推理引擎数值差异和异步采样策略滞后，说明二者需要不同修正。DLC 结合偏差中心化、滞后比率裁剪及按有效样本量触发重同步，在小规模模型上验证训练稳定性。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.40945，平台标注发表/更新 2026-10-29）；2026-11-03 核验，收录至 2026-11-03 日报，非该日报日期首发；实验及能力结论为作者报告；项目链接由论文页面提供，不代表全部代码与权重均已发布",
+      "highlight": "排查 RL 不稳定时，应分别测量计算差异与权重版本滞后，而不只调一个 KL 阈值。",
+      "tags": [
+        "llm-rl",
+        "off-policy-correction",
+        "asynchronous-training"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 9,
+      "time": "2026-11-03",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "SimpleLoRIF 与 SafeTulu：用梯度归因识别微调数据的安全退化信号",
+      "url": "https://huggingface.co/papers/2610.37481",
+      "summary": "研究将训练样本与不安全行为的梯度关联转化为可扩展过滤方法，减少需要反向传播的层数。作者据此构造 SafeTulu，并报告在多个模型上改善对抗测试表现，同时大体保留任务能力。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.37481，平台标注发表/更新 2026-10-27）；2026-11-03 核验，收录至 2026-11-03 日报，非该日报日期首发；实验及能力结论为作者报告",
+      "highlight": "看似无害的样本文本也可能改变训练后行为，过滤效果仍需用独立能力与安全评估确认。",
+      "tags": [
+        "data-attribution",
+        "gradient-embeddings",
+        "safety-alignment"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 10,
+      "time": "2026-11-03",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "HALO：用人工诊断细分主动 Agent 的介入时机与强度",
+      "url": "https://github.com/CedricPei/HALO",
+      "summary": "评测要求 Agent 先从结构化数据库或文档中检索证据，再判断是否主动提供帮助以及介入范围。数据集提供专家对接受度、动作层级和拒绝原因的标注，作者发现过早或过强的介入是主要问题。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.39086，平台标注发表/更新 2026-10-29）；2026-11-03 核验，收录至 2026-11-03 日报，非该日报日期首发；实验及能力结论为作者报告；项目链接由论文页面提供，不代表全部代码与权重均已发布",
+      "highlight": "主动助手不能只以做了多少事评分，是否有足够证据和是否适度同样需要测量。",
+      "tags": [
+        "proactive-agents",
+        "human-evaluation",
+        "intervention-calibration"
+      ],
+      "topic": [
+        "agent",
+        "rag"
+      ],
+      "id": 11,
+      "time": "2026-11-03",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "GEPA-Curator：筛选真正值得用于提示优化的 Agent 经验",
+      "url": "https://huggingface.co/papers/2610.37651",
+      "summary": "框架在反思式提示优化前筛除学习信号不可靠的任务，并按任务检索先前成功轨迹作为参考。作者指出失败可能来自执行框架、随机性或评判噪声，因此不能把每次失败都当作提示缺陷。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.37651，平台标注发表/更新 2026-10-27）；2026-11-03 核验，收录至 2026-11-03 日报，非该日报日期首发；实验及能力结论为作者报告",
+      "highlight": "先判断经验是否可学习，有助于减少优化器围绕偶然失败反复修改提示。",
+      "tags": [
+        "prompt-optimization",
+        "experience-curation",
+        "trajectory-retrieval"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 12,
+      "time": "2026-11-03",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "Apriel Voice 27B Preview：把语音、推理与工具调用接入同一骨干",
+      "url": "https://huggingface.co/papers/2610.40738",
+      "summary": "预览模型在经过后训练的 Gemma 4 检查点上分两阶段建立语音接口，再联合适配投影器与骨干。研究结合监督微调、文本回放和在线蒸馏，使模型直接从语音请求产生回答及工具调用，并保留文字和图像输入。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.40738，平台标注发表/更新 2026-10-29）；2026-11-03 核验，收录至 2026-11-03 日报，非该日报日期首发；实验及能力结论为作者报告",
+      "highlight": "面向可行动语音助手，需同时评估语音理解、工具参数正确性与交互延迟。",
+      "tags": [
+        "speech-language-model",
+        "voice-agents",
+        "online-distillation"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 13,
+      "time": "2026-11-03",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "VoxLock：无需预先注册，用通话内声音样本提取目标说话人",
+      "url": "https://github.com/arbazsiddiqui/voxlock",
+      "summary": "作者微调公开的因果目标说话人提取模型，从当前通话中截取声音样本后抑制其他人的讲话。项目按后续识别器实际转写内容评分，并公开模型、代码和逐文件结果，报告低延迟 CPU 运行实验。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.40727，平台标注发表/更新 2026-10-29）；2026-11-03 核验，收录至 2026-11-03 日报，非该日报日期首发；实验及能力结论为作者报告；项目链接由论文页面提供，不代表全部代码与权重均已发布",
+      "highlight": "适合语音 Agent 前端的抗干扰研究，应同时检查目标语音保真与背景语音泄漏。",
+      "tags": [
+        "target-speaker-extraction",
+        "voice-agents",
+        "cpu-inference"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 14,
+      "time": "2026-11-03",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "CodeSpecWeave：用相互依赖的工程规格训练长程编码能力",
+      "url": "https://huggingface.co/papers/2610.40256",
+      "summary": "框架从真实开发需求出发，共同合成耦合约束与可执行测试，并审阅多个模型的解题轨迹以检查测试可靠性。作者构建训练任务与独立基准，研究接口兼容、错误处理等要求相互作用时的编码表现。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.40256，平台标注发表/更新 2026-10-29）；2026-11-03 核验，收录至 2026-11-03 日报，非该日报日期首发；实验及能力结论为作者报告",
+      "highlight": "真实交付的难点常在要求之间的依赖，任务合成不能退化成互不相关的检查清单。",
+      "tags": [
+        "coding-agents",
+        "specification-synthesis",
+        "reinforcement-learning"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 15,
+      "time": "2026-11-03",
+      "stars": null
+    }
+  ]
+}
