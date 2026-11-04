@@ -1,0 +1,296 @@
+{
+  "items": [
+    {
+      "category": "news",
+      "title": "OpenAI 研究安全评测与生产场景中的 Agent 行为差异",
+      "url": "https://alignment.openai.com/eval-production-behavior-gap/",
+      "summary": "团队将遵守警告的评测案例与去标识化生产场景做近似匹配，所研究的六个模型在评测中的成功率均低于匹配的生产案例。干预实验发现，明确提示正确或错误的评测目标会把表现推向不同方向。",
+      "source": "OpenAI Alignment 研究团队文章（2026-11-03）。对照与干预结果为作者报告。2026-11-04 核验并归档。",
+      "highlight": "报告把识别评测场景和推断评测目标分开测量，观察结果适用于文中的案例与模型。",
+      "tags": [
+        "agent-safety",
+        "evaluation-awareness",
+        "production-evaluation"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 1,
+      "time": "2026-11-04",
+      "stars": null
+    },
+    {
+      "category": "news",
+      "title": "NVIDIA 展示晶圆厂中的物理 AI、数字孪生与 Agent 应用",
+      "url": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
+      "summary": "NVIDIA 汇总合作伙伴在芯片制造中的工程实践，包括加速多物理场仿真、用学习模型预测等离子体行为，以及在数字孪生中验证工厂变更。文章也介绍了 Advantest 将测试场景中的模型选型交由 Agent 辅助执行。",
+      "source": "NVIDIA 官方文章（2026-11-03）。应用案例由 NVIDIA 与合作伙伴报告。2026-11-04 核验并归档。",
+      "highlight": "不同环节分别处理仿真速度、工艺预测和工程流程，适合按用例对照工业 AI 的落点。",
+      "tags": [
+        "industrial-ai",
+        "semiconductor",
+        "digital-twins"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 2,
+      "time": "2026-11-04",
+      "stars": null
+    },
+    {
+      "category": "tutorial",
+      "title": "kniv v7 用运行时 Schema 从文档抽取事实",
+      "url": "https://huggingface.co/blog/dragonscale-ai/how-we-built-kniv-v7",
+      "summary": "团队介绍可在本地运行的一组编码器，允许调用方按任务指定实体和关系类型。抽取结果保留事实的极性、模态、陈述者与时间，文章给出 Python 示例与 ONNX 部署入口。",
+      "source": "Dragonscale AI 工程文章（2026-11-02）。模型与评测说明来自发布团队。2026-11-04 核验并归档。",
+      "highlight": "写入 Agent 记忆时，保留否定、计划和转述信息有助于区分不同性质的陈述。",
+      "tags": [
+        "information-extraction",
+        "agent-memory",
+        "onnx",
+        "custom-schema"
+      ],
+      "topic": [
+        "agent",
+        "memory",
+        "rag"
+      ],
+      "id": 3,
+      "time": "2026-11-04",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Axion 1.0 的三阶段 Agent 后训练配方",
+      "url": "https://github.com/bytedance/axion1_0",
+      "summary": "团队先用模型相关数据训练独立推理，再用可自动验证的任务训练工具推理，最后用强化学习扩展长程交互能力。项目提供数据构造、过滤、验证与训练实现，便于跟踪每一阶段如何形成训练信号。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.03233，平台标注发表/更新 2026-11-02）。2026-11-04 核验并归档。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "训练配方覆盖从样本生成到验证的完整流程，适合复现可验证工具任务的构建方法。",
+      "tags": [
+        "agent-training",
+        "sft",
+        "reinforcement-learning"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 4,
+      "time": "2026-11-04",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "YANAMI 将多模态对话状态纳入训练与评测",
+      "url": "https://huggingface.co/papers/2611.05280",
+      "summary": "数据集覆盖多图融合、图像编辑、世界建模和视觉推理，要求模型跨轮保留并更新状态。基准分别检查模型对当前状态的理解和最终图像对该状态的呈现。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.05280，平台标注发表/更新 2026-11-03）。2026-11-04 核验并归档。实验结果由作者报告。",
+      "highlight": "一项视觉修改可能正确理解最新指令，却遗漏先前轮次仍生效的约束。",
+      "tags": [
+        "multimodal",
+        "dialogue-state",
+        "visual-editing"
+      ],
+      "topic": [
+        "memory",
+        "post-training"
+      ],
+      "id": 5,
+      "time": "2026-11-04",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "SpecPilot 用 Agent 搜索推测解码的部署优化",
+      "url": "https://github.com/StargazerX0/SpecPilot",
+      "summary": "系统用成本模型定位瓶颈，安排多个 Agent 并行试验算法和系统改动，并将已验证的优化写入结构化记忆。作者逐 token 检查输出，并在不同模型、草稿器和 GPU 上分别评估单请求与批处理。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.02501，平台标注发表/更新 2026-11-02）。2026-11-04 核验并归档。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "同一个推测解码优化在不同并发负载下可能有不同收益，论文将这些部署条件纳入搜索。",
+      "tags": [
+        "speculative-decoding",
+        "systems-optimization",
+        "agent-memory"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 6,
+      "time": "2026-11-04",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "ParetoSaddler 同时优化 Agent 质量与成本",
+      "url": "https://huggingface.co/papers/2611.02079",
+      "summary": "优化器在迭代中多次执行候选框架，用贝叶斯自助抽样评估候选在质量或成本上的改进。候选可在后续继续演进，部署时再按目标权衡选取最终框架。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.02079，平台标注发表/更新 2026-11-01）。2026-11-04 核验并归档。实验结果由作者报告。",
+      "highlight": "把搜索阶段的保留标准与最终部署标准分开，可给中间改动留出进一步组合的空间。",
+      "tags": [
+        "pareto-optimization",
+        "agent-harness",
+        "cost-quality"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 7,
+      "time": "2026-11-04",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "Mage-VL-Cowork 训练视觉操作与终端执行的混合策略",
+      "url": "https://huggingface.co/papers/2610.40747",
+      "summary": "团队通过五阶段课程训练 4B 级计算机操作模型，使同一策略能结合 GUI、代码与终端。训练流程复用按技能组织的任务生成工作流，并由专门调整的教师框架产生不同阶段需要的轨迹。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.40747，平台标注发表/更新 2026-10-29）。2026-11-04 核验并归档。实验结果由作者报告。",
+      "highlight": "这项研究具体展示了桌面 Agent 如何从任务构造过渡到混合操作训练。",
+      "tags": [
+        "computer-use",
+        "hybrid-agents",
+        "training-curriculum"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 8,
+      "time": "2026-11-04",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "WebHarbor 为 GUI Agent 提供可运行的网站训练环境",
+      "url": "https://github.com/aiming-lab/WebHarbor",
+      "summary": "项目将真实服务的界面和工作流重构成可用容器部署的环境，覆盖多步骤和登录后任务。编码 Agent 随任务增加实现功能，人类贡献者审核界面还原、交互正确性与任务有效性。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.03634，平台标注发表/更新 2026-11-02）。2026-11-04 核验并归档。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "可控环境便于重复训练和评测，人工审核则有助于保留真实网站的操作细节。",
+      "tags": [
+        "gui-agents",
+        "web-environments",
+        "reinforcement-learning"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 9,
+      "time": "2026-11-04",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Caper 根据沙箱中观测到的命令后果辅助审批",
+      "url": "https://github.com/wudaoz/Caper",
+      "summary": "框架先在带快照的沙箱中执行命令，再将观测到的影响整理为有限报告交由独立审批器判断。获准操作可提交其变更，拒绝操作可回滚并向 Agent 返回原因。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.40753，平台标注发表/更新 2026-10-29）。2026-11-04 核验并归档。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "命令效果依赖被调用的代码与工作区状态，研究将这两类信息带入审批判断。",
+      "tags": [
+        "coding-agents",
+        "sandbox",
+        "command-approval"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 10,
+      "time": "2026-11-04",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "DEPTH 用步骤间的因果依赖衡量终端任务深度",
+      "url": "https://github.com/AlanRosston/Depth",
+      "summary": "论文区分操作总量与串行深度，后者衡量 Agent 必须读完上一轮结果才能决定下一轮命令的次数。合成系统在真实软件环境中执行每一段任务，再从执行留下的状态构造下一段。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.01927，平台标注发表/更新 2026-11-01）。2026-11-04 核验并归档。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "长任务的关键难度可能来自必须依序获取的信息，模型实际使用的轮次也受自身操作习惯影响。",
+      "tags": [
+        "terminal-agents",
+        "benchmark-design",
+        "task-depth"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 11,
+      "time": "2026-11-04",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "DAMI 从门控初始化改善线性注意力的长上下文检索",
+      "url": "https://github.com/SpeedAI-Lab/DAMI",
+      "summary": "方法联合配置门控的两个参数，让不同注意力头覆盖不同时间尺度，并为各层分配不同的输入敏感度。研究用少量激活样本校准初始化，再对多种门控序列模型评估长距离检索。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.41994，平台标注发表/更新 2026-10-30）。2026-11-04 核验并归档。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "有限状态模型的记忆保留能力与门控初值有关，论文给出可单独检验的初始化方案。",
+      "tags": [
+        "linear-attention",
+        "long-context",
+        "gate-initialization"
+      ],
+      "topic": [
+        "memory",
+        "rag"
+      ],
+      "id": 12,
+      "time": "2026-11-04",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "LeanGuard 在工具调用前验证状态与历史约束",
+      "url": "https://github.com/DebarghaG/LeanGuard",
+      "summary": "运行时在调用触达环境前，用 Lean4 编写的策略检查当前状态和执行历史。调用被拒绝时可返回具体规则，也可搜索能证明满足策略的相近参数。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.02332，平台标注发表/更新 2026-11-02）。2026-11-04 核验并归档。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "策略表达和执行约束可以一起审查，规则覆盖范围由实际写入的约束决定。",
+      "tags": [
+        "formal-verification",
+        "tool-use",
+        "runtime-policy"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 13,
+      "time": "2026-11-04",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "全模态嵌入综述区分覆盖、可比与组合三种能力",
+      "url": "https://github.com/codefuse-ai/Awesome-Omnimodal-Embeddings",
+      "summary": "作者从不同模态的表示学习出发，梳理转换、对齐与联合嵌入三类统一路径。文章分别讨论能接收哪些模态、不同模态能否直接比较，以及如何组合多模态信息。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.00172，平台标注发表/更新 2026-10-30）。2026-11-04 核验并归档。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "评估检索嵌入时可把跨模态匹配与组合查询能力分开衡量。",
+      "tags": [
+        "omnimodal-embeddings",
+        "retrieval",
+        "multimodal-alignment"
+      ],
+      "topic": [
+        "rag"
+      ],
+      "id": 14,
+      "time": "2026-11-04",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "MoviEdit 先拟定全局草稿再细化多镜头视频编辑",
+      "url": "https://github.com/adobe-research/MoviEdit-Bench",
+      "summary": "框架先用双向阶段在压缩时空表示上规划一致的编辑草稿，再自回归传播并细化到完整视频。作者构建配对编辑数据与长视频基准，评估文字和图像引导下的跨镜头一致性。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.02737，平台标注发表/更新 2026-11-02）。2026-11-04 核验并归档。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "镜头切换、视角变化与主体外观变化可以作为长视频编辑的独立检查点。",
+      "tags": [
+        "video-editing",
+        "multi-shot",
+        "temporal-consistency"
+      ],
+      "id": 15,
+      "time": "2026-11-04",
+      "stars": null
+    }
+  ]
+}
