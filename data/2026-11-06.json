@@ -1,0 +1,293 @@
+{
+  "items": [
+    {
+      "category": "news",
+      "title": "Cosmos 3 新检查点覆盖交互仿真与多传感器驾驶数据",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "summary": "NVIDIA 发布四个 Cosmos 3 Nano 后训练检查点，分别处理驾驶场景迁移、流式驾驶观察、模拟控制到视频及双臂动作到视频。文章区分离线生成与流式仿真路径，并提供检查点、技术材料和适配入口。",
+      "source": "NVIDIA 官方团队文章（2026-11-05）。四个模型采用 OpenMDW1.1，使用条件见模型许可。2026-11-06 核验，归档至 2026-11-06 日报。",
+      "highlight": "模型能力与控制信号对应关系明确，便于按机器人或驾驶仿真任务选择起点。",
+      "tags": [
+        "world-models",
+        "simulation",
+        "cosmos-3"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 1,
+      "time": "2026-11-06",
+      "stars": null
+    },
+    {
+      "category": "tool",
+      "title": "Phonon TTS 发布回顾介绍本地推理与模型许可",
+      "url": "https://huggingface.co/blog/phonon-tts",
+      "summary": "Gradium 与 Hugging Face 介绍 Phonon 的设备端语音合成、Transformers 集成和实际演示，并提供推理入口。文章明确英语 31m 模型采用 Apache 2.0，覆盖五种语言的 40m 模型采用非商业许可。",
+      "source": "Gradium / Hugging Face 发布回顾（2026-11-05）。原文说明模型在此前两周已开放，本条收录本地推理与集成资料。2026-11-06 核验，归档至 2026-11-06 日报。",
+      "highlight": "下载和部署前可按语言覆盖、设备资源与具体模型许可逐项核对。",
+      "tags": [
+        "text-to-speech",
+        "on-device",
+        "phonon"
+      ],
+      "id": 2,
+      "time": "2026-11-06",
+      "stars": null
+    },
+    {
+      "category": "tool",
+      "title": "LeRobot 0.7.0 增加交互指令、流式数据与大模型训练支持",
+      "url": "https://huggingface.co/blog/lerobot/lerobot-release-v070",
+      "summary": "新版将语言标注接入训练和运行中的交互会话，支持修改子任务、视觉问答及外部规划器。数据可从 Hub、存储桶或 LanceDB 流式读取，训练栈增加分片、分布式检查点与远程策略服务。",
+      "source": "LeRobot 官方团队版本说明（2026-11-05）。支持的策略、硬件和配置以版本文档为准。2026-11-06 核验，归档至 2026-11-06 日报。",
+      "highlight": "交互能力依赖所选策略或规划器，数据管线与运行端配置可一起核验。",
+      "tags": [
+        "lerobot",
+        "robotics",
+        "streaming-datasets",
+        "distributed-training"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 3,
+      "time": "2026-11-06",
+      "stars": null
+    },
+    {
+      "category": "news",
+      "title": "GPT Image 2.6 增加复杂度控制与新的图像输出能力",
+      "url": "https://developers.openai.com/api/docs/models/gpt-image-2.6-flare",
+      "summary": "OpenAI 在 11 月 4 日发布 Sunburst 与 Flare 两款图像模型，并在文档中说明复杂度控制、标记引导编辑以及 SVG 和动画 GIF 输出。复杂度与渲染质量分别配置，各输出格式及编辑入口有对应参数要求。",
+      "source": "OpenAI 官方模型页、图像指南及 2026-11-04 API 更新记录。具体格式能力按接口文档使用。2026-11-06 核验，归档至 2026-11-06 日报。",
+      "highlight": "比较图像配置时可分别记录规划复杂度、渲染质量、延迟与编辑一致性。",
+      "tags": [
+        "image-generation",
+        "gpt-image-2.6",
+        "svg",
+        "animated-gif"
+      ],
+      "id": 4,
+      "time": "2026-11-06",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Harness-S 从同源执行框架的互补能力中训练策略",
+      "url": "https://github.com/DeepExperience/Harness-S",
+      "summary": "系统沿不同修复方向演进辅助框架，只有基础框架的初始尝试全部失败时才调用这些变体。由同一策略在辅助框架中产生新轨迹用于强化学习，再回到原基础框架评估迁移效果。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.04277，平台标注发表/更新 2026-11-03）。2026-11-06 核验，归档至 2026-11-06 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "框架诱发的有效行为能否被策略学会，可以通过回到原始执行环境来验证。",
+      "tags": [
+        "agent-harness",
+        "rescue-training",
+        "policy-learning"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 5,
+      "time": "2026-11-06",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "BestRand 降低小规模评测子集的大误差风险",
+      "url": "https://github.com/George-Ling3/BestRand",
+      "summary": "论文分析用子集估计完整基准分数时的长尾误差，并提出在保留随机抽样效率的同时降低极端误差的方法。作者在文字、多模态、Agent 和 VLA 基准上检查构造成本与分布变化后的估计偏差。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.00883，平台标注发表/更新 2026-10-31）。2026-11-06 核验，归档至 2026-11-06 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "压缩基准需要同时记录平均误差与少数高误差子集的风险。",
+      "tags": [
+        "benchmark-compression",
+        "evaluation",
+        "sampling"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 6,
+      "time": "2026-11-06",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "TailSteer 在去噪末段学习抑制多轮图像漂移",
+      "url": "https://github.com/Lyricccco/tailsteer",
+      "summary": "训练框架约束早期去噪动态接近基础模型，把细节保留修正集中到轨迹末端。它利用编辑器自身的在线轨迹和原图中未修改内容作为参考，比较多个模型家族的连续编辑表现。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.06741，平台标注发表/更新 2026-11-04）。2026-11-06 核验，归档至 2026-11-06 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "连续使用编辑结果时，局部无意变化会积累，评估应覆盖多轮后的内容保留。",
+      "tags": [
+        "image-editing",
+        "multi-turn",
+        "drift-control"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 7,
+      "time": "2026-11-06",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "VisSearch-Bench 检验跨图像与搜索步骤的证据组织",
+      "url": "https://github.com/antins-labs/VisSearch-Bench-v1",
+      "summary": "基准提供人工编写的视觉密集任务，要求 Agent 把物体外观、局部细节或空间关系与外部检索信息连接起来。评分同时记录整项任务成功与中间结果的正确性、完整性，并附有可追溯证据。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.04894，平台标注发表/更新 2026-11-03）。2026-11-06 核验，归档至 2026-11-06 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "完整答案与部分线索得分可以帮助定位长程视觉搜索在哪一步丢失了信息。",
+      "tags": [
+        "visual-search",
+        "evidence-management",
+        "multimodal-agents"
+      ],
+      "topic": [
+        "agent",
+        "rag",
+        "memory"
+      ],
+      "id": 8,
+      "time": "2026-11-06",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Drex 决策模型直接预测用户给定选项的概率",
+      "url": "https://github.com/nace-ai/drex-decision-models",
+      "summary": "团队发布多个规模的决策模型，输入由状态、问题和候选选项组成，覆盖选择、判断与有序评分。训练结合监督学习和调整反馈的强化学习，并用一致性损失改善选项重排时的稳定性。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.07854，平台标注发表/更新 2026-11-05）。2026-11-06 核验，归档至 2026-11-06 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "决策型任务可以同时检查准确率、选项顺序敏感性与延迟。",
+      "tags": [
+        "decision-models",
+        "rlaf",
+        "structured-prediction"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 9,
+      "time": "2026-11-06",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "EvoMemState 为个人 Agent 维护事实关系与请求相关状态",
+      "url": "https://github.com/XMUDeepLIT/EvoMemState",
+      "summary": "框架在持久事实之上维护有效性、范围和演变关系，并通过强化学习生成当前请求需要的推理状态。回答时同时使用事实、关系状态与请求状态，作者在长期对话及记忆使用任务中评估效果。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.03743，平台标注发表/更新 2026-11-02）。2026-11-06 核验，归档至 2026-11-06 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "用户信息会互相修订或限制，记忆有效范围需要随着新交互更新。",
+      "tags": [
+        "personal-agents",
+        "long-term-memory",
+        "state-evolution"
+      ],
+      "topic": [
+        "memory",
+        "agent",
+        "post-training"
+      ],
+      "id": 10,
+      "time": "2026-11-06",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "DreamFree 将未来视频知识蒸馏为当前观察的表示",
+      "url": "https://huggingface.co/papers/2611.04527",
+      "summary": "方法训练视觉编码器，仅凭当前观察预测冻结视频扩散模型的未来表示，再从该表示提取动作信息。研究在模拟和实机任务中比较控制成功率与闭环效率，并检验视频示范带来的迁移。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.04527，平台标注发表/更新 2026-11-04）。2026-11-06 核验，归档至 2026-11-06 日报。实验结果由作者报告。",
+      "highlight": "把预测知识压入表示可减少控制时的视频生成开销，效果取决于动作信息是否保留。",
+      "tags": [
+        "world-action-models",
+        "representation-distillation",
+        "robotics"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 11,
+      "time": "2026-11-06",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "HeLM 用显式语言记忆支持跨阶段机器人操作",
+      "url": "https://github.com/kimspacehuni/HeLM",
+      "summary": "层级 VLA 将事件检测与记忆更新分开，仅在相关事件出现时更新任务历史。研究包含单次任务内部与跨任务的持久上下文，并测试组合泛化与长程运行开销。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.02660，平台标注发表/更新 2026-11-02）。2026-11-06 核验，归档至 2026-11-06 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "显式事件记录让依赖历史的动作选择更容易检查。",
+      "tags": [
+        "robot-memory",
+        "vla",
+        "event-triggered-memory"
+      ],
+      "topic": [
+        "memory",
+        "agent"
+      ],
+      "id": 12,
+      "time": "2026-11-06",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "Speculative Listening 利用等待音频时的空闲计算预生成",
+      "url": "https://huggingface.co/papers/2611.06982",
+      "summary": "框架在下一音频块尚未到达时以静音假设生成草稿，音频到达后再验证并选择可接受输出。作者在四个分块全双工模型上分析输入变化，并分别评估说话和工具调用块的延迟。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.06982，平台标注发表/更新 2026-11-04）。2026-11-06 核验，归档至 2026-11-06 日报。实验结果由作者报告。",
+      "highlight": "输入等待时间也是计算调度资源，实际响应时延需包含验证和音频分块开销。",
+      "tags": [
+        "full-duplex-speech",
+        "speculative-decoding",
+        "latency"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 13,
+      "time": "2026-11-06",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "用 SAE 分解 MoE 专家的细粒度贡献",
+      "url": "https://github.com/ByteDance-Seed/SAE-interprets-MoE",
+      "summary": "研究在 MoE 层输出上训练稀疏自编码器，把潜变量的预激活分解到各专家的贡献。作者比较路由频率与特征贡献，观察代码和数学内部更细的分工，并发布分析代码与 SAE。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.08089，平台标注发表/更新 2026-11-05）。2026-11-06 核验，归档至 2026-11-06 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "专家被选中与专家实际推动某个特征是不同的测量量。",
+      "tags": [
+        "moe",
+        "sparse-autoencoders",
+        "interpretability"
+      ],
+      "id": 14,
+      "time": "2026-11-06",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "Open-HumanScale 公开大规模第一视角预训练配方",
+      "url": "https://huggingface.co/papers/2611.06817",
+      "summary": "团队整理带手部运动与语言标注的人类视频，研究数据时长与下游机器人表现的关系。工作比较纯人类预训练和人机混合预训练，并说明数据整理、训练、检查点及评估套件的开放路径。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.06817，平台标注发表/更新 2026-11-04）。2026-11-06 核验，归档至 2026-11-06 日报。实验结果由作者报告。",
+      "highlight": "迁移实验同时依赖数据规模、标注与机器人后训练，复现时应核对完整配置。",
+      "tags": [
+        "embodied-pretraining",
+        "egocentric-video",
+        "open-recipe"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 15,
+      "time": "2026-11-06",
+      "stars": null
+    }
+  ]
+}

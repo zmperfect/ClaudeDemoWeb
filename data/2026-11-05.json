@@ -1,0 +1,289 @@
+{
+  "items": [
+    {
+      "category": "news",
+      "title": "GPT-6 Cyber 面向授权安全研究推出受控访问",
+      "url": "https://openai.com/index/introducing-gpt-6-cyber/",
+      "summary": "OpenAI 发布用于漏洞验证、修复与安全研究的 GPT-6 Cyber，并介绍围绕任务边界和结果报告开展的专项训练。首阶段通过 API 和 Codex 向部分获准 Daybreak Red 客户开放，后续访问扩展仍按官方计划推进。",
+      "source": "OpenAI 官方发布文章（2026-11-05）。评测和对齐结果为厂商报告，初期仅部分获准 Daybreak Red 客户可用。2026-11-06 核验，归档至 2026-11-05 日报。",
+      "highlight": "接入状态和任务范围直接影响能开展的工作，文章提供了本次发布的能力与访问说明。",
+      "tags": [
+        "cybersecurity",
+        "authorized-research",
+        "model-release"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 1,
+      "time": "2026-11-05",
+      "stars": null
+    },
+    {
+      "category": "news",
+      "title": "Gemini Omni 1.2 Flash 支持最长 15 秒视频与多轮编辑",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "summary": "Google 发布视频生成更新，在 Gemini API 与 Gemini for business 提供正式可用入口。模型增加原生最长 15 秒片段、多轮对话编辑及参考素材跟随，其他应用入口按各自计划逐步开放。",
+      "source": "Google DeepMind 官方产品文章（2026-11-05）。一致性与效率说明为厂商报告。2026-11-06 核验，归档至 2026-11-05 日报。",
+      "highlight": "短片生成与后续局部修改可放在同一流程中评估，持续检查人物、文字和产品细节。",
+      "tags": [
+        "video-generation",
+        "conversational-editing",
+        "gemini-omni"
+      ],
+      "id": 2,
+      "time": "2026-11-05",
+      "stars": null
+    },
+    {
+      "category": "tool",
+      "title": "Dharma Field Extractor 将文档图像转换为指定结构的 JSON",
+      "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+      "summary": "团队介绍基于专用 OCR 骨干和 LoRA 训练的字段提取模型，支持自动发现字段与按用户 Schema 抽取两种模式。输出可包含嵌套表格与类型化值，文章同时说明了测试文档、JSON 有效性和成本计算设置。",
+      "source": "Dharma-AI 发布团队文章（2026-11-04）。能力、基准与成本由团队报告，成本取决于自托管配置。2026-11-06 核验，归档至 2026-11-05 日报。",
+      "highlight": "字段正确性、表格位置和缺失值处理都可作为文档自动化的验收条件。",
+      "tags": [
+        "document-extraction",
+        "structured-json",
+        "lora"
+      ],
+      "topic": [
+        "post-training",
+        "rag"
+      ],
+      "id": 3,
+      "time": "2026-11-05",
+      "stars": null
+    },
+    {
+      "category": "tutorial",
+      "title": "Transformers MIC 用缩小模型回放真实调用路径",
+      "url": "https://huggingface.co/blog/transformers-mic",
+      "summary": "文章介绍由固定的小型模型、可运行使用示例和人工审核基线组成的集成契约。团队用历史提交回放演示如何发现注意力路径回归，并说明保留 tokenizer、层类型和实际调用路径的重要性。",
+      "source": "Hugging Face Transformers 团队工程文章（2026-11-03）。MIC 为提出并试验中的集成测试方案，覆盖与阻断策略见原文。2026-11-06 核验，归档至 2026-11-05 日报。",
+      "highlight": "便宜的 CPU 回归检查需要能对输入和训练变化做出反应，基线也需要固定版本。",
+      "tags": [
+        "transformers",
+        "integration-testing",
+        "model-fixtures"
+      ],
+      "id": 4,
+      "time": "2026-11-05",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "LoCo 在局部推理状态上学习何时结束思考",
+      "url": "https://github.com/MuyaoYuan/LoCo",
+      "summary": "方法从模型自身轨迹中识别候选过度推理位置，固定前缀并重新生成更短且可验证的续写。随后用这些状态条件偏好对进行 DPO 训练，作者在数学与代码任务上比较准确率和输出长度。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.04814，平台标注发表/更新 2026-11-03）。2026-11-06 核验，归档至 2026-11-05 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "把继续思考与结束作答作为局部决策，有助于分析推理压缩究竟改变了什么。",
+      "tags": [
+        "reasoning-compression",
+        "dpo",
+        "local-preference"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 5,
+      "time": "2026-11-05",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "FactEmbed 为组合图像检索分解视觉修改意图",
+      "url": "https://github.com/cvlab-kaist/FactEmbed",
+      "summary": "框架先用分解后的潜变量表示参考图像与修改文字所指向的目标语义，再学习区分候选图像的检索表示。一次前向同时产生全局向量与细分特征，后者可用于候选短列表重排。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.05193，平台标注发表/更新 2026-11-03）。2026-11-06 核验，归档至 2026-11-05 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "组合查询需要保留哪些属性、修改哪些属性，可以作为检索表示的明确训练目标。",
+      "tags": [
+        "composed-image-retrieval",
+        "multimodal-embeddings",
+        "reranking"
+      ],
+      "topic": [
+        "rag",
+        "post-training"
+      ],
+      "id": 6,
+      "time": "2026-11-05",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "ToolSpace 从真实工具调用依赖构造长程训练环境",
+      "url": "https://github.com/dongguanting/ToolSpace",
+      "summary": "系统从真实 MCP 服务轨迹中提取数据、状态和重试依赖，并将工具组合图聚类为环境。任务通过带回滚的状态感知执行链生成，只保留能从初始状态成功回放并通过断言的样本。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.05036，平台标注发表/更新 2026-11-03）。2026-11-06 核验，归档至 2026-11-05 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "执行验证可以同时检查工具组合和任务答案，为长程 Agent 提供可复现的训练信号。",
+      "tags": [
+        "tool-use",
+        "mcp",
+        "environment-synthesis"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 7,
+      "time": "2026-11-05",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "DeepMem 用多尺度压缩与细节通道处理字节序列",
+      "url": "https://github.com/akhadangi/deepmem",
+      "summary": "架构以可逆子带变换缩短字节序列，同时通过无损载体与细节旁路保留字节身份。快速权重记忆和共享状态迭代在压缩表示上计算，再由解码器恢复字节分辨率表示。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.05255，平台标注发表/更新 2026-11-03）。2026-11-06 核验，归档至 2026-11-05 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "这里研究的是模型内部序列记忆，可从表示保真与压缩计算量两个维度评估。",
+      "tags": [
+        "byte-level-models",
+        "multiscale",
+        "fast-weight-memory"
+      ],
+      "topic": [
+        "memory"
+      ],
+      "id": 8,
+      "time": "2026-11-05",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "用决策模型识别 RAG 来源冲突的类型",
+      "url": "https://github.com/Parv17k/decision-models-conflict-typing",
+      "summary": "研究在同一输入上比较多个决策模型与生成式模型，区分多答案、争议、信息过期和错误来源等情况。作者还测试把低置信度请求交给更强模型的级联，并分析来源顺序与分类方式的影响。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.36915，平台标注发表/更新 2026-10-27）。2026-11-06 核验，归档至 2026-11-05 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "来源冲突需要先判断成因，置信度也能用于安排进一步核验。",
+      "tags": [
+        "rag",
+        "knowledge-conflict",
+        "decision-models"
+      ],
+      "topic": [
+        "rag"
+      ],
+      "id": 9,
+      "time": "2026-11-05",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "TurnWise 为流式视频的每轮观察和回答分配训练信用",
+      "url": "https://github.com/XD111ds/turn-wise-rl",
+      "summary": "方法为各轮决策构造独立的组相对优势，缓解早期成功或失败对后续轮次训练信号的干扰。损失先在轮内再跨轮平均，使等待与回答获得与其输出长度相匹配的训练权重。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.06728，平台标注发表/更新 2026-11-04）。2026-11-06 核验，归档至 2026-11-05 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "流式交互的奖励设计需要考虑什么时候回答以及什么时候继续观察。",
+      "tags": [
+        "streaming-video",
+        "grpo",
+        "credit-assignment"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 10,
+      "time": "2026-11-05",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "BudgetMix RL 研究交互预算如何影响多轮训练收益",
+      "url": "https://github.com/GaryStack/Rethinking-Agent-RL",
+      "summary": "作者同时改变采样次数与交互轮数，发现多轮强化学习的收益对可用轮次较敏感，提升集中体现在恢复错误和持续执行。BudgetMix 在训练中混合不同交互预算，并检验部署条件变化时的表现。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.06483，平台标注发表/更新 2026-11-04）。2026-11-06 核验，归档至 2026-11-05 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "训练与部署的轮数限制应一起记录，便于解释同一 Agent 在不同预算下的差异。",
+      "tags": [
+        "agent-rl",
+        "interaction-budget",
+        "error-recovery"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 11,
+      "time": "2026-11-05",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "多教师在线蒸馏研究检验分布外能力保留",
+      "url": "https://huggingface.co/papers/2611.05609",
+      "summary": "研究比较教师能力合并后的分布内得分、外推任务和组合任务表现，发现较高的分布内拟合仍可能伴随分布外退化。作者从教师能力、数据覆盖和更新几何分析瓶颈，并测试回放与几何修补方法。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.05609，平台标注发表/更新 2026-11-03）。2026-11-06 核验，归档至 2026-11-05 日报。实验结果由作者报告。",
+      "highlight": "能力合并评测需要同时覆盖已有任务与新的组合方式。",
+      "tags": [
+        "on-policy-distillation",
+        "generalization",
+        "capability-consolidation"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 12,
+      "time": "2026-11-05",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "VideoMemBench 评估视频对话中跨轮记忆的使用",
+      "url": "https://github.com/Oliiveralien/VideoMemBench",
+      "summary": "基准让后续问题依赖先前谈到的视觉片段或模型自己的答案，并检查依赖是否必要以及问题是否泄漏答案。数据覆盖多父节点依赖与长距离回问，提供数据集和评估入口。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.40131，平台标注发表/更新 2026-11-03）。2026-11-06 核验，归档至 2026-11-05 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "视频长度和对话记忆是两个可分别测量的因素，问题之间的依赖决定是否真正需要记忆。",
+      "tags": [
+        "video-memory",
+        "multi-turn-dialogue",
+        "benchmark"
+      ],
+      "topic": [
+        "memory",
+        "agent"
+      ],
+      "id": 13,
+      "time": "2026-11-05",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Hybrid Computer Use 统一代码、可访问性树与视觉操作",
+      "url": "https://github.com/microsoft/Hybrid-Computer-Use",
+      "summary": "微软提出三通道计算机操作接口，让 Agent 按任务组合程序、可访问性语义与 GUI 操作。可访问性工具支持紧凑观察、批量动作和变化反馈，并在切换通道时检查状态是否已过期。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.41432，平台标注发表/更新 2026-10-30）。2026-11-06 核验，归档至 2026-11-05 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "减少交互轮次的同时仍需保证动作针对当前界面状态。",
+      "tags": [
+        "computer-use",
+        "accessibility",
+        "hybrid-interface"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 14,
+      "time": "2026-11-05",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "SpecOPD 并行生成分支以训练推测解码草稿器",
+      "url": "https://github.com/QwenApp/SpecOPD",
+      "summary": "方法在参考前缀处抽取独立草稿分支，并将分支组织成树以共享目标模型的前缀计算。针对全注意力、稀疏注意力和线性注意力分别保持分支历史，用目标函数直接改善接受长度。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.02846，平台标注发表/更新 2026-11-02）。2026-11-06 核验，归档至 2026-11-05 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "推测解码的训练数据生成也存在并行空间，训练吞吐与最终推理收益需要分别测量。",
+      "tags": [
+        "speculative-decoding",
+        "on-policy-distillation",
+        "parallel-training"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 15,
+      "time": "2026-11-05",
+      "stars": null
+    }
+  ]
+}
