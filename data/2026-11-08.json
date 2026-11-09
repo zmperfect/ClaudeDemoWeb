@@ -1,0 +1,296 @@
+{
+  "items": [
+    {
+      "category": "news",
+      "title": "百度提供 ERNIE 5.5 Flash Base 预训练权重",
+      "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base",
+      "summary": "官方模型卡记录 280B 总参数和每 token 14B 激活参数的稀疏 MoE 基座，并提供权重与推理入口。文档分别说明最高 128K 的预训练上下文及微调和推理支持的百万 token 上下文。",
+      "source": "百度官方模型卡与权重仓库，平台标注更新于 2026-11-05。参数和上下文能力为厂商说明。2026-11-09 核验，归档至 2026-11-08 日报。",
+      "highlight": "基座权重可作为领域后训练起点，使用时需要检查显存、上下文设置与专用许可。",
+      "tags": [
+        "ernie",
+        "base-model",
+        "moe",
+        "open-weights"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 1,
+      "time": "2026-11-08",
+      "stars": null
+    },
+    {
+      "category": "news",
+      "title": "Arete-27B 公开价值取向微调的数据与评测",
+      "url": "https://nousresearch.com/arete",
+      "summary": "Nous Research 在 Qwen3.8-27B 上做监督微调，目标是改变部分政治议题的回答取向。团队同时开放权重、训练数据及评测，并说明数据构建和自定义评分标准。",
+      "source": "Nous Research 官方技术文章与模型仓库，权重仓库记录于 2026-11-06 创建。评测口径与结论为发布方报告。2026-11-09 核验，归档至 2026-11-08 日报。",
+      "highlight": "复现时可把评测量表所反映的目标取向与事实准确性分别检查。",
+      "tags": [
+        "supervised-fine-tuning",
+        "value-alignment",
+        "open-weights"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 2,
+      "time": "2026-11-08",
+      "stars": null
+    },
+    {
+      "category": "tutorial",
+      "title": "TRL 多教师在线蒸馏示例按任务路由专家",
+      "url": "https://huggingface.co/blog/sergiopaniego/mopd-trl",
+      "summary": "作者用公开检查点演示学生采样、按教师标识路由以及专家评分，给出 TRL 异步蒸馏配置与运行入口。示例使用数学、代码和指令遵循专家，并讨论不同域的 token 数量如何影响训练。",
+      "source": "Sergio Paniego 的 TRL 实现教程（2026-11-03）。示例使用 AsyncDistillationTrainer 与 Open-MOPD 检查点。2026-11-09 核验，归档至 2026-11-08 日报。",
+      "highlight": "实现多教师训练时，可同时监控提示采样比例和实际 token 比例。",
+      "tags": [
+        "trl",
+        "on-policy-distillation",
+        "multi-teacher"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 3,
+      "time": "2026-11-08",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "VFlash 一次生成完整视觉规划原语",
+      "url": "https://huggingface.co/papers/2611.08449",
+      "summary": "轻量草稿器利用点、框和轨迹的结构联合预测坐标，在一次前向中形成一个完整原语。研究以标注原语训练并接受结构合法的输出，在二维和三维轨迹任务上比较精度和延迟。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.08449，平台标注发表/更新 2026-11-05）。2026-11-09 核验，归档至 2026-11-08 日报。实验结果由作者报告。",
+      "highlight": "视觉规划可直接优化几何有效性，避免把坐标生成质量只归结为文本 token 一致率。",
+      "tags": [
+        "visual-planning",
+        "robotics",
+        "primitive-decoding"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 4,
+      "time": "2026-11-08",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "SLA 在持续预训练中加入机器人空间对齐",
+      "url": "https://huggingface.co/papers/2611.08373",
+      "summary": "方法对预训练策略同时优化动作预测与中间视觉表示对齐，借助冻结的三维教师利用可获得的深度和相机标定信息。训练时自适应组合多个层的特征，辅助组件在训练后不进入推理路径。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.08373，平台标注发表/更新 2026-11-05）。2026-11-09 核验，归档至 2026-11-08 日报。实验结果由作者报告。",
+      "highlight": "异构机器人数据可通过空间监督共享几何信息，同时保留部署时原有的策略结构。",
+      "tags": [
+        "spatial-reasoning",
+        "vla",
+        "continual-pretraining"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 5,
+      "time": "2026-11-08",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "WeLM-Image 统一图像生成、编辑和多参考合成",
+      "url": "https://huggingface.co/papers/2611.07392",
+      "summary": "模型将文本、参考图像和目标潜变量交错输入，通过共享注意力与分开的理解和生成参数控制相互干扰。训练分别优化生成和编辑后合并策略，再用少步蒸馏得到加速版本。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.07392，平台标注发表/更新 2026-11-05）。2026-11-09 核验，归档至 2026-11-08 日报。实验结果由作者报告。",
+      "highlight": "图像统一模型的能力合并与推理压缩可分别验证，便于定位不同任务的性能变化。",
+      "tags": [
+        "image-generation",
+        "mixture-of-transformers",
+        "distillation"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 6,
+      "time": "2026-11-08",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "PLatour 用对照实验检验跨模型潜在通信的真实贡献",
+      "url": "https://github.com/zhenyi4/platour",
+      "summary": "框架用可训练的轻量桥接模块将大模型预填充表示交给小模型生成。作者发现部分任务上的收益也可由无信息发送信号或仅训练接收侧复现，因此提出 PACT-Check 衡量通信本身的贡献。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.06976，平台标注发表/更新 2026-11-04）。2026-11-09 核验，归档至 2026-11-08 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "跨模型系统的总分提升可来自适配参数，需要设计控制组量化发送模型提供的信息。",
+      "tags": [
+        "latent-communication",
+        "prefill",
+        "controlled-evaluation"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 7,
+      "time": "2026-11-08",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "Muir 按敏感度分配线性注意力门控容量",
+      "url": "https://huggingface.co/papers/2611.08376",
+      "summary": "研究发现状态写入和擦除的敏感度不同，因而使用低秩门控投影并调整读出时各状态行的权重。作者设计适用于大块计算的并行更新，并比较困惑度、吞吐与长序列召回。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.08376，平台标注发表/更新 2026-11-05）。2026-11-09 核验，归档至 2026-11-08 日报。实验结果由作者报告。",
+      "highlight": "线性注意力的写入、擦除和读出对记忆保持有不同作用，可分别检查。",
+      "tags": [
+        "linear-attention",
+        "sequence-memory",
+        "gating"
+      ],
+      "topic": [
+        "memory"
+      ],
+      "id": 8,
+      "time": "2026-11-08",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "TB-MathModel 用可行性检查评估终端数学建模",
+      "url": "https://github.com/wxj630/terminal-bench-math-modeling",
+      "summary": "基准提供真实竞赛问题和附件，要求 Agent 在容器内交付结构化答案。评分将关键数值与多份参考解比较，并通过程序检查和 Lean 约束过滤不可行结果。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.08237，平台标注发表/更新 2026-11-05）。2026-11-09 核验，归档至 2026-11-08 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "数值接近参考解和满足实际约束可独立核查，适合长程建模 Agent。",
+      "tags": [
+        "mathematical-modeling",
+        "terminal-agents",
+        "verifiable-benchmark"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 9,
+      "time": "2026-11-08",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "SwarmEvolve 通过共享 KV 状态进行群体搜索",
+      "url": "https://github.com/Qile-J/SwarmEvolve",
+      "summary": "系统以潜在状态传递信息，让多组 Agent 从不同方向探索程序解法，并依据隐藏状态差异保留多样候选。汇总代理结合成员缓存，在数学发现和科学计算问题上评估搜索效率。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.08483，平台标注发表/更新 2026-11-05）。2026-11-09 核验，归档至 2026-11-08 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "多 Agent 探索除了最终分数，还需比较候选多样性、用时与跨任务稳定性。",
+      "tags": [
+        "multi-agent",
+        "evolutionary-search",
+        "latent-communication"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 10,
+      "time": "2026-11-08",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Coca-Cola 将冗长工具返回压缩为保留动作信息的潜在表示",
+      "url": "https://github.com/THU-Agent/Coca-cola",
+      "summary": "压缩器将工具观察转为可注入 Agent 嵌入空间的潜在 token。训练对齐完整观察与压缩观察下的下一步动作分布，作者在搜索问答任务中评估 token 用量、耗时与正确率。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.06500，平台标注发表/更新 2026-11-04）。2026-11-09 核验，归档至 2026-11-08 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "工具输出压缩应验证下一步决策所需的信息是否还在。",
+      "tags": [
+        "tool-observations",
+        "latent-compression",
+        "agent-memory"
+      ],
+      "topic": [
+        "agent",
+        "memory",
+        "post-training"
+      ],
+      "id": 11,
+      "time": "2026-11-08",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "可训练前缀 token 减少检索嵌入中的无关信号",
+      "url": "https://huggingface.co/papers/2611.07298",
+      "summary": "方法在输入前加入可训练位置，并用现有的对比检索目标联合优化这些前缀。实验保持架构、池化和损失不变，在不同嵌入模型及长上下文基准上分析效果。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.07298，平台标注发表/更新 2026-11-05）。2026-11-09 核验，归档至 2026-11-08 日报。实验结果由作者报告。",
+      "highlight": "训练前缀是可与现有检索训练流程比较的轻量改动，适合用业务召回任务验证。",
+      "tags": [
+        "embeddings",
+        "contrastive-learning",
+        "trainable-prefix"
+      ],
+      "topic": [
+        "rag",
+        "post-training"
+      ],
+      "id": 12,
+      "time": "2026-11-08",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "离线 RAG 研究检验签名知识包的文本与向量一致性",
+      "url": "https://github.com/securagenai/signed-but-steerable",
+      "summary": "研究区分知识包发布者签名与向量是否忠实编码文本两项验证。作者分析向量重算容差和检索间隔的关系，并比较浮点相似度检查与量化代码验证。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.06498，平台标注发表/更新 2026-11-04）。2026-11-09 核验，归档至 2026-11-08 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "离线检索的数据完整性验证需要覆盖来源和内容表示之间的对应关系。",
+      "tags": [
+        "rag-integrity",
+        "vector-index",
+        "offline-rag"
+      ],
+      "topic": [
+        "rag"
+      ],
+      "id": 13,
+      "time": "2026-11-08",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "StepX-OPD 同时合并扩散专家能力与学习少步采样",
+      "url": "https://github.com/WinterCCC/StepX-OPD",
+      "summary": "方法让多个冻结专家直接监督学生实际访问的少步状态，合并能力融合与步数压缩两个阶段。训练在低噪声阶段加入速度回归，作者分别评估指令遵循、文字渲染和图像质量。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.04386，平台标注发表/更新 2026-11-03）。2026-11-09 核验，归档至 2026-11-08 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "专家融合可能改变文字生成倾向，少步模型评估可分开检查这些行为。",
+      "tags": [
+        "diffusion",
+        "multi-teacher-distillation",
+        "few-step-generation"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 14,
+      "time": "2026-11-08",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "安全研究量化训练种子对模型越狱评测的影响",
+      "url": "https://github.com/cerulean-works/castor",
+      "summary": "作者在相同数据配方下改变预训练与后训练种子，比较不同检查点在共享测试上的非拒绝率。实验表明预训练运行变化会显著影响各攻击样例的相对成功情况。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.34074，平台标注发表/更新 2026-10-25）。2026-11-09 核验，归档至 2026-11-08 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "单一检查点的安全评估结论应保留种子与训练配置，便于跨运行复核。",
+      "tags": [
+        "safety-evaluation",
+        "training-seeds",
+        "robustness"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 15,
+      "time": "2026-11-08",
+      "stars": null
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "items": [
+    {
+      "category": "tool",
+      "title": "Microsoft PDD Kit 将 Agent 编码意图转为规格、证明和测试",
+      "url": "https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/",
+      "summary": "团队先在协作环境中审阅自然语言意图，再为可形式化部分生成 Verus 规格和证明，其他范围用测试提供证据。文章展示 Rust 全栈应用登录逻辑的验证流程，并记录受信任的组件与验证覆盖。",
+      "source": "Microsoft Research 工具与案例说明（2026-11-05）。文章示例聚焦登录逻辑及所述规格。2026-11-09 核验，归档至 2026-11-09 日报。",
+      "highlight": "审查重点可以落在规格是否准确表达需求，以及证明和测试各覆盖了哪些范围。",
+      "tags": [
+        "proof-driven-development",
+        "verus",
+        "coding-agents"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 1,
+      "time": "2026-11-09",
+      "stars": null
+    },
+    {
+      "category": "tool",
+      "title": "Ai2 StateBench 评估长文档中的多步状态追踪",
+      "url": "https://huggingface.co/blog/allenai/statebench",
+      "summary": "基准将状态更新按复杂度分层，并在变量赋值、表格编辑等形式中测量模型对实体变化的追踪。作者比较预训练、前沿和针对任务训练的模型，并提供技术报告、数据与代码。",
+      "source": "Ai2 官方研究文章（2026-11-03）。结论基于所列模型、任务形式和测试长度。2026-11-09 核验，归档至 2026-11-09 日报。",
+      "highlight": "长上下文任务可以分别检验找到最新值与串联多次依赖更新的能力。",
+      "tags": [
+        "state-tracking",
+        "long-context",
+        "benchmark"
+      ],
+      "topic": [
+        "memory"
+      ],
+      "id": 2,
+      "time": "2026-11-09",
+      "stars": null
+    },
+    {
+      "category": "news",
+      "title": "METR 独立复核 Anthropic 自动化研发风险报告",
+      "url": "https://metr.org/blog/2026-11-05-rd-section-anthropic-risk-report-august-2026-review/",
+      "summary": "METR 根据获得的内部资料评估报告中的自动化研发风险判断，并区分短期严重风险与是否触及早期预警阈值。研究者认为早期阈值是否已达到取决于若干判断，公开报告对当时研发加速程度的呈现偏低。",
+      "source": "METR 独立评估报告（2026-11-05）。主要复核 Anthropic 2026 年 8 月报告及其中截至 7 月 15 日的模型判断。2026-11-09 核验，归档至 2026-11-09 日报。",
+      "highlight": "预警指标、观测证据和解释所依赖的判断可以分别核对。",
+      "tags": [
+        "ai-rd",
+        "independent-evaluation",
+        "risk-monitoring"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 3,
+      "time": "2026-11-09",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "Agent 演进研究追踪新增能力、能力遗失与运行成本",
+      "url": "https://huggingface.co/papers/2611.07624",
+      "summary": "作者比较四种执行框架演进方法，通过重复评测、组件干预和接纳规则回放检查可靠性。多种设置中，演进后的 Agent 同时获得新任务能力并丢失原先能完成的任务，迁移结果也随框架和任务变化。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.07624，平台标注发表/更新 2026-11-05）。2026-11-09 核验，归档至 2026-11-09 日报。实验结果由作者报告。",
+      "highlight": "评估框架演进时可记录已覆盖任务的保留率，再看平均分和部署成本。",
+      "tags": [
+        "agent-evolution",
+        "reliability",
+        "capability-retention"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 4,
+      "time": "2026-11-09",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "有道 Confucius4-R2T2 用稳定前缀训练流式转写",
+      "url": "https://github.com/netease-youdao/Confucius4-R2T2",
+      "summary": "研究冻结既有音频编码器和投影器，基于中英语音后训练 Qwen3-ASR-1.7B。训练标签以最长稳定前缀构造，目标是在流式输出中保持此前发出的文本，并衡量准确率和发射延迟。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.06043，平台标注发表/更新 2026-11-04）。2026-11-09 核验，归档至 2026-11-09 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "下游翻译与语音 Agent 可将已提交前缀稳定性纳入接口评测。",
+      "tags": [
+        "streaming-asr",
+        "stable-prefix",
+        "voice-agents"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 5,
+      "time": "2026-11-09",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Sketchpad 用受限工作记忆验证小模型的精确算术",
+      "url": "https://github.com/NeoVand/sketchpad",
+      "summary": "小型视觉语言模型借助低秩适配器读取外部表格的一小块视图，每步输出数字、进借位和下一操作。作者用 Lean 将指定算术过程的正确性归约为有限视图集合检查，并在指定部署设备上完成检查。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.04434，平台标注发表/更新 2026-11-03）。2026-11-09 核验，归档至 2026-11-09 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "保证依赖读写协议、有限视图和验证环境，展示了限制局部计算接口如何让验证成为可能。",
+      "tags": [
+        "formal-verification",
+        "working-memory",
+        "arithmetic"
+      ],
+      "topic": [
+        "memory",
+        "post-training"
+      ],
+      "id": 6,
+      "time": "2026-11-09",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "NEO-VLA 让动作策略访问多层视觉计算",
+      "url": "https://huggingface.co/papers/2611.06918",
+      "summary": "模型用轻量图像分块与语言共同进入骨干，并让动作专家读取不同深度的指令条件视觉表示。作者对比固定视觉编码器与原生结构，探测局部几何等动作相关信号在哪些层最强。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.06918，平台标注发表/更新 2026-11-04）。2026-11-09 核验，归档至 2026-11-09 日报。实验结果由作者报告。",
+      "highlight": "机器人操作所需的局部细节可能在中间层更清楚，值得单独测量视觉表示的深度影响。",
+      "tags": [
+        "vision-language-action",
+        "robotics",
+        "visual-representations"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 7,
+      "time": "2026-11-09",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "GameVerse 为交互世界模型提供分钟级游戏序列",
+      "url": "https://github.com/kangverse/GameVerse",
+      "summary": "数据集以连续游戏画面为基础，结合场景一致性切分、质量过滤、相机轨迹估计和按事件对齐的字幕。标注分别描述静态环境与动态事件，作者研究训练数据对长程生成的影响。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.37257，平台标注发表/更新 2026-10-31）。2026-11-09 核验，归档至 2026-11-09 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "对长程世界模型而言，连续轨迹与事件级标注提供不同于短片描述的监督。",
+      "tags": [
+        "world-models",
+        "gameplay-dataset",
+        "camera-trajectories"
+      ],
+      "id": 8,
+      "time": "2026-11-09",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "PyRUA-DataFarm 从一次校准演示生成机器人训练数据",
+      "url": "https://huggingface.co/papers/2611.05320",
+      "summary": "编码 Agent 根据数据需求与校准轨迹搭建模拟场景、控制器和成功判定，再由视频模型生成对齐的多视角观察。作者在真实机器人任务中比较这类带动作标注的数据与遥操作数据训练的策略。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.05320，平台标注发表/更新 2026-11-03）。2026-11-09 核验，归档至 2026-11-09 日报。实验结果由作者报告。",
+      "highlight": "模拟动作与生成画面的时空对齐可以作为数据验收条件，最终仍要看实机结果。",
+      "tags": [
+        "robot-data",
+        "simulation",
+        "agent-generated-data"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 9,
+      "time": "2026-11-09",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "Muon-RT 复用自蒸馏教师状态以减少优化器缓冲",
+      "url": "https://huggingface.co/papers/2610.41104",
+      "summary": "方法使用 EMA 教师与学生参数的偏移近似历史更新信息，并处理其方向和尺度后与当前梯度结合。作者在两种自蒸馏设置中比较训练内存与准确率，理论分析建立在明确假设上。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.41104，平台标注发表/更新 2026-10-30）。2026-11-09 核验，归档至 2026-11-09 日报。实验结果由作者报告。",
+      "highlight": "已有 EMA 教师的训练流程可以检查优化器状态是否保存了重复信息。",
+      "tags": [
+        "self-distillation",
+        "muon",
+        "optimizer-memory"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 10,
+      "time": "2026-11-09",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "StreamDuo 将实时游戏解说与外部知识检索并行",
+      "url": "https://github.com/ZixianGao/StreamDuo-code",
+      "summary": "解说模型遇到不熟悉的实体时，把当前画面交给独立研究 Agent 查询游戏百科，视频流继续运行。训练用信息增益监督发问，再通过自蒸馏帮助解说器使用有噪声的检索结果。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.01120，平台标注发表/更新 2026-10-31）。2026-11-09 核验，归档至 2026-11-09 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "实时助手可让检索异步运行，并学习什么时候提问能改善眼前输出。",
+      "tags": [
+        "streaming-commentary",
+        "retrieval-agent",
+        "self-distillation"
+      ],
+      "topic": [
+        "agent",
+        "rag",
+        "post-training"
+      ],
+      "id": 11,
+      "time": "2026-11-09",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "H2RB 对齐人类与机器人示范的表示和动作",
+      "url": "https://github.com/jun-brro/h2rb-code",
+      "summary": "框架使用几何锚点对齐不同身体的观察表示，并用分离的动作解码器共享动作潜变量。作者通过未配对的人机示范适配预训练 VLA，在真实任务中评估物体与技能迁移。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.04391，平台标注发表/更新 2026-11-03）。2026-11-09 核验，归档至 2026-11-09 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "人类示范的迁移需要同时处理视角几何和动作接口差异。",
+      "tags": [
+        "human-to-robot",
+        "vla",
+        "action-tokenization"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 12,
+      "time": "2026-11-09",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "VidDub 用替换语音监督训练少步视频配音",
+      "url": "https://github.com/LAW1223/VidDub",
+      "summary": "方法在替换音频样本上屏蔽原嘴型重建损失，用音画同步监督口部，并保留其他面部区域和背景。随后把教师轨迹蒸馏到两步学生，作者比较唇音同步、身份保持和视觉质量。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.03404，平台标注发表/更新 2026-11-02）。2026-11-09 核验，归档至 2026-11-09 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "配音训练时，原视频嘴型与新语音可能冲突，需要为这两类监督分别定义区域。",
+      "tags": [
+        "video-dubbing",
+        "lip-sync",
+        "few-step-distillation"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 13,
+      "time": "2026-11-09",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "KernelSeek 用关键问题引导编码 Agent 优化 GPU 内核",
+      "url": "https://huggingface.co/papers/2611.03517",
+      "summary": "研究在可验证的性能目标下，让 Agent 在关键决策点回答来自人类或问题库的提示。作者在特定 GPU 与评测条件下比较优化过程，并发布内核、执行框架和轨迹。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.03517，平台标注发表/更新 2026-11-02）。2026-11-09 核验，归档至 2026-11-09 日报。实验结果由作者报告。",
+      "highlight": "工程优化的进展可结合提出的瓶颈假设和后续基准变化一起检查。",
+      "tags": [
+        "coding-agents",
+        "kernel-optimization",
+        "performance-engineering"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 14,
+      "time": "2026-11-09",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "SIMPLE 分解语言模型预填充与解码的能耗",
+      "url": "https://huggingface.co/papers/2611.03330",
+      "summary": "研究依据模型结构推导计算和访存开销，将推理能耗拆成预填充、缓存访问和下一个 token 的计算。作者使用 H100 上多种稠密模型的测量轨迹，分析上下文长度、注意力分组和推理预算。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.03330，平台标注发表/更新 2026-11-02）。2026-11-09 核验，归档至 2026-11-09 日报。实验结果由作者报告。",
+      "highlight": "同样数量的输出 token 可能对应不同的缓存读取量，比较能耗应注明输入与运行配置。",
+      "tags": [
+        "inference-energy",
+        "kv-cache",
+        "prefill"
+      ],
+      "topic": [
+        "memory"
+      ],
+      "id": 15,
+      "time": "2026-11-09",
+      "stars": null
+    }
+  ]
+}

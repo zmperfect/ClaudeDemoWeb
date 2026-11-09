@@ -1,0 +1,294 @@
+{
+  "items": [
+    {
+      "category": "news",
+      "title": "Kimi K3.1 Pro 官方权重与部署资料已可获取",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "summary": "Moonshot AI 在模型仓库提供权重分片、配置和模型说明，为此前推出的 K3.1 Pro 补充自部署入口。模型卡描述了原生多模态 MoE、百万 token 上下文与量化格式，并指向专用模型许可。",
+      "source": "Moonshot AI 官方模型仓库，平台标注更新于 2026-11-05。权重文件列表已核验。2026-11-09 核验，归档至 2026-11-07 日报。",
+      "highlight": "这次记录权重可获取这一变化，部署时可对照模型格式、服务框架和许可条件。",
+      "tags": [
+        "kimi-k3-1-pro",
+        "open-weights",
+        "model-deployment"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 1,
+      "time": "2026-11-07",
+      "stars": null
+    },
+    {
+      "category": "news",
+      "title": "Inkling 2 Small 首先通过 Tinker 提供试用与微调",
+      "url": "https://thinkingmachines.ai/news/inkling-2-small/",
+      "summary": "Thinking Machines Lab 发布支持图像输入与可变推理强度的 MoE 模型，并介绍统一强化学习与训练监控。发布公告先开放 Tinker 使用，将可下载权重安排在外部安全测试之后。",
+      "source": "Thinking Machines Lab 官方发布文章（2026-11-05）。开放权重为公告所述计划。2026-11-09 核验，归档至 2026-11-07 日报。",
+      "highlight": "产品访问与权重发布分属两个阶段，公告与模型卡提供对应的使用条件。",
+      "tags": [
+        "inkling",
+        "tinker",
+        "multimodal",
+        "reinforcement-learning"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 2,
+      "time": "2026-11-07",
+      "stars": null
+    },
+    {
+      "category": "tutorial",
+      "title": "Runway 解析单会话实时视频生成的推理瓶颈",
+      "url": "https://runway.com/news/research/real-time-video-at-batch-size-one",
+      "summary": "团队介绍对话视频模型的单会话实时期限，并测量重复缓存维护和张量并行通信所占时间。工程优化将部分缓存准备移到帧写入时，并融合低精度矩阵乘法与通信。",
+      "source": "Runway Research 工程文章（2026-11-05），关联论文 2611.05642。性能数据为作者在指定硬件和配置下报告。2026-11-09 核验，归档至 2026-11-07 日报。",
+      "highlight": "实时交互需要按每个生成块的延迟预算分析性能，缓存维护也应计入测量。",
+      "tags": [
+        "real-time-video",
+        "inference-serving",
+        "kv-cache"
+      ],
+      "topic": [
+        "memory"
+      ],
+      "id": 3,
+      "time": "2026-11-07",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "FrontierPhysics 评估从文献到实验的端到端物理研究",
+      "url": "https://huggingface.co/papers/2611.06910",
+      "summary": "基准由物理学者根据自身研究编写任务，要求 Agent 查阅文献、制定计划、执行研究并交付结构化结果或稿件。评测结合确定性验证器与专家量表，轨迹审阅指出推理严谨性和领域判断仍是难点。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.06910，平台标注发表/更新 2026-11-04）。2026-11-09 核验，归档至 2026-11-07 日报。实验结果由作者报告。",
+      "highlight": "科研评测可以把结果正确、方法严谨和成果表达作为独立维度。",
+      "tags": [
+        "scientific-agents",
+        "physics",
+        "research-evaluation"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 4,
+      "time": "2026-11-07",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "Halley 为 AI 集群光网络设计预测式控制",
+      "url": "https://huggingface.co/papers/2611.04408",
+      "summary": "框架分别为激光器备份、交换调度、微环控制和高风险模块保护设计预测策略，并在不确定时回退到既有策略。论文结合仿真、形式化验证和硬件时序检查讨论训练有效吞吐。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.04408，平台标注发表/更新 2026-11-03）。2026-11-09 核验，归档至 2026-11-07 日报。实验结果由作者报告。",
+      "highlight": "集群网络评估需要区分单层控制保证、故障相关性与端到端模拟结果。",
+      "tags": [
+        "optical-networking",
+        "ai-infrastructure",
+        "predictive-control"
+      ],
+      "id": 5,
+      "time": "2026-11-07",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "EmoReward 根据训练轨迹校准视频情绪奖励",
+      "url": "https://github.com/Tencent-Hunyuan/EmoReward",
+      "summary": "方法先将情绪指令拆成可评估线索，再根据表情置信度、信号冲突等条件调整多项奖励的权重。系统从上一轮训练估计各信号在不同情绪情境中的可靠性，用有界权重修正下一轮奖励融合。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.06518，平台标注发表/更新 2026-11-04）。2026-11-09 核验，归档至 2026-11-07 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "多项主观信号的权重可随场景和证据质量变化，消融实验能帮助判断收益来源。",
+      "tags": [
+        "video-generation",
+        "grpo",
+        "reward-calibration"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 6,
+      "time": "2026-11-07",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "D3D 将扩散草稿生成与目标模型验证并行执行",
+      "url": "https://github.com/fudan-generative-vision/D3D",
+      "summary": "方法训练可独立生成候选块的扩散草稿器，使后续草稿能在当前块验证期间生成。作者按各层对接受长度的影响剪枝，并在不同目标模型和任务上测量吞吐。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.06425，平台标注发表/更新 2026-11-04）。2026-11-09 核验，归档至 2026-11-07 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "推测解码提速取决于草稿成本、验证重叠和接受长度，需要结合部署配置看结果。",
+      "tags": [
+        "speculative-decoding",
+        "diffusion-drafter",
+        "asynchronous-inference"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 7,
+      "time": "2026-11-07",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "TAC-CoT 在潜在推理与文本工具调用之间交替",
+      "url": "https://huggingface.co/papers/2611.01926",
+      "summary": "框架将中间推理表示为紧凑潜在片段，同时为工具调用、观察和最终回答保留文本接口。作者在数学与问答基准上比较准确率、前向次数与单工具及多工具行为。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.01926，平台标注发表/更新 2026-11-01）。2026-11-09 核验，归档至 2026-11-07 日报。实验结果由作者报告。",
+      "highlight": "工具协议可维持显式接口，同时减少内部推理对上下文的占用。",
+      "tags": [
+        "latent-reasoning",
+        "tool-use",
+        "context-efficiency"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 8,
+      "time": "2026-11-07",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "研究通过重写历史推理测量上下文压缩的后续影响",
+      "url": "https://huggingface.co/papers/2611.03852",
+      "summary": "作者在尚未读取工具结果前，将先前推理改写成短状态记录，并比较原始历史与压缩历史下的续写。实验观察后续推理长度、重复验证和总成本，效果随目标模型与压缩器而变。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.03852，平台标注发表/更新 2026-11-02）。2026-11-09 核验，归档至 2026-11-07 日报。实验结果由作者报告。",
+      "highlight": "压缩评测应计入改写本身的开销，并追踪后续任务质量。",
+      "tags": [
+        "context-compaction",
+        "reasoning-history",
+        "agent-cost"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 9,
+      "time": "2026-11-07",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "LoopVQ 联合量化循环 Transformer 各步的 KV 缓存",
+      "url": "https://github.com/mscheong01/LoopVQ",
+      "summary": "研究发现循环层重复执行时各步缓存存在冗余，且对量化误差的敏感度不同。方法联合编码多个循环步的通道并微调码本，作者提供 SGLang 实现与长上下文实验。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.05304，平台标注发表/更新 2026-11-03）。2026-11-09 核验，归档至 2026-11-07 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "循环模型节省的参数内存和运行时缓存开销需要分别核算。",
+      "tags": [
+        "kv-cache",
+        "vector-quantization",
+        "looped-transformers"
+      ],
+      "topic": [
+        "memory",
+        "post-training"
+      ],
+      "id": 10,
+      "time": "2026-11-07",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "MSafeTemp 用本地化模板扩展多语种安全训练",
+      "url": "https://github.com/swiss-ai/msafetemp",
+      "summary": "流程提取可翻译的模板，再用不同语言和地区的实体构造拒答训练样例及可正常回答的样例，构建覆盖 60 种语言的语料。作者比较直接翻译与文化本地化样本，并评估多语种训练后的行为变化。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.40516，平台标注发表/更新 2026-10-29）。2026-11-09 核验，归档至 2026-11-07 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "评估语种覆盖时可同时检查语言翻译和地区语境，避免只依赖英语指标。",
+      "tags": [
+        "multilingual",
+        "safety-alignment",
+        "data-augmentation"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 11,
+      "time": "2026-11-07",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "SleuthVLM 结合转写与主动查看完成长视频问答",
+      "url": "https://github.com/WPR001/OpenOmniHarness",
+      "summary": "框架先把语音转写为文字，再由视觉语言 Agent 自主查看视频，按问题查找相关时段和视觉线索。研究在多项视频基准上比较这一流程与直接音视频联合输入模型。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.06083，平台标注发表/更新 2026-11-04）。2026-11-09 核验，归档至 2026-11-07 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "语音内容、环境声音与视觉定位需要分别验证，论文给出主动取证的对照方式。",
+      "tags": [
+        "video-qa",
+        "agent-harness",
+        "transcription"
+      ],
+      "topic": [
+        "agent",
+        "rag"
+      ],
+      "id": 12,
+      "time": "2026-11-07",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Multi-layer Indexer 让稀疏索引与注意力重叠运行",
+      "url": "https://github.com/ArjunKrishnak/dsa-multi-layer-indexer",
+      "summary": "方法利用相邻层选择相近 token 的现象，使一层注意力使用先前索引层的选择，同时计算新的索引。作者在 SGLang 中测试不同上下文与索引保留率下的速度和准确率。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.03768，平台标注发表/更新 2026-11-02）。2026-11-09 核验，归档至 2026-11-07 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "长上下文优化应计入索引扫描成本，并评估与跨层索引复用组合后的表现。",
+      "tags": [
+        "sparse-attention",
+        "long-context",
+        "inference"
+      ],
+      "topic": [
+        "memory"
+      ],
+      "id": 13,
+      "time": "2026-11-07",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "VeriSpoof 将语音伪造检测与证据核查合在同一模型",
+      "url": "https://github.com/swagshaw/verispoof",
+      "summary": "模型共享权重完成检测、生成器归因、录音条件分析、伪造片段定位和来源验证。研究通过反事实样本让判断依赖可核对线索，并提供模型、代码和多任务评估。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.04634，平台标注发表/更新 2026-11-03）。2026-11-09 核验，归档至 2026-11-07 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "音频取证可将结论与可检查的波形、片段和元数据证据对应起来。",
+      "tags": [
+        "audio-forensics",
+        "deepfake-detection",
+        "evidence"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 14,
+      "time": "2026-11-07",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "重启监控研究用决策价值衡量 Agent 是否值得重试",
+      "url": "https://huggingface.co/papers/2610.36544",
+      "summary": "作者分析监控准确率、剩余预算和替代尝试成功率之间的关系，并提出可基于现有轨迹评估重启或继续的审计方法。实证包含回顾与前瞻比较，报告了多个未能复现正收益的设置。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.36544，平台标注发表/更新 2026-10-27）。2026-11-09 核验，归档至 2026-11-07 日报。实验结果由作者报告。",
+      "highlight": "监控器应按它能否改善最终决策评估，剩余执行预算是关键变量。",
+      "tags": [
+        "agent-monitoring",
+        "restart-policy",
+        "decision-value"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 15,
+      "time": "2026-11-07",
+      "stars": null
+    }
+  ]
+}
