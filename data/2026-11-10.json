@@ -1,0 +1,297 @@
+{
+  "items": [
+    {
+      "category": "news",
+      "title": "Anthropic 发布 Claude Fable 5.2 和 Mythos 5.2",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "summary": "两款模型共享底座，Anthropic 公告介绍了编码、推理与视觉能力的更新。Fable 5.2 面向常规 Claude API 客户，Mythos 5.2 面向通过相应验证计划的组织，官方文档列出前缀检查与工具兼容性变更。",
+      "source": "Anthropic 官方发布文章与 Claude Platform 文档（2026-11-09）。评测结果为厂商报告。2026-11-10 核验，归档至 2026-11-10 日报。",
+      "highlight": "团队迁移长会话或计算机操作工具时，可按官方文档核对版本、访问条件和思考块兼容性。",
+      "tags": [
+        "claude-fable",
+        "claude-mythos",
+        "model-release"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 1,
+      "time": "2026-11-10",
+      "stars": null
+    },
+    {
+      "category": "news",
+      "title": "Meta 发布面向高频 Agent 子任务的 Muse Ember",
+      "url": "https://research.meta.ai/blog/muse-ember",
+      "summary": "Muse Ember 定位于工具调用、代码子任务、路由和长文档抽取等重复执行工作。Meta 在 Muse Code 和 Meta Model API 提供 muse-ember-1.0，并公布多种推理强度下的成本和评测结果。",
+      "source": "Meta AI Research 官方文章（2026-11-09）。成本与评测采用原文注明的设置。2026-11-10 核验，归档至 2026-11-10 日报。",
+      "highlight": "分派给子模型的任务可用真实工具轨迹测量完成率、每任务成本与延迟。",
+      "tags": [
+        "muse-ember",
+        "agent-execution",
+        "model-routing"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 2,
+      "time": "2026-11-10",
+      "stars": null
+    },
+    {
+      "category": "news",
+      "title": "LongCat-2.5 技术报告详述长程训练与原生视觉建模",
+      "url": "https://tech.meituan.com/2026/11/02/Meituan-LongCat-2.5.html",
+      "summary": "美团介绍用多层级离散 token 表示图像，并将真实 Agent 失败轨迹转为可复现、可验证的训练任务。文章还讨论跨执行框架混合训练、多教师在线蒸馏以及长上下文训练和推理的系统优化。",
+      "source": "美团技术团队官方发布文章（2026-11-02）。工程与评测结果由团队报告。2026-11-10 核验，归档至 2026-11-10 日报。",
+      "highlight": "这份报告把任务数据、可验证反馈和训练基础设施串到同一流程中，便于理解长程能力的训练来源。",
+      "tags": [
+        "longcat",
+        "multimodal",
+        "agent-rl",
+        "on-policy-distillation"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 3,
+      "time": "2026-11-10",
+      "stars": null
+    },
+    {
+      "category": "tutorial",
+      "title": "Harness Adapters 在实际 Agent 执行框架中训练 LoRA",
+      "url": "https://huggingface.co/blog/harness-hub/harness-adapters",
+      "summary": "团队在 pi、OpenCode 和 Hermes 中用可验证任务训练框架专用适配器，并通过 safeagents 在执行前按规则检查工具调用。文章提供训练配置和轨迹转任务的方法，初步评估记录工具调用次数与任务准确性。",
+      "source": "Harness Hub 团队工程文章（2026-11-06）。表现为初步实验结果，检查范围以实现规则为准。2026-11-10 核验，归档至 2026-11-10 日报。",
+      "highlight": "可以把执行框架、工具约束和评测配置作为训练产物一起记录，便于复现。",
+      "tags": [
+        "lora",
+        "agent-harness",
+        "verifiable-rewards"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 4,
+      "time": "2026-11-10",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "P²-MOPD 在在线蒸馏中联合优化学生权重与专家混合系数",
+      "url": "https://github.com/SinuoWang/P2-MOPD",
+      "summary": "方法将学生与冻结专家的参数线性组合视为可微模型，在同一在线蒸馏目标下更新学生权重和混合系数。作者在两个模型规模和四个领域比较能力恢复速度与不同领域间的平衡。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.03953，平台标注发表/更新 2026-11-02）。2026-11-10 核验，归档至 2026-11-10 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "专家参数提供初始化以外的先验，同时保留学生继续学习的自由度。",
+      "tags": [
+        "multi-teacher",
+        "on-policy-distillation",
+        "parameter-priors"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 5,
+      "time": "2026-11-10",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "PCBRouteAgent 分离电路板全局布线规划与 KiCad 局部执行",
+      "url": "https://github.com/chip-ai-agent/PCBRouteAgent",
+      "summary": "规划器结合板图和结构化约束选择连接拓扑、布线顺序及走线通道，执行器调用 KiCad 原生布线引擎。无法局部修复的问题通过结构化反馈交回规划器，已验收走线可保留。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.08175，平台标注发表/更新 2026-11-05）。2026-11-10 核验，归档至 2026-11-10 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "这项工作展示了如何把多模态判断接到专业工具和设计规则验证上。",
+      "tags": [
+        "pcb-routing",
+        "kicad",
+        "tool-use"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 6,
+      "time": "2026-11-10",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "LongBanana 用实体关系图评估长上下文多参考图像生成",
+      "url": "https://github.com/KlingAIResearch/LongBanana",
+      "summary": "基准要求模型从多张参考图中查找分散的视觉证据、排除干扰项，并在一张输出中满足实体与关系约束。专家把节点、边和全局要求拆成可审查的评分项，并比较直接生成与 Agent 工作流。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.06856，平台标注发表/更新 2026-11-04）。2026-11-10 核验，归档至 2026-11-10 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "可分别核查找对参考、正确绑定关系和满足全局约束三个环节。",
+      "tags": [
+        "multi-reference",
+        "visual-retrieval",
+        "image-synthesis"
+      ],
+      "topic": [
+        "agent",
+        "rag",
+        "memory"
+      ],
+      "id": 7,
+      "time": "2026-11-10",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Video-Coder 先写代码构建三维草稿，再生成视频",
+      "url": "https://github.com/CYWang735/Video-Coder",
+      "summary": "编码 Agent 在可执行环境中生成和渲染动态三维场景，为后续视频模型提供结构与运动条件。训练先进行监督微调，再组合代码执行反馈和视频反馈，并随训练推进调整奖励比重。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.09894，平台标注发表/更新 2026-11-06）。2026-11-10 核验，归档至 2026-11-10 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "草稿让空间结构与动作意图能够在生成最终画面前检查。",
+      "tags": [
+        "video-generation",
+        "agentic-coding",
+        "reinforcement-learning"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 8,
+      "time": "2026-11-10",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "AgentBaton 研究长程任务中强弱模型的交接时机",
+      "url": "https://huggingface.co/papers/2610.35959",
+      "summary": "研究对比任务内部两种模型接力方向和上下文传递方式。作者据任务进度训练轻量交接检测器，评估由强模型先处理关键步骤、再交由较便宜模型继续执行的成本与成功率。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.35959，平台标注发表/更新 2026-10-25）。2026-11-10 核验，归档至 2026-11-10 日报。实验结果由作者报告。",
+      "highlight": "模型路由可以落到任务阶段，而交接条件需要在不同模型组合和任务上验证。",
+      "tags": [
+        "model-routing",
+        "agent-handoff",
+        "cost-efficiency"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 9,
+      "time": "2026-11-10",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "LowRAM 分别压缩 KV 缓存中的键与值",
+      "url": "https://github.com/lowram-model/lowram",
+      "summary": "方法用跨层低秩表示压缩键，并在推理时拟合轻量预测器从键重建值，仅为重建较差的 token 保存残差。论文比较预填充拟合成本、解码吞吐和长上下文质量，并测试与量化、淘汰策略的组合。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.07025，平台标注发表/更新 2026-11-04）。2026-11-10 核验，归档至 2026-11-10 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "评估缓存压缩时可以同时核算预填充代价、解码重建和召回质量。",
+      "tags": [
+        "kv-cache",
+        "low-rank",
+        "context-compression"
+      ],
+      "topic": [
+        "memory"
+      ],
+      "id": 10,
+      "time": "2026-11-10",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "LambdaMix 让一组低秩适配器支持多目标偏好切换",
+      "url": "https://github.com/ckarouzos/lambdamix",
+      "summary": "方法在冻结基座上为各目标联合训练低秩适配器，使用同一偏好向量控制生成时的混合方式和训练中的奖励权重。完成一次训练后可在推理时调整权重，作者以多个任务比较折衷范围。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.09634，平台标注发表/更新 2026-11-06）。2026-11-10 核验，归档至 2026-11-10 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "这种设计提供了一种比较不同偏好设置的方式，无需为每个权重组合单独训练模型。",
+      "tags": [
+        "lora",
+        "multi-objective",
+        "group-relative-rl"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 11,
+      "time": "2026-11-10",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "CPU-ARC 从模型推理轨迹构造可在 CPU 执行的缓存",
+      "url": "https://huggingface.co/papers/2611.09891",
+      "summary": "研究将已经求解的推理过程转为可复用的执行缓存，再将缓存应用于同类问题的新输入。作者在数学和科学任务上比较缓存执行与重新调用源模型的准确性、鲁棒性及成本。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.09891，平台标注发表/更新 2026-11-06）。2026-11-10 核验，归档至 2026-11-10 日报。实验结果由作者报告。",
+      "highlight": "复用是否有效取决于新实例能否共享原有解法，需要单独评估任务覆盖。",
+      "tags": [
+        "reasoning-cache",
+        "cpu-execution",
+        "agent-reuse"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 12,
+      "time": "2026-11-10",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "AgentDrift 评估多步工具调用中的授权漂移",
+      "url": "https://github.com/ZJR-FZD/AgentDrift",
+      "summary": "基准为每项任务同时构造可完成目标的合规路径与有吸引力的越权捷径，并通过实际执行轨迹验证。评测分别记录数据、工具、范围和时间边界，研究观察到早期过度收集数据是常见失误。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.09113，平台标注发表/更新 2026-11-06）。2026-11-10 核验，归档至 2026-11-10 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "完成率和边界遵守可以联合评分，避免把越权完成计为成功。",
+      "tags": [
+        "authorization",
+        "tool-use",
+        "agent-evaluation"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 13,
+      "time": "2026-11-10",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "论文同名碰撞研究比较关键词、向量和列表重排",
+      "url": "https://huggingface.co/papers/2611.01362",
+      "summary": "研究在大规模 arXiv 记录中检查不同主题共享论文名称的情况，并以包含研究线索的查询测试检索。作者比较标题 BM25、含摘要的向量检索及同名候选的列表重排，量化不同环节的辨别差异。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.01362，平台标注发表/更新 2026-11-01）。2026-11-10 核验，归档至 2026-11-10 日报。实验结果由作者报告。",
+      "highlight": "检索同名论文时，主题线索与摘要是可验证的消歧信号。",
+      "tags": [
+        "scientific-retrieval",
+        "name-collision",
+        "listwise-reranking"
+      ],
+      "topic": [
+        "rag"
+      ],
+      "id": 14,
+      "time": "2026-11-10",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "HEELO 将可复用的 Agent 能力组装成任务执行图",
+      "url": "https://huggingface.co/papers/2611.07461",
+      "summary": "框架为工具或环境资源配置负责具体操作的模型组件，并按任务将组件组成执行图。系统使用环境证据验证结果、定位失败组件，再验证新组件或修订版本。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.07461，平台标注发表/更新 2026-11-05）。2026-11-10 核验，归档至 2026-11-10 日报。实验结果由作者报告。",
+      "highlight": "能力组件的复用价值可以通过独立验证和跨任务组合实验来衡量。",
+      "tags": [
+        "agent-primitives",
+        "harness-engineering",
+        "environment-verification"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 15,
+      "time": "2026-11-10",
+      "stars": null
+    }
+  ]
+}
