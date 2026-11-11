@@ -1,0 +1,303 @@
+{
+  "items": [
+    {
+      "category": "news",
+      "title": "Gemini 4 Carbon 在 Google Cloud 进入正式可用阶段",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/4-carbon",
+      "summary": "Google Cloud 在 11 月 10 日发布记录中将 Gemini 4 Carbon 标为正式可用，并宣布 BigQuery 生成式 AI 函数支持该模型。这是继先前模型发布后的云平台可用性更新，网络安全变体仍通过 Fairwind 白名单提供访问。",
+      "source": "Google Cloud 官方 2026-11-10 发布记录及 Gemini 4 Carbon 模型文档。2026-11-11 核验，归档至 2026-11-11 日报。",
+      "highlight": "评估平台接入时需同时核对模型状态、产品入口与访问条件。",
+      "tags": [
+        "Gemini",
+        "Google Cloud",
+        "Model Release"
+      ],
+      "id": 1,
+      "time": "2026-11-11",
+      "stars": null
+    },
+    {
+      "category": "news",
+      "title": "Anthropic 研究：加入干净数据也可能增强微调后门",
+      "url": "https://alignment.anthropic.com/2026/homeopathic-learning/",
+      "summary": "研究者发现，某些单独训练时影响很弱的污染样本，与格式相近的干净对照数据混合后，反而会诱发与特定触发特征关联的隐藏行为。实验使用构造数据和小型开放权重模型，提示微调数据审查应考虑样本之间的组合效应，结论尚不能直接外推到生产训练流程。",
+      "source": "Anthropic Alignment Science Blog，2026-11-10 发布，Anthropic 与 Truthful AI 等合作研究。2026-11-11 核验，归档至 2026-11-11 日报。",
+      "highlight": "为后训练数据审查提供新的失效案例，强调混合数据评估的重要性。",
+      "tags": [
+        "Fine-tuning",
+        "Data Quality",
+        "Backdoor",
+        "Alignment"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 2,
+      "time": "2026-11-11",
+      "stars": null
+    },
+    {
+      "category": "tool",
+      "title": "IBM CUGA 对比实验：同一模型下执行框架如何影响任务完成",
+      "url": "https://huggingface.co/blog/ibm-research/cuga-harness",
+      "summary": "IBM Research 使用同一 GLM-5.3-flash 模型，在 90 个 AppWorld 任务上比较 CUGA、Hermes 和 Deep Agents。CUGA 在其 AppWorld 专用配置下取得更高完成率，但三者提示、工具中间件与任务适配不同，结果应按该工作负载和配置解释，评测也未测量企业策略执行能力。",
+      "source": "IBM Research 作者发表于 Hugging Face 的一手文章，2026-11-03 发布，结果由作者报告。2026-11-11 核验，归档至 2026-11-11 日报。",
+      "highlight": "适合参考任务分解、执行前验证和反思机制，并据自身任务复现实验。",
+      "tags": [
+        "Agent Harness",
+        "CUGA",
+        "AppWorld",
+        "Evaluation"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 3,
+      "time": "2026-11-11",
+      "stars": null
+    },
+    {
+      "category": "tutorial",
+      "title": "Hugging Face 决策模型指南：直接返回选项概率与结构化判断",
+      "url": "https://huggingface.co/blog/decision",
+      "summary": "Hugging Face 介绍以状态、问题和允许答案为接口的决策模型，统一选择、等级评分和二元判断等输出。文章演示 Transformers 与 llama.cpp 的兼容接口以及微调流程，可用于客服分流等候选答案明确的任务，模型给出的概率仍需在实际业务数据上验证。",
+      "source": "Hugging Face 官方博客，2026-11-10 发布。2026-11-11 核验，归档至 2026-11-11 日报。",
+      "highlight": "为结构化路由提供完整的接口与部署示例，便于比较生成式方案的开销。",
+      "tags": [
+        "Decision Models",
+        "Transformers",
+        "llama.cpp",
+        "Structured Output"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 4,
+      "time": "2026-11-11",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Reframe：让视觉智能体蒸馏过程对齐工具返回的观测",
+      "url": "https://github.com/EliYuan30/Reframe",
+      "summary": "Reframe 结合面向证据的强化学习与观测对齐的多教师在策略蒸馏，训练空间和时间推理专家使用视觉工具。蒸馏阶段会修复欠佳工具动作并从修复后的观测继续生成，作者在图像与视频基准中评估该方案，两个阶段均不依赖任务专用监督微调冷启动。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.12886，平台标注发表/更新 2026-11-09）。2026-11-11 核验，归档至 2026-11-11 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "可参考工具动作修复如何影响后续轨迹与蒸馏质量。",
+      "tags": [
+        "Visual Agent",
+        "On-policy Distillation",
+        "GRPO",
+        "Tool Use"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 5,
+      "time": "2026-11-11",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "SIRIS：系统研究智能体能否判断模拟误差是否改变决策",
+      "url": "https://huggingface.co/papers/2611.10329",
+      "summary": "SIRIS 构造具有相同候选设计、模拟器局限和推荐方案的成对工作负载，但参考模拟器仅支持其中一个推荐。对 13 个前沿模型的评估表明，能描述模拟器缺陷并不保证能判断它是否影响设计选择，额外审查的效果也随模型而变化。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.10329，平台标注发表/更新 2026-11-06）。2026-11-11 核验，归档至 2026-11-11 日报。实验结果由作者报告。",
+      "highlight": "评估 AI 辅助系统设计时，应检验最终建议是否可靠，而不只检查解释是否合理。",
+      "tags": [
+        "Simulation",
+        "Systems Research",
+        "Agent Evaluation",
+        "Decision Making"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 6,
+      "time": "2026-11-11",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "OPD 训练与推理不一致：量化和异步轨迹的容忍边界",
+      "url": "https://github.com/benyucong/train-inference-mismatch-opd",
+      "summary": "研究分析量化推理、策略滞后与噪声给在策略蒸馏带来的训练和推理不一致，并在多个师生模型组合中观察到不同的误差容忍范围。作者提出轻量配置准入检查，用于在完整训练前筛选轨迹生成配置，避免把某一模型的量化或异步设置直接推广到其他模型。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.11450，平台标注发表/更新 2026-11-08）。2026-11-11 核验，归档至 2026-11-11 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "为兼顾蒸馏效率和稳定性提供配置筛选思路。",
+      "tags": [
+        "On-policy Distillation",
+        "Quantization",
+        "FP8",
+        "Asynchronous Training"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 7,
+      "time": "2026-11-11",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "TRIO：分别优化查询、证据判断与回答的迭代 RAG",
+      "url": "https://github.com/yingtaoren/TRIO",
+      "summary": "TRIO 将迭代检索增强生成分为查询扩展、证据充分性判断和回答三个智能体，并为各自设计独立优化信号。系统结合回答质量奖励、投票产生的判断标签及动态匹配奖励与课程学习，在多轮检索中逐步完善任务解答。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.02810，平台标注发表/更新 2026-11-02）。2026-11-11 核验，归档至 2026-11-11 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "适合研究 RAG 链路中不同环节应如何分配训练目标。",
+      "tags": [
+        "RAG",
+        "Query Expansion",
+        "Multi-agent",
+        "Reinforcement Learning"
+      ],
+      "topic": [
+        "rag",
+        "agent",
+        "post-training"
+      ],
+      "id": 8,
+      "time": "2026-11-11",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "FlyHash 智能体记忆检索：更高每比特质量与真实延迟代价",
+      "url": "https://github.com/mohanji/flyhash-agent-memory",
+      "summary": "研究将稀疏随机投影和胜者全取机制用于记忆向量编码，在多数据集、等比特预算下与 SimHash 比较。作者报告 FlyHash 的检索质量优势，但普通规模下 HNSW 整体更有竞争力，稀疏集合比较只能弥补部分延迟差距，因此应同时评估精度、存储与查询成本。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.05791，平台标注发表/更新 2026-11-04）。2026-11-11 核验，归档至 2026-11-11 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "提供包含负面性能结果的实证分析，便于避免只凭压缩率选择记忆索引。",
+      "tags": [
+        "Agent Memory",
+        "FlyHash",
+        "Vector Search",
+        "Retrieval"
+      ],
+      "topic": [
+        "memory",
+        "rag"
+      ],
+      "id": 9,
+      "time": "2026-11-11",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "RoboScript：通过演示与模拟排练积累机器人任务记忆",
+      "url": "https://github.com/ArcheOne-AI/RoboScript",
+      "summary": "研究让冻结模型从演示和模拟器排练反馈中进行上下文学习，再将所得知识固定为 TaskMemory，用于新场景执行。作者在 RoboTwin 任务及真实双臂机器人迁移中评估该流程，并通过数据隔离限制部署阶段只能读取真实机器人可获得的信息。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.12885，平台标注发表/更新 2026-11-09）。2026-11-11 核验，归档至 2026-11-11 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "可参考无需梯度更新的机器人学习流程，以及排练记忆的部署边界。",
+      "tags": [
+        "Robotics",
+        "In-context Learning",
+        "Task Memory",
+        "Simulation"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 10,
+      "time": "2026-11-11",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "条件迁移实现少步流式视频生成，减少独立评分网络",
+      "url": "https://huggingface.co/papers/2611.14033",
+      "summary": "论文通过迁移条件，让同一参数集合承担生成与假速度估计，从而去掉独立的假评分网络，同时保留冻结参考教师。作者结合自回放训练与感知正则评估长视频流式生成，指令遵循和一致性有所改善，但运动质量等维度并非全面超过基线。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.14033，平台标注发表/更新 2026-11-10）。2026-11-11 核验，归档至 2026-11-11 日报。实验结果由作者报告。",
+      "highlight": "理解少步视频生成时应同时核对网络开销与各质量维度的权衡。",
+      "tags": [
+        "Video Generation",
+        "Streaming",
+        "Distillation",
+        "Efficiency"
+      ],
+      "id": 11,
+      "time": "2026-11-11",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "DepthGraft：分层跨层 KV 重建兼顾缓存压缩与结构正则化",
+      "url": "https://github.com/jianke0604/DepthGraft",
+      "summary": "DepthGraft 从对齐的浅层和中层 KV 重建更深层缓存，以分层连接方式组织跨层信息共享。作者将相应梯度路径视为结构正则化，并在稠密与混合专家模型中报告约三分之一的缓存减少，同时保留提前完成预填充的能力。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.03142，平台标注发表/更新 2026-11-02）。2026-11-11 核验，归档至 2026-11-11 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "将 KV 缓存共享与模型训练结构一起分析，便于评估长期上下文的资源成本。",
+      "tags": [
+        "KV Cache",
+        "Model Architecture",
+        "Memory Efficiency",
+        "Cross-layer Sharing"
+      ],
+      "topic": [
+        "memory"
+      ],
+      "id": 12,
+      "time": "2026-11-11",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "PhysOPSD：用可执行物理代码监督视频生成的在策略自蒸馏",
+      "url": "https://github.com/aigc3d/PhysOPSD",
+      "summary": "PhysOPSD 将可执行模拟程序作为训练时的特权物理上下文，通过受控物理变化和共享生成噪声形成比较信号。方法使用两级特权信息瓶颈进行在策略自蒸馏，作者用约三千个样本评估物理合理性改进，部署效果仍需结合具体视频任务验证。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.12411，平台标注发表/更新 2026-11-09）。2026-11-11 核验，归档至 2026-11-11 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "提供把可验证模拟信息转移到视频生成模型的后训练思路。",
+      "tags": [
+        "Video Generation",
+        "Physics",
+        "Self-distillation",
+        "Privileged Information"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 13,
+      "time": "2026-11-11",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "EVAThink：按视频证据充分程度学习何时展开推理",
+      "url": "https://github.com/ChangtiWu/EVAThink",
+      "summary": "EVAThink 在固定帧预算下为同一问答配对证据密集与稀疏的视频视图，并筛选直接作答困难但推理有效的样本。方法先学习推理模式偏好，再优化响应效率，结合首 token 优势正则抑制模式坍塌，作者在不同帧预算下评估自适应推理效果。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.13907，平台标注发表/更新 2026-11-10）。2026-11-11 核验，归档至 2026-11-11 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "让推理预算与可见证据联系起来，适合研究视频问答的质量与成本平衡。",
+      "tags": [
+        "Video Understanding",
+        "Adaptive Reasoning",
+        "Reinforcement Learning",
+        "Efficiency"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 14,
+      "time": "2026-11-11",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "机器人记忆会不会只是计时器：暂停干扰揭示时间捷径",
+      "url": "https://github.com/bennidict23/memory-clock",
+      "summary": "论文在带记忆的视觉语言动作策略中加入不改变任务状态的暂停和无效动作，发现模型可能把经过时间误当作任务进展。删除显式时间编码或加入暂停训练均不足以解决问题，作者报告按事件组织记忆可在无需重训的情况下恢复部分性能，提示评估应区分真实状态记忆与时间捷径。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.14488，平台标注发表/更新 2026-11-10）。2026-11-11 核验，归档至 2026-11-11 日报。实验结果由作者报告。项目链接由论文页面提供。",
+      "highlight": "为长期机器人任务提供可操作的干扰测试和记忆组织改进方向。",
+      "tags": [
+        "Robotics",
+        "Memory",
+        "VLA",
+        "Temporal Shortcuts"
+      ],
+      "topic": [
+        "memory",
+        "agent"
+      ],
+      "id": 15,
+      "time": "2026-11-11",
+      "stars": null
+    }
+  ]
+}
