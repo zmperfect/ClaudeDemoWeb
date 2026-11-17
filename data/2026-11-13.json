@@ -1,0 +1,288 @@
+{
+  "items": [
+    {
+      "category": "news",
+      "title": "llama.cpp 与 ggml 1.0 发布并明确公共接口版本规则",
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "summary": "维护团队发布 1.0.0 库版本，公共 C API 或 ABI 出现不兼容变化时以主版本升级标记。文章区分公共头文件与实现，对兼容功能、后端和模型支持更新也给出版本规则。",
+      "source": "ggml-org 维护团队官方公告，2026-11-13 发布。2026-11-17 核验，归档至 2026-11-13 日报。",
+      "highlight": "依赖 libllama 或 libggml 的下游可以据此确定版本约束和升级测试。",
+      "tags": [
+        "llama.cpp",
+        "ggml",
+        "Local Inference",
+        "Semantic Versioning"
+      ],
+      "id": 1,
+      "time": "2026-11-13",
+      "stars": null
+    },
+    {
+      "category": "tool",
+      "title": "AllenAI XYBench：测量回答能否识别提问背后的真实目标",
+      "url": "https://huggingface.co/blog/allenai/xybench",
+      "summary": "基准把用户字面上的请求和试图解决的问题分别编码，评分分别考查解决方案、回答重点及误解识别。作者也用人工评审对自动判分的各维度做了抽样核验。",
+      "source": "Allen Institute for AI 作者博客，2026-11-13 发布。2026-11-17 核验，归档至 2026-11-13 日报。",
+      "highlight": "适合在助手评测中加入隐含目标与错误解决路径的案例。",
+      "tags": [
+        "User Intent",
+        "Pragmatics",
+        "Assistant Evaluation"
+      ],
+      "id": 2,
+      "time": "2026-11-13",
+      "stars": null
+    },
+    {
+      "category": "tutorial",
+      "title": "NVIDIA 教程：用 SimReady 资产搭建机械臂抓放仿真",
+      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "summary": "演示将机械臂、夹爪与物体资产组装为 Isaac Sim 场景，利用资产提供的关节、碰撞和质量参数。教程说明正式运行前如何检查关节、简单位移和接触，再用任务代码控制抓放。",
+      "source": "NVIDIA 官方文章，2026-11-13 发布。2026-11-17 核验，归档至 2026-11-13 日报。",
+      "highlight": "适合把物理资产验证和控制逻辑调试分开做。",
+      "tags": [
+        "Isaac Sim",
+        "SimReady",
+        "Robotics",
+        "Simulation"
+      ],
+      "id": 3,
+      "time": "2026-11-13",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "SO-Arena：测量决策模型是否对选项变化保持稳定",
+      "url": "https://github.com/holdrain/SO-Arena",
+      "summary": "SO-Arena 在 11 个领域评估选择模型，包含分难度的问题和沙盒交互任务。除准确率外，基准检查候选选项变化时的决策稳定性以及缺少正确答案时能否识别，作者发现两类指标的排名可能相差很大。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.15777，平台标注发表或更新于 2026-11-11）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-13 日报。",
+      "highlight": "适合检验只看平均准确率会遗漏的决策可靠性问题。",
+      "tags": [
+        "Decision Models",
+        "Robustness",
+        "Benchmark"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 4,
+      "time": "2026-11-13",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Duo v1：用同一时间轴协调全双工视听输入和输出",
+      "url": "https://github.com/inclusionAI/Duo",
+      "summary": "Duo 将实时交互拆为推断何时参与的 Intent 模块和产生视听响应的 Realization 模块，二者按分块时间轴同步。双轨迹蒸馏以实际生成的意图和视听历史减轻训练与部署之间的分布变化，系统可在交互中继续感知输入。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.15131，平台标注发表或更新于 2026-11-11）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-13 日报。",
+      "highlight": "可参考流式模型处理插话时的因果掩码与跨模块同步。",
+      "tags": [
+        "Full Duplex",
+        "World Model",
+        "Multimodal",
+        "Distillation"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 5,
+      "time": "2026-11-13",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "PhysLoop：构造物理视频数据并修复局部生成错误",
+      "url": "https://github.com/DAGroup-PKU/PhysLoop",
+      "summary": "PhysLoop 用统一流程约束语言模型对视频的生成、筛选和修正，以获得可控制的物理训练数据。作者发布生成工具、视频与两个任务数据集，并分别评估可控生成和局部修复。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.16748，平台标注发表或更新于 2026-11-12）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-13 日报。",
+      "highlight": "将数据构造和推理时修复放入同一实证框架。",
+      "tags": [
+        "Video Generation",
+        "Physics",
+        "Synthetic Data"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 6,
+      "time": "2026-11-13",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Open Vision Banana：将图像生成器微调为多任务感知模型",
+      "url": "https://github.com/OpenVisionBanana/OpenVisionBanana",
+      "summary": "项目把分割和深度等任务表示为条件图像编辑，并公开数据处理、训练、评估和多个检查点。作者通过颜色编码和任务配比消融分析泛化效果，还用不同颜色图例的多数投票减少类别绑定不稳定。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.15844，平台标注发表或更新于 2026-11-11）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-13 日报。",
+      "highlight": "提供可复现配方，便于比较生成式感知与专用模型的差距。",
+      "tags": [
+        "Visual Perception",
+        "Image Editing",
+        "Segmentation"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 7,
+      "time": "2026-11-13",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "决策模型作为执行者、评审和强化学习教师的差异",
+      "url": "https://github.com/ZJU-REAL/decision-agents",
+      "summary": "论文在 ALFWorld 上比较模型选择行动和回顾整条轨迹的表现，并在两个环境中用逐步评分指导强化学习。作者发现，执行时容易选错子目标的模型仍可能在看过后果后给出能改善学生策略的反馈。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.17167，平台标注发表或更新于 2026-11-12）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-13 日报。",
+      "highlight": "适合为长任务分别验证执行模型和过程奖励模型。",
+      "tags": [
+        "Decision Models",
+        "Process Reward",
+        "Agent Training"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 8,
+      "time": "2026-11-13",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Ropedia Xperience 2：把同一现场的三维扫描与人类示范转为机器人数据",
+      "url": "https://github.com/Ropedia/Ropedia-Xperience-2",
+      "summary": "数据集将实尺度场景扫描与第一视角任务录像一起采集，包含 1589 个发布扫描和 74 类任务的行为记录。作者展示场景转互动仿真、人类动作重定向和虚拟遥操作的流程。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.17060，平台标注发表或更新于 2026-11-12）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-13 日报。",
+      "highlight": "可参考如何从同一批场景同时获得可交互环境和训练轨迹。",
+      "tags": [
+        "Robotics",
+        "Dataset",
+        "Teleoperation",
+        "Simulation"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 9,
+      "time": "2026-11-13",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "SimpleHC：简化超连接的残差混合和内存访问",
+      "url": "https://github.com/aHapBean/SimpleHC",
+      "summary": "论文拆分超连接的门控与混合组件，发现其中两种简化设计都能接近 mHC 的表现。SimpleHC 去掉残差混合并复用组入口状态以批量读写，作者在 15B 至 30B 的 MoE 实验中比较了训练开销和稳定性。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.05984，平台标注发表或更新于 2026-11-04）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-13 日报。",
+      "highlight": "为结构变更同时提供组件消融和端到端性能证据。",
+      "tags": [
+        "Hyper-Connections",
+        "MoE",
+        "Training Efficiency"
+      ],
+      "id": 10,
+      "time": "2026-11-13",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "MixUA：按用户和智能体范围组织可共享经验",
+      "url": "https://huggingface.co/papers/2611.10439",
+      "summary": "MixUA 将交互中提炼的经验分别放入用户与智能体组合、单个用户、单个智能体或全局范围。评测同时测量跨会话任务收益、偏好保留和越权读取私密信息的风险。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.10439，平台标注发表或更新于 2026-11-07）。实验结果由作者报告。2026-11-17 核验，归档至 2026-11-13 日报。",
+      "highlight": "适合多用户记忆库设计访问范围和隐私探针。",
+      "tags": [
+        "Agent Memory",
+        "Personalization",
+        "Privacy"
+      ],
+      "topic": [
+        "memory",
+        "agent"
+      ],
+      "id": 11,
+      "time": "2026-11-13",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "DeepStress：对深度搜索智能体做低质量证据压力测试",
+      "url": "https://huggingface.co/papers/2607.13920",
+      "summary": "基准按独立控制的相关性、可信度和事实正确性生成检索证据，以复现难以稳定收集的弱证据场景。作者评测 12 个系统并同时考察谨慎回答和计算开销，观察到部分模型会对明显可疑的资料给出自信结论。",
+      "source": "作者论文摘要（Hugging Face Papers 2607.13920，平台标注发表或更新于 2026-11-12）。实验结果由作者报告。2026-11-17 核验，归档至 2026-11-13 日报。",
+      "highlight": "可将搜索评测从单一准确率扩展到证据质量和拒答行为。",
+      "tags": [
+        "Deep Search",
+        "RAG",
+        "Robustness"
+      ],
+      "topic": [
+        "rag",
+        "agent"
+      ],
+      "id": 12,
+      "time": "2026-11-13",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Agent-R²：从真实文件和职业流程合成生产力训练任务",
+      "url": "https://github.com/ZJU-REAL/Agent-R2",
+      "summary": "流程从真实职业、语料中的工作流和网页文件中构造约四千条任务，每条配有多格式附件和交付物评分标准。作者结合有监督微调和标准驱动的强化学习，报告在生产力基准和文件推理上的提升。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.08219，平台标注发表或更新于 2026-11-05）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-13 日报。",
+      "highlight": "提供收集附件、设计验收标准和训练交付行为的参考。",
+      "tags": [
+        "Productivity Agents",
+        "Synthetic Data",
+        "SFT",
+        "Reinforcement Learning"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 13,
+      "time": "2026-11-13",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "HiVe-Mem：用关系图和多种证据形态检索多模态记忆",
+      "url": "https://github.com/ViktorAxelsen/HiVe-Mem",
+      "summary": "系统用文本与视觉锚点建立事件图，从语义召回的种子扩展到相关记忆。轻量选择器对每条记忆按查询选择摘要、图像或原始交互等证据，作者在多模态记忆基准中报告得分与 token 效率改善。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.12872，平台标注发表或更新于 2026-11-09）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-13 日报。",
+      "highlight": "适合研究先扩展召回范围、再压缩传入证据的设计。",
+      "tags": [
+        "Multimodal Memory",
+        "Retrieval",
+        "Graph"
+      ],
+      "topic": [
+        "memory",
+        "rag",
+        "agent"
+      ],
+      "id": 14,
+      "time": "2026-11-13",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "工具超时之后：用可见证据决定智能体如何恢复任务",
+      "url": "https://huggingface.co/papers/2610.41453",
+      "summary": "论文建模工具超时后可能未执行、已提交或仍在运行的状态，并用可见证据、依赖和授权约束判断下一步。作者在有限任务和已知服务能力下比较规划建议与证据提示，保留无法确认和移交两类结果。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.41453，平台标注发表或更新于 2026-10-30）。实验结果由作者报告。2026-11-17 核验，归档至 2026-11-13 日报。",
+      "highlight": "适合设计有副作用操作的查询、重试和移交逻辑。",
+      "tags": [
+        "Tool Use",
+        "Recovery",
+        "Idempotency"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 15,
+      "time": "2026-11-13",
+      "stars": null
+    }
+  ]
+}

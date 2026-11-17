@@ -1,0 +1,269 @@
+{
+  "items": [
+    {
+      "category": "tool",
+      "title": "Figma MotionGraphicsBench：用程序核验静态 SVG 动效编辑",
+      "url": "https://huggingface.co/blog/figma-ai/motion-graphics-bench",
+      "summary": "评测提供现有 SVG 和动画指令，覆盖位置、外观与时序等 17 类要求。每个任务用确定性程序检查动画是否满足指定条件，作者比较多款闭源和开放权重模型的表现。",
+      "source": "Figma AI 作者文章，2026-11-10 发布。2026-11-17 核验，归档至 2026-11-15 日报。",
+      "highlight": "可将动画质量拆为独立、可重跑的指令遵循测试。",
+      "tags": [
+        "SVG",
+        "Motion Graphics",
+        "Programmatic Evaluation"
+      ],
+      "id": 1,
+      "time": "2026-11-15",
+      "stars": null
+    },
+    {
+      "category": "tutorial",
+      "title": "TNG 实验：给冻结的 MoE 模型加入独立领域专家",
+      "url": "https://huggingface.co/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne",
+      "summary": "方案在原专家旁加入新的参数并训练路由选择，以探索独立领域能力的组合。作者用领域任务实验对照专家扩展和 LoRA，并讨论冻结底座时如何保留模型已有的能力。",
+      "source": "TNG Technology Consulting 作者文章，2026-11-10 发布。2026-11-17 核验，归档至 2026-11-15 日报。",
+      "highlight": "适合比较不同领域适配是否能在一个 MoE 模型上组合。",
+      "tags": [
+        "MoE",
+        "Domain Adaptation",
+        "Expert Routing",
+        "Fine-tuning"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 2,
+      "time": "2026-11-15",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "EgoX：在人类、真实机器人与模拟角色之间共享操作经验",
+      "url": "https://github.com/egox-dream/egox",
+      "summary": "EgoX 给各具身形态设置各自的观测编码器和动作专家，同时共享 Transformer 主干。预训练还要求预测未来视觉和本体状态表示，作者在不同机器人和分布外条件下比较了迁移收益。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.16728，平台标注发表或更新于 2026-11-12）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-15 日报。",
+      "highlight": "适合参考如何统一异构示范并保留各硬件的控制接口。",
+      "tags": [
+        "Robot Learning",
+        "Cross-Embodiment",
+        "Transfer Learning"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 3,
+      "time": "2026-11-15",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "WorldDraft：测量视频渲染模型能否保留程序生成的世界结构",
+      "url": "https://github.com/KevinHuge/WorldDraft",
+      "summary": "基准将相同运动和镜头路径与不同草稿细节、外观线索配对，分别测量世界保真和文本指定外观。作者发现在结构更受约束的草稿下，外观遵循仍可能下降，并评估了面向冻结渲染器的提示方法。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.16217，平台标注发表或更新于 2026-11-12）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-15 日报。",
+      "highlight": "为用代码搭场景、用模型渲染的流程提供分项评测。",
+      "tags": [
+        "Generative Rendering",
+        "Video Generation",
+        "World Models"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 4,
+      "time": "2026-11-15",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "UniSpark：用混合注意力统一多模态理解、生成和图像编辑",
+      "url": "https://huggingface.co/papers/2611.16517",
+      "summary": "主干组合全注意力和 GatedDeltaNet 线性注意力，联合训练自回归文本预测与视觉流匹配。交错生成时，模型隔离带噪目标并将干净视觉表示传给后续预测，作者在理解和生成基准分别报告结果。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.16517，平台标注发表或更新于 2026-11-12）。实验结果由作者报告。2026-11-17 核验，归档至 2026-11-15 日报。",
+      "highlight": "可比较混合注意力在视觉和语言统一主干中的分工。",
+      "tags": [
+        "Hybrid Attention",
+        "Multimodal",
+        "Image Generation"
+      ],
+      "id": 5,
+      "time": "2026-11-15",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "PixVid：把预训练视频扩散模型移到像素空间逐帧生成",
+      "url": "https://huggingface.co/papers/2611.17336",
+      "summary": "PixVid 保留原扩散 Transformer，用卷积输出头取代 VAE 解码器，并以预测干净视频等调整微调模型。作者比较逐帧响应、高分辨率生成和深度条件编辑，观察到逐帧控制能力改善。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.17336，平台标注发表或更新于 2026-11-12）。实验结果由作者报告。2026-11-17 核验，归档至 2026-11-15 日报。",
+      "highlight": "适合需要低交互延迟和细粒度逐帧条件的视频应用研究。",
+      "tags": [
+        "Video Diffusion",
+        "Pixel Space",
+        "Interactive Generation"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 6,
+      "time": "2026-11-15",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "TurtLES：在高分辨率三维湍流上评测神经 PDE 替代模型",
+      "url": "https://github.com/itsakk/TurtLES",
+      "summary": "数据集覆盖不同几何、雷诺数和入流角的非稳态圆柱尾流，包含高密度不规则网格和长时序轨迹。作者用自回归滚动评测神经算子，记录小尺度能量流失和时序不稳定。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.09567，平台标注发表或更新于 2026-11-06）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-15 日报。",
+      "highlight": "可为科学机器学习评测增加长期动力学与频谱指标。",
+      "tags": [
+        "Scientific ML",
+        "Neural Operators",
+        "Fluid Dynamics"
+      ],
+      "id": 7,
+      "time": "2026-11-15",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "NarrativeBench：检查跨语言信息检索中的视角覆盖",
+      "url": "https://github.com/isle-dev/Narrative-Bench-NeurIPS-2026",
+      "summary": "基准把跨语言新闻报道和用户查询组成任务，测量叙事纳入、排除、缺失识别及多语种覆盖一致性。作者发现同一议题的回答可能随查询措辞和语言而改变，且明确要求多视角也未消除缺漏。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.12750，平台标注发表或更新于 2026-11-09）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-15 日报。",
+      "highlight": "适合检验多语种检索和回答中信息来源是否足够多样。",
+      "tags": [
+        "Multilingual",
+        "Information Seeking",
+        "Retrieval Evaluation"
+      ],
+      "topic": [
+        "rag"
+      ],
+      "id": 8,
+      "time": "2026-11-15",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "跨模态表征相似性来自哪里：对柏拉图表征假说的复查",
+      "url": "https://github.com/ExplainableML/prh-closer-look",
+      "summary": "作者沿深度和表示维数测量单模态模型对齐，并引入同模态及显式对齐的多模态基线。实验表明，配对描述质量会影响模型能力与对齐度的关系，而跨模态相似度仍低于同模态参考。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.12869，平台标注发表或更新于 2026-11-09）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-15 日报。",
+      "highlight": "有助于区分能力趋势、输入质量和相似度基线的贡献。",
+      "tags": [
+        "Representation Learning",
+        "Cross-modal Alignment",
+        "Interpretability"
+      ],
+      "id": 9,
+      "time": "2026-11-15",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Transformer 表征探针：同时比较层深与层内模块",
+      "url": "https://github.com/ambroiseodt/waldo",
+      "summary": "作者对视觉和语言模型做大量线性探针实验，发现固定读取残差流会错过部分更适合下游任务的表征。论文还对固定选取归一化或前馈激活的规则做跨任务验证。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.11531，平台标注发表或更新于 2026-11-08）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-15 日报。",
+      "highlight": "提取冻结特征时，可将层内模块纳入选择范围。",
+      "tags": [
+        "Linear Probing",
+        "Transformer",
+        "Representation Learning"
+      ],
+      "id": 10,
+      "time": "2026-11-15",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "CogBattery：用人类认知实验数据比较模型错误类型",
+      "url": "https://github.com/dengzhe-hou/CogBattery",
+      "summary": "基准把 13 个认知范式改成文本任务，与各自原研究的人类结果比较。作者在 54 个开放权重模型中发现，即使某些效应方向一致，误报、置信区分和下注行为仍有明显差异。",
+      "source": "作者论文摘要（Hugging Face Papers 2607.24999，平台标注发表或更新于 2026-10-30）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-15 日报。",
+      "highlight": "为模型评测加入人类参考分布和条件级结果。",
+      "tags": [
+        "Cognitive Evaluation",
+        "Calibration",
+        "Behavior"
+      ],
+      "id": 11,
+      "time": "2026-11-15",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "ExRL：只调整长动作块的执行时长来适配机器人策略",
+      "url": "https://github.com/Frankluox/ExRL",
+      "summary": "ExRL 保留基础策略对动作块的预测，由小型适配器决定每次执行多久，再根据环境反馈进行离策略强化学习。作者在仿真和真机上评估这种低维适配方式的样本效率。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.13482，平台标注发表或更新于 2026-11-10）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-15 日报。",
+      "highlight": "适合动作标注或真机交互昂贵时研究策略适配。",
+      "tags": [
+        "Robot Learning",
+        "Action Chunking",
+        "Off-policy RL"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 12,
+      "time": "2026-11-15",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "PolyRoute：多语种和混语客服工单路由的对照基准",
+      "url": "https://huggingface.co/papers/2611.13843",
+      "summary": "基准以十二种语言及混语文本测试三类部门的结构化路由决策，文本与标签均由模型生成。作者比较多语种决策编码器、微调模型和 TF-IDF 逻辑回归，传统分类基线在该合成测试上也具竞争力。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.13843，平台标注发表或更新于 2026-11-10）。实验结果由作者报告。2026-11-17 核验，归档至 2026-11-15 日报。",
+      "highlight": "适合用简单基线检验决策模型是否提供额外收益。",
+      "tags": [
+        "Decision Models",
+        "Multilingual",
+        "Text Classification"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 13,
+      "time": "2026-11-15",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "GRPO 稠密奖励的收益会随计算预算口径改变",
+      "url": "https://huggingface.co/papers/2611.13560",
+      "summary": "研究以生成 token 和 GPU 时间分别匹配训练预算，比较标准 GRPO 与需反复采样续写的过程奖励。作者发现部分策略按更新次数看有收益，同预算下排序却反转，并测试了按预测成功率选题的替代方案。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.13560，平台标注发表或更新于 2026-11-10）。实验结果由作者报告。2026-11-17 核验，归档至 2026-11-15 日报。",
+      "highlight": "对比奖励机制时应该将奖励计算本身算入训练成本。",
+      "tags": [
+        "GRPO",
+        "Process Rewards",
+        "Matched Compute"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 14,
+      "time": "2026-11-15",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "WaveGen：在单个扩散模型中直接从文本生成波形",
+      "url": "https://github.com/sh-lee-prml/WaveGen",
+      "summary": "方法同时学习内部频谱轨迹和最终波形，并在同一模型里进行文本到语音对齐。作者从 0.1B 扩展至 0.6B 参数，在开放数据上比较端到端合成质量，项目公开代码和检查点。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.12527，平台标注发表或更新于 2026-11-09）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-15 日报。",
+      "highlight": "适合研究不依赖独立编解码器和声码器的合成架构。",
+      "tags": [
+        "Text-to-Speech",
+        "Diffusion",
+        "Waveform"
+      ],
+      "id": 15,
+      "time": "2026-11-15",
+      "stars": null
+    }
+  ]
+}

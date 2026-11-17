@@ -1,0 +1,289 @@
+{
+  "items": [
+    {
+      "category": "news",
+      "title": "Hugging Face Inference Providers 接入 OpenRouter 路由",
+      "url": "https://huggingface.co/blog/openrouter",
+      "summary": "Hugging Face 将语言模型推理请求切换为经 OpenRouter 选择底层提供方，并支持失败后的跨提供方重试。公告称现有代码可继续使用，路由支持 Chat Completions、Responses 和 Messages 等接口。",
+      "source": "Hugging Face 官方合作公告，2026-11-16 发布。2026-11-17 核验，归档至 2026-11-16 日报。",
+      "highlight": "关注开放权重模型调用时的接口兼容性和运行时故障转移。",
+      "tags": [
+        "Inference Providers",
+        "OpenRouter",
+        "Open Models",
+        "Routing"
+      ],
+      "id": 1,
+      "time": "2026-11-16",
+      "stars": null
+    },
+    {
+      "category": "news",
+      "title": "OpenAI 将学术研究者 ChatGPT 计划扩大至最多 20 万人",
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers/",
+      "summary": "公告称下一轮计划于 11 月 23 日开放申请，拟向符合条件的研究者提供 5 万个新增名额。每个名额包含申请人和最多两名合作者的 ChatGPT Plus 访问，20 万是整个项目的覆盖目标。",
+      "source": "OpenAI 官方公告，2026-11-16 发布。2026-11-17 核验，归档至 2026-11-16 日报。",
+      "highlight": "将整体目标与本轮实际名额区分开，便于追踪学术资源开放进度。",
+      "tags": [
+        "AI for Science",
+        "ChatGPT",
+        "Academic Research"
+      ],
+      "id": 2,
+      "time": "2026-11-16",
+      "stars": null
+    },
+    {
+      "category": "news",
+      "title": "NVIDIA 公布 Vera Rubin 的多轮智能体推理初步测试",
+      "url": "https://developer.nvidia.com/blog/nvidia-vera-rubin-nvl72-leads-agentic-inference-performance-on-mlperf-endpoints-v1-0/",
+      "summary": "报告使用 MLPerf Endpoints v1.0 的多轮任务比较吞吐、单用户交互速度和每千瓦吞吐，并介绍上下文感知调度和模型专用优化。Vera Rubin 的结果在发布时仍待验证，实验的模型配置、并发量和硬件数量需要一起看。",
+      "source": "NVIDIA Technical Blog，2026-11-16 发布。2026-11-17 核验，归档至 2026-11-16 日报。",
+      "highlight": "阅读端点推理基准时可同时核对吞吐、尾延迟、功耗与质量约束。",
+      "tags": [
+        "MLPerf",
+        "Rubin",
+        "Inference Serving",
+        "Agent Workloads"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 3,
+      "time": "2026-11-16",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "MIRIX 2.0：用类型化记忆和溯源索引保存智能体经验",
+      "url": "https://github.com/Mirix-AI/MIRIX",
+      "summary": "系统由六类记忆智能体保留完整记录，通过溯源超图连接语义、事件条目与原始材料，并在固定预算内检索。AutoDream 在写入流程外合并重复锚点并提炼技能，作者分别测试问答和程序性记忆。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.12068，平台标注发表或更新于 2026-11-09）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-16 日报。",
+      "highlight": "适合比较记忆去重、证据溯源和轨迹复用的取舍。",
+      "tags": [
+        "Agent Memory",
+        "Provenance",
+        "Retrieval",
+        "Skills"
+      ],
+      "topic": [
+        "memory",
+        "agent",
+        "rag"
+      ],
+      "id": 4,
+      "time": "2026-11-16",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "MMFlash：按视觉依赖程度改进多模态推测解码",
+      "url": "https://github.com/fscdc/MMFlash",
+      "summary": "论文用有图和无图时的下一 token 分布差异衡量视觉依赖，发现依赖越强的 token 越难被草稿模型准确预测。MMFlash 在训练时提高这些难预测 token 的权重，作者也考察长视频输入下的加速。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.18482，平台标注发表或更新于 2026-11-13）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-16 日报。",
+      "highlight": "给多模态推测解码提供按 token 分析接受率的指标。",
+      "tags": [
+        "Speculative Decoding",
+        "Vision-Language Models",
+        "Video"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 5,
+      "time": "2026-11-16",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "V-JEPA-LM：用反事实样本让语言模型读取视频动态",
+      "url": "https://github.com/kkt94/Llama-V-JEPA-LM",
+      "summary": "研究发现冻结视频编码器保留速度和方向等动态信息，但常规问答训练的语言模型可能读不出来。作者用视频变换构造反事实监督，促使模型利用动态表示来回答依赖变化的问题。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.17831，平台标注发表或更新于 2026-11-13）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-16 日报。",
+      "highlight": "适合区分编码器可读信息与下游模型实际使用的信息。",
+      "tags": [
+        "Video Understanding",
+        "World Models",
+        "Counterfactual Supervision"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 6,
+      "time": "2026-11-16",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "G-CAST：让电商智能体跟随需求和工具变化持续训练",
+      "url": "https://huggingface.co/papers/2611.17814",
+      "summary": "系统用线上反馈调整训练样本优先级与奖励，并用累计评测审核每次检查点迁移。作者在生产电商智能体上对比新需求适应和旧能力保留两项指标。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.17814，平台标注发表或更新于 2026-11-13）。实验结果由作者报告。2026-11-17 核验，归档至 2026-11-16 日报。",
+      "highlight": "可参考如何在持续后训练中约束回归。",
+      "tags": [
+        "Continual Learning",
+        "E-commerce Agents",
+        "Regression Testing"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 7,
+      "time": "2026-11-16",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "MEM-SQL：按需复用经过验证的历史 SQL",
+      "url": "https://huggingface.co/papers/2611.18338",
+      "summary": "HARE 将新请求标注为复用既有查询的结构和局部组件，MEM-SQL 则检索完整模板、SQL 块及领域概念映射。系统只在证据不足时查阅模式信息，作者观察到平均准确率提升，但跨多个历史查询的组合仍难。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.18338，平台标注发表或更新于 2026-11-13）。实验结果由作者报告。2026-11-17 核验，归档至 2026-11-16 日报。",
+      "highlight": "适合分析数据库问答中回收历史查询的收益及边界。",
+      "tags": [
+        "Text-to-SQL",
+        "Retrieval",
+        "Memory",
+        "Schema Linking"
+      ],
+      "topic": [
+        "memory",
+        "rag"
+      ],
+      "id": 8,
+      "time": "2026-11-16",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "JVT：用简洁的 Transformer 直接扩散生成视频像素",
+      "url": "https://github.com/ZhouTimeMachine/JVT",
+      "summary": "JVT 用大块视频 patch 的 DiT 在像素空间训练，不需要预训练自编码器或多级细化网络。作者消融 patch 嵌入、寄存 token 和归一化，还展示像素对齐模态的联合生成。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.18549，平台标注发表或更新于 2026-11-13）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-16 日报。",
+      "highlight": "适合比较像素扩散和潜空间扩散的模型结构。",
+      "tags": [
+        "Video Diffusion",
+        "Pixel Space",
+        "Transformer"
+      ],
+      "id": 9,
+      "time": "2026-11-16",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "WebArena-Pro：在自托管站点上测试多模态网页任务",
+      "url": "https://github.com/McGill-NLP/webarena-pro",
+      "summary": "基准覆盖 20 个自托管应用的 300 条任务，纳入不同应用界面、跨步骤状态以及网页中的音视频内容。作者用同一组可复现环境比较智能体的任务执行表现。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.17955，平台标注发表或更新于 2026-11-13）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-16 日报。",
+      "highlight": "适合为浏览器智能体构建可重复的多应用测试。",
+      "tags": [
+        "Web Agents",
+        "Benchmark",
+        "Multimodal",
+        "Reproducibility"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 10,
+      "time": "2026-11-16",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "eDIAR：扩展流式说话人分段以覆盖更多参会者",
+      "url": "https://huggingface.co/papers/2611.18529",
+      "summary": "方法保留原模型对发言和重叠区间的判断，槽位用尽时在槽内进一步聚类说话人嵌入，无需重新训练。流式版本将重聚类限制在有限窗口，并容许短时间内修订标签，以适应长会议。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.18529，平台标注发表或更新于 2026-11-13）。实验结果由作者报告。2026-11-17 核验，归档至 2026-11-16 日报。",
+      "highlight": "为固定输出维数的在线说话人分段系统提供扩展办法。",
+      "tags": [
+        "Speaker Diarization",
+        "Streaming Audio",
+        "Clustering"
+      ],
+      "id": 11,
+      "time": "2026-11-16",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "从执行轨迹识别编码智能体的搜索、编辑与验证习惯",
+      "url": "https://github.com/SWE-rebench/trajectory-analyzer",
+      "summary": "作者把超过 14 万条轨迹映射为搜索仓库、改文件和运行测试等高层动作。类似的解决率可能来自不同执行策略，而跨仓库的行为特征仍能用于识别智能体配置。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.17440，平台标注发表或更新于 2026-11-12）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-16 日报。",
+      "highlight": "有助于用过程数据诊断只看任务通过率时遗漏的问题。",
+      "tags": [
+        "Coding Agents",
+        "Trajectories",
+        "Behavioral Analysis"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 12,
+      "time": "2026-11-16",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Continual-ARC：在反复出现的任务流中测试技能积累",
+      "url": "https://github.com/unifyai/continual-arc",
+      "summary": "ARC 任务以新实例间隔重现，系统可用有限反馈预算换取演示、提交或重试，得分与预算消耗相关。协议允许保留不同形式的经验，可比较记忆框架和参数学习。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.14505，平台标注发表或更新于 2026-11-11）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-16 日报。",
+      "highlight": "适合测量代理能否长期复用及改进所学技能。",
+      "tags": [
+        "Continual Learning",
+        "Agent Memory",
+        "ARC",
+        "Evaluation"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 13,
+      "time": "2026-11-16",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "小模型语义解析：输出格式会影响合法但错误的结果",
+      "url": "https://github.com/UmarGit/coffee-llm",
+      "summary": "作者用六种无损编码对两款小于十亿参数的模型做 LoRA 微调，并设置相同长度但表面形式不同的对照。普通词语编码在该订单解析任务中降低静默错误，缩短长度本身未带来相同收益。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.17169，平台标注发表或更新于 2026-11-12）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-16 日报。",
+      "highlight": "对结构化输出应分别检查格式合规性与内容正确性。",
+      "tags": [
+        "Semantic Parsing",
+        "LoRA",
+        "Structured Output",
+        "Evaluation"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 14,
+      "time": "2026-11-16",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "MemInStream：把视频理解错误与遗忘历史证据分开评估",
+      "url": "https://github.com/HKUST-LongGroup/MemInStream",
+      "summary": "基准给题目标注关键证据所在的时间段，并筛选只看近期画面或纯文本时无法解决的样本。题目覆盖事件召回、状态更新和多证据整合等能力。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.15640，平台标注发表或更新于 2026-11-11）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-16 日报。",
+      "highlight": "用于检验流式视频模型是否需要并实际利用历史记忆。",
+      "tags": [
+        "Streaming Video",
+        "Memory",
+        "Temporal Evidence"
+      ],
+      "topic": [
+        "memory"
+      ],
+      "id": 15,
+      "time": "2026-11-16",
+      "stars": null
+    }
+  ]
+}

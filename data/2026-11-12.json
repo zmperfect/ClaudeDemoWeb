@@ -1,0 +1,291 @@
+{
+  "items": [
+    {
+      "category": "news",
+      "title": "Salesforce 发布开放权重语音转写模型 SOV-Transcribe-1",
+      "url": "https://huggingface.co/blog/salesforce-sovereign-intelligence/sov-transcribe-1",
+      "summary": "该模型用 Apache 2.0 开放权重，支持多语种语音识别，并可通过自然语言指定数字格式或是否保留口头停顿。发布方除了词错误率，也报告了电话号码、网址和代码符号等关键实体的识别表现。",
+      "source": "Salesforce Sovereign Intelligence 官方文章，2026-11-12 发布。2026-11-17 核验，归档至 2026-11-12 日报。",
+      "highlight": "评估语音智能体输入时，可以同时检查词错误率与关键实体的完整性。",
+      "tags": [
+        "Speech Recognition",
+        "Open Weights",
+        "ASR",
+        "Voice Agents"
+      ],
+      "id": 1,
+      "time": "2026-11-12",
+      "stars": null
+    },
+    {
+      "category": "tool",
+      "title": "IBM Granite 4.1 预览 LLMON，用标记表达上下文结构",
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "summary": "LLMON 用保留分隔 token 和语义标签标明指令、数据及其嵌套关系，并通过对话模板明确哪些组件参与执行。IBM 在 Granite 4.1 的 3B 和 8B 预览模型中提供支持，同时发布 JSON 往返转换工具。",
+      "source": "IBM Granite 团队官方文章，2026-11-12 发布。2026-11-17 核验，归档至 2026-11-12 日报。",
+      "highlight": "适合比较工具响应、用户数据和执行指令的边界如何影响模型行为。",
+      "tags": [
+        "Structured Context",
+        "Granite",
+        "Chat Templates",
+        "Tool Use"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 2,
+      "time": "2026-11-12",
+      "stars": null
+    },
+    {
+      "category": "tutorial",
+      "title": "Hugging Face 指南：用 LoRA 微调 TRELLIS.2 三维生成模型",
+      "url": "https://huggingface.co/blog/3d-lora-finetuning",
+      "summary": "指南以鞋类模型为例，拆解 TRELLIS.2 的结构、几何和材质模块，说明哪些组件需要训练、哪些可冻结。配套脚本可通过本地 Docker 或 Hugging Face Jobs 完成预处理、训练与对照评估。",
+      "source": "Hugging Face 官方博客，2026-11-12 发布。2026-11-17 核验，归档至 2026-11-12 日报。",
+      "highlight": "可直接参照其模块选择和数据准备流程适配自有三维资产。",
+      "tags": [
+        "TRELLIS",
+        "LoRA",
+        "3D Generation",
+        "PEFT"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 3,
+      "time": "2026-11-12",
+      "stars": null
+    },
+    {
+      "category": "news",
+      "title": "BotPsy：面向端侧工具调用的 0.8B 个人助理模型",
+      "url": "https://huggingface.co/blog/qvac/botpsy",
+      "summary": "BotPsy 在 Qwen3.5-0.8B-Think 基础上训练多轮工具调用与指令遵循。发布方在多项工具基准中报告相对基座改善，也记录了指令增多与低资源语言下的性能下降。",
+      "source": "QVAC 团队官方文章，2026-11-11 发布。2026-11-17 核验，归档至 2026-11-12 日报。",
+      "highlight": "为端侧助理选型提供小参数模型的参考和测试维度。",
+      "tags": [
+        "On-device",
+        "Tool Calling",
+        "Small Language Models",
+        "Agent"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 4,
+      "time": "2026-11-12",
+      "stars": null
+    },
+    {
+      "category": "tutorial",
+      "title": "多向量检索：训练阶段纳入 token 池化以降低索引开销",
+      "url": "https://huggingface.co/blog/token-pooling",
+      "summary": "教程解释为什么事后池化会损失细粒度匹配信号，并在微调损失中纳入检索部署时的池化预算。文中给出 Sentence Transformers 实例，比较固定向量预算下的检索质量。",
+      "source": "Hugging Face 官方博客，2026-11-11 发布。2026-11-17 核验，归档至 2026-11-12 日报。",
+      "highlight": "为部署多向量嵌入时的向量预算设定提供可复现做法。",
+      "tags": [
+        "Multi-vector Retrieval",
+        "Embeddings",
+        "Token Pooling",
+        "Sentence Transformers"
+      ],
+      "topic": [
+        "rag",
+        "post-training"
+      ],
+      "id": 5,
+      "time": "2026-11-12",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "WikiTrace：把智能体经验连回原始证据",
+      "url": "https://github.com/yukyeongleee/wikitrace",
+      "summary": "WikiTrace 将经验条目、成败解释和完整交互轨迹关联起来，让智能体在信息不足或经验冲突时回查证据。作者在五项基准中观察到，回查机制能减少引入错误经验后原本可完成的任务失手的情况。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.14320，平台标注发表或更新于 2026-11-10）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-12 日报。",
+      "highlight": "适合测试智能体能否验证自己从历史任务中归纳的经验。",
+      "tags": [
+        "Agent Memory",
+        "Evidence",
+        "Trajectories"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 6,
+      "time": "2026-11-12",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Tree-Ising：用离散权重编辑减少小模型推理循环",
+      "url": "https://github.com/TheQuantumGOAT/Tree-Ising",
+      "summary": "方法通过前向统计构造目标，在保留有效输出的同时抑制循环方向，再将 BF16 权重的稀疏编辑分解为逐行二次优化。作者在两个 Qwen3.5 小模型的数学任务上报告改善，验证范围集中在特定循环缺陷。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.14210，平台标注发表或更新于 2026-11-10）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-12 日报。",
+      "highlight": "提供比较梯度微调与局部权重编辑的实验案例。",
+      "tags": [
+        "Weight Editing",
+        "Ising",
+        "Qwen"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 7,
+      "time": "2026-11-12",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "SteerDistill：用执行反馈纠正低比特智能体",
+      "url": "https://github.com/air-embodied-brain/SteerDistill",
+      "summary": "全精度教师根据量化学生的实际执行反馈修订失败动作，并将通过验证的纠正写入蒸馏目标。作者在三种模型的五项基准上观察到 W4A16 策略优于所测量化基线。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.13410，平台标注发表或更新于 2026-11-10）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-12 日报。",
+      "highlight": "量化评估中应检查实际任务轨迹，也应记录哪些行为需要蒸馏补救。",
+      "tags": [
+        "Quantization",
+        "Distillation",
+        "Agent"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 8,
+      "time": "2026-11-12",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "SparseRead：给智能体读取外部资料设定证据预算",
+      "url": "https://github.com/Liuzedooong/SparseReading",
+      "summary": "框架记录读取意图和来源覆盖情况，根据请求选择网页、文档或工具输出中的相关片段。预算不足或局部证据不够时保留完整视图回退，作者在多个框架和任务中评估了质量、时延和 token 开销。",
+      "source": "作者论文摘要（Hugging Face Papers 2608.22237，平台标注发表或更新于 2026-11-07）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-12 日报。",
+      "highlight": "为工具读取加入预算与回退机制的可复用设计。",
+      "tags": [
+        "Context Management",
+        "Tool Use",
+        "Sparse Reading"
+      ],
+      "topic": [
+        "agent",
+        "rag"
+      ],
+      "id": 9,
+      "time": "2026-11-12",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "WMIP：用可编程任务测量累计状态追踪",
+      "url": "https://github.com/dengzhe-hou/WMIP",
+      "summary": "WMIP 对同一批可自动计算答案的多步状态更新题切换输出协议，对比中间状态和最终状态的查询。作者发现多步累计明显难于单步算术，允许显式写出步骤会大幅改变结果。",
+      "source": "作者论文摘要（Hugging Face Papers 2603.27343，平台标注发表或更新于 2026-10-30）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-12 日报。",
+      "highlight": "设计长上下文评测时，可把任务难度和输出协议独立控制。",
+      "tags": [
+        "Working Memory",
+        "State Tracking",
+        "Evaluation"
+      ],
+      "topic": [
+        "memory"
+      ],
+      "id": 10,
+      "time": "2026-11-12",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "GTAGym：用游戏引擎状态验证视觉智能体的任务完成情况",
+      "url": "https://github.com/ljbro/GTAGym",
+      "summary": "GTAGym 将电子游戏任务接入可并行运行的基准，智能体通过画面和键鼠与环境交互，检查器读取引擎状态验证结果。作者比较文本任务说明和画面内说明，并在生成的游戏导航子任务上测试 LoRA 强化学习。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.13028，平台标注发表或更新于 2026-11-11）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-12 日报。",
+      "highlight": "提供视觉操作与自动验证分离的实验环境设计。",
+      "tags": [
+        "Game Agents",
+        "Visual Control",
+        "Reinforcement Learning"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 11,
+      "time": "2026-11-12",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Evolving Infra：按 Agent 负载动态调度预填充、解码和 KV 缓存",
+      "url": "https://github.com/mit-han-lab/EvolvingInfra",
+      "summary": "系统将计算分工与 KV 缓存管理解耦，使节点可以切换预填充和解码角色。在线规划器按请求构成调节资源，分布式缓存管理器利用上下文信号决定迁移或驱逐，作者在多种任务的大规模集群中测得延迟下降。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.12304，平台标注发表或更新于 2026-11-09）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-12 日报。",
+      "highlight": "适合关注多轮智能体推理中计算和缓存调度的协同。",
+      "tags": [
+        "Inference Serving",
+        "KV Cache",
+        "Disaggregation"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 12,
+      "time": "2026-11-12",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "按需精度：只在本地模型不确定的解码步提高权重位宽",
+      "url": "https://huggingface.co/papers/2611.14418",
+      "summary": "论文在模拟量化中先用 4 位权重解码，再按熵或分数差阈值选择是否重做 8 位推理。作者在单一小模型和 GSM8K 上测得权重读取开销下降，但样本不足以在准确率上区分动态方案与两端基线。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.14418，平台标注发表或更新于 2026-11-10）。实验结果由作者报告。2026-11-17 核验，归档至 2026-11-12 日报。",
+      "highlight": "展示不确实时提高精度的设计，也说明字节开销和真实部署时延需要分别验证。",
+      "tags": [
+        "Quantization",
+        "Adaptive Inference",
+        "Edge"
+      ],
+      "id": 13,
+      "time": "2026-11-12",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "TOME-Math：保留教材结构的数学证明监督数据",
+      "url": "https://huggingface.co/papers/2610.40394",
+      "summary": "论文将大学数学教材转化为约 38 万条训练记录，保留章节顺序、命题与证明链接以及依赖来源。作者用学科课程和监督规模实验分析微调效果，并报告在所测任务上的平均得分提升。",
+      "source": "作者论文摘要（Hugging Face Papers 2610.40394，平台标注发表或更新于 2026-10-29）。实验结果由作者报告。2026-11-17 核验，归档至 2026-11-12 日报。",
+      "highlight": "可参考如何保留训练材料中的顺序、依赖和出处。",
+      "tags": [
+        "Mathematical Reasoning",
+        "Training Data",
+        "Curriculum Learning"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 14,
+      "time": "2026-11-12",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "PISA 路由：按请求和预算决定使用单模型还是模型集成",
+      "url": "https://huggingface.co/papers/2611.10193",
+      "summary": "PISA 按提示的软聚类归属估计不同模型能力，扩展方法 PISA-E 还按成本与质量偏好选择集成成员及数量。偏好可在推理时调整，作者在四个路由基准中比较了分布内外的成本和表现。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.10193，平台标注发表或更新于 2026-11-06）。实验结果由作者报告。2026-11-17 核验，归档至 2026-11-12 日报。",
+      "highlight": "为按任务难度调整模型调用预算提供清晰的对照实验。",
+      "tags": [
+        "Model Routing",
+        "Ensemble",
+        "Inference Cost"
+      ],
+      "id": 15,
+      "time": "2026-11-12",
+      "stars": null
+    }
+  ]
+}

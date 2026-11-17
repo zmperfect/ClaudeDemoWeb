@@ -1,0 +1,271 @@
+{
+  "items": [
+    {
+      "category": "news",
+      "title": "Zyphra 开放 ZONOS3-Mini 端侧语音合成模型",
+      "url": "https://huggingface.co/blog/Zyphra/zonos3-mini",
+      "summary": "ZONOS3-Mini 采用低帧率音频编解码器和混合稀疏结构，约 8 亿总参数中每次激活约 1 亿。团队发布 Apache 2.0 模型权重，并报告浏览器、移动设备和服务器上的合成与首段音频延迟。",
+      "source": "Zyphra 官方文章，Hugging Face 标注 2026-11-12 发布。2026-11-17 核验，归档至 2026-11-14 日报。",
+      "highlight": "在评估多语种端侧合成时，可把总模型体积与实际活跃参数分开考虑。",
+      "tags": [
+        "TTS",
+        "On-device",
+        "MoE",
+        "Audio Codec"
+      ],
+      "id": 1,
+      "time": "2026-11-14",
+      "stars": null
+    },
+    {
+      "category": "tutorial",
+      "title": "Google AI Edge Gallery 的离线语音识别与朗读实现",
+      "url": "https://huggingface.co/blog/litert-community/on-device-speech-recognition-and-text-to-speech-in",
+      "summary": "文章介绍通过 ML Kit、MediaPipe Tasks 与 LiteRT 构建模块化端侧语音输入和输出。参考实现按句调度合成，在朗读时高亮句子，并对 Markdown、代码和表格采用适合语音输出的处理。",
+      "source": "Google AI Edge Gallery 项目团队文章，2026-11-12 发布。2026-11-17 核验，归档至 2026-11-14 日报。",
+      "highlight": "为端侧聊天应用提供语音流水线和交互实现参考。",
+      "tags": [
+        "On-device",
+        "ASR",
+        "TTS",
+        "LiteRT"
+      ],
+      "id": 2,
+      "time": "2026-11-14",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "EHRL：用后续任务表现训练智能体交接经验",
+      "url": "https://github.com/doyoungkim-ml/ehrl",
+      "summary": "在固定执行框架中，同一个模型负责行动、反思和维护任务手册。方法根据手册对后续轨迹的影响来评价经验条目，并联合优化三种角色，作者观察到留出任务表现提升。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.16409，平台标注发表或更新于 2026-11-12）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-14 日报。",
+      "highlight": "可参考如何把经验交接的长期收益纳入强化学习。",
+      "tags": [
+        "Experience Handoff",
+        "Agent Memory",
+        "Reinforcement Learning"
+      ],
+      "topic": [
+        "agent",
+        "memory",
+        "post-training"
+      ],
+      "id": 3,
+      "time": "2026-11-14",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "HDM：按预期收益决定是否启用逐 token 推理",
+      "url": "https://github.com/zhengxuyu/HDM-code",
+      "summary": "混合决策模型共享冻结主干，轻量路由模块根据一次前向得到的信号估计完整推理的额外收益。每次请求可设置计算价格阈值，无逐步标注的任务则用整段回报训练决策路由。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.16961，平台标注发表或更新于 2026-11-12）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-14 日报。",
+      "highlight": "为快速决策和慢速推理设定可调成本边界。",
+      "tags": [
+        "Decision Models",
+        "Adaptive Reasoning",
+        "Reinforcement Learning"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 4,
+      "time": "2026-11-14",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "NestOne：在共享主干的多个深度做早退决策",
+      "url": "https://github.com/minhkks/NestOne",
+      "summary": "方法联合训练全深度模型和共享末层及决策头的浅层子模型，并通过自蒸馏传递决策能力。轻量门控读取隐藏状态选择何时退出，作者在七项基准中与各深度独立训练方案比较。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.16321，平台标注发表或更新于 2026-11-12）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-14 日报。",
+      "highlight": "比较动态层数与单独部署多个模型的成本。",
+      "tags": [
+        "Decision Models",
+        "Early Exit",
+        "Self-distillation"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 5,
+      "time": "2026-11-14",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "多模态视觉编码消融：分开验证预训练、视觉容量和融合位置",
+      "url": "https://huggingface.co/papers/2611.17334",
+      "summary": "研究统一数据与总计算量，比较视觉先验、专用视觉参数和视觉模块位置的影响。作者发现联合训练的专用视觉模块仍关键，但放在主干早期融合层也能达到与前置编码器相近的表现。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.17334，平台标注发表或更新于 2026-11-12）。实验结果由作者报告。2026-11-17 核验，归档至 2026-11-14 日报。",
+      "highlight": "适合用来判断视觉编码器的独立预训练是否值得投入。",
+      "tags": [
+        "Vision Encoder",
+        "Multimodal",
+        "Architecture",
+        "Ablation"
+      ],
+      "id": 6,
+      "time": "2026-11-14",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Test-Time Baking：把跨视角注意力映射烘焙到轻量网络",
+      "url": "https://github.com/NVlabs/DVSM",
+      "summary": "方法在场景初始化时用跨视角注意力的输入输出训练小型 MLP，以加速后续新视角渲染。相机输入和含图像内容的监督目标分开构造，作者在多个基准比较了速度和质量。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.17331，平台标注发表或更新于 2026-11-12）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-14 日报。",
+      "highlight": "适合需要从同一场景反复渲染新视角的应用。",
+      "tags": [
+        "Novel View Synthesis",
+        "Neural Rendering",
+        "Test-time Adaptation"
+      ],
+      "id": 7,
+      "time": "2026-11-14",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "FOAM：用单侧预条件和因子化矩估计简化 SOAP",
+      "url": "https://github.com/naver-ai/foam",
+      "summary": "FOAM 删除输出侧 Kronecker 因子，并用行列统计近似旋转后的稠密二阶矩。作者在 124M 至 760M 的语言模型预训练中报告验证损失与所测强基线相近，优化器状态约为 SOAP 的一半。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.16905，平台标注发表或更新于 2026-11-12）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-14 日报。",
+      "highlight": "展示二阶优化器在显存、分解开销与收敛间的取舍。",
+      "tags": [
+        "Optimizer",
+        "SOAP",
+        "Second Order",
+        "Pretraining"
+      ],
+      "id": 8,
+      "time": "2026-11-14",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "G-STAR：联合缩放空间压缩与离散 token 组大小",
+      "url": "https://github.com/DAGroup-PKU/G-STAR",
+      "summary": "方法用乘积量化为高空间压缩率分配更大的 token 组，并用半自回归解码器处理组内依赖。作者在重建、理解和生成实验中比较压缩质量，并在单卡高分辨率生成中测试延迟。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.13004，平台标注发表或更新于 2026-11-08）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-14 日报。",
+      "highlight": "提供减少图像生成序列长度且保留表示容量的设计。",
+      "tags": [
+        "Image Generation",
+        "Product Quantization",
+        "Autoregression"
+      ],
+      "id": 9,
+      "time": "2026-11-14",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "BirdDreams：联合预测道路场景的透视和鸟瞰视频",
+      "url": "https://huggingface.co/papers/2611.14815",
+      "summary": "模型从单张相机图像预测两个互相交互的视频流，用鸟瞰表示提供尺度和车辆运动信息，用透视视图保留外观和信号灯细节。评测比较自车轨迹控制和周围车辆运动合理性，推理时无需输入高精地图。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.14815，平台标注发表或更新于 2026-11-10）。实验结果由作者报告。2026-11-17 核验，归档至 2026-11-14 日报。",
+      "highlight": "适合研究不同视觉表示如何互补地约束驾驶仿真。",
+      "tags": [
+        "World Model",
+        "Autonomous Driving",
+        "BEV",
+        "Video Diffusion"
+      ],
+      "id": 10,
+      "time": "2026-11-14",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "LEASH：在机器人任务、动作和提交前检查安全约束",
+      "url": "https://github.com/zhuqinfeng1999/LEASH",
+      "summary": "作者构建含仿真和真机任务的 RoboRisk 基准，覆盖规划修正、执行期危险及跨步骤记忆等问题。LEASH 让决策模型在任务、动作和不可逆操作三个阶段按同一策略审查，作者同时测量危险事件与任务完成。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.14115，平台标注发表或更新于 2026-11-10）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-14 日报。",
+      "highlight": "可参考如何在机器人执行层分阶段评估安全措施。",
+      "tags": [
+        "Robotics",
+        "Agent Safety",
+        "Decision Models"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 11,
+      "time": "2026-11-14",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Embodied First Exam：评估编码智能体控制不同机器人的能力",
+      "url": "https://github.com/mll-lab-nu/embodied-first-exam",
+      "summary": "框架允许代理直接控制、编写控制代码或训练策略，包含 47 个机器人上的多类模拟任务。它用标准、实时和特权设置区分感知与重置条件，并对失败阶段作标注。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.12177，平台标注发表或更新于 2026-11-09）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-14 日报。",
+      "highlight": "提供比较不同控制方法和分析失败原因的公用协议。",
+      "tags": [
+        "Embodied AI",
+        "Robotics",
+        "Coding Agents",
+        "Benchmark"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 12,
+      "time": "2026-11-14",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "MACaQ：通过逐层校准实现 MXFP4 权重和激活量化",
+      "url": "https://github.com/huawei-csl/MACaQ",
+      "summary": "方法对各线性层独立应用逐通道缩放和块 Hadamard 变换，再用曲率感知的离散调整改善量化舍入。作者在语言和图像扩散模型上验证，逐层处理也降低了校准时同时驻留的权重规模。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.10649，平台标注发表或更新于 2026-11-07）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-14 日报。",
+      "highlight": "便于比较模型无关的量化流程和推理时变换成本。",
+      "tags": [
+        "Post-training Quantization",
+        "MXFP4",
+        "Calibration"
+      ],
+      "id": 13,
+      "time": "2026-11-14",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "EarthRecord：从四十年原始卫星影像考查土地变化分析",
+      "url": "https://github.com/ranranrannervous/EarthRecord",
+      "summary": "基准保留多卫星原始影像，让智能体自行处理云掩膜及传感器之间的协调。作者用移除档案和单一仪器数据扰动测试证据依赖，发现正确回答仍可能受特定数据源异常驱动。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.12934，平台标注发表或更新于 2026-11-06）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-14 日报。",
+      "highlight": "可参考遥感智能体的多源数据验证与反事实评估。",
+      "tags": [
+        "Earth Observation",
+        "Multimodal Agents",
+        "Satellite Imagery"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 14,
+      "time": "2026-11-14",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Sable：验证量化语言模型是否按位产生指定输出",
+      "url": "https://github.com/moonmath-ai/Sable",
+      "summary": "Sable 针对承诺过的整数化 Transformer，证明给定提示与输出序列符合固定整数推理规则。项目提供单 GPU 证明器，目标是开放权重模型的可验证推理。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.14083，平台标注发表或更新于 2026-11-10）。实验结果由作者报告。项目链接由论文页面提供。2026-11-17 核验，归档至 2026-11-14 日报。",
+      "highlight": "为需要核对推理结果来源的场景提供密码学实现样例。",
+      "tags": [
+        "Verifiable Inference",
+        "Quantization",
+        "Cryptography"
+      ],
+      "id": 15,
+      "time": "2026-11-14",
+      "stars": null
+    }
+  ]
+}
