@@ -1,0 +1,295 @@
+{
+  "items": [
+    {
+      "category": "news",
+      "title": "OpenAI 发布 GPT-6.2 Astra 与 Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+      "summary": "OpenAI 于 11 月 17 日发布 GPT-6.2 Astra 和 Sol，面向专业交付、编码与多步骤工具工作流，并在 ChatGPT Work、Codex 和 API 提供。官方报告更高任务表现与更少输出 token，实际效果仍应结合自身工作负载和模型接入条件验证。",
+      "source": "OpenAI 官方发布公告，2026-11-17 发布。2026-11-18 核验，归档至 2026-11-18 日报。",
+      "highlight": "本轮更新同时覆盖专业交付与任务效率，适合用既有任务集做版本对照。",
+      "tags": [
+        "GPT-6.2",
+        "Model Release",
+        "Coding",
+        "Computer Use"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 1,
+      "time": "2026-11-18",
+      "stars": null
+    },
+    {
+      "category": "tool",
+      "title": "GitHub Copilot Evals 公测：回归评估技能、代理与 MCP 工具",
+      "url": "https://github.blog/changelog/2026-11-17-github-copilot-evals-is-now-in-public-preview/",
+      "summary": "Copilot Evals 使用本地 Vally 评估引擎，为技能、自定义代理和 MCP 工具创建可重复任务，并比较定制前后的结果。用户可查看具体检查项和失败原因，产品在 VS Code、Copilot CLI 与 Copilot app 提供相应安装入口。",
+      "source": "GitHub 官方更新日志，2026-11-17 发布。2026-11-18 核验，归档至 2026-11-18 日报。",
+      "highlight": "适合把提示、技能和工具配置变化纳入重复运行的回归检查。",
+      "tags": [
+        "Copilot",
+        "Evals",
+        "MCP",
+        "Regression Evaluation"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 2,
+      "time": "2026-11-18",
+      "stars": null
+    },
+    {
+      "category": "tutorial",
+      "title": "Copilot 浏览器操作公测及接入说明",
+      "url": "https://github.blog/changelog/2026-11-17-let-github-copilot-interact-with-your-browser/",
+      "summary": "GitHub 将基于 Chrome 扩展的浏览器操作以公测形式提供给 CLI、Copilot app、VS Code 和 JetBrains。官方说明如何安装扩展、在客户端启用功能并确认连接状态，可用于网页调试、测试和多步骤浏览器任务。",
+      "source": "GitHub 官方更新日志，2026-11-17 发布。2026-11-18 核验，归档至 2026-11-18 日报。",
+      "highlight": "提供浏览器工具接入的具体入口，便于在开发流程中验证实际交互。",
+      "tags": [
+        "Browser Use",
+        "Copilot",
+        "Chrome",
+        "Web Testing"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 3,
+      "time": "2026-11-18",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Energy-Based Reasoners：用能量函数引导潜空间推理与停止",
+      "url": "https://github.com/wwillchen/ebr",
+      "summary": "模型为潜在推理状态学习显式能量函数，并沿其梯度迭代改进状态，将能量变化用作停止信号。作者在四项算法推理基准中比较计算量、正确率和多解覆盖，结果集中在这些结构化推理任务。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.08977，平台标注发表或更新于 2026-11-06）。实验结果由作者报告。项目链接由论文页面提供。2026-11-18 核验，归档至 2026-11-18 日报。",
+      "highlight": "可参考循环推理模型如何衡量进展及决定停止时机。",
+      "tags": [
+        "Energy-based Models",
+        "Latent Reasoning",
+        "Recurrent Models"
+      ],
+      "id": 4,
+      "time": "2026-11-18",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "SWE-CoWork：在模拟组织内追踪需求、协作并交付代码",
+      "url": "https://github.com/TokenWave-AI/swe-cowork-bench",
+      "summary": "基准把 101 个真实仓库的开发任务放入带有分工同事与工作记录的模拟组织，代理需搜集分散需求并通过私有可执行测试。作者发现部分实现与完整交付之间存在明显差距，给齐需求也未解决全部交付问题。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.20218，平台标注发表或更新于 2026-11-15）。实验结果由作者报告。项目链接由论文页面提供。2026-11-18 核验，归档至 2026-11-18 日报。",
+      "highlight": "适合评估需求获取、持续追踪和交付验证的完整链路。",
+      "tags": [
+        "Coding Agents",
+        "Requirements",
+        "Collaboration",
+        "Benchmark"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 5,
+      "time": "2026-11-18",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Accelerate Bench：以应用级运行结果评价编码智能体优化",
+      "url": "https://github.com/AdAstraAbyssoque/accelerate-bench",
+      "summary": "基准提供 32 个可运行 CPU 程序，明确工作负载、正确性、计时范围和允许修改的位置，再独立验证最终提交。作者观察到构建选项、运行参数和多项源码改动之间的交互会显著影响加速收益。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.20882，平台标注发表或更新于 2026-11-16）。实验结果由作者报告。项目链接由论文页面提供。2026-11-18 核验，归档至 2026-11-18 日报。",
+      "highlight": "做性能优化评测时，应联合固定执行环境并核验完整程序。",
+      "tags": [
+        "Program Optimization",
+        "Coding Agents",
+        "CPU",
+        "Benchmark"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 6,
+      "time": "2026-11-18",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Termination Lag：编码智能体首次修好之后还会工作多久",
+      "url": "https://github.com/musacim/termination-lag",
+      "summary": "研究对运行中每个不同补丁进行测试，测量首次正确修改到最终停止之间的步数。作者在五款模型和两种框架中发现不少成功任务很早已修好，后续步骤主要用于验证和探索，少量运行还会撤销正确修改。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.14960，平台标注发表或更新于 2026-11-11）。实验结果由作者报告。项目链接由论文页面提供。2026-11-18 核验，归档至 2026-11-18 日报。",
+      "highlight": "为智能体停止策略提供逐补丁评估方法，可同时统计验证成本与回归。",
+      "tags": [
+        "Coding Agents",
+        "Termination",
+        "Verification",
+        "Efficiency"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 7,
+      "time": "2026-11-18",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Marimba：在冻结语音特征上提供结构化决策接口",
+      "url": "https://github.com/Charcot-AI/marimba-api",
+      "summary": "Marimba 在冻结 Qwen3-ASR 0.6B 特征上处理术语出现、语言、说话人变化和轮次结束等问题，并按任务采用转录评分或专门读出头。作者分别报告多项公开与私有测试结果，轮次结束检测在其中一项公开测试上低于对照模型。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.18330，平台标注发表或更新于 2026-11-13）。实验结果由作者报告。项目链接由论文页面提供。2026-11-18 核验，归档至 2026-11-18 日报。",
+      "highlight": "适合将语音决策拆分成可校准、可独立测量的小任务。",
+      "tags": [
+        "Speech Decisions",
+        "Turn Detection",
+        "Audio",
+        "Small Models"
+      ],
+      "id": 8,
+      "time": "2026-11-18",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "OutfitterBench：让智能体持续履行跨天资源承诺",
+      "url": "https://github.com/adminblackjack/OutfitterBench",
+      "summary": "基准要求智能体在资金和库存限制下经营 200 天的装备租赁业务，兼顾预约和不确定的临时需求。七款模型的比较显示，已有承诺的一致履行与资源重新分配都可能成为瓶颈，部分模型还落后于简单规则基线。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.17933，平台标注发表或更新于 2026-11-13）。实验结果由作者报告。项目链接由论文页面提供。2026-11-18 核验，归档至 2026-11-18 日报。",
+      "highlight": "适合测试代理能否记住长期承诺并维持可行计划。",
+      "tags": [
+        "Long-horizon Agents",
+        "State Tracking",
+        "Resource Allocation"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 9,
+      "time": "2026-11-18",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "多智能体收益复查：控制采样数量和推理预算后再比较",
+      "url": "https://huggingface.co/papers/2611.17610",
+      "summary": "研究整合九项实证评估的 516 个配置，按样本数量、资源预算和基线类型重算多智能体的表现差异。作者发现不少表面收益随匹配预算而消失，并提供资源核算工具以支持后续对照实验。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.17610，平台标注发表或更新于 2026-11-13）。实验结果由作者报告。2026-11-18 核验，归档至 2026-11-18 日报。",
+      "highlight": "比较多智能体结构时，可同时报告单次、同采样量和同预算基线。",
+      "tags": [
+        "Multi-agent",
+        "Ensembling",
+        "Test-time Compute",
+        "Evaluation"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 10,
+      "time": "2026-11-18",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "BitDecoding-FP4：联合优化 KV 量化和注意力内核",
+      "url": "https://github.com/OpenBitSys/BitDecoding-FP4",
+      "summary": "方案分别处理查询量化误差、长上下文概率下溢和键向量离群值，再通过融合 softmax 与概率量化等内核减少解码开销。作者在稠密与 MoE 模型上报告接近 BF16 KV 的准确率，并在 B300 部署配置中测量吞吐。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.09825，平台标注发表或更新于 2026-11-06）。实验结果由作者报告。项目链接由论文页面提供。2026-11-18 核验，归档至 2026-11-18 日报。",
+      "highlight": "可参考低比特 KV 缓存如何同时验证精度与端到端吞吐。",
+      "tags": [
+        "FP4",
+        "KV Cache",
+        "Inference Kernels",
+        "Quantization"
+      ],
+      "id": 11,
+      "time": "2026-11-18",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "SilentGuard：用执行层不变量阻止静默 API 错误传播",
+      "url": "https://github.com/Sajib-006/silentguard",
+      "summary": "部分 API 会忽略过滤条件却返回成功状态和合理数值，SilentGuard 在工具执行层检查结果必须满足的不变量。作者在目标故障上观察到错误回答减少，主要通过证据不可靠时停止作答，修复能力和新故障覆盖仍需分别评估。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.20595，平台标注发表或更新于 2026-11-16）。实验结果由作者报告。项目链接由论文页面提供。2026-11-18 核验，归档至 2026-11-18 日报。",
+      "highlight": "为工具可靠性增加独立于模型判断的结果校验机制。",
+      "tags": [
+        "API Validation",
+        "Agent Harness",
+        "Invariants",
+        "Reliability"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 12,
+      "time": "2026-11-18",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "ViRA：用局部变化的对照图像奖励真正读取视觉证据",
+      "url": "https://github.com/huawei-lin/ViRA",
+      "summary": "CrossRPO 将同一问题对应的多张图像组成对照集，图像仅有证据区域不同且答案不同，按整组解对情况奖励。作者构造高分辨率编辑图像及真实拍摄对照，在小规模训练后评估模型放大与读取局部证据的能力。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.21605，平台标注发表或更新于 2026-11-16）。实验结果由作者报告。项目链接由论文页面提供。2026-11-18 核验，归档至 2026-11-18 日报。",
+      "highlight": "适合减少视觉智能体靠常识猜对答案而获得的训练奖励。",
+      "tags": [
+        "Visual Agents",
+        "Reinforcement Learning",
+        "High Resolution",
+        "Contrast Sets"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 13,
+      "time": "2026-11-18",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "RAPO：在反思节点训练模型保留视觉信息",
+      "url": "https://github.com/coder-gx/RAPO",
+      "summary": "论文从信息论角度分析单步干预对后续视觉依赖的影响，再按 token 熵选择反思锚点。RAPO 结合 GRPO 与有限窗口 KL 目标训练模型，作者在多个视觉语言主干上检验视觉依赖信号和推理表现。",
+      "source": "作者论文摘要（Hugging Face Papers 2605.09614，平台标注发表或更新于 2026-11-15）。实验结果由作者报告。项目链接由论文页面提供。2026-11-18 核验，归档至 2026-11-18 日报。",
+      "highlight": "可比较长推理过程中哪些节点值得加强视觉证据利用。",
+      "tags": [
+        "Multimodal Reasoning",
+        "GRPO",
+        "Visual Grounding",
+        "Context Retention"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 14,
+      "time": "2026-11-18",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "GPBam：联合测量德国公法检索和长篇论证质量",
+      "url": "https://github.com/wendli01/gpbam",
+      "summary": "基准使用考试案例的参考答案引用法条建立检索标准，分别评价相关条文召回和完整法律论证。作者在多种检索配置下发现，检索改进给作文得分带来的增益有限，已有知识与写作表现的相关性较强。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.18981，平台标注发表或更新于 2026-11-13）。实验结果由作者报告。项目链接由论文页面提供。2026-11-18 核验，归档至 2026-11-18 日报。",
+      "highlight": "评估领域 RAG 时，应同时测量检索结果与最终任务质量。",
+      "tags": [
+        "RAG",
+        "Legal Benchmark",
+        "Retrieval Evaluation",
+        "Long-form Generation"
+      ],
+      "topic": [
+        "rag"
+      ],
+      "id": 15,
+      "time": "2026-11-18",
+      "stars": null
+    }
+  ]
+}
