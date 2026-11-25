@@ -1,0 +1,292 @@
+{
+  "items": [
+    {
+      "category": "news",
+      "title": "Inkling 2 Mini 发布，循环层与稀疏专家面向本地推理",
+      "url": "https://huggingface.co/blog/inkling2mini",
+      "summary": "该模型用部分层重复运行增加有效计算深度，约 26B 物理参数、每 token 约 3B 活跃参数，支持图文和长上下文。发布文章介绍混合精度专家权重及 Transformers、llama.cpp、MLX 和 SGLang 支持。",
+      "source": "Hugging Face 官方发布文章，2026-11-20 发布。2026-11-25 核验，归档至 2026-11-20 日报。",
+      "highlight": "可比较物理参数、循环计算与本地资源占用。",
+      "tags": [
+        "Inkling",
+        "Looped Transformer",
+        "MoE",
+        "Local Inference"
+      ],
+      "id": 1,
+      "time": "2026-11-20",
+      "stars": null
+    },
+    {
+      "category": "news",
+      "title": "OpenAI 发布 MedChemBench，测试分子结构与实验信息推理",
+      "url": "https://openai.com/index/introducing-medchembench/",
+      "summary": "基准从公开药物化学研究中构造问题，分别评估结构重建、证据解释、候选排序与性质预测。官方报告模型在不同子任务中的差异，强调读懂结构和解释证据的能力不等同于可靠选择候选。",
+      "source": "OpenAI 官方研究公告，2026-11-20 发布。2026-11-25 核验，归档至 2026-11-20 日报。",
+      "highlight": "为科研模型增加基于实验材料和分项评分的验证。",
+      "tags": [
+        "MedChemBench",
+        "AI for Science",
+        "Multimodal Evaluation"
+      ],
+      "id": 2,
+      "time": "2026-11-20",
+      "stars": null
+    },
+    {
+      "category": "news",
+      "title": "AWS DevOps Agent 月度更新，加入调查回放与记忆管理",
+      "url": "https://aws.amazon.com/blogs/mt/this-month-in-aws-devops-agent-november-2026/",
+      "summary": "官方汇总了组织级接入、实时调查摘要、回放与自动评审，并介绍记忆导入、语义搜索和知识图谱。预览沙盒可在隔离环境中运行诊断代码，文章列出可用区域及网络和 AWS 调用约束。",
+      "source": "AWS Cloud Operations Blog，2026-11-20 发布。2026-11-25 核验，归档至 2026-11-20 日报。",
+      "highlight": "可参考如何用历史事故回放核验配置和记忆变化。",
+      "tags": [
+        "DevOps Agent",
+        "Incident Investigation",
+        "Memory",
+        "Replay"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 3,
+      "time": "2026-11-20",
+      "stars": null
+    },
+    {
+      "category": "tutorial",
+      "title": "NVIDIA Cosmos Data Factory：用技能编排数据整理和生成",
+      "url": "https://developer.nvidia.com/blog/build-training-ready-physical-ai-datasets-with-two-prompts-in-nvidia-cosmos/",
+      "summary": "教程将五类物理 AI 数据工作流封装为参考蓝图，由编排技能部署服务并串联检索、增强和标注。示例涵盖驾驶情境、图像属性变化、罕见事件与缺陷图像，并说明环境预检及执行步骤。",
+      "source": "NVIDIA Technical Blog，2026-11-18 发布。2026-11-25 核验，归档至 2026-11-20 日报。",
+      "highlight": "适合把零散数据工具组织成可重复的训练集流水线。",
+      "tags": [
+        "Cosmos",
+        "Synthetic Data",
+        "Agent Skills",
+        "Data Curation"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 4,
+      "time": "2026-11-20",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Jeveration：共享随机状态协调单次前向图像生成",
+      "url": "https://github.com/Carol-lyh/Jeveration",
+      "summary": "方法在冻结视觉语言主干上并行预测离散图像表示，用共享随机状态让各位置选择同一幅自洽图像。作者先学习图像代码分布，再统一文生图、图生图和稠密预测，比较延迟与质量。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.24738，平台标注发表或更新于 2026-11-18）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-20 日报。",
+      "highlight": "可参考单次前向生成如何处理图像整体一致性。",
+      "tags": [
+        "Image Generation",
+        "Decision Models",
+        "Parallel Prediction"
+      ],
+      "id": 5,
+      "time": "2026-11-20",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "ALIVE：训练流式视频模型主动监测与请求反馈",
+      "url": "https://github.com/lijinzhao30/ALIVE",
+      "summary": "ALIVE 通过对比监督学习何时回应，再用结合局部和轨迹优势的强化学习优化动作、回应与沉默。作者提供主动反馈基准，联合考查寻求反馈和随后完成任务的能力。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.21366，平台标注发表或更新于 2026-11-16）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-20 日报。",
+      "highlight": "适合为持续观察的视频助手设计交互时机评测。",
+      "tags": [
+        "Streaming Video",
+        "Proactive Agents",
+        "Reinforcement Learning"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 6,
+      "time": "2026-11-20",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "AnyS1：从技能文档抽取可交给小模型的决策点",
+      "url": "https://github.com/middle-chunjie/AnyS1",
+      "summary": "流程从程序性技能中挖掘候选明确的选择，采集执行状态后训练统一的轻量决策模型。编译后的工作流将置信不足的选择交回大模型，作者在未见基准上比较成本、耗时与可靠性。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.23751，平台标注发表或更新于 2026-11-18）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-20 日报。",
+      "highlight": "提供从已有技能构造快慢模型分工的路径。",
+      "tags": [
+        "Decision Models",
+        "Skills",
+        "Model Routing",
+        "Calibration"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 7,
+      "time": "2026-11-20",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Piccolo：把决策模型行为分析与训练数据迭代连接起来",
+      "url": "https://github.com/agentscope-ai/Piccolo",
+      "summary": "Piccolo 系列用候选概率完成文字、视觉和交互判断，研究代理据评测结果生成并筛选训练数据。作者记录数据切片和研究记忆，并指出持续降低损失未必同步提高离散决策准确率。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.24651，平台标注发表或更新于 2026-11-18）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-20 日报。",
+      "highlight": "适合研究小规模定向数据如何影响决策模型的真实表现。",
+      "tags": [
+        "Decision Models",
+        "Data Engineering",
+        "Self-improvement"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 8,
+      "time": "2026-11-20",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "ECA：按检索证据对参考答案的贡献分配训练奖励",
+      "url": "https://huggingface.co/papers/2611.23824",
+      "summary": "训练时额外估计去重文档对参考答案概率的改善，将检索收益与终局答题奖励结合。作者用只含问题和证据的提示隔离推理文字影响，并在搜索问答与多跳任务中比较不同回报定义。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.23824，平台标注发表或更新于 2026-11-18）。实验结果由作者报告。2026-11-25 核验，归档至 2026-11-20 日报。",
+      "highlight": "让搜索训练能区分检索到有效信息和无效查询。",
+      "tags": [
+        "Search-Augmented LLMs",
+        "Credit Assignment",
+        "GRPO"
+      ],
+      "topic": [
+        "rag",
+        "post-training"
+      ],
+      "id": 9,
+      "time": "2026-11-20",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "PReMind：联合考查视觉危险识别与个人记忆利用",
+      "url": "https://huggingface.co/papers/2611.23808",
+      "summary": "基准分别测量记忆访问、证据关联、适当停止和危险回应，再考查二者互相依赖的场景。两阶段强化学习混合自主调用记忆与强制召回，作者观察到联合成功率改善。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.23808，平台标注发表或更新于 2026-11-18）。实验结果由作者报告。2026-11-25 核验，归档至 2026-11-20 日报。",
+      "highlight": "为个性化视觉助手设计包含记忆缺失和错误关联的测试。",
+      "tags": [
+        "Personal Memory",
+        "Visual Assistants",
+        "Grounding"
+      ],
+      "topic": [
+        "memory",
+        "agent",
+        "post-training"
+      ],
+      "id": 10,
+      "time": "2026-11-20",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "MRPD：回放专家强化学习日志来整合长程能力",
+      "url": "https://github.com/Yueeeeeeee/MRPD",
+      "summary": "方法按专家学习顺序重放带采样概率和奖励的旧轨迹，重新计算策略梯度并结合最终专家的前缀分布蒸馏。作者在推理、搜索和 SQL 领域比较整合成本，发现日志顺序也影响学生收益。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.24059，平台标注发表或更新于 2026-11-18）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-20 日报。",
+      "highlight": "可检验已有训练日志作为课程的复用价值。",
+      "tags": [
+        "Off-policy Distillation",
+        "Replay",
+        "RL Experts"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 11,
+      "time": "2026-11-20",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "AutoMaster：通过技能约束改善同一教师模型的示范",
+      "url": "https://github.com/RUCAIBox/AutoMaster",
+      "summary": "系统分析成功轨迹中的假设、重复和浅层验证，再编写自然语言技能干预教师行为。作者固定教师、任务池和微调配方，比较有无技能引导产生的训练数据。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.26510，平台标注发表或更新于 2026-11-19）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-20 日报。",
+      "highlight": "适合把教师输出质量和训练样本数量分开研究。",
+      "tags": [
+        "SFT",
+        "Teacher Trajectories",
+        "Skills",
+        "Post-training"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 12,
+      "time": "2026-11-20",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "PMD：通过后验均值约束蒸馏少步扩散生成器",
+      "url": "https://github.com/yesiltepe-hidir/PMD",
+      "summary": "方法用一组指数重加权的均值条件约束学生后验分布，并支持训练时间网格内不同采样步数。作者在图像生成模型中比较四步质量、提示对齐与多样性。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.26629，平台标注发表或更新于 2026-11-19）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-20 日报。",
+      "highlight": "为少步蒸馏中覆盖教师多种生成模式提供新的目标。",
+      "tags": [
+        "Diffusion Distillation",
+        "Posterior Matching",
+        "Diversity"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 13,
+      "time": "2026-11-20",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Apple Depth Pro 2：联合估计图像和视频的原分辨率深度",
+      "url": "https://github.com/apple-aiml-research/ml-depth-pro-2",
+      "summary": "模型用统一网络处理单图和视频，在度量准确性、物体边缘和时间一致性之间做联合优化。作者发布多个规模的模型与权重，并比较速度和深度质量。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.26603，平台标注发表或更新于 2026-11-19）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-20 日报。",
+      "highlight": "适合需要同时处理静态图像及动态画面的深度应用。",
+      "tags": [
+        "Depth Estimation",
+        "Video",
+        "Metric Depth",
+        "Computer Vision"
+      ],
+      "id": 14,
+      "time": "2026-11-20",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Coda-DaVinci：按任务选择三维代理引导的视频生成",
+      "url": "https://github.com/FrankYang-17/Coda",
+      "summary": "框架根据实体和场景选取建模粒度，将程序搭建、物理仿真和视觉检查结合。作者通过对照和盲评分析粗细代理的取舍，并记录长视频转场和场景设置遵循的局限。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.26595，平台标注发表或更新于 2026-11-19）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-20 日报。",
+      "highlight": "可参考将代码构造的世界结构与生成器外观表现分项测试。",
+      "tags": [
+        "Code2Video",
+        "Video Generation",
+        "Visual Agents"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 15,
+      "time": "2026-11-20",
+      "stars": null
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "items": [
+    {
+      "category": "tutorial",
+      "title": "DJemma：用头部动作与端侧 Gemma 控制音乐",
+      "url": "https://huggingface.co/blog/litert-community/djemma-at-gemma-hackathon",
+      "summary": "应用将相机到发声的快速回路与模型选择伴奏的慢速回路分开，用户用头部和面部动作演奏。作者用有限命令词表和每次变更数量限制模型控制，讨论可访问交互与响应稳定性。",
+      "source": "DJemma 项目作者发表于 LiteRT 社区，2026-11-23 发布。2026-11-25 核验，归档至 2026-11-25 日报。",
+      "highlight": "为实时媒体应用划分控制频率和模型决策职责。",
+      "tags": [
+        "Accessibility",
+        "On-device",
+        "Music",
+        "Human-computer Interaction"
+      ],
+      "id": 1,
+      "time": "2026-11-25",
+      "stars": null
+    },
+    {
+      "category": "tool",
+      "title": "IVE 与 Ivonnet：直接从页面视觉内容给候选决策评分",
+      "url": "https://huggingface.co/blog/QuentinJG/ive-release",
+      "summary": "两款模型以图像或文字、问题和候选项为输入，一次前向返回概率，覆盖页面相关性、分类和重排等任务。作者在文档与私有新领域任务中比较质量和校准，发布 Apache 2.0 权重。",
+      "source": "IVE 项目作者一手发布文章，2026-11-23 发布。2026-11-25 核验，归档至 2026-11-25 日报。",
+      "highlight": "可为文档 RAG 的二阶段重排加入统一的小模型。",
+      "tags": [
+        "Document AI",
+        "Decision Models",
+        "Reranking",
+        "Calibration"
+      ],
+      "topic": [
+        "rag"
+      ],
+      "id": 2,
+      "time": "2026-11-25",
+      "stars": null
+    },
+    {
+      "category": "news",
+      "title": "OpenAI API 开放医疗场景模型配置与专门证据搜索",
+      "url": "https://help.openai.com/en/articles/20001656-healthcare-model-configurations-in-the-openai-api",
+      "summary": "官方将医疗场景指令和专门搜索索引加入支持的模型配置，通过 Responses API 提供。启用网页搜索后可检索和归纳医疗证据，处理受保护健康信息另需满足协议及账号和工具配置要求。",
+      "source": "OpenAI 官方模型更新日志 2026-11-24 条目及对应帮助文档。2026-11-25 核验，归档至 2026-11-25 日报。",
+      "highlight": "为领域证据检索增加明确的配置入口和来源核验要求。",
+      "tags": [
+        "Healthcare AI",
+        "Evidence Retrieval",
+        "Responses API"
+      ],
+      "topic": [
+        "rag"
+      ],
+      "id": 3,
+      "time": "2026-11-25",
+      "stars": null
+    },
+    {
+      "category": "news",
+      "title": "OpenAI 报告通用 GPT-6 模型的蛋白设计研究结果",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+      "summary": "研究考查模型使用推理和通用代码处理蛋白结构与序列任务，并给出计算评测和合作实验结果。官方说明实验验证阶段使用了专门模型辅助候选准备与筛选，并讨论评估和泛化局限。",
+      "source": "OpenAI 官方研究公告，2026-11-24 发布。2026-11-25 核验，归档至 2026-11-25 日报。",
+      "highlight": "关注通用模型科研能力时，可分别核对生成、筛选和实验验证的贡献。",
+      "tags": [
+        "AI for Science",
+        "Protein Research",
+        "Evaluation"
+      ],
+      "id": 4,
+      "time": "2026-11-25",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "MORSE：按重复失败搜索并优化流式视频记忆方案",
+      "url": "https://huggingface.co/papers/2611.30011",
+      "summary": "编辑代理归纳训练轨迹中的失败原因，在线查找论文、模型卡和代码，调整证据保存与检索机制。作者在固定视频主干下先选择质量更好的修改，再寻找保持效果且更快的版本。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.30011，平台标注发表或更新于 2026-11-23）。实验结果由作者报告。2026-11-25 核验，归档至 2026-11-25 日报。",
+      "highlight": "为自动优化记忆框架加入外部研究和速度约束。",
+      "tags": [
+        "Streaming Memory",
+        "Auto-research",
+        "Harness Optimization"
+      ],
+      "topic": [
+        "agent",
+        "memory",
+        "rag"
+      ],
+      "id": 5,
+      "time": "2026-11-25",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "SMB Bench：测量代理能否根据延迟后果改变后续决策",
+      "url": "https://github.com/ORO-AI/smb-bench",
+      "summary": "模拟器将库存、客户承诺和资金影响延续到未来，区分发现问题、采取行动与最终经营结果。作者用历史季度状态做续跑训练，观察到承诺履行改善，但额外利润收益仍不确定。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.28158，平台标注发表或更新于 2026-11-19）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-25 日报。",
+      "highlight": "适合检验长期运营任务中的因果归因和一致执行。",
+      "tags": [
+        "Delayed Consequences",
+        "Long-horizon Agents",
+        "Policy Training"
+      ],
+      "topic": [
+        "agent",
+        "memory",
+        "post-training"
+      ],
+      "id": 6,
+      "time": "2026-11-25",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Wactorz：可监督重启和跨边缘节点迁移的长期代理",
+      "url": "https://github.com/waldiez/wactorz",
+      "summary": "运行时将生成代码编译为持久 actor，用独立监督器在故障后保留状态并重启。项目通过 MQTT 协调与迁移，作者用相机灯光自动化演示发现、修复和新节点部署流程。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.29619，平台标注发表或更新于 2026-11-22）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-25 日报。",
+      "highlight": "为需要持续运行的边缘代理提供状态和故障隔离设计。",
+      "tags": [
+        "Edge Agents",
+        "Actor Model",
+        "MQTT",
+        "Fault Recovery"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 7,
+      "time": "2026-11-25",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "ViDecide：将视频规划训练拆为状态转移和停止决策",
+      "url": "https://github.com/Kevin-thu/ViDecide",
+      "summary": "框架将整段视频视为因果决策序列，并用成功续跑纠正失败决策对应的生成噪声。作者在抽象游戏、规划和机器人多步任务中比较正确性及对新布局的泛化。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.26389，平台标注发表或更新于 2026-11-19）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-25 日报。",
+      "highlight": "可参考用决策级监督提高视频生成的规划遵循。",
+      "tags": [
+        "Video Reasoning",
+        "Planning",
+        "Corrective Fine-tuning"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 8,
+      "time": "2026-11-25",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "GameDojo：实时游戏战斗中的交互代理评测",
+      "url": "https://github.com/THUSI-Lab/GameDojo",
+      "summary": "基准重构多个游戏的首领战环境，提供可控制任务与大量游戏轨迹。作者比较模型、学习算法和执行框架，发现实时操作仍有难度，并检验联合训练和跨首领迁移。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.30771，平台标注发表或更新于 2026-11-23）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-25 日报。",
+      "highlight": "适合同时测量动作效果与持续交互时的反应能力。",
+      "tags": [
+        "Real-time Agents",
+        "Game Benchmark",
+        "Imitation Learning"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 9,
+      "time": "2026-11-25",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "Hindsight Twins：只蒸馏图像修正对应的变化",
+      "url": "https://huggingface.co/papers/2611.31048",
+      "summary": "方法构造分别填入正确目标与已观察错误的成对提示，以二者的速度差监督学生，并对修正位置以外的表示做对齐。作者比较多轮自训练中的对齐改善和评审器额外添加场景细节的偏差。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.31048，平台标注发表或更新于 2026-11-23）。实验结果由作者报告。2026-11-25 核验，归档至 2026-11-25 日报。",
+      "highlight": "为生成模型自我修正隔离意图内的改动提供实验。",
+      "tags": [
+        "Text-to-Image",
+        "Self-distillation",
+        "Correction"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 10,
+      "time": "2026-11-25",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "PersistWorld：将流式相机观测写入持久三维状态",
+      "url": "https://huggingface.co/papers/2611.30573",
+      "summary": "系统每帧只写入一次场景锚定状态，再按所查询时间演化和读取，用于预测未来语义占据。作者将未变化、变化和未见区域分开分析，比较记忆保持与预测速度。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.30573，平台标注发表或更新于 2026-11-23）。实验结果由作者报告。2026-11-25 核验，归档至 2026-11-25 日报。",
+      "highlight": "适合判断驾驶世界模型的误差来自遗忘还是动态预测。",
+      "tags": [
+        "Persistent State",
+        "Occupancy Forecasting",
+        "Streaming Cameras"
+      ],
+      "topic": [
+        "memory"
+      ],
+      "id": 11,
+      "time": "2026-11-25",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "DiLE：用学生当前检索到的难负例蒸馏多模态嵌入",
+      "url": "https://huggingface.co/papers/2611.25419",
+      "summary": "框架用少量可学习查询形成任务相关潜表示，并通过共享与私有专家保留跨任务和专门信息。学生周期性更新易混淆候选，教师据此提供细粒度相关性分布，作者在多模态检索基准比较效果。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.25419，平台标注发表或更新于 2026-11-19）。实验结果由作者报告。2026-11-25 核验，归档至 2026-11-25 日报。",
+      "highlight": "将嵌入训练的负样本与部署中的实际混淆联系起来。",
+      "tags": [
+        "Multimodal Embeddings",
+        "Hard Negatives",
+        "Distillation"
+      ],
+      "topic": [
+        "rag",
+        "post-training"
+      ],
+      "id": 12,
+      "time": "2026-11-25",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "ReWeave：从交互中更新物理任务依赖并重用局部技能",
+      "url": "https://github.com/xuyicheng-zju/ReWeave",
+      "summary": "框架固定策略与感知模型，同时优化上下文、工作流和控制循环，随新证据重解释过去试验。跨任务阶段按已验证机制和未满足前提组合专家单元，作者评估未见任务与持续学习。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.31053，平台标注发表或更新于 2026-11-23）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-25 日报。",
+      "highlight": "适合让执行失败转为依赖图、进展和可迁移机制。",
+      "tags": [
+        "Embodied Harness",
+        "Task Topology",
+        "Skill Transfer"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 13,
+      "time": "2026-11-25",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "WeightCode：用可执行权重程序添加和迁移网络能力",
+      "url": "https://github.com/Gen-Verse/WeightCode",
+      "summary": "冻结语言模型根据任务知识编写读写权重的程序，安装后目标网络独立执行新增能力。作者在控制和视觉任务中比较保留、鲁棒性以及向独立训练网络重运行程序的效果。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.25476，平台标注发表或更新于 2026-11-19）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-25 日报。",
+      "highlight": "可参考可复用程序与复制固定权重改动之间的差别。",
+      "tags": [
+        "Weight-space Programming",
+        "Capability Transfer",
+        "Model Editing"
+      ],
+      "id": 14,
+      "time": "2026-11-25",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "KernelShift：跨演进中的 Arm 指令扩展测试内核优化",
+      "url": "https://github.com/cmu-l3/kernel-shift",
+      "summary": "流水线从活跃仓库生成算子任务，在目标硬件上给编码代理执行反馈，并由人工核验。作者比较 Neon、SVE、SVE2 和 SME2，发现成熟扩展上的收益并未稳定迁移到陌生矩阵编程接口。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.29590，平台标注发表或更新于 2026-11-22）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-25 日报。",
+      "highlight": "适合检查优化代理对新硬件是否真正适应。",
+      "tags": [
+        "Kernel Optimization",
+        "CPU",
+        "Coding Agents",
+        "Hardware Generalization"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 15,
+      "time": "2026-11-25",
+      "stars": null
+    }
+  ]
+}

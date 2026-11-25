@@ -1,0 +1,280 @@
+{
+  "items": [
+    {
+      "category": "tool",
+      "title": "Superfluid fleet：把多台本地机器汇聚为模型服务入口",
+      "url": "https://huggingface.co/blog/basecompute/superfluid-fleet",
+      "summary": "服务通过局域网将不同硬件和运行时的节点组成一个推理端点，提供常见客户端接口。文章说明主节点、加入令牌和发现机制，并用多设备并发实验展示集群运行。",
+      "source": "Basecompute 项目团队文章，2026-11-20 发布。2026-11-25 核验，归档至 2026-11-22 日报。",
+      "highlight": "适合探索小团队已有设备的推理容量汇聚。",
+      "tags": [
+        "Local Inference",
+        "Distributed Serving",
+        "Fleet"
+      ],
+      "id": 1,
+      "time": "2026-11-22",
+      "stars": null
+    },
+    {
+      "category": "news",
+      "title": "Ayb 0.5：面向亚美尼亚语的开放语言模型系列",
+      "url": "https://huggingface.co/blog/Metric-AI/ayb-05-intro",
+      "summary": "系列基于 Qwen3.5，经过专用分词器、持续预训练和指令后训练，提供多个参数规模。团队用本地语言任务与指令遵循基准评估，并为较大版本提供工具调用与多轮交互能力。",
+      "source": "Metric-AI 官方文章，2026-11-20 发布。2026-11-25 核验，归档至 2026-11-22 日报。",
+      "highlight": "为低资源语言适配提供从分词到评测的实现案例。",
+      "tags": [
+        "Armenian",
+        "Low-resource Languages",
+        "Open Models"
+      ],
+      "id": 2,
+      "time": "2026-11-22",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Game2Player：让游戏构建者与玩家共同验证训练环境",
+      "url": "https://github.com/game2player/Game2Player",
+      "summary": "构建代理改造网页游戏并暴露内部状态，编码玩家和视觉玩家执行任务后反馈问题供修复。作者收集可验证轨迹，再按任务进展为监督步骤加权，比较对未见游戏的迁移表现。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.24154，平台标注发表或更新于 2026-11-18）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-22 日报。",
+      "highlight": "提供同时收集训练数据和检查环境正确性的循环。",
+      "tags": [
+        "Game Agents",
+        "Environment Generation",
+        "SFT"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 3,
+      "time": "2026-11-22",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "HINT-WAM：用示范未来视频监督学生自己的动作采样",
+      "url": "https://github.com/tuandattt/hintwam_code",
+      "summary": "学生沿自己的去噪轨迹生成动作，同一模型作为教师时额外看到示范未来视频以提供分布目标。方法用能量评分蒸馏动作分布，训练时的特权信息无需在部署时提供。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.24789，平台标注发表或更新于 2026-11-18）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-22 日报。",
+      "highlight": "可参考如何将事后信息转为在策略动作监督。",
+      "tags": [
+        "On-policy Self-distillation",
+        "Robot Learning",
+        "Privileged Information"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 4,
+      "time": "2026-11-22",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "StrideWorld：用提前固定的参照检查交互视频的场景与动作",
+      "url": "https://github.com/chuangwang123/strideworld",
+      "summary": "基准用初始视图真实几何检查场景形变，再以模型开始几步测得的动作步幅预测后续运动。作者通过已知相机路径的渲染视频校准指标，记录停滞、路线偏移和结构变形。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.24408，平台标注发表或更新于 2026-11-18）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-22 日报。",
+      "highlight": "减少评测参照随被测视频一起变化带来的盲区。",
+      "tags": [
+        "World Models",
+        "Geometry",
+        "Action Consistency"
+      ],
+      "id": 5,
+      "time": "2026-11-22",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "AVTR：按问题选择文字推理或视觉反思",
+      "url": "https://github.com/xiaoqian-shen/AVTR",
+      "summary": "方法将生成式视觉想象作为重新检查图像证据的手段，并训练路由选择推理模态和深度。作者在多个基准比较准确率和时延，检验对小规模主干的适用性。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.24161，平台标注发表或更新于 2026-11-18）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-22 日报。",
+      "highlight": "适合将感知密集问题与逻辑推理问题的计算路径分开测量。",
+      "tags": [
+        "Visual Reasoning",
+        "Adaptive Computation",
+        "Multimodal"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 6,
+      "time": "2026-11-22",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "RoughCut-Bench：评估可执行的视频粗剪计划",
+      "url": "https://github.com/Whalesong-zrs/RoughCut-Bench",
+      "summary": "基准涵盖素材亮点、顺序和需求遵循，以及转录文字中的重复和口头填充清理。作者将结构化剪辑计划与人工标注对照，并补充渲染成片的质量评审。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.24098，平台标注发表或更新于 2026-11-18）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-22 日报。",
+      "highlight": "可参考从编辑计划到实际成片的双层验收。",
+      "tags": [
+        "Video Editing",
+        "Agentic Workflows",
+        "Benchmark"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 7,
+      "time": "2026-11-22",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "PIPETTE：把提示注入测试的覆盖转为防御训练收益",
+      "url": "https://huggingface.co/papers/2611.24362",
+      "summary": "研究发现攻击成功率高并不保证对抗训练更有效，因为相似测试策略可能反复出现。框架鼓励覆盖不同攻击模式，再用在策略防御训练检验鲁棒性和正常任务效用。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.24362，平台标注发表或更新于 2026-11-18）。实验结果由作者报告。2026-11-25 核验，归档至 2026-11-22 日报。",
+      "highlight": "评估防护训练时可同时看策略多样性与任务保留。",
+      "tags": [
+        "Prompt Injection",
+        "Adversarial Training",
+        "Agent Safety"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 8,
+      "time": "2026-11-22",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "BiCAT：在动作编码阶段建模双臂协调",
+      "url": "https://github.com/MAGICLAB-NUS/BiCAT",
+      "summary": "方法让两臂共享运动表示，通过对称跨臂注意力和联合解码器保留配合关系。策略先预测一臂再条件预测另一臂，作者在仿真和多种真机形态上比较动作块延迟与成功率。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.23499，平台标注发表或更新于 2026-11-17）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-22 日报。",
+      "highlight": "提供把双臂依赖放入动作词元接口的方案。",
+      "tags": [
+        "Bimanual Manipulation",
+        "Action Tokenization",
+        "VLA"
+      ],
+      "id": 9,
+      "time": "2026-11-22",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Chorus：共享 N-gram 表并允许每层自适应读取",
+      "url": "https://github.com/dualverse-ai/chorus",
+      "summary": "模型各层复用一组短序列嵌入，再按当前隐藏状态缩放并投影为层内特征。作者比较表大小和语言建模质量，也测试节省优化器状态的训练方案。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.23386，平台标注发表或更新于 2026-11-17）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-22 日报。",
+      "highlight": "适合分析外部参数表的容量、层间复用与显存成本。",
+      "tags": [
+        "N-gram Embeddings",
+        "Parameter Efficiency",
+        "Language Modeling"
+      ],
+      "id": 10,
+      "time": "2026-11-22",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "DrawScore：用工程图投影暴露 CAD 的局部错误",
+      "url": "https://github.com/UESTC-Simon/DrawScore",
+      "summary": "方法将 CAD 投到三视图并沿可见和隐藏线评分，提高错孔、错槽等小区域缺陷的权重。作者用可控错误验证指标，并将其用作强化学习奖励和生成时校验器。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.24681，平台标注发表或更新于 2026-11-18）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-22 日报。",
+      "highlight": "可参考制造任务如何补充体积相似度忽略的局部要求。",
+      "tags": [
+        "CAD Evaluation",
+        "Engineering Drawings",
+        "Verification"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 11,
+      "time": "2026-11-22",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "FVScore：将视频要求变为带时间证据的逻辑检查",
+      "url": "https://huggingface.co/papers/2611.22673",
+      "summary": "框架把显式提示与隐含时空约束编成命题，调用专门感知工具形成置信轨迹，再用软时间算子验证。校准阶段保留感知上显著的违规点，作者评估与人工判断的相关性。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.22673，平台标注发表或更新于 2026-11-17）。实验结果由作者报告。2026-11-25 核验，归档至 2026-11-22 日报。",
+      "highlight": "适合把整段视频评分细化为可追踪的具体失败。",
+      "tags": [
+        "Video Evaluation",
+        "Temporal Logic",
+        "Perceptual Tools"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 12,
+      "time": "2026-11-22",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "WAM-Policy：把机械臂世界动作模型迁移到四足操作",
+      "url": "https://github.com/AIGeeksGroup/WAM-Policy",
+      "summary": "流程先做形态适配并用在策略自蒸馏压缩采样步数，再强化学习专门教师并整合为单个学生。作者在十项仿真任务和真实四足平台上检查任务效果及速度。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.24011，平台标注发表或更新于 2026-11-18）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-22 日报。",
+      "highlight": "展示跨形态迁移与少步部署优化如何结合。",
+      "tags": [
+        "Quadruped",
+        "World Action Models",
+        "Multi-teacher Distillation"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 13,
+      "time": "2026-11-22",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "Repo-Premium：重新比较代码搜索的稠密与词法基线",
+      "url": "https://huggingface.co/papers/2611.20455",
+      "summary": "研究在真实仓库、原始查询和较新拉取请求上测试文件检索，分析切块与相关性定义对排名的影响。补充代码标识符可明显改善词法搜索，作者比较查询扩展和融合检索的效果。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.20455，平台标注发表或更新于 2026-11-16）。实验结果由作者报告。2026-11-25 核验，归档至 2026-11-22 日报。",
+      "highlight": "为代码 RAG 提供更公平的检索基线设计。",
+      "tags": [
+        "Code Search",
+        "BM25",
+        "Embeddings",
+        "Query Expansion"
+      ],
+      "topic": [
+        "rag",
+        "agent"
+      ],
+      "id": 14,
+      "time": "2026-11-22",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "SAFI：让机器人在任务中途接管后学会安全保持",
+      "url": "https://github.com/franciscoliu/SAFI",
+      "summary": "方法为特定禁止任务的各中间状态构造静止机械臂与一致夹爪目标，并和保留任务联合训练。作者同时测量禁止完成、掉落等物理事件以及原有能力，评估范围限于保持适合作为后备动作的场景。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.26239，平台标注发表或更新于 2026-11-19）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-22 日报。",
+      "highlight": "停止策略应通过中间状态接管和物理结果共同检验。",
+      "tags": [
+        "VLA",
+        "Safety",
+        "Fallback Policy",
+        "Imitation Learning"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 15,
+      "time": "2026-11-22",
+      "stars": null
+    }
+  ]
+}

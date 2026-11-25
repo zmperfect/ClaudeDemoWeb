@@ -1,0 +1,284 @@
+{
+  "items": [
+    {
+      "category": "news",
+      "title": "RadixArk 发布 DaisyRose-27B 长程任务后训练模型",
+      "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+      "summary": "团队在 Qwen3.8-27B 上使用精选任务和 Miles 训练系统做强化学习，支持很长的代理交互会话。发布方报告终端任务与多项推理、代码基准的改进，并给出部署配置。",
+      "source": "RadixArk 官方文章，2026-11-18 发布。2026-11-25 核验，归档至 2026-11-19 日报。",
+      "highlight": "可关注精选任务、训练资源与完整长程任务收益之间的关系。",
+      "tags": [
+        "DaisyRose",
+        "Reinforcement Learning",
+        "Long-horizon Agents"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 1,
+      "time": "2026-11-19",
+      "stars": null
+    },
+    {
+      "category": "tutorial",
+      "title": "微调时长估计：从理论 FLOPs 走向任务配置回归",
+      "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+      "summary": "文章分析数据处理、检查点、评估和硬件利用率等对总耗时的影响，将分配到 GPU 后至完成的时间作为预测目标。作者用调度前已知的配置和模型信息训练回归器，单独排除排队时间。",
+      "source": "Dharma-AI 作者文章，2026-11-18 发布。2026-11-25 核验，归档至 2026-11-19 日报。",
+      "highlight": "适合改进微调排期与成本估算，减少只按计算量推时长的误差。",
+      "tags": [
+        "Fine-tuning",
+        "Training Time",
+        "Performance Modeling"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 2,
+      "time": "2026-11-19",
+      "stars": null
+    },
+    {
+      "category": "tutorial",
+      "title": "Transformers 专家流式加载实验：把大 MoE 放进有限内存",
+      "url": "https://huggingface.co/blog/moe-expert-streaming",
+      "summary": "文章按路由需要从 SSD 载入专家，将预分配设备槽池跨层复用，避免反复分配和复制缓存。作者提供实验代码分支及本地测量，并比较与原生加载和其他方案的生成速度。",
+      "source": "Hugging Face 官方博客，2026-11-18 发布，文中功能为实验代码分支。2026-11-25 核验，归档至 2026-11-19 日报。",
+      "highlight": "为显存和内存受限的本地 MoE 推理提供实现细节。",
+      "tags": [
+        "MoE",
+        "Expert Streaming",
+        "SSD",
+        "Transformers"
+      ],
+      "id": 3,
+      "time": "2026-11-19",
+      "stars": null
+    },
+    {
+      "category": "news",
+      "title": "Rumble-2-Flash：开放 0.5B 多语种语音识别模型",
+      "url": "https://huggingface.co/blog/rumble-2-flash",
+      "summary": "项目以 Apache 2.0 发布支持四十余种语言的语音模型，提供 Transformers 和 vLLM 接入。团队在电话与批量音频等条件下报告性能，并支持数字、填充词及重复词等转写格式控制。",
+      "source": "Hugging Face 官方发布文章，2026-11-18 发布。2026-11-25 核验，归档至 2026-11-19 日报。",
+      "highlight": "评估时可同时测试实体准确率、格式要求和对应批量条件。",
+      "tags": [
+        "ASR",
+        "Speech Recognition",
+        "Open Models",
+        "vLLM"
+      ],
+      "id": 4,
+      "time": "2026-11-19",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "SIM：为执行框架优化器保存自我改进的理由与结果",
+      "url": "https://huggingface.co/papers/2611.18856",
+      "summary": "SIM 按反复出现的框架问题保存修改、预期效果、实际结果和评测条件，帮助优化过程跨模型或基准延续。作者在四个领域比较了仅保留框架和保存改进历史的方案，观察到后者的最终得分更高。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.18856，平台标注发表或更新于 2026-11-13）。实验结果由作者报告。2026-11-25 核验，归档至 2026-11-19 日报。",
+      "highlight": "适合追踪框架修改的来由，验证历史经验在新任务中的适用性。",
+      "tags": [
+        "Agent Memory",
+        "Harness Optimization",
+        "Continual Learning"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 5,
+      "time": "2026-11-19",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "RepoFactory：把真实代码库转为可验证的长程训练环境",
+      "url": "https://github.com/IQuestLab/RepoFactory",
+      "summary": "项目从真实仓库构造按自然语言规格从头实现项目的环境，再用有效性、结构耦合和实现范围等代理信号改进环境。作者生成一万余个环境，并用训练对照评估环境演化带来的额外收益。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.21152，平台标注发表或更新于 2026-11-17）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-19 日报。",
+      "highlight": "提供从仓库构造任务和迭代训练环境的完整路径。",
+      "tags": [
+        "Coding Agents",
+        "Training Environments",
+        "Data Synthesis"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 6,
+      "time": "2026-11-19",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "M3OPD-Reasoner：多教师蒸馏后继续做混合强化学习",
+      "url": "https://github.com/ngquangtrung57/M3OPD-Reasoner",
+      "summary": "方案分别训练图像 STEM、视觉感知和视频推理教师，再通过学生自己的输出做多教师在策略蒸馏。作者进一步在相同提示上继续混合强化学习，公开数据、训练代码和各阶段检查点以比较不同配方。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.23034，平台标注发表或更新于 2026-11-17）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-19 日报。",
+      "highlight": "可对照混合训练与先分科再蒸馏的多模态后训练方式。",
+      "tags": [
+        "On-policy Distillation",
+        "Multimodal",
+        "GSPO",
+        "Reinforcement Learning"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 7,
+      "time": "2026-11-19",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Apple FastFrames：从解码和缓存环节降低交互视频延迟",
+      "url": "https://github.com/apple-aiml-research/ml-fastframes",
+      "summary": "作者剖析自回归视频扩散推理，发现 VAE 解码和 KV 更新占据大量端到端时间，并用轻量组件替代。项目在 B200 配置上报告逐帧交互延迟与生成质量，并展示相机和物理条件控制。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.23226，平台标注发表或更新于 2026-11-17）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-19 日报。",
+      "highlight": "评估交互视频时可将后处理和缓存操作一起计入延迟。",
+      "tags": [
+        "Interactive Video",
+        "Video Diffusion",
+        "Inference Optimization"
+      ],
+      "id": 8,
+      "time": "2026-11-19",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "VideoNexus：让感知子代理向规划器返回带时间定位的证据",
+      "url": "https://huggingface.co/papers/2611.21392",
+      "summary": "规划器决定检查哪里、解决什么细节和取样密度，子代理在独立上下文中处理原生视听内容。系统将紧凑证据返回规划上下文，作者在同主干对照中测量长视频问答效果与 API 成本。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.21392，平台标注发表或更新于 2026-11-16）。实验结果由作者报告。2026-11-25 核验，归档至 2026-11-19 日报。",
+      "highlight": "适合研究如何减少长视频代理上下文中的重复视觉内容。",
+      "tags": [
+        "Video Agents",
+        "Context Management",
+        "Evidence Retrieval"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 9,
+      "time": "2026-11-19",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "ForceHarness：让冻结模型调用自主闭环力控工具",
+      "url": "https://github.com/showlab/ForceHarness",
+      "summary": "工具在快速控制回路中调节接触力，到接触事件时自行停止，再将轨迹转为带不确定度的物理量。作者在真机和隐藏物理参数仿真任务中比较原始力读数、物理解释及专家控制器。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.21099，平台标注发表或更新于 2026-11-16）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-19 日报。",
+      "highlight": "为模型决策与高频机器人控制提供分层接口设计。",
+      "tags": [
+        "Robotics",
+        "Force Control",
+        "Tool Use",
+        "Physical Reasoning"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 10,
+      "time": "2026-11-19",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "智能体在策略蒸馏如何改变 ReAct 交互习惯",
+      "url": "https://huggingface.co/papers/2611.19244",
+      "summary": "研究比较数学、家庭动作和客服任务的蒸馏迁移，记录推理、工具尝试和观测获取的变化。某些源领域监督会损害其他领域的工具依赖遵循，作者还测试了按教师偏好变化筛选蒸馏位置的办法。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.19244，平台标注发表或更新于 2026-11-14）。实验结果由作者报告。2026-11-25 核验，归档至 2026-11-19 日报。",
+      "highlight": "评估蒸馏时可同时检查目标能力与跨领域交互回归。",
+      "tags": [
+        "On-policy Distillation",
+        "ReAct",
+        "Negative Transfer"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 11,
+      "time": "2026-11-19",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "DNeo：在并行草稿模型中保留目标特征与拒绝历史",
+      "url": "https://github.com/J-sandler/DNeo",
+      "summary": "DNeo 用特征混合注意力处理目标隐藏状态，并记录此前被拒绝的草稿以改进后续预测。方案还调整层选择和前缀交叉注意力，作者与 DFlash-2 比较生成速度及草稿规模。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.21925，平台标注发表或更新于 2026-11-16）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-19 日报。",
+      "highlight": "可参考推测解码中利用被拒绝候选信息的方式。",
+      "tags": [
+        "Speculative Decoding",
+        "Draft Models",
+        "Feature Encoding"
+      ],
+      "id": 12,
+      "time": "2026-11-19",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "冻结代理能否自行设计基于文本经验的学习过程",
+      "url": "https://github.com/ssundaram21/self-org",
+      "summary": "实验给游戏代理固定算力、经验采集工具和文本更新工具，让其选择学习策略。作者观察到足够强的模型会组织自己的练习与经验文档，并测试这些文本产物向其他游戏条件和导航任务迁移的效果。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.23219，平台标注发表或更新于 2026-11-17）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-19 日报。",
+      "highlight": "适合对照预设优化循环与代理自行组织经验的行为。",
+      "tags": [
+        "Self-improvement",
+        "Game Agents",
+        "Textual Memory"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 13,
+      "time": "2026-11-19",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "VisualArtifactSpec：按任务要求评估跨媒介视觉交付物",
+      "url": "https://github.com/Accio-Lab/VisualArtifactSpec",
+      "summary": "基准涵盖演示、图像、视频和网页的创建或修改，分别检查显式要求、功能和面向受众的呈现质量。作者为具体任务定义评分锚点，并比较九种模型与执行框架组合。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.21382，平台标注发表或更新于 2026-11-16）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-19 日报。",
+      "highlight": "可参考如何将交付物的可用性与视觉质量分别核验。",
+      "tags": [
+        "Agent Evaluation",
+        "Visual Artifacts",
+        "Task Fulfillment"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 14,
+      "time": "2026-11-19",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "权重空间编程实验：允许模型选择可直接编辑的结构",
+      "url": "https://github.com/effl-lab/Weight-Space-Programming",
+      "summary": "研究让语言模型在少量标注和沙盒内写入权重，并比较固定架构与自主设计架构。作者观察到模型经常选择可解释的稀疏事实表，在这一特定设置中比手写 Transformer 权重更有效。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.22055，平台标注发表或更新于 2026-11-17）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-19 日报。",
+      "highlight": "为无需梯度的模型构造提供结构选择与局部编辑的对照实验。",
+      "tags": [
+        "Weight-space Programming",
+        "Associative Memory",
+        "Architecture"
+      ],
+      "id": 15,
+      "time": "2026-11-19",
+      "stars": null
+    }
+  ]
+}

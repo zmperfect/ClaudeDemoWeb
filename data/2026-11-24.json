@@ -1,0 +1,300 @@
+{
+  "items": [
+    {
+      "category": "tutorial",
+      "title": "Microduck 新教程：在已有步行策略上训练局部避障",
+      "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+      "summary": "教程保留已训练的步行控制器，用 ToF 传感输入训练独立模块调整速度命令。流程覆盖可复用障碍场景、Newton 传感仿真、Isaac Lab 并行训练、评估及真机接口。",
+      "source": "NVIDIA 官方文章，2026-11-24 发布。2026-11-25 核验，归档至 2026-11-24 日报。",
+      "highlight": "为既有移动策略添加能力时提供分层训练与部署参考。",
+      "tags": [
+        "Microduck",
+        "Sim2Real",
+        "Isaac Lab",
+        "Obstacle Avoidance"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 1,
+      "time": "2026-11-24",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "SwarmMind：跨设备接续未完成的本地模型输出",
+      "url": "https://huggingface.co/blog/litert-community/robots-with-redundant-inference",
+      "summary": "系统在异构设备上保持备用模型，通过领导者选举和生成 token 同步，在主节点失败后重建上下文续写。团队用机器人助理演示本地故障切换，并测量包含检测超时的接管间隔。",
+      "source": "SwarmMind 项目作者发表于 LiteRT 社区，2026-11-23 发布。2026-11-25 核验，归档至 2026-11-24 日报。",
+      "highlight": "适合把推理故障恢复与机器人控制连续性一起验证。",
+      "tags": [
+        "Redundant Inference",
+        "Edge AI",
+        "Failover",
+        "Context"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 2,
+      "time": "2026-11-24",
+      "stars": null
+    },
+    {
+      "category": "tutorial",
+      "title": "Wonder Agent：用 Gemma 与端侧运行时搭建儿童问答应用",
+      "url": "https://huggingface.co/blog/litert-community/wonder-agent-at-gemma-hackathon",
+      "summary": "项目在本地运行模型，并把加载、首个可见文本和完成时间分开测量，以评估真实交互等待。文章还讨论模型预下载、语音资源和运行时复用，给出实验界面与实现链接。",
+      "source": "Wonder Agent 项目作者发表于 LiteRT 社区，2026-11-23 发布。2026-11-25 核验，归档至 2026-11-24 日报。",
+      "highlight": "参考端侧应用如何测量用户可感知的延迟。",
+      "tags": [
+        "Gemma",
+        "LiteRT",
+        "On-device",
+        "Latency"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 3,
+      "time": "2026-11-24",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Embo-Harness：系统比较机器人代理的提示、规划与动作接口",
+      "url": "https://github.com/DravenALG/Embo-Harness",
+      "summary": "研究在统一闭环中控制四类组件，比较动作表示、块大小、视觉观测和推理强度。作者用仿真与少量真机实验分析成功因素，发现准确空间目标估计对所测模型尤为重要。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.31201，平台标注发表或更新于 2026-11-23）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-24 日报。",
+      "highlight": "可参考保持感知和控制一致时如何做执行框架消融。",
+      "tags": [
+        "Robot Harness",
+        "Action Interface",
+        "Agent Evaluation"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 4,
+      "time": "2026-11-24",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "CSPD：将强化学习专家分别蒸馏成可组合软提示",
+      "url": "https://github.com/UCSB-AI/CSPD",
+      "summary": "方法冻结强化学习前的主干，独立学习各专家的软提示，再直接拼接组合能力。作者在数学、代码和代理任务中比较专家增量、未见基准及吞吐开销。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.27376，平台标注发表或更新于 2026-11-20）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-24 日报。",
+      "highlight": "提供在固定底座上持续整合专门能力的替代实验。",
+      "tags": [
+        "Soft Prompts",
+        "Expert Distillation",
+        "Continual Post-training"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 5,
+      "time": "2026-11-24",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "RUIBench：只改变机器人接口会怎样影响成功率",
+      "url": "https://github.com/showlab/RUIBench",
+      "summary": "RUIKit 在共同感知和控制下组合动作抽象与交互形式，形成可比较的机器人使用接口。作者在 30 项任务中发现接口会显著改变成功率，同时记录代理误报任务成功的验证缺口。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.31115，平台标注发表或更新于 2026-11-23）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-24 日报。",
+      "highlight": "适合将接口设计与策略模型能力分别评估。",
+      "tags": [
+        "Robot-use Interface",
+        "Tool Design",
+        "Verification"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 6,
+      "time": "2026-11-24",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "SWE-Gym-Verified：通过实际执行审核编码训练奖励",
+      "url": "https://github.com/Arist12/SWE-Gym-Verified",
+      "summary": "研究对疑似误判用执行证据确认，修复或移除拒绝正确补丁的测试，再匹配规模和难度比较训练效果。作者发布 1087 项审核任务与完整证据，也记录错误补丁通过检测后的影响。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.30207，平台标注发表或更新于 2026-11-23）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-24 日报。",
+      "highlight": "为代码强化学习数据加入奖励标签正确性的核验。",
+      "tags": [
+        "Coding Agents",
+        "Reward Quality",
+        "Training Data"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 7,
+      "time": "2026-11-24",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "MomentMem：为机器人保存之后会用到的关键画面",
+      "url": "https://github.com/PKU-VaLuE-Lab/MomentMem",
+      "summary": "架构由视觉语言记忆器挑选关键帧，再由执行器依据当前观察与记忆预测动作。作者在需要记住空间位置、外观及关联的长程任务中分别评测选择质量和闭环成功。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.26745，平台标注发表或更新于 2026-11-19）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-24 日报。",
+      "highlight": "适合比较稀疏视觉证据与完整历史、文字摘要的取舍。",
+      "tags": [
+        "Robot Memory",
+        "Keyframes",
+        "Long-horizon Manipulation"
+      ],
+      "topic": [
+        "memory",
+        "agent"
+      ],
+      "id": 8,
+      "time": "2026-11-24",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "知识任务后训练会不会固化模型自己生成的错误事实",
+      "url": "https://huggingface.co/papers/2611.26863",
+      "summary": "作者提取强化学习推理链中的幻觉，持续跟踪后续训练中对这些说法的召回。所测模型对受训练信号强化的错误记忆更多，连立即撤回的错误假设也可能被保留。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.26863，平台标注发表或更新于 2026-11-19）。实验结果由作者报告。2026-11-25 核验，归档至 2026-11-24 日报。",
+      "highlight": "知识领域后训练应同时检查推理过程与后续事实召回。",
+      "tags": [
+        "Hallucinations",
+        "RL Post-training",
+        "Knowledge Retention"
+      ],
+      "topic": [
+        "memory",
+        "post-training"
+      ],
+      "id": 9,
+      "time": "2026-11-24",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "GlanceNav：用流式记忆和反事实回退训练导航",
+      "url": "https://github.com/GlanceNav/GlanceNav",
+      "summary": "模型用递归状态、近期窗口和少量关键帧维持固定每步开销，避免反复编码历史。训练还回到偏离轨迹曾最接近目标的位置，借助少量专家动作的结果差异分配奖励。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.30900，平台标注发表或更新于 2026-11-23）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-24 日报。",
+      "highlight": "提供记忆状态可复制时的闭环纠错训练方式。",
+      "tags": [
+        "Visual Navigation",
+        "Streaming Memory",
+        "Reinforcement Learning"
+      ],
+      "topic": [
+        "agent",
+        "memory",
+        "post-training"
+      ],
+      "id": 10,
+      "time": "2026-11-24",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Motion Mamba 2.0：结合递归状态与内容槽保存运动历史",
+      "url": "https://github.com/AIGeeksGroup/MotionMamba2.0",
+      "summary": "架构将压缩运动状态和文本特征转为局部注意力可读的持久内容记忆。作者同时优化 CUDA 图与融合内核，比较长程目标控制、逐窗时延及真机交互。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.29897，平台标注发表或更新于 2026-11-23）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-24 日报。",
+      "highlight": "适合研究长动作生成中的历史保留与运行开销。",
+      "tags": [
+        "Humanoid Motion",
+        "Mamba",
+        "Content Memory",
+        "Streaming"
+      ],
+      "topic": [
+        "memory"
+      ],
+      "id": 11,
+      "time": "2026-11-24",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "WorldLeague：以实际物理进展比较多种机器人系统",
+      "url": "https://github.com/xyangzhou/WorldLeague",
+      "summary": "基准在共同物理目标下允许视觉语言、视觉动作和世界动作模型使用各自适合的控制形式。评分同时记录任务进展与完整成功，作者发现答对最终问题并不保证做出物理进展。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.30989，平台标注发表或更新于 2026-11-23）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-24 日报。",
+      "highlight": "为不同控制范式建立面向目标结果的比较。",
+      "tags": [
+        "Physical Agency",
+        "Embodied Evaluation",
+        "Robotics"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 12,
+      "time": "2026-11-24",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "GameAnything：从多模态灵感迭代开发可玩游戏扩展",
+      "url": "https://github.com/AetherLabsAI/GameAnything",
+      "summary": "平台结合编码代理、独立试玩评审、持久开发状态和经验记忆，将参考内容转为现有游戏的扩展。基准分别检查功能与实际游玩体验，作者分析参考保真和精确修改的难点。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.29238，平台标注发表或更新于 2026-11-22）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-24 日报。",
+      "highlight": "可参考游戏代理交付如何加入独立试玩反馈。",
+      "tags": [
+        "Game Development",
+        "Coding Agents",
+        "Playtesting"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 13,
+      "time": "2026-11-24",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "DexDuet：从单个人类示范保留双手接触关系",
+      "url": "https://github.com/HaoranZhangumich/DexDuet",
+      "summary": "方法用交互奖励约束手与物体的配置及接触，并让共享参数的单手策略相互读取状态。课程学习逐步调整辅助与起始位置，作者将轨迹跟随和接触保留分开比较。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.30495，平台标注发表或更新于 2026-11-23）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-24 日报。",
+      "highlight": "适合发现仅看物体位置会遗漏的操作不稳定。",
+      "tags": [
+        "Dexterous Manipulation",
+        "Human Demonstrations",
+        "Contact Preservation"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 14,
+      "time": "2026-11-24",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "LoopRes：让预训练模型的循环层读取近期迭代输出",
+      "url": "https://github.com/NUS-HPC-AI-Lab/LoopRes",
+      "summary": "方法为各轮输出设置可训练身份键，并限制残差注意力只读取最近若干轮，促使推理逐步推进。作者在多个模型家族和计算预算下与普通微调及循环基线比较。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.31094，平台标注发表或更新于 2026-11-23）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-24 日报。",
+      "highlight": "提供将已有模型改为可扩展循环推理的结构配方。",
+      "tags": [
+        "Looped Transformers",
+        "Residual Attention",
+        "SFT"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 15,
+      "time": "2026-11-24",
+      "stars": null
+    }
+  ]
+}

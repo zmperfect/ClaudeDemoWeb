@@ -1,0 +1,286 @@
+{
+  "items": [
+    {
+      "category": "news",
+      "title": "GPT-6.2 对话版本开始在 ChatGPT Chat 页推出",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "summary": "OpenAI 宣布面向 Plus、Pro、Business 和 Enterprise 推出为日常对话优化的 GPT-6.2，企业可用性受管理员设置影响。官方报告图像理解、复杂指令遵循和在线搜索的改进，并提供本次部署系统卡。",
+      "source": "OpenAI ChatGPT 官方更新日志，2026-11-23 条目。2026-11-25 核验，归档至 2026-11-23 日报。",
+      "highlight": "与此前 Work 和 Codex 的发布分别记录，便于核对具体产品中的模型变化。",
+      "tags": [
+        "GPT-6.2",
+        "ChatGPT",
+        "Model Rollout",
+        "Multimodal"
+      ],
+      "id": 1,
+      "time": "2026-11-23",
+      "stars": null
+    },
+    {
+      "category": "tutorial",
+      "title": "Hugging Face 指南：构建和长期维护 Agent 评测",
+      "url": "https://huggingface.co/blog/agentic-evals",
+      "summary": "文章围绕任务、执行环境、评分器和复现条件解释智能体评测设计，分析基准错误及其修正流程。教程还讨论哪些组件应公开，以支持审查、对照和持续维护。",
+      "source": "Hugging Face 官方博客，2026-11-23 发布。2026-11-25 核验，归档至 2026-11-23 日报。",
+      "highlight": "适合为真实工具任务设计可重放、可审核的评分过程。",
+      "tags": [
+        "Agent Evaluation",
+        "Benchmark Design",
+        "Reproducibility"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 2,
+      "time": "2026-11-23",
+      "stars": null
+    },
+    {
+      "category": "news",
+      "title": "AllenAI RoboTrack：面向真实机器人操作的点追踪数据与模型",
+      "url": "https://huggingface.co/blog/allenai/robotrack",
+      "summary": "团队发布人工核验的真实操作追踪基准，以及模拟场景产生的大规模训练轨迹。两个模型在原追踪器基础上联合微调，重点测试遮挡、移动物体和不同视角下的追踪表现。",
+      "source": "Allen Institute for AI 官方文章，2026-11-23 发布。2026-11-25 核验，归档至 2026-11-23 日报。",
+      "highlight": "可参考如何提高操作场景评测中动态点和遮挡样本的比重。",
+      "tags": [
+        "Point Tracking",
+        "Robotics",
+        "Dataset",
+        "Computer Vision"
+      ],
+      "id": 3,
+      "time": "2026-11-23",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "MemOnce：从紧凑记忆状态按需解码 KV 缓存",
+      "url": "https://github.com/Clare-Nie/MemOnce",
+      "summary": "架构只保存部分末层隐藏状态，读取时将相关表示恢复为注意力层 KV，并跨层复用稀疏检索索引。作者在预训练与后训练适配中比较上下文长度、显存和吞吐。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.27973，平台标注发表或更新于 2026-11-20）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-23 日报。",
+      "highlight": "可参考压缩状态与动态检索共同支持长历史输入的方式。",
+      "tags": [
+        "Memory Architecture",
+        "Sparse Attention",
+        "KV Cache"
+      ],
+      "topic": [
+        "memory",
+        "post-training"
+      ],
+      "id": 4,
+      "time": "2026-11-23",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Future-OPSD：从未标注视频的未来片段学习预判",
+      "url": "https://github.com/Jingchensun/future-opsd",
+      "summary": "同一模型训练时利用真实未来和随机参考未来构造对比特权优势，再将有价值的未来信息蒸馏给只看过去的学生。作者分别在开放式预测和封闭式规划中评估效果与通用视频理解保留。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.26954，平台标注发表或更新于 2026-11-20）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-23 日报。",
+      "highlight": "提供利用自然时序配对构造监督的后训练方法。",
+      "tags": [
+        "Video Foresight",
+        "Self-distillation",
+        "Self-supervised Learning"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 5,
+      "time": "2026-11-23",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "ReSpaceBench：跨次访问识别同一房间并更新空间记忆",
+      "url": "https://huggingface.co/papers/2611.21485",
+      "summary": "基准控制真实房间身份、相似房间干扰与跨会话物体变化，分别考查关联、状态追踪和推理。作者分析到错误房间关联和证据遗漏，并提供与评测无重叠的合成训练集。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.21485，平台标注发表或更新于 2026-11-16）。实验结果由作者报告。2026-11-25 核验，归档至 2026-11-23 日报。",
+      "highlight": "适合测试长期空间记忆是否保留访问间的转换关系。",
+      "tags": [
+        "Spatial Memory",
+        "Embodied Agents",
+        "State Tracking"
+      ],
+      "topic": [
+        "memory",
+        "agent"
+      ],
+      "id": 6,
+      "time": "2026-11-23",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Duopra：让全双工交互模型及时发起完整工具任务",
+      "url": "https://github.com/cyChen2003/duopra",
+      "summary": "模型统一直接调用和后端委托的接口，训练时同时奖励对话控制与及时完整的执行请求。作者固定后端比较效果，发现不少失败发生在工具执行之前，说明发起时机和参数修订需要单独训练。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.25773，平台标注发表或更新于 2026-11-19）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-23 日报。",
+      "highlight": "为语音助手建立从插话处理到任务启动的联合测试。",
+      "tags": [
+        "Full Duplex",
+        "Tool Calling",
+        "Reinforcement Learning"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 7,
+      "time": "2026-11-23",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "AeroRSI：用继续飞行验证无人机失败位置的修复动作",
+      "url": "https://github.com/starsholic/AeroRSI",
+      "summary": "导航策略在自身到达的失败状态提出候选修复，通过继续执行检查其有效性，并逐轮更新训练监督。作者在 TravelUAV 上报告成功率和碰撞改善，部署时保持原推理结构。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.24077，平台标注发表或更新于 2026-11-18）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-23 日报。",
+      "highlight": "适合用闭环续跑判断局部纠正是否真正可用。",
+      "tags": [
+        "Aerial Navigation",
+        "Self-improvement",
+        "Closed-loop Evaluation"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 8,
+      "time": "2026-11-23",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "无反馈重写技能会发生什么：专家知识保留实验",
+      "url": "https://github.com/LitaoGuo/How-Self-Evolution-Reshapes-Skills",
+      "summary": "作者让模型在没有任务结果的情况下反复改写专家技能，再实际运行代理测试。技能逐渐靠近模型已有习惯且丢失外部知识，标记这些知识的 SkillDiff 在所测条件下改善表现。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.25534，平台标注发表或更新于 2026-11-19）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-23 日报。",
+      "highlight": "为技能维护增加对专家信息流失和实际执行的检查。",
+      "tags": [
+        "Agent Skills",
+        "Knowledge Retention",
+        "Evaluation"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 9,
+      "time": "2026-11-23",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "Search-Native Pretraining：在预训练语料中加入检索动作",
+      "url": "https://huggingface.co/papers/2611.26809",
+      "summary": "研究向普通文本语料加入搜索查询和本地索引返回的证据，训练模型边建模语言边使用检索。作者在多个参数规模和语料上匹配算力，并继续微调以比较检索能力能否保持。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.26809，平台标注发表或更新于 2026-11-19）。实验结果由作者报告。2026-11-25 核验，归档至 2026-11-23 日报。",
+      "highlight": "可参考搜索能力从预训练阶段形成的收益。",
+      "tags": [
+        "Search Pretraining",
+        "Retrieval",
+        "Language Modeling"
+      ],
+      "topic": [
+        "rag",
+        "agent"
+      ],
+      "id": 10,
+      "time": "2026-11-23",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Intent Contracts：用目标、原话和范围约束工具执行",
+      "url": "https://github.com/zwang-devv/intent-contracts",
+      "summary": "规划器提交记录过的意图契约，由校验代码和受信模型生成实际调用。作者在固定模型组合的实验中观察到对额外工作可部分执行授权范围，但未降低歧义对象选择导致的越权错误。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.24025，平台标注发表或更新于 2026-11-18）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-23 日报。",
+      "highlight": "展示授权接口设计的收益，也公开了未解决的目标识别问题。",
+      "tags": [
+        "Tool Authorization",
+        "Intent",
+        "Agent Evaluation"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 11,
+      "time": "2026-11-23",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "StylePrism：从用户样本提取可核对的长文风格档案",
+      "url": "https://huggingface.co/papers/2611.27211",
+      "summary": "方法先提炼风格维度、引用证据与应避免的习惯，再以档案指导两轮改稿。作者发现档案与原样本联合使用更有效，单独依赖档案反而降低所测任务得分。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.27211，平台标注发表或更新于 2026-11-20）。实验结果由作者报告。2026-11-25 核验，归档至 2026-11-23 日报。",
+      "highlight": "个性化写作评测可同时比较检索样本、显式档案与修改成本。",
+      "tags": [
+        "Personalization",
+        "Style Extraction",
+        "Long-form Generation"
+      ],
+      "topic": [
+        "memory",
+        "rag"
+      ],
+      "id": 12,
+      "time": "2026-11-23",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "NoPeWorld：从冻结视频模型的隐藏状态预判穿模",
+      "url": "https://github.com/yuhangdai427/NoPeWorld",
+      "summary": "框架用轻量预测头读取候选动作是否会穿过障碍，再选择尽量保持原意的安全替代动作。作者发布障碍交互基准，并评估不同视角、移动障碍和开放图像的泛化。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.27963，平台标注发表或更新于 2026-11-20）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-23 日报。",
+      "highlight": "为交互世界模型增加动作前物理约束检查。",
+      "tags": [
+        "World Models",
+        "Physical Constraints",
+        "Activation Probing"
+      ],
+      "id": 13,
+      "time": "2026-11-23",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "cmHC：控制多残差流混合过少和过强的两端问题",
+      "url": "https://github.com/Newiz430/cmHC",
+      "summary": "方法通过几何收缩约束混合矩阵探索多面体内部，并在浅层保持适度收缩以保留流间差异。作者给出跨层分析和稠密、MoE 实验，还实现昇腾融合算子。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.27193，平台标注发表或更新于 2026-11-20）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-23 日报。",
+      "highlight": "可参考从结构约束到硬件实现验证超连接设计。",
+      "tags": [
+        "Hyper-Connections",
+        "Residual Streams",
+        "Pretraining"
+      ],
+      "id": 14,
+      "time": "2026-11-23",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "AgentRoboCritic：按局部意图分析机器人每个动作的成败",
+      "url": "https://github.com/cxcscmu/AgentRoboCritic",
+      "summary": "策略在动作旁声明局部目标，评审器据执行结果标记失败模式。作者用人工动作标注核验评审器，并发布动作级数据和开放评审模型，帮助区分抓取、对齐和恢复问题。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.26613，平台标注发表或更新于 2026-11-19）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-23 日报。",
+      "highlight": "适合从单一任务成功率进一步定位控制瓶颈。",
+      "tags": [
+        "Robot Agents",
+        "Action Critique",
+        "Failure Analysis"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 15,
+      "time": "2026-11-23",
+      "stars": null
+    }
+  ]
+}

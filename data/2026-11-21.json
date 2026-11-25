@@ -1,0 +1,279 @@
+{
+  "items": [
+    {
+      "category": "tool",
+      "title": "Atto：探索紧凑稠密、稀疏与多向量检索模型",
+      "url": "https://huggingface.co/blog/NeuML/introducing-atto",
+      "summary": "Atto 系列用不同参数规模和表示方式研究低资源检索，覆盖稠密向量、稀疏表示和后期交互。作者公开架构、训练方法及部分 BEIR 结果，比较参数预算与检索质量。",
+      "source": "NeuML 官方文章，2026-11-19 发布。2026-11-25 核验，归档至 2026-11-21 日报。",
+      "highlight": "适合给领域检索加入小模型和简单表示基线。",
+      "tags": [
+        "Embeddings",
+        "Compact Models",
+        "BEIR",
+        "Retrieval"
+      ],
+      "topic": [
+        "rag"
+      ],
+      "id": 1,
+      "time": "2026-11-21",
+      "stars": null
+    },
+    {
+      "category": "tool",
+      "title": "Recapture：从干净文档和布局标签生成拍照与扫描训练图",
+      "url": "https://huggingface.co/blog/nutrientdocs/recapture",
+      "summary": "工具对已有页面做扫描退化或三维纸张变形，模拟折痕、桌面、遮挡和阴影，并同步变换标签。扫描模式采用二维处理，拍照模式通过三维场景渲染，便于从一套标注扩展视觉变化。",
+      "source": "Nutrient 官方文章，2026-11-18 发布。2026-11-25 核验，归档至 2026-11-21 日报。",
+      "highlight": "可参考文档数据增强中如何维护几何标签一致性。",
+      "tags": [
+        "Document AI",
+        "Synthetic Data",
+        "Layout",
+        "Augmentation"
+      ],
+      "id": 2,
+      "time": "2026-11-21",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "AscendGYM：结合加速收益与 token 成本评测昇腾算子优化",
+      "url": "https://github.com/SLAI-AITP/AscendGYM",
+      "summary": "基准为 48 个算子配置来自实际训练和推理的形状及数据类型，支持单模型和模型框架组合评估。作者提供执行环境与成本感知评分，衡量代理修改现有内核后的实际收益。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.17621，平台标注发表或更新于 2026-11-13）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-21 日报。",
+      "highlight": "适合在预算约束下比较算子优化代理。",
+      "tags": [
+        "Ascend",
+        "Kernel Optimization",
+        "Agent Evaluation"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 3,
+      "time": "2026-11-21",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Multi-Branch Transformer：在中间层并行分支并共享 KV",
+      "url": "https://github.com/GaotangLi/Multi-Branch-Transformer",
+      "summary": "模型在共享首尾层之间运行独立参数的分支，再融合结果，作者在匹配参数和算力条件下比较宽度、深度和分支数。Joint-KV 进一步从分支表示构建共享缓存，用于减少长上下文解码成本。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.19800，平台标注发表或更新于 2026-11-15）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-21 日报。",
+      "highlight": "提供除加宽和加深外的架构扩展对照。",
+      "tags": [
+        "Transformer Architecture",
+        "Branching",
+        "KV Cache"
+      ],
+      "id": 4,
+      "time": "2026-11-21",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Heave-Ho：分散控制多人形机器人协同搬运",
+      "url": "https://github.com/heaveho-humanoid/Heave-Ho",
+      "summary": "低层策略用多智能体后训练适应物理耦合，高层视觉语言规划器通过语音式领随机制同步执行。作者用多机器人仿真任务和真机实验测试长程协作及异构团队泛化。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.22275，平台标注发表或更新于 2026-11-17）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-21 日报。",
+      "highlight": "适合研究本地观测下的团队控制和高低层同步。",
+      "tags": [
+        "Humanoid",
+        "Multi-agent",
+        "Decentralized Control"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 5,
+      "time": "2026-11-21",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "π⁴：从图像和视频统一恢复几何、尺度与运动",
+      "url": "https://github.com/yyfz/Pi4",
+      "summary": "模型将几何分支和条件运动分支连接，联合预测相机、深度、点轨迹与移动物体掩膜。作者比较单图、多视图和视频输入，并测试超过训练视图数的大场景推理。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.23144，平台标注发表或更新于 2026-11-17）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-21 日报。",
+      "highlight": "为场景重建与动态追踪提供共享主干方案。",
+      "tags": [
+        "4D Perception",
+        "Geometry",
+        "Point Tracking"
+      ],
+      "id": 6,
+      "time": "2026-11-21",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "CADMAGEDDON：用本地模型把网格重建为可编辑 CAD",
+      "url": "https://github.com/kulibinai/cadmageddon",
+      "summary": "代理将重建拆为一系列视觉判断，调用几何工具精确构造并检查修正。项目接入 FreeCAD，作者用中等规模开放模型比较多个重建基准上的质量。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.22563，平台标注发表或更新于 2026-11-17）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-21 日报。",
+      "highlight": "适合需要本地处理专有零件的 CAD 工作流研究。",
+      "tags": [
+        "CAD",
+        "Local Inference",
+        "Geometric Tools"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 7,
+      "time": "2026-11-21",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "MillBill：用几何仿真反馈迭代加工计划",
+      "url": "https://github.com/kulibinai/MillBill",
+      "summary": "本地模型提出加工操作和参数，几何工具负责刀路生成、材料移除仿真与可达性反馈。作者以加工后目标表面在公差内的比例评分，比较模型自行编写几何代码的基线。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.22565，平台标注发表或更新于 2026-11-17）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-21 日报。",
+      "highlight": "可参考将工艺决策与数值执行分别验证的方式。",
+      "tags": [
+        "Machining",
+        "Geometric Feedback",
+        "Agent Tools"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 8,
+      "time": "2026-11-21",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "WeightBench：系统测试模型读取、修复和写入权重",
+      "url": "https://github.com/Aayush-Marasini/WeightBench",
+      "summary": "基准包含 42 项任务，从小控制网络到十亿参数模型，另设识别不可实现编辑和无数据压缩任务。作者发现模型对小网络的能力较强，复杂语言模型修补等任务仍有限。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.18553，平台标注发表或更新于 2026-11-13）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-21 日报。",
+      "highlight": "用统一任务边界区分权重编程的已验证能力。",
+      "tags": [
+        "Weight-space Programming",
+        "Benchmark",
+        "Model Editing"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 9,
+      "time": "2026-11-21",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "TPHC：用张量并行分组改善超连接残差流更新",
+      "url": "https://github.com/wuyou2002/TPHC",
+      "summary": "方法为各并行分片路由不同的残差混合，并在写回时保留分片输出，让多个残差流能独立变化。作者在固定流数和不同模型规模下测量验证损失、推理任务和训练时间。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.23026，平台标注发表或更新于 2026-11-17）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-21 日报。",
+      "highlight": "适合分析超连接表达能力与分布式开销的关系。",
+      "tags": [
+        "Hyper-Connections",
+        "Tensor Parallelism",
+        "Pretraining"
+      ],
+      "id": 10,
+      "time": "2026-11-21",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "ResWAM：用未来特征变化监督世界动作模型",
+      "url": "https://github.com/OPTML-Group/ResWAM",
+      "summary": "模型在冻结视觉特征空间预测当前到未来的残差，让监督更多关注机器人及物体运动。轻量双分支扩散结构联合学习动作和视觉变化，作者比较控制成功率及闭环计算成本。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.19559，平台标注发表或更新于 2026-11-14）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-21 日报。",
+      "highlight": "为避免未来预测被静态背景主导提供训练目标。",
+      "tags": [
+        "World Action Models",
+        "Visual Residual",
+        "Robot Learning"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 11,
+      "time": "2026-11-21",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "GameRealm：带同步几何与控制信号的游戏视觉数据",
+      "url": "https://github.com/weiguangzhao/GameRealm",
+      "summary": "数据集把游戏 RGB、深度、相机、音频、控制和点轨迹同步记录，支持多种视角设置。作者结合人工操作和代理探索采集数据，并用几何学习与生成任务检验其价值。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.23140，平台标注发表或更新于 2026-11-17）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-21 日报。",
+      "highlight": "适合需要多模态精确对齐监督的视觉模型研究。",
+      "tags": [
+        "Game Data",
+        "Geometry",
+        "Multimodal Dataset"
+      ],
+      "id": 12,
+      "time": "2026-11-21",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "WorldRuler：在可保存的规则图中管理交互世界状态",
+      "url": "https://github.com/AlayaLab/WorldRuler",
+      "summary": "系统把规则、依赖和物体状态组织为可执行三维图，连接规则执行、视频生成和感知反馈。作者测试保存恢复与不可见物体受规则影响的场景，评估状态一致性及视觉实现。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.24869，平台标注发表或更新于 2026-11-18）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-21 日报。",
+      "highlight": "可参考生成世界如何保存规则和跨视角对象状态。",
+      "tags": [
+        "World Models",
+        "State Persistence",
+        "Rule Graph"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 13,
+      "time": "2026-11-21",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Unfinished-Bench：测试持续执行代理如何处理目标与规则冲突",
+      "url": "https://github.com/naver-ai/unfinished-bench",
+      "summary": "基准把规则放在模拟组织的文档和环境中，并构造无法同时满足目标与规则的任务。作者对比持续运行与较短执行条件，发现读到规则后的行为仍可能违反约束。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.17460，平台标注发表或更新于 2026-11-12）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-21 日报。",
+      "highlight": "适合用环境内约束评估长期自主执行。",
+      "tags": [
+        "Persistent Agents",
+        "Rule Compliance",
+        "Evaluation"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 14,
+      "time": "2026-11-21",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "StatePortal：生成可重放检查点以测试交互软件深层状态",
+      "url": "https://github.com/pzy2000/State_Portal",
+      "summary": "代理依据功能测试说明和只读源码生成状态检查点，通过应用钩子恢复复杂交互历史。验收同时检查程序状态和视觉结果，作者评估跨提交重放及无法被纯状态检查捕获的画面错误。",
+      "source": "作者论文摘要（Hugging Face Papers 2611.23257，平台标注发表或更新于 2026-09-29）。实验结果由作者报告。项目链接由论文页面提供。2026-11-25 核验，归档至 2026-11-21 日报。",
+      "highlight": "适合复现难以从初始界面反复进入的软件状态。",
+      "tags": [
+        "GUI Testing",
+        "Checkpoints",
+        "Visual Verification"
+      ],
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 15,
+      "time": "2026-11-21",
+      "stars": null
+    }
+  ]
+}
