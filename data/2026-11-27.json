@@ -1,0 +1,283 @@
+{
+  "items": [
+    {
+      "category": "tool",
+      "title": "Pydantic AI 2.76.0 支持在实时会话中更新可用工具",
+      "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.76.0",
+      "summary": "对于支持工具更新的模型，应用可以在同一实时会话中按需开放新工具。该版本还让运行结果保留本轮新增的完整消息，便于应用分别保存完整对话和传给下一轮的压缩上下文。",
+      "highlight": "做分阶段交互时，可以到需要的步骤才开放对应工具，同时保留可回看的完整对话。",
+      "tags": [
+        "Realtime Agents",
+        "Tool Calling",
+        "Context Management"
+      ],
+      "source": "Pydantic 官方 GitHub Releases，北京时间 2026-11-27 07:49 发布（UTC 11 月 26 日 23:49）。2026-11-27 核验，归档至 2026-11-27 日报。",
+      "topic": [
+        "agent",
+        "memory"
+      ],
+      "id": 1,
+      "time": "2026-11-27",
+      "stars": null
+    },
+    {
+      "category": "tool",
+      "title": "Layby 根据会话何时恢复安排 KV 缓存存放位置",
+      "url": "https://huggingface.co/blog/Avifenesh/layby-kv-cache-placement",
+      "summary": "Layby 在 CPU 上利用会话文本和遥测数据估计下一次请求的到达时间，再结合实测磁盘速度和预填充成本，决定在主存保留、写盘或放弃缓存。作者在 vLLM 与 SGLang 上测量了会话恢复后的首词元延迟，并给出了简单策略表现更好的配置。",
+      "highlight": "对话会话频繁暂停时，可用真实请求间隔和磁盘负载比较缓存方案。",
+      "tags": [
+        "KV Cache",
+        "LLM Serving",
+        "vLLM",
+        "SGLang"
+      ],
+      "source": "Layby 项目作者发表于 Hugging Face，北京时间 2026-11-27 04:49 发布（原站 UTC 日期为 11 月 26 日）。2026-11-27 核验，归档至 2026-11-27 日报。",
+      "id": 2,
+      "time": "2026-11-27",
+      "stars": null
+    },
+    {
+      "category": "tool",
+      "title": "LiteLLM 修复工具调用参数和流式中断的处理",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.108.19",
+      "summary": "LiteLLM 的 1.108.19 长期支持版修复了部分消息接口忽略并行工具调用设置、Perplexity 后端拒绝或丢弃函数工具等问题。它还修正了将上游流式中断标记为正常结束的情况，让调用端有机会触发备用模型。",
+      "source": "LiteLLM 官方 LTS 发布记录，UTC 2026-11-26 19:05 发布，对应北京时间 2026-11-27 03:05。2026-11-27 核验并归档。",
+      "highlight": "跨模型网关的回归测试可以直接覆盖两个边界情况，即工具参数是否送达，以及半截回复是否触发回退。",
+      "tags": [
+        "LLM Gateway",
+        "Tool Calling",
+        "Streaming"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 3,
+      "time": "2026-11-27",
+      "stars": null
+    },
+    {
+      "category": "tool",
+      "title": "Langfuse 4.88.0 增加追踪分享控制和 MCP 客户端信息",
+      "url": "https://github.com/langfuse/langfuse/releases/tag/v4.88.0",
+      "summary": "组织或实例管理员可以关闭追踪记录与会话的公开分享。新版还会在 MCP 调用记录中保存客户端声明的能力和扩展，方便比较不同客户端的调用行为。",
+      "highlight": "团队排查智能体工具问题时，可以检查客户端支持的功能，并统一控制调试记录的分享范围。",
+      "tags": [
+        "LLM Observability",
+        "Tracing",
+        "MCP",
+        "Data Governance"
+      ],
+      "source": "Langfuse 官方 GitHub Releases，北京时间 2026-11-27 00:50 发布（UTC 11 月 26 日 16:50）。2026-11-27 核验，归档至 2026-11-27 日报。",
+      "topic": [
+        "agent"
+      ],
+      "id": 4,
+      "time": "2026-11-27",
+      "stars": null
+    },
+    {
+      "category": "tutorial",
+      "title": "用 FiftyOne 对齐查看物体的照片、深度与气味读数",
+      "url": "https://huggingface.co/blog/harpreetsahota/nyc-smells-fiftyone-analysis",
+      "summary": "作者用纽约气味数据集演示如何在同一样本间切换图像、深度与 32 通道电子鼻读数，并比较视觉嵌入与气味向量的分布。文章还指出，数据卡对样本数和配对数采用不同口径，统计前应先核对分组，人类可读的物体类别映射也仍待发布。",
+      "highlight": "提供了训练多模态模型前检查传感器配对与标签完整性的具体例子。",
+      "tags": [
+        "Multimodal Data",
+        "Dataset Curation",
+        "FiftyOne",
+        "Sensor Fusion"
+      ],
+      "source": "Harpreet Sahota 于 2026-11-26 在个人技术博客首发，北京时间 11 月 27 日 07:17 同步至其 Hugging Face 专栏。2026-11-27 核验，归档至 2026-11-27 日报。",
+      "id": 5,
+      "time": "2026-11-27",
+      "stars": null
+    },
+    {
+      "category": "tutorial",
+      "title": "用 DuckDB 为 Hugging Face 数据集减少远程读取量",
+      "url": "https://huggingface.co/blog/prpatel/duckdb-hf-2-sort-once-download-less",
+      "summary": "作者将商品评论按商品编号与时间排序后写成 Parquet，并展示 DuckDB 如何根据行组的最小值与最大值跳过不相关数据。教程用乱序副本作对照，还演示了如何固定字段类型并统一时间戳，便于复现分析。",
+      "highlight": "反复按键筛选远程训练语料时，可以先检查行组边界是否支持常用查询。",
+      "tags": [
+        "DuckDB",
+        "Parquet",
+        "Data Engineering",
+        "Datasets"
+      ],
+      "source": "教程作者 Pratik Patel 发表于 Hugging Face，北京时间 2026-11-27 07:40 发布（原站 UTC 日期为 11 月 26 日）。2026-11-27 核验，归档至 2026-11-27 日报。",
+      "id": 6,
+      "time": "2026-11-27",
+      "stars": null
+    },
+    {
+      "category": "tool",
+      "title": "PrismML 更新本地三值模型 Ternary Bonsai 2.5 27B",
+      "url": "https://prismml.com/news/bonsai-2-5-27b",
+      "summary": "新版本沿用 5.9 GB 的模型文件规模，重点改进对多轮工具结果的理解、步骤失败后的调整和编码任务执行。团队列出和上一版及全精度基础模型的对照结果，并展示在本地工程中处理测试回归的过程。",
+      "highlight": "可把多步任务的结束率、词元消耗和本地存储占用放在同一组实验里比较。",
+      "tags": [
+        "On-device AI",
+        "Coding Agents",
+        "Ternary Models"
+      ],
+      "source": "PrismML 官方模型公告，2026-11-24 发布。2026-11-27 核验，归档至 2026-11-27 日报。",
+      "topic": [
+        "agent"
+      ],
+      "id": 7,
+      "time": "2026-11-27",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "ConTra 为每个文档分块写一段可供检索和重排共用的上下文",
+      "url": "https://arxiv.org/abs/2611.34366",
+      "summary": "文档切块后，段落常丢失原文中说明对象或出处的信息。ConTra 在建索引时为每块生成一次文本前缀，用冻结的嵌入模型和重排器给反馈，并约束前缀的事实准确性和长度。作者报告，2B 模型在两个评测中超过了用提示生成前缀的 9B 基线。",
+      "source": "论文作者在 arXiv 提交预印本 2611.34366，首版日期为 2026-11-25（UTC）。2026-11-27 核验并归档。",
+      "highlight": "前缀随原文一起入库，可以让向量召回与文本重排使用相同的补充信息。",
+      "tags": [
+        "Contextual Retrieval",
+        "Reranking",
+        "Chunking"
+      ],
+      "topic": [
+        "rag",
+        "post-training"
+      ],
+      "id": 8,
+      "time": "2026-11-27",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "Procedure Memory 从跨会话记录中学习用户的决策习惯",
+      "url": "https://arxiv.org/abs/2611.34576",
+      "summary": "研究者用结构化索引关联多次招聘项目中的交互，再从相关事件中提取可复用的决策步骤。在作者的评测里，按事件检索比载入全部历史少用 69% 的上下文词元，学习到的步骤也减少了助手需要追问的轮数。模型对哪些偏好在当前仍有效的判断仍会出错。",
+      "source": "论文作者在 arXiv 提交预印本 2611.34576，首版日期为 2026-11-25（UTC）。2026-11-27 核验并归档。",
+      "highlight": "评估长期记忆时，可以同时测量提取偏好的准确率、追问轮数和过期偏好造成的错误。",
+      "tags": [
+        "Episodic Memory",
+        "Personalization",
+        "Multi-session Dialogue"
+      ],
+      "topic": [
+        "memory",
+        "rag"
+      ],
+      "id": 9,
+      "time": "2026-11-27",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "RTOFT 在参数偏离阈值时恢复正交性，减少微调开销",
+      "url": "https://arxiv.org/abs/2611.33589",
+      "summary": "正交微调需要限制权重变换的形状，逐步重建精确的正交矩阵会消耗训练时间。RTOFT 跟踪每次更新后的偏移量，达到阈值才做极分解，并在训练结束时再恢复一次。作者在 GLUE 上测试的三种参数化方案，训练耗时为 LoRA 的 0.97 至 1.13 倍。",
+      "source": "论文作者在 arXiv 提交预印本 2611.33589，首版日期为 2026-11-25（UTC）。2026-11-27 核验并归档。",
+      "highlight": "比较低成本微调方案时，可以把正交误差和实际训练耗时一起记录。",
+      "tags": [
+        "Orthogonal Fine-tuning",
+        "Parameter-efficient Tuning",
+        "Optimization"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 10,
+      "time": "2026-11-27",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "STRANGE-Bench 测量不常一起出现的物体有多难识别",
+      "url": "https://arxiv.org/abs/2611.34881",
+      "summary": "作者控制合成图像中的物体布局，按物体对在数据中共同出现的频率划分了 17 档测试场景。在五类视觉模型、三类识别任务上，不常见的物体组合仍造成 5 至 11 个百分点的表现差距，扩大模型规模也未能稳定缩小差距。",
+      "source": "论文作者在 arXiv 提交预印本 2611.34881，首版日期为 2026-11-25（UTC）。2026-11-27 核验并归档。",
+      "highlight": "当检测器在真实场景漏认物体时，可以单独检查它是否过度依赖旁边摆了什么。",
+      "tags": [
+        "Object Recognition",
+        "Context Bias",
+        "Vision Benchmarks"
+      ],
+      "id": 11,
+      "time": "2026-11-27",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "RLVB 用可验证的证据训练智能体决定何时作答",
+      "url": "https://arxiv.org/abs/2611.32884",
+      "summary": "在可以计算答案后验概率的模拟环境里，RLVB 对证据仍然模糊时继续观察、证据充足时提交答案的行为给出奖励。作者在三种视觉语言模型和三项基准的组合上都观察到了提升，并单独统计了智能体在证据不足时抢答的频率。",
+      "source": "论文作者在 arXiv 提交预印本 2611.32884，首版日期为 2026-11-24（UTC）。2026-11-27 核验并归档。",
+      "highlight": "把过早作答的频率列为独立指标，有助于区分有根据的判断和猜中的答案。",
+      "tags": [
+        "Reinforcement Learning",
+        "Evidence Gathering",
+        "Visual Reasoning"
+      ],
+      "topic": [
+        "agent",
+        "post-training"
+      ],
+      "id": 12,
+      "time": "2026-11-27",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "InstructReplay 回放模型原来的回答，缓解事实微调后的能力退化",
+      "url": "https://github.com/xiaofengShi/InstructReplay",
+      "summary": "微调前，原模型先回答一组通用指令，微调时用这些回答约束模型行为。在三个模型家族和两个知识领域的实验中，作者报告五项通用基准的平均降幅从 28.1 分缩小到 2.4 分，同时保留了学习新事实的能力。",
+      "source": "作者代码仓库及 arXiv 预印本 2611.32918，论文首版日期为 2026-11-24（UTC）。2026-11-27 核验并归档。",
+      "highlight": "把模型自己的历史回答留作回放样本，提供了一项可以和普通领域微调直接比较的实验。",
+      "tags": [
+        "Continual Learning",
+        "Instruction Tuning",
+        "Replay"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "id": 13,
+      "time": "2026-11-27",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "ICLWorld 分开测试智能体能否读懂规则、能否照规则行动",
+      "url": "https://github.com/ICLWorld/ICLWorld",
+      "summary": "作者为电脑操作和机器人操作构建 30 个交互环境、160 项任务，通过文字或视频给出每项任务的临时规则。在机器人任务上，一个受测模型答对了 98% 的规则问题，却只完成了 20% 的对应操作。",
+      "source": "作者基准仓库及 arXiv 预印本 2611.32649，论文首版日期为 2026-11-24（UTC）。2026-11-27 核验并归档。",
+      "highlight": "把口头复述和实际执行分开评分，能看出错误更可能发生在理解阶段还是执行阶段。",
+      "tags": [
+        "In-context Learning",
+        "Computer Use",
+        "Robot Evaluation"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 14,
+      "time": "2026-11-27",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "Escriba-OCR 评测转录葡语手写作文时能否保留原稿错误",
+      "url": "https://github.com/tardellirs/escriba-ocr",
+      "summary": "作者用巴西葡萄牙语作文训练 1B 参数的识别模型，评测时分别记录字符错误、换行、删改和插写痕迹。在 199 页测试稿上，字符错误率为 2.06%，但模型仍把约 60% 的疑似错拼词转成了规范拼写。",
+      "source": "作者代码仓库及 arXiv 预印本 2611.29874，论文首版日期为 2026-11-23（UTC）。2026-11-27 核验并归档。",
+      "highlight": "批改作文或做档案转录时，抄准原文和主动纠错是两个目标，可用不同指标衡量。",
+      "tags": [
+        "OCR",
+        "Handwriting",
+        "Education",
+        "Error Preservation"
+      ],
+      "id": 15,
+      "time": "2026-11-27",
+      "stars": null
+    }
+  ]
+}

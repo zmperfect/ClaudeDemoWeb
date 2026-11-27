@@ -1,0 +1,289 @@
+{
+  "items": [
+    {
+      "category": "tool",
+      "title": "Cloudflare 让智能体直接搜索网站内容",
+      "url": "https://blog.cloudflare.com/search-for-agents/",
+      "summary": "站点管理员启用 Search for Agents 后，Cloudflare 会为该域建立索引，并在页面元数据中公布搜索接口。智能体可用关键词或自然语言查询，取回带来源路径的 Markdown 片段，再用自己的模型组织回答。",
+      "highlight": "维护产品文档的团队可以直接测试智能体能否检索到对应版本的说明。",
+      "tags": [
+        "Site Search",
+        "Retrieval",
+        "AI Agents",
+        "Markdown"
+      ],
+      "source": "Cloudflare 官方博客，2026-11-25 发布。2026-11-27 核验，归档至 2026-11-26 日报。",
+      "topic": [
+        "agent",
+        "rag"
+      ],
+      "id": 1,
+      "time": "2026-11-26",
+      "stars": null
+    },
+    {
+      "category": "tutorial",
+      "title": "Anthropic 用线上请求验证 Messages API 从 Python 迁往 Rust 的结果",
+      "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+      "summary": "新旧服务处理同一份请求时，模型只推理一次，工程团队把输出回放给另一套服务，逐步比对请求处理和流式响应的差异。团队报告，迁移后每次请求的 CPU 用量约降 70%，首个词元的中位等待时间约降 20%。",
+      "source": "Anthropic 工程团队于 2026-11-25 发表迁移复盘。2026-11-27 核验，归档至 2026-11-26 日报。",
+      "highlight": "复盘给出了检验非确定性系统迁移的方法，也说明了哪些差异可交给编程智能体修复。",
+      "tags": [
+        "API Engineering",
+        "Rust",
+        "Shadow Testing",
+        "Coding Agents"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "id": 2,
+      "time": "2026-11-26",
+      "stars": null
+    },
+    {
+      "category": "tutorial",
+      "title": "NVIDIA 开放 Nemotron 3.5 Parse 的训练数据和文档微调方案",
+      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "summary": "NVIDIA 开放三组合成图表、表格和多语种文档数据，并解释如何用监督微调教模型按阅读顺序输出内容与坐标。后续 GRPO 训练校验抽取的数值、表格结构和完整性，作者在同条件开发检查点上观察到重复生成减少。",
+      "highlight": "制作文档检索索引时，可以据此为错列、读错数值和输出截断分别设计检查。",
+      "tags": [
+        "Document Parsing",
+        "Synthetic Data",
+        "GRPO",
+        "OCR"
+      ],
+      "source": "NVIDIA 团队发表于 Hugging Face，2026-11-26 发布。2026-11-27 核验，归档至 2026-11-26 日报。",
+      "topic": [
+        "post-training",
+        "rag"
+      ],
+      "id": 3,
+      "time": "2026-11-26",
+      "stars": null
+    },
+    {
+      "category": "news",
+      "title": "Sand AI 发布 MAGI-2，可按时间线生成带声音的 1080p 视频",
+      "url": "https://sand.ai/blog/magi-2/",
+      "summary": "MAGI-2 可在一次请求中合并图像、视频和音频参考，按指定时间切换镜头，也能对已有视频做局部编辑。团队公布的上限为 20 份参考素材，最长输出 30 秒、每秒 25 帧的 1080p 音视频。",
+      "source": "Sand AI 官方模型发布说明，2026-11-24 发布。2026-11-27 核验，归档至 2026-11-26 日报。",
+      "highlight": "演示把镜头切换、参考素材和音画同步列为独立控制项，便于视频团队按分镜逐项试用。",
+      "tags": [
+        "Video Generation",
+        "Audio-Visual Models",
+        "Video Editing"
+      ],
+      "id": 4,
+      "time": "2026-11-26",
+      "stars": null
+    },
+    {
+      "category": "repo",
+      "title": "llama.cpp 1.1.0 支持更多语音模型，可按文件大小设定量化目标",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0",
+      "summary": "这一版纳入 Inkling 2 系列、Hy4 flash 和多款语音模型，并支持给逐张量量化设置平均位宽或目标文件大小。服务端可指定要调用的工具，更新后的聊天界面可显示语音消息与智能体执行轨迹。",
+      "highlight": "在本地部署语音和工具调用应用时，可用同一版本验证模型兼容性与存储预算。",
+      "tags": [
+        "Local Inference",
+        "Quantization",
+        "Speech",
+        "Tool Calling"
+      ],
+      "source": "ggml-org 官方 GitHub Releases，2026-11-26 发布。2026-11-27 核验，归档至 2026-11-26 日报。",
+      "topic": [
+        "agent"
+      ],
+      "id": 5,
+      "time": "2026-11-26",
+      "stars": null
+    },
+    {
+      "category": "tutorial",
+      "title": "IBM CUGA 示例用印度本地语言查询英文农业手册",
+      "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+      "summary": "示例把用户的语音问题转成文字，由 CUGA 在一本 154 页的英文手册中检索，再用提问者的语言播报简短回答并显示来源页。作者展示了仅用英文嵌入模型时的误检，并将跨语言检索与语音识别、合成分开测试。",
+      "highlight": "排查多语言问答错误时，可以先用文本核对召回页，再检查语音环节。",
+      "tags": [
+        "Multilingual Retrieval",
+        "Voice Agents",
+        "Speech Recognition"
+      ],
+      "source": "IBM Research 团队发表于 Hugging Face，2026-11-25 发布。2026-11-27 核验，归档至 2026-11-26 日报。",
+      "topic": [
+        "agent",
+        "rag"
+      ],
+      "id": 6,
+      "time": "2026-11-26",
+      "stars": null
+    },
+    {
+      "category": "paper",
+      "title": "EgoUseBench 检验用户改变主意时，电脑智能体能否跟上",
+      "url": "https://arxiv.org/abs/2611.34466",
+      "summary": "研究者用超过 74 小时的第一视角录像构建了 693 项任务，分别让智能体只读指令、先看录像或边操作边接收新画面。基准分别记录用户要求、智能体看到的证据和网页状态，因此能看出智能体在哪一步仍按过时的意图操作。",
+      "source": "作者论文 arXiv:2611.34466，2026-11-25 提交，入选 2026-11-26 Hugging Face Daily Papers。2026-11-27 核验。",
+      "highlight": "可用同一套任务检验穿戴设备助手何时应调整操作，何时应向用户追问。",
+      "tags": [
+        "Computer Use",
+        "First-person Video",
+        "Benchmark"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "time": "2026-11-26",
+      "stars": null,
+      "id": 7
+    },
+    {
+      "category": "paper",
+      "title": "让模型决定何时压缩上下文，对文档研究有多大帮助？",
+      "url": "https://arxiv.org/abs/2611.34147",
+      "summary": "研究者在文档研究和机器学习工程任务上，比较了框架自动压缩和模型自行选择压缩内容两种做法。在 OfficeQA Pro v2 的 32K 词元预算下，GPT 6.1 的得分从 21% 升至 56%，其他模型调用压缩接口的时机和频率差异明显。",
+      "source": "作者论文 arXiv:2611.34147，2026-11-25 提交，入选 2026-11-26 Hugging Face Daily Papers。2026-11-27 核验。",
+      "highlight": "做长任务助手时，可把压缩时机、输入词元数和任务正确率放在一起评估。",
+      "tags": [
+        "Context Management",
+        "Agent Harness",
+        "Document Research"
+      ],
+      "topic": [
+        "memory",
+        "agent"
+      ],
+      "time": "2026-11-26",
+      "stars": null,
+      "id": 8
+    },
+    {
+      "category": "paper",
+      "title": "Lembas 为视频问答中的画面和字幕分配同一份词元预算",
+      "url": "https://arxiv.org/abs/2611.32938",
+      "summary": "Lembas 根据画面和字幕对当前问题的相关性分配词元，并减少重复证据占用的预算。后续追问可以复用前几轮处理过的词元，作者在近似计算量的实验中观察到，准确率增幅最高为 7.2 个百分点。",
+      "source": "作者论文 arXiv:2611.32938，2026-11-24 提交，入选 2026-11-26 Hugging Face Daily Papers。2026-11-27 核验。",
+      "highlight": "适合研究会议录像检索，尤其是回答同时依赖画面细节和口述内容的问题。",
+      "tags": [
+        "Video RAG",
+        "Token Allocation",
+        "Multimodal Retrieval"
+      ],
+      "topic": [
+        "rag"
+      ],
+      "time": "2026-11-26",
+      "stars": null,
+      "id": 9
+    },
+    {
+      "category": "paper",
+      "title": "Text-to-SQL 训练中，换一份数据库能发现多少碰巧答对的查询？",
+      "url": "https://arxiv.org/abs/2611.34363",
+      "summary": "作者在多份改写过数据的数据库上执行候选 SQL，检查它是否持续与参考查询一致。在 1,302 道合成审计题上，只有全部匹配才给满分的规则把错误查询获得满分的比例从 29.5% 降至 16.8%。使用匹配比例作奖励的 GRPO 实验则未提高域内准确率。",
+      "source": "作者论文 arXiv:2611.34363，2026-11-25 提交，入选 2026-11-26 Hugging Face Daily Papers。2026-11-27 核验。",
+      "highlight": "把奖励能否识别错解和训练后的模型表现分别测量，便于诊断 SQL 模型的改进来自哪里。",
+      "tags": [
+        "Text-to-SQL",
+        "GRPO",
+        "Reward Design"
+      ],
+      "topic": [
+        "post-training"
+      ],
+      "time": "2026-11-26",
+      "stars": null,
+      "id": 10
+    },
+    {
+      "category": "repo",
+      "title": "MoLT 公开循环 Transformer 的跨层注意力实现",
+      "url": "https://github.com/hustvl/MoLT",
+      "summary": "MoLT 让共享层在多次循环之间有选择地读取已有的键和值，其中 U-MoLT 将构建记忆与读取预测分开，跳过对输出无影响的解码计算。作者提供了 PyTorch 实现、训练配置，以及分别执行循环展开和逐词元递推的示例。",
+      "source": "作者项目仓库及配套论文 arXiv:2611.34923，2026-11-25 提交，入选 2026-11-26 Hugging Face Daily Papers。2026-11-27 核验。",
+      "highlight": "可直接对照两套推理入口，比较共享权重后预填充和逐词元解码各自的成本。",
+      "tags": [
+        "Transformer",
+        "Weight Sharing",
+        "Efficient Inference"
+      ],
+      "time": "2026-11-26",
+      "stars": null,
+      "id": 11
+    },
+    {
+      "category": "repo",
+      "title": "VibeVideoAgent 让编程智能体在渲染途中检查画面和声音",
+      "url": "https://github.com/Kling-Keye/VibeVideoAgent",
+      "summary": "视频程序顺利执行后，成片仍可能出现字幕遮挡或旁白错位。VibeVideoAgent 在独立上下文中检查低成本预览，只把带证据的问题反馈给编程智能体，作者报告在 239 项基准任务上，三种被测模型的整体视听质量评分均有提高。",
+      "source": "作者项目仓库及配套论文 arXiv:2611.34237，2026-11-25 提交，入选 2026-11-26 Hugging Face Daily Papers。2026-11-27 核验。",
+      "highlight": "做视频生成工具时，可把首轮预览作为修正镜头与音轨的时机。",
+      "tags": [
+        "Coding Agents",
+        "Video Generation",
+        "Audio-visual Feedback"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "time": "2026-11-26",
+      "stars": null,
+      "id": 12
+    },
+    {
+      "category": "paper",
+      "title": "Puzzling-Bench 用 23,777 道人工谜题评估推理能力",
+      "url": "https://arxiv.org/abs/2611.34331",
+      "summary": "研究者整理了社区作者采纳过答案的谜题，保留原提示、创建日期、题型和图片，支持分别测量提示与视觉信息的作用。在共同测试的 255 道题中，有 17 道难住了全部九个参评模型。",
+      "source": "作者论文 arXiv:2611.34331，2026-11-25 提交，入选 2026-11-26 Hugging Face Daily Papers。2026-11-27 核验。",
+      "highlight": "题目保留了发布日期，方便另取晚于模型训练截止日的样本评测。",
+      "tags": [
+        "Reasoning",
+        "Multimodal Evaluation",
+        "Puzzles"
+      ],
+      "time": "2026-11-26",
+      "stars": null,
+      "id": 13
+    },
+    {
+      "category": "repo",
+      "title": "Real2SimLab 统一评测从真实录像生成仿真程序的方法",
+      "url": "https://github.com/Real2SimHub/Real2SimLab",
+      "summary": "平台运行候选方法编写的程序，再把仿真结果交给各基准原有的评分器。作者在六个基准上接入了 47 种编程智能体和五种其他方法，还用同一套评分代码给训练样本标注奖励，并过滤已出现在基准中的录像。",
+      "source": "作者项目仓库及配套论文 arXiv:2611.34849，2026-11-25 提交，入选 2026-11-26 Hugging Face Daily Papers。2026-11-27 核验。",
+      "highlight": "评估新方法时可以共用运行接口，同时沿用各个基准的评分标准。",
+      "tags": [
+        "Simulation",
+        "Coding Agents",
+        "Benchmark"
+      ],
+      "topic": [
+        "agent"
+      ],
+      "time": "2026-11-26",
+      "stars": null,
+      "id": 14
+    },
+    {
+      "category": "paper",
+      "title": "CARE-OPD 用执行结果挑选长任务中值得重练的步骤",
+      "url": "https://arxiv.org/abs/2611.34756",
+      "summary": "CARE-OPD 让学生模型先走几步，再由教师续写，按教师对回答的置信度过滤样本，并根据后续执行结果挑选要重练的轮次。作者报告在 SWE-bench Verified 上任务成功率达到 59.5%，相较异步在线策略蒸馏，端到端训练耗时减少 45%。",
+      "source": "作者论文 arXiv:2611.34756，2026-11-25 提交，入选 2026-11-26 Hugging Face Daily Papers。2026-11-27 核验。",
+      "highlight": "为训练长任务智能体提供了一个可比较的取舍，即额外采集环境轨迹和重复利用已有片段各需多少成本。",
+      "tags": [
+        "On-policy Distillation",
+        "Trajectory Replay",
+        "Long-horizon Agents"
+      ],
+      "topic": [
+        "post-training",
+        "agent"
+      ],
+      "time": "2026-11-26",
+      "stars": null,
+      "id": 15
+    }
+  ]
+}
